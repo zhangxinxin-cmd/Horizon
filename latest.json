@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-07T04:10:52.939433+00:00",
+  "generated_at": "2026-07-07T22:52:47.116053+00:00",
   "date": "2026-07-07",
-  "total_fetched": 37,
-  "important_count": 9,
+  "total_fetched": 44,
+  "important_count": 18,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -20,147 +20,291 @@
   },
   "items": [
     {
-      "title": "A global workspace in language models",
-      "title_zh": "Anthropic 发现语言模型中的全局工作空间",
-      "title_en": "Anthropic discovers global workspace in language models",
-      "url": "https://www.anthropic.com/research/global-workspace",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "Anthropic's research identifies a shared reasoning subspace in language models akin to a global workspace.",
-      "tags": [
-        "language models",
-        "interpretability",
-        "AI research",
-        "global workspace",
-        "neural networks"
-      ]
-    },
-    {
-      "title": "OpenWrt One – Open Hardware Router",
-      "title_zh": "OpenWrt One：开源硬件路由器发布",
-      "title_en": "OpenWrt One: Open Hardware Router Released",
-      "url": "https://openwrt.org/toh/openwrt/one",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "OpenWrt releases an open hardware router, the OpenWrt One, with community praise and ongoing development for WiFi 7 version.",
-      "tags": [
-        "openwrt",
-        "open hardware",
-        "networking",
-        "router",
-        "wifi"
-      ]
-    },
-    {
-      "title": "GLM 5.2 and the coming AI margin collapse",
-      "title_zh": "GLM 5.2与即将到来的人工智能利润崩溃",
-      "title_en": "GLM 5.2 and the Coming AI Margin Collapse",
-      "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "An opinion piece arguing that the release of GLM 5.2 may trigger a margin collapse in AI, sparking a rich discussion on the economics of AI models.",
-      "tags": [
-        "AI",
-        "economics",
-        "GLM",
-        "margins",
-        "industry-trends"
-      ]
-    },
-    {
-      "title": "Resetting Xbox",
-      "title_zh": "微软重置Xbox战略引发讨论",
-      "title_en": "Microsoft Resets Xbox Strategy After Poor Profitability",
-      "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Microsoft's Xbox reset announcement triggers a community debate about the company's gaming strategy, profitability, and cultural challenges in game development.",
-      "tags": [
-        "Xbox",
-        "Microsoft",
-        "gaming",
-        "business strategy",
-        "community discussion"
-      ]
-    },
-    {
       "title": "tencent/Hy3",
-      "title_zh": "腾讯发布 Hy3：295B MoE 模型，21B 激活参数，Apache 2.0",
-      "title_en": "Tencent releases Hy3: 295B MoE model, 21B active, Apache 2.0",
+      "title_zh": "腾讯发布Hy3：295B参数MoE模型性能超越更大模型",
+      "title_en": "Tencent Releases Hy3: 295B MoE Model Outperforms Larger Models",
       "url": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
       "source": "rss",
-      "score": 8.0,
-      "summary": "Tencent released Hy3, a 295B-parameter MoE model with 21B active parameters, outperforming similar-size models and available under Apache 2.0.",
+      "score": 9.0,
+      "summary": "Tencent releases Hy3, a 295B-parameter MoE model with 21B active parameters, outperforming larger models and available under Apache 2.0 license.",
       "tags": [
         "AI",
-        "open source",
-        "MoE",
-        "Tencent",
-        "large language model"
+        "machine learning",
+        "model release",
+        "Mixture-of-Experts",
+        "Tencent"
       ]
     },
     {
-      "title": "TRACE: open-source hierarchical memory for LLM agents, 82.5% on MemoryAgentBench’s EventQA using gpt-oss-20B [P]",
-      "title_zh": "TRACE：开源层级记忆系统助力LLM代理在EventQA上达到82.5%",
-      "title_en": "TRACE: Open-source hierarchical memory boosts LLM agents to 82.5% on EventQA",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uoz5jo/trace_opensource_hierarchical_memory_for_llm/",
+      "title": "KVM Januscape 漏洞：虚拟机可逃逸宿主机，潜伏 16 年",
+      "title_zh": "Januscape：KVM 虚拟机逃逸漏洞影响 Intel 和 AMD",
+      "title_en": "Januscape: KVM VM Escape Vulnerability Affects Intel and AMD",
+      "url": "https://github.com/V4bel/Januscape",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "A newly disclosed KVM/x86 vulnerability (Januscape) allows virtual machine escape from guest to host, affecting both Intel and AMD platforms with a 16-year latent period.",
+      "tags": [
+        "security",
+        "vulnerability",
+        "virtualization",
+        "KVM",
+        "cloud"
+      ]
+    },
+    {
+      "title": "商务部拟限制国产顶尖 AI 模型对外出口",
+      "title_zh": "中国可能限制顶尖AI模型对外出口",
+      "title_en": "China may restrict overseas access to top AI models",
+      "url": "https://www.reuters.com/world/beijing-is-looking-curbing-overseas-access-chinas-top-ai-models-sources-say-2026-07-07/",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "China's Ministry of Commerce is considering restricting overseas access to top domestic AI models, including future ones, to prevent technology leakage.",
+      "tags": [
+        "AI policy",
+        "China",
+        "technology export control",
+        "AI regulation",
+        "national security"
+      ]
+    },
+    {
+      "title": "Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro",
+      "title_zh": "Kokoro：高质量、对CPU友好的文本转语音模型",
+      "title_en": "Kokoro: High-Quality CPU-Friendly TTS Model",
+      "url": "https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A blog post introduces Kokoro, a high-quality TTS model that runs efficiently on CPU, enabling local text-to-speech without GPU.",
+      "tags": [
+        "TTS",
+        "accessibility",
+        "local AI",
+        "CPU-friendly",
+        "open-source"
+      ]
+    },
+    {
+      "title": "Chat Control 1.0 and 2.0 Explained",
+      "title_zh": "欧盟聊天控制提案威胁加密与隐私",
+      "title_en": "EU Chat Control Proposals Threaten Encryption and Privacy",
+      "url": "https://fightchatcontrol.eu/chat-control-overview",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Explains the EU's Chat Control proposals to scan communications for CSAM, raising major privacy and encryption concerns.",
+      "tags": [
+        "privacy",
+        "encryption",
+        "surveillance",
+        "EU legislation",
+        "CSAM"
+      ]
+    },
+    {
+      "title": "Every new car sold in the European Union must include a driver monitoring camera",
+      "title_zh": "欧盟强制所有新车安装驾驶员监控摄像头",
+      "title_en": "EU mandates driver monitoring cameras in all new cars",
+      "url": "https://allaboutcookies.org/eu-mandatory-distracted-driver-system",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "The EU mandates driver monitoring cameras in all new cars to combat distracted driving, igniting discussions on safety benefits versus privacy and usability concerns.",
+      "tags": [
+        "regulation",
+        "automotive",
+        "privacy",
+        "user-experience",
+        "EU"
+      ]
+    },
+    {
+      "title": "Microsoft fire idTech team at Id software",
+      "title_zh": "微软解雇id Software的idTech团队",
+      "title_en": "Microsoft lays off idTech team at id Software",
+      "url": "https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Microsoft lays off idTech team at id Software, likely shifting to Unreal Engine 5, sparking debate on corporate strategy and engine diversity.",
+      "tags": [
+        "Microsoft",
+        "id Software",
+        "game engines",
+        "layoffs",
+        "Unreal Engine"
+      ]
+    },
+    {
+      "title": "Chat Control passed first round in EU Parliament",
+      "title_zh": "欧盟议会程序性投票推进聊天控制法案",
+      "title_en": "EU Parliament Advances Chat Control in Procedural Vote",
+      "url": "https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "The EU Parliament advanced the controversial Chat Control surveillance proposal in a procedural vote, sparking debate about democratic processes and privacy.",
+      "tags": [
+        "privacy",
+        "EU",
+        "surveillance",
+        "encryption",
+        "policy"
+      ]
+    },
+    {
+      "title": "sqlite-utils 4.0, now with database schema migrations",
+      "title_zh": "sqlite-utils 4.0 增加数据库模式迁移功能",
+      "title_en": "sqlite-utils 4.0 adds database schema migrations",
+      "url": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "sqlite-utils 4.0 introduces database schema migrations, nested transactions, and compound foreign keys as its main new features.",
+      "tags": [
+        "sqlite-utils",
+        "SQLite",
+        "database migrations",
+        "Python",
+        "Datasette"
+      ]
+    },
+    {
+      "title": "Ph.D. thesis on Differentiable Ray Tracing for Radio Propagation Modeling [R]",
+      "title_zh": "用于无线电传播建模的可微分光线追踪博士论文",
+      "title_en": "PhD Thesis on Differentiable Ray Tracing for Radio Propagation",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1upvkp5/phd_thesis_on_differentiable_ray_tracing_for/",
       "source": "reddit",
       "score": 8.0,
-      "summary": "Introduces TRACE, an open-source hierarchical memory system for LLM agents that achieves 82.5% on EventQA using gpt-oss-20B, outperforming Mem0 and MemGPT.",
+      "summary": "A PhD thesis on differentiable ray tracing for radio propagation modeling, written as a self-contained textbook integrating automatic differentiation and ML.",
       "tags": [
-        "LLM agents",
-        "memory systems",
-        "open-source",
-        "hierarchical memory",
-        "benchmarking"
+        "differentiable ray tracing",
+        "radio propagation",
+        "automatic differentiation",
+        "machine learning",
+        "wireless communications"
       ]
     },
     {
-      "title": "B站向 BiliRoaming 发律师函，要求停止逆向并删除代码",
-      "title_zh": "B站向开源项目BiliRoaming发送律师函",
-      "title_en": "Bilibili Sends Legal Letter to BiliRoaming Open-Source Project",
-      "url": "https://github.com/yujincheng08/BiliRoaming",
-      "source": "telegram",
+      "title": "MIRA: Multiplayer Interactive World Models trained on Rocket League [R]",
+      "title_zh": "MIRA：50亿参数多人火箭联盟世界模型",
+      "title_en": "MIRA: A 5B Parameter World Model for Multiplayer Rocket League Simulation",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1upofuw/mira_multiplayer_interactive_world_models_trained/",
+      "source": "reddit",
       "score": 8.0,
-      "summary": "Bilibili sends a legal letter to the BiliRoaming project, demanding removal of code that bypasses regional restrictions and reverse-engineers its API.",
+      "summary": "MIRA is a 5B parameter world model trained on 10k hours of Rocket League data for multiplayer interactive simulation, released with demo and technical report.",
       "tags": [
-        "reverse engineering",
-        "open source",
-        "legal",
-        "DMCA",
-        "China"
+        "world models",
+        "reinforcement learning",
+        "multiplayer AI",
+        "Rocket League",
+        "large-scale models"
       ]
     },
     {
-      "title": "中国正在论证构建小行星防御系统",
-      "title_zh": "中国计划建造小行星防御系统",
-      "title_en": "China Plans Asteroid Defense System",
-      "url": "http://paper.people.com.cn/rmrb/pc/content/202607/06/content_30166956.html",
-      "source": "telegram",
+      "title": "What if a model could only learn what trusted LoRA adapters can express? [R]",
+      "title_zh": "使用可信LoRA适配器子空间防御微调投毒",
+      "title_en": "Defending Fine-Tuning Poisoning with Trusted LoRA Adapter Subspaces",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uq68li/what_if_a_model_could_only_learn_what_trusted/",
+      "source": "reddit",
       "score": 8.0,
-      "summary": "China announces plans to develop an asteroid defense system with ground and space-based monitoring and kinetic/gravity mitigation methods.",
+      "summary": "Proposes constraining fine-tuning to a subspace from trusted LoRA adapters to prevent learning malicious updates, offering a geometric defense against poisoning.",
       "tags": [
-        "space",
-        "planetary defense",
-        "asteroid",
-        "China",
-        "space policy"
+        "machine learning",
+        "LoRA",
+        "adversarial robustness",
+        "fine-tuning",
+        "security"
       ]
     },
     {
-      "title": "🤖 马斯克宣布 xAI 解散，将以 SpaceXAI 品牌并入 SpaceX",
-      "title_zh": "马斯克解散 xAI，以 SpaceXAI 品牌并入 SpaceX",
-      "title_en": "Elon Musk Dissolves xAI, Rebrands as SpaceXAI Under SpaceX",
-      "url": "https://x.com/i/status/2074214064746832060",
+      "title": "🐶 谷歌新增“保存媒体”设置，Lens 图片和语音搜索等内容可用于 AI 训练",
+      "title_zh": "谷歌新增“保存媒体”设置，用于AI训练",
+      "title_en": "Google Adds 'Save Media' Setting for AI Training Data",
+      "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Elon Musk announced that xAI will dissolve and rebrand as SpaceXAI, integrating into SpaceX.",
+      "summary": "Google adds a 'Save Media' setting that allows user-uploaded media from Lens, voice search, etc. to be used for AI training, with an opt-out option.",
       "tags": [
-        "AI",
-        "Elon Musk",
-        "SpaceX",
-        "xAI",
-        "corporate restructuring"
+        "Google",
+        "AI training",
+        "privacy",
+        "search",
+        "settings"
+      ]
+    },
+    {
+      "title": "中国拟五年投入 2 万亿元建设全国算力网络  中国正计划未来五年投入约 2 万亿元（2950 亿美元），在全国建设互联数据中心网络，由国有电信企业运营主要设施。",
+      "title_zh": "中国计划投入2万亿元建设全国算力网络",
+      "title_en": "China Plans $295B National Computing Network",
+      "url": "https://t.me/zaihuapd/42399",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "China announces ambitious 2 trillion yuan plan to build a national computing network using mostly domestic AI chips to reduce reliance on US suppliers.",
+      "tags": [
+        "AI infrastructure",
+        "China tech",
+        "semiconductors",
+        "data centers",
+        "geopolitics"
+      ]
+    },
+    {
+      "title": "🤖 Claude Sonnet 5 发布  Anthropic 发布 Claude Sonnet 5，称其是迄今代理能力最强的 Sonnet 模型，可规划、使用",
+      "title_zh": "Anthropic 发布 Claude Sonnet 5，具备强大代理能力",
+      "title_en": "Anthropic Releases Claude Sonnet 5 with Strong Agentic Capabilities",
+      "url": "https://t.me/zaihuapd/42404",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Anthropic releases Claude Sonnet 5, a highly capable agentic model with improvements in reasoning, tool use, and coding, at a lower price than comparable models.",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "LLM",
+        "agentic",
+        "AI model"
+      ]
+    },
+    {
+      "title": "♻️ 英伟达 Blackwell 晶圆已在美国量产，但仍需运往台湾完成先进封装",
+      "title_zh": "英伟达 Blackwell 晶圆美国制造，但封装仍需台湾",
+      "title_en": "Nvidia Blackwell Wafers Made in US, but Packaged in Taiwan",
+      "url": "https://www.tomshardware.com/tech-industry/nvidia-and-intel-tout-chips-built-in-america-but-every-arizona-made-blackwell-die-is-still-packaged-in-taiwan",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Nvidia's Blackwell wafers made in Arizona still require packaging in Taiwan, exposing gaps in US advanced packaging infrastructure.",
+      "tags": [
+        "semiconductor",
+        "supply chain",
+        "NVIDIA",
+        "advanced packaging",
+        "Taiwan"
+      ]
+    },
+    {
+      "title": "🤖 DeepSeek 正在自研 AI 芯片，以减少对英伟达和华为的依赖",
+      "title_zh": "DeepSeek自研芯片减少对英伟达华为依赖",
+      "title_en": "DeepSeek Develops Own AI Chip to Reduce Reliance on Nvidia and Huawei",
+      "url": "https://www.reuters.com/world/china/chinas-deepseek-developing-its-own-ai-chip-sources-say-2026-07-07/",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "DeepSeek is developing its own AI chip to reduce reliance on Nvidia and Huawei.",
+      "tags": [
+        "AI chips",
+        "DeepSeek",
+        "semiconductor",
+        "geopolitics",
+        "AI hardware"
+      ]
+    },
+    {
+      "title": "🤖 Claude Fable 5 重新上线后体验缩水，安全误判频发遭开发者吐槽  美国解除出口管制后，Anthropic 旗舰模型 Claude Fable 5",
+      "title_zh": "Claude Fable 5 重新上线，额度减少且安全误判频发",
+      "title_en": "Claude Fable 5 relaunch with reduced quotas and safety issues",
+      "url": "https://t.me/zaihuapd/42415",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Claude Fable 5 relaunches with reduced quotas, pay-per-use model, and over-sensitive safety filters causing false positives in code, drawing developer criticism.",
+      "tags": [
+        "Claude",
+        "AI model",
+        "safety",
+        "developer experience",
+        "pricing"
       ]
     }
   ]
