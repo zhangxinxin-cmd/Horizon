@@ -1,191 +1,166 @@
 {
-  "generated_at": "2026-07-07T03:43:26.274143+00:00",
+  "generated_at": "2026-07-07T04:10:52.939433+00:00",
   "date": "2026-07-07",
-  "total_fetched": 17,
-  "important_count": 11,
-  "score_threshold": 6.0,
+  "total_fetched": 37,
+  "important_count": 9,
+  "score_threshold": 8.0,
   "languages": [
-    "zh"
+    "zh",
+    "en"
   ],
   "summaries": {
     "zh": {
       "url": "2026/07/07/summary-zh.html",
-      "path": "docs\\_posts\\2026-07-07-summary-zh.md"
+      "path": "docs/_posts/2026-07-07-summary-zh.md"
+    },
+    "en": {
+      "url": "2026/07/07/summary-en.html",
+      "path": "docs/_posts/2026-07-07-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "GLM 5.2 and the coming AI margin collapse",
-      "title_zh": "GLM 5.2 与即将到来的人工智能利润崩溃",
-      "title_en": "GLM 5.2 and the Coming AI Margin Collapse",
-      "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Article argues that falling AI inference costs driven by models like GLM 5.2 could lead to margin collapse for AI companies, sparking debate on HN about the economics of AI.",
-      "tags": [
-        "AI economics",
-        "GLM",
-        "AI competition",
-        "cost collapse",
-        "LLM margins"
-      ]
-    },
-    {
-      "title": "Ternlight – 7 MB embedding model that runs in browser (WASM)",
-      "title_zh": "Ternlight：7MB嵌入模型通过WASM在浏览器中运行",
-      "title_en": "Ternlight: 7MB Embedding Model Runs in Browser via WASM",
-      "url": "https://ternlight-demo.vercel.app/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A 7MB embedding model distilled from MiniLM runs in browser via WASM, enabling offline semantic search.",
-      "tags": [
-        "embedding model",
-        "WASM",
-        "quantization",
-        "browser ML",
-        "semantic search"
-      ]
-    },
-    {
       "title": "A global workspace in language models",
-      "title_zh": "语言模型中的全局工作空间",
-      "title_en": "Global workspace in language models",
+      "title_zh": "Anthropic 发现语言模型中的全局工作空间",
+      "title_en": "Anthropic discovers global workspace in language models",
       "url": "https://www.anthropic.com/research/global-workspace",
       "source": "hackernews",
-      "score": 8.0,
-      "summary": "Anthropic research identifies a shared 'global workspace' subspace in language models that mediates reasoning across diverse contexts.",
+      "score": 9.0,
+      "summary": "Anthropic's research identifies a shared reasoning subspace in language models akin to a global workspace.",
       "tags": [
         "language models",
+        "interpretability",
         "AI research",
-        "mechanistic interpretability",
-        "cognitive science",
-        "neural network analysis"
-      ]
-    },
-    {
-      "title": "tencent/Hy3",
-      "title_zh": "腾讯发布Hy3：295B参数MoE模型，21B活跃参数",
-      "title_en": "Tencent Releases Hy3: 295B MoE Model with 21B Active Parameters",
-      "url": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "Tencent releases Hy3, a 295B-parameter MoE model with 21B active parameters, outperforming similar-sized models and rivaling larger open-source models, under Apache 2.0 license.",
-      "tags": [
-        "Tencent",
-        "Hy3",
-        "MoE",
-        "LLM",
-        "open source"
+        "global workspace",
+        "neural networks"
       ]
     },
     {
       "title": "OpenWrt One – Open Hardware Router",
-      "title_zh": "OpenWrt One：开源路由器硬件发布",
-      "title_en": "OpenWrt One: Open-Source Router Hardware Announced",
+      "title_zh": "OpenWrt One：开源硬件路由器发布",
+      "title_en": "OpenWrt One: Open Hardware Router Released",
       "url": "https://openwrt.org/toh/openwrt/one",
       "source": "hackernews",
-      "score": 7.0,
-      "summary": "OpenWrt announces an open hardware router model, OpenWrt One, with community interest in its capabilities and future iterations.",
+      "score": 8.0,
+      "summary": "OpenWrt releases an open hardware router, the OpenWrt One, with community praise and ongoing development for WiFi 7 version.",
       "tags": [
         "openwrt",
-        "router",
         "open hardware",
-        "networking"
+        "networking",
+        "router",
+        "wifi"
+      ]
+    },
+    {
+      "title": "GLM 5.2 and the coming AI margin collapse",
+      "title_zh": "GLM 5.2与即将到来的人工智能利润崩溃",
+      "title_en": "GLM 5.2 and the Coming AI Margin Collapse",
+      "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "An opinion piece arguing that the release of GLM 5.2 may trigger a margin collapse in AI, sparking a rich discussion on the economics of AI models.",
+      "tags": [
+        "AI",
+        "economics",
+        "GLM",
+        "margins",
+        "industry-trends"
       ]
     },
     {
       "title": "Resetting Xbox",
-      "title_zh": "微软Xbox部门重组以提升利润率",
-      "title_en": "Microsoft Xbox Resets to Boost Profit Margins",
+      "title_zh": "微软重置Xbox战略引发讨论",
+      "title_en": "Microsoft Resets Xbox Strategy After Poor Profitability",
       "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/",
       "source": "hackernews",
-      "score": 7.0,
-      "summary": "Microsoft's Xbox division is resetting to improve profit margins despite generating $5 billion quarterly revenue, sparking debate about its strategy and the broader gaming industry's direction.",
+      "score": 8.0,
+      "summary": "Microsoft's Xbox reset announcement triggers a community debate about the company's gaming strategy, profitability, and cultural challenges in game development.",
       "tags": [
-        "xbox",
-        "microsoft",
+        "Xbox",
+        "Microsoft",
         "gaming",
         "business strategy",
-        "profit margins"
+        "community discussion"
       ]
     },
     {
-      "title": "CoMaps – FOSS Offline Maps",
-      "title_zh": "CoMaps：引发治理讨论的自由开源离线地图分支",
-      "title_en": "CoMaps: FOSS Offline Maps Fork with Governance Debate",
-      "url": "https://www.comaps.app/",
-      "source": "hackernews",
-      "score": 6.0,
-      "summary": "CoMaps is a free open-source offline maps app forked from Organic Maps, with community debate about its governance and usability differences.",
-      "tags": [
-        "FOSS",
-        "maps",
-        "OpenStreetMap",
-        "offline maps",
-        "fork"
-      ]
-    },
-    {
-      "title": "Linux on the Atari Jaguar",
-      "title_zh": "在雅达利Jaguar上移植Linux",
-      "title_en": "Linux Ported to Atari Jaguar on Original Hardware",
-      "url": "https://cakehonolulu.github.io/linux-for-jaguar/",
-      "source": "hackernews",
-      "score": 6.0,
-      "summary": "A detailed guide on running a modern Linux kernel on the Atari Jaguar console using only original hardware.",
-      "tags": [
-        "retrocomputing",
-        "linux",
-        "embedded",
-        "atari",
-        "jaguar"
-      ]
-    },
-    {
-      "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
-      "title_zh": "OfficeCLI：面向AI代理的开源Office套件",
-      "title_en": "OfficeCLI: AI Agents' Open-Source Office Suite",
-      "url": "https://github.com/iOfficeAI/OfficeCLI",
-      "source": "hackernews",
-      "score": 6.0,
-      "summary": "OfficeCLI is an open-source CLI tool for AI agents to read, edit, and automate Microsoft Office files without requiring Office installation.",
-      "tags": [
-        "AI agents",
-        "office automation",
-        "CLI tool",
-        "open-source",
-        "Microsoft Office"
-      ]
-    },
-    {
-      "title": "Aluminum foil (2021)",
-      "title_zh": "铝箔的惊人深度与多功能性",
-      "title_en": "The surprising depth and versatility of aluminum foil",
-      "url": "https://dernocua.github.io/notes/aluminum-foil.html",
-      "source": "hackernews",
-      "score": 6.0,
-      "summary": "A detailed appreciation of aluminum foil's properties, uses, and cultural significance, sparking a lively discussion.",
-      "tags": [
-        "aluminum foil",
-        "materials science",
-        "origami",
-        "creative making"
-      ]
-    },
-    {
-      "title": "sqlite-utils 4.0rc3",
-      "title_zh": "sqlite-utils 4.0rc3 新增复合外键支持",
-      "title_en": "sqlite-utils 4.0rc3 Adds Compound Foreign Keys",
-      "url": "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
+      "title": "tencent/Hy3",
+      "title_zh": "腾讯发布 Hy3：295B MoE 模型，21B 激活参数，Apache 2.0",
+      "title_en": "Tencent releases Hy3: 295B MoE model, 21B active, Apache 2.0",
+      "url": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
       "source": "rss",
-      "score": 6.0,
-      "summary": "Release candidate for sqlite-utils 4.0 adds compound foreign key support and case-insensitive column matching.",
+      "score": 8.0,
+      "summary": "Tencent released Hy3, a 295B-parameter MoE model with 21B active parameters, outperforming similar-size models and available under Apache 2.0.",
       "tags": [
-        "sqlite",
-        "python",
-        "database",
-        "release",
-        "sqlite-utils"
+        "AI",
+        "open source",
+        "MoE",
+        "Tencent",
+        "large language model"
+      ]
+    },
+    {
+      "title": "TRACE: open-source hierarchical memory for LLM agents, 82.5% on MemoryAgentBench’s EventQA using gpt-oss-20B [P]",
+      "title_zh": "TRACE：开源层级记忆系统助力LLM代理在EventQA上达到82.5%",
+      "title_en": "TRACE: Open-source hierarchical memory boosts LLM agents to 82.5% on EventQA",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uoz5jo/trace_opensource_hierarchical_memory_for_llm/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "Introduces TRACE, an open-source hierarchical memory system for LLM agents that achieves 82.5% on EventQA using gpt-oss-20B, outperforming Mem0 and MemGPT.",
+      "tags": [
+        "LLM agents",
+        "memory systems",
+        "open-source",
+        "hierarchical memory",
+        "benchmarking"
+      ]
+    },
+    {
+      "title": "B站向 BiliRoaming 发律师函，要求停止逆向并删除代码",
+      "title_zh": "B站向开源项目BiliRoaming发送律师函",
+      "title_en": "Bilibili Sends Legal Letter to BiliRoaming Open-Source Project",
+      "url": "https://github.com/yujincheng08/BiliRoaming",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Bilibili sends a legal letter to the BiliRoaming project, demanding removal of code that bypasses regional restrictions and reverse-engineers its API.",
+      "tags": [
+        "reverse engineering",
+        "open source",
+        "legal",
+        "DMCA",
+        "China"
+      ]
+    },
+    {
+      "title": "中国正在论证构建小行星防御系统",
+      "title_zh": "中国计划建造小行星防御系统",
+      "title_en": "China Plans Asteroid Defense System",
+      "url": "http://paper.people.com.cn/rmrb/pc/content/202607/06/content_30166956.html",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "China announces plans to develop an asteroid defense system with ground and space-based monitoring and kinetic/gravity mitigation methods.",
+      "tags": [
+        "space",
+        "planetary defense",
+        "asteroid",
+        "China",
+        "space policy"
+      ]
+    },
+    {
+      "title": "🤖 马斯克宣布 xAI 解散，将以 SpaceXAI 品牌并入 SpaceX",
+      "title_zh": "马斯克解散 xAI，以 SpaceXAI 品牌并入 SpaceX",
+      "title_en": "Elon Musk Dissolves xAI, Rebrands as SpaceXAI Under SpaceX",
+      "url": "https://x.com/i/status/2074214064746832060",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Elon Musk announced that xAI will dissolve and rebrand as SpaceXAI, integrating into SpaceX.",
+      "tags": [
+        "AI",
+        "Elon Musk",
+        "SpaceX",
+        "xAI",
+        "corporate restructuring"
       ]
     }
   ]
