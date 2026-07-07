@@ -9,6 +9,20 @@ title: Home
 
 欢迎来到 [Horizon](https://github.com/thysrael/Horizon)，一个 AI 驱动的信息聚合系统。
 
+<section class="daily-live" data-live-digest data-lang="zh">
+  <div class="daily-live__header">
+    <div>
+      <p class="daily-live__eyebrow">实时每日速递</p>
+      <h2>最新日报</h2>
+    </div>
+    <button type="button" data-live-refresh>刷新</button>
+  </div>
+  <p class="daily-live__status" data-live-status>正在读取最新日报...</p>
+  <div class="daily-live__meta" data-live-meta hidden></div>
+  <a class="daily-live__link" data-live-link hidden>打开最新中文日报</a>
+  <ol class="daily-live__items" data-live-items></ol>
+</section>
+
 ## 文档
 
 - [配置指南](configuration) — AI 提供商、信息源、过滤规则与环境变量替换
@@ -33,6 +47,20 @@ title: Home
 <div id="lang-en" class="lang-section" markdown="1">
 
 Welcome to [Horizon](https://github.com/thysrael/Horizon), an AI-driven information aggregation system.
+
+<section class="daily-live" data-live-digest data-lang="en">
+  <div class="daily-live__header">
+    <div>
+      <p class="daily-live__eyebrow">Live Daily Digest</p>
+      <h2>Latest Briefing</h2>
+    </div>
+    <button type="button" data-live-refresh>Refresh</button>
+  </div>
+  <p class="daily-live__status" data-live-status>Loading the latest digest...</p>
+  <div class="daily-live__meta" data-live-meta hidden></div>
+  <a class="daily-live__link" data-live-link hidden>Open latest English briefing</a>
+  <ol class="daily-live__items" data-live-items></ol>
+</section>
 
 ## Documentation
 

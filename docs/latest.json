@@ -1,0 +1,148 @@
+{
+  "generated_at": "2026-07-07T03:35:47.3614302Z",
+  "date": "2026-07-07",
+  "total_fetched": 17,
+  "important_count": 13,
+  "score_threshold": 6.0,
+  "languages": [
+    "zh"
+  ],
+  "summaries": {
+    "zh": {
+      "url": "2026/07/07/summary-zh.html",
+      "path": "docs\\_posts\\2026-07-07-summary-zh.md"
+    }
+  },
+  "items": [
+    {
+      "title": "腾讯发布 Hy3：295B 参数 MoE 模型",
+      "title_zh": "腾讯发布 Hy3：295B 参数 MoE 模型",
+      "title_en": null,
+      "url": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
+      "source": null,
+      "score": 9.0,
+      "summary": null,
+      "tags": []
+    },
+    {
+      "title": "OpenWrt One：开源硬件路由器发布",
+      "title_zh": "OpenWrt One：开源硬件路由器发布",
+      "title_en": null,
+      "url": "https://openwrt.org/toh/openwrt/one",
+      "source": null,
+      "score": 8.0,
+      "summary": null,
+      "tags": []
+    },
+    {
+      "title": "GLM 5.2 与即将到来的人工智能利润崩溃",
+      "title_zh": "GLM 5.2 与即将到来的人工智能利润崩溃",
+      "title_en": null,
+      "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
+      "source": null,
+      "score": 8.0,
+      "summary": null,
+      "tags": []
+    },
+    {
+      "title": "语言模型中的全局工作空间",
+      "title_zh": "语言模型中的全局工作空间",
+      "title_en": null,
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "source": null,
+      "score": 8.0,
+      "summary": null,
+      "tags": []
+    },
+    {
+      "title": "AI 进步下学习编码仍然值得",
+      "title_zh": "AI 进步下学习编码仍然值得",
+      "title_en": null,
+      "url": "https://stevekrouse.com/learn-to-code",
+      "source": null,
+      "score": 8.0,
+      "summary": null,
+      "tags": []
+    },
+    {
+      "title": "CoMaps：从 Organic Maps 分支的自由开源离线地图",
+      "title_zh": "CoMaps：从 Organic Maps 分支的自由开源离线地图",
+      "title_en": null,
+      "url": "https://www.comaps.app/",
+      "source": null,
+      "score": 7.0,
+      "summary": null,
+      "tags": []
+    },
+    {
+      "title": "Ternlight：7MB 嵌入模型通过 WASM 在浏览器中运行",
+      "title_zh": "Ternlight：7MB 嵌入模型通过 WASM 在浏览器中运行",
+      "title_en": null,
+      "url": "https://ternlight-demo.vercel.app/",
+      "source": null,
+      "score": 7.0,
+      "summary": null,
+      "tags": []
+    },
+    {
+      "title": "微软因收入和利润率问题重置 Xbox",
+      "title_zh": "微软因收入和利润率问题重置 Xbox",
+      "title_en": null,
+      "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/",
+      "source": null,
+      "score": 7.0,
+      "summary": null,
+      "tags": []
+    },
+    {
+      "title": "OfficeCLI：AI 代理编辑 Office 文件的命令行工具",
+      "title_zh": "OfficeCLI：AI 代理编辑 Office 文件的命令行工具",
+      "title_en": null,
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "source": null,
+      "score": 7.0,
+      "summary": null,
+      "tags": []
+    },
+    {
+      "title": "sqlite-utils 4.0rc3 新增复合外键和不区分大小写的列名",
+      "title_zh": "sqlite-utils 4.0rc3 新增复合外键和不区分大小写的列名",
+      "title_en": null,
+      "url": "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
+      "source": null,
+      "score": 7.0,
+      "summary": null,
+      "tags": []
+    },
+    {
+      "title": "Linux 被移植到仅 2MB 内存的 Atari Jaguar 上",
+      "title_zh": "Linux 被移植到仅 2MB 内存的 Atari Jaguar 上",
+      "title_en": null,
+      "url": "https://cakehonolulu.github.io/linux-for-jaguar/",
+      "source": null,
+      "score": 6.0,
+      "summary": null,
+      "tags": []
+    },
+    {
+      "title": "AMD Ryzen AI Halo 开发套件被批价格过高、硬件无升级",
+      "title_zh": "AMD Ryzen AI Halo 开发套件被批价格过高、硬件无升级",
+      "title_en": null,
+      "url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
+      "source": null,
+      "score": 6.0,
+      "summary": null,
+      "tags": []
+    },
+    {
+      "title": "探索铝箔的创意潜力",
+      "title_zh": "探索铝箔的创意潜力",
+      "title_en": null,
+      "url": "https://dernocua.github.io/notes/aluminum-foil.html",
+      "source": null,
+      "score": 6.0,
+      "summary": null,
+      "tags": []
+    }
+  ]
+}

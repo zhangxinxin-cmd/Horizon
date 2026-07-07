@@ -1,11 +1,13 @@
 """Main orchestrator coordinating the entire workflow."""
 
 import asyncio
+import json
 from collections import defaultdict
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 from typing import List, Dict, Optional
 from urllib.parse import urlparse
+from pathlib import Path
 import httpx
 from rich.console import Console
 
@@ -147,6 +149,7 @@ class HorizonOrchestrator:
 
             # 7. Generate and save daily summaries for each configured language
             today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+            published_summaries = []
             for lang in self.config.ai.languages:
                 summarizer = DailySummarizer()
                 summary = await summarizer.generate_summary(important_items, today, len(all_items), language=lang)
@@ -157,8 +160,6 @@ class HorizonOrchestrator:
 
                 # Copy to docs/ for GitHub Pages
                 try:
-                    from pathlib import Path
-
                     post_filename = f"{today}-summary-{lang}.md"
                     posts_dir = Path("docs/_posts")
                     posts_dir.mkdir(parents=True, exist_ok=True)
@@ -186,6 +187,12 @@ class HorizonOrchestrator:
                     with open(dest_path, "w", encoding="utf-8") as f:
                         f.write(front_matter + summary_content)
 
+                    post_url = f"{today.replace('-', '/')}/summary-{lang}.html"
+                    published_summaries.append({
+                        "language": lang,
+                        "path": str(dest_path),
+                        "url": post_url,
+                    })
                     self.console.print(f"📄 Copied {lang.upper()} summary to GitHub Pages: {dest_path}\n")
                 except Exception as e:
                     self.console.print(f"[yellow]⚠️  Failed to copy {lang.upper()} summary to docs/: {e}[/yellow]\n")
@@ -207,6 +214,13 @@ class HorizonOrchestrator:
                         lang=lang,
                         summarizer=summarizer,
                     )
+
+            self._publish_latest_digest_index(
+                date=today,
+                total_fetched=len(all_items),
+                important_items=important_items,
+                published_summaries=published_summaries,
+            )
 
             self.console.print("[bold green]✅ Horizon completed successfully![/bold green]")
             usage = get_usage_snapshot()
@@ -235,6 +249,60 @@ class HorizonOrchestrator:
                 )
 
             raise
+
+
+    def _publish_latest_digest_index(
+        self,
+        *,
+        date: str,
+        total_fetched: int,
+        important_items: List[ContentItem],
+        published_summaries: List[dict],
+    ) -> None:
+        """Write a static JSON manifest for the live daily digest website."""
+        try:
+            docs_dir = Path("docs")
+            docs_dir.mkdir(parents=True, exist_ok=True)
+            latest_path = docs_dir / "latest.json"
+
+            summaries = {
+                entry["language"]: {
+                    "url": entry["url"],
+                    "path": entry["path"],
+                }
+                for entry in published_summaries
+            }
+            items = []
+            for item in important_items[:20]:
+                items.append(
+                    {
+                        "title": item.title,
+                        "title_zh": item.metadata.get("title_zh"),
+                        "title_en": item.metadata.get("title_en"),
+                        "url": str(item.url),
+                        "source": item.source_type.value,
+                        "score": item.ai_score,
+                        "summary": item.ai_summary,
+                        "tags": item.ai_tags,
+                    }
+                )
+
+            payload = {
+                "generated_at": datetime.now(timezone.utc).isoformat(),
+                "date": date,
+                "total_fetched": total_fetched,
+                "important_count": len(important_items),
+                "score_threshold": self.config.filtering.ai_score_threshold,
+                "languages": list(self.config.ai.languages),
+                "summaries": summaries,
+                "items": items,
+            }
+            with open(latest_path, "w", encoding="utf-8") as f:
+                json.dump(payload, f, ensure_ascii=False, indent=2)
+                f.write("\n")
+            self.console.print(f"🛰️  Updated live digest manifest: {latest_path}\n")
+        except Exception as e:
+            self.console.print(f"[yellow]⚠️  Failed to update live digest manifest: {e}[/yellow]\n")
 
     def _determine_time_window(self, force_hours: int = None) -> datetime:
         if force_hours:

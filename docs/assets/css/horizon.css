@@ -189,3 +189,82 @@ h1, h2, h3, h4, h5, h6 {
 .lang-section.hidden {
   display: none;
 }
+
+/* --- Live Daily Digest Panel --- */
+.daily-live {
+  border: 1px solid var(--hz-border);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1.2rem 0 1.6rem;
+  background: var(--hz-surface);
+}
+
+.daily-live__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.daily-live__header h2 {
+  margin: 0.1rem 0 0 !important;
+  font-size: 1.35rem !important;
+}
+
+.daily-live__eyebrow {
+  margin: 0;
+  color: var(--hz-text-muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.daily-live button {
+  border: 1px solid var(--hz-border);
+  border-radius: 4px;
+  background: var(--hz-bg);
+  color: var(--hz-text);
+  cursor: pointer;
+  font-weight: 700;
+  padding: 0.35rem 0.75rem;
+}
+
+.daily-live__status,
+.daily-live__meta {
+  color: var(--hz-text-muted);
+  font-size: 0.92rem;
+}
+
+.daily-live__link {
+  display: inline-block;
+  margin: 0.4rem 0 0.6rem;
+  font-weight: 800;
+}
+
+.daily-live__items {
+  margin: 0.5rem 0 0;
+  padding-left: 1.4rem;
+}
+
+.daily-live__items li {
+  padding: 0.25rem 0;
+}
+
+.daily-live__score {
+  display: inline-block;
+  margin-left: 0.45rem;
+  padding: 0.05rem 0.4rem;
+  border-radius: 3px;
+  background: var(--hz-accent);
+  color: #fff;
+  font-family: monospace;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+@media (max-width: 520px) {
+  .daily-live__header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
