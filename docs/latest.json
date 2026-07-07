@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-07T03:35:47.3614302Z",
+  "generated_at": "2026-07-07T03:43:26.274143+00:00",
   "date": "2026-07-07",
   "total_fetched": 17,
-  "important_count": 13,
+  "important_count": 11,
   "score_threshold": 6.0,
   "languages": [
     "zh"
@@ -15,134 +15,178 @@
   },
   "items": [
     {
-      "title": "腾讯发布 Hy3：295B 参数 MoE 模型",
-      "title_zh": "腾讯发布 Hy3：295B 参数 MoE 模型",
-      "title_en": null,
-      "url": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
-      "source": null,
-      "score": 9.0,
-      "summary": null,
-      "tags": []
-    },
-    {
-      "title": "OpenWrt One：开源硬件路由器发布",
-      "title_zh": "OpenWrt One：开源硬件路由器发布",
-      "title_en": null,
-      "url": "https://openwrt.org/toh/openwrt/one",
-      "source": null,
-      "score": 8.0,
-      "summary": null,
-      "tags": []
-    },
-    {
-      "title": "GLM 5.2 与即将到来的人工智能利润崩溃",
+      "title": "GLM 5.2 and the coming AI margin collapse",
       "title_zh": "GLM 5.2 与即将到来的人工智能利润崩溃",
-      "title_en": null,
+      "title_en": "GLM 5.2 and the Coming AI Margin Collapse",
       "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
-      "source": null,
+      "source": "hackernews",
       "score": 8.0,
-      "summary": null,
-      "tags": []
+      "summary": "Article argues that falling AI inference costs driven by models like GLM 5.2 could lead to margin collapse for AI companies, sparking debate on HN about the economics of AI.",
+      "tags": [
+        "AI economics",
+        "GLM",
+        "AI competition",
+        "cost collapse",
+        "LLM margins"
+      ]
     },
     {
-      "title": "语言模型中的全局工作空间",
-      "title_zh": "语言模型中的全局工作空间",
-      "title_en": null,
-      "url": "https://www.anthropic.com/research/global-workspace",
-      "source": null,
-      "score": 8.0,
-      "summary": null,
-      "tags": []
-    },
-    {
-      "title": "AI 进步下学习编码仍然值得",
-      "title_zh": "AI 进步下学习编码仍然值得",
-      "title_en": null,
-      "url": "https://stevekrouse.com/learn-to-code",
-      "source": null,
-      "score": 8.0,
-      "summary": null,
-      "tags": []
-    },
-    {
-      "title": "CoMaps：从 Organic Maps 分支的自由开源离线地图",
-      "title_zh": "CoMaps：从 Organic Maps 分支的自由开源离线地图",
-      "title_en": null,
-      "url": "https://www.comaps.app/",
-      "source": null,
-      "score": 7.0,
-      "summary": null,
-      "tags": []
-    },
-    {
-      "title": "Ternlight：7MB 嵌入模型通过 WASM 在浏览器中运行",
-      "title_zh": "Ternlight：7MB 嵌入模型通过 WASM 在浏览器中运行",
-      "title_en": null,
+      "title": "Ternlight – 7 MB embedding model that runs in browser (WASM)",
+      "title_zh": "Ternlight：7MB嵌入模型通过WASM在浏览器中运行",
+      "title_en": "Ternlight: 7MB Embedding Model Runs in Browser via WASM",
       "url": "https://ternlight-demo.vercel.app/",
-      "source": null,
-      "score": 7.0,
-      "summary": null,
-      "tags": []
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A 7MB embedding model distilled from MiniLM runs in browser via WASM, enabling offline semantic search.",
+      "tags": [
+        "embedding model",
+        "WASM",
+        "quantization",
+        "browser ML",
+        "semantic search"
+      ]
     },
     {
-      "title": "微软因收入和利润率问题重置 Xbox",
-      "title_zh": "微软因收入和利润率问题重置 Xbox",
-      "title_en": null,
+      "title": "A global workspace in language models",
+      "title_zh": "语言模型中的全局工作空间",
+      "title_en": "Global workspace in language models",
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Anthropic research identifies a shared 'global workspace' subspace in language models that mediates reasoning across diverse contexts.",
+      "tags": [
+        "language models",
+        "AI research",
+        "mechanistic interpretability",
+        "cognitive science",
+        "neural network analysis"
+      ]
+    },
+    {
+      "title": "tencent/Hy3",
+      "title_zh": "腾讯发布Hy3：295B参数MoE模型，21B活跃参数",
+      "title_en": "Tencent Releases Hy3: 295B MoE Model with 21B Active Parameters",
+      "url": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "Tencent releases Hy3, a 295B-parameter MoE model with 21B active parameters, outperforming similar-sized models and rivaling larger open-source models, under Apache 2.0 license.",
+      "tags": [
+        "Tencent",
+        "Hy3",
+        "MoE",
+        "LLM",
+        "open source"
+      ]
+    },
+    {
+      "title": "OpenWrt One – Open Hardware Router",
+      "title_zh": "OpenWrt One：开源路由器硬件发布",
+      "title_en": "OpenWrt One: Open-Source Router Hardware Announced",
+      "url": "https://openwrt.org/toh/openwrt/one",
+      "source": "hackernews",
+      "score": 7.0,
+      "summary": "OpenWrt announces an open hardware router model, OpenWrt One, with community interest in its capabilities and future iterations.",
+      "tags": [
+        "openwrt",
+        "router",
+        "open hardware",
+        "networking"
+      ]
+    },
+    {
+      "title": "Resetting Xbox",
+      "title_zh": "微软Xbox部门重组以提升利润率",
+      "title_en": "Microsoft Xbox Resets to Boost Profit Margins",
       "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/",
-      "source": null,
+      "source": "hackernews",
       "score": 7.0,
-      "summary": null,
-      "tags": []
+      "summary": "Microsoft's Xbox division is resetting to improve profit margins despite generating $5 billion quarterly revenue, sparking debate about its strategy and the broader gaming industry's direction.",
+      "tags": [
+        "xbox",
+        "microsoft",
+        "gaming",
+        "business strategy",
+        "profit margins"
+      ]
     },
     {
-      "title": "OfficeCLI：AI 代理编辑 Office 文件的命令行工具",
-      "title_zh": "OfficeCLI：AI 代理编辑 Office 文件的命令行工具",
-      "title_en": null,
-      "url": "https://github.com/iOfficeAI/OfficeCLI",
-      "source": null,
-      "score": 7.0,
-      "summary": null,
-      "tags": []
+      "title": "CoMaps – FOSS Offline Maps",
+      "title_zh": "CoMaps：引发治理讨论的自由开源离线地图分支",
+      "title_en": "CoMaps: FOSS Offline Maps Fork with Governance Debate",
+      "url": "https://www.comaps.app/",
+      "source": "hackernews",
+      "score": 6.0,
+      "summary": "CoMaps is a free open-source offline maps app forked from Organic Maps, with community debate about its governance and usability differences.",
+      "tags": [
+        "FOSS",
+        "maps",
+        "OpenStreetMap",
+        "offline maps",
+        "fork"
+      ]
     },
     {
-      "title": "sqlite-utils 4.0rc3 新增复合外键和不区分大小写的列名",
-      "title_zh": "sqlite-utils 4.0rc3 新增复合外键和不区分大小写的列名",
-      "title_en": null,
-      "url": "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
-      "source": null,
-      "score": 7.0,
-      "summary": null,
-      "tags": []
-    },
-    {
-      "title": "Linux 被移植到仅 2MB 内存的 Atari Jaguar 上",
-      "title_zh": "Linux 被移植到仅 2MB 内存的 Atari Jaguar 上",
-      "title_en": null,
+      "title": "Linux on the Atari Jaguar",
+      "title_zh": "在雅达利Jaguar上移植Linux",
+      "title_en": "Linux Ported to Atari Jaguar on Original Hardware",
       "url": "https://cakehonolulu.github.io/linux-for-jaguar/",
-      "source": null,
+      "source": "hackernews",
       "score": 6.0,
-      "summary": null,
-      "tags": []
+      "summary": "A detailed guide on running a modern Linux kernel on the Atari Jaguar console using only original hardware.",
+      "tags": [
+        "retrocomputing",
+        "linux",
+        "embedded",
+        "atari",
+        "jaguar"
+      ]
     },
     {
-      "title": "AMD Ryzen AI Halo 开发套件被批价格过高、硬件无升级",
-      "title_zh": "AMD Ryzen AI Halo 开发套件被批价格过高、硬件无升级",
-      "title_en": null,
-      "url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
-      "source": null,
+      "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
+      "title_zh": "OfficeCLI：面向AI代理的开源Office套件",
+      "title_en": "OfficeCLI: AI Agents' Open-Source Office Suite",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "source": "hackernews",
       "score": 6.0,
-      "summary": null,
-      "tags": []
+      "summary": "OfficeCLI is an open-source CLI tool for AI agents to read, edit, and automate Microsoft Office files without requiring Office installation.",
+      "tags": [
+        "AI agents",
+        "office automation",
+        "CLI tool",
+        "open-source",
+        "Microsoft Office"
+      ]
     },
     {
-      "title": "探索铝箔的创意潜力",
-      "title_zh": "探索铝箔的创意潜力",
-      "title_en": null,
+      "title": "Aluminum foil (2021)",
+      "title_zh": "铝箔的惊人深度与多功能性",
+      "title_en": "The surprising depth and versatility of aluminum foil",
       "url": "https://dernocua.github.io/notes/aluminum-foil.html",
-      "source": null,
+      "source": "hackernews",
       "score": 6.0,
-      "summary": null,
-      "tags": []
+      "summary": "A detailed appreciation of aluminum foil's properties, uses, and cultural significance, sparking a lively discussion.",
+      "tags": [
+        "aluminum foil",
+        "materials science",
+        "origami",
+        "creative making"
+      ]
+    },
+    {
+      "title": "sqlite-utils 4.0rc3",
+      "title_zh": "sqlite-utils 4.0rc3 新增复合外键支持",
+      "title_en": "sqlite-utils 4.0rc3 Adds Compound Foreign Keys",
+      "url": "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
+      "source": "rss",
+      "score": 6.0,
+      "summary": "Release candidate for sqlite-utils 4.0 adds compound foreign key support and case-insensitive column matching.",
+      "tags": [
+        "sqlite",
+        "python",
+        "database",
+        "release",
+        "sqlite-utils"
+      ]
     }
   ]
 }
