@@ -1,224 +1,332 @@
 # Horizon Daily - 2026-07-07
 
-> From 37 items, 9 important content pieces were selected
+> From 44 items, 18 important content pieces were selected
 
 ---
 
-1. [Anthropic discovers global workspace in language models](#item-1) ⭐️ 9.0/10
-2. [OpenWrt One: Open Hardware Router Released](#item-2) ⭐️ 8.0/10
-3. [GLM 5.2 and the Coming AI Margin Collapse](#item-3) ⭐️ 8.0/10
-4. [Microsoft Resets Xbox Strategy After Poor Profitability](#item-4) ⭐️ 8.0/10
-5. [Tencent releases Hy3: 295B MoE model, 21B active, Apache 2.0](#item-5) ⭐️ 8.0/10
-6. [TRACE: Open-source hierarchical memory boosts LLM agents to 82.5% on EventQA](#item-6) ⭐️ 8.0/10
-7. [Bilibili Sends Legal Letter to BiliRoaming Open-Source Project](#item-7) ⭐️ 8.0/10
-8. [China Plans Asteroid Defense System](#item-8) ⭐️ 8.0/10
-9. [Elon Musk Dissolves xAI, Rebrands as SpaceXAI Under SpaceX](#item-9) ⭐️ 8.0/10
+1. [Tencent Releases Hy3: 295B MoE Model Outperforms Larger Models](#item-1) ⭐️ 9.0/10
+2. [Januscape: KVM VM Escape Vulnerability Affects Intel and AMD](#item-2) ⭐️ 9.0/10
+3. [China may restrict overseas access to top AI models](#item-3) ⭐️ 9.0/10
+4. [Kokoro: High-Quality CPU-Friendly TTS Model](#item-4) ⭐️ 8.0/10
+5. [EU Chat Control Proposals Threaten Encryption and Privacy](#item-5) ⭐️ 8.0/10
+6. [EU mandates driver monitoring cameras in all new cars](#item-6) ⭐️ 8.0/10
+7. [Microsoft lays off idTech team at id Software](#item-7) ⭐️ 8.0/10
+8. [EU Parliament Advances Chat Control in Procedural Vote](#item-8) ⭐️ 8.0/10
+9. [sqlite-utils 4.0 adds database schema migrations](#item-9) ⭐️ 8.0/10
+10. [PhD Thesis on Differentiable Ray Tracing for Radio Propagation](#item-10) ⭐️ 8.0/10
+11. [MIRA: A 5B Parameter World Model for Multiplayer Rocket League Simulation](#item-11) ⭐️ 8.0/10
+12. [Defending Fine-Tuning Poisoning with Trusted LoRA Adapter Subspaces](#item-12) ⭐️ 8.0/10
+13. [Google Adds 'Save Media' Setting for AI Training Data](#item-13) ⭐️ 8.0/10
+14. [China Plans $295B National Computing Network](#item-14) ⭐️ 8.0/10
+15. [Anthropic Releases Claude Sonnet 5 with Strong Agentic Capabilities](#item-15) ⭐️ 8.0/10
+16. [Nvidia Blackwell Wafers Made in US, but Packaged in Taiwan](#item-16) ⭐️ 8.0/10
+17. [DeepSeek Develops Own AI Chip to Reduce Reliance on Nvidia and Huawei](#item-17) ⭐️ 8.0/10
+18. [Claude Fable 5 relaunch with reduced quotas and safety issues](#item-18) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Anthropic discovers global workspace in language models](https://www.anthropic.com/research/global-workspace) ⭐️ 9.0/10
+## [Tencent Releases Hy3: 295B MoE Model Outperforms Larger Models](https://simonwillison.net/2026/Jul/6/hy3/#atom-everything) ⭐️ 9.0/10
 
-Anthropic's research identifies a shared reasoning subspace called J-space in large language models, which functions akin to a global workspace by integrating information across diverse contexts and tasks. This is a breakthrough in AI interpretability, revealing a unified internal representation space that could improve model understanding and control. It also reignites discussions about consciousness in AI, though comparisons remain speculative. The J-space was identified using Jacobian-based methods from information geometry, and it does not appear directly in model outputs. Independent replication by Neel Nanda on open-weight models supports the findings.
+Tencent has released Hy3, a 295B-parameter Mixture-of-Experts (MoE) model with only 21B active parameters, under the permissive Apache 2.0 license. The model outperforms similarly-sized models and rivals models with 2-5x more parameters. This release significantly advances open-source AI by providing a highly efficient, powerful model from a major tech company. The Apache 2.0 license enables broad commercial and research use, potentially accelerating adoption in products and applications. The full model is 598GB on Hugging Face, with a 300GB FP8 quantized version available. It supports a 256K token context length and is available free on OpenRouter until July 21st.
 
-hackernews · in-silico · Jul 6, 17:44 · [Discussion](https://news.ycombinator.com/item?id=48808002)
+rss · Simon Willison · Jul 6, 23:57
 
-**Background**: Global workspace theory (GWT), proposed by Bernard Baars in 1988, is a cognitive architecture for consciousness that posits a central workspace where information from multiple specialized processors is integrated and broadcast. In AI, interpretability research aims to reverse-engineer neural networks to understand their internal representations.
+**Background**: Mixture-of-Experts (MoE) models use a gating mechanism to activate only a subset of parameters for each input token, enabling large total parameter counts with relatively low computational cost. The ratio of total to active parameters (here 295B to 21B) allows the model to be both capable and efficient. This is a key advantage over dense models where all parameters are always active.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Global_workspace_theory_(GWT)">Global workspace theory (GWT)</a></li>
-<li><a href="https://www.lesswrong.com/posts/zFJ3ZdQwrTWE9jT5S/a-review-of-anthropic-s-global-workspace-paper">A Review of Anthropic's Global Workspace Paper</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mixture_of_experts">Mixture of experts - Wikipedia</a></li>
+<li><a href="https://huggingface.co/blog/moe">Mixture of Experts Explained</a></li>
+<li><a href="https://www.ibm.com/think/topics/mixture-of-experts">What is mixture of experts? | IBM</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments range from excitement about potential improvements in model control to skepticism about consciousness analogies. Some users highlight a practical quirk: asking LLMs about a band from Michigan yields incorrect answers, suggesting the global workspace may not unify all knowledge perfectly.
-
-**Tags**: `#language models`, `#interpretability`, `#AI research`, `#global workspace`, `#neural networks`
+**Tags**: `#AI`, `#machine learning`, `#model release`, `#Mixture-of-Experts`, `#Tencent`
 
 ---
 
 <a id="item-2"></a>
-## [OpenWrt One: Open Hardware Router Released](https://openwrt.org/toh/openwrt/one) ⭐️ 8.0/10
+## [Januscape: KVM VM Escape Vulnerability Affects Intel and AMD](https://github.com/V4bel/Januscape) ⭐️ 9.0/10
 
-The OpenWrt project has released the OpenWrt One, an open-source single-board router that comes pre-flashed with OpenWrt firmware. It is available for $89 and features dual-band Wi-Fi 6, two Ethernet ports, and three USB ports. This marks the first official hardware made by the OpenWrt project itself, providing a fully open and developer-friendly platform for networking enthusiasts. It also signals a growing trend toward open-source networking hardware, with a Wi-Fi 7 version already in development. The OpenWrt One is designed as a reference hardware platform for the OpenWrt firmware, with a focus on hackability and reproducibility. It includes features like dual-band Wi-Fi 6, two Gigabit Ethernet ports, and three USB 3.0 ports, and costs $89.
+Researchers disclosed Januscape (CVE-2026-53359), the first KVM/x86 VM escape vulnerability exploitable on both Intel and AMD platforms. It stems from a use-after-free flaw in the shadow MMU simulation, allowing a guest to corrupt the host kernel's shadow page tables. This vulnerability directly breaks the isolation boundary in multi-tenant KVM hosts, such as public clouds, posing a critical threat to cloud security. Its 16-year latent period means a vast number of systems running Linux kernels from 2010 to June 2026 are affected. The PoC code has been released and can trigger a host kernel panic from within a guest. Additionally, in distributions like RHEL, local unprivileged users can exploit this flaw to escalate privileges to root.
 
-hackernews · peter_d_sherman · Jul 6, 18:23 · [Discussion](https://news.ycombinator.com/item?id=48808482)
+telegram · zaihuapd · Jul 7, 10:14
 
-**Background**: OpenWrt is a widely used open-source firmware for routers, offering advanced features and long-term support beyond manufacturer patches. The OpenWrt One is the first official hardware from the OpenWrt project, providing a developer-friendly device that runs OpenWrt natively. It fills a gap for users who want a fully open and supported hardware platform for their home network.
+**Background**: KVM uses a shadow MMU to virtualize guest page tables by maintaining shadow page tables that map guest virtual addresses directly to host physical addresses. A use-after-free vulnerability occurs when a program accesses memory after it has been freed, potentially leading to corruption or arbitrary code execution. The shadow MMU's complex memory management made it susceptible to this class of bug.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://openwrt.org/toh/openwrt/one">[ OpenWrt Wiki] OpenWrt One</a></li>
-<li><a href="https://www.tomshardware.com/networking/open-source-openwrt-one-router-released-at-usd89-hacker-friendly-device-sports-two-ethernet-ports-three-usb-ports-with-dual-band-wi-fi-6">Open-source OpenWrt One router released at $89 — 'hacker ...</a></li>
-<li><a href="https://grokipedia.com/page/OpenWrt_One">OpenWrt One</a></li>
+<li><a href="https://docs.kernel.org/virt/kvm/x86/mmu.html">The x86 kvm shadow mmu — The Linux Kernel documentation</a></li>
+<li><a href="https://learn.snyk.io/lesson/use-after-free/">Use after free vulnerability | Tutorial & Examples | Snyk Learn</a></li>
+<li><a href="https://www.automox.com/blog/vulnerability-definition-use-after-free">What Is a Use-After-Free Vulnerability? | Automox</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community members praised the OpenWrt One as a welcome step forward, with some already purchasing it to replace unreliable commercial routers. Discussion includes excitement about the upcoming Wi-Fi 7 version (OpenWrt Two) and comparisons with alternative open hardware like the Banana Pi R3. Some users noted that installation and upgrades on OpenWrt can be complex, highlighting the need for improved documentation.
-
-**Tags**: `#openwrt`, `#open hardware`, `#networking`, `#router`, `#wifi`
+**Tags**: `#security`, `#vulnerability`, `#virtualization`, `#KVM`, `#cloud`
 
 ---
 
 <a id="item-3"></a>
-## [GLM 5.2 and the Coming AI Margin Collapse](https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/) ⭐️ 8.0/10
+## [China may restrict overseas access to top AI models](https://www.reuters.com/world/beijing-is-looking-curbing-overseas-access-chinas-top-ai-models-sources-say-2026-07-07/) ⭐️ 9.0/10
 
-Z.ai released GLM 5.2 in June 2026, an open-weight model that rivals proprietary models like Opus and GPT for agentic tasks at 15-20% of the cost, potentially triggering a collapse in AI inference margins. This could commoditize AI inference, squeezing margins for AI companies and making advanced AI more accessible, while raising fundamental questions about the economics of AI model pricing. GLM 5.2 features a 1M-token context window, an MIT license, and is designed for long-horizon agent workflows, making it the first open-weight model considered a genuine competitor to top proprietary systems.
+China's Ministry of Commerce has held meetings with Alibaba, ByteDance, and Zhipu to discuss restricting overseas access to the country's most advanced AI models, including unreleased ones. If enacted, this policy would significantly reshape the global AI landscape by limiting the dissemination of Chinese AI technology, potentially accelerating fragmentation between AI ecosystems in China and the West. The restrictions may apply only to future models, and the scope is still under discussion; it is uncertain whether the policy will be finalized. The meetings also considered classifying AI core technology leakage as a national security crime.
 
-hackernews · martinald · Jul 6, 20:14 · [Discussion](https://news.ycombinator.com/item?id=48809877)
+telegram · zaihuapd · Jul 7, 11:42
 
-**Background**: AI models are often proprietary and expensive, with companies like OpenAI and Anthropic charging high inference fees. Open-weight models allow anyone to run the model cheaply, driving down prices. Margin collapse refers to the scenario where intense competition forces prices to near cost, eliminating profits.
+**Background**: Export controls on technology are a common tool for national security, and AI models are considered dual-use technologies with both civilian and military applications. China has been rapidly advancing in AI, producing models that rival those from the U.S., and restricting overseas access could protect domestic advantages and prevent technology transfer to competitors.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/">GLM 5.2 and the coming AI margin collapse (part 1)</a></li>
-<li><a href="https://openrouter.ai/z-ai/glm-5.2">GLM 5 . 2 - API Pricing & Benchmarks | OpenRouter</a></li>
-<li><a href="https://letsdatascience.com/news/glm-52-compresses-ai-inference-margins-and-costs-06799e97">GLM 5.2 Compresses AI Inference Margins and Costs</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Comments debate whether raw cost matters, with some arguing that ecosystem lock-in and quality differences protect margins, while others note the structural token tax and competitive pressure from Chinese companies preventing collusion.
-
-**Tags**: `#AI`, `#economics`, `#GLM`, `#margins`, `#industry-trends`
+**Tags**: `#AI policy`, `#China`, `#technology export control`, `#AI regulation`, `#national security`
 
 ---
 
 <a id="item-4"></a>
-## [Microsoft Resets Xbox Strategy After Poor Profitability](https://news.xbox.com/en-us/2026/07/06/resetting-xbox/) ⭐️ 8.0/10
+## [Kokoro: High-Quality CPU-Friendly TTS Model](https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/) ⭐️ 8.0/10
 
-On July 6, 2026, Microsoft announced a restructuring of its Xbox division, including a 'reset' of the platform and organizational changes where Mojang and King will report directly to the CEO, with no cancellations of first-party games. This announcement highlights ongoing profitability challenges in Microsoft's gaming business despite $5 billion quarterly revenue, and has sparked a community debate about the company's strategy, especially around Game Pass and acquisition-driven growth. The reset involves no cancellation of already-announced first-party projects, and Mojang and King are being elevated as platform units due to their large monthly active player bases.
+Kokoro, an open-weight TTS model with 82 million parameters, has been released, delivering high-quality speech synthesis that runs efficiently on CPUs without requiring a GPU. This enables local, private, and accessible TTS for users without powerful GPUs, lowering barriers for accessibility products, content consumption, and voice interfaces. Kokoro is built on the StyleTTS 2 architecture and features manual IPA pronunciation support, though it may struggle with single-word utterances and homographs.
 
-hackernews · dijksterhuis · Jul 6, 14:18 · [Discussion](https://news.ycombinator.com/item?id=48804993)
+hackernews · speckx · Jul 7, 18:24 · [Discussion](https://news.ycombinator.com/item?id=48821576)
 
-**Background**: Microsoft's Xbox division has historically struggled with profit margins despite high revenue, in part due to the costly Game Pass subscription model and large acquisitions like Activision Blizzard. The gaming industry as a whole faces challenges balancing artistic development with corporate profitability, a tension highlighted in community discussions about Microsoft's approach.
+**Background**: Text-to-speech (TTS) models typically require powerful GPUs for high-quality output, limiting local deployment. Kokoro, with only 82 million parameters, achieves comparable quality to larger models while being significantly faster and CPU-friendly, making it suitable for offline use.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://news.xbox.com/en-us/2026/07/06/resetting-xbox/">Resetting XBOX - XBOX Wire</a></li>
-<li><a href="https://news.xbox.com/en-us/2026/06/10/next-100-days-xbox-reset/">Next 100 Days: XBOX Reset - XBOX Wire</a></li>
+<li><a href="https://kokorottsai.com/">Kokoro TTS: Advanced AI Text-to-Speech Model with 82M parameters</a></li>
+<li><a href="https://github.com/hexgrad/kokoro">GitHub - hexgrad/kokoro: https://hf.co/hexgrad/Kokoro-82M · GitHub</a></li>
+<li><a href="https://huggingface.co/hexgrad/Kokoro-82M">hexgrad/Kokoro-82M · Hugging Face</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters expressed mixed views: some criticized Microsoft's management culture and lack of understanding of game development as art, while others noted the profitability issue and pointed to Nintendo's success with simpler, more focused games as a counterexample. There was also sympathy for affected employees and a call for studio independence.
+**Discussion**: Community members shared positive experiences using Kokoro for accessibility, with one creating a self-improving voice input system (voiceio) and another building a Chrome extension for webpage reading. Users noted the ability to add IPA pronunciation guides but reported occasional inaccuracies with homographs and short phrases.
 
-**Tags**: `#Xbox`, `#Microsoft`, `#gaming`, `#business strategy`, `#community discussion`
+**Tags**: `#TTS`, `#accessibility`, `#local AI`, `#CPU-friendly`, `#open-source`
 
 ---
 
 <a id="item-5"></a>
-## [Tencent releases Hy3: 295B MoE model, 21B active, Apache 2.0](https://simonwillison.net/2026/Jul/6/hy3/#atom-everything) ⭐️ 8.0/10
+## [EU Chat Control Proposals Threaten Encryption and Privacy](https://fightchatcontrol.eu/chat-control-overview) ⭐️ 8.0/10
 
-Tencent has released Hy3, a 295-billion-parameter Mixture-of-Experts (MoE) language model with 21 billion active parameters, available under the permissive Apache 2.0 license on Hugging Face. This release is significant because Hy3 rivals flagship open-source models with 2-5 times more parameters, potentially lowering the barrier for high-performance LLM deployment in commercial and research settings. Hy3 supports a 256K token context window, includes a 3.8-billion-parameter Multi-Token Prediction (MTP) layer, and is available in full (598GB) and FP8 quantized (300GB) versions on Hugging Face.
+The EU's Chat Control 1.0 and 2.0 proposals aim to mandate mass scanning of digital communications for child sexual abuse material (CSAM), potentially breaking end-to-end encryption. This could undermine privacy and security for all EU citizens, set a precedent for mass surveillance, and weaken encryption technologies used globally. The proposals include client-side scanning (CSS), which would scan content on user devices before encryption, raising technical and privacy risks. Chat Control 2.0 is an updated version with additional measures.
 
-rss · Simon Willison · Jul 6, 23:57
+hackernews · gasull · Jul 7, 14:23 · [Discussion](https://news.ycombinator.com/item?id=48818311)
 
-**Background**: Mixture-of-Experts (MoE) architectures activate only a subset of parameters per input, allowing models to have a large total parameter count while keeping computational costs similar to a smaller dense model. Multi-Token Prediction (MTP) is a technique that predicts multiple future tokens simultaneously, improving inference efficiency and training quality. The Apache 2.0 license permits free use, modification, and distribution, including for commercial applications.
+**Background**: Chat Control is a set of EU regulations proposed in 2022 to combat child sexual abuse material. It has faced significant opposition from privacy advocates, tech companies, and experts who argue that client-side scanning breaks encryption and opens the door to surveillance. The debate centers on balancing child protection with fundamental rights to privacy.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://huggingface.co/blog/moe">Mixture of Experts Explained - Hugging Face</a></li>
-<li><a href="https://arxiv.org/abs/2507.11181">[2507.11181] Mixture of Experts in Large Language Models</a></li>
-<li><a href="https://sebastianraschka.com/llm-architecture-gallery/mtp/">Multi-Token Prediction (MTP) | Sebastian Raschka, PhD</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Chat_Control">Chat Control - Wikipedia</a></li>
+<li><a href="https://fightchatcontrol.eu/">Fight Chat Control - Protect Digital Privacy in the EU</a></li>
+<li><a href="https://www.eff.org/deeplinks/2026/04/eu-parliament-blocks-mass-scanning-our-chats-whats-next">EU Parliament Blocks Mass-Scanning of Our Chats—What's Next? | Electronic Frontier Foundation</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#open source`, `#MoE`, `#Tencent`, `#large language model`
+**Discussion**: Commenters express concern that the proposals are overly broad and could lead to a surveillance state. Some argue that targeting specific offenders is more efficient than mass scanning. Others worry about the impact on encrypted messaging and photos of children, such as bathtime pictures.
+
+**Tags**: `#privacy`, `#encryption`, `#surveillance`, `#EU legislation`, `#CSAM`
 
 ---
 
 <a id="item-6"></a>
-## [TRACE: Open-source hierarchical memory boosts LLM agents to 82.5% on EventQA](https://www.reddit.com/r/MachineLearning/comments/1uoz5jo/trace_opensource_hierarchical_memory_for_llm/) ⭐️ 8.0/10
+## [EU mandates driver monitoring cameras in all new cars](https://allaboutcookies.org/eu-mandatory-distracted-driver-system) ⭐️ 8.0/10
 
-TRACE, an open-source hierarchical memory system for LLM agents, achieves 82.5% F1 on the EventQA accurate-retrieval task of MemoryAgentBench using the gpt-oss-20B model, outperforming Mem0 (37.5%) and MemGPT (26.2%) with GPT-4o-mini. TRACE addresses a key limitation of LLM agents—flat memory—by organizing conversation history into a topic tree, enabling more efficient retrieval and reasoning. Its open-source release and strong benchmark results could accelerate progress in agent memory architectures. TRACE uses a hierarchical topic tree with branches and summaries instead of flat RAG chunks, and is available as a PyPI package (pip install trace-memory). The evaluation used open-weights gpt-oss-20B against proprietary GPT-4o-mini baselines, with the author noting the comparison is not apples-to-apples due to cost constraints.
+The European Union now requires every new car sold to include a driver monitoring camera system to detect and deter distracted driving. This regulation could significantly reduce accidents caused by driver distraction, but it raises important privacy and user experience concerns among drivers. The driver monitoring system uses infrared cameras and AI to track the driver's face and eye movements, issuing alerts if distraction or drowsiness is detected.
 
-reddit · r/MachineLearning · /u/PsychologicalDot7749 · Jul 6, 14:35
+hackernews · nickslaughter02 · Jul 7, 20:50 · [Discussion](https://news.ycombinator.com/item?id=48823557)
 
-**Background**: LLM agents often struggle with memory in long conversations because they rely on flat retrieval or limited context windows. Hierarchical memory organizes information into layers of abstraction, allowing agents to first navigate high-level topics before drilling into details. MemoryAgentBench is a benchmark designed to evaluate LLM agent memory across tasks like accurate retrieval and conflict resolution. gpt-oss-20B is an open-weight model from OpenAI with 21B parameters and 3.6B active parameters, optimized for local or specialized use.
+**Background**: Driver monitoring systems have existed since 2006, when Toyota first introduced them. They are designed to improve road safety by assessing driver alertness. The EU mandate makes this technology compulsory, aiming to reduce the thousands of deaths caused by distracted driving annually.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://pypi.org/project/trace-memory/">trace - memory · PyPI</a></li>
-<li><a href="https://github.com/HUST-AI-HYZ/MemoryAgentBench">GitHub - HUST-AI-HYZ/MemoryAgentBench: Open source code for ...</a></li>
-<li><a href="https://huggingface.co/openai/gpt-oss-20b">openai/gpt-oss-20b · Hugging Face</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Driver_monitoring_system">Driver monitoring system - Wikipedia</a></li>
+<li><a href="https://smarteye.se/solutions/automotive/driver-monitoring-system/">Driver Monitoring System (DMS) - Smart Eye</a></li>
+<li><a href="https://www.nxp.com/applications/DRIVER-MONITORING-SYSTEMS">Driver Monitoring Systems (DMS) and Occupant Monitoring Systems | NXP Semiconductors</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The author acknowledged that the evaluation is not fully controlled, as they lacked the budget for OpenAI API tokens to run a same-backbone comparison. They attempted to run Mem0 with gpt-oss-20B but encountered JSON parsing issues, and shared full JSON logs for transparency. No other comments were provided.
+**Discussion**: Community comments reveal a split: some find the technology accurate and potentially life-saving, while others criticize the growing complexity and intrusiveness of modern car UX, citing annoying lane assist and speed limit warnings. Privacy concerns and sarcastic remarks about mandatory surveillance are also common.
 
-**Tags**: `#LLM agents`, `#memory systems`, `#open-source`, `#hierarchical memory`, `#benchmarking`
+**Tags**: `#regulation`, `#automotive`, `#privacy`, `#user-experience`, `#EU`
 
 ---
 
 <a id="item-7"></a>
-## [Bilibili Sends Legal Letter to BiliRoaming Open-Source Project](https://github.com/yujincheng08/BiliRoaming) ⭐️ 8.0/10
+## [Microsoft lays off idTech team at id Software](https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software/) ⭐️ 8.0/10
 
-Bilibili has sent a legal letter to the maintainers of BiliRoaming, an open-source Xposed module that removes regional restrictions and enables access to paid content without subscription, demanding that they cease reverse-engineering and delete the offending code within 48 hours. This legal action underscores the growing tension between online platforms and the open-source community over reverse-engineering and circumvention of anti-piracy measures. It could set a precedent for how Chinese tech companies enforce their rights against third-party projects that modify their client software. The legal letter specifically mentions hooking authentication mechanisms, overriding paid content restrictions, bypassing secure transmission locks, and rewriting CDN origin traffic. The take-down demand covers both public repositories on GitHub, SourceForge, and Gitee.
+Microsoft has laid off the entire idTech engine team at id Software, the studio behind Doom and Quake. This move suggests a strategic shift away from the proprietary idTech engine toward using Unreal Engine 5 for future games. This decision marks a significant consolidation in game engine usage, potentially reducing technological diversity in the industry. It also raises concerns about Microsoft's corporate strategy, as it may homogenize the unique technical culture of acquired studios. The layoffs affect the team responsible for the idTech engine, which powered iconic games like Doom (2016) and Doom Eternal. The shift to Unreal Engine 5 aligns with a broader industry trend but risks losing the performance optimizations unique to idTech.
 
-telegram · zaihuapd · Jul 6, 08:21
+hackernews · bauc · Jul 7, 15:33 · [Discussion](https://news.ycombinator.com/item?id=48819244)
 
-**Background**: BiliRoaming is an Xposed module for Android that modifies the Bilibili client app to unlock region-locked anime and premium content without payment. Xposed is a framework that allows users to install modules that can alter the behavior of system and apps without modifying APK files. CDN回源 refers to the process where a CDN node fetches content from the origin server when the content is not cached, and BiliRoaming apparently rewrites this to bypass restrictions.
+**Background**: id Software is known for its pioneering game engines, including id Tech, which evolved through versions like id Tech 5 and id Tech 7. Microsoft acquired id Software's parent company ZeniMax in 2021. The idTech engine has been a cornerstone for high-performance first-person shooters, known for its efficient rendering and low-level optimization.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/Xposed-Modules-Repo">Xposed Modules Repository · GitHub</a></li>
-<li><a href="https://help.aliyun.com/zh/cdn/user-guide/back-to-origin-routing-overview">配置回源获取资源策略-回源-CDN-阿里云</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Id_tech_5_engine">Id tech 5 engine</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#reverse engineering`, `#open source`, `#legal`, `#DMCA`, `#China`
+**Discussion**: The community sentiment is largely negative. Commenters like ndiddy argue that switching to UE5 allows Microsoft to hire cheaper contractors, but at the cost of losing internal expertise. LarsDu88 criticizes Microsoft for giving Epic Games a monopoly on game engines, suggesting open-sourcing idTech instead. Others worry about the homogenization of game development and loss of unique technical culture.
+
+**Tags**: `#Microsoft`, `#id Software`, `#game engines`, `#layoffs`, `#Unreal Engine`
 
 ---
 
 <a id="item-8"></a>
-## [China Plans Asteroid Defense System](http://paper.people.com.cn/rmrb/pc/content/202607/06/content_30166956.html) ⭐️ 8.0/10
+## [EU Parliament Advances Chat Control in Procedural Vote](https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html) ⭐️ 8.0/10
 
-China officially announced it is studying the construction of an asteroid defense system, featuring an integrated ground- and space-based monitoring network and both kinetic impact and gravity tractor deflection methods. This marks China's first official planetary defense initiative, positioning it as a key player in global efforts to protect Earth from asteroid impacts and potentially shaping international collaboration in space security. According to CNSA expert Li Mingtao, over 95% of near-Earth asteroids larger than 1 km have been found with no impact risk in the next century, but only ~45% of 140-meter-sized ones are detected, and smaller ones are even less known.
+The EU Parliament advanced the controversial Chat Control surveillance proposal in a procedural vote, moving it to a second reading where amendments require an absolute majority. This is significant because it could lead to mass surveillance of private communications, undermining encryption and privacy rights across the EU. The procedural tactic used may bypass democratic scrutiny. On Thursday, an absolute majority of 361 votes is required for amendments or rejection, while a simple majority suffices for approval. Many MEPs are expected to be absent due to the summer break, favoring proponents.
 
-telegram · zaihuapd · Jul 6, 13:36
+hackernews · miroljub · Jul 7, 15:16 · [Discussion](https://news.ycombinator.com/item?id=48819008)
 
-**Background**: A kinetic impactor deflects an asteroid by crashing a spacecraft into it to change its velocity, while a gravity tractor uses the spacecraft's gravitational pull to gradually alter the asteroid's trajectory without physical contact. Both methods have been proposed for planetary defense but not yet tested on a real threat. China has already developed a preliminary impact risk warning model and is working on an operational system.
+**Background**: Chat Control is an EU proposal requiring messaging platforms to scan private messages for child sexual abuse material, which critics say breaks end-to-end encryption and enables mass surveillance. It has been repeatedly introduced despite public opposition and previous rejections.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.universetoday.com/articles/how-to-deflect-an-asteroid-with-todays-technology">How to Deflect an Asteroid with Today's Technology - Universe Today</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Gravity_tractor">Gravity tractor - Wikipedia</a></li>
+**Discussion**: Commenters are critical, noting the tactical advantage of holding the vote before summer break when many MEPs are absent. Some reference Jean-Claude Juncker's quotes about slow erosion of rights. One user provided a link showing how MEPs voted, expressing disappointment.
 
-</ul>
-</details>
-
-**Tags**: `#space`, `#planetary defense`, `#asteroid`, `#China`, `#space policy`
+**Tags**: `#privacy`, `#EU`, `#surveillance`, `#encryption`, `#policy`
 
 ---
 
 <a id="item-9"></a>
-## [Elon Musk Dissolves xAI, Rebrands as SpaceXAI Under SpaceX](https://x.com/i/status/2074214064746832060) ⭐️ 8.0/10
+## [sqlite-utils 4.0 adds database schema migrations](https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything) ⭐️ 8.0/10
 
-Elon Musk announced the dissolution of xAI, which will be rebranded as SpaceXAI and integrated into SpaceX. The rebranding was first used in a computing partnership announcement with Anthropic. This corporate restructuring marks the end of xAI as an independent AI company and signals a strategic shift to focus AI development within SpaceX's ecosystem, potentially impacting the AI industry's competitive landscape. The acquisition of xAI by SpaceX reportedly occurred in February 2026, with the rebranding officially unveiled in July 2026, including a new logo and X handle update. The company now operates as SpaceXAI, focusing on space-based computing and AI products.
+sqlite-utils 4.0 introduces database schema migrations, nested transactions via a new db.atomic() method, and compound foreign keys. This major version release addresses common pain points in SQLite database management, making it easier to evolve schemas and handle complex transactions. Migrations are defined in Python files using the sqlite-utils library, leveraging the powerful table.transform() method that overcomes limitations of SQLite's ALTER TABLE.
 
-telegram · zaihuapd · Jul 7, 02:30
+rss · Simon Willison · Jul 7, 19:32
 
-**Background**: xAI was founded by Elon Musk in 2023 to develop AI for scientific discovery, competing with companies like OpenAI. SpaceX, Musk's aerospace company, has been expanding into space-based computing, making the acquisition a natural fit to combine AI with space technology.
+**Background**: sqlite-utils is a popular Python library and CLI tool for manipulating SQLite databases. Schema migrations allow developers to apply incremental changes to database schemas in a controlled, repeatable way. The new features build on existing capabilities, such as creating and transforming tables, making sqlite-utils a more comprehensive database management tool.
+
+**Tags**: `#sqlite-utils`, `#SQLite`, `#database migrations`, `#Python`, `#Datasette`
+
+---
+
+<a id="item-10"></a>
+## [PhD Thesis on Differentiable Ray Tracing for Radio Propagation](https://www.reddit.com/r/MachineLearning/comments/1upvkp5/phd_thesis_on_differentiable_ray_tracing_for/) ⭐️ 8.0/10
+
+The author has published a PhD thesis written as a self-contained textbook that integrates automatic differentiation with ray tracing for radio propagation modeling, enabling exact gradient computation through complex physical environments. This work bridges differentiable programming and wireless propagation simulation, opening up new possibilities for inverse problems and machine learning integration in next-generation wireless network design. The thesis is split into three parts covering physics fundamentals, algorithmic core with GPU-accelerated path tracing and discontinuity smoothing, and practical applications like channel modeling and material calibration. It uses JAX and packages like Equinox and Optimistix.
+
+reddit · r/MachineLearning · /u/jeertmans · Jul 7, 13:45
+
+**Background**: Differentiable ray tracing extends traditional ray tracing by enabling gradient computation through the simulation, which is crucial for optimization and machine learning tasks. Automatic differentiation (autodiff) frameworks like JAX allow computing derivatives of arbitrary Python functions. This thesis applies these techniques to radio propagation modeling, a domain important for wireless communications and 5G/6G network design.
+
+**Tags**: `#differentiable ray tracing`, `#radio propagation`, `#automatic differentiation`, `#machine learning`, `#wireless communications`
+
+---
+
+<a id="item-11"></a>
+## [MIRA: A 5B Parameter World Model for Multiplayer Rocket League Simulation](https://www.reddit.com/r/MachineLearning/comments/1upofuw/mira_multiplayer_interactive_world_models_trained/) ⭐️ 8.0/10
+
+MIRA is a 5-billion-parameter world model trained on 10,000 hours of synthetic Rocket League gameplay for multiplayer interactive simulation. It runs at 20 frames per second for 4 players on a single NVIDIA B200 GPU, and a playable demo, technical report, dataset, and code have been released. This represents a significant advance in large-scale world models for multi-agent interactive environments, with potential applications in game AI, simulation, and reinforcement learning. The open release of model, demo, and data enables broad community experimentation and accelerates research in interactive world modeling. The model has 5 billion parameters and was trained on synthetic data generated by Rocket League bots to avoid privacy concerns. It supports up to 4 players simultaneously and runs at 20 fps on a B200, though performance may vary on other hardware.
+
+reddit · r/MachineLearning · /u/MasterScrat · Jul 7, 07:59
+
+**Background**: A world model is a machine learning system that learns an internal representation of an environment and can predict future states given actions. Unlike simple generative models, world models simulate dynamics such as physics and agent interactions, enabling planning and reinforcement learning. This work builds on prior world model research but scales to a complex multiplayer scenario with strict real-time requirements.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/XAI_(company)">SpaceXAI - Wikipedia</a></li>
-<li><a href="https://www.businessinsider.com/xai-rebrand-spacexai-new-logo-x-handle-spacex-2026-7">XAI Rebrands to SpaceXAI With New Logo, X Handle, Under SpaceX - Business Insider</a></li>
-<li><a href="https://timesofindia.indiatimes.com/technology/tech-news/elon-musks-xai-rebrands-to-spacexai-unveils-new-logo/articleshow/132228745.cms">Elon Musk's xAI rebrands to SpaceXAI, unveils new logo - The Times of India</a></li>
+<li><a href="https://en.wikipedia.org/wiki/World_model_(artificial_intelligence)">World model (artificial intelligence)</a></li>
 
 </ul>
 </details>
 
-**Discussion**: No community comments were provided for this news item.
+**Tags**: `#world models`, `#reinforcement learning`, `#multiplayer AI`, `#Rocket League`, `#large-scale models`
 
-**Tags**: `#AI`, `#Elon Musk`, `#SpaceX`, `#xAI`, `#corporate restructuring`
+---
+
+<a id="item-12"></a>
+## [Defending Fine-Tuning Poisoning with Trusted LoRA Adapter Subspaces](https://www.reddit.com/r/MachineLearning/comments/1uq68li/what_if_a_model_could_only_learn_what_trusted/) ⭐️ 8.0/10
+
+A new paper proposes constraining fine-tuning updates to a subspace spanned by trusted LoRA adapters, preventing the model from learning malicious behaviors introduced by poisoned data. This geometric defense offers a novel approach to AI security, making it harder for adversaries to inject backdoors during fine-tuning, which is critical for safety in customized models. The approach was tested on 196 public LoRA adapters and showed significant reduction in attack success while preserving adaptation performance, even against adaptive attacks designed to bypass the defense.
+
+reddit · r/MachineLearning · /u/Bright_Warning_8406 · Jul 7, 20:00
+
+**Background**: Fine-tuning large language models on external data can introduce backdoors if poisoned samples are present. LoRA (Low-Rank Adaptation) is a parameter-efficient fine-tuning technique that learns low-rank updates. This work leverages a trusted set of LoRA adapters to define a geometric subspace that constrains possible model updates, making malicious directions unreachable.
+
+**Tags**: `#machine learning`, `#LoRA`, `#adversarial robustness`, `#fine-tuning`, `#security`
+
+---
+
+<a id="item-13"></a>
+## [Google Adds 'Save Media' Setting for AI Training Data](https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/) ⭐️ 8.0/10
+
+Google has introduced a new 'Save Media' setting within its Search Service History, which allows images, files, audio, and video uploaded via Google Lens, voice search, and other features to be saved and used to improve Google services and AI models. This change affects millions of users who use Google's visual and voice search features, as their media may now contribute to AI training unless they opt out. It highlights the ongoing tension between user privacy and the data needs of AI development. Users can opt out by turning off 'Save Media' in their Google Account's Search Service History settings. The setting covers media from Google Lens, Search Live, voice search, and translation speaking exercises.
+
+telegram · zaihuapd · Jul 7, 04:00
+
+**Background**: Google uses vast amounts of data to train its AI models, including search queries and media uploads. Features like Google Lens allow users to search using images, and voice search enables queries via speech. Previously, this media may have been used for training without explicit notice; the new setting provides clearer control.
+
+**Tags**: `#Google`, `#AI training`, `#privacy`, `#search`, `#settings`
+
+---
+
+<a id="item-14"></a>
+## [China Plans $295B National Computing Network](https://t.me/zaihuapd/42399) ⭐️ 8.0/10
+
+China announced a plan to invest approximately 2 trillion yuan ($295 billion) over five years to build a nationwide interconnected data center network, prioritizing domestic AI chips from suppliers like Huawei to reduce dependence on US companies such as Nvidia and AMD. This massive state-led initiative aims to integrate fragmented regional computing resources into a unified network, making high-performance computing more accessible to businesses and the public, while advancing China's semiconductor self-sufficiency and AI infrastructure independence from the US. State-owned telecom operators such as China Telecom and China Unicom will run the primary facilities, and at least 80% of the AI chips used are expected to be from domestic suppliers. The plan is a key part of Beijing's broader 'six networks' infrastructure strategy.
+
+telegram · zaihuapd · Jul 7, 04:45
+
+**Background**: China's 'six networks' infrastructure plan aims to build advanced nationwide systems for transportation, energy, water, communications, computing, and cybersecurity. Previously, computing resources in China were fragmented across regions and providers, making it difficult for enterprises to access large-scale computing power. The new initiative seeks to create a unified market, with telecom operators already offering 'token packages' that sell computing power like mobile data.
+
+**Tags**: `#AI infrastructure`, `#China tech`, `#semiconductors`, `#data centers`, `#geopolitics`
+
+---
+
+<a id="item-15"></a>
+## [Anthropic Releases Claude Sonnet 5 with Strong Agentic Capabilities](https://t.me/zaihuapd/42404) ⭐️ 8.0/10
+
+Anthropic has released Claude Sonnet 5, a new AI model with enhanced agentic capabilities, including planning and using tools like browsers and terminals autonomously. This release marks a significant advancement in agentic AI models, offering performance close to top-tier models like Opus at a lower price, potentially making sophisticated AI assistants more accessible to developers and businesses. Claude Sonnet 5 is available immediately across all plans and becomes the default model for Free and Pro tiers. Pricing is set at $2 per million input tokens, with the output token price not fully disclosed in the announcement.
+
+telegram · zaihuapd · Jul 7, 09:02
+
+**Background**: Claude Sonnet is a family of AI models developed by Anthropic, known for balancing performance and cost. Agentic capabilities refer to the model's ability to autonomously plan and execute tasks using external tools, such as web browsers or command-line interfaces, without direct step-by-step human guidance.
+
+**Tags**: `#Claude`, `#Anthropic`, `#LLM`, `#agentic`, `#AI model`
+
+---
+
+<a id="item-16"></a>
+## [Nvidia Blackwell Wafers Made in US, but Packaged in Taiwan](https://www.tomshardware.com/tech-industry/nvidia-and-intel-tout-chips-built-in-america-but-every-arizona-made-blackwell-die-is-still-packaged-in-taiwan) ⭐️ 8.0/10
+
+TSMC's Arizona Fab 21 has begun mass production of Nvidia Blackwell wafers using the custom 4NP process, but the wafers are shipped to Taiwan for cutting, stacking, and CoWoS-L advanced packaging. This exposes a critical bottleneck in the US semiconductor supply chain: despite domestic wafer production, advanced packaging infrastructure remains concentrated in Taiwan, creating geopolitical and supply chain risks. The wafers travel approximately 7,000 miles to Taiwan for packaging, and the US currently lacks facilities for HBM production or packaging. Companies like Amkor, TSMC, and SK Hynix are building capacity, but a fully domestic supply chain is not expected until 2028-2029.
+
+telegram · zaihuapd · Jul 7, 09:47
+
+**Background**: Advanced packaging, such as CoWoS-L (Chip-on-Wafer-on-Substrate with Local Silicon Interconnect), is crucial for high-performance computing chips like Nvidia's Blackwell, as it stacks multiple dies together. The US has focused on logic manufacturing but lagged in packaging infrastructure, which remains heavily centered in Taiwan.
+
+**Tags**: `#semiconductor`, `#supply chain`, `#NVIDIA`, `#advanced packaging`, `#Taiwan`
+
+---
+
+<a id="item-17"></a>
+## [DeepSeek Develops Own AI Chip to Reduce Reliance on Nvidia and Huawei](https://www.reuters.com/world/china/chinas-deepseek-developing-its-own-ai-chip-sources-say-2026-07-07/) ⭐️ 8.0/10
+
+DeepSeek, a Chinese AI company, has started developing its own AI chip focused on inference, aiming to reduce reliance on Nvidia and Huawei chips. The project began about a year ago and is still in early stages, with the company recruiting chip design engineers and engaging with suppliers. This move is significant as it could reduce DeepSeek's vulnerability to US export controls that restrict access to advanced chips from Nvidia and Huawei. If successful, it may also influence the broader AI hardware landscape in China and reduce dependence on foreign suppliers. The chip is designed specifically for inference, the stage where trained models generate responses, rather than for training. DeepSeek has been quietly hiring chip design engineers in recent months and has begun contacting chip design, foundry, and memory companies.
+
+telegram · zaihuapd · Jul 7, 11:08
+
+**Background**: DeepSeek previously relied on Nvidia H800 and Huawei Ascend chips for its models. US export controls have restricted access to advanced semiconductors, posing challenges for Chinese AI companies. Company founder Liang Wenfeng acknowledged in a rare 2024 interview that chip controls are a challenge.
+
+**Tags**: `#AI chips`, `#DeepSeek`, `#semiconductor`, `#geopolitics`, `#AI hardware`
+
+---
+
+<a id="item-18"></a>
+## [Claude Fable 5 relaunch with reduced quotas and safety issues](https://t.me/zaihuapd/42415) ⭐️ 8.0/10
+
+Anthropic's flagship model Claude Fable 5 has been relaunched after the US lifted export restrictions, but with reduced usage quotas for subscribers and a transition to pay-per-use billing starting July 7. This change directly impacts developers relying on Claude for coding tasks, as the new safety filters cause frequent false positives on legitimate code, undermining productivity and trust in the model. Pro and Max subscribers can only use 50% of their weekly quota for Claude Fable 5 until July 7, after which the model will no longer be included in subscriptions. The model automatically downgrades when processing low-level code in C/C++, Rust, or when keywords like 'vulnerability' or 'hook' appear.
+
+telegram · zaihuapd · Jul 7, 18:01
+
+**Background**: Claude Fable 5 is the latest iteration of Anthropic's large language model, known for its strong performance in coding and reasoning. The US government had previously imposed export controls on the model, which were recently lifted, allowing the relaunch. The new restrictive safety measures are likely responses to regulatory pressure but have frustrated developers.
+
+**Discussion**: Developers widely criticize the exaggerated safety thresholds, reporting that even harmless code triggers the model's downgrade, making it less useful for practical programming tasks. Many express frustration that Anthropic prioritizes safety over usability, especially without clear communication about the changes.
+
+**Tags**: `#Claude`, `#AI model`, `#safety`, `#developer experience`, `#pricing`
 
 ---
 

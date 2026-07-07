@@ -5,224 +5,332 @@ date: 2026-07-07
 lang: zh
 ---
 
-> 从 37 条内容中筛选出 9 条重要资讯。
+> 从 44 条内容中筛选出 18 条重要资讯。
 
 ---
 
-1. [Anthropic 发现语言模型中的全局工作空间](#item-1) ⭐️ 9.0/10
-2. [OpenWrt One：开源硬件路由器发布](#item-2) ⭐️ 8.0/10
-3. [GLM 5.2 与即将到来的人工智能利润崩溃](#item-3) ⭐️ 8.0/10
-4. [微软重置 Xbox 战略引发讨论](#item-4) ⭐️ 8.0/10
-5. [腾讯发布 Hy3：295B MoE 模型，21B 激活参数，Apache 2.0](#item-5) ⭐️ 8.0/10
-6. [TRACE：开源层级记忆系统助力 LLM 代理在 EventQA 上达到 82.5%](#item-6) ⭐️ 8.0/10
-7. [B 站向开源项目 BiliRoaming 发送律师函](#item-7) ⭐️ 8.0/10
-8. [中国计划建造小行星防御系统](#item-8) ⭐️ 8.0/10
-9. [马斯克解散 xAI，以 SpaceXAI 品牌并入 SpaceX](#item-9) ⭐️ 8.0/10
+1. [腾讯发布 Hy3：295B 参数 MoE 模型性能超越更大模型](#item-1) ⭐️ 9.0/10
+2. [Januscape：KVM 虚拟机逃逸漏洞影响 Intel 和 AMD](#item-2) ⭐️ 9.0/10
+3. [中国可能限制顶尖 AI 模型对外出口](#item-3) ⭐️ 9.0/10
+4. [Kokoro：高质量、对 CPU 友好的文本转语音模型](#item-4) ⭐️ 8.0/10
+5. [欧盟聊天控制提案威胁加密与隐私](#item-5) ⭐️ 8.0/10
+6. [欧盟强制所有新车安装驾驶员监控摄像头](#item-6) ⭐️ 8.0/10
+7. [微软解雇 id Software 的 idTech 团队](#item-7) ⭐️ 8.0/10
+8. [欧盟议会程序性投票推进聊天控制法案](#item-8) ⭐️ 8.0/10
+9. [sqlite-utils 4.0 增加数据库模式迁移功能](#item-9) ⭐️ 8.0/10
+10. [用于无线电传播建模的可微分光线追踪博士论文](#item-10) ⭐️ 8.0/10
+11. [MIRA：50 亿参数多人火箭联盟世界模型](#item-11) ⭐️ 8.0/10
+12. [使用可信 LoRA 适配器子空间防御微调投毒](#item-12) ⭐️ 8.0/10
+13. [谷歌新增“保存媒体”设置，用于 AI 训练](#item-13) ⭐️ 8.0/10
+14. [中国计划投入 2 万亿元建设全国算力网络](#item-14) ⭐️ 8.0/10
+15. [Anthropic 发布 Claude Sonnet 5，具备强大代理能力](#item-15) ⭐️ 8.0/10
+16. [英伟达 Blackwell 晶圆美国制造，但封装仍需台湾](#item-16) ⭐️ 8.0/10
+17. [DeepSeek 自研芯片减少对英伟达华为依赖](#item-17) ⭐️ 8.0/10
+18. [Claude Fable 5 重新上线，额度减少且安全误判频发](#item-18) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Anthropic 发现语言模型中的全局工作空间](https://www.anthropic.com/research/global-workspace) ⭐️ 9.0/10
+## [腾讯发布 Hy3：295B 参数 MoE 模型性能超越更大模型](https://simonwillison.net/2026/Jul/6/hy3/#atom-everything) ⭐️ 9.0/10
 
-Anthropic 的研究在大语言模型中发现了一个名为 J-space 的共享推理子空间，它通过整合不同上下文和任务中的信息，功能类似于全局工作空间。 这是 AI 可解释性方面的突破，揭示了一个统一的内部表示空间，有助于提升模型理解和控制。它也重新引发了关于 AI 意识的讨论，尽管比较仍属推测。 J-space 是通过信息几何中的雅可比方法识别的，并不直接出现在模型输出中。Neel Nanda 在开源权重模型上的独立复现支持了这些发现。
+腾讯发布了 Hy3，这是一个 295B 参数的混合专家（MoE）模型，仅有 21B 活跃参数，采用宽松的 Apache 2.0 许可证。该模型性能超越同等规模模型，并可媲美参数规模大 2-5 倍的模型。 此次发布通过提供来自大型科技公司的高效强大模型，极大地推动了开源 AI 的发展。Apache 2.0 许可证允许广泛的商业和研究使用，可能加速产品和应用中的采用。 完整模型在 Hugging Face 上为 598GB，另有 300GB 的 FP8 量化版本。它支持 256K token 的上下文长度，并在 OpenRouter 上免费提供至 7 月 21 日。
 
-hackernews · in-silico · 7月6日 17:44 · [社区讨论](https://news.ycombinator.com/item?id=48808002)
+rss · Simon Willison · 7月6日 23:57
 
-**背景**: 全局工作空间理论（GWT）由 Bernard Baars 于 1988 年提出，是一种意识认知架构，假设存在一个中央工作空间，来自多个专用处理器的信息在此整合并广播。在 AI 中，可解释性研究旨在逆向工程神经网络以理解其内部表示。
+**背景**: 混合专家（MoE）模型使用门控机制，对每个输入 token 仅激活一部分参数，从而在保持较低计算成本的同时实现大量总参数。总参数与活跃参数的比率（此处为 295B 对 21B）使得模型既强大又高效。这是与始终激活所有参数的密集模型相比的关键优势。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Global_workspace_theory_(GWT)">Global workspace theory (GWT)</a></li>
-<li><a href="https://www.lesswrong.com/posts/zFJ3ZdQwrTWE9jT5S/a-review-of-anthropic-s-global-workspace-paper">A Review of Anthropic's Global Workspace Paper</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mixture_of_experts">Mixture of experts - Wikipedia</a></li>
+<li><a href="https://huggingface.co/blog/moe">Mixture of Experts Explained</a></li>
+<li><a href="https://www.ibm.com/think/topics/mixture-of-experts">What is mixture of experts? | IBM</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论从对模型控制潜在改进的兴奋，到对意识类比的怀疑。一些用户指出一个实际现象：询问 LLM 关于密歇根乐队的问题会得到错误答案，表明全局工作空间可能并未完美统一所有知识。
-
-**标签**: `#language models`, `#interpretability`, `#AI research`, `#global workspace`, `#neural networks`
+**标签**: `#AI`, `#machine learning`, `#model release`, `#Mixture-of-Experts`, `#Tencent`
 
 ---
 
 <a id="item-2"></a>
-## [OpenWrt One：开源硬件路由器发布](https://openwrt.org/toh/openwrt/one) ⭐️ 8.0/10
+## [Januscape：KVM 虚拟机逃逸漏洞影响 Intel 和 AMD](https://github.com/V4bel/Januscape) ⭐️ 9.0/10
 
-OpenWrt 项目发布了 OpenWrt One，这是一款预装 OpenWrt 固件的开源单板路由器，售价 89 美元，支持双频 Wi-Fi 6，配备两个以太网端口和三个 USB 端口。 这标志着 OpenWrt 项目首次推出自有硬件，为网络爱好者提供了一个完全开放且对开发者友好的平台。同时，这也预示着开源网络硬件趋势的增长，Wi-Fi 7 版本已在开发中。 OpenWrt One 被设计为 OpenWrt 固件的参考硬件平台，注重可破解性和可复制性。它具备双频 Wi-Fi 6、两个千兆以太网端口和三个 USB 3.0 端口，售价 89 美元。
+研究人员公开了 Januscape（CVE-2026-53359），这是首个能在 Intel 和 AMD 平台上触发的 KVM/x86 虚拟机逃逸漏洞。该漏洞源于 shadow MMU 模拟中的 use-after-free 缺陷，客户机可破坏宿主机内核的 shadow page 表。 该漏洞直接破坏了公有云等多租户 KVM 宿主机的隔离边界，对云安全构成严重威胁。其潜伏 16 年意味着大量运行 2010 年至 2026 年 6 月期间 Linux 内核的系统受到影响。 PoC 代码已发布，可在客户机内触发宿主机内核 panic。此外，在 RHEL 等发行版中，本地普通用户还可利用该缺陷提权至 root。
 
-hackernews · peter_d_sherman · 7月6日 18:23 · [社区讨论](https://news.ycombinator.com/item?id=48808482)
+telegram · zaihuapd · 7月7日 10:14
 
-**背景**: OpenWrt 是一种广泛使用的路由器开源固件，提供高级功能和比厂商补丁更长的支持周期。OpenWrt One 是 OpenWrt 项目推出的首款官方硬件，提供了一个原生运行 OpenWrt 的开发者友好设备。它填补了用户对完全开放且受支持的硬件平台的需求。
+**背景**: KVM 使用 shadow MMU 通过维护 shadow page 表将客户机虚拟地址直接映射到宿主机物理地址，从而实现客户机页表的虚拟化。Use-after-free 漏洞是指程序在内存已被释放后仍访问该内存，可能导致数据损坏或任意代码执行。Shadow MMU 复杂的内存管理使其容易受到此类漏洞的影响。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://openwrt.org/toh/openwrt/one">[ OpenWrt Wiki] OpenWrt One</a></li>
-<li><a href="https://www.tomshardware.com/networking/open-source-openwrt-one-router-released-at-usd89-hacker-friendly-device-sports-two-ethernet-ports-three-usb-ports-with-dual-band-wi-fi-6">Open-source OpenWrt One router released at $89 — 'hacker ...</a></li>
-<li><a href="https://grokipedia.com/page/OpenWrt_One">OpenWrt One</a></li>
+<li><a href="https://docs.kernel.org/virt/kvm/x86/mmu.html">The x86 kvm shadow mmu — The Linux Kernel documentation</a></li>
+<li><a href="https://learn.snyk.io/lesson/use-after-free/">Use after free vulnerability | Tutorial & Examples | Snyk Learn</a></li>
+<li><a href="https://www.automox.com/blog/vulnerability-definition-use-after-free">What Is a Use-After-Free Vulnerability? | Automox</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区成员称赞 OpenWrt One 是向前迈出的可喜一步，有人已购买它来替换不可靠的商业路由器。讨论包括对即将推出的 Wi-Fi 7 版本（OpenWrt Two）的兴奋，以及与 Banana Pi R3 等其他开源硬件的比较。部分用户指出 OpenWrt 的安装和升级可能复杂，文档还需改进。
-
-**标签**: `#openwrt`, `#open hardware`, `#networking`, `#router`, `#wifi`
+**标签**: `#security`, `#vulnerability`, `#virtualization`, `#KVM`, `#cloud`
 
 ---
 
 <a id="item-3"></a>
-## [GLM 5.2 与即将到来的人工智能利润崩溃](https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/) ⭐️ 8.0/10
+## [中国可能限制顶尖 AI 模型对外出口](https://www.reuters.com/world/beijing-is-looking-curbing-overseas-access-chinas-top-ai-models-sources-say-2026-07-07/) ⭐️ 9.0/10
 
-Z.ai 于 2026 年 6 月发布了 GLM 5.2，这是一个开源权重的模型，在代理任务上以 15-20%的成本媲美 Opus 和 GPT 等专有模型，可能引发 AI 推理利润的崩溃。 这可能使 AI 推理商品化，挤压 AI 公司的利润，同时让先进的 AI 更易于获取，并提出关于 AI 模型定价经济学的根本问题。 GLM 5.2 拥有 100 万 token 的上下文窗口、MIT 许可证，专为长期代理工作流设计，是首个被认为能与顶级专有系统真正竞争的开源权重模型。
+中国商务部已召集阿里巴巴、字节跳动和智谱等企业开会，讨论限制国内最先进 AI 模型（包括尚未发布的模型）向海外提供访问。 若此政策落地，将大幅改变全球 AI 格局，限制中国 AI 技术的传播，可能加速中西 AI 生态系统的割裂。 限制可能仅适用于未来发布的模型，范围仍在讨论中，最终是否落地尚不确定。会议还考虑将 AI 核心技术泄露或窃取纳入国家安全法治罪。
 
-hackernews · martinald · 7月6日 20:14 · [社区讨论](https://news.ycombinator.com/item?id=48809877)
+telegram · zaihuapd · 7月7日 11:42
 
-**背景**: AI 模型通常是专有的且昂贵，像 OpenAI 和 Anthropic 这样的公司收取高额推理费用。开源权重模型允许任何人低成本运行模型，从而压低价格。利润崩溃指的是激烈竞争迫使价格接近成本、消除利润的情景。
+**背景**: 技术出口管制是国家安全常用的工具，AI 模型被视为具有民用和军事双重用途的技术。中国在 AI 领域快速进步，已开发出与美国相媲美的模型，限制海外访问可保护国内优势并防止技术转移到竞争对手。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/">GLM 5.2 and the coming AI margin collapse (part 1)</a></li>
-<li><a href="https://openrouter.ai/z-ai/glm-5.2">GLM 5 . 2 - API Pricing & Benchmarks | OpenRouter</a></li>
-<li><a href="https://letsdatascience.com/news/glm-52-compresses-ai-inference-margins-and-costs-06799e97">GLM 5.2 Compresses AI Inference Margins and Costs</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者争论原始成本是否重要，一些人认为生态锁定和质量差异保护了利润，而另一些人则指出结构性 token 税和中国公司的竞争压力阻止了合谋。
-
-**标签**: `#AI`, `#economics`, `#GLM`, `#margins`, `#industry-trends`
+**标签**: `#AI policy`, `#China`, `#technology export control`, `#AI regulation`, `#national security`
 
 ---
 
 <a id="item-4"></a>
-## [微软重置 Xbox 战略引发讨论](https://news.xbox.com/en-us/2026/07/06/resetting-xbox/) ⭐️ 8.0/10
+## [Kokoro：高质量、对 CPU 友好的文本转语音模型](https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/) ⭐️ 8.0/10
 
-2026 年 7 月 6 日，微软宣布对其 Xbox 部门进行重组，包括“重置”平台以及组织调整，Mojang 和 King 将直接向 CEO 汇报，且不会取消任何第一方游戏。 这一公告凸显了微软游戏业务尽管季度收入达 50 亿美元，但仍面临盈利挑战，并引发了社区对其战略（尤其是 Game Pass 和收购驱动增长）的争论。 重置措施包括不取消已公布的第一方项目，并将 Mojang 和 King 提升为平台部门，因为它们拥有庞大的月活跃玩家基数。
+Kokoro，一个拥有 8200 万参数的开源权重文本转语音模型，已发布，能够在不依赖 GPU 的情况下，在 CPU 上高效运行，实现高质量语音合成。 这使得没有强大 GPU 的用户也能使用本地、私密且易于使用的文本转语音功能，降低了无障碍产品、内容消费和语音界面的门槛。 Kokoro 基于 StyleTTS 2 架构构建，支持手动 IPA 发音标注，但在单字发音和同形异义词上可能表现不佳。
 
-hackernews · dijksterhuis · 7月6日 14:18 · [社区讨论](https://news.ycombinator.com/item?id=48804993)
+hackernews · speckx · 7月7日 18:24 · [社区讨论](https://news.ycombinator.com/item?id=48821576)
 
-**背景**: 微软的 Xbox 部门历史上尽管收入高，但利润率一直较低，部分原因在于成本高昂的 Game Pass 订阅模式和像动视暴雪这样的大型收购。整个游戏行业在平衡艺术开发与企业盈利方面面临挑战，这种张力在社区关于微软方法的讨论中得到了凸显。
+**背景**: 文本转语音（TTS）模型通常需要强大的 GPU 才能实现高质量输出，限制了本地部署。Kokoro 仅 8200 万参数，就能达到与更大模型相当的质量，同时速度更快且对 CPU 友好，非常适合离线使用。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://news.xbox.com/en-us/2026/07/06/resetting-xbox/">Resetting XBOX - XBOX Wire</a></li>
-<li><a href="https://news.xbox.com/en-us/2026/06/10/next-100-days-xbox-reset/">Next 100 Days: XBOX Reset - XBOX Wire</a></li>
+<li><a href="https://kokorottsai.com/">Kokoro TTS: Advanced AI Text-to-Speech Model with 82M parameters</a></li>
+<li><a href="https://github.com/hexgrad/kokoro">GitHub - hexgrad/kokoro: https://hf.co/hexgrad/Kokoro-82M · GitHub</a></li>
+<li><a href="https://huggingface.co/hexgrad/Kokoro-82M">hexgrad/Kokoro-82M · Hugging Face</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者表达了不同观点：一些人批评微软的管理文化以及对游戏开发作为艺术缺乏理解，另一些人则指出盈利问题，并认为任天堂在简单专注的游戏上取得的成功是一个反例。也有人对受影响的员工表示同情，并呼吁让工作室独立。
+**社区讨论**: 社区成员分享了使用 Kokoro 进行无障碍应用的积极经验，有用户创建了自改进的语音输入系统（voiceio），还有用户开发了用于网页阅读的 Chrome 扩展。用户提到可以添加 IPA 发音标注，但偶尔在同形异义词和短句上存在不准确的情况。
 
-**标签**: `#Xbox`, `#Microsoft`, `#gaming`, `#business strategy`, `#community discussion`
+**标签**: `#TTS`, `#accessibility`, `#local AI`, `#CPU-friendly`, `#open-source`
 
 ---
 
 <a id="item-5"></a>
-## [腾讯发布 Hy3：295B MoE 模型，21B 激活参数，Apache 2.0](https://simonwillison.net/2026/Jul/6/hy3/#atom-everything) ⭐️ 8.0/10
+## [欧盟聊天控制提案威胁加密与隐私](https://fightchatcontrol.eu/chat-control-overview) ⭐️ 8.0/10
 
-腾讯发布了 Hy3，这是一个 2950 亿参数的混合专家（MoE）语言模型，拥有 210 亿激活参数，并以宽松的 Apache 2.0 许可证在 Hugging Face 上提供。 此次发布意义重大，因为 Hy3 的性能可与参数规模大 2-5 倍的旗舰开源模型相媲美，有望降低在商业和研究环境中部署高性能 LLM 的门槛。 Hy3 支持 256K token 的上下文窗口，包含一个 38 亿参数的多 token 预测（MTP）层，并在 Hugging Face 上提供完整版（598GB）和 FP8 量化版（300GB）。
+欧盟的聊天控制 1.0 和 2.0 提案旨在强制大规模扫描数字通信中的儿童性虐待材料（CSAM），可能破坏端到端加密。 这可能削弱所有欧盟公民的隐私和安全，为大规模监控树立先例，并削弱全球使用的加密技术。 这些提案包括客户端扫描（CSS），即在用户设备上加密前扫描内容，带来技术和隐私风险。聊天控制 2.0 是包含额外措施的更新版本。
 
-rss · Simon Willison · 7月6日 23:57
+hackernews · gasull · 7月7日 14:23 · [社区讨论](https://news.ycombinator.com/item?id=48818311)
 
-**背景**: 混合专家（MoE）架构每次只激活一部分参数，使得模型总参数量很大，但计算成本与较小的密集模型相当。多 token 预测（MTP）是一种同时预测多个未来 token 的技术，能提升推理效率和训练质量。Apache 2.0 许可证允许自由使用、修改和分发，包括商业应用。
+**背景**: 聊天控制是欧盟于 2022 年提出的一系列旨在打击儿童性虐待材料的规定。它遭到了隐私倡导者、科技公司和专家的强烈反对，他们认为客户端扫描会破坏加密并打开监控的大门。争论的核心在于平衡儿童保护与基本隐私权。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://huggingface.co/blog/moe">Mixture of Experts Explained - Hugging Face</a></li>
-<li><a href="https://arxiv.org/abs/2507.11181">[2507.11181] Mixture of Experts in Large Language Models</a></li>
-<li><a href="https://sebastianraschka.com/llm-architecture-gallery/mtp/">Multi-Token Prediction (MTP) | Sebastian Raschka, PhD</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Chat_Control">Chat Control - Wikipedia</a></li>
+<li><a href="https://fightchatcontrol.eu/">Fight Chat Control - Protect Digital Privacy in the EU</a></li>
+<li><a href="https://www.eff.org/deeplinks/2026/04/eu-parliament-blocks-mass-scanning-our-chats-whats-next">EU Parliament Blocks Mass-Scanning of Our Chats—What's Next? | Electronic Frontier Foundation</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI`, `#open source`, `#MoE`, `#Tencent`, `#large language model`
+**社区讨论**: 评论者担心这些提案过于宽泛，可能导致监控国家。一些人认为，更有针对性地打击特定犯罪者比大规模扫描更有效。其他人则担心对加密消息和儿童照片（如洗澡照片）的影响。
+
+**标签**: `#privacy`, `#encryption`, `#surveillance`, `#EU legislation`, `#CSAM`
 
 ---
 
 <a id="item-6"></a>
-## [TRACE：开源层级记忆系统助力 LLM 代理在 EventQA 上达到 82.5%](https://www.reddit.com/r/MachineLearning/comments/1uoz5jo/trace_opensource_hierarchical_memory_for_llm/) ⭐️ 8.0/10
+## [欧盟强制所有新车安装驾驶员监控摄像头](https://allaboutcookies.org/eu-mandatory-distracted-driver-system) ⭐️ 8.0/10
 
-TRACE，一个面向 LLM 代理的开源层级记忆系统，使用 gpt-oss-20B 模型在 MemoryAgentBench 的 EventQA 精确检索任务上达到 82.5%的 F1 分数，超过了使用 GPT-4o-mini 的 Mem0（37.5%）和 MemGPT（26.2%）。 TRACE 通过将对话历史组织成主题树来解决 LLM 代理的关键限制——扁平记忆，从而实现更高效的检索和推理。其开源发布和强劲的基准测试结果可能加速代理记忆架构的进展。 TRACE 使用带有分支和摘要的层级主题树，而非扁平的 RAG 块，并作为 PyPI 包提供（pip install trace-memory）。评估使用了开源权重的 gpt-oss-20B 与专有 GPT-4o-mini 基线进行比较，作者指出由于成本限制，该对比并非完全公平。
+欧盟现在要求所有销售的新车必须配备驾驶员监控摄像头系统，以检测和防止分心驾驶。 这项法规可能大幅减少因分心驾驶导致的事故，但也引发了驾驶员对隐私和用户体验的担忧。 驾驶员监控系统使用红外摄像头和人工智能追踪驾驶员的面部与眼部运动，一旦检测到分心或困倦就会发出警报。
 
-reddit · r/MachineLearning · /u/PsychologicalDot7749 · 7月6日 14:35
+hackernews · nickslaughter02 · 7月7日 20:50 · [社区讨论](https://news.ycombinator.com/item?id=48823557)
 
-**背景**: LLM 代理在长时间对话中经常因为依赖扁平检索或有限的上下文窗口而出现记忆问题。层级记忆将信息组织成抽象层次，允许代理先导航高层主题再深入细节。MemoryAgentBench 是一个基准测试，旨在评估 LLM 代理在精确检索和冲突解决等任务上的记忆能力。gpt-oss-20B 是 OpenAI 发布的开源权重模型，拥有 21B 参数和 3.6B 活跃参数，针对本地或专门用途进行了优化。
+**背景**: 驾驶员监控系统自 2006 年丰田首次引入以来已存在多年，旨在通过评估驾驶员的警觉性来提高道路安全。欧盟强制令使该技术成为标配，旨在减少每年因分心驾驶导致的数千人死亡。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://pypi.org/project/trace-memory/">trace - memory · PyPI</a></li>
-<li><a href="https://github.com/HUST-AI-HYZ/MemoryAgentBench">GitHub - HUST-AI-HYZ/MemoryAgentBench: Open source code for ...</a></li>
-<li><a href="https://huggingface.co/openai/gpt-oss-20b">openai/gpt-oss-20b · Hugging Face</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Driver_monitoring_system">Driver monitoring system - Wikipedia</a></li>
+<li><a href="https://smarteye.se/solutions/automotive/driver-monitoring-system/">Driver Monitoring System (DMS) - Smart Eye</a></li>
+<li><a href="https://www.nxp.com/applications/DRIVER-MONITORING-SYSTEMS">Driver Monitoring Systems (DMS) and Occupant Monitoring Systems | NXP Semiconductors</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 作者承认评估并非完全受控，因为他们没有足够的预算来使用 OpenAI API 令牌进行相同的骨干网络比较。他们尝试使用 gpt-oss-20B 运行 Mem0，但遇到了 JSON 解析问题，并分享了完整的 JSON 日志以保证透明度。没有提供其他评论。
+**社区讨论**: 社区评论呈现分歧：部分人认为该技术准确且可能救命，另一些人则批评现代汽车日益复杂和侵入性的用户体验，如烦人的车道辅助和限速警告。隐私担忧以及对强制监控的讽刺言论也很常见。
 
-**标签**: `#LLM agents`, `#memory systems`, `#open-source`, `#hierarchical memory`, `#benchmarking`
+**标签**: `#regulation`, `#automotive`, `#privacy`, `#user-experience`, `#EU`
 
 ---
 
 <a id="item-7"></a>
-## [B 站向开源项目 BiliRoaming 发送律师函](https://github.com/yujincheng08/BiliRoaming) ⭐️ 8.0/10
+## [微软解雇 id Software 的 idTech 团队](https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software/) ⭐️ 8.0/10
 
-B 站已向开源 Xposed 模块 BiliRoaming 的维护者发出律师函，要求其停止逆向工程并删除相关代码。该模块可解除 B 站的区域限制并绕过付费内容观看，项目方被要求在 48 小时内回复。 这一法律行动凸显了在线平台与开源社区之间在逆向工程和规避反盗版措施方面日益紧张的关系，可能为中国科技公司如何对修改其客户端软件的第三方项目维权树立先例。 律师函中特别提到了钩取鉴权机制、覆盖付费番剧限制、绕过安全传输锁定以及改写 CDN 回源流量。删除要求涵盖在 GitHub、SourceForge 和 Gitee 上的公开仓库。
+微软解雇了 id Software（《毁灭战士》和《雷神之锤》的开发商）的整个 idTech 引擎团队。此举表明公司正从专有的 idTech 引擎战略转向使用 Unreal Engine 5 开发未来游戏。 这一决定标志着游戏引擎使用的重大整合，可能减少行业的技术多样性。同时引发对微软企业战略的担忧，因为它可能使收购工作室独特的技术文化趋于同质化。 裁员影响到了负责 idTech 引擎的团队，该引擎曾驱动《毁灭战士》（2016）和《毁灭战士：永恒》等标志性游戏。转向 Unreal Engine 5 符合更广泛的行业趋势，但有可能失去 idTech 独有的性能优化优势。
 
-telegram · zaihuapd · 7月6日 08:21
+hackernews · bauc · 7月7日 15:33 · [社区讨论](https://news.ycombinator.com/item?id=48819244)
 
-**背景**: BiliRoaming 是一个 Android 的 Xposed 模块，用于修改 B 站客户端，以解锁区域限制的番剧和付费内容。Xposed 是一个框架，允许用户安装模块，无需修改 APK 文件即可改变系统和应用行为。CDN 回源是指当 CDN 节点未缓存内容时向源服务器获取内容的过程，而 BiliRoaming 通过改写回源流量来绕过限制。
+**背景**: id Software 以其开创性的游戏引擎而闻名，包括 id Tech，该引擎经历了 id Tech 5 和 id Tech 7 等版本演进。微软于 2021 年收购了 id Software 的母公司 ZeniMax。idTech 引擎一直是高性能第一人称射击游戏的基石，以其高效渲染和底层优化著称。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/Xposed-Modules-Repo">Xposed Modules Repository · GitHub</a></li>
-<li><a href="https://help.aliyun.com/zh/cdn/user-guide/back-to-origin-routing-overview">配置回源获取资源策略-回源-CDN-阿里云</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Id_tech_5_engine">Id tech 5 engine</a></li>
 
 </ul>
 </details>
 
-**标签**: `#reverse engineering`, `#open source`, `#legal`, `#DMCA`, `#China`
+**社区讨论**: 社区情绪普遍负面。评论者 ndiddy 认为转向 UE5 使微软能够雇佣更便宜的承包商，但代价是失去内部专长。LarsDu88 批评微软让 Epic Games 垄断游戏引擎，建议开源 idTech。其他人担心游戏开发同质化以及独特技术文化的丧失。
+
+**标签**: `#Microsoft`, `#id Software`, `#game engines`, `#layoffs`, `#Unreal Engine`
 
 ---
 
 <a id="item-8"></a>
-## [中国计划建造小行星防御系统](http://paper.people.com.cn/rmrb/pc/content/202607/06/content_30166956.html) ⭐️ 8.0/10
+## [欧盟议会程序性投票推进聊天控制法案](https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html) ⭐️ 8.0/10
 
-中国正式宣布正在论证构建小行星防御系统，该系统将包括天地一体化监测预警网络，并采用动能撞击和引力牵引两种偏转方法。 这标志着中国首次官方宣布行星防御计划，使中国成为保护地球免受小行星撞击的关键参与者，并可能影响国际空间安全合作格局。 据国家航天局专家李明涛介绍，直径 1 公里以上的近地小行星已发现超过 95%，且百年内无撞击风险；但 140 米级的小行星仅发现约 45%，更小尺寸的发现率更低。
+欧盟议会在程序性投票中推进了有争议的“聊天控制”监控提案，使其进入二读阶段，而修正案需要绝对多数票才能通过。 此事意义重大，因为它可能导致对私人通信的大规模监控，破坏整个欧盟的加密和隐私权。所使用的程序性策略可能绕过民主监督。 周四，修正案或否决需要绝对多数（361 票）才能通过，而批准只需简单多数。由于暑假，许多欧洲议会议员预计缺席，这对支持者有利。
 
-telegram · zaihuapd · 7月6日 13:36
+hackernews · miroljub · 7月7日 15:16 · [社区讨论](https://news.ycombinator.com/item?id=48819008)
 
-**背景**: 动能撞击器是通过航天器撞击小行星来改变其速度的偏转方法，而引力牵引器则利用航天器自身的引力场缓慢改变小行星轨道，无需物理接触。这两种方法都曾被提出用于行星防御，但尚未在真实威胁中测试。中国已初步突破撞击风险预警模型，正开发业务化预警系统。
+**背景**: “聊天控制”是一项欧盟提案，要求消息平台扫描私人消息以查找儿童性虐待材料，批评者称这破坏了端到端加密并实现了大规模监控。尽管遭到公众反对并曾被否决，该提案仍被多次提出。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.universetoday.com/articles/how-to-deflect-an-asteroid-with-todays-technology">How to Deflect an Asteroid with Today's Technology - Universe Today</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Gravity_tractor">Gravity tractor - Wikipedia</a></li>
+**社区讨论**: 评论者持批评态度，指出在暑假前举行投票具有战术优势，因为许多议员会缺席。有人引用让-克洛德·容克关于权利缓慢侵蚀的言论。一位用户提供了议员投票链接，并表示失望。
 
-</ul>
-</details>
-
-**标签**: `#space`, `#planetary defense`, `#asteroid`, `#China`, `#space policy`
+**标签**: `#privacy`, `#EU`, `#surveillance`, `#encryption`, `#policy`
 
 ---
 
 <a id="item-9"></a>
-## [马斯克解散 xAI，以 SpaceXAI 品牌并入 SpaceX](https://x.com/i/status/2074214064746832060) ⭐️ 8.0/10
+## [sqlite-utils 4.0 增加数据库模式迁移功能](https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything) ⭐️ 8.0/10
 
-埃隆·马斯克宣布解散 xAI，并将其重新命名为 SpaceXAI，并入 SpaceX。该更名首次出现在与 Anthropic 的计算合作公告中。 此次公司重组标志着 xAI 作为独立 AI 公司的终结，并表明战略重心转向 SpaceX 生态系统内的 AI 开发，可能影响 AI 行业的竞争格局。 据报道，SpaceX 于 2026 年 2 月收购了 xAI，更名于 2026 年 7 月正式公布，包括新标志和 X 用户名更新。该公司现以 SpaceXAI 名义运营，专注于太空计算和 AI 产品。
+sqlite-utils 4.0 引入了数据库模式迁移、通过新 db.atomic() 方法实现的嵌套事务以及复合外键。 这个主要版本更新解决了 SQLite 数据库管理中的常见痛点，使得演进模式和处理复杂事务更加容易。 迁移使用 sqlite-utils 库在 Python 文件中定义，利用强大的 table.transform() 方法克服了 SQLite 的 ALTER TABLE 的限制。
 
-telegram · zaihuapd · 7月7日 02:30
+rss · Simon Willison · 7月7日 19:32
 
-**背景**: xAI 由埃隆·马斯克于 2023 年创立，旨在开发用于科学发现的 AI，与 OpenAI 等公司竞争。马斯克的航天公司 SpaceX 一直在拓展太空计算领域，此次收购自然地将 AI 与太空技术结合。
+**背景**: sqlite-utils 是一个流行的 Python 库和 CLI 工具，用于操作 SQLite 数据库。模式迁移允许开发者以可控、可重复的方式对数据库模式进行增量更改。新功能建立在现有能力之上，例如创建和转换表，使 sqlite-utils 成为更全面的数据库管理工具。
+
+**标签**: `#sqlite-utils`, `#SQLite`, `#database migrations`, `#Python`, `#Datasette`
+
+---
+
+<a id="item-10"></a>
+## [用于无线电传播建模的可微分光线追踪博士论文](https://www.reddit.com/r/MachineLearning/comments/1upvkp5/phd_thesis_on_differentiable_ray_tracing_for/) ⭐️ 8.0/10
+
+作者发表了以自成一体的教科书形式编写的博士论文，将自动微分与光线追踪相结合用于无线电传播建模，实现了通过复杂物理环境的精确梯度计算。 这项工作将可微分编程与无线传播模拟联系起来，为下一代无线网络设计中的逆问题和机器学习集成开辟了新的可能性。 论文分为三部分，分别涵盖物理基础、算法核心（包括 GPU 加速路径追踪和不连续性平滑技术）以及实际应用（如信道建模和材料校准）。它使用了 JAX 以及 Equinox 和 Optimistix 等库。
+
+reddit · r/MachineLearning · /u/jeertmans · 7月7日 13:45
+
+**背景**: 可微分光线追踪通过使仿真过程可梯度化来扩展传统光线追踪，这对优化和机器学习任务至关重要。自动微分框架如 JAX 允许计算任意 Python 函数的导数。本论文将这些技术应用于无线电传播建模，这是无线通信和 5G/6G 网络设计的重要领域。
+
+**标签**: `#differentiable ray tracing`, `#radio propagation`, `#automatic differentiation`, `#machine learning`, `#wireless communications`
+
+---
+
+<a id="item-11"></a>
+## [MIRA：50 亿参数多人火箭联盟世界模型](https://www.reddit.com/r/MachineLearning/comments/1upofuw/mira_multiplayer_interactive_world_models_trained/) ⭐️ 8.0/10
+
+MIRA 是一个在 10,000 小时合成火箭联盟游戏数据上训练的 50 亿参数世界模型，支持多人互动模拟。它能在单个 NVIDIA B200 GPU 上以 20 帧每秒的速度运行 4 个玩家，并已发布可玩演示、技术报告、数据集和代码。 这代表了多智能体交互环境中大规模世界模型的重要进展，在游戏 AI、仿真和强化学习方面具有潜在应用。模型、演示和数据的开放发布使社区能够广泛实验，并加速交互式世界建模研究。 该模型有 50 亿参数，使用火箭联盟机器人生成的合成数据进行训练以避免隐私问题。它支持最多 4 个玩家同时游玩，在 B200 上以 20 帧每秒运行，但在其他硬件上性能可能有所不同。
+
+reddit · r/MachineLearning · /u/MasterScrat · 7月7日 07:59
+
+**背景**: 世界模型是一种机器学习系统，学习环境的内部表示，并能根据动作预测未来状态。与简单的生成模型不同，世界模型模拟物理和智能体交互等动态，支持规划和强化学习。这项工作建立在之前的世界模型研究基础上，但扩展到具有严格实时要求的复杂多人场景。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/XAI_(company)">SpaceXAI - Wikipedia</a></li>
-<li><a href="https://www.businessinsider.com/xai-rebrand-spacexai-new-logo-x-handle-spacex-2026-7">XAI Rebrands to SpaceXAI With New Logo, X Handle, Under SpaceX - Business Insider</a></li>
-<li><a href="https://timesofindia.indiatimes.com/technology/tech-news/elon-musks-xai-rebrands-to-spacexai-unveils-new-logo/articleshow/132228745.cms">Elon Musk's xAI rebrands to SpaceXAI, unveils new logo - The Times of India</a></li>
+<li><a href="https://en.wikipedia.org/wiki/World_model_(artificial_intelligence)">World model (artificial intelligence)</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 该新闻未提供社区评论。
+**标签**: `#world models`, `#reinforcement learning`, `#multiplayer AI`, `#Rocket League`, `#large-scale models`
 
-**标签**: `#AI`, `#Elon Musk`, `#SpaceX`, `#xAI`, `#corporate restructuring`
+---
+
+<a id="item-12"></a>
+## [使用可信 LoRA 适配器子空间防御微调投毒](https://www.reddit.com/r/MachineLearning/comments/1uq68li/what_if_a_model_could_only_learn_what_trusted/) ⭐️ 8.0/10
+
+一篇新论文提出将微调更新约束在由可信 LoRA 适配器张成的子空间内，从而防止模型学习投毒数据引入的恶意行为。 这种几何防御为 AI 安全提供了一种新思路，使攻击者在微调过程中注入后门变得更加困难，对定制模型的安全性至关重要。 该方法在 196 个公开 LoRA 适配器上进行了测试，结果表明攻击成功率大幅下降，同时保持了适配性能，即使在针对性地设计来绕过防御的适应性攻击下也是如此。
+
+reddit · r/MachineLearning · /u/Bright_Warning_8406 · 7月7日 20:00
+
+**背景**: 在外部数据上微调大型语言模型时，如果存在投毒样本，可能会引入后门。LoRA（低秩适配）是一种参数高效的微调技术，学习低秩更新。该工作利用一组可信的 LoRA 适配器定义了一个几何子空间，约束模型更新的可能范围，使恶意方向变得不可达。
+
+**标签**: `#machine learning`, `#LoRA`, `#adversarial robustness`, `#fine-tuning`, `#security`
+
+---
+
+<a id="item-13"></a>
+## [谷歌新增“保存媒体”设置，用于 AI 训练](https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/) ⭐️ 8.0/10
+
+谷歌在其搜索服务历史记录中新增了“保存媒体”设置，允许通过 Google Lens、语音搜索等功能上传的图片、文件、音频和视频被保存，并用于改进谷歌服务及 AI 模型。 这一变化影响了数百万使用谷歌视觉和语音搜索功能的用户，因为除非用户选择退出，否则他们的媒体数据可能被用于 AI 训练。这凸显了用户隐私与 AI 开发数据需求之间的持续矛盾。 用户可以在谷歌账号的“搜索服务历史记录”设置中关闭“保存媒体”来选择退出。该设置涵盖来自 Google Lens、Search Live、语音搜索和翻译口语练习的媒体。
+
+telegram · zaihuapd · 7月7日 04:00
+
+**背景**: 谷歌使用大量数据来训练其 AI 模型，包括搜索查询和媒体上传。诸如 Google Lens 等功能允许用户通过图片进行搜索，语音搜索则支持通过语音进行查询。此前，这些媒体可能在没有明确通知的情况下被用于训练；新设置提供了更清晰的控制。
+
+**标签**: `#Google`, `#AI training`, `#privacy`, `#search`, `#settings`
+
+---
+
+<a id="item-14"></a>
+## [中国计划投入 2 万亿元建设全国算力网络](https://t.me/zaihuapd/42399) ⭐️ 8.0/10
+
+中国宣布计划未来五年投入约 2 万亿元（2950 亿美元），建设全国互联数据中心网络，优先采用华为等本土供应商的 AI 芯片，以减少对英伟达和 AMD 等美国企业的依赖。 国有电信企业如中国电信和中国联通将运营主要设施，预计使用的 AI 芯片中至少 80%来自国内供应商。该计划是北京“六网”基础设施战略的关键一环。
+
+telegram · zaihuapd · 7月7日 04:45
+
+**背景**: 中国的“六网”基础设施计划旨在建设覆盖交通、能源、水利、通信、算力和网络安全六大领域的全国先进系统。此前，中国的算力资源分散在不同地区和供应商之间，企业难以获取大规模计算能力。新计划旨在打造统一市场，电信运营商已推出“token 套餐”，将算力像移动数据一样打包销售。
+
+**标签**: `#AI infrastructure`, `#China tech`, `#semiconductors`, `#data centers`, `#geopolitics`
+
+---
+
+<a id="item-15"></a>
+## [Anthropic 发布 Claude Sonnet 5，具备强大代理能力](https://t.me/zaihuapd/42404) ⭐️ 8.0/10
+
+Anthropic 发布了 Claude Sonnet 5，这是一款具有增强代理能力的新 AI 模型，能够自主规划并使用浏览器和终端等工具。 此次发布标志着代理式 AI 模型的重要进步，在较低价格下提供接近顶级模型如 Opus 的性能，可能使开发者和企业更容易获得复杂的 AI 助手。 Claude Sonnet 5 即日起面向所有套餐开放，并成为 Free 和 Pro 层级的默认模型。定价为每百万输入 token 2 美元，输出 token 价格在公告中未完全公布。
+
+telegram · zaihuapd · 7月7日 09:02
+
+**背景**: Claude Sonnet 是 Anthropic 开发的一系列 AI 模型，以平衡性能和成本而闻名。代理能力指模型能够自主规划并使用外部工具（如浏览器或命令行界面）执行任务，无需人类逐步指导。
+
+**标签**: `#Claude`, `#Anthropic`, `#LLM`, `#agentic`, `#AI model`
+
+---
+
+<a id="item-16"></a>
+## [英伟达 Blackwell 晶圆美国制造，但封装仍需台湾](https://www.tomshardware.com/tech-industry/nvidia-and-intel-tout-chips-built-in-america-but-every-arizona-made-blackwell-die-is-still-packaged-in-taiwan) ⭐️ 8.0/10
+
+台积电亚利桑那州 Fab 21 已开始量产英伟达 Blackwell 晶圆，采用定制的 4NP 制程，但晶圆需运往台湾完成切割、堆叠和 CoWoS-L 先进封装。 这暴露了美国半导体供应链的关键瓶颈：尽管晶圆可在本土生产，但先进封装设施仍集中在台湾，带来了地缘政治和供应链风险。 晶圆需运往约 7000 英里外的台湾进行封装，美国目前也没有量产或封装 HBM 的设施。Amkor、台积电和 SK 海力士正建设相关产能，但完整的美国本土供应链预计最早要到 2028 至 2029 年形成。
+
+telegram · zaihuapd · 7月7日 09:47
+
+**背景**: 先进封装技术，如 CoWoS-L（基于本地硅互连的晶圆基底芯片封装），对于英伟达 Blackwell 等高性能计算芯片至关重要，因为它将多个芯片堆叠在一起。美国专注于逻辑芯片制造，但在封装基础设施方面落后，该领域仍高度集中在台湾。
+
+**标签**: `#semiconductor`, `#supply chain`, `#NVIDIA`, `#advanced packaging`, `#Taiwan`
+
+---
+
+<a id="item-17"></a>
+## [DeepSeek 自研芯片减少对英伟达华为依赖](https://www.reuters.com/world/china/chinas-deepseek-developing-its-own-ai-chip-sources-say-2026-07-07/) ⭐️ 8.0/10
+
+中国 AI 公司 DeepSeek 已开始自研专注推理阶段的 AI 芯片，旨在减少对英伟达和华为芯片的依赖。该项目约一年前启动，目前仍处于早期阶段，公司正在招募芯片设计工程师并与供应商接洽。 此举意义重大，可减少 DeepSeek 在受美国出口管制限制英伟达和华为先进芯片方面的脆弱性。如果成功，还可能影响中国更广泛的 AI 硬件格局，减少对外国供应商的依赖。 该芯片专为推理阶段设计，即已训练好的模型生成回答的环节，而非训练阶段。近几个月，DeepSeek 已私下大量招募芯片设计工程师，并开始与芯片设计、代工和存储公司接触。
+
+telegram · zaihuapd · 7月7日 11:08
+
+**背景**: DeepSeek 此前依赖英伟达 H800 和华为昇腾芯片运行其模型。美国出口管制限制了先进半导体的获取，给中国 AI 公司带来挑战。公司创始人梁文锋在 2024 年一次罕见采访中承认芯片管制是公司面临的挑战。
+
+**标签**: `#AI chips`, `#DeepSeek`, `#semiconductor`, `#geopolitics`, `#AI hardware`
+
+---
+
+<a id="item-18"></a>
+## [Claude Fable 5 重新上线，额度减少且安全误判频发](https://t.me/zaihuapd/42415) ⭐️ 8.0/10
+
+在美国解除出口管制后，Anthropic 旗舰模型 Claude Fable 5 重新上线，但订阅用户的使用额度大幅缩减，且自 7 月 7 日起将转为按量付费模式。 这一变化直接影响依赖 Claude 进行编码的开发者，新的安全过滤器频繁误判合法代码，降低了生产力和对模型的信任。 Pro 和 Max 订阅用户在 7 月 7 日前仅能使用每周 50%的额度调用 Fable 5，之后该模型将不再包含在订阅中。当处理 C/C++、Rust 等底层代码或出现“漏洞”、“hook”等关键词时，模型会自动降级。
+
+telegram · zaihuapd · 7月7日 18:01
+
+**背景**: Claude Fable 5 是 Anthropic 最新的大型语言模型，以强大的编码和推理能力著称。美国政府此前对该模型实施了出口管制，近期才解除，从而允许重新上线。新的严格安全措施可能是对监管压力的回应，但让开发者感到不满。
+
+**社区讨论**: 开发者普遍批评安全阈值过高，即便无害代码也会触发模型降级，导致实际编程任务中用处降低。许多人表示不满，认为 Anthropic 优先考虑安全性而非可用性，且未清晰沟通变更内容。
+
+**标签**: `#Claude`, `#AI model`, `#safety`, `#developer experience`, `#pricing`
 
 ---
