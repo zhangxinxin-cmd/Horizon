@@ -2,25 +2,30 @@ name: Daily Horizon Summary
 
 on:
   schedule:
-    # GitHub scheduled workflows use UTC. 20:00 UTC is 04:00 Asia/Shanghai;
-    # this intentionally runs early to offset the observed schedule delay.
+    # GitHub scheduled workflows use UTC. 22:00 UTC is 06:00 Asia/Shanghai.
     - cron: '0 22 * * *'
-  workflow_dispatch:      # Allow manual trigger
+  workflow_dispatch:
+
+concurrency:
+  group: daily-horizon-summary
+  cancel-in-progress: false
 
 jobs:
   daily-summary:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Needed to commit changes
+      contents: write
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: '3.12'
 
       - name: Install uv
         uses: astral-sh/setup-uv@v6
@@ -33,8 +38,8 @@ jobs:
 
       - name: Run Horizon
         env:
-          # Map secrets to environment variables expected by config.json
-          # Modify these based on your data/config.github.json provider settings
+          # Horizon source/API credentials. Add these in Settings -> Secrets and variables -> Actions.
+          GITHUB_TOKEN: ${{ github.token }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
@@ -43,15 +48,27 @@ jobs:
           HORIZON_WEBHOOK_URL: ${{ secrets.HORIZON_WEBHOOK_URL }}
         run: uv run horizon --hours 24
 
-      - name: Set current date as environment variable
-        run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+      - name: Set current date
+        run: echo "DATE=$(date +'%Y-%m-%d')" >> "$GITHUB_ENV"
+
+      - name: Commit generated digest files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f docs/latest.json docs/_posts/*.md data/summaries/*.md
+          if git diff --cached --quiet; then
+            echo "No digest changes to commit."
+          else
+            git commit -m "chore: update daily Horizon digest $DATE"
+            git push origin HEAD:main
+          fi
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
-          keep_files: true  # Keep existing summaries on gh-pages branch
-          commit_message: "📝 Daily Summary: ${{ env.DATE }}"
+          keep_files: true
+          commit_message: "Daily Summary: ${{ env.DATE }}"
           publish_branch: gh-pages
           enable_jekyll: true
