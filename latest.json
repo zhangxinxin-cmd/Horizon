@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-07T22:52:47.116053+00:00",
-  "date": "2026-07-07",
-  "total_fetched": 44,
-  "important_count": 18,
+  "generated_at": "2026-07-08T22:57:05.561512+00:00",
+  "date": "2026-07-08",
+  "total_fetched": 37,
+  "important_count": 16,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,301 +10,268 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/07/07/summary-zh.html",
-      "path": "docs/_posts/2026-07-07-summary-zh.md"
+      "url": "2026/07/08/summary-zh.html",
+      "path": "docs/_posts/2026-07-08-summary-zh.md"
     },
     "en": {
-      "url": "2026/07/07/summary-en.html",
-      "path": "docs/_posts/2026-07-07-summary-en.md"
+      "url": "2026/07/08/summary-en.html",
+      "path": "docs/_posts/2026-07-08-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "tencent/Hy3",
-      "title_zh": "腾讯发布Hy3：295B参数MoE模型性能超越更大模型",
-      "title_en": "Tencent Releases Hy3: 295B MoE Model Outperforms Larger Models",
-      "url": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
-      "source": "rss",
-      "score": 9.0,
-      "summary": "Tencent releases Hy3, a 295B-parameter MoE model with 21B active parameters, outperforming larger models and available under Apache 2.0 license.",
-      "tags": [
-        "AI",
-        "machine learning",
-        "model release",
-        "Mixture-of-Experts",
-        "Tencent"
-      ]
-    },
-    {
-      "title": "KVM Januscape 漏洞：虚拟机可逃逸宿主机，潜伏 16 年",
-      "title_zh": "Januscape：KVM 虚拟机逃逸漏洞影响 Intel 和 AMD",
-      "title_en": "Januscape: KVM VM Escape Vulnerability Affects Intel and AMD",
-      "url": "https://github.com/V4bel/Januscape",
-      "source": "telegram",
-      "score": 9.0,
-      "summary": "A newly disclosed KVM/x86 vulnerability (Januscape) allows virtual machine escape from guest to host, affecting both Intel and AMD platforms with a 16-year latent period.",
-      "tags": [
-        "security",
-        "vulnerability",
-        "virtualization",
-        "KVM",
-        "cloud"
-      ]
-    },
-    {
-      "title": "商务部拟限制国产顶尖 AI 模型对外出口",
-      "title_zh": "中国可能限制顶尖AI模型对外出口",
-      "title_en": "China may restrict overseas access to top AI models",
-      "url": "https://www.reuters.com/world/beijing-is-looking-curbing-overseas-access-chinas-top-ai-models-sources-say-2026-07-07/",
-      "source": "telegram",
-      "score": 9.0,
-      "summary": "China's Ministry of Commerce is considering restricting overseas access to top domestic AI models, including future ones, to prevent technology leakage.",
-      "tags": [
-        "AI policy",
-        "China",
-        "technology export control",
-        "AI regulation",
-        "national security"
-      ]
-    },
-    {
-      "title": "Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro",
-      "title_zh": "Kokoro：高质量、对CPU友好的文本转语音模型",
-      "title_en": "Kokoro: High-Quality CPU-Friendly TTS Model",
-      "url": "https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/",
+      "title": "GPT‑Live",
+      "title_zh": "OpenAI 推出 GPT-Live 语音模式，搭载 GPT-5.5",
+      "title_en": "OpenAI Launches GPT-Live Voice Mode with GPT-5.5 Backing",
+      "url": "https://openai.com/index/introducing-gpt-live/",
       "source": "hackernews",
-      "score": 8.0,
-      "summary": "A blog post introduces Kokoro, a high-quality TTS model that runs efficiently on CPU, enabling local text-to-speech without GPU.",
+      "score": 9.0,
+      "summary": "OpenAI introduces GPT-Live, a voice mode that leverages GPT-5.5 for enhanced background reasoning and extended conversations.",
       "tags": [
-        "TTS",
-        "accessibility",
-        "local AI",
-        "CPU-friendly",
-        "open-source"
+        "openai",
+        "gpt-live",
+        "voice-ai",
+        "chatbots",
+        "ai-assistant"
       ]
     },
     {
-      "title": "Chat Control 1.0 and 2.0 Explained",
-      "title_zh": "欧盟聊天控制提案威胁加密与隐私",
-      "title_en": "EU Chat Control Proposals Threaten Encryption and Privacy",
-      "url": "https://fightchatcontrol.eu/chat-control-overview",
+      "title": "EU now one step away from reviving private message scanning rules",
+      "title_zh": "欧盟重启私密信息扫描法规",
+      "title_en": "EU revives private message scanning rules",
+      "url": "https://cyberinsider.com/eu-now-one-step-away-from-reviving-private-message-scanning-rules/",
       "source": "hackernews",
-      "score": 8.0,
-      "summary": "Explains the EU's Chat Control proposals to scan communications for CSAM, raising major privacy and encryption concerns.",
+      "score": 9.0,
+      "summary": "The EU is one step away from reviving legislation that could mandate scanning of private messages, sparking concerns over privacy and encryption.",
       "tags": [
         "privacy",
         "encryption",
-        "surveillance",
         "EU legislation",
-        "CSAM"
-      ]
-    },
-    {
-      "title": "Every new car sold in the European Union must include a driver monitoring camera",
-      "title_zh": "欧盟强制所有新车安装驾驶员监控摄像头",
-      "title_en": "EU mandates driver monitoring cameras in all new cars",
-      "url": "https://allaboutcookies.org/eu-mandatory-distracted-driver-system",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "The EU mandates driver monitoring cameras in all new cars to combat distracted driving, igniting discussions on safety benefits versus privacy and usability concerns.",
-      "tags": [
-        "regulation",
-        "automotive",
-        "privacy",
-        "user-experience",
-        "EU"
-      ]
-    },
-    {
-      "title": "Microsoft fire idTech team at Id software",
-      "title_zh": "微软解雇id Software的idTech团队",
-      "title_en": "Microsoft lays off idTech team at id Software",
-      "url": "https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Microsoft lays off idTech team at id Software, likely shifting to Unreal Engine 5, sparking debate on corporate strategy and engine diversity.",
-      "tags": [
-        "Microsoft",
-        "id Software",
-        "game engines",
-        "layoffs",
-        "Unreal Engine"
-      ]
-    },
-    {
-      "title": "Chat Control passed first round in EU Parliament",
-      "title_zh": "欧盟议会程序性投票推进聊天控制法案",
-      "title_en": "EU Parliament Advances Chat Control in Procedural Vote",
-      "url": "https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "The EU Parliament advanced the controversial Chat Control surveillance proposal in a procedural vote, sparking debate about democratic processes and privacy.",
-      "tags": [
-        "privacy",
-        "EU",
         "surveillance",
-        "encryption",
-        "policy"
-      ]
-    },
-    {
-      "title": "sqlite-utils 4.0, now with database schema migrations",
-      "title_zh": "sqlite-utils 4.0 增加数据库模式迁移功能",
-      "title_en": "sqlite-utils 4.0 adds database schema migrations",
-      "url": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "sqlite-utils 4.0 introduces database schema migrations, nested transactions, and compound foreign keys as its main new features.",
-      "tags": [
-        "sqlite-utils",
-        "SQLite",
-        "database migrations",
-        "Python",
-        "Datasette"
-      ]
-    },
-    {
-      "title": "Ph.D. thesis on Differentiable Ray Tracing for Radio Propagation Modeling [R]",
-      "title_zh": "用于无线电传播建模的可微分光线追踪博士论文",
-      "title_en": "PhD Thesis on Differentiable Ray Tracing for Radio Propagation",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1upvkp5/phd_thesis_on_differentiable_ray_tracing_for/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "A PhD thesis on differentiable ray tracing for radio propagation modeling, written as a self-contained textbook integrating automatic differentiation and ML.",
-      "tags": [
-        "differentiable ray tracing",
-        "radio propagation",
-        "automatic differentiation",
-        "machine learning",
-        "wireless communications"
-      ]
-    },
-    {
-      "title": "MIRA: Multiplayer Interactive World Models trained on Rocket League [R]",
-      "title_zh": "MIRA：50亿参数多人火箭联盟世界模型",
-      "title_en": "MIRA: A 5B Parameter World Model for Multiplayer Rocket League Simulation",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1upofuw/mira_multiplayer_interactive_world_models_trained/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "MIRA is a 5B parameter world model trained on 10k hours of Rocket League data for multiplayer interactive simulation, released with demo and technical report.",
-      "tags": [
-        "world models",
-        "reinforcement learning",
-        "multiplayer AI",
-        "Rocket League",
-        "large-scale models"
-      ]
-    },
-    {
-      "title": "What if a model could only learn what trusted LoRA adapters can express? [R]",
-      "title_zh": "使用可信LoRA适配器子空间防御微调投毒",
-      "title_en": "Defending Fine-Tuning Poisoning with Trusted LoRA Adapter Subspaces",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uq68li/what_if_a_model_could_only_learn_what_trusted/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "Proposes constraining fine-tuning to a subspace from trusted LoRA adapters to prevent learning malicious updates, offering a geometric defense against poisoning.",
-      "tags": [
-        "machine learning",
-        "LoRA",
-        "adversarial robustness",
-        "fine-tuning",
         "security"
       ]
     },
     {
-      "title": "🐶 谷歌新增“保存媒体”设置，Lens 图片和语音搜索等内容可用于 AI 训练",
-      "title_zh": "谷歌新增“保存媒体”设置，用于AI训练",
-      "title_en": "Google Adds 'Save Media' Setting for AI Training Data",
-      "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Google adds a 'Save Media' setting that allows user-uploaded media from Lens, voice search, etc. to be used for AI training, with an opt-out option.",
+      "title": "TypeScript 7",
+      "title_zh": "TypeScript 7.0 发布，处理速度提升高达 12 倍",
+      "title_en": "TypeScript 7.0 Announced with Up to 12x Faster Processing",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "TypeScript 7.0 announced with significant performance improvements (up to 12x faster processing in benchmarks) and new features, generating substantial community engagement and discussion around compatibility and configuration pain points.",
       "tags": [
-        "Google",
-        "AI training",
-        "privacy",
-        "search",
-        "settings"
+        "TypeScript",
+        "performance",
+        "major-release",
+        "programming-language",
+        "compiler"
       ]
     },
     {
-      "title": "中国拟五年投入 2 万亿元建设全国算力网络  中国正计划未来五年投入约 2 万亿元（2950 亿美元），在全国建设互联数据中心网络，由国有电信企业运营主要设施。",
-      "title_zh": "中国计划投入2万亿元建设全国算力网络",
-      "title_en": "China Plans $295B National Computing Network",
-      "url": "https://t.me/zaihuapd/42399",
+      "title": "📱 安卓高危漏洞曝光，点击恶意链接即可远程 Root 全版本安卓设备",
+      "title_zh": "安卓零点击远程Root漏洞链被曝光",
+      "title_en": "Critical Android Zero-Click Remote Root Exploit Chain Discovered",
+      "url": "https://www.coolapk.com/feed/72700258?s=ZGQ2MTVlZjYxMDYyNTM3ZzZhNGUzOThjega1640",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "A security firm disclosed a zero-click remote root vulnerability chain affecting all Android versions up to Android 17, leveraging Firefox and a 15-year-old Linux kernel bug.",
+      "tags": [
+        "Android",
+        "security",
+        "vulnerability",
+        "root",
+        "exploit"
+      ]
+    },
+    {
+      "title": "Chatto is now open source",
+      "title_zh": "Chatto聊天应用正式开源",
+      "title_en": "Chatto Chat Application Goes Open Source",
+      "url": "https://www.hmans.dev/blog/chatto-is-open-source",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Chatto, an easy-to-self-host chat application with per-user encryption, is now open source.",
+      "tags": [
+        "open-source",
+        "chat",
+        "self-hosting",
+        "NATS",
+        "encryption"
+      ]
+    },
+    {
+      "title": "Grok 4.5",
+      "title_zh": "xAI发布Grok 4.5，效率提升4倍",
+      "title_en": "xAI Launches Grok 4.5 with 4x Efficiency Gain",
+      "url": "https://x.ai/news/grok-4-5",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Grok 4.5 is announced, offering 4x better reasoning efficiency than Opus at lower cost, but faces ethical criticism from the community.",
+      "tags": [
+        "AI",
+        "LLMs",
+        "xAI",
+        "Grok",
+        "model release"
+      ]
+    },
+    {
+      "title": "Mistral's Robostral Navigate: a state of the art robotics navigation model",
+      "title_zh": "Mistral 发布 Robostral Navigate，一种无地图导航模型",
+      "title_en": "Mistral Releases Robostral Navigate, a Map-Less Navigation Model",
+      "url": "https://mistral.ai/news/robostral-navigate/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Mistral releases Robostral Navigate, a state-of-the-art robotics navigation model capable of map-less navigation, sparking significant community discussion.",
+      "tags": [
+        "robotics",
+        "navigation",
+        "AI",
+        "Mistral",
+        "map-less"
+      ]
+    },
+    {
+      "title": "OpenBSD has a use-after-free allowing local privilege escalation to root",
+      "title_zh": "OpenBSD 释放后重用漏洞导致本地权限提升至 root",
+      "title_en": "OpenBSD use-after-free vulnerability enables local root privilege escalation",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-57589",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A use-after-free vulnerability in OpenBSD allows local privilege escalation to root.",
+      "tags": [
+        "security",
+        "vulnerability",
+        "OpenBSD",
+        "privilege-escalation",
+        "CVE"
+      ]
+    },
+    {
+      "title": "The classifiers Anthropic puts in front of Fable are too zealous",
+      "title_zh": "Fable分类器过度敏感，误封正常查询",
+      "title_en": "Fable Classifier Overzealously Blocks Legitimate Queries",
+      "url": "https://combine-lab.github.io/blog/2026/07/07/fable-is-not-a-useful-model.html",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Users report that Anthropic's Fable classifier is overly sensitive, incorrectly flagging legitimate technical and scientific queries as violations and downgrading responses.",
+      "tags": [
+        "AI Safety",
+        "Anthropic",
+        "LLM Guardrails",
+        "Model Behavior"
+      ]
+    },
+    {
+      "title": "Cloudflare Meerkat - Globally distributed consensus",
+      "title_zh": "Cloudflare Meerkat：首个生产级异步共识算法",
+      "title_en": "Cloudflare Meerkat: First Production Asynchronous Consensus",
+      "url": "https://blog.cloudflare.com/meerkat-introduction/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Cloudflare introduces Meerkat, a globally distributed consensus algorithm that is the first production implementation of asynchronous consensus (QuePaxa), enabling progress under wild message delays but requiring global consensus for reads.",
+      "tags": [
+        "distributed systems",
+        "consensus algorithm",
+        "cloud computing",
+        "asynchronous consensus",
+        "production implementation"
+      ]
+    },
+    {
+      "title": "LingBot-Video: sparse-MoE video diffusion transformer (13B total, 1.4B active) post-trained as an action-conditioned world model[R]",
+      "title_zh": "LingBot-Video：稀疏专家混合视频扩散世界模型",
+      "title_en": "LingBot-Video: Sparse-MoE Video Diffusion World Model",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ur0bxq/lingbotvideo_sparsemoe_video_diffusion/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "A 13B sparse-MoE video diffusion transformer with RL post-training for action-conditioned world modeling, released openly with community discussion on its evaluation.",
+      "tags": [
+        "sparse MoE",
+        "video diffusion",
+        "world model",
+        "reinforcement learning",
+        "open source"
+      ]
+    },
+    {
+      "title": "Reducing drift in interactive world-model rollouts: a mixed bidirectional/autoregressive attention mask + distillation over long self-rollouts[R]",
+      "title_zh": "混合注意力掩码与蒸馏减少交互式世界模型中的漂移",
+      "title_en": "Mixed attention mask and distillation reduce drift in interactive world models",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ur4hkc/reducing_drift_in_interactive_worldmodel_rollouts/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "Introduces a mixed attention mask and distillation over long self-rollouts to reduce drift in interactive world-model rollouts.",
+      "tags": [
+        "machine learning",
+        "world models",
+        "interactive generation",
+        "attention mechanism",
+        "distillation"
+      ]
+    },
+    {
+      "title": "🤖 DeepSeek 正在自研 AI 芯片，以减少对英伟达和华为的依赖  三位知情人士透露，中国 AI 公司 DeepSeek 正在开发自己的 AI 芯片，旨在",
+      "title_zh": "DeepSeek 自研 AI 推理芯片",
+      "title_en": "DeepSeek Developing Its Own AI Inference Chip",
+      "url": "https://t.me/zaihuapd/42423",
       "source": "telegram",
       "score": 8.0,
-      "summary": "China announces ambitious 2 trillion yuan plan to build a national computing network using mostly domestic AI chips to reduce reliance on US suppliers.",
+      "summary": "DeepSeek is developing its own AI inference chip to reduce reliance on Nvidia and Huawei amid export restrictions.",
       "tags": [
-        "AI infrastructure",
-        "China tech",
-        "semiconductors",
-        "data centers",
+        "AI chips",
+        "DeepSeek",
+        "inference",
+        "semiconductor",
         "geopolitics"
       ]
     },
     {
-      "title": "🤖 Claude Sonnet 5 发布  Anthropic 发布 Claude Sonnet 5，称其是迄今代理能力最强的 Sonnet 模型，可规划、使用",
-      "title_zh": "Anthropic 发布 Claude Sonnet 5，具备强大代理能力",
-      "title_en": "Anthropic Releases Claude Sonnet 5 with Strong Agentic Capabilities",
-      "url": "https://t.me/zaihuapd/42404",
+      "title": "阿里下令全员卸载 Claude，7 月 10 日立即生效  阿里巴巴内部宣布反向禁用 Claude，要求员工卸载 Anthropic 相关产品，包括 Sonne",
+      "title_zh": "阿里下令员工卸载Claude，禁令7月10日生效",
+      "title_en": "Alibaba Orders Employees to Uninstall Claude, Ban Effective July 10",
+      "url": "https://t.me/zaihuapd/42424",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Anthropic releases Claude Sonnet 5, a highly capable agentic model with improvements in reasoning, tool use, and coding, at a lower price than comparable models.",
+      "summary": "Alibaba has ordered all employees to uninstall Claude and other Anthropic products, following Anthropic's accusations of fraudulent account usage.",
       "tags": [
+        "Alibaba",
         "Claude",
         "Anthropic",
-        "LLM",
-        "agentic",
-        "AI model"
+        "AI Security",
+        "Corporate Ban"
       ]
     },
     {
-      "title": "♻️ 英伟达 Blackwell 晶圆已在美国量产，但仍需运往台湾完成先进封装",
-      "title_zh": "英伟达 Blackwell 晶圆美国制造，但封装仍需台湾",
-      "title_en": "Nvidia Blackwell Wafers Made in US, but Packaged in Taiwan",
-      "url": "https://www.tomshardware.com/tech-industry/nvidia-and-intel-tout-chips-built-in-america-but-every-arizona-made-blackwell-die-is-still-packaged-in-taiwan",
+      "title": "📱 Meta 智能眼镜检测到隐私灯被破坏后，将自动关闭摄像头",
+      "title_zh": "Meta智能眼镜若隐私灯被破坏将自动关闭摄像头",
+      "title_en": "Meta smart glasses auto-disable camera if privacy light tampered",
+      "url": "https://www.theverge.com/gadgets/962514/meta-privacy-light-tampering-smart-glasses-update?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6Ik40dk1iWjJvWjMiLCJwIjoiL2dhZGdldHMvOTYyNTE0L21ldGEtcHJpdmFjeS1saWdodC10YW1wZXJpbmctc21hcnQtZ2xhc3Nlcy11cGRhdGUiLCJleHAiOjE3ODM5MDE0MjUsImlhdCI6MTc4MzQ2OTQyNX0.GZUi5dGuIr00bBayHW1_oTfEcfxURMnIKLk2tTpC2To",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Nvidia's Blackwell wafers made in Arizona still require packaging in Taiwan, exposing gaps in US advanced packaging infrastructure.",
+      "summary": "Meta's smart glasses will auto-disable the camera if the privacy light is tampered with, addressing privacy concerns and recording abuse.",
       "tags": [
-        "semiconductor",
-        "supply chain",
-        "NVIDIA",
-        "advanced packaging",
-        "Taiwan"
+        "privacy",
+        "smart glasses",
+        "wearables",
+        "Meta",
+        "security update"
       ]
     },
     {
-      "title": "🤖 DeepSeek 正在自研 AI 芯片，以减少对英伟达和华为的依赖",
-      "title_zh": "DeepSeek自研芯片减少对英伟达华为依赖",
-      "title_en": "DeepSeek Develops Own AI Chip to Reduce Reliance on Nvidia and Huawei",
-      "url": "https://www.reuters.com/world/china/chinas-deepseek-developing-its-own-ai-chip-sources-say-2026-07-07/",
+      "title": "研究人员可通过电磁信号识别手机应用，准确率最高达 99.07%",
+      "title_zh": "研究人员通过电磁信号识别手机应用，准确率达99.07%",
+      "title_en": "Researchers identify smartphone apps via EM signals with 99.07% accuracy",
+      "url": "https://www.scmp.com/news/china/science/article/3359688/chinese-researchers-find-peephole-any-smartphone-its-leaked-radio-signal",
       "source": "telegram",
       "score": 8.0,
-      "summary": "DeepSeek is developing its own AI chip to reduce reliance on Nvidia and Huawei.",
+      "summary": "Researchers demonstrate non-contact identification of smartphone apps via electromagnetic signal leakage with up to 99.07% accuracy.",
       "tags": [
-        "AI chips",
-        "DeepSeek",
-        "semiconductor",
-        "geopolitics",
-        "AI hardware"
-      ]
-    },
-    {
-      "title": "🤖 Claude Fable 5 重新上线后体验缩水，安全误判频发遭开发者吐槽  美国解除出口管制后，Anthropic 旗舰模型 Claude Fable 5",
-      "title_zh": "Claude Fable 5 重新上线，额度减少且安全误判频发",
-      "title_en": "Claude Fable 5 relaunch with reduced quotas and safety issues",
-      "url": "https://t.me/zaihuapd/42415",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Claude Fable 5 relaunches with reduced quotas, pay-per-use model, and over-sensitive safety filters causing false positives in code, drawing developer criticism.",
-      "tags": [
-        "Claude",
-        "AI model",
-        "safety",
-        "developer experience",
-        "pricing"
+        "side-channel attack",
+        "mobile security",
+        "electromagnetic leakage",
+        "forensics",
+        "privacy"
       ]
     }
   ]
