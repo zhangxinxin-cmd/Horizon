@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-08T22:57:05.561512+00:00",
-  "date": "2026-07-08",
-  "total_fetched": 37,
-  "important_count": 16,
+  "generated_at": "2026-07-09T23:03:40.949324+00:00",
+  "date": "2026-07-09",
+  "total_fetched": 40,
+  "important_count": 12,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,268 +10,204 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/07/08/summary-zh.html",
-      "path": "docs/_posts/2026-07-08-summary-zh.md"
+      "url": "2026/07/09/summary-zh.html",
+      "path": "docs/_posts/2026-07-09-summary-zh.md"
     },
     "en": {
-      "url": "2026/07/08/summary-en.html",
-      "path": "docs/_posts/2026-07-08-summary-en.md"
+      "url": "2026/07/09/summary-en.html",
+      "path": "docs/_posts/2026-07-09-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "GPT‑Live",
-      "title_zh": "OpenAI 推出 GPT-Live 语音模式，搭载 GPT-5.5",
-      "title_en": "OpenAI Launches GPT-Live Voice Mode with GPT-5.5 Backing",
-      "url": "https://openai.com/index/introducing-gpt-live/",
+      "title": "GPT-5.6",
+      "title_zh": "OpenAI发布GPT-5.6，在ARC-AGI-3上达到SOTA",
+      "title_en": "OpenAI Releases GPT-5.6, Achieves ARC-AGI-3 SOTA",
+      "url": "https://openai.com/index/gpt-5-6/",
       "source": "hackernews",
       "score": 9.0,
-      "summary": "OpenAI introduces GPT-Live, a voice mode that leverages GPT-5.5 for enhanced background reasoning and extended conversations.",
+      "summary": "OpenAI releases GPT-5.6, a new frontier model achieving SOTA on ARC-AGI-3 with improved intent understanding and image processing.",
       "tags": [
-        "openai",
-        "gpt-live",
-        "voice-ai",
-        "chatbots",
-        "ai-assistant"
+        "GPT-5.6",
+        "OpenAI",
+        "AI model",
+        "ARC-AGI",
+        "frontier model"
       ]
     },
     {
-      "title": "EU now one step away from reviving private message scanning rules",
-      "title_zh": "欧盟重启私密信息扫描法规",
-      "title_en": "EU revives private message scanning rules",
-      "url": "https://cyberinsider.com/eu-now-one-step-away-from-reviving-private-message-scanning-rules/",
+      "title": "EU Parliament greenlights Chat Control 1.0",
+      "title_zh": "欧盟议会通过程序性手段批准聊天控制1.0",
+      "title_en": "EU Parliament Approves Chat Control 1.0 Through Procedural Trick",
+      "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/",
       "source": "hackernews",
       "score": 9.0,
-      "summary": "The EU is one step away from reviving legislation that could mandate scanning of private messages, sparking concerns over privacy and encryption.",
+      "summary": "EU Parliament greenlights Chat Control 1.0, allowing mass scanning of private messages, despite majority opposition, due to a parliamentary trick.",
       "tags": [
         "privacy",
-        "encryption",
-        "EU legislation",
         "surveillance",
-        "security"
+        "EU law",
+        "encryption",
+        "digital rights"
       ]
     },
     {
-      "title": "TypeScript 7",
-      "title_zh": "TypeScript 7.0 发布，处理速度提升高达 12 倍",
-      "title_en": "TypeScript 7.0 Announced with Up to 12x Faster Processing",
-      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
+      "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+      "title_zh": "用Rust重写PostgreSQL，通过全部测试",
+      "title_en": "Postgres rewritten in Rust passes all tests",
+      "url": "https://github.com/malisper/pgrust",
       "source": "hackernews",
       "score": 9.0,
-      "summary": "TypeScript 7.0 announced with significant performance improvements (up to 12x faster processing in benchmarks) and new features, generating substantial community engagement and discussion around compatibility and configuration pain points.",
+      "summary": "A project rewriting PostgreSQL in Rust using LLMs now passes 100% of regression tests, sparking substantial community discussion.",
+      "tags": [
+        "Rust",
+        "PostgreSQL",
+        "database",
+        "LLM",
+        "open-source"
+      ]
+    },
+    {
+      "title": "TypeScript 7.0 正式发布：Go 重写带来最高 12 倍速度提升",
+      "title_zh": "TypeScript 7.0 发布：Go 重写带来最高 12 倍速度提升",
+      "title_en": "TypeScript 7.0 Released with Go Rewrite, Up to 12x Faster",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "TypeScript 7.0 is released with a Go rewrite delivering up to 12x faster builds, supporting parallelization and a new language server.",
       "tags": [
         "TypeScript",
-        "performance",
-        "major-release",
-        "programming-language",
-        "compiler"
+        "Go",
+        "Performance",
+        "Programming Language",
+        "Compiler"
       ]
     },
     {
-      "title": "📱 安卓高危漏洞曝光，点击恶意链接即可远程 Root 全版本安卓设备",
-      "title_zh": "安卓零点击远程Root漏洞链被曝光",
-      "title_en": "Critical Android Zero-Click Remote Root Exploit Chain Discovered",
-      "url": "https://www.coolapk.com/feed/72700258?s=ZGQ2MTVlZjYxMDYyNTM3ZzZhNGUzOThjega1640",
-      "source": "telegram",
-      "score": 9.0,
-      "summary": "A security firm disclosed a zero-click remote root vulnerability chain affecting all Android versions up to Android 17, leveraging Firefox and a 15-year-old Linux kernel bug.",
-      "tags": [
-        "Android",
-        "security",
-        "vulnerability",
-        "root",
-        "exploit"
-      ]
-    },
-    {
-      "title": "Chatto is now open source",
-      "title_zh": "Chatto聊天应用正式开源",
-      "title_en": "Chatto Chat Application Goes Open Source",
-      "url": "https://www.hmans.dev/blog/chatto-is-open-source",
+      "title": "Hy3",
+      "title_zh": "腾讯发布Hy3，一个能力强的小型AI模型",
+      "title_en": "Tencent Releases Hy3, a Capable Small AI Model",
+      "url": "https://hy.tencent.com/research/hy3",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Chatto, an easy-to-self-host chat application with per-user encryption, is now open source.",
-      "tags": [
-        "open-source",
-        "chat",
-        "self-hosting",
-        "NATS",
-        "encryption"
-      ]
-    },
-    {
-      "title": "Grok 4.5",
-      "title_zh": "xAI发布Grok 4.5，效率提升4倍",
-      "title_en": "xAI Launches Grok 4.5 with 4x Efficiency Gain",
-      "url": "https://x.ai/news/grok-4-5",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Grok 4.5 is announced, offering 4x better reasoning efficiency than Opus at lower cost, but faces ethical criticism from the community.",
+      "summary": "Tencent releases Hy3, a small yet capable AI model that has generated buzz with free offers on OpenRouter, but faces competition from similar models.",
       "tags": [
         "AI",
-        "LLMs",
-        "xAI",
-        "Grok",
-        "model release"
-      ]
-    },
-    {
-      "title": "Mistral's Robostral Navigate: a state of the art robotics navigation model",
-      "title_zh": "Mistral 发布 Robostral Navigate，一种无地图导航模型",
-      "title_en": "Mistral Releases Robostral Navigate, a Map-Less Navigation Model",
-      "url": "https://mistral.ai/news/robostral-navigate/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Mistral releases Robostral Navigate, a state-of-the-art robotics navigation model capable of map-less navigation, sparking significant community discussion.",
-      "tags": [
-        "robotics",
-        "navigation",
-        "AI",
-        "Mistral",
-        "map-less"
-      ]
-    },
-    {
-      "title": "OpenBSD has a use-after-free allowing local privilege escalation to root",
-      "title_zh": "OpenBSD 释放后重用漏洞导致本地权限提升至 root",
-      "title_en": "OpenBSD use-after-free vulnerability enables local root privilege escalation",
-      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-57589",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A use-after-free vulnerability in OpenBSD allows local privilege escalation to root.",
-      "tags": [
-        "security",
-        "vulnerability",
-        "OpenBSD",
-        "privilege-escalation",
-        "CVE"
-      ]
-    },
-    {
-      "title": "The classifiers Anthropic puts in front of Fable are too zealous",
-      "title_zh": "Fable分类器过度敏感，误封正常查询",
-      "title_en": "Fable Classifier Overzealously Blocks Legitimate Queries",
-      "url": "https://combine-lab.github.io/blog/2026/07/07/fable-is-not-a-useful-model.html",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Users report that Anthropic's Fable classifier is overly sensitive, incorrectly flagging legitimate technical and scientific queries as violations and downgrading responses.",
-      "tags": [
-        "AI Safety",
-        "Anthropic",
-        "LLM Guardrails",
-        "Model Behavior"
-      ]
-    },
-    {
-      "title": "Cloudflare Meerkat - Globally distributed consensus",
-      "title_zh": "Cloudflare Meerkat：首个生产级异步共识算法",
-      "title_en": "Cloudflare Meerkat: First Production Asynchronous Consensus",
-      "url": "https://blog.cloudflare.com/meerkat-introduction/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Cloudflare introduces Meerkat, a globally distributed consensus algorithm that is the first production implementation of asynchronous consensus (QuePaxa), enabling progress under wild message delays but requiring global consensus for reads.",
-      "tags": [
-        "distributed systems",
-        "consensus algorithm",
-        "cloud computing",
-        "asynchronous consensus",
-        "production implementation"
-      ]
-    },
-    {
-      "title": "LingBot-Video: sparse-MoE video diffusion transformer (13B total, 1.4B active) post-trained as an action-conditioned world model[R]",
-      "title_zh": "LingBot-Video：稀疏专家混合视频扩散世界模型",
-      "title_en": "LingBot-Video: Sparse-MoE Video Diffusion World Model",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ur0bxq/lingbotvideo_sparsemoe_video_diffusion/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "A 13B sparse-MoE video diffusion transformer with RL post-training for action-conditioned world modeling, released openly with community discussion on its evaluation.",
-      "tags": [
-        "sparse MoE",
-        "video diffusion",
-        "world model",
-        "reinforcement learning",
-        "open source"
-      ]
-    },
-    {
-      "title": "Reducing drift in interactive world-model rollouts: a mixed bidirectional/autoregressive attention mask + distillation over long self-rollouts[R]",
-      "title_zh": "混合注意力掩码与蒸馏减少交互式世界模型中的漂移",
-      "title_en": "Mixed attention mask and distillation reduce drift in interactive world models",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ur4hkc/reducing_drift_in_interactive_worldmodel_rollouts/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "Introduces a mixed attention mask and distillation over long self-rollouts to reduce drift in interactive world-model rollouts.",
-      "tags": [
         "machine learning",
-        "world models",
-        "interactive generation",
-        "attention mechanism",
-        "distillation"
+        "Tencent",
+        "Hy3",
+        "OpenRouter"
       ]
     },
     {
-      "title": "🤖 DeepSeek 正在自研 AI 芯片，以减少对英伟达和华为的依赖  三位知情人士透露，中国 AI 公司 DeepSeek 正在开发自己的 AI 芯片，旨在",
-      "title_zh": "DeepSeek 自研 AI 推理芯片",
-      "title_en": "DeepSeek Developing Its Own AI Inference Chip",
-      "url": "https://t.me/zaihuapd/42423",
-      "source": "telegram",
+      "title": "Muse Spark 1.1",
+      "title_zh": "Meta发布Muse Spark 1.1，具备AI代理能力",
+      "title_en": "Meta Releases Muse Spark 1.1 with Agentic AI",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "DeepSeek is developing its own AI inference chip to reduce reliance on Nvidia and Huawei amid export restrictions.",
+      "summary": "Meta releases Muse Spark 1.1, a new AI model with agentic capabilities, sparking discussion on evaluation methods and open-weight strategy.",
       "tags": [
-        "AI chips",
-        "DeepSeek",
-        "inference",
-        "semiconductor",
-        "geopolitics"
-      ]
-    },
-    {
-      "title": "阿里下令全员卸载 Claude，7 月 10 日立即生效  阿里巴巴内部宣布反向禁用 Claude，要求员工卸载 Anthropic 相关产品，包括 Sonne",
-      "title_zh": "阿里下令员工卸载Claude，禁令7月10日生效",
-      "title_en": "Alibaba Orders Employees to Uninstall Claude, Ban Effective July 10",
-      "url": "https://t.me/zaihuapd/42424",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Alibaba has ordered all employees to uninstall Claude and other Anthropic products, following Anthropic's accusations of fraudulent account usage.",
-      "tags": [
-        "Alibaba",
-        "Claude",
-        "Anthropic",
-        "AI Security",
-        "Corporate Ban"
-      ]
-    },
-    {
-      "title": "📱 Meta 智能眼镜检测到隐私灯被破坏后，将自动关闭摄像头",
-      "title_zh": "Meta智能眼镜若隐私灯被破坏将自动关闭摄像头",
-      "title_en": "Meta smart glasses auto-disable camera if privacy light tampered",
-      "url": "https://www.theverge.com/gadgets/962514/meta-privacy-light-tampering-smart-glasses-update?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6Ik40dk1iWjJvWjMiLCJwIjoiL2dhZGdldHMvOTYyNTE0L21ldGEtcHJpdmFjeS1saWdodC10YW1wZXJpbmctc21hcnQtZ2xhc3Nlcy11cGRhdGUiLCJleHAiOjE3ODM5MDE0MjUsImlhdCI6MTc4MzQ2OTQyNX0.GZUi5dGuIr00bBayHW1_oTfEcfxURMnIKLk2tTpC2To",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Meta's smart glasses will auto-disable the camera if the privacy light is tampered with, addressing privacy concerns and recording abuse.",
-      "tags": [
-        "privacy",
-        "smart glasses",
-        "wearables",
+        "AI",
         "Meta",
-        "security update"
+        "large language model",
+        "open-source",
+        "agentic"
       ]
     },
     {
-      "title": "研究人员可通过电磁信号识别手机应用，准确率最高达 99.07%",
-      "title_zh": "研究人员通过电磁信号识别手机应用，准确率达99.07%",
-      "title_en": "Researchers identify smartphone apps via EM signals with 99.07% accuracy",
-      "url": "https://www.scmp.com/news/china/science/article/3359688/chinese-researchers-find-peephole-any-smartphone-its-leaked-radio-signal",
+      "title": "GLM 5.2 is nearly as accurate as a human book keeper",
+      "title_zh": "GLM 5.2在增值税对账中接近人类水平",
+      "title_en": "GLM 5.2 Nears Human Accuracy in VAT Reconciliation",
+      "url": "https://toot-books.pages.dev/blog/glm-5-2-vat-benchmark",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "GLM 5.2 achieves near-human accuracy on VAT reconciliation tasks but the benchmark ignores the broader scope of bookkeeping and raises unresolved liability issues.",
+      "tags": [
+        "AI",
+        "LLM",
+        "accounting",
+        "automation",
+        "liability"
+      ]
+    },
+    {
+      "title": "Rewriting Bun in Rust",
+      "title_zh": "Bun 从 Zig 重写为 Rust",
+      "title_en": "Bun Rewritten from Zig to Rust via AI Agents",
+      "url": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "Jarred Sumner details the decision and process of rewriting Bun from Zig to Rust, citing memory management issues and stability improvements.",
+      "tags": [
+        "Bun",
+        "Rust",
+        "Zig",
+        "Runtime",
+        "Rewrite"
+      ]
+    },
+    {
+      "title": "Introducing GPT‑Live",
+      "title_zh": "OpenAI推出GPT-Live，语音模式可委托给GPT-5.5",
+      "title_en": "OpenAI introduces GPT-Live with GPT-5.5 delegation for voice mode",
+      "url": "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "OpenAI introduces GPT-Live, upgrading ChatGPT voice mode with a new model that can delegate complex tasks to GPT-5.5.",
+      "tags": [
+        "OpenAI",
+        "GPT-Live",
+        "Voice Mode",
+        "GPT-5.5"
+      ]
+    },
+    {
+      "title": "The Future of Meta Superintelligence: A 1 Year Progress Update",
+      "title_zh": "Meta 超级智能一年进展更新",
+      "title_en": "Meta's Superintelligence 1-Year Progress Update",
+      "url": "https://newsletter.semianalysis.com/p/the-future-of-meta-superintelligence",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "Meta's superintelligence initiative progresses aggressively with unprecedented compute scaling and new reinforcement learning capabilities.",
+      "tags": [
+        "AI",
+        "superintelligence",
+        "Meta",
+        "compute scaling",
+        "reinforcement learning"
+      ]
+    },
+    {
+      "title": "蚂蚁灵波开源 LingBot-Video，全球首个 MoE 具身视频基模",
+      "title_zh": "蚂蚁灵波开源 LingBot-Video，全球首个 MoE 具身视频基模",
+      "title_en": null,
+      "url": "https://www.qbitai.com/2026/07/446458.html",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Researchers demonstrate non-contact identification of smartphone apps via electromagnetic signal leakage with up to 99.07% accuracy.",
+      "summary": "Ant Group open-sources LingBot-Video, the first MoE embodied video foundation model with 30B parameters (3B active), outperforming prior models on robot video benchmarks.",
       "tags": [
-        "side-channel attack",
-        "mobile security",
-        "electromagnetic leakage",
-        "forensics",
-        "privacy"
+        "AI",
+        "Robotics",
+        "MoE",
+        "Video Generation",
+        "Open Source"
+      ]
+    },
+    {
+      "title": "🤖 OpenAI 与美国战争部拟修订合同，强调 AI 不得用于监控本国公民  OpenAI 与美国战争部（原“国防部”）已达成一致，拟在双方的 AI 合作协议中",
+      "title_zh": "OpenAI与美国防部拟禁止AI用于公民监控",
+      "title_en": "OpenAI and US DoD to Ban AI for Citizen Surveillance",
+      "url": "https://t.me/zaihuapd/42459",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "OpenAI and the US Department of Defense agreed to revise their contract to explicitly prohibit AI use for domestic surveillance of American citizens.",
+      "tags": [
+        "AI ethics",
+        "surveillance",
+        "OpenAI",
+        "government policy",
+        "ethics"
       ]
     }
   ]
