@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-09T23:03:40.949324+00:00",
-  "date": "2026-07-09",
-  "total_fetched": 40,
-  "important_count": 12,
+  "generated_at": "2026-07-10T22:50:57.115976+00:00",
+  "date": "2026-07-10",
+  "total_fetched": 35,
+  "important_count": 9,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,204 +10,157 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/07/09/summary-zh.html",
-      "path": "docs/_posts/2026-07-09-summary-zh.md"
+      "url": "2026/07/10/summary-zh.html",
+      "path": "docs/_posts/2026-07-10-summary-zh.md"
     },
     "en": {
-      "url": "2026/07/09/summary-en.html",
-      "path": "docs/_posts/2026-07-09-summary-en.md"
+      "url": "2026/07/10/summary-en.html",
+      "path": "docs/_posts/2026-07-10-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "GPT-5.6",
-      "title_zh": "OpenAI发布GPT-5.6，在ARC-AGI-3上达到SOTA",
-      "title_en": "OpenAI Releases GPT-5.6, Achieves ARC-AGI-3 SOTA",
-      "url": "https://openai.com/index/gpt-5-6/",
+      "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
+      "title_zh": "GPT-5.6 Sol Ultra 声称证明循环双覆盖猜想",
+      "title_en": "GPT-5.6 Sol Ultra Claims Proof of Cycle Double Cover Conjecture",
+      "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
       "source": "hackernews",
       "score": 9.0,
-      "summary": "OpenAI releases GPT-5.6, a new frontier model achieving SOTA on ARC-AGI-3 with improved intent understanding and image processing.",
+      "summary": "AI model GPT-5.6 Sol Ultra reportedly generates a proof for the unsolved Cycle Double Cover Conjecture in graph theory.",
       "tags": [
+        "AI",
+        "mathematics",
+        "graph theory",
         "GPT-5.6",
-        "OpenAI",
-        "AI model",
-        "ARC-AGI",
-        "frontier model"
+        "conjecture"
       ]
     },
     {
-      "title": "EU Parliament greenlights Chat Control 1.0",
-      "title_zh": "欧盟议会通过程序性手段批准聊天控制1.0",
-      "title_en": "EU Parliament Approves Chat Control 1.0 Through Procedural Trick",
-      "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "EU Parliament greenlights Chat Control 1.0, allowing mass scanning of private messages, despite majority opposition, due to a parliamentary trick.",
-      "tags": [
-        "privacy",
-        "surveillance",
-        "EU law",
-        "encryption",
-        "digital rights"
-      ]
-    },
-    {
-      "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
-      "title_zh": "用Rust重写PostgreSQL，通过全部测试",
-      "title_en": "Postgres rewritten in Rust passes all tests",
-      "url": "https://github.com/malisper/pgrust",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "A project rewriting PostgreSQL in Rust using LLMs now passes 100% of regression tests, sparking substantial community discussion.",
-      "tags": [
-        "Rust",
-        "PostgreSQL",
-        "database",
-        "LLM",
-        "open-source"
-      ]
-    },
-    {
-      "title": "TypeScript 7.0 正式发布：Go 重写带来最高 12 倍速度提升",
-      "title_zh": "TypeScript 7.0 发布：Go 重写带来最高 12 倍速度提升",
-      "title_en": "TypeScript 7.0 Released with Go Rewrite, Up to 12x Faster",
-      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
+      "title": "长征十号乙完成一子级海上回收，为全球首次网系回收",
+      "title_zh": "长征十号乙完成全球首次网系火箭回收",
+      "title_en": "Long March 10B Achieves First Grid-Based Rocket Recovery",
+      "url": "https://weibo.com/7340734455/R814of1Ki",
       "source": "telegram",
       "score": 9.0,
-      "summary": "TypeScript 7.0 is released with a Go rewrite delivering up to 12x faster builds, supporting parallelization and a new language server.",
+      "summary": "长征十号乙火箭成功实现一子级海上网系回收，为中国首次并创全球先例。",
       "tags": [
-        "TypeScript",
-        "Go",
-        "Performance",
-        "Programming Language",
-        "Compiler"
+        "航天",
+        "火箭回收",
+        "长征十号乙",
+        "网系回收",
+        "中国航天"
       ]
     },
     {
-      "title": "Hy3",
-      "title_zh": "腾讯发布Hy3，一个能力强的小型AI模型",
-      "title_en": "Tencent Releases Hy3, a Capable Small AI Model",
-      "url": "https://hy.tencent.com/research/hy3",
+      "title": "QuadRF can spot drones and see WiFi through my wall",
+      "title_zh": "QuadRF：开源射频相机可探测无人机并可视化WiFi信号",
+      "title_en": "QuadRF: Open-Source RF Camera Spots Drones and Sees WiFi Signals",
+      "url": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Tencent releases Hy3, a small yet capable AI model that has generated buzz with free offers on OpenRouter, but faces competition from similar models.",
+      "summary": "QuadRF is an open-source device that uses RF augmented reality to visualize wireless signals and detect drones.",
+      "tags": [
+        "RF sensing",
+        "open source hardware",
+        "drone detection",
+        "augmented reality",
+        "wireless security"
+      ]
+    },
+    {
+      "title": "Write code like a human will maintain it",
+      "title_zh": "为人写代码，不为AI",
+      "title_en": "Write Code for Humans, Not AI",
+      "url": "https://unstack.io/write-code-like-a-human-will-maintain-it",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "An article advocating for writing code with human maintainability in mind, with Hacker News discussion focusing on LLM code quality and workflow improvements.",
+      "tags": [
+        "software engineering",
+        "code quality",
+        "maintainability",
+        "AI-generated code",
+        "developer productivity"
+      ]
+    },
+    {
+      "title": "On Adversarial RL [R]",
+      "title_zh": "对抗强化学习：多智能体PPO中评论家攻击比演员攻击更强",
+      "title_en": "Adversarial RL: Critic Attacks Stronger Than Actor in Multi-Agent PPO",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1usx96p/on_adversarial_rl_r/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "A user reports that critic-based adversarial attacks on multi-agent PPO are stronger than actor-based attacks, contradicting findings from the SA-MDP framework in single-agent settings.",
+      "tags": [
+        "adversarial RL",
+        "multi-agent RL",
+        "PPO",
+        "adversarial attacks",
+        "SA-MDP"
+      ]
+    },
+    {
+      "title": "中国法院多起判例认定游戏账号可继承，平台禁止条款无效",
+      "title_zh": "中国法院认定游戏账号可继承，平台禁令无效",
+      "title_en": "Chinese Courts Rule Game Accounts Inheritable, Platform Bans Void",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/chinese-courts-allow-heirs-to-inherent-accounts-of-deceased-gamers-multiple-cases-spanning-years-establish-precedent-for-digital-ownership-of-games-in-game-items-and-microtransactions",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "中国法院在多起判例中认定游戏账号等虚拟资产可继承，平台禁止条款无效。",
+      "tags": [
+        "数字资产",
+        "继承",
+        "游戏账号",
+        "法律判例",
+        "用户权益"
+      ]
+    },
+    {
+      "title": "🐧 腾讯洽购 AI 公司 Manus，拟从 📱 Meta 手中回购成为最大股东",
+      "title_zh": "腾讯洽购AI初创公司Manus，拟从Meta手中回购",
+      "title_en": "Tencent in Talks to Acquire AI Startup Manus from Meta",
+      "url": "https://www.reuters.com/technology/tencent-talks-become-ai-start-up-manus-largest-shareholder-ft-reports-2026-07-10/",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Tencent is in talks to acquire AI startup Manus, becoming its largest shareholder by repurchasing from Meta for at least $2 billion.",
       "tags": [
         "AI",
-        "machine learning",
+        "M&A",
         "Tencent",
-        "Hy3",
-        "OpenRouter"
+        "Manus",
+        "Meta"
       ]
     },
     {
-      "title": "Muse Spark 1.1",
-      "title_zh": "Meta发布Muse Spark 1.1，具备AI代理能力",
-      "title_en": "Meta Releases Muse Spark 1.1 with Agentic AI",
-      "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Meta releases Muse Spark 1.1, a new AI model with agentic capabilities, sparking discussion on evaluation methods and open-weight strategy.",
-      "tags": [
-        "AI",
-        "Meta",
-        "large language model",
-        "open-source",
-        "agentic"
-      ]
-    },
-    {
-      "title": "GLM 5.2 is nearly as accurate as a human book keeper",
-      "title_zh": "GLM 5.2在增值税对账中接近人类水平",
-      "title_en": "GLM 5.2 Nears Human Accuracy in VAT Reconciliation",
-      "url": "https://toot-books.pages.dev/blog/glm-5-2-vat-benchmark",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "GLM 5.2 achieves near-human accuracy on VAT reconciliation tasks but the benchmark ignores the broader scope of bookkeeping and raises unresolved liability issues.",
-      "tags": [
-        "AI",
-        "LLM",
-        "accounting",
-        "automation",
-        "liability"
-      ]
-    },
-    {
-      "title": "Rewriting Bun in Rust",
-      "title_zh": "Bun 从 Zig 重写为 Rust",
-      "title_en": "Bun Rewritten from Zig to Rust via AI Agents",
-      "url": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "Jarred Sumner details the decision and process of rewriting Bun from Zig to Rust, citing memory management issues and stability improvements.",
-      "tags": [
-        "Bun",
-        "Rust",
-        "Zig",
-        "Runtime",
-        "Rewrite"
-      ]
-    },
-    {
-      "title": "Introducing GPT‑Live",
-      "title_zh": "OpenAI推出GPT-Live，语音模式可委托给GPT-5.5",
-      "title_en": "OpenAI introduces GPT-Live with GPT-5.5 delegation for voice mode",
-      "url": "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "OpenAI introduces GPT-Live, upgrading ChatGPT voice mode with a new model that can delegate complex tasks to GPT-5.5.",
-      "tags": [
-        "OpenAI",
-        "GPT-Live",
-        "Voice Mode",
-        "GPT-5.5"
-      ]
-    },
-    {
-      "title": "The Future of Meta Superintelligence: A 1 Year Progress Update",
-      "title_zh": "Meta 超级智能一年进展更新",
-      "title_en": "Meta's Superintelligence 1-Year Progress Update",
-      "url": "https://newsletter.semianalysis.com/p/the-future-of-meta-superintelligence",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "Meta's superintelligence initiative progresses aggressively with unprecedented compute scaling and new reinforcement learning capabilities.",
-      "tags": [
-        "AI",
-        "superintelligence",
-        "Meta",
-        "compute scaling",
-        "reinforcement learning"
-      ]
-    },
-    {
-      "title": "蚂蚁灵波开源 LingBot-Video，全球首个 MoE 具身视频基模",
-      "title_zh": "蚂蚁灵波开源 LingBot-Video，全球首个 MoE 具身视频基模",
-      "title_en": null,
-      "url": "https://www.qbitai.com/2026/07/446458.html",
+      "title": "🤖 OpenAI、🔵 Google 疑似向美方黑名单上的中国公司提供 AI 模型",
+      "title_zh": "OpenAI和Google被指控向黑名单上的中国公司提供AI模型",
+      "title_en": "OpenAI, Google Accused of AI Model Supply to Blacklisted Chinese Firms",
+      "url": "https://www.ft.com/content/5d6aafa1-5d47-4585-aa95-6ec06a6cd20f",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Ant Group open-sources LingBot-Video, the first MoE embodied video foundation model with 30B parameters (3B active), outperforming prior models on robot video benchmarks.",
+      "summary": "OpenAI and Google allegedly provide advanced AI models to Chinese companies via Singapore subsidiaries, circumventing US blacklist restrictions.",
       "tags": [
-        "AI",
-        "Robotics",
-        "MoE",
-        "Video Generation",
-        "Open Source"
+        "AI regulation",
+        "export controls",
+        "geopolitics",
+        "OpenAI",
+        "Google"
       ]
     },
     {
-      "title": "🤖 OpenAI 与美国战争部拟修订合同，强调 AI 不得用于监控本国公民  OpenAI 与美国战争部（原“国防部”）已达成一致，拟在双方的 AI 合作协议中",
-      "title_zh": "OpenAI与美国防部拟禁止AI用于公民监控",
-      "title_en": "OpenAI and US DoD to Ban AI for Citizen Surveillance",
-      "url": "https://t.me/zaihuapd/42459",
+      "title": "📱 Meta 因 Facebook 和 Instagram 成瘾设计或遭欧盟罚款 120 亿美元",
+      "title_zh": "Meta 因成瘾设计或遭欧盟罚款 120 亿美元",
+      "title_en": "Meta Faces $12B EU Fine for Addictive Design",
+      "url": "https://www.theverge.com/policy/963872/meta-eu-addictive-design-200b-fine-risk-digital-services-act-dsa",
       "source": "telegram",
       "score": 8.0,
-      "summary": "OpenAI and the US Department of Defense agreed to revise their contract to explicitly prohibit AI use for domestic surveillance of American citizens.",
+      "summary": "Meta faces potential $12 billion EU fine for addictive design features on Facebook and Instagram violating the Digital Services Act.",
       "tags": [
-        "AI ethics",
-        "surveillance",
-        "OpenAI",
-        "government policy",
-        "ethics"
+        "regulation",
+        "social media",
+        "EU",
+        "Digital Services Act",
+        "Meta"
       ]
     }
   ]
