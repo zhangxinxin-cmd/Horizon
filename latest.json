@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-10T22:50:57.115976+00:00",
-  "date": "2026-07-10",
-  "total_fetched": 35,
+  "generated_at": "2026-07-11T22:38:13.913374+00:00",
+  "date": "2026-07-11",
+  "total_fetched": 29,
   "important_count": 9,
   "score_threshold": 8.0,
   "languages": [
@@ -10,157 +10,156 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/07/10/summary-zh.html",
-      "path": "docs/_posts/2026-07-10-summary-zh.md"
+      "url": "2026/07/11/summary-zh.html",
+      "path": "docs/_posts/2026-07-11-summary-zh.md"
     },
     "en": {
-      "url": "2026/07/10/summary-en.html",
-      "path": "docs/_posts/2026-07-10-summary-en.md"
+      "url": "2026/07/11/summary-en.html",
+      "path": "docs/_posts/2026-07-11-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
-      "title_zh": "GPT-5.6 Sol Ultra 声称证明循环双覆盖猜想",
-      "title_en": "GPT-5.6 Sol Ultra Claims Proof of Cycle Double Cover Conjecture",
-      "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
-      "source": "hackernews",
+      "title": "vllm-project/vllm released v0.25.0",
+      "title_zh": "vLLM v0.25.0：MRv2默认，PagedAttention移除",
+      "title_en": "vLLM v0.25.0: MRv2 Default, PagedAttention Removed",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.25.0",
+      "source": "github",
       "score": 9.0,
-      "summary": "AI model GPT-5.6 Sol Ultra reportedly generates a proof for the unsolved Cycle Double Cover Conjecture in graph theory.",
+      "summary": "vLLM v0.25.0 makes Model Runner V2 the default, removes legacy PagedAttention, and achieves parity in speed with native vLLM for Transformers models, with new model support.",
       "tags": [
-        "AI",
-        "mathematics",
-        "graph theory",
-        "GPT-5.6",
-        "conjecture"
+        "vllm",
+        "LLM inference",
+        "model serving",
+        "performance",
+        "open source"
       ]
     },
     {
-      "title": "长征十号乙完成一子级海上回收，为全球首次网系回收",
-      "title_zh": "长征十号乙完成全球首次网系火箭回收",
-      "title_en": "Long March 10B Achieves First Grid-Based Rocket Recovery",
-      "url": "https://weibo.com/7340734455/R814of1Ki",
+      "title": "人形机器人远程完成全球首例活猪胆囊切除手术",
+      "title_zh": "人形机器人远程完成首例活猪胆囊切除",
+      "title_en": "Humanoid Robot Remote Gallbladder Surgery on Live Pigs",
+      "url": "https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/",
       "source": "telegram",
       "score": 9.0,
-      "summary": "长征十号乙火箭成功实现一子级海上网系回收，为中国首次并创全球先例。",
+      "summary": "Surgeons remotely operated a Unitree G1 humanoid robot to perform the world's first gallbladder surgeries on live pigs, a breakthrough published in Nature.",
       "tags": [
-        "航天",
-        "火箭回收",
-        "长征十号乙",
-        "网系回收",
-        "中国航天"
+        "robotics",
+        "surgery",
+        "humanoid robot",
+        "medical technology",
+        "breakthrough"
       ]
     },
     {
-      "title": "QuadRF can spot drones and see WiFi through my wall",
-      "title_zh": "QuadRF：开源射频相机可探测无人机并可视化WiFi信号",
-      "title_en": "QuadRF: Open-Source RF Camera Spots Drones and Sees WiFi Signals",
-      "url": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
+      "title": "U-Boot 引导程序曝 6 个漏洞，可绕过验证在启动时执行恶意代码",
+      "title_zh": "U-Boot引导程序六漏洞引发隐蔽固件攻击",
+      "title_en": "Six U-Boot Vulnerabilities Enable Stealthy Firmware Attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "Six vulnerabilities discovered in U-Boot bootloader's FIT signature verification allow bypassing validation and executing malicious code early in the boot process, potentially enabling stealthy firmware attacks on many embedded systems.",
+      "tags": [
+        "security",
+        "vulnerabilities",
+        "firmware",
+        "bootloader",
+        "embedded"
+      ]
+    },
+    {
+      "title": "sgl-project/sglang released v0.5.15",
+      "title_zh": "SGLang v0.5.15 在 Blackwell 上优化 GLM-5.2 推理",
+      "title_en": "SGLang v0.5.15 Optimizes GLM-5.2 Serving on Blackwell",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.15",
+      "source": "github",
+      "score": 8.0,
+      "summary": "SGLang v0.5.15 delivers optimized GLM-5.2 NVFP4 serving on Blackwell GPUs (500+ tok/s/user on 8x B300) and Spec V2 with ~11% TPS gain.",
+      "tags": [
+        "LLM inference",
+        "GPU serving",
+        "SGLang",
+        "speculative decoding",
+        "Blackwell"
+      ]
+    },
+    {
+      "title": "We scaled PgBouncer to 4x throughput",
+      "title_zh": "ClickHouse将PgBouncer吞吐量提升4倍",
+      "title_en": "ClickHouse Scales PgBouncer to 4x Throughput",
+      "url": "https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "QuadRF is an open-source device that uses RF augmented reality to visualize wireless signals and detect drones.",
+      "summary": "ClickHouse blog describes scaling PgBouncer to 4x throughput using so_reuseport and peering mechanisms.",
       "tags": [
-        "RF sensing",
-        "open source hardware",
-        "drone detection",
-        "augmented reality",
-        "wireless security"
+        "postgresql",
+        "connection pooling",
+        "performance",
+        "scalability",
+        "pgbouncer"
       ]
     },
     {
-      "title": "Write code like a human will maintain it",
-      "title_zh": "为人写代码，不为AI",
-      "title_en": "Write Code for Humans, Not AI",
-      "url": "https://unstack.io/write-code-like-a-human-will-maintain-it",
+      "title": "AI 2040 and the cult of intelligence",
+      "title_zh": "George Hotz 对 AI 2040 的反乌托邦愿景",
+      "title_en": "George Hotz's Dystopian Vision of AI 2040",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "An article advocating for writing code with human maintainability in mind, with Hacker News discussion focusing on LLM code quality and workflow improvements.",
+      "summary": "George Hotz's blog post envisions a dystopian AI future where freedom is threatened by intelligence systems that enforce ideological biases.",
       "tags": [
-        "software engineering",
-        "code quality",
-        "maintainability",
-        "AI-generated code",
-        "developer productivity"
+        "AI ethics",
+        "freedom of speech",
+        "AI governance",
+        "future of AI"
       ]
     },
     {
-      "title": "On Adversarial RL [R]",
-      "title_zh": "对抗强化学习：多智能体PPO中评论家攻击比演员攻击更强",
-      "title_en": "Adversarial RL: Critic Attacks Stronger Than Actor in Multi-Agent PPO",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1usx96p/on_adversarial_rl_r/",
+      "title": "VultronRetriever family of models released on HuggingFace![R]",
+      "title_zh": "VultronRetriever模型在MTEB上排名第一，效率大幅提升",
+      "title_en": "VultronRetriever Models Achieve #1 on MTEB with Efficiency Gains",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1utmxq8/vultronretriever_family_of_models_released_on/",
       "source": "reddit",
       "score": 8.0,
-      "summary": "A user reports that critic-based adversarial attacks on multi-agent PPO are stronger than actor-based attacks, contradicting findings from the SA-MDP framework in single-agent settings.",
+      "summary": "VultronRetriever models released on HuggingFace, achieving top MTEB rankings with up to 16x smaller index storage and 12x higher throughput.",
       "tags": [
-        "adversarial RL",
-        "multi-agent RL",
-        "PPO",
-        "adversarial attacks",
-        "SA-MDP"
+        "machine learning",
+        "retrieval",
+        "embeddings",
+        "huggingface",
+        "MTEB"
       ]
     },
     {
-      "title": "中国法院多起判例认定游戏账号可继承，平台禁止条款无效",
-      "title_zh": "中国法院认定游戏账号可继承，平台禁令无效",
-      "title_en": "Chinese Courts Rule Game Accounts Inheritable, Platform Bans Void",
-      "url": "https://www.tomshardware.com/tech-industry/big-tech/chinese-courts-allow-heirs-to-inherent-accounts-of-deceased-gamers-multiple-cases-spanning-years-establish-precedent-for-digital-ownership-of-games-in-game-items-and-microtransactions",
+      "title": "Google 反对欧洲网站屏蔽，美国国内同类立法却加速推进",
+      "title_zh": "谷歌反对欧盟网站屏蔽，美国反盗版法案推进",
+      "title_en": "Google Opposes EU Site Blocking as US Piracy Bills Advance",
+      "url": "https://torrentfreak.com/google-opposes-site-blocking-in-europe-as-u-s-piracy-blocking-plans-gain-momentum/",
       "source": "telegram",
       "score": 8.0,
-      "summary": "中国法院在多起判例中认定游戏账号等虚拟资产可继承，平台禁止条款无效。",
+      "summary": "Google opposes European site-blocking proposals as ineffective, while similar US anti-piracy legislation gains momentum.",
       "tags": [
-        "数字资产",
-        "继承",
-        "游戏账号",
-        "法律判例",
-        "用户权益"
+        "internet censorship",
+        "anti-piracy",
+        "DNS",
+        "VPN",
+        "digital rights"
       ]
     },
     {
-      "title": "🐧 腾讯洽购 AI 公司 Manus，拟从 📱 Meta 手中回购成为最大股东",
-      "title_zh": "腾讯洽购AI初创公司Manus，拟从Meta手中回购",
-      "title_en": "Tencent in Talks to Acquire AI Startup Manus from Meta",
-      "url": "https://www.reuters.com/technology/tencent-talks-become-ai-start-up-manus-largest-shareholder-ft-reports-2026-07-10/",
+      "title": "上海市希望2027年前实现高质量脑控，半侵入式脑机接口产品在国内率先实现临床应用，侵入式脑机接口研发取得突破  上海市科学技术委员会印发《上海市脑机接口未来产业",
+      "title_zh": "上海发布脑机接口方案，目标2027年高质量脑控",
+      "title_en": "Shanghai Unveils BCI Plan Targeting High-Quality Brain Control by 2027",
+      "url": "https://t.me/zaihuapd/42501",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Tencent is in talks to acquire AI startup Manus, becoming its largest shareholder by repurchasing from Meta for at least $2 billion.",
+      "summary": "Shanghai's municipal government issues a plan targeting high-quality brain control and clinical application of semi-invasive brain-computer interfaces by 2027.",
       "tags": [
-        "AI",
-        "M&A",
-        "Tencent",
-        "Manus",
-        "Meta"
-      ]
-    },
-    {
-      "title": "🤖 OpenAI、🔵 Google 疑似向美方黑名单上的中国公司提供 AI 模型",
-      "title_zh": "OpenAI和Google被指控向黑名单上的中国公司提供AI模型",
-      "title_en": "OpenAI, Google Accused of AI Model Supply to Blacklisted Chinese Firms",
-      "url": "https://www.ft.com/content/5d6aafa1-5d47-4585-aa95-6ec06a6cd20f",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "OpenAI and Google allegedly provide advanced AI models to Chinese companies via Singapore subsidiaries, circumventing US blacklist restrictions.",
-      "tags": [
-        "AI regulation",
-        "export controls",
-        "geopolitics",
-        "OpenAI",
-        "Google"
-      ]
-    },
-    {
-      "title": "📱 Meta 因 Facebook 和 Instagram 成瘾设计或遭欧盟罚款 120 亿美元",
-      "title_zh": "Meta 因成瘾设计或遭欧盟罚款 120 亿美元",
-      "title_en": "Meta Faces $12B EU Fine for Addictive Design",
-      "url": "https://www.theverge.com/policy/963872/meta-eu-addictive-design-200b-fine-risk-digital-services-act-dsa",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Meta faces potential $12 billion EU fine for addictive design features on Facebook and Instagram violating the Digital Services Act.",
-      "tags": [
-        "regulation",
-        "social media",
-        "EU",
-        "Digital Services Act",
-        "Meta"
+        "brain-computer interface",
+        "neurotechnology",
+        "government policy",
+        "Shanghai",
+        "clinical applications"
       ]
     }
   ]
