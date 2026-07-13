@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-12T22:38:14.456165+00:00",
-  "date": "2026-07-12",
-  "total_fetched": 30,
+  "generated_at": "2026-07-13T22:45:14.038923+00:00",
+  "date": "2026-07-13",
+  "total_fetched": 19,
   "important_count": 8,
   "score_threshold": 8.0,
   "languages": [
@@ -10,141 +10,141 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/07/12/summary-zh.html",
-      "path": "docs/_posts/2026-07-12-summary-zh.md"
+      "url": "2026/07/13/summary-zh.html",
+      "path": "docs/_posts/2026-07-13-summary-zh.md"
     },
     "en": {
-      "url": "2026/07/12/summary-en.html",
-      "path": "docs/_posts/2026-07-12-summary-en.md"
+      "url": "2026/07/13/summary-en.html",
+      "path": "docs/_posts/2026-07-13-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "🤖 GPT-5.6 一小时完成 50 年图论猜想证明",
-      "title_zh": "GPT-5.6 一小时解决五十年图论难题",
-      "title_en": "GPT-5.6 Solves 50-Year Graph Theory Conjecture in One Hour",
-      "url": "https://www.qbitai.com/2026/07/447873.html",
-      "source": "telegram",
-      "score": 10.0,
-      "summary": "GPT-5.6 autonomously proved the cycle double cover conjecture, a long-standing graph theory problem, in under an hour using parallel sub-agents.",
-      "tags": [
-        "GPT-5.6",
-        "AI research",
-        "graph theory",
-        "scientific discovery",
-        "multi-agent"
-      ]
-    },
-    {
-      "title": "Old and new apps, via modern coding agents",
-      "title_zh": "陶哲轩用LLM构建应用与可视化",
-      "title_en": "Terry Tao Uses LLMs to Build Apps and Visualizations",
-      "url": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
+      "title": "Samsung Health app threatens data deletion if users opt out AI training",
+      "title_zh": "三星健康APP：拒绝AI训练将删除用户数据",
+      "title_en": "Samsung Health Threatens Data Deletion Over AI Training Opt-Out",
+      "url": "https://neow.in/cWsyMTV3",
       "source": "hackernews",
       "score": 9.0,
-      "summary": "Terry Tao uses modern coding agents (LLMs) to build visualizations and apps, illustrating the vast potential of AI-assisted software development beyond traditional domains.",
+      "summary": "Samsung Health app threatens to delete user data if they opt out of AI training, raising major privacy and data ownership concerns.",
       "tags": [
-        "ai-assisted coding",
-        "software engineering",
-        "LLM applications",
-        "visualization",
-        "Terry Tao"
-      ]
-    },
-    {
-      "title": "全球首款侵入式脑机接口医疗器械获批上市  国家药监局近日批准博睿康医疗科技（上海）有限公司“植入式脑机接口手部运动功能代偿系统”创新产品注册申请，标志着国际首个",
-      "title_zh": "全球首款侵入式脑机接口医疗器械获批",
-      "title_en": "World's First Invasive BCI Medical Device Approved",
-      "url": "https://t.me/zaihuapd/42515",
-      "source": "telegram",
-      "score": 9.0,
-      "summary": "China's NMPA approved the world's first invasive brain-computer interface medical device for hand motor function compensation in quadriplegic patients.",
-      "tags": [
-        "brain-computer interface",
-        "medical device",
-        "neurotechnology",
-        "spinal cord injury",
-        "clinical approval"
-      ]
-    },
-    {
-      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
-      "title_zh": "Claude Code 相同任务消耗33k tokens，OpenCode仅7k",
-      "title_en": "Claude Code uses 33k tokens vs OpenCode's 7k for same task",
-      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A study shows Claude Code sends significantly more tokens than OpenCode for the same tasks due to inefficient caching and harness overhead.",
-      "tags": [
-        "Claude Code",
-        "OpenCode",
-        "token efficiency",
-        "AI coding tools",
-        "LLM cost analysis"
-      ]
-    },
-    {
-      "title": "I love LLMs, I hate hype",
-      "title_zh": "George Hotz：LLMs有价值，但前沿实验室无法捕获价值",
-      "title_en": "George Hotz: LLMs Valued but Value Won't Be Captured by Frontier Labs",
-      "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "George Hotz argues that while LLMs are valuable, frontier labs won't capture the value they create, criticizing the hype and discussing implications for open source.",
-      "tags": [
-        "LLMs",
-        "AI hype",
-        "valuation",
-        "open source",
-        "critical analysis"
-      ]
-    },
-    {
-      "title": "The shingles vaccine may reduce the risk of dementia",
-      "title_zh": "带状疱疹疫苗或可降低痴呆风险",
-      "title_en": "Shingles Vaccine May Reduce Dementia Risk",
-      "url": "https://www.economist.com/leaders/2026/07/09/a-no-brainer-for-protecting-your-brain",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "The Economist article reports that the shingles vaccine may reduce dementia risk, supported by a UK study with hard age cutoff evidence, though some commenters caution about potential spurious correlations.",
-      "tags": [
-        "health",
-        "vaccine",
-        "dementia",
-        "shingles",
-        "medical research"
-      ]
-    },
-    {
-      "title": "Ghostel.el: Terminal emulator powered by libghostty",
-      "title_zh": "Ghostel.el：基于 libghostty 的快速 Emacs 终端模拟器",
-      "title_en": "Ghostel.el: Fast Emacs terminal emulator powered by libghostty",
-      "url": "https://dakra.github.io/ghostel/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Ghostel.el is a new, faster terminal emulator for Emacs built on libghostty, addressing long-standing performance issues.",
-      "tags": [
-        "Emacs",
-        "terminal emulator",
-        "libghostty",
-        "open source",
-        "developer tools"
-      ]
-    },
-    {
-      "title": "🤖 研究员称 xAI Grok CLI 默认上传整个代码库及密钥文件",
-      "title_zh": "xAI Grok CLI 默认上传整个代码库及密钥文件",
-      "title_en": "xAI Grok CLI Uploads Entire Codebase and Secrets by Default",
-      "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Security researchers discovered that xAI's Grok CLI (v0.2.93) uploads entire codebases and sensitive files by default, with no effective opt-out.",
-      "tags": [
-        "security",
         "privacy",
-        "AI tools",
-        "xAI",
-        "data leakage"
+        "AI training",
+        "Samsung Health",
+        "data deletion",
+        "user rights"
+      ]
+    },
+    {
+      "title": "Chain of Thought is a scaling trap. the next wave is latent reasoning (Coconut / HRM / RecrusiveMAS)... but then we hit the black box wall. Where does BDH fit? [D]",
+      "title_zh": "思维链是规模陷阱；潜在推理兴起",
+      "title_en": "CoT is a scaling trap; latent reasoning emerges",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uviru5/chain_of_thought_is_a_scaling_trap_the_next_wave/",
+      "source": "reddit",
+      "score": 9.0,
+      "summary": "Argues that Chain of Thought reasoning in LLMs is a scaling trap and proposes latent reasoning methods as the next direction, but warns of black-box challenges.",
+      "tags": [
+        "LLM Reasoning",
+        "Chain of Thought",
+        "Latent Reasoning",
+        "Scaling",
+        "AI Research"
+      ]
+    },
+    {
+      "title": "Building and Shipping Mac and iOS Apps Without Ever Opening Xcode",
+      "title_zh": "通过LLM代理构建苹果应用，无需Xcode",
+      "title_en": "Building Apple Apps Without Xcode via LLM Agents",
+      "url": "https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A blog post describes how to build, sign, and notarize Mac and iOS apps entirely via command-line tools and LLM agents (e.g., Claude), without ever opening Xcode.",
+      "tags": [
+        "iOS",
+        "macOS",
+        "app development",
+        "automation",
+        "LLM"
+      ]
+    },
+    {
+      "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
+      "title_zh": "苹果 SpeechAnalyzer API 在速度上超越 Whisper，准确性略低",
+      "title_en": "Apple's SpeechAnalyzer API beats Whisper in speed, slightly less accurate",
+      "url": "https://get-inscribe.com/blog/apple-speech-api-benchmark.html",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Apple's new SpeechAnalyzer API is benchmarked against Whisper and its predecessor, showing substantially faster performance with only slightly lower accuracy.",
+      "tags": [
+        "Apple",
+        "speech recognition",
+        "ASR",
+        "benchmarking",
+        "Whisper"
+      ]
+    },
+    {
+      "title": "Climate.gov was destroyed. Open data saved it",
+      "title_zh": "开放数据拯救被毁的气候.gov数据",
+      "title_en": "Open data saved climate.gov after destruction",
+      "url": "https://werd.io/climate-gov-was-destroyed-open-data-saved-it/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A blog post detailing how open data initiatives saved climate.gov data after it was removed, sparking discussion on data ownership and decentralized storage.",
+      "tags": [
+        "open data",
+        "climate data",
+        "data preservation",
+        "government transparency",
+        "IPFS"
+      ]
+    },
+    {
+      "title": "Telegram's t.me domain has been suspended",
+      "title_zh": "Telegram的t.me域名被暂停",
+      "title_en": "Telegram's t.me Domain Suspended",
+      "url": "https://www.whois.com/whois/t.me",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Telegram's t.me domain was suspended, likely due to regulatory actions in Russia, France, or India, with technical details indicating registry-level action.",
+      "tags": [
+        "domain",
+        "telegram",
+        "security",
+        "DNS",
+        "governance"
+      ]
+    },
+    {
+      "title": "LAPD lets contract with surveillance giant Flock expire",
+      "title_zh": "洛杉矶警察局因隐私担忧终止与Flock的合同",
+      "title_en": "LAPD ends Flock contract over privacy concerns",
+      "url": "https://techcrunch.com/2026/07/13/lapd-lets-contract-with-surveillance-giant-flock-expire-citing-serious-concerns-over-civil-liberties-and-privacy/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "LAPD ends contract with Flock over civil liberties concerns, but comments reveal Flock's resilient data harvesting model.",
+      "tags": [
+        "surveillance",
+        "privacy",
+        "civil liberties",
+        "LAPD",
+        "Flock"
+      ]
+    },
+    {
+      "title": "GPUHedge: Hedging serverless GPU providers improves cold start p95 latency from 117s to 30s [P]",
+      "title_zh": "GPUHedge 将无服务器 GPU 冷启动延迟降低 74%",
+      "title_en": "GPUHedge reduces serverless GPU cold start latency by 74%",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uvlb6h/gpuhedge_hedging_serverless_gpu_providers/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "GPUHedge uses speculative execution to hedge across serverless GPU providers, reducing cold start p95 latency from 117s to 30s.",
+      "tags": [
+        "GPU",
+        "serverless",
+        "cold start",
+        "hedging",
+        "latency"
       ]
     }
   ]
