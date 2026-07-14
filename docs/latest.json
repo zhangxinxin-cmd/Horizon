@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-13T22:45:14.038923+00:00",
-  "date": "2026-07-13",
-  "total_fetched": 19,
-  "important_count": 8,
+  "generated_at": "2026-07-14T22:47:15.685849+00:00",
+  "date": "2026-07-14",
+  "total_fetched": 36,
+  "important_count": 13,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,141 +10,219 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/07/13/summary-zh.html",
-      "path": "docs/_posts/2026-07-13-summary-zh.md"
+      "url": "2026/07/14/summary-zh.html",
+      "path": "docs/_posts/2026-07-14-summary-zh.md"
     },
     "en": {
-      "url": "2026/07/13/summary-en.html",
-      "path": "docs/_posts/2026-07-13-summary-en.md"
+      "url": "2026/07/14/summary-en.html",
+      "path": "docs/_posts/2026-07-14-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Samsung Health app threatens data deletion if users opt out AI training",
-      "title_zh": "三星健康APP：拒绝AI训练将删除用户数据",
-      "title_en": "Samsung Health Threatens Data Deletion Over AI Training Opt-Out",
-      "url": "https://neow.in/cWsyMTV3",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "Samsung Health app threatens to delete user data if they opt out of AI training, raising major privacy and data ownership concerns.",
-      "tags": [
-        "privacy",
-        "AI training",
-        "Samsung Health",
-        "data deletion",
-        "user rights"
-      ]
-    },
-    {
-      "title": "Chain of Thought is a scaling trap. the next wave is latent reasoning (Coconut / HRM / RecrusiveMAS)... but then we hit the black box wall. Where does BDH fit? [D]",
-      "title_zh": "思维链是规模陷阱；潜在推理兴起",
-      "title_en": "CoT is a scaling trap; latent reasoning emerges",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uviru5/chain_of_thought_is_a_scaling_trap_the_next_wave/",
-      "source": "reddit",
-      "score": 9.0,
-      "summary": "Argues that Chain of Thought reasoning in LLMs is a scaling trap and proposes latent reasoning methods as the next direction, but warns of black-box challenges.",
-      "tags": [
-        "LLM Reasoning",
-        "Chain of Thought",
-        "Latent Reasoning",
-        "Scaling",
-        "AI Research"
-      ]
-    },
-    {
-      "title": "Building and Shipping Mac and iOS Apps Without Ever Opening Xcode",
-      "title_zh": "通过LLM代理构建苹果应用，无需Xcode",
-      "title_en": "Building Apple Apps Without Xcode via LLM Agents",
-      "url": "https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/",
+      "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
+      "title_zh": "Bonsai 27B：可在手机上运行的270亿参数模型",
+      "title_en": "Bonsai 27B: 27B-Parameter Model Runs on a Phone",
+      "url": "https://prismml.com/news/bonsai-27b",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "A blog post describes how to build, sign, and notarize Mac and iOS apps entirely via command-line tools and LLM agents (e.g., Claude), without ever opening Xcode.",
+      "summary": "Bonsai 27B is a 27B-parameter model quantized to fit on a phone, showcasing state-of-the-art compression with competitive performance.",
       "tags": [
-        "iOS",
-        "macOS",
-        "app development",
-        "automation",
-        "LLM"
+        "model compression",
+        "quantization",
+        "on-device AI",
+        "large language models",
+        "PrismML"
       ]
     },
     {
-      "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
-      "title_zh": "苹果 SpeechAnalyzer API 在速度上超越 Whisper，准确性略低",
-      "title_en": "Apple's SpeechAnalyzer API beats Whisper in speed, slightly less accurate",
-      "url": "https://get-inscribe.com/blog/apple-speech-api-benchmark.html",
+      "title": "The Tower Keeps Rising",
+      "title_zh": "阿明·罗纳赫论软件复杂度与AI",
+      "title_en": "Armin Ronacher on Composability Challenges in AI Era",
+      "url": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Apple's new SpeechAnalyzer API is benchmarked against Whisper and its predecessor, showing substantially faster performance with only slightly lower accuracy.",
+      "summary": "Explores the growing complexity and composability challenges in software development, particularly in the context of AI and LLMs.",
       "tags": [
-        "Apple",
-        "speech recognition",
-        "ASR",
-        "benchmarking",
-        "Whisper"
+        "software engineering",
+        "composability",
+        "AI",
+        "complexity",
+        "programming"
       ]
     },
     {
-      "title": "Climate.gov was destroyed. Open data saved it",
-      "title_zh": "开放数据拯救被毁的气候.gov数据",
-      "title_en": "Open data saved climate.gov after destruction",
-      "url": "https://werd.io/climate-gov-was-destroyed-open-data-saved-it/",
+      "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+      "title_zh": "Cursor 零日漏洞：通过恶意 git.exe 执行任意代码",
+      "title_en": "Cursor 0-Day: Arbitrary Code Execution via Malicious git.exe",
+      "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "A blog post detailing how open data initiatives saved climate.gov data after it was removed, sparking discussion on data ownership and decentralized storage.",
+      "summary": "A 0-day vulnerability in Cursor allows arbitrary code execution via a malicious git.exe in the code directory, and the vendor has not fixed it for six months.",
       "tags": [
-        "open data",
-        "climate data",
-        "data preservation",
-        "government transparency",
-        "IPFS"
-      ]
-    },
-    {
-      "title": "Telegram's t.me domain has been suspended",
-      "title_zh": "Telegram的t.me域名被暂停",
-      "title_en": "Telegram's t.me Domain Suspended",
-      "url": "https://www.whois.com/whois/t.me",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Telegram's t.me domain was suspended, likely due to regulatory actions in Russia, France, or India, with technical details indicating registry-level action.",
-      "tags": [
-        "domain",
-        "telegram",
         "security",
-        "DNS",
-        "governance"
+        "vulnerability",
+        "cursor",
+        "AI",
+        "disclosure"
       ]
     },
     {
-      "title": "LAPD lets contract with surveillance giant Flock expire",
-      "title_zh": "洛杉矶警察局因隐私担忧终止与Flock的合同",
-      "title_en": "LAPD ends Flock contract over privacy concerns",
-      "url": "https://techcrunch.com/2026/07/13/lapd-lets-contract-with-surveillance-giant-flock-expire-citing-serious-concerns-over-civil-liberties-and-privacy/",
+      "title": "Punch yourself in the face with reality",
+      "title_zh": "AI辅助编程的现实警示",
+      "title_en": "The Reality Check on AI-Assisted Programming",
+      "url": "https://adi.bio/reality",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "LAPD ends contract with Flock over civil liberties concerns, but comments reveal Flock's resilient data harvesting model.",
+      "summary": "A cautionary essay on how using AI for programming can create an illusion of progress while actually leading to convoluted, unmanageable code.",
       "tags": [
-        "surveillance",
-        "privacy",
-        "civil liberties",
-        "LAPD",
-        "Flock"
+        "AI",
+        "software engineering",
+        "productivity",
+        "reflection"
       ]
     },
     {
-      "title": "GPUHedge: Hedging serverless GPU providers improves cold start p95 latency from 117s to 30s [P]",
-      "title_zh": "GPUHedge 将无服务器 GPU 冷启动延迟降低 74%",
-      "title_en": "GPUHedge reduces serverless GPU cold start latency by 74%",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uvlb6h/gpuhedge_hedging_serverless_gpu_providers/",
+      "title": "Quoting Armin Ronacher",
+      "title_zh": "摩擦作为特性：软件项目中的共同理解",
+      "title_en": "Friction as a Feature: Shared Understanding in Software Projects",
+      "url": "https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "Armin Ronacher discusses how the shared language of software projects is maintained by friction, which may be lost with the rise of AI agents.",
+      "tags": [
+        "software engineering",
+        "shared understanding",
+        "AI agents",
+        "collaboration",
+        "knowledge transfer"
+      ]
+    },
+    {
+      "title": "New LLM Coordination Benchmark - Benchmarking Open-Ended Multi-Agent Coordination in Language Agents [R]",
+      "title_zh": "新基准测试评估LLMs在开放式多智能体协调中的表现",
+      "title_en": "New Benchmark Tests LLMs on Open-Ended Multi-Agent Coordination",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uwc6ni/new_llm_coordination_benchmark_benchmarking/",
       "source": "reddit",
       "score": 8.0,
-      "summary": "GPUHedge uses speculative execution to hedge across serverless GPU providers, reducing cold start p95 latency from 117s to 30s.",
+      "summary": "A new benchmark evaluates LLM agents on open-ended multi-agent coordination tasks, finding most perform poorly (~6% return) but Gemini 3.1 Pro matches specialized MARL agents on the hardest setting.",
       "tags": [
-        "GPU",
-        "serverless",
-        "cold start",
-        "hedging",
-        "latency"
+        "LLM",
+        "multi-agent coordination",
+        "benchmark",
+        "AI evaluation",
+        "MARL"
+      ]
+    },
+    {
+      "title": "2026 菲尔兹奖名单疑泄露：ICM 官网代码藏四位得主姓名",
+      "title_zh": "2026年菲尔兹奖得主疑从ICM官网代码泄露",
+      "title_en": "2026 Fields Medal winners leaked via ICM website code",
+      "url": "https://www.reddit.com/r/math/comments/1urv4id/fields_medal_26_predictionsdiscussion/",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Potential leak of 2026 Fields Medal winners from ICM website code, sparking high community interest and betting markets.",
+      "tags": [
+        "Fields Medal",
+        "Mathematics",
+        "Leak",
+        "ICM",
+        "Speculation"
+      ]
+    },
+    {
+      "title": "Cloudflare 推出 Precursor，全程监控鼠标轨迹识别 AI 机器人",
+      "title_zh": "Cloudflare 推出 Precursor：持续行为验证检测 AI 机器人",
+      "title_en": "Cloudflare Precursor: Continuous Behavior Verification to Detect AI Bots",
+      "url": "https://blog.cloudflare.com/introducing-precursor/",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Cloudflare introduces Precursor, a continuous behavior verification engine that tracks mouse movements and keyboard patterns to distinguish humans from bots throughout a session.",
+      "tags": [
+        "Cloudflare",
+        "bot detection",
+        "AI security",
+        "behavior analysis",
+        "cybersecurity"
+      ]
+    },
+    {
+      "title": "🤖 DeepSeek 完成逾 500 亿元首轮融资，采用特殊架构维持创始人控制  据报道，DeepSeek 首轮融资筹得逾 500 亿元人民币（约 74 亿美元",
+      "title_zh": "DeepSeek 首轮融资 5000 亿元，特殊架构保创始人控制权",
+      "title_en": "DeepSeek Raises $74B in First Round, Uses Special Structure to Keep Founder Control",
+      "url": "https://t.me/zaihuapd/42557",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "DeepSeek raised over 500 billion yuan ($74B) in first financing round using a special structure to maintain founder control, with personal investment from CEO and participation from Tencent and CATL.",
+      "tags": [
+        "AI",
+        "Funding",
+        "DeepSeek",
+        "Tech News",
+        "Venture Capital"
+      ]
+    },
+    {
+      "title": "高德发布世界模型工坊，内置 \"任意门\" 可穿越 3D 世界",
+      "title_zh": "高德发布世界模型工坊，内置“任意门”功能",
+      "title_en": "AutoNavi Launches World Model Workshop with 'Portal' Feature",
+      "url": "https://www.ithome.com/0/976/538.htm",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Alibaba's AutoNavi releases ABot-WorldStudio, a world model workshop that generates interactive 3D worlds from text or images with a 'space-time door' feature, running locally on RTX 5090 with unlimited inference time.",
+      "tags": [
+        "world model",
+        "3D generation",
+        "interactive AI",
+        "open source",
+        "embodied AI"
+      ]
+    },
+    {
+      "title": "Telegram 短域名 t.me 突遭注册局冻结  Telegram 的短链接域名 t.me 已被注册局暂停使用。",
+      "title_zh": "Telegram短域名t.me被注册局冻结",
+      "title_en": "Telegram short domain t.me frozen by registry",
+      "url": "https://t.me/zaihuapd/42559",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Telegram's short domain t.me has been frozen by the registry, affecting short link services.",
+      "tags": [
+        "Telegram",
+        "domain",
+        "DNS",
+        "internet governance",
+        "service disruption"
+      ]
+    },
+    {
+      "title": "DeepMind CEO 呼吁美国主导成立全球 AI 监管机构",
+      "title_zh": "DeepMind CEO 呼吁美国主导全球AI监管机构",
+      "title_en": "DeepMind CEO Urges US-led Global AI Watchdog",
+      "url": "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "DeepMind CEO Demis Hassabis calls for a US-led global AI watchdog to assess frontier models before deployment.",
+      "tags": [
+        "AI regulation",
+        "DeepMind",
+        "global governance",
+        "AI safety"
+      ]
+    },
+    {
+      "title": "🤖 DeepSeek 完成首轮融资仅一月，再启新一轮估值 710 亿美元  中国 AI 创业公司 DeepSeek 在完成首轮融资约一个月后，已开始与投资者初步",
+      "title_zh": "🤖 DeepSeek 完成首轮融资仅一月，再启新一轮估值 710 亿美元",
+      "title_en": null,
+      "url": "https://t.me/zaihuapd/42564",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "DeepSeek, a Chinese AI startup, is seeking a $71B valuation in a new funding round just one month after its first round, and is developing its own AI chip.",
+      "tags": [
+        "AI funding",
+        "DeepSeek",
+        "valuation",
+        "AI chips",
+        "Chinese AI"
       ]
     }
   ]
