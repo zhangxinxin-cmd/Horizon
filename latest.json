@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-14T22:47:15.685849+00:00",
-  "date": "2026-07-14",
-  "total_fetched": 36,
-  "important_count": 13,
+  "generated_at": "2026-07-15T22:49:15.820303+00:00",
+  "date": "2026-07-15",
+  "total_fetched": 32,
+  "important_count": 12,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,219 +10,203 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/07/14/summary-zh.html",
-      "path": "docs/_posts/2026-07-14-summary-zh.md"
+      "url": "2026/07/15/summary-zh.html",
+      "path": "docs/_posts/2026-07-15-summary-zh.md"
     },
     "en": {
-      "url": "2026/07/14/summary-en.html",
-      "path": "docs/_posts/2026-07-14-summary-en.md"
+      "url": "2026/07/15/summary-en.html",
+      "path": "docs/_posts/2026-07-15-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
-      "title_zh": "Bonsai 27B：可在手机上运行的270亿参数模型",
-      "title_en": "Bonsai 27B: 27B-Parameter Model Runs on a Phone",
-      "url": "https://prismml.com/news/bonsai-27b",
+      "title": "Stripe and Advent have made a joint offer to acquire PayPal – sources",
+      "title_zh": "Stripe与Advent联合出价530亿美元收购PayPal",
+      "title_en": "Stripe and Advent Jointly Offer to Acquire PayPal for $53B",
+      "url": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/",
       "source": "hackernews",
-      "score": 8.0,
-      "summary": "Bonsai 27B is a 27B-parameter model quantized to fit on a phone, showcasing state-of-the-art compression with competitive performance.",
+      "score": 9.0,
+      "summary": "Stripe and Advent are reportedly making a joint offer to acquire PayPal for over $53 billion, raising major antitrust and market consolidation concerns.",
       "tags": [
-        "model compression",
-        "quantization",
-        "on-device AI",
-        "large language models",
-        "PrismML"
-      ]
-    },
-    {
-      "title": "The Tower Keeps Rising",
-      "title_zh": "阿明·罗纳赫论软件复杂度与AI",
-      "title_en": "Armin Ronacher on Composability Challenges in AI Era",
-      "url": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Explores the growing complexity and composability challenges in software development, particularly in the context of AI and LLMs.",
-      "tags": [
-        "software engineering",
-        "composability",
-        "AI",
-        "complexity",
-        "programming"
-      ]
-    },
-    {
-      "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
-      "title_zh": "Cursor 零日漏洞：通过恶意 git.exe 执行任意代码",
-      "title_en": "Cursor 0-Day: Arbitrary Code Execution via Malicious git.exe",
-      "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A 0-day vulnerability in Cursor allows arbitrary code execution via a malicious git.exe in the code directory, and the vendor has not fixed it for six months.",
-      "tags": [
-        "security",
-        "vulnerability",
-        "cursor",
-        "AI",
-        "disclosure"
-      ]
-    },
-    {
-      "title": "Punch yourself in the face with reality",
-      "title_zh": "AI辅助编程的现实警示",
-      "title_en": "The Reality Check on AI-Assisted Programming",
-      "url": "https://adi.bio/reality",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A cautionary essay on how using AI for programming can create an illusion of progress while actually leading to convoluted, unmanageable code.",
-      "tags": [
-        "AI",
-        "software engineering",
-        "productivity",
-        "reflection"
-      ]
-    },
-    {
-      "title": "Quoting Armin Ronacher",
-      "title_zh": "摩擦作为特性：软件项目中的共同理解",
-      "title_en": "Friction as a Feature: Shared Understanding in Software Projects",
-      "url": "https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "Armin Ronacher discusses how the shared language of software projects is maintained by friction, which may be lost with the rise of AI agents.",
-      "tags": [
-        "software engineering",
-        "shared understanding",
-        "AI agents",
-        "collaboration",
-        "knowledge transfer"
-      ]
-    },
-    {
-      "title": "New LLM Coordination Benchmark - Benchmarking Open-Ended Multi-Agent Coordination in Language Agents [R]",
-      "title_zh": "新基准测试评估LLMs在开放式多智能体协调中的表现",
-      "title_en": "New Benchmark Tests LLMs on Open-Ended Multi-Agent Coordination",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uwc6ni/new_llm_coordination_benchmark_benchmarking/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "A new benchmark evaluates LLM agents on open-ended multi-agent coordination tasks, finding most perform poorly (~6% return) but Gemini 3.1 Pro matches specialized MARL agents on the hardest setting.",
-      "tags": [
-        "LLM",
-        "multi-agent coordination",
-        "benchmark",
-        "AI evaluation",
-        "MARL"
-      ]
-    },
-    {
-      "title": "2026 菲尔兹奖名单疑泄露：ICM 官网代码藏四位得主姓名",
-      "title_zh": "2026年菲尔兹奖得主疑从ICM官网代码泄露",
-      "title_en": "2026 Fields Medal winners leaked via ICM website code",
-      "url": "https://www.reddit.com/r/math/comments/1urv4id/fields_medal_26_predictionsdiscussion/",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Potential leak of 2026 Fields Medal winners from ICM website code, sparking high community interest and betting markets.",
-      "tags": [
-        "Fields Medal",
-        "Mathematics",
-        "Leak",
-        "ICM",
-        "Speculation"
-      ]
-    },
-    {
-      "title": "Cloudflare 推出 Precursor，全程监控鼠标轨迹识别 AI 机器人",
-      "title_zh": "Cloudflare 推出 Precursor：持续行为验证检测 AI 机器人",
-      "title_en": "Cloudflare Precursor: Continuous Behavior Verification to Detect AI Bots",
-      "url": "https://blog.cloudflare.com/introducing-precursor/",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Cloudflare introduces Precursor, a continuous behavior verification engine that tracks mouse movements and keyboard patterns to distinguish humans from bots throughout a session.",
-      "tags": [
-        "Cloudflare",
-        "bot detection",
-        "AI security",
-        "behavior analysis",
-        "cybersecurity"
+        "acquisition",
+        "fintech",
+        "payments",
+        "antitrust",
+        "stripe"
       ]
     },
     {
       "title": "🤖 DeepSeek 完成逾 500 亿元首轮融资，采用特殊架构维持创始人控制  据报道，DeepSeek 首轮融资筹得逾 500 亿元人民币（约 74 亿美元",
-      "title_zh": "DeepSeek 首轮融资 5000 亿元，特殊架构保创始人控制权",
-      "title_en": "DeepSeek Raises $74B in First Round, Uses Special Structure to Keep Founder Control",
-      "url": "https://t.me/zaihuapd/42557",
+      "title_zh": "DeepSeek首轮融资740亿美元，采用特殊架构维持创始人控制",
+      "title_en": "DeepSeek raises $74B in first round with special founder control structure",
+      "url": "https://t.me/zaihuapd/42589",
       "source": "telegram",
+      "score": 9.0,
+      "summary": "DeepSeek completes first funding round of over 500 billion yuan ($74B) with a special structure allowing founder control, involving key investors like Tencent and CATL.",
+      "tags": [
+        "funding",
+        "AI",
+        "startup",
+        "China",
+        "DeepSeek"
+      ]
+    },
+    {
+      "title": "Inkling: Our Open-Weights Model",
+      "title_zh": "Inkling：开源权重多模态音频模型",
+      "title_en": "Inkling: Open-Weights Multimodal Model with Audio",
+      "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "DeepSeek raised over 500 billion yuan ($74B) in first financing round using a special structure to maintain founder control, with personal investment from CEO and participation from Tencent and CATL.",
+      "summary": "Thinking Machines introduces Inkling, an open-weights multimodal model supporting audio, designed as a customizable base model for enterprises with fine-tuning available on Tinker.",
       "tags": [
         "AI",
-        "Funding",
-        "DeepSeek",
-        "Tech News",
-        "Venture Capital"
+        "open-weights",
+        "multimodal",
+        "large language model"
       ]
     },
     {
-      "title": "高德发布世界模型工坊，内置 \"任意门\" 可穿越 3D 世界",
-      "title_zh": "高德发布世界模型工坊，内置“任意门”功能",
-      "title_en": "AutoNavi Launches World Model Workshop with 'Portal' Feature",
-      "url": "https://www.ithome.com/0/976/538.htm",
+      "title": "Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon with no GPU",
+      "title_zh": "在13年旧Xeon上以5 tokens/秒运行Gemma 4 26B",
+      "title_en": "Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon",
+      "url": "https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A guide on running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon without a GPU, sparking discussion on local vs. cloud inference costs and future model capabilities.",
+      "tags": [
+        "machine-learning",
+        "llm",
+        "inference",
+        "hardware",
+        "cost-analysis"
+      ]
+    },
+    {
+      "title": "Prioritize mental health, and why communication is so important",
+      "title_zh": "优先考虑心理健康与沟通在软件开发中的重要性",
+      "title_en": "Prioritizing mental health and communication in software development",
+      "url": "https://ramones.dev/posts/mental-health/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A blog post and Hacker News discussion emphasize prioritizing mental health and communication in software development, with commenters offering diverse perspectives on vocation alignment and neurodiversity.",
+      "tags": [
+        "mental health",
+        "software engineering",
+        "communication",
+        "neurodiversity",
+        "work-life balance"
+      ]
+    },
+    {
+      "title": "How I tricked Claude into leaking your deepest, darkest secrets",
+      "title_zh": "Claude web_fetch 漏洞导致数据窃取攻击",
+      "title_en": "Claude web_fetch loophole enables data exfiltration attack",
+      "url": "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "A security researcher exploited a design flaw in Claude's web_fetch tool to exfiltrate private user data, highlighting a critical AI safety risk.",
+      "tags": [
+        "AI safety",
+        "security",
+        "Claude",
+        "data exfiltration",
+        "prompt injection"
+      ]
+    },
+    {
+      "title": "Mechanistic interpretability: a first paper on disentangling a convolutional neuron [R]",
+      "title_zh": "新方法通过哈达玛积聚类解构单个卷积神经元",
+      "title_en": "New Method Disentangles Single Convolutional Neuron Using Hadamard Clustering",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uwya70/mechanistic_interpretability_a_first_paper_on/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "Presents a new method using Hadamard product clustering to disentangle and analyze a single 1x1 convolution neuron in Inceptionv1, revealing monosemantic patterns like cars, cats, and dogs.",
+      "tags": [
+        "mechanistic interpretability",
+        "convolutional neural networks",
+        "neuron analysis",
+        "machine learning research"
+      ]
+    },
+    {
+      "title": "PyTorch model running 170x slower on T4 vs A100. What could cause a bottleneck this extreme? [D]",
+      "title_zh": "T4上PyTorch模型比A100慢170倍：可能原因探讨",
+      "title_en": "170x PyTorch slowdown on T4 vs A100: possible causes explored",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ux6a9x/pytorch_model_running_170x_slower_on_t4_vs_a100/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "User reports 170x slowdown of PyTorch model on T4 vs A100, seeking causes for extreme performance gap.",
+      "tags": [
+        "PyTorch",
+        "GPU Performance",
+        "A100",
+        "T4",
+        "Model Optimization"
+      ]
+    },
+    {
+      "title": "🤖📱 Apple 智能、华为小艺 AI 大模型等7款手机端侧语言模型完成备案",
+      "title_zh": "七款手机端侧语言模型获中国监管备案",
+      "title_en": "7 Mobile On-Device LLMs Get China Regulatory Approval",
+      "url": "https://mp.weixin.qq.com/s/5MTWh4pWVAlL71RQbU-Udg",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Alibaba's AutoNavi releases ABot-WorldStudio, a world model workshop that generates interactive 3D worlds from text or images with a 'space-time door' feature, running locally on RTX 5090 with unlimited inference time.",
+      "summary": "Seven mobile on-device language models, including Apple Intelligence and Huawei Xiaoyi, received Chinese regulatory approval.",
       "tags": [
-        "world model",
-        "3D generation",
-        "interactive AI",
+        "AI",
+        "mobile devices",
+        "regulation",
+        "on-device LLM",
+        "China"
+      ]
+    },
+    {
+      "title": "🤖 马斯克：X 将无条件开源全部代码，接受第三方审查",
+      "title_zh": "马斯克：X 将无条件开源全部代码",
+      "title_en": "Musk: X to Unconditionally Open-Source Entire Codebase",
+      "url": "https://x.com/elonmusk/status/2077361679034118271",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Elon Musk announces that X will unconditionally open-source its entire codebase and submit to third-party review after fixing security vulnerabilities.",
+      "tags": [
         "open source",
-        "embodied AI"
+        "X platform",
+        "code audit",
+        "software engineering",
+        "transparency"
       ]
     },
     {
-      "title": "Telegram 短域名 t.me 突遭注册局冻结  Telegram 的短链接域名 t.me 已被注册局暂停使用。",
-      "title_zh": "Telegram短域名t.me被注册局冻结",
-      "title_en": "Telegram short domain t.me frozen by registry",
-      "url": "https://t.me/zaihuapd/42559",
+      "title": "🍏 开发者利用沙盒逃逸让 Filza 读取 iOS 27 备忘录数据库",
+      "title_zh": "开发者利用沙盒逃逸通过 Filza 读取 iOS 27 备忘录数据库",
+      "title_en": "Developer exploits iOS sandbox escape to read Notes database via Filza",
+      "url": "https://x.com/0xjohnny/status/2077216973256274272",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Telegram's short domain t.me has been frozen by the registry, affecting short link services.",
+      "summary": "Developer modifies Filza to exploit a sandbox escape vulnerability, enabling access to iOS 27's Notes database from within the app's container.",
       "tags": [
+        "iOS security",
+        "sandbox escape",
+        "Filza",
+        "vulnerability",
+        "jailbreak"
+      ]
+    },
+    {
+      "title": "✈️ Telegram 推出 Serverless 平台：机器人后端无需自建服务器",
+      "title_zh": "Telegram 推出无服务器机器人平台",
+      "title_en": "Telegram Launches Serverless Platform for Bots and Mini Apps",
+      "url": "https://core.telegram.org/bots/serverless",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Telegram launches a serverless platform for bots, allowing developers to run JavaScript backend code on Telegram's infrastructure without managing servers.",
+      "tags": [
+        "serverless",
         "Telegram",
-        "domain",
-        "DNS",
-        "internet governance",
-        "service disruption"
-      ]
-    },
-    {
-      "title": "DeepMind CEO 呼吁美国主导成立全球 AI 监管机构",
-      "title_zh": "DeepMind CEO 呼吁美国主导全球AI监管机构",
-      "title_en": "DeepMind CEO Urges US-led Global AI Watchdog",
-      "url": "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "DeepMind CEO Demis Hassabis calls for a US-led global AI watchdog to assess frontier models before deployment.",
-      "tags": [
-        "AI regulation",
-        "DeepMind",
-        "global governance",
-        "AI safety"
-      ]
-    },
-    {
-      "title": "🤖 DeepSeek 完成首轮融资仅一月，再启新一轮估值 710 亿美元  中国 AI 创业公司 DeepSeek 在完成首轮融资约一个月后，已开始与投资者初步",
-      "title_zh": "🤖 DeepSeek 完成首轮融资仅一月，再启新一轮估值 710 亿美元",
-      "title_en": null,
-      "url": "https://t.me/zaihuapd/42564",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "DeepSeek, a Chinese AI startup, is seeking a $71B valuation in a new funding round just one month after its first round, and is developing its own AI chip.",
-      "tags": [
-        "AI funding",
-        "DeepSeek",
-        "valuation",
-        "AI chips",
-        "Chinese AI"
+        "bots",
+        "JavaScript",
+        "cloud computing"
       ]
     }
   ]
