@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-15T22:49:15.820303+00:00",
-  "date": "2026-07-15",
+  "generated_at": "2026-07-17T22:39:21.638857+00:00",
+  "date": "2026-07-17",
   "total_fetched": 32,
-  "important_count": 12,
+  "important_count": 8,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,203 +10,138 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/07/15/summary-zh.html",
-      "path": "docs/_posts/2026-07-15-summary-zh.md"
+      "url": "2026/07/17/summary-zh.html",
+      "path": "docs/_posts/2026-07-17-summary-zh.md"
     },
     "en": {
-      "url": "2026/07/15/summary-en.html",
-      "path": "docs/_posts/2026-07-15-summary-en.md"
+      "url": "2026/07/17/summary-en.html",
+      "path": "docs/_posts/2026-07-17-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Stripe and Advent have made a joint offer to acquire PayPal – sources",
-      "title_zh": "Stripe与Advent联合出价530亿美元收购PayPal",
-      "title_en": "Stripe and Advent Jointly Offer to Acquire PayPal for $53B",
-      "url": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/",
+      "title": "Kimi K3, and what we can still learn from the pelican benchmark",
+      "title_zh": "Kimi K3 与鹈鹕基准测试的启示",
+      "title_en": "Kimi K3 and Lessons from the Pelican Benchmark",
+      "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/",
       "source": "hackernews",
       "score": 9.0,
-      "summary": "Stripe and Advent are reportedly making a joint offer to acquire PayPal for over $53 billion, raising major antitrust and market consolidation concerns.",
+      "summary": "Analysis of the Kimi K3 model's performance on the pelican benchmark reveals issues with benchmark design and hidden prompts in token counts.",
       "tags": [
-        "acquisition",
-        "fintech",
-        "payments",
-        "antitrust",
-        "stripe"
+        "AI benchmarks",
+        "Kimi K3",
+        "pelican benchmark",
+        "tokenization",
+        "agentic tools"
       ]
     },
     {
-      "title": "🤖 DeepSeek 完成逾 500 亿元首轮融资，采用特殊架构维持创始人控制  据报道，DeepSeek 首轮融资筹得逾 500 亿元人民币（约 74 亿美元",
-      "title_zh": "DeepSeek首轮融资740亿美元，采用特殊架构维持创始人控制",
-      "title_en": "DeepSeek raises $74B in first round with special founder control structure",
-      "url": "https://t.me/zaihuapd/42589",
-      "source": "telegram",
-      "score": 9.0,
-      "summary": "DeepSeek completes first funding round of over 500 billion yuan ($74B) with a special structure allowing founder control, involving key investors like Tencent and CATL.",
-      "tags": [
-        "funding",
-        "AI",
-        "startup",
-        "China",
-        "DeepSeek"
-      ]
-    },
-    {
-      "title": "Inkling: Our Open-Weights Model",
-      "title_zh": "Inkling：开源权重多模态音频模型",
-      "title_en": "Inkling: Open-Weights Multimodal Model with Audio",
-      "url": "https://thinkingmachines.ai/news/introducing-inkling/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Thinking Machines introduces Inkling, an open-weights multimodal model supporting audio, designed as a customizable base model for enterprises with fine-tuning available on Tinker.",
-      "tags": [
-        "AI",
-        "open-weights",
-        "multimodal",
-        "large language model"
-      ]
-    },
-    {
-      "title": "Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon with no GPU",
-      "title_zh": "在13年旧Xeon上以5 tokens/秒运行Gemma 4 26B",
-      "title_en": "Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon",
-      "url": "https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A guide on running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon without a GPU, sparking discussion on local vs. cloud inference costs and future model capabilities.",
-      "tags": [
-        "machine-learning",
-        "llm",
-        "inference",
-        "hardware",
-        "cost-analysis"
-      ]
-    },
-    {
-      "title": "Prioritize mental health, and why communication is so important",
-      "title_zh": "优先考虑心理健康与沟通在软件开发中的重要性",
-      "title_en": "Prioritizing mental health and communication in software development",
-      "url": "https://ramones.dev/posts/mental-health/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A blog post and Hacker News discussion emphasize prioritizing mental health and communication in software development, with commenters offering diverse perspectives on vocation alignment and neurodiversity.",
-      "tags": [
-        "mental health",
-        "software engineering",
-        "communication",
-        "neurodiversity",
-        "work-life balance"
-      ]
-    },
-    {
-      "title": "How I tricked Claude into leaking your deepest, darkest secrets",
-      "title_zh": "Claude web_fetch 漏洞导致数据窃取攻击",
-      "title_en": "Claude web_fetch loophole enables data exfiltration attack",
-      "url": "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
+      "title": "Firefox in WebAssembly",
+      "title_zh": "Firefox 编译为 WebAssembly 在另一浏览器中运行",
+      "title_en": "Firefox Compiled to WebAssembly Runs Inside Another Browser",
+      "url": "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything",
       "source": "rss",
-      "score": 8.0,
-      "summary": "A security researcher exploited a design flaw in Claude's web_fetch tool to exfiltrate private user data, highlighting a critical AI safety risk.",
+      "score": 9.0,
+      "summary": "A project successfully compiled Mozilla Firefox to WebAssembly, enabling the entire browser to run within another browser.",
       "tags": [
-        "AI safety",
-        "security",
-        "Claude",
-        "data exfiltration",
-        "prompt injection"
+        "WebAssembly",
+        "Firefox",
+        "browser",
+        "portability",
+        "AI-assisted development"
       ]
     },
     {
-      "title": "Mechanistic interpretability: a first paper on disentangling a convolutional neuron [R]",
-      "title_zh": "新方法通过哈达玛积聚类解构单个卷积神经元",
-      "title_en": "New Method Disentangles Single Convolutional Neuron Using Hadamard Clustering",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uwya70/mechanistic_interpretability_a_first_paper_on/",
-      "source": "reddit",
+      "title": "AWS: Inaccurate Estimated Billing Data – $1.7 billion",
+      "title_zh": "AWS计费错误显示17亿美元预估账单",
+      "title_en": "AWS Billing Bug Shows $1.7B Estimated Bill",
+      "url": "https://news.ycombinator.com/item?id=48945241",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "Presents a new method using Hadamard product clustering to disentangle and analyze a single 1x1 convolution neuron in Inceptionv1, revealing monosemantic patterns like cars, cats, and dogs.",
+      "summary": "AWS billing system shows erroneous $1.7B estimated bills due to unit conversion error.",
       "tags": [
-        "mechanistic interpretability",
-        "convolutional neural networks",
-        "neuron analysis",
-        "machine learning research"
+        "aws",
+        "billing",
+        "incident",
+        "cloud-computing"
       ]
     },
     {
-      "title": "PyTorch model running 170x slower on T4 vs A100. What could cause a bottleneck this extreme? [D]",
-      "title_zh": "T4上PyTorch模型比A100慢170倍：可能原因探讨",
-      "title_en": "170x PyTorch slowdown on T4 vs A100: possible causes explored",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ux6a9x/pytorch_model_running_170x_slower_on_t4_vs_a100/",
-      "source": "reddit",
+      "title": "First atmosphere found on Earth-like planet in habitable zone of distant star",
+      "title_zh": "在宜居带类地系外行星上首次探测到大气",
+      "title_en": "First atmosphere detected on Earth-like exoplanet in habitable zone",
+      "url": "https://www.bbc.com/news/articles/cy4kdd1e0ejo",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "User reports 170x slowdown of PyTorch model on T4 vs A100, seeking causes for extreme performance gap.",
+      "summary": "First atmosphere detected on a potentially Earth-like planet in the habitable zone of a red dwarf, challenging assumptions about atmospheric retention.",
       "tags": [
-        "PyTorch",
-        "GPU Performance",
-        "A100",
-        "T4",
-        "Model Optimization"
+        "exoplanet",
+        "astronomy",
+        "atmosphere detection",
+        "JWST"
       ]
     },
     {
-      "title": "🤖📱 Apple 智能、华为小艺 AI 大模型等7款手机端侧语言模型完成备案",
-      "title_zh": "七款手机端侧语言模型获中国监管备案",
-      "title_en": "7 Mobile On-Device LLMs Get China Regulatory Approval",
-      "url": "https://mp.weixin.qq.com/s/5MTWh4pWVAlL71RQbU-Udg",
-      "source": "telegram",
+      "title": "The state of open source AI",
+      "title_zh": "Mozilla开源AI报告引发争论",
+      "title_en": "Mozilla Report on Open Source AI Sparks Debate",
+      "url": "https://stateofopensource.ai/",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "Seven mobile on-device language models, including Apple Intelligence and Huawei Xiaoyi, received Chinese regulatory approval.",
-      "tags": [
-        "AI",
-        "mobile devices",
-        "regulation",
-        "on-device LLM",
-        "China"
-      ]
-    },
-    {
-      "title": "🤖 马斯克：X 将无条件开源全部代码，接受第三方审查",
-      "title_zh": "马斯克：X 将无条件开源全部代码",
-      "title_en": "Musk: X to Unconditionally Open-Source Entire Codebase",
-      "url": "https://x.com/elonmusk/status/2077361679034118271",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Elon Musk announces that X will unconditionally open-source its entire codebase and submit to third-party review after fixing security vulnerabilities.",
+      "summary": "A report on the state of open source AI from Mozilla, sparking debate on open vs closed models.",
       "tags": [
         "open source",
-        "X platform",
-        "code audit",
-        "software engineering",
-        "transparency"
+        "AI",
+        "LLM",
+        "market analysis",
+        "Mozilla"
       ]
     },
     {
-      "title": "🍏 开发者利用沙盒逃逸让 Filza 读取 iOS 27 备忘录数据库",
-      "title_zh": "开发者利用沙盒逃逸通过 Filza 读取 iOS 27 备忘录数据库",
-      "title_en": "Developer exploits iOS sandbox escape to read Notes database via Filza",
-      "url": "https://x.com/0xjohnny/status/2077216973256274272",
-      "source": "telegram",
+      "title": "EU AI Act OpenRAG: 933 legally structured chunks and BGE-M3 embeddings in one SQLite file [P]",
+      "title_zh": "EU AI Act OpenRAG：基于法律结构化分块与BGE-M3嵌入的语料库",
+      "title_en": "EU AI Act OpenRAG: Legal-Structured Chunks with BGE-M3 Embeddings",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uytlac/eu_ai_act_openrag_933_legally_structured_chunks/",
+      "source": "reddit",
       "score": 8.0,
-      "summary": "Developer modifies Filza to exploit a sandbox escape vulnerability, enabling access to iOS 27's Notes database from within the app's container.",
+      "summary": "Release of a structured, legally-chunked corpus of the EU AI Act with BGE-M3 embeddings, demonstrating improved retrieval performance over baseline for RAG applications.",
       "tags": [
-        "iOS security",
-        "sandbox escape",
-        "Filza",
-        "vulnerability",
-        "jailbreak"
+        "RAG",
+        "Legal NLP",
+        "EU AI Act",
+        "Embeddings",
+        "Dataset"
       ]
     },
     {
-      "title": "✈️ Telegram 推出 Serverless 平台：机器人后端无需自建服务器",
-      "title_zh": "Telegram 推出无服务器机器人平台",
-      "title_en": "Telegram Launches Serverless Platform for Bots and Mini Apps",
-      "url": "https://core.telegram.org/bots/serverless",
+      "title": "Truth Social 将向华尔街出售特朗普帖子的快速访问权限",
+      "title_zh": "Truth Social 将向华尔街出售特朗普帖子的实时访问权限",
+      "title_en": "Truth Social to Sell Real-Time Trump Posts to Wall Street via API",
+      "url": "https://www.cnn.com/2026/07/16/business/truth-social-data-wall-street",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Telegram launches a serverless platform for bots, allowing developers to run JavaScript backend code on Telegram's infrastructure without managing servers.",
+      "summary": "Truth Social will sell real-time access to Trump's posts to institutional investors via a new API, aiming to monetize data for high-frequency trading.",
       "tags": [
-        "serverless",
-        "Telegram",
-        "bots",
-        "JavaScript",
-        "cloud computing"
+        "social media",
+        "API",
+        "high-frequency trading",
+        "ethics",
+        "politics"
+      ]
+    },
+    {
+      "title": "📱华为昇腾 950 超节点首次公开亮相，算力达英伟达同级 6.7 倍",
+      "title_zh": "华为昇腾950超节点首发，算力号称英伟达6.7倍",
+      "title_en": "Huawei Ascend 950 SuperNode Debuts, Claims 6.7x NVIDIA's Compute",
+      "url": "https://www.ithome.com/0/978/019.htm",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Huawei unveils its Ascend 950 SuperNode at WAIC, claiming 6.7x the compute power of NVIDIA's equivalent NVL144 system.",
+      "tags": [
+        "Huawei",
+        "AI hardware",
+        "compute",
+        "breakthrough"
       ]
     }
   ]
