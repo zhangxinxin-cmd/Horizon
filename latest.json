@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-17T22:39:21.638857+00:00",
-  "date": "2026-07-17",
-  "total_fetched": 32,
-  "important_count": 8,
+  "generated_at": "2026-07-18T22:39:30.343888+00:00",
+  "date": "2026-07-18",
+  "total_fetched": 38,
+  "important_count": 12,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,138 +10,204 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/07/17/summary-zh.html",
-      "path": "docs/_posts/2026-07-17-summary-zh.md"
+      "url": "2026/07/18/summary-zh.html",
+      "path": "docs/_posts/2026-07-18-summary-zh.md"
     },
     "en": {
-      "url": "2026/07/17/summary-en.html",
-      "path": "docs/_posts/2026-07-17-summary-en.md"
+      "url": "2026/07/18/summary-en.html",
+      "path": "docs/_posts/2026-07-18-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Kimi K3, and what we can still learn from the pelican benchmark",
-      "title_zh": "Kimi K3 与鹈鹕基准测试的启示",
-      "title_en": "Kimi K3 and Lessons from the Pelican Benchmark",
-      "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/",
+      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+      "title_zh": "GPT-5.6 通过提示解决凸优化30年难题",
+      "title_en": "GPT-5.6 Solves 30-Year Convex Optimization Problem with Prompt",
+      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
       "source": "hackernews",
       "score": 9.0,
-      "summary": "Analysis of the Kimi K3 model's performance on the pelican benchmark reveals issues with benchmark design and hidden prompts in token counts.",
+      "summary": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization, marking a major AI-driven mathematical breakthrough.",
       "tags": [
-        "AI benchmarks",
-        "Kimi K3",
-        "pelican benchmark",
-        "tokenization",
-        "agentic tools"
-      ]
-    },
-    {
-      "title": "Firefox in WebAssembly",
-      "title_zh": "Firefox 编译为 WebAssembly 在另一浏览器中运行",
-      "title_en": "Firefox Compiled to WebAssembly Runs Inside Another Browser",
-      "url": "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything",
-      "source": "rss",
-      "score": 9.0,
-      "summary": "A project successfully compiled Mozilla Firefox to WebAssembly, enabling the entire browser to run within another browser.",
-      "tags": [
-        "WebAssembly",
-        "Firefox",
-        "browser",
-        "portability",
-        "AI-assisted development"
-      ]
-    },
-    {
-      "title": "AWS: Inaccurate Estimated Billing Data – $1.7 billion",
-      "title_zh": "AWS计费错误显示17亿美元预估账单",
-      "title_en": "AWS Billing Bug Shows $1.7B Estimated Bill",
-      "url": "https://news.ycombinator.com/item?id=48945241",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "AWS billing system shows erroneous $1.7B estimated bills due to unit conversion error.",
-      "tags": [
-        "aws",
-        "billing",
-        "incident",
-        "cloud-computing"
-      ]
-    },
-    {
-      "title": "First atmosphere found on Earth-like planet in habitable zone of distant star",
-      "title_zh": "在宜居带类地系外行星上首次探测到大气",
-      "title_en": "First atmosphere detected on Earth-like exoplanet in habitable zone",
-      "url": "https://www.bbc.com/news/articles/cy4kdd1e0ejo",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "First atmosphere detected on a potentially Earth-like planet in the habitable zone of a red dwarf, challenging assumptions about atmospheric retention.",
-      "tags": [
-        "exoplanet",
-        "astronomy",
-        "atmosphere detection",
-        "JWST"
-      ]
-    },
-    {
-      "title": "The state of open source AI",
-      "title_zh": "Mozilla开源AI报告引发争论",
-      "title_en": "Mozilla Report on Open Source AI Sparks Debate",
-      "url": "https://stateofopensource.ai/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A report on the state of open source AI from Mozilla, sparking debate on open vs closed models.",
-      "tags": [
-        "open source",
         "AI",
-        "LLM",
-        "market analysis",
-        "Mozilla"
+        "convex optimization",
+        "mathematics",
+        "breakthrough",
+        "GPT-5.6"
       ]
     },
     {
-      "title": "EU AI Act OpenRAG: 933 legally structured chunks and BGE-M3 embeddings in one SQLite file [P]",
-      "title_zh": "EU AI Act OpenRAG：基于法律结构化分块与BGE-M3嵌入的语料库",
-      "title_en": "EU AI Act OpenRAG: Legal-Structured Chunks with BGE-M3 Embeddings",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uytlac/eu_ai_act_openrag_933_legally_structured_chunks/",
+      "title": "The Kimi K3 Moment",
+      "title_zh": "Kimi K3以更低成本达到前沿性能",
+      "title_en": "Kimi K3 Achieves Frontier Performance at Lower Cost",
+      "url": "https://stephen.bochinski.dev/blog/2026/07/18/the-kimi-k3-moment/",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "Kimi K3 achieves frontier model performance at dramatically lower cost, sparking debate on AI distillation, pricing wars, and potential government restrictions.",
+      "tags": [
+        "AI",
+        "machine learning",
+        "distillation",
+        "model pricing",
+        "AI safety"
+      ]
+    },
+    {
+      "title": "Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help?",
+      "title_zh": "Fable 5 vs GPT-5.6 Sol 解决NP难问题：/goal 是否有帮助？",
+      "title_en": "Fable 5 vs. GPT-5.6 Sol on NP-Hard: Does /goal help?",
+      "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A comparison of Fable 5 and GPT-5.6 Sol on an NP-hard problem, evaluating the impact of the '/goal' parameter.",
+      "tags": [
+        "AI",
+        "GPT",
+        "Claude",
+        "NP-hard",
+        "coding"
+      ]
+    },
+    {
+      "title": "LG monitors silently install software through Windows Update without consent",
+      "title_zh": "LG显示器通过Windows Update静默安装软件",
+      "title_en": "LG monitors silently install software via Windows Update",
+      "url": "https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "LG monitors automatically install software via Windows Update without user consent, raising serious privacy and security concerns.",
+      "tags": [
+        "windows-update",
+        "lg-monitors",
+        "privacy",
+        "security",
+        "responsible-disclosure"
+      ]
+    },
+    {
+      "title": "What AI did to stackoverflow in a graph",
+      "title_zh": "图表显示Stack Overflow衰落与AI和审核相关",
+      "title_en": "Graph Shows Stack Overflow Decline Linked to AI and Moderation",
+      "url": "https://data.stackexchange.com/stackoverflow/query/1953768#graph",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A graph illustrating Stack Overflow's decline in activity, with community comments attributing it to AI, excessive moderation, and poor community management.",
+      "tags": [
+        "stackoverflow",
+        "ai",
+        "community",
+        "q&a",
+        "decline"
+      ]
+    },
+    {
+      "title": "Goodbye, and Thanks for All the Bikesheds",
+      "title_zh": "PHK以自行车棚比喻告别反思",
+      "title_en": "PHK Bids Farewell with Reflections on Bikeshedding",
+      "url": "https://queue.acm.org/detail.cfm?id=3818307",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Poul-Henning Kamp reflects on the bikeshedding metaphor and its implications in software development, bidding farewell.",
+      "tags": [
+        "bikeshedding",
+        "software engineering",
+        "open source",
+        "community dynamics",
+        "PHK"
+      ]
+    },
+    {
+      "title": "Claude make Fable 5 permanent",
+      "title_zh": "Anthropic将Claude Fable 5永久纳入高级计划",
+      "title_en": "Anthropic makes Claude Fable 5 permanent in premium plans",
+      "url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "Anthropic reverses plan to remove Claude Fable 5 from subscriptions, making it permanent in premium plans due to competition.",
+      "tags": [
+        "AI",
+        "Claude",
+        "Fable 5",
+        "subscription",
+        "competition"
+      ]
+    },
+    {
+      "title": "Did blatant AI Slop just win a 25K USD Deepmind / Kaggle Grand Prize? [D]",
+      "title_zh": "被指为垃圾AI的提交赢得2.5万美元DeepMind/Kaggle大奖",
+      "title_en": "Alleged AI Slop Wins $25K DeepMind/Kaggle Prize",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uzyf66/did_blatant_ai_slop_just_win_a_25k_usd_deepmind/",
       "source": "reddit",
       "score": 8.0,
-      "summary": "Release of a structured, legally-chunked corpus of the EU AI Act with BGE-M3 embeddings, demonstrating improved retrieval performance over baseline for RAG applications.",
+      "summary": "A Reddit post alleges that a Kaggle/DeepMind competition awarded $25k to a submission with nonsensical content, sparking debate about AI research evaluation and integrity.",
       "tags": [
-        "RAG",
-        "Legal NLP",
-        "EU AI Act",
-        "Embeddings",
-        "Dataset"
+        "AI ethics",
+        "Kaggle",
+        "DeepMind",
+        "research integrity",
+        "machine learning competitions"
       ]
     },
     {
-      "title": "Truth Social 将向华尔街出售特朗普帖子的快速访问权限",
-      "title_zh": "Truth Social 将向华尔街出售特朗普帖子的实时访问权限",
-      "title_en": "Truth Social to Sell Real-Time Trump Posts to Wall Street via API",
-      "url": "https://www.cnn.com/2026/07/16/business/truth-social-data-wall-street",
+      "title": "SpaceX 与五角大楼谈判提供 AI 算力，交易或达数十亿美元",
+      "title_zh": "SpaceX与五角大楼谈判数十亿美元AI算力交易",
+      "title_en": "Spacex in talks with Pentagon for AI computing deal worth billions",
+      "url": "https://www.wsj.com/tech/ai/spacex-in-talks-to-provide-computing-power-for-pentagons-ai-push-15e752e4",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Truth Social will sell real-time access to Trump's posts to institutional investors via a new API, aiming to monetize data for high-frequency trading.",
+      "summary": "SpaceX正与美国国防部谈判提供AI算力，交易金额或达数十亿美元。",
       "tags": [
-        "social media",
-        "API",
-        "high-frequency trading",
-        "ethics",
-        "politics"
+        "SpaceX",
+        "AI算力",
+        "五角大楼",
+        "国家安全",
+        "云计算"
       ]
     },
     {
-      "title": "📱华为昇腾 950 超节点首次公开亮相，算力达英伟达同级 6.7 倍",
-      "title_zh": "华为昇腾950超节点首发，算力号称英伟达6.7倍",
-      "title_en": "Huawei Ascend 950 SuperNode Debuts, Claims 6.7x NVIDIA's Compute",
-      "url": "https://www.ithome.com/0/978/019.htm",
+      "title": "台积电宣布下一代A14制程技术将于2028年投产  台积电计划在2028年开始生产A14制程，旨在保持芯片行业的领先地位。",
+      "title_zh": "台积电宣布A14制程将于2028年投产",
+      "title_en": "TSMC Announces A14 Process Technology for 2028",
+      "url": "https://t.me/zaihuapd/42643",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Huawei unveils its Ascend 950 SuperNode at WAIC, claiming 6.7x the compute power of NVIDIA's equivalent NVL144 system.",
+      "summary": "TSMC announces A14 process technology to enter production in 2028, promising speed and power improvements over N2.",
       "tags": [
-        "Huawei",
-        "AI hardware",
-        "compute",
-        "breakthrough"
+        "TSMC",
+        "semiconductor",
+        "chip manufacturing",
+        "process technology",
+        "A14"
+      ]
+    },
+    {
+      "title": "特朗普政府拟设类似 FINRA 的独立机构审查顶尖 AI 模型",
+      "title_zh": "特朗普政府拟设类似FINRA的AI监管机构",
+      "title_en": "Trump admin proposes FINRA-like watchdog for top AI models",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-17/us-considers-creating-finra-like-watchdog-to-vet-top-ai-models",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "U.S. considers creating FINRA-like independent watchdog to vet top AI models, aiming to address security concerns and industry dissatisfaction with temporary controls.",
+      "tags": [
+        "AI regulation",
+        "government policy",
+        "AI safety",
+        "regulatory body"
+      ]
+    },
+    {
+      "title": "柬国航购 20 架 C909 成首家批量采购外国载旗航司",
+      "title_zh": "柬国航购20架C909 创外国批量采购先例",
+      "title_en": "Cambodia's flag carrier orders 20 COMAC C909 jets",
+      "url": "https://www.zaobao.com.sg/news/china/story20260718-9384413",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Cambodia's national airline signs deal to buy 20 COMAC C909 aircraft, becoming the first foreign flag carrier to make a bulk purchase.",
+      "tags": [
+        "aviation",
+        "COMAC",
+        "C909",
+        "Cambodia",
+        "aerospace"
       ]
     }
   ]
