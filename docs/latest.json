@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-18T22:39:30.343888+00:00",
-  "date": "2026-07-18",
-  "total_fetched": 38,
-  "important_count": 12,
+  "generated_at": "2026-07-19T22:41:18.526612+00:00",
+  "date": "2026-07-19",
+  "total_fetched": 24,
+  "important_count": 5,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,204 +10,93 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/07/18/summary-zh.html",
-      "path": "docs/_posts/2026-07-18-summary-zh.md"
+      "url": "2026/07/19/summary-zh.html",
+      "path": "docs/_posts/2026-07-19-summary-zh.md"
     },
     "en": {
-      "url": "2026/07/18/summary-en.html",
-      "path": "docs/_posts/2026-07-18-summary-en.md"
+      "url": "2026/07/19/summary-en.html",
+      "path": "docs/_posts/2026-07-19-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
-      "title_zh": "GPT-5.6 通过提示解决凸优化30年难题",
-      "title_en": "GPT-5.6 Solves 30-Year Convex Optimization Problem with Prompt",
-      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+      "title": "Qwen 3.8",
+      "title_zh": "阿里发布 Qwen 3.8：2.4万亿参数开源权重大语言模型",
+      "title_en": "Alibaba Announces Qwen 3.8: 2.4T Parameter Open-Weights LLM",
+      "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
       "source": "hackernews",
       "score": 9.0,
-      "summary": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization, marking a major AI-driven mathematical breakthrough.",
+      "summary": "Alibaba announces Qwen 3.8, a 2.4T parameter open-weights LLM, responding to Moonshot AI's Kimi K3.",
       "tags": [
         "AI",
-        "convex optimization",
-        "mathematics",
-        "breakthrough",
-        "GPT-5.6"
+        "LLM",
+        "open-weights",
+        "Qwen",
+        "large language model"
       ]
     },
     {
-      "title": "The Kimi K3 Moment",
-      "title_zh": "Kimi K3以更低成本达到前沿性能",
-      "title_en": "Kimi K3 Achieves Frontier Performance at Lower Cost",
-      "url": "https://stephen.bochinski.dev/blog/2026/07/18/the-kimi-k3-moment/",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "Kimi K3 achieves frontier model performance at dramatically lower cost, sparking debate on AI distillation, pricing wars, and potential government restrictions.",
-      "tags": [
-        "AI",
-        "machine learning",
-        "distillation",
-        "model pricing",
-        "AI safety"
-      ]
-    },
-    {
-      "title": "Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help?",
-      "title_zh": "Fable 5 vs GPT-5.6 Sol 解决NP难问题：/goal 是否有帮助？",
-      "title_en": "Fable 5 vs. GPT-5.6 Sol on NP-Hard: Does /goal help?",
-      "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A comparison of Fable 5 and GPT-5.6 Sol on an NP-hard problem, evaluating the impact of the '/goal' parameter.",
-      "tags": [
-        "AI",
-        "GPT",
-        "Claude",
-        "NP-hard",
-        "coding"
-      ]
-    },
-    {
-      "title": "LG monitors silently install software through Windows Update without consent",
-      "title_zh": "LG显示器通过Windows Update静默安装软件",
-      "title_en": "LG monitors silently install software via Windows Update",
-      "url": "https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "LG monitors automatically install software via Windows Update without user consent, raising serious privacy and security concerns.",
-      "tags": [
-        "windows-update",
-        "lg-monitors",
-        "privacy",
-        "security",
-        "responsible-disclosure"
-      ]
-    },
-    {
-      "title": "What AI did to stackoverflow in a graph",
-      "title_zh": "图表显示Stack Overflow衰落与AI和审核相关",
-      "title_en": "Graph Shows Stack Overflow Decline Linked to AI and Moderation",
-      "url": "https://data.stackexchange.com/stackoverflow/query/1953768#graph",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A graph illustrating Stack Overflow's decline in activity, with community comments attributing it to AI, excessive moderation, and poor community management.",
-      "tags": [
-        "stackoverflow",
-        "ai",
-        "community",
-        "q&a",
-        "decline"
-      ]
-    },
-    {
-      "title": "Goodbye, and Thanks for All the Bikesheds",
-      "title_zh": "PHK以自行车棚比喻告别反思",
-      "title_en": "PHK Bids Farewell with Reflections on Bikeshedding",
-      "url": "https://queue.acm.org/detail.cfm?id=3818307",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Poul-Henning Kamp reflects on the bikeshedding metaphor and its implications in software development, bidding farewell.",
-      "tags": [
-        "bikeshedding",
-        "software engineering",
-        "open source",
-        "community dynamics",
-        "PHK"
-      ]
-    },
-    {
-      "title": "Claude make Fable 5 permanent",
-      "title_zh": "Anthropic将Claude Fable 5永久纳入高级计划",
-      "title_en": "Anthropic makes Claude Fable 5 permanent in premium plans",
-      "url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
+      "title": "Claude Code uses Bun written in Rust now",
+      "title_zh": "Claude Code 改用基于 Rust 的 Bun 运行时",
+      "title_en": "Claude Code now uses Rust-based Bun runtime",
+      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
       "source": "rss",
       "score": 8.0,
-      "summary": "Anthropic reverses plan to remove Claude Fable 5 from subscriptions, making it permanent in premium plans due to competition.",
+      "summary": "Claude Code now uses a Rust-based port of the Bun runtime, offering slight performance improvements and reflecting a major rewrite of a popular JavaScript runtime.",
       "tags": [
-        "AI",
-        "Claude",
-        "Fable 5",
-        "subscription",
-        "competition"
+        "Bun",
+        "Rust",
+        "Claude Code",
+        "JavaScript runtime",
+        "software rewrite"
       ]
     },
     {
-      "title": "Did blatant AI Slop just win a 25K USD Deepmind / Kaggle Grand Prize? [D]",
-      "title_zh": "被指为垃圾AI的提交赢得2.5万美元DeepMind/Kaggle大奖",
-      "title_en": "Alleged AI Slop Wins $25K DeepMind/Kaggle Prize",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uzyf66/did_blatant_ai_slop_just_win_a_25k_usd_deepmind/",
+      "title": "Follow up: GPT-2's vocabulary as a hyperbolic tree — 32,070 tokens in a Poincaré ball you can fly through [P]",
+      "title_zh": "GPT-2词元嵌入的双曲树交互可视化",
+      "title_en": "Interactive hyperbolic tree for GPT-2 token embeddings",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v0pv45/follow_up_gpt2s_vocabulary_as_a_hyperbolic_tree/",
       "source": "reddit",
       "score": 8.0,
-      "summary": "A Reddit post alleges that a Kaggle/DeepMind competition awarded $25k to a submission with nonsensical content, sparking debate about AI research evaluation and integrity.",
+      "summary": "Interactive hyperbolic tree visualization of GPT-2's 32,070 token embeddings, demonstrating how hyperbolic space naturally fits the vocabulary's forest-like similarity structure.",
       "tags": [
-        "AI ethics",
-        "Kaggle",
-        "DeepMind",
-        "research integrity",
-        "machine learning competitions"
+        "GPT-2",
+        "token embeddings",
+        "hyperbolic space",
+        "visualization",
+        "NLP"
       ]
     },
     {
-      "title": "SpaceX 与五角大楼谈判提供 AI 算力，交易或达数十亿美元",
-      "title_zh": "SpaceX与五角大楼谈判数十亿美元AI算力交易",
-      "title_en": "Spacex in talks with Pentagon for AI computing deal worth billions",
-      "url": "https://www.wsj.com/tech/ai/spacex-in-talks-to-provide-computing-power-for-pentagons-ai-push-15e752e4",
+      "title": "阿里开源 SAIL 挑战英伟达 CUDA",
+      "title_zh": "阿里开源SAIL挑战英伟达CUDA主导地位",
+      "title_en": "Alibaba Open Sources SAIL to Challenge NVIDIA CUDA Dominance",
+      "url": "https://www.scmp.com/tech/tech-war/article/3361048/alibaba-targets-nvidias-dominant-software-ecosystem-open-source-ai-stack",
       "source": "telegram",
       "score": 8.0,
-      "summary": "SpaceX正与美国国防部谈判提供AI算力，交易金额或达数十亿美元。",
+      "summary": "阿里巴巴开源SAIL软件栈，旨在降低AI芯片迁移门槛，挑战英伟达CUDA主导地位。",
       "tags": [
-        "SpaceX",
-        "AI算力",
-        "五角大楼",
-        "国家安全",
-        "云计算"
+        "AI芯片",
+        "开源",
+        "阿里巴巴",
+        "软件生态",
+        "CUDA竞争"
       ]
     },
     {
-      "title": "台积电宣布下一代A14制程技术将于2028年投产  台积电计划在2028年开始生产A14制程，旨在保持芯片行业的领先地位。",
-      "title_zh": "台积电宣布A14制程将于2028年投产",
-      "title_en": "TSMC Announces A14 Process Technology for 2028",
-      "url": "https://t.me/zaihuapd/42643",
+      "title": "美国政客优化网络形象以影响 AI 聊天机器人评价",
+      "title_zh": "美国政客优化网络形象以影响AI聊天机器人",
+      "title_en": "US Politicians Optimize Online Presence to Influence AI Chatbots",
+      "url": "https://www.nytimes.com/2026/07/19/us/politics/chatbots-political-campaigns.html",
       "source": "telegram",
       "score": 8.0,
-      "summary": "TSMC announces A14 process technology to enter production in 2028, promising speed and power improvements over N2.",
+      "summary": "US politicians optimize online presence to influence AI chatbot evaluations, spawning a new optimization industry and raising concerns about manipulation.",
       "tags": [
-        "TSMC",
-        "semiconductor",
-        "chip manufacturing",
-        "process technology",
-        "A14"
-      ]
-    },
-    {
-      "title": "特朗普政府拟设类似 FINRA 的独立机构审查顶尖 AI 模型",
-      "title_zh": "特朗普政府拟设类似FINRA的AI监管机构",
-      "title_en": "Trump admin proposes FINRA-like watchdog for top AI models",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-17/us-considers-creating-finra-like-watchdog-to-vet-top-ai-models",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "U.S. considers creating FINRA-like independent watchdog to vet top AI models, aiming to address security concerns and industry dissatisfaction with temporary controls.",
-      "tags": [
-        "AI regulation",
-        "government policy",
-        "AI safety",
-        "regulatory body"
-      ]
-    },
-    {
-      "title": "柬国航购 20 架 C909 成首家批量采购外国载旗航司",
-      "title_zh": "柬国航购20架C909 创外国批量采购先例",
-      "title_en": "Cambodia's flag carrier orders 20 COMAC C909 jets",
-      "url": "https://www.zaobao.com.sg/news/china/story20260718-9384413",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Cambodia's national airline signs deal to buy 20 COMAC C909 aircraft, becoming the first foreign flag carrier to make a bulk purchase.",
-      "tags": [
-        "aviation",
-        "COMAC",
-        "C909",
-        "Cambodia",
-        "aerospace"
+        "AI",
+        "politics",
+        "disinformation",
+        "search engine optimization",
+        "ethical AI"
       ]
     }
   ]
