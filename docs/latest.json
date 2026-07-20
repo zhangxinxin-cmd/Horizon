@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-19T22:41:18.526612+00:00",
-  "date": "2026-07-19",
+  "generated_at": "2026-07-20T22:46:08.758395+00:00",
+  "date": "2026-07-20",
   "total_fetched": 24,
-  "important_count": 5,
+  "important_count": 8,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,93 +10,140 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/07/19/summary-zh.html",
-      "path": "docs/_posts/2026-07-19-summary-zh.md"
+      "url": "2026/07/20/summary-zh.html",
+      "path": "docs/_posts/2026-07-20-summary-zh.md"
     },
     "en": {
-      "url": "2026/07/19/summary-en.html",
-      "path": "docs/_posts/2026-07-19-summary-en.md"
+      "url": "2026/07/20/summary-en.html",
+      "path": "docs/_posts/2026-07-20-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Qwen 3.8",
-      "title_zh": "阿里发布 Qwen 3.8：2.4万亿参数开源权重大语言模型",
-      "title_en": "Alibaba Announces Qwen 3.8: 2.4T Parameter Open-Weights LLM",
-      "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
-      "source": "hackernews",
+      "title": "Quoting Sam Altman",
+      "title_zh": "阿尔特曼泄露邮件揭示OpenAI开源策略",
+      "title_en": "Leaked Altman email reveals OpenAI's open-source strategy",
+      "url": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
+      "source": "rss",
       "score": 9.0,
-      "summary": "Alibaba announces Qwen 3.8, a 2.4T parameter open-weights LLM, responding to Moonshot AI's Kimi K3.",
+      "summary": "A leaked email reveals Sam Altman's plan to release a locally-run GPT-3-capable model to preempt competitors and hinder new AI efforts.",
       "tags": [
-        "AI",
-        "LLM",
-        "open-weights",
-        "Qwen",
-        "large language model"
+        "open-source",
+        "ai-ethics",
+        "generative-ai",
+        "openai",
+        "sam-altman"
       ]
     },
     {
-      "title": "Claude Code uses Bun written in Rust now",
-      "title_zh": "Claude Code 改用基于 Rust 的 Bun 运行时",
-      "title_en": "Claude Code now uses Rust-based Bun runtime",
-      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+      "title": "Hugging Face 披露 AI 智能体攻击事件，商业大模型拒绝协助取证",
+      "title_zh": "Hugging Face披露AI智能体攻击，商业大模型拒绝取证",
+      "title_en": "Hugging Face Discloses AI Agent Attack, Commercial LLM Refuses Forensics",
+      "url": "https://huggingface.co/blog/security-incident-july-2026",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "Hugging Face披露了一起由AI智能体驱动的攻击事件，攻击者利用数据集处理流程漏洞入侵系统，商业大模型拒绝协助取证，公司已修复并建议用户轮换凭证。",
+      "tags": [
+        "安全事件",
+        "AI智能体",
+        "HuggingFace",
+        "代码执行漏洞",
+        "取证"
+      ]
+    },
+    {
+      "title": "因 Kimi K3 模型表现强劲，特朗普政府被曝酝酿限制美国企业使用相对物美价廉的中国开放权重模型",
+      "title_zh": "特朗普政府因Kimi K3拟限制中国开源AI模型",
+      "title_en": "US May Restrict Chinese Open-Weight AI Models After Kimi K3",
+      "url": "https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "Trump administration reportedly considers restricting US companies' use of Chinese open-source AI models due to Kimi K3's strong performance, with AI advisor David Sacks criticizing OpenAI and Anthropic for lobbying against open-source competition.",
+      "tags": [
+        "AI policy",
+        "open source",
+        "geopolitics",
+        "large language models",
+        "China"
+      ]
+    },
+    {
+      "title": "Fastjson 1.x 被曝无 gadget 高危 RCE 漏洞",
+      "title_zh": "Fastjson 1.x 曝无 gadget 高危 RCE 漏洞",
+      "title_en": "Critical RCE in Fastjson 1.x Without Gadgets or AutoType",
+      "url": "https://x.com/k_firsov/status/2078872293745570032",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "Critical RCE vulnerability discovered in Fastjson 1.x versions 1.2.68-1.2.83 without requiring gadgets or autoType, affecting JDK 8/17/21, with no official patch expected.",
+      "tags": [
+        "fastjson",
+        "rce",
+        "vulnerability",
+        "java",
+        "security"
+      ]
+    },
+    {
+      "title": "Reverse-engineering is cheap now",
+      "title_zh": "编码代理让家庭设备逆向工程成本变得低廉",
+      "title_en": "Coding agents make reverse-engineering home devices cheap",
+      "url": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything",
       "source": "rss",
       "score": 8.0,
-      "summary": "Claude Code now uses a Rust-based port of the Bun runtime, offering slight performance improvements and reflecting a major rewrite of a popular JavaScript runtime.",
+      "summary": "The reduced cost of code via agents makes reverse-engineering home devices more practical, lowering effort and maintenance concerns.",
       "tags": [
-        "Bun",
-        "Rust",
-        "Claude Code",
-        "JavaScript runtime",
-        "software rewrite"
+        "reverse-engineering",
+        "coding agents",
+        "automation",
+        "cost reduction"
       ]
     },
     {
-      "title": "Follow up: GPT-2's vocabulary as a hyperbolic tree — 32,070 tokens in a Poincaré ball you can fly through [P]",
-      "title_zh": "GPT-2词元嵌入的双曲树交互可视化",
-      "title_en": "Interactive hyperbolic tree for GPT-2 token embeddings",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v0pv45/follow_up_gpt2s_vocabulary_as_a_hyperbolic_tree/",
-      "source": "reddit",
+      "title": "Who’s Afraid of Chinese Models?",
+      "title_zh": "美提案：训练数据为合理使用，全面禁止反蒸馏条款",
+      "title_en": "US Law Proposed to Legalize Training Data and Ban Anti-Distillation",
+      "url": "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything",
+      "source": "rss",
       "score": 8.0,
-      "summary": "Interactive hyperbolic tree visualization of GPT-2's 32,070 token embeddings, demonstrating how hyperbolic space naturally fits the vocabulary's forest-like similarity structure.",
+      "summary": "Ben Thompson proposes US law to legalize training data as fair use and prohibit anti-distillation terms of service to level the playing field with Chinese AI models.",
       "tags": [
-        "GPT-2",
-        "token embeddings",
-        "hyperbolic space",
-        "visualization",
-        "NLP"
+        "AI policy",
+        "model distillation",
+        "copyright fair use",
+        "open source AI",
+        "competition"
       ]
     },
     {
-      "title": "阿里开源 SAIL 挑战英伟达 CUDA",
-      "title_zh": "阿里开源SAIL挑战英伟达CUDA主导地位",
-      "title_en": "Alibaba Open Sources SAIL to Challenge NVIDIA CUDA Dominance",
-      "url": "https://www.scmp.com/tech/tech-war/article/3361048/alibaba-targets-nvidias-dominant-software-ecosystem-open-source-ai-stack",
+      "title": "美军常用 App 被指嵌入中俄代码 引发国家安全担忧",
+      "title_zh": "美军应用被发现嵌入中俄代码",
+      "title_en": "US Military Apps Found Embedded with Chinese, Russian Code",
+      "url": "https://www.wired.com/story/apps-marketed-to-us-troops-are-shipping-chinese-and-russian-code/",
       "source": "telegram",
       "score": 8.0,
-      "summary": "阿里巴巴开源SAIL软件栈，旨在降低AI芯片迁移门槛，挑战英伟达CUDA主导地位。",
+      "summary": "Research finds that nearly two-thirds of apps marketed to US military personnel embed third-party code from China and Russia, raising national security concerns.",
       "tags": [
-        "AI芯片",
-        "开源",
-        "阿里巴巴",
-        "软件生态",
-        "CUDA竞争"
+        "cybersecurity",
+        "national security",
+        "supply chain",
+        "espionage",
+        "mobile apps"
       ]
     },
     {
-      "title": "美国政客优化网络形象以影响 AI 聊天机器人评价",
-      "title_zh": "美国政客优化网络形象以影响AI聊天机器人",
-      "title_en": "US Politicians Optimize Online Presence to Influence AI Chatbots",
-      "url": "https://www.nytimes.com/2026/07/19/us/politics/chatbots-political-campaigns.html",
+      "title": "智谱建成全国产芯片大型数据中心",
+      "title_zh": "智谱建成全国产芯片大型数据中心",
+      "title_en": "Zhipu AI Builds Giant Data Center Using Only Domestic Chips",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-20/z-ai-completes-giant-data-center-with-chinese-chips-to-train-ai",
       "source": "telegram",
       "score": 8.0,
-      "summary": "US politicians optimize online presence to influence AI chatbot evaluations, spawning a new optimization industry and raising concerns about manipulation.",
+      "summary": "Zhipu AI completes a 1 GW data center using only domestic chips for training its GLM model, marking a major step in Chinese AI infrastructure self-reliance.",
       "tags": [
         "AI",
-        "politics",
-        "disinformation",
-        "search engine optimization",
-        "ethical AI"
+        "Data Center",
+        "Domestic Chips",
+        "China",
+        "GLM"
       ]
     }
   ]
