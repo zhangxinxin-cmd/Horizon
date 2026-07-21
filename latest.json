@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-20T22:46:08.758395+00:00",
-  "date": "2026-07-20",
-  "total_fetched": 24,
-  "important_count": 8,
+  "generated_at": "2026-07-21T22:45:45.087372+00:00",
+  "date": "2026-07-21",
+  "total_fetched": 36,
+  "important_count": 9,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,140 +10,156 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/07/20/summary-zh.html",
-      "path": "docs/_posts/2026-07-20-summary-zh.md"
+      "url": "2026/07/21/summary-zh.html",
+      "path": "docs/_posts/2026-07-21-summary-zh.md"
     },
     "en": {
-      "url": "2026/07/20/summary-en.html",
-      "path": "docs/_posts/2026-07-20-summary-en.md"
+      "url": "2026/07/21/summary-en.html",
+      "path": "docs/_posts/2026-07-21-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Quoting Sam Altman",
-      "title_zh": "阿尔特曼泄露邮件揭示OpenAI开源策略",
-      "title_en": "Leaked Altman email reveals OpenAI's open-source strategy",
-      "url": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
-      "source": "rss",
-      "score": 9.0,
-      "summary": "A leaked email reveals Sam Altman's plan to release a locally-run GPT-3-capable model to preempt competitors and hinder new AI efforts.",
-      "tags": [
-        "open-source",
-        "ai-ethics",
-        "generative-ai",
-        "openai",
-        "sam-altman"
-      ]
-    },
-    {
-      "title": "Hugging Face 披露 AI 智能体攻击事件，商业大模型拒绝协助取证",
-      "title_zh": "Hugging Face披露AI智能体攻击，商业大模型拒绝取证",
-      "title_en": "Hugging Face Discloses AI Agent Attack, Commercial LLM Refuses Forensics",
-      "url": "https://huggingface.co/blog/security-incident-july-2026",
-      "source": "telegram",
-      "score": 9.0,
-      "summary": "Hugging Face披露了一起由AI智能体驱动的攻击事件，攻击者利用数据集处理流程漏洞入侵系统，商业大模型拒绝协助取证，公司已修复并建议用户轮换凭证。",
-      "tags": [
-        "安全事件",
-        "AI智能体",
-        "HuggingFace",
-        "代码执行漏洞",
-        "取证"
-      ]
-    },
-    {
-      "title": "因 Kimi K3 模型表现强劲，特朗普政府被曝酝酿限制美国企业使用相对物美价廉的中国开放权重模型",
-      "title_zh": "特朗普政府因Kimi K3拟限制中国开源AI模型",
-      "title_en": "US May Restrict Chinese Open-Weight AI Models After Kimi K3",
-      "url": "https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi",
-      "source": "telegram",
-      "score": 9.0,
-      "summary": "Trump administration reportedly considers restricting US companies' use of Chinese open-source AI models due to Kimi K3's strong performance, with AI advisor David Sacks criticizing OpenAI and Anthropic for lobbying against open-source competition.",
-      "tags": [
-        "AI policy",
-        "open source",
-        "geopolitics",
-        "large language models",
-        "China"
-      ]
-    },
-    {
-      "title": "Fastjson 1.x 被曝无 gadget 高危 RCE 漏洞",
-      "title_zh": "Fastjson 1.x 曝无 gadget 高危 RCE 漏洞",
-      "title_en": "Critical RCE in Fastjson 1.x Without Gadgets or AutoType",
-      "url": "https://x.com/k_firsov/status/2078872293745570032",
-      "source": "telegram",
-      "score": 9.0,
-      "summary": "Critical RCE vulnerability discovered in Fastjson 1.x versions 1.2.68-1.2.83 without requiring gadgets or autoType, affecting JDK 8/17/21, with no official patch expected.",
-      "tags": [
-        "fastjson",
-        "rce",
-        "vulnerability",
-        "java",
-        "security"
-      ]
-    },
-    {
-      "title": "Reverse-engineering is cheap now",
-      "title_zh": "编码代理让家庭设备逆向工程成本变得低廉",
-      "title_en": "Coding agents make reverse-engineering home devices cheap",
-      "url": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything",
-      "source": "rss",
+      "title": "'VPNs are lawful technical tools,' says EU Court in landmark copyright ruling",
+      "title_zh": "欧盟法院裁定 VPN 是合法的技术工具",
+      "title_en": "EU Court: VPNs Are Lawful Technical Tools in Copyright Ruling",
+      "url": "https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "The reduced cost of code via agents makes reverse-engineering home devices more practical, lowering effort and maintenance concerns.",
+      "summary": "EU Court rules that VPNs are lawful technical tools, not inherently illegal for copyright circumvention.",
       "tags": [
-        "reverse-engineering",
-        "coding agents",
-        "automation",
-        "cost reduction"
+        "VPN",
+        "EU law",
+        "copyright",
+        "privacy",
+        "landmark ruling"
       ]
     },
     {
-      "title": "Who’s Afraid of Chinese Models?",
-      "title_zh": "美提案：训练数据为合理使用，全面禁止反蒸馏条款",
-      "title_en": "US Law Proposed to Legalize Training Data and Ban Anti-Distillation",
-      "url": "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything",
-      "source": "rss",
+      "title": "Apple defeats liability for not scanning iCloud for CSAM",
+      "title_zh": "苹果因未扫描 iCloud 中的 CSAM 而免于法律责任",
+      "title_en": "Apple Defeats Liability for Not Scanning iCloud for CSAM",
+      "url": "https://blog.ericgoldman.org/archives/2026/07/apple-defeats-liability-for-not-scanning-icloud-for-csam-but-the-judge-was-not-pleased-amy-v-apple.htm",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "Ben Thompson proposes US law to legalize training data as fair use and prohibit anti-distillation terms of service to level the playing field with Chinese AI models.",
+      "summary": "Apple wins court case ruling it not liable for not scanning iCloud for CSAM, sparking debate on privacy vs child protection.",
       "tags": [
-        "AI policy",
-        "model distillation",
-        "copyright fair use",
-        "open source AI",
-        "competition"
+        "Apple",
+        "CSAM",
+        "privacy",
+        "end-to-end encryption",
+        "liability"
       ]
     },
     {
-      "title": "美军常用 App 被指嵌入中俄代码 引发国家安全担忧",
-      "title_zh": "美军应用被发现嵌入中俄代码",
-      "title_en": "US Military Apps Found Embedded with Chinese, Russian Code",
-      "url": "https://www.wired.com/story/apps-marketed-to-us-troops-are-shipping-chinese-and-russian-code/",
-      "source": "telegram",
+      "title": "Laguna S 2.1",
+      "title_zh": "Laguna S 2.1：128B参数编程模型媲美DeepSeek V4 Flash",
+      "title_en": "Laguna S 2.1: 128B Coding Model Rivals DeepSeek V4 Flash",
+      "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "Research finds that nearly two-thirds of apps marketed to US military personnel embed third-party code from China and Russia, raising national security concerns.",
-      "tags": [
-        "cybersecurity",
-        "national security",
-        "supply chain",
-        "espionage",
-        "mobile apps"
-      ]
-    },
-    {
-      "title": "智谱建成全国产芯片大型数据中心",
-      "title_zh": "智谱建成全国产芯片大型数据中心",
-      "title_en": "Zhipu AI Builds Giant Data Center Using Only Domestic Chips",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-20/z-ai-completes-giant-data-center-with-chinese-chips-to-train-ai",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Zhipu AI completes a 1 GW data center using only domestic chips for training its GLM model, marking a major step in Chinese AI infrastructure self-reliance.",
+      "summary": "Laguna S 2.1 is a 128B parameter coding model that rivals DeepSeek V4 Flash, with community reports of promising results on consumer hardware.",
       "tags": [
         "AI",
-        "Data Center",
-        "Domestic Chips",
-        "China",
-        "GLM"
+        "language model",
+        "coding",
+        "open source",
+        "machine learning"
+      ]
+    },
+    {
+      "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+      "title_zh": "Claude Code 团队揭示 65% PR 及内部验证流程",
+      "title_en": "Claude Code Team Reveals 65% PRs and Internal Validation",
+      "url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "A fireside chat with Anthropic's Claude Code team reveals that Claude Tag lands 65% of product engineering PRs and that features are validated through internal user retention before public release.",
+      "tags": [
+        "Claude Code",
+        "AI coding agents",
+        "Anthropic",
+        "developer tools",
+        "AI engineering"
+      ]
+    },
+    {
+      "title": "🤖 Google 被曝开发新 AI 芯片，把 Gemini 模型的部分能力直接写入硬件",
+      "title_zh": "谷歌开发Frozen v2芯片，将Gemini模型固化硬件",
+      "title_en": "Google Develops Frozen v2 Chip Hardwiring Gemini for 6-10x Efficiency",
+      "url": "https://www.quiverquant.com/news/Google+Reportedly+Developing+%E2%80%98Frozen+v2%E2%80%99+AI+Chip+to+Boost+Gemini+Efficiency",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Google被曝开发Frozen v2 AI芯片，将Gemini模型能力固化到硬件，推理效率可达TPU的6-10倍，计划2028年部署。",
+      "tags": [
+        "AI芯片",
+        "Google",
+        "Gemini",
+        "推理效率",
+        "TPU"
+      ]
+    },
+    {
+      "title": "欧盟官员：大型科技公司将因消费者保护失职面临罚款  欧盟司法专员 Michael McGrath 表示，布鲁塞尔正准备赋予自身新权力，对未能保护消费者（尤其是儿",
+      "title_zh": "欧盟拟获新权力，对危害消费者的科技公司罚款",
+      "title_en": "EU Plans New Powers to Fine Tech Companies Over Consumer Harms",
+      "url": "https://t.me/zaihuapd/42682",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "EU plans to gain new powers to fine large tech companies for failing to protect consumers, especially children, from dark patterns and addictive design.",
+      "tags": [
+        "EU regulation",
+        "tech regulation",
+        "consumer protection",
+        "dark patterns",
+        "online safety"
+      ]
+    },
+    {
+      "title": "Cloudflare 内部 DNS 服务正式上线",
+      "title_zh": "Cloudflare 内部 DNS 服务正式上线",
+      "title_en": "Cloudflare Internal DNS Service Goes GA",
+      "url": "https://blog.cloudflare.com/internal-dns/",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Cloudflare宣布其内部DNS服务全面上线，为企业提供统一的权威与递归DNS解析，并与Zero Trust策略集成。",
+      "tags": [
+        "DNS",
+        "Cloudflare",
+        "Zero Trust",
+        "私有网络"
+      ]
+    },
+    {
+      "title": "消息称台积电考虑明年将高端工艺制程涨价 5%~10%  台积电正在考虑 2026 年将其所有高端工艺制程提高 5%~10% 的价格，以抵消美国关税、汇率波动和供",
+      "title_zh": "台积电拟2026年高端工艺涨价5%-10%",
+      "title_en": "TSMC May Raise Advanced Process Prices 5-10% in 2026",
+      "url": "https://t.me/zaihuapd/42691",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "TSMC is considering raising prices for its advanced process nodes by 5-10% in 2026 to offset tariffs and cost pressures.",
+      "tags": [
+        "TSMC",
+        "semiconductor",
+        "price increase",
+        "supply chain",
+        "advanced process"
+      ]
+    },
+    {
+      "title": "🤖 谷歌宣布推出 Gemini 3.5 Flash 模型，Gemini 3.5 Pro 将于下个月推出  Google 正式发布 Gemini 3.5 系列模型",
+      "title_zh": "谷歌推出具备智能体能力的 Gemini 3.5 Flash 模型",
+      "title_en": "Google Launches Gemini 3.5 Flash with Agentic AI",
+      "url": "https://t.me/zaihuapd/42699",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Google releases Gemini 3.5 Flash with enhanced agentic capabilities and speed, with Pro version expected soon.",
+      "tags": [
+        "AI",
+        "Google",
+        "Gemini",
+        "LLM",
+        "machine learning"
       ]
     }
   ]
