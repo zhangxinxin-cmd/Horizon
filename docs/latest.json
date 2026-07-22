@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-21T22:45:45.087372+00:00",
-  "date": "2026-07-21",
-  "total_fetched": 36,
-  "important_count": 9,
+  "generated_at": "2026-07-22T22:54:54.978022+00:00",
+  "date": "2026-07-22",
+  "total_fetched": 50,
+  "important_count": 14,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,156 +10,236 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/07/21/summary-zh.html",
-      "path": "docs/_posts/2026-07-21-summary-zh.md"
+      "url": "2026/07/22/summary-zh.html",
+      "path": "docs/_posts/2026-07-22-summary-zh.md"
     },
     "en": {
-      "url": "2026/07/21/summary-en.html",
-      "path": "docs/_posts/2026-07-21-summary-en.md"
+      "url": "2026/07/22/summary-en.html",
+      "path": "docs/_posts/2026-07-22-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "'VPNs are lawful technical tools,' says EU Court in landmark copyright ruling",
-      "title_zh": "欧盟法院裁定 VPN 是合法的技术工具",
-      "title_en": "EU Court: VPNs Are Lawful Technical Tools in Copyright Ruling",
-      "url": "https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling",
+      "title": "SkewAdam: A tiered optimizer that cuts MoE state memory by 97% (fits a 6.7B MoE on a 40GB GPU) [R]",
+      "title_zh": "SkewAdam 将 MoE 优化器内存削减 97%",
+      "title_en": "SkewAdam Cuts MoE Optimizer Memory by 97%",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v38k1m/skewadam_a_tiered_optimizer_that_cuts_moe_state/",
+      "source": "reddit",
+      "score": 9.0,
+      "summary": "SkewAdam uses tiered state allocation to cut optimizer memory by 97% for MoE training, enabling a 6.7B model on a 40GB GPU.",
+      "tags": [
+        "optimizer",
+        "MoE",
+        "memory efficiency",
+        "machine learning",
+        "deep learning"
+      ]
+    },
+    {
+      "title": "Genesis-Science-1 (GS1), 1T open-weight model later this year from Arcee AI",
+      "title_zh": "Arcee AI 与 DOE 联合发布万亿参数开源科学模型",
+      "title_en": "Arcee AI & DOE Announce 1T Open-Weight Scientific Model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3q47x/genesisscience1_gs1_1t_openweight_model_later/",
+      "source": "reddit",
+      "score": 9.0,
+      "summary": "Arcee AI and the DOE announced Genesis-Science-1 (GS1), a 1T open-weight model for scientific research, to be released later this year.",
+      "tags": [
+        "open models",
+        "scientific AI",
+        "large language models",
+        "DOE",
+        "Arcee AI"
+      ]
+    },
+    {
+      "title": "Hugging Face 披露 AI 智能体攻击事件，商业大模型拒绝协助取证  Hugging Face 披露 2026 年 7 月安全事件。",
+      "title_zh": "Hugging Face 披露2026年7月AI智能体攻击事件",
+      "title_en": "Hugging Face Discloses July 2026 AI Agent Breach",
+      "url": "https://t.me/zaihuapd/42701",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "Hugging Face disclosed a July 2026 security breach where attackers used an autonomous AI agent to exploit vulnerabilities, steal data, and move laterally, but public models and datasets were unaffected.",
+      "tags": [
+        "security",
+        "AI attack",
+        "Hugging Face",
+        "breach",
+        "cybersecurity"
+      ]
+    },
+    {
+      "title": "“借刀杀人”的新型越狱：四大主流 AI 编程代理集体曝出沙箱逃逸漏洞",
+      "title_zh": "四大AI编程代理曝出沙箱逃逸漏洞",
+      "title_en": "Sandbox Escape Bugs in Four Major AI Coding Agents",
+      "url": "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "Four major AI programming agents have sandbox escape vulnerabilities allowing arbitrary code execution via malicious prompts in open-source projects.",
+      "tags": [
+        "AI security",
+        "sandbox escape",
+        "prompt injection",
+        "vulnerability disclosure"
+      ]
+    },
+    {
+      "title": "GigaToken: ~1000x faster Language model tokenization",
+      "title_zh": "GigaToken利用SIMD实现约1000倍加速的LLM分词",
+      "title_en": "GigaToken achieves ~1000x faster LLM tokenization via SIMD",
+      "url": "https://github.com/marcelroed/gigatoken/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "EU Court rules that VPNs are lawful technical tools, not inherently illegal for copyright circumvention.",
+      "summary": "GigaToken achieves ~1000x faster tokenization using SIMD, mainly benefiting pre-training data preparation.",
       "tags": [
-        "VPN",
-        "EU law",
-        "copyright",
-        "privacy",
-        "landmark ruling"
-      ]
-    },
-    {
-      "title": "Apple defeats liability for not scanning iCloud for CSAM",
-      "title_zh": "苹果因未扫描 iCloud 中的 CSAM 而免于法律责任",
-      "title_en": "Apple Defeats Liability for Not Scanning iCloud for CSAM",
-      "url": "https://blog.ericgoldman.org/archives/2026/07/apple-defeats-liability-for-not-scanning-icloud-for-csam-but-the-judge-was-not-pleased-amy-v-apple.htm",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Apple wins court case ruling it not liable for not scanning iCloud for CSAM, sparking debate on privacy vs child protection.",
-      "tags": [
-        "Apple",
-        "CSAM",
-        "privacy",
-        "end-to-end encryption",
-        "liability"
-      ]
-    },
-    {
-      "title": "Laguna S 2.1",
-      "title_zh": "Laguna S 2.1：128B参数编程模型媲美DeepSeek V4 Flash",
-      "title_en": "Laguna S 2.1: 128B Coding Model Rivals DeepSeek V4 Flash",
-      "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Laguna S 2.1 is a 128B parameter coding model that rivals DeepSeek V4 Flash, with community reports of promising results on consumer hardware.",
-      "tags": [
-        "AI",
-        "language model",
-        "coding",
-        "open source",
-        "machine learning"
-      ]
-    },
-    {
-      "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
-      "title_zh": "Claude Code 团队揭示 65% PR 及内部验证流程",
-      "title_en": "Claude Code Team Reveals 65% PRs and Internal Validation",
-      "url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "A fireside chat with Anthropic's Claude Code team reveals that Claude Tag lands 65% of product engineering PRs and that features are validated through internal user retention before public release.",
-      "tags": [
-        "Claude Code",
-        "AI coding agents",
-        "Anthropic",
-        "developer tools",
-        "AI engineering"
-      ]
-    },
-    {
-      "title": "🤖 Google 被曝开发新 AI 芯片，把 Gemini 模型的部分能力直接写入硬件",
-      "title_zh": "谷歌开发Frozen v2芯片，将Gemini模型固化硬件",
-      "title_en": "Google Develops Frozen v2 Chip Hardwiring Gemini for 6-10x Efficiency",
-      "url": "https://www.quiverquant.com/news/Google+Reportedly+Developing+%E2%80%98Frozen+v2%E2%80%99+AI+Chip+to+Boost+Gemini+Efficiency",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Google被曝开发Frozen v2 AI芯片，将Gemini模型能力固化到硬件，推理效率可达TPU的6-10倍，计划2028年部署。",
-      "tags": [
-        "AI芯片",
-        "Google",
-        "Gemini",
-        "推理效率",
-        "TPU"
-      ]
-    },
-    {
-      "title": "欧盟官员：大型科技公司将因消费者保护失职面临罚款  欧盟司法专员 Michael McGrath 表示，布鲁塞尔正准备赋予自身新权力，对未能保护消费者（尤其是儿",
-      "title_zh": "欧盟拟获新权力，对危害消费者的科技公司罚款",
-      "title_en": "EU Plans New Powers to Fine Tech Companies Over Consumer Harms",
-      "url": "https://t.me/zaihuapd/42682",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "EU plans to gain new powers to fine large tech companies for failing to protect consumers, especially children, from dark patterns and addictive design.",
-      "tags": [
-        "EU regulation",
-        "tech regulation",
-        "consumer protection",
-        "dark patterns",
-        "online safety"
-      ]
-    },
-    {
-      "title": "Cloudflare 内部 DNS 服务正式上线",
-      "title_zh": "Cloudflare 内部 DNS 服务正式上线",
-      "title_en": "Cloudflare Internal DNS Service Goes GA",
-      "url": "https://blog.cloudflare.com/internal-dns/",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Cloudflare宣布其内部DNS服务全面上线，为企业提供统一的权威与递归DNS解析，并与Zero Trust策略集成。",
-      "tags": [
-        "DNS",
-        "Cloudflare",
-        "Zero Trust",
-        "私有网络"
-      ]
-    },
-    {
-      "title": "消息称台积电考虑明年将高端工艺制程涨价 5%~10%  台积电正在考虑 2026 年将其所有高端工艺制程提高 5%~10% 的价格，以抵消美国关税、汇率波动和供",
-      "title_zh": "台积电拟2026年高端工艺涨价5%-10%",
-      "title_en": "TSMC May Raise Advanced Process Prices 5-10% in 2026",
-      "url": "https://t.me/zaihuapd/42691",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "TSMC is considering raising prices for its advanced process nodes by 5-10% in 2026 to offset tariffs and cost pressures.",
-      "tags": [
-        "TSMC",
-        "semiconductor",
-        "price increase",
-        "supply chain",
-        "advanced process"
-      ]
-    },
-    {
-      "title": "🤖 谷歌宣布推出 Gemini 3.5 Flash 模型，Gemini 3.5 Pro 将于下个月推出  Google 正式发布 Gemini 3.5 系列模型",
-      "title_zh": "谷歌推出具备智能体能力的 Gemini 3.5 Flash 模型",
-      "title_en": "Google Launches Gemini 3.5 Flash with Agentic AI",
-      "url": "https://t.me/zaihuapd/42699",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Google releases Gemini 3.5 Flash with enhanced agentic capabilities and speed, with Pro version expected soon.",
-      "tags": [
-        "AI",
-        "Google",
-        "Gemini",
         "LLM",
-        "machine learning"
+        "tokenization",
+        "optimization",
+        "SIMD",
+        "deep learning"
+      ]
+    },
+    {
+      "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
+      "title_zh": "Bento：一个HTML文件搞定整个PPT",
+      "title_en": "Bento: Entire PowerPoint in One HTML File",
+      "url": "https://bento.page/slides/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Bento is a single HTML file that contains a full slide deck editor, viewer, and collaboration tool, working offline without any install or cloud login.",
+      "tags": [
+        "presentations",
+        "single-file",
+        "web-frontend",
+        "open-source",
+        "collaboration"
+      ]
+    },
+    {
+      "title": "Are AI Labs Pelicanmaxxing?",
+      "title_zh": "鹈鹕骑自行车基准测试：检测AI实验室的数据污染",
+      "title_en": "Pelicanmaxxing: Testing AI Labs for Data Contamination",
+      "url": "https://dylancastillo.co/posts/pelicanmaxxing.html",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A researcher quantitatively tests AI labs' image generation capabilities using a unique benchmark of pelicans on bicycles to detect potential training data contamination.",
+      "tags": [
+        "AI benchmarking",
+        "data contamination",
+        "SVG generation",
+        "machine learning evaluation",
+        "creative testing"
+      ]
+    },
+    {
+      "title": "Everyone Should Know SIMD",
+      "title_zh": "人人都该了解SIMD",
+      "title_en": "Everyone Should Know SIMD",
+      "url": "https://mitchellh.com/writing/everyone-should-know-simd",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Argues that SIMD is an important skill for performance-aware developers, backed by community debate on when and how to apply it.",
+      "tags": [
+        "SIMD",
+        "performance optimization",
+        "CPU architecture",
+        "software engineering",
+        "data-oriented design"
+      ]
+    },
+    {
+      "title": "Making",
+      "title_zh": "制作与索取：LLM削弱了创造的乐趣",
+      "title_en": "Making vs Asking: LLMs Diminish the Joy of Creation",
+      "url": "https://beej.us/blog/data/ai-making/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Beej explores the distinction between 'making' and 'asking' in software, arguing that the joy of creation is diminished when relying on LLMs.",
+      "tags": [
+        "software engineering",
+        "AI",
+        "creativity",
+        "LLM",
+        "hacker culture"
+      ]
+    },
+    {
+      "title": "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
+      "title_zh": "在家面试项目中发现恶意Git钩子",
+      "title_en": "Malicious Git Hook Found in Take-Home Interview Project",
+      "url": "https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A developer discovers a malicious git pre-commit hook in a take-home interview project that silently executes a remote payload, revealing a targeted attack on job seekers.",
+      "tags": [
+        "security",
+        "malware",
+        "interview-scam",
+        "git-hook",
+        "supply-chain-attack"
+      ]
+    },
+    {
+      "title": "microsoft/Fara1.5-27B · Hugging Face",
+      "title_zh": "微软发布 Fara1.5-27B 纯视觉浏览器代理",
+      "title_en": "Microsoft Releases Fara1.5-27B Vision-Only Browser Agent",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3ny84/microsoftfara1527b_hugging_face/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "Microsoft releases Fara1.5-27B, a vision-only browser automation agent fine-tuned from Qwen3.5-27B.",
+      "tags": [
+        "AI agents",
+        "multimodal",
+        "browser automation",
+        "Microsoft",
+        "open-source"
+      ]
+    },
+    {
+      "title": "🇦🇹 Austria is rolling out a government AI-platform using Mistral models and Open WebUI",
+      "title_zh": "奥地利部署政府AI平台，采用Mistral模型",
+      "title_en": "Austria Deploys Government AI Platform with Mistral Models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3hra4/austria_is_rolling_out_a_government_aiplatform/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "Austria launches GovGPT for federal employees using Mistral models and Open WebUI on sovereign infrastructure.",
+      "tags": [
+        "AI",
+        "government",
+        "Mistral",
+        "Open WebUI",
+        "open-source"
+      ]
+    },
+    {
+      "title": "Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
+      "title_zh": "Cactus 训练 Gemma 4 输出可靠置信度",
+      "title_en": "Cactus trains Gemma 4 to output reliable confidence scores",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3nw3j/cactus_hybrid_we_taught_gemma_4_to_know_when_its/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "Cactus developed a method to post-train Gemma 4 to output reliable confidence scores, enabling efficient hybrid routing that matches frontier model performance with significantly lower costs.",
+      "tags": [
+        "Gemma 4",
+        "confidence calibration",
+        "hybrid AI",
+        "on-device ML",
+        "model routing"
+      ]
+    },
+    {
+      "title": "📱 微软 Copilot Cowork 考虑接入 🤖 DeepSeek 降本  微软企业 AI 工具 Copilot Cowork 将改为按实际算力使用量收费。",
+      "title_zh": "微软 Copilot Cowork 或接入 DeepSeek，改为按用量计费",
+      "title_en": "Microsoft Copilot Cowork May Integrate DeepSeek, Shift to Usage-Based Pricing",
+      "url": "https://t.me/zaihuapd/42710",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Microsoft is considering integrating DeepSeek into Copilot Cowork and switching to usage-based pricing to reduce costs.",
+      "tags": [
+        "Microsoft",
+        "DeepSeek",
+        "Copilot",
+        "AI",
+        "Enterprise"
       ]
     }
   ]
