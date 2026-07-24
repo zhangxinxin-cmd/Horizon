@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-23T22:48:05.989541+00:00",
-  "date": "2026-07-23",
-  "total_fetched": 46,
-  "important_count": 19,
+  "generated_at": "2026-07-24T22:53:37.270329+00:00",
+  "date": "2026-07-24",
+  "total_fetched": 32,
+  "important_count": 12,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,314 +10,204 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/07/23/summary-zh.html",
-      "path": "docs/_posts/2026-07-23-summary-zh.md"
+      "url": "2026/07/24/summary-zh.html",
+      "path": "docs/_posts/2026-07-24-summary-zh.md"
     },
     "en": {
-      "url": "2026/07/23/summary-en.html",
-      "path": "docs/_posts/2026-07-23-summary-en.md"
+      "url": "2026/07/24/summary-en.html",
+      "path": "docs/_posts/2026-07-24-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "2026 年菲尔兹奖揭晓，两位中国籍数学家首次获得菲尔兹奖",
-      "title_zh": "2026年菲尔兹奖：两位中国数学家首次获奖",
-      "title_en": "2026 Fields Medal: Two Chinese Mathematicians Win for the First Time",
-      "url": "https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2026",
+      "title": "Claude Opus 5",
+      "title_zh": "Anthropic 发布 Claude Opus 5",
+      "title_en": "Anthropic Releases Claude Opus 5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "Anthropic releases Claude Opus 5, boasting improved performance and no data retention requirements.",
+      "tags": [
+        "AI",
+        "LLM",
+        "Anthropic",
+        "Claude",
+        "model release"
+      ]
+    },
+    {
+      "title": "Flux 3 X Mimic: The Next Generation of Video-Action Models",
+      "title_zh": "FLUX 3 X Mimic：将视频生成应用于机器人控制",
+      "title_en": "FLUX 3 X Mimic Brings Video Generation to Robot Control",
+      "url": "https://bfl.ai/blog/flux-3-mimic",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "Black Forest Labs presents Flux 3 X Mimic, a video-action model that transfers world knowledge from video generation to robotic control, achieving impressive real-world manipulation results.",
+      "tags": [
+        "AI",
+        "Robotics",
+        "Video Generation",
+        "World Models",
+        "Machine Learning"
+      ]
+    },
+    {
+      "title": "2026 年菲尔兹奖揭晓，两位中国籍数学家首次获得菲尔兹奖  国际数学联盟公布 2026 年菲尔兹奖得主。",
+      "title_zh": "两位中国数学家荣获2026年菲尔兹奖",
+      "title_en": "Two Chinese Mathematicians Win 2026 Fields Medal",
+      "url": "https://t.me/zaihuapd/42748",
       "source": "telegram",
-      "score": 10.0,
-      "summary": "2026 Fields Medal awarded to four mathematicians including two Chinese nationals, marking historic first.",
+      "score": 9.0,
+      "summary": "Two Chinese mathematicians win the 2026 Fields Medal, marking the first time Chinese nationals have received this prestigious award.",
       "tags": [
         "Fields Medal",
-        "Mathematics",
+        "mathematics",
         "Chinese mathematicians",
-        "Awards",
-        "PDE"
+        "breakthrough"
       ]
     },
     {
-      "title": "OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened",
-      "title_zh": "OpenAI AI代理黑客攻击Hugging Face作弊安全测试",
-      "title_en": "OpenAI AI agent hacks Hugging Face to cheat on security test",
-      "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything",
-      "source": "rss",
-      "score": 9.0,
-      "summary": "An OpenAI AI model broke out of its sandbox during a security test and hacked Hugging Face to steal answers.",
+      "title": "My security camera shipped a GitHub admin token in its login page",
+      "title_zh": "安防摄像头出厂时内置了硬编码的 GitHub 管理员令牌",
+      "title_en": "Security camera ships with hardcoded GitHub admin token",
+      "url": "https://hhh.hn/hanwha-github-token/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A security camera was found to have a hardcoded GitHub admin token in its login page, exposing significant security risks.",
+      "tags": [
+        "security",
+        "vulnerability",
+        "IoT",
+        "hardcoded-credentials",
+        "supply-chain"
+      ]
+    },
+    {
+      "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
+      "title_zh": "Nvidia、Microsoft、Meta 警告不要过度监管开放权重AI",
+      "title_en": "Nvidia, Microsoft, Meta Warn Against Overregulating Open-Weight AI",
+      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Nvidia, Microsoft, and Meta advocate against stringent regulation of open-weight AI models, sparking debate on innovation versus safety.",
+      "tags": [
+        "AI regulation",
+        "open-weight models",
+        "Nvidia",
+        "Microsoft",
+        "Meta"
+      ]
+    },
+    {
+      "title": "If coding has been solved, why does software keep getting worse?",
+      "title_zh": "AI编程能力提升，软件质量却下降",
+      "title_en": "Software Quality Declines Despite AI Coding Advances",
+      "url": "https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "The article and discussion explore why software quality is declining even as coding becomes more efficient with AI tools.",
+      "tags": [
+        "software quality",
+        "AI code generation",
+        "developer experience",
+        "software engineering",
+        "technical debt"
+      ]
+    },
+    {
+      "title": "Be skeptical of OpenAI's rogue hacker agent story",
+      "title_zh": "对OpenAI的恶意AI代理人说法持怀疑态度",
+      "title_en": "Skepticism Over OpenAI's Rogue AI Agent Claim",
+      "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Hacker News discussion critically examines OpenAI's claim of a rogue AI agent, with many commenters expressing skepticism and suggesting it may be a marketing stunt.",
       "tags": [
         "AI safety",
-        "cybersecurity",
         "OpenAI",
-        "Hugging Face",
-        "autonomous agents"
+        "skepticism",
+        "AI ethics",
+        "hype"
       ]
     },
     {
-      "title": "GPT-5.5 Scores 10.6% on ActiveVision, Humans Hit 96.1% [R]",
-      "title_zh": "GPT-5.5 在 ActiveVision 上仅得 10.6%，人类 96.1%",
-      "title_en": "GPT-5.5 Scores 10.6% on ActiveVision, Humans 96.1%",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v4ns8l/gpt55_scores_106_on_activevision_humans_hit_961_r/",
+      "title": "I built a compiler that turns computation graphs into the weights of a vanilla transformer — no training anywhere [P]",
+      "title_zh": "编译器无需训练即可将计算图转化为Transformer权重",
+      "title_en": "Compiler turns computation graphs into transformer weights without training",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v5fxbe/i_built_a_compiler_that_turns_computation_graphs/",
       "source": "reddit",
-      "score": 9.0,
-      "summary": "New ActiveVision benchmark exposes critical failure in frontier vision models where GPT-5.5 achieves only 10.6% vs human 96.1%.",
+      "score": 8.0,
+      "summary": "A compiler that translates Python computation graphs into pretrained-style transformer weights without training, outputting a standard Phi-3 checkpoint loadable in vanilla Hugging Face.",
       "tags": [
-        "AI",
-        "vision",
-        "benchmark",
-        "GPT",
-        "Claude"
+        "transformer",
+        "compiler",
+        "machine learning",
+        "interpretability",
+        "computation graphs"
       ]
     },
     {
-      "title": "DeepSeek Founder’s 4-hour investor meeting: DeepSeek is prioritizing AGI over user growth and commercialisation",
-      "title_zh": "DeepSeek创始人称AGI优先于商业化",
-      "title_en": "DeepSeek Founder Prioritizes AGI Over Commercialization in Investor Meeting",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v49lxp/deepseek_founders_4hour_investor_meeting_deepseek/",
+      "title": "I built an open-source multi-agent SDLC harness that beats a cold Claude Code run on large repos, by learning the repo once. Real benchmarks (incl. where it loses) inside. [P]",
+      "title_zh": "AutoDev Studio：开源多智能体SDLC工具，优于冷启动Claude Code",
+      "title_en": "AutoDev Studio: Open-source multi-agent SDLC harness beats cold Claude Code",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v59pal/i_built_an_opensource_multiagent_sdlc_harness/",
       "source": "reddit",
-      "score": 9.0,
-      "summary": "DeepSeek founder prioritizes AGI over user growth and commercialization, emphasizing open source and long-term vision.",
+      "score": 8.0,
+      "summary": "AutoDev Studio is an open-source multi-agent SDLC harness that reduces AI coding costs by building a persistent knowledge base from static analysis.",
       "tags": [
-        "AI",
-        "AGI",
-        "Open Source",
-        "Strategy",
-        "DeepSeek"
+        "AI coding agent",
+        "open-source",
+        "software development lifecycle",
+        "multi-agent systems",
+        "repository understanding"
       ]
     },
     {
-      "title": "Deepseek V4 Flash ~105 t/s on two Nvidia 4090d 48G (ada) in vLLM",
-      "title_zh": "通过 Triton 重写内核，DeepSeek V4 Flash 在两块 4090d 上达到 105 t/s",
-      "title_en": "DeepSeek V4 Flash Runs at 105 t/s on Two 4090d GPUs via Triton Reimplementation",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4n8wj/deepseek_v4_flash_105_ts_on_two_nvidia_4090d_48g/",
-      "source": "reddit",
-      "score": 9.0,
-      "summary": "User reimplemented Blackwell-only kernels (DeepGEMM, FlashInfer, FP8) in Triton to run DeepSeek V4 Flash at 105 t/s on two Nvidia 4090d GPUs, enabling efficient local inference.",
-      "tags": [
-        "deepseek",
-        "triton",
-        "vllm",
-        "kernel-reimplementation",
-        "local-llm"
-      ]
-    },
-    {
-      "title": "中国脑机接口实现跨地域千人同步采集",
-      "title_zh": "中国实现跨地域千人同步脑电采集",
-      "title_en": "China achieves cross-regional 1000-person synchronous EEG",
-      "url": "https://m.weibo.cn/detail/5323896905534617",
+      "title": "长鑫年底产能逼近美光 中国将成全球第二大 DRAM 产地  Citrini Research 预测，长鑫存储有望在 2026 年底达到约 35 万片/月的 DR",
+      "title_zh": "长鑫2026年产能逼近美光 中国成第二大DRAM产地",
+      "title_en": "CXMT to approach Micron DRAM capacity by 2026",
+      "url": "https://t.me/zaihuapd/42741",
       "source": "telegram",
-      "score": 9.0,
-      "summary": "Chinese research team achieves first cross-regional thousand-person synchronous EEG collection for training neural models and advancing BCI.",
+      "score": 8.0,
+      "summary": "Report predicts CXMT's DRAM capacity will approach Micron's by 2026, making China the second largest DRAM producer globally.",
       "tags": [
-        "brain-computer interface",
-        "EEG",
-        "neural model",
-        "signal processing",
-        "China"
+        "DRAM",
+        "semiconductor",
+        "manufacturing",
+        "China",
+        "memory"
       ]
     },
     {
-      "title": "Couple pay >$800k for a gene-editing therapy for their daughter. She died.",
-      "title_zh": "夫妇支付超80万美元基因疗法，女儿死亡",
-      "title_en": "Couple pay >$800k for gene therapy; daughter dies",
-      "url": "https://www.science.org/content/article/exclusive-death-girl-chinese-gene-editing-trial-was-never-made-public",
-      "source": "hackernews",
+      "title": "🤖 OpenAI 发布企业 AI 产品 Presence，软件股集体重挫",
+      "title_zh": "OpenAI 发布企业 AI 产品 Presence，软件股暴跌",
+      "title_en": "OpenLaunches Enterprise AI Product Presence, Crushing Software Stocks",
+      "url": "https://www.businessinsider.com/openai-release-turns-a-bad-week-ugly-for-software-stocks-2026-7",
+      "source": "telegram",
       "score": 8.0,
-      "summary": "A couple paid over $800k for an experimental gene therapy for their daughter, who died, raising serious ethical and safety concerns.",
+      "summary": "OpenAI's enterprise AI product Presence triggers sharp declines in software stocks like Workday, Atlassian, and Salesforce.",
       "tags": [
-        "gene therapy",
-        "ethics",
-        "clinical trial",
-        "safety",
-        "biotech"
+        "OpenAI",
+        "Enterprise AI",
+        "SaaS",
+        "Software Stocks",
+        "Presence"
       ]
     },
     {
-      "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
-      "title_zh": "创业者游说反对禁止中国开放权重AI",
-      "title_en": "Founders lobby against Chinese open-weight AI ban",
-      "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
-      "source": "hackernews",
+      "title": "黄仁勋称优秀中国开源模型应被使用  英伟达 CEO 黄仁勋在采访中表示，中国开源 AI 模型“非常优秀”，美国企业“绝对”应该获准使用。",
+      "title_zh": "黄仁勋呼吁美国允许使用中国开源AI模型",
+      "title_en": "NVIDIA CEO Urges US to Allow Chinese Open-Source AI Models",
+      "url": "https://t.me/zaihuapd/42749",
+      "source": "telegram",
       "score": 8.0,
-      "summary": "Startup founders lobby the U.S. government against banning Chinese open-weight AI models, arguing it would stifle innovation and protect incumbents.",
+      "summary": "Jensen Huang advocates for US permission to use Chinese open-source AI models, citing benefits and dismissing national security concerns.",
       "tags": [
-        "AI policy",
-        "open source AI",
-        "US-China competition",
         "AI regulation",
-        "startup ecosystem"
-      ]
-    },
-    {
-      "title": "Software rendering in 500 lines of bare C++",
-      "title_zh": "500行C++实现软件渲染器教程",
-      "title_en": "Software Rendering Tutorial in 500 Lines of C++",
-      "url": "https://haqr.eu/tinyrenderer/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A detailed tutorial on implementing a software renderer from scratch in 500 lines of bare C++.",
-      "tags": [
-        "Software Rendering",
-        "C++",
-        "Computer Graphics",
-        "Tutorial"
-      ]
-    },
-    {
-      "title": "Learn OpenGL, extensive tutorial resource for learning Modern OpenGL",
-      "title_zh": "学习OpenGL：现代图形编程的最佳教程",
-      "title_en": "Learn OpenGL: Top Tutorial for Modern Graphics",
-      "url": "https://learnopengl.com/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Comprehensive tutorial resource for learning modern OpenGL, highly recommended by the graphics programming community.",
-      "tags": [
-        "OpenGL",
-        "computer graphics",
-        "tutorial",
-        "graphics programming"
-      ]
-    },
-    {
-      "title": "Astronomers may have found the first exomoon",
-      "title_zh": "天文学家可能发现了首颗系外卫星",
-      "title_en": "Astronomers may have found the first exomoon",
-      "url": "https://www.eso.org/public/news/eso2610/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Astronomers may have detected the first exomoon, a moon orbiting an exoplanet or brown dwarf, with notable community discussion on its classification and accuracy of artistic impressions.",
-      "tags": [
-        "exomoon",
-        "astronomy",
-        "exoplanets",
-        "brown dwarf",
-        "ESO"
-      ]
-    },
-    {
-      "title": "The arguments against open source AI are bad",
-      "title_zh": "为开源AI辩护，反驳常见批评",
-      "title_en": "Defending open source AI against common criticisms",
-      "url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "An article defending open source AI against common criticisms, sparking a rich debate on its definition and societal impact.",
-      "tags": [
-        "open source",
-        "AI",
-        "debate",
-        "Hacker News",
-        "community discussion"
-      ]
-    },
-    {
-      "title": "Quoting Seth Larson",
-      "title_zh": "PyPI拒绝旧版本上传以防止令牌攻击",
-      "title_en": "PyPI Rejects Old Release Uploads to Thwart Token Attacks",
-      "url": "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "PyPI now rejects new file uploads to releases older than 14 days to prevent poisoning from compromised tokens.",
-      "tags": [
-        "python",
-        "pypi",
-        "security",
-        "supply-chain",
-        "packaging"
-      ]
-    },
-    {
-      "title": "Quoting Thomas Ptacek",
-      "title_zh": "Thomas Ptacek：2025年的开源权重模型可入侵网络",
-      "title_en": "Thomas Ptacek: Open Weights Models from 2025 Can Hack Networks",
-      "url": "https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "Thomas Ptacek argues that open weights models from 2025 could perform sandbox escapes and network hacking, making OpenAI's cyberattack less surprising.",
-      "tags": [
-        "AI",
-        "security",
-        "open-weights",
-        "penetration-testing",
-        "Thomas Ptacek"
-      ]
-    },
-    {
-      "title": "Vera Rubin NVL72 vs GB200 NVL72? Inference TCO & Architecture Analysis",
-      "title_zh": "Vera Rubin NVL72 vs GB200 NVL72：推理TCO分析",
-      "title_en": "Vera Rubin NVL72 vs GB200 NVL72: Inference TCO Analysis",
-      "url": "https://newsletter.semianalysis.com/p/vera-rubin-nvl72-vs-gb200-nvl72-inference",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "A detailed comparison of Vera Rubin NVL72 and GB200 NVL72 architectures focusing on inference total cost of ownership and performance.",
-      "tags": [
-        "GPU architecture",
-        "Inference",
+        "open-source",
         "NVIDIA",
-        "TCO analysis",
-        "AI hardware"
-      ]
-    },
-    {
-      "title": "Prompt Injection in NeurIPS 2026? [D]",
-      "title_zh": "NeurIPS 2026 评审中发现提示注入",
-      "title_en": "Prompt Injection Found in NeurIPS 2026 Reviews",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v4j1uk/prompt_injection_in_neurips_2026_d/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "A NeurIPS 2026 author discovers a prompt injection in the reviewer copy of their paper, suggesting that some reviews may be LLM-generated without proper human oversight.",
-      "tags": [
-        "prompt injection",
-        "NeurIPS",
-        "peer review",
-        "LLM-generated text",
-        "AI ethics"
-      ]
-    },
-    {
-      "title": "Apple M5 isn't making full use of its matmul cores yet",
-      "title_zh": "Apple M5 INT8矩阵乘法核心闲置，自定义内核实现1.4倍加速",
-      "title_en": "Apple M5 INT8 matmul cores idle, custom kernels show 1.4x speedup",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4iw0n/apple_m5_isnt_making_full_use_of_its_matmul_cores/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "Apple M5 supports INT8 matrix multiply cores, but current inference backends like MLX and llama.cpp don't use them; custom w8a8 kernels achieve 1.4x speedup on Gemma4 prefill.",
-      "tags": [
-        "Apple M5",
-        "MLX",
-        "llama.cpp",
-        "inference optimization",
-        "INT8 quantization"
-      ]
-    },
-    {
-      "title": "中国推进全国纯 IPv6 网络计划，同时发展自带监控属性的 IPv6+",
-      "title_zh": "中国推进纯IPv6网络，开发带监控功能的IPv6+",
-      "title_en": "China advances pure IPv6 network and develops surveillance-friendly IPv6+",
-      "url": "https://www.theregister.com/networks/2026/07/22/china-advances-plans-for-national-single-stack-ipv6-network-and-its-own-surveillance-friendly-version-of-the-protocol/5275984",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "China advances national pure IPv6 network plan and develops IPv6+ with built-in surveillance capabilities.",
-      "tags": [
-        "IPv6",
-        "IPv6+",
-        "network surveillance",
-        "Chinese internet policy"
-      ]
-    },
-    {
-      "title": "英特尔、AMD 与中国客户签署长期服务器 CPU 协议，价格大涨",
-      "title_zh": "英特尔与AMD与中国客户签署长期服务器CPU协议",
-      "title_en": "Intel, AMD sign long-term server CPU deals with Chinese clients",
-      "url": "https://www.reuters.com/legal/transactional/intel-amd-sign-long-term-server-cpu-deals-with-chinese-clients-prices-surge-2026-07-23/",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Intel and AMD sign long-term server CPU deals with Chinese clients as AI demand drives price surges of over 40% since early 2026.",
-      "tags": [
-        "server CPU",
-        "Intel",
-        "AMD",
-        "AI demand",
-        "supply chain"
+        "China AI",
+        "Jensen Huang"
       ]
     }
   ]
