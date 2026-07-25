@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-24T22:53:37.270329+00:00",
-  "date": "2026-07-24",
-  "total_fetched": 32,
-  "important_count": 12,
+  "generated_at": "2026-07-25T22:44:09.407965+00:00",
+  "date": "2026-07-25",
+  "total_fetched": 25,
+  "important_count": 6,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,204 +10,108 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/07/24/summary-zh.html",
-      "path": "docs/_posts/2026-07-24-summary-zh.md"
+      "url": "2026/07/25/summary-zh.html",
+      "path": "docs/_posts/2026-07-25-summary-zh.md"
     },
     "en": {
-      "url": "2026/07/24/summary-en.html",
-      "path": "docs/_posts/2026-07-24-summary-en.md"
+      "url": "2026/07/25/summary-en.html",
+      "path": "docs/_posts/2026-07-25-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Claude Opus 5",
-      "title_zh": "Anthropic 发布 Claude Opus 5",
-      "title_en": "Anthropic Releases Claude Opus 5",
-      "url": "https://www.anthropic.com/news/claude-opus-5",
-      "source": "hackernews",
+      "title": "vllm-project/vllm released v0.26.0",
+      "title_zh": "vLLM v0.26.0 发布：新增 Inkling 模型系列、DeepSeek-V4 优化及 fp32 lm_head",
+      "title_en": "vLLM v0.26.0: Inkling, DeepSeek-V4, fp32 lm_head, and More",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.26.0",
+      "source": "github",
       "score": 9.0,
-      "summary": "Anthropic releases Claude Opus 5, boasting improved performance and no data retention requirements.",
+      "summary": "vLLM v0.26.0 release introduces the Inkling model family, DeepSeek-V4 performance improvements, fp32 lm_head support, and numerous other enhancements across 411 commits.",
+      "tags": [
+        "vLLM",
+        "LLM inference",
+        "GPU kernels",
+        "DeepSeek",
+        "release notes"
+      ]
+    },
+    {
+      "title": "Introducing Claude Opus 5",
+      "title_zh": "Anthropic发布Claude Opus 5，性能接近Fable 5",
+      "title_en": "Anthropic Launches Claude Opus 5, Nearly Matches Fable 5",
+      "url": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
+      "source": "rss",
+      "score": 9.0,
+      "summary": "Anthropic introduces Claude Opus 5, a powerful new model nearly matching Fable 5 at half the cost.",
       "tags": [
         "AI",
-        "LLM",
-        "Anthropic",
         "Claude",
+        "Anthropic",
         "model release"
       ]
     },
     {
-      "title": "Flux 3 X Mimic: The Next Generation of Video-Action Models",
-      "title_zh": "FLUX 3 X Mimic：将视频生成应用于机器人控制",
-      "title_en": "FLUX 3 X Mimic Brings Video Generation to Robot Control",
-      "url": "https://bfl.ai/blog/flux-3-mimic",
-      "source": "hackernews",
+      "title": "Can AMD break the CUDA Moat? AMD Advancing AI 2026",
+      "title_zh": "AMD打破CUDA护城河的战略：AI 2026分析",
+      "title_en": "AMD's Strategy to Break the CUDA Moat: AI 2026 Analysis",
+      "url": "https://newsletter.semianalysis.com/p/can-amd-break-the-cuda-moat-amd-advancing",
+      "source": "rss",
       "score": 9.0,
-      "summary": "Black Forest Labs presents Flux 3 X Mimic, a video-action model that transfers world knowledge from video generation to robotic control, achieving impressive real-world manipulation results.",
+      "summary": "Analysis of AMD's efforts to overcome NVIDIA's CUDA moat through software improvements and hardware production, including challenges and financial strategies.",
       "tags": [
+        "AMD",
+        "CUDA",
         "AI",
-        "Robotics",
-        "Video Generation",
-        "World Models",
-        "Machine Learning"
+        "GPU",
+        "Software Ecosystem"
       ]
     },
     {
-      "title": "2026 年菲尔兹奖揭晓，两位中国籍数学家首次获得菲尔兹奖  国际数学联盟公布 2026 年菲尔兹奖得主。",
-      "title_zh": "两位中国数学家荣获2026年菲尔兹奖",
-      "title_en": "Two Chinese Mathematicians Win 2026 Fields Medal",
-      "url": "https://t.me/zaihuapd/42748",
-      "source": "telegram",
-      "score": 9.0,
-      "summary": "Two Chinese mathematicians win the 2026 Fields Medal, marking the first time Chinese nationals have received this prestigious award.",
+      "title": "sgl-project/sglang released v0.5.16",
+      "title_zh": "SGLang v0.5.16 通过 DSpark 和 Inkling 提升 LLM 推理性能",
+      "title_en": "SGLang v0.5.16 Boosts LLM Inference with DSpark and Inkling",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.16",
+      "source": "github",
+      "score": 8.0,
+      "summary": "SGLang v0.5.16 introduces DSpark confidence-driven speculative decoding achieving 383.7 tok/s and support for the 975B-parameter Inkling multimodal MoE model.",
       "tags": [
-        "Fields Medal",
-        "mathematics",
-        "Chinese mathematicians",
-        "breakthrough"
+        "speculative decoding",
+        "LLM inference",
+        "open source",
+        "performance",
+        "multimodal"
       ]
     },
     {
-      "title": "My security camera shipped a GitHub admin token in its login page",
-      "title_zh": "安防摄像头出厂时内置了硬编码的 GitHub 管理员令牌",
-      "title_en": "Security camera ships with hardcoded GitHub admin token",
-      "url": "https://hhh.hn/hanwha-github-token/",
+      "title": "Android May Soon Restrict On-Device ADB",
+      "title_zh": "安卓可能限制设备端ADB访问",
+      "title_en": "Android May Restrict On-Device ADB Access",
+      "url": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "A security camera was found to have a hardcoded GitHub admin token in its login page, exposing significant security risks.",
+      "summary": "Android may restrict on-device ADB access, sparking debate among developers about security vs. utility.",
       "tags": [
-        "security",
-        "vulnerability",
-        "IoT",
-        "hardcoded-credentials",
-        "supply-chain"
+        "Android",
+        "ADB",
+        "Security",
+        "Mobile Development",
+        "Developer Tools"
       ]
     },
     {
-      "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
-      "title_zh": "Nvidia、Microsoft、Meta 警告不要过度监管开放权重AI",
-      "title_en": "Nvidia, Microsoft, Meta Warn Against Overregulating Open-Weight AI",
-      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "title": "Open-weight AI is having its Kubernetes moment",
+      "title_zh": "开放权重AI正复制Kubernetes成为行业标准",
+      "title_en": "Open-weight AI mirrors Kubernetes as industry standard",
+      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Nvidia, Microsoft, and Meta advocate against stringent regulation of open-weight AI models, sparking debate on innovation versus safety.",
+      "summary": "Open-weight AI models are becoming the industry standard like Kubernetes, driving innovation and challenging vendor lock-in.",
       "tags": [
-        "AI regulation",
-        "open-weight models",
-        "Nvidia",
-        "Microsoft",
-        "Meta"
-      ]
-    },
-    {
-      "title": "If coding has been solved, why does software keep getting worse?",
-      "title_zh": "AI编程能力提升，软件质量却下降",
-      "title_en": "Software Quality Declines Despite AI Coding Advances",
-      "url": "https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "The article and discussion explore why software quality is declining even as coding becomes more efficient with AI tools.",
-      "tags": [
-        "software quality",
-        "AI code generation",
-        "developer experience",
-        "software engineering",
-        "technical debt"
-      ]
-    },
-    {
-      "title": "Be skeptical of OpenAI's rogue hacker agent story",
-      "title_zh": "对OpenAI的恶意AI代理人说法持怀疑态度",
-      "title_en": "Skepticism Over OpenAI's Rogue AI Agent Claim",
-      "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Hacker News discussion critically examines OpenAI's claim of a rogue AI agent, with many commenters expressing skepticism and suggesting it may be a marketing stunt.",
-      "tags": [
-        "AI safety",
-        "OpenAI",
-        "skepticism",
-        "AI ethics",
-        "hype"
-      ]
-    },
-    {
-      "title": "I built a compiler that turns computation graphs into the weights of a vanilla transformer — no training anywhere [P]",
-      "title_zh": "编译器无需训练即可将计算图转化为Transformer权重",
-      "title_en": "Compiler turns computation graphs into transformer weights without training",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v5fxbe/i_built_a_compiler_that_turns_computation_graphs/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "A compiler that translates Python computation graphs into pretrained-style transformer weights without training, outputting a standard Phi-3 checkpoint loadable in vanilla Hugging Face.",
-      "tags": [
-        "transformer",
-        "compiler",
-        "machine learning",
-        "interpretability",
-        "computation graphs"
-      ]
-    },
-    {
-      "title": "I built an open-source multi-agent SDLC harness that beats a cold Claude Code run on large repos, by learning the repo once. Real benchmarks (incl. where it loses) inside. [P]",
-      "title_zh": "AutoDev Studio：开源多智能体SDLC工具，优于冷启动Claude Code",
-      "title_en": "AutoDev Studio: Open-source multi-agent SDLC harness beats cold Claude Code",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v59pal/i_built_an_opensource_multiagent_sdlc_harness/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "AutoDev Studio is an open-source multi-agent SDLC harness that reduces AI coding costs by building a persistent knowledge base from static analysis.",
-      "tags": [
-        "AI coding agent",
+        "open-weight AI",
+        "Kubernetes",
         "open-source",
-        "software development lifecycle",
-        "multi-agent systems",
-        "repository understanding"
-      ]
-    },
-    {
-      "title": "长鑫年底产能逼近美光 中国将成全球第二大 DRAM 产地  Citrini Research 预测，长鑫存储有望在 2026 年底达到约 35 万片/月的 DR",
-      "title_zh": "长鑫2026年产能逼近美光 中国成第二大DRAM产地",
-      "title_en": "CXMT to approach Micron DRAM capacity by 2026",
-      "url": "https://t.me/zaihuapd/42741",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Report predicts CXMT's DRAM capacity will approach Micron's by 2026, making China the second largest DRAM producer globally.",
-      "tags": [
-        "DRAM",
-        "semiconductor",
-        "manufacturing",
-        "China",
-        "memory"
-      ]
-    },
-    {
-      "title": "🤖 OpenAI 发布企业 AI 产品 Presence，软件股集体重挫",
-      "title_zh": "OpenAI 发布企业 AI 产品 Presence，软件股暴跌",
-      "title_en": "OpenLaunches Enterprise AI Product Presence, Crushing Software Stocks",
-      "url": "https://www.businessinsider.com/openai-release-turns-a-bad-week-ugly-for-software-stocks-2026-7",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "OpenAI's enterprise AI product Presence triggers sharp declines in software stocks like Workday, Atlassian, and Salesforce.",
-      "tags": [
-        "OpenAI",
-        "Enterprise AI",
-        "SaaS",
-        "Software Stocks",
-        "Presence"
-      ]
-    },
-    {
-      "title": "黄仁勋称优秀中国开源模型应被使用  英伟达 CEO 黄仁勋在采访中表示，中国开源 AI 模型“非常优秀”，美国企业“绝对”应该获准使用。",
-      "title_zh": "黄仁勋呼吁美国允许使用中国开源AI模型",
-      "title_en": "NVIDIA CEO Urges US to Allow Chinese Open-Source AI Models",
-      "url": "https://t.me/zaihuapd/42749",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Jensen Huang advocates for US permission to use Chinese open-source AI models, citing benefits and dismissing national security concerns.",
-      "tags": [
         "AI regulation",
-        "open-source",
-        "NVIDIA",
-        "China AI",
-        "Jensen Huang"
+        "inference pricing"
       ]
     }
   ]
