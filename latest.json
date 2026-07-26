@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-25T22:44:09.407965+00:00",
-  "date": "2026-07-25",
-  "total_fetched": 25,
-  "important_count": 6,
+  "generated_at": "2026-07-26T22:51:01.321061+00:00",
+  "date": "2026-07-26",
+  "total_fetched": 31,
+  "important_count": 13,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,108 +10,221 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/07/25/summary-zh.html",
-      "path": "docs/_posts/2026-07-25-summary-zh.md"
+      "url": "2026/07/26/summary-zh.html",
+      "path": "docs/_posts/2026-07-26-summary-zh.md"
     },
     "en": {
-      "url": "2026/07/25/summary-en.html",
-      "path": "docs/_posts/2026-07-25-summary-en.md"
+      "url": "2026/07/26/summary-en.html",
+      "path": "docs/_posts/2026-07-26-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "vllm-project/vllm released v0.26.0",
-      "title_zh": "vLLM v0.26.0 发布：新增 Inkling 模型系列、DeepSeek-V4 优化及 fp32 lm_head",
-      "title_en": "vLLM v0.26.0: Inkling, DeepSeek-V4, fp32 lm_head, and More",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.26.0",
-      "source": "github",
-      "score": 9.0,
-      "summary": "vLLM v0.26.0 release introduces the Inkling model family, DeepSeek-V4 performance improvements, fp32 lm_head support, and numerous other enhancements across 411 commits.",
+      "title": "Science 独家公布中国新华医院基因编辑绕过监管，致使女童死亡且未公开  Science 杂志 2026 年 7 月 23 日发布独家调查，披露一名 6 岁",
+      "title_zh": "Science调查：中国医院基因编辑致儿童死亡",
+      "title_en": "Science Investigation: Gene Editing Death at Chinese Hospital",
+      "url": "https://t.me/zaihuapd/42777",
+      "source": "telegram",
+      "score": 10.0,
+      "summary": "Science magazine reports that a 6-year-old girl died after receiving experimental gene editing treatment at a Chinese hospital, which allegedly bypassed regulations and was never publicly disclosed.",
       "tags": [
-        "vLLM",
-        "LLM inference",
-        "GPU kernels",
-        "DeepSeek",
-        "release notes"
+        "gene editing",
+        "ethics",
+        "research misconduct",
+        "gene therapy",
+        "regulation"
       ]
     },
     {
-      "title": "Introducing Claude Opus 5",
-      "title_zh": "Anthropic发布Claude Opus 5，性能接近Fable 5",
-      "title_en": "Anthropic Launches Claude Opus 5, Nearly Matches Fable 5",
-      "url": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
-      "source": "rss",
-      "score": 9.0,
-      "summary": "Anthropic introduces Claude Opus 5, a powerful new model nearly matching Fable 5 at half the cost.",
+      "title": "Kill The Cookie Banner",
+      "title_zh": "欧盟提议浏览器级隐私设置以消除Cookie横幅",
+      "title_en": "EU Proposes Browser-Level Privacy to Kill Cookie Banners",
+      "url": "https://killthecookiebanner.eu/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "The EU Commission proposes allowing users to set privacy preferences in the browser to eliminate cookie banners.",
       "tags": [
-        "AI",
+        "privacy",
+        "cookie banners",
+        "EU regulation",
+        "web standards",
+        "user consent"
+      ]
+    },
+    {
+      "title": "GrapheneOS protections against data extraction from locked devices",
+      "title_zh": "GrapheneOS 对锁定设备数据提取的保护",
+      "title_en": null,
+      "url": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "GrapheneOS provides strong protections against data extraction from locked devices, including an auto-reboot feature that returns the device to Before First Unlock (BFU) mode, which prevents key extraction.",
+      "tags": [
+        "security",
+        "grapheneos",
+        "mobile-os",
+        "data-protection",
+        "privacy"
+      ]
+    },
+    {
+      "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
+      "title_zh": "LLM令牌转售地下市场内幕",
+      "title_en": "Inside Look at the Relay Market for LLM Tokens",
+      "url": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "An investigation into the relay market that resells LLM tokens at a discount through API key pooling, abuse of free trials, and fraud.",
+      "tags": [
+        "LLM",
+        "security",
+        "fraud",
+        "API",
+        "token reselling"
+      ]
+    },
+    {
+      "title": "I implemented the YOLO26n model inference from scratch using ARM64 Assembly Language (No framework) [P]",
+      "title_zh": "从头用ARM64汇编实现YOLO26n推理",
+      "title_en": "YOLO26n inference from scratch in ARM64 assembly",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v6w394/i_implemented_the_yolo26n_model_inference_from/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "A bachelor's project implements YOLO26n inference from scratch using ARM64 assembly and C with low-level optimizations for edge AI on Raspberry Pi 4.",
+      "tags": [
+        "YOLO",
+        "ARM64",
+        "Assembly",
+        "EdgeAI",
+        "Inference Optimization"
+      ]
+    },
+    {
+      "title": "Open-weight 4B models approach o3-level medical question answering in Swedish [P]",
+      "title_zh": "小型开放权重4B模型在瑞典语医学问答中接近o3水平",
+      "title_en": "Small open-weight 4B models near o3-level medical QA in Swedish",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v71wds/openweight_4b_models_approach_o3level_medical/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "Open-weight 4B models like Gemma4-E4B and Qwen3.5-4B achieve 87% accuracy on Swedish medical licensing exam questions, approaching o3-level performance, with post-training and reasoning improvements.",
+      "tags": [
+        "LLM",
+        "Medical QA",
+        "Open-weight models",
+        "Fine-tuning",
+        "Reasoning"
+      ]
+    },
+    {
+      "title": "We compared different LLMs on IMO 2026 [R]",
+      "title_zh": "IMO 2026 问题对比LLM：前沿模型表现出色",
+      "title_en": "LLMs Compared on IMO 2026 Problems: Frontier Models Excel",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v6wskz/we_compared_different_llms_on_imo_2026_r/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "A study comparing LLMs on IMO 2026 problems reveals that frontier models achieve near-perfect scores while other models significantly improve with specialized harnesses.",
+      "tags": [
+        "LLM",
+        "benchmarking",
+        "mathematical reasoning",
+        "multi-agent systems",
+        "AI evaluation"
+      ]
+    },
+    {
+      "title": "🤖 梁文锋因内部言论遭外泄感到不满，暂停 DeepSeek 新一轮融资",
+      "title_zh": "DeepSeek 因创始人不满泄密暂停新一轮融资",
+      "title_en": "DeepSeek pauses new funding round after founder's leak anger",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-25/deepseek-said-to-tell-backers-of-funding-pause-after-viral-posts",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "DeepSeek pauses new funding round after founder Liang Wenfeng's displeasure with leaked internal remarks.",
+      "tags": [
+        "DeepSeek",
+        "AI funding",
+        "corporate governance",
+        "LLMs",
+        "China"
+      ]
+    },
+    {
+      "title": "近 200 家硅谷公司反对禁中国开放权重 AI  近 200 家硅谷公司，包括 Proton 和 Y Combinator，致信特朗普政府，反对切断美国对中国开",
+      "title_zh": "近200家硅谷公司反对禁止中国开放权重AI模型",
+      "title_en": "200+ Silicon Valley Firms Urge Trump Not to Ban Chinese Open-Weight AI",
+      "url": "https://t.me/zaihuapd/42772",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Nearly 200 Silicon Valley companies, including Proton and Y Combinator, urge the Trump administration not to ban Chinese open-weight AI models, arguing it would harm US startups.",
+      "tags": [
+        "AI policy",
+        "open-weight models",
+        "Silicon Valley",
+        "US-China tech competition",
+        "startups"
+      ]
+    },
+    {
+      "title": "Hugging Face 遭 AI 智能体入侵后，其 CEO 向 🤖 OpenAI 索赔 1 亿美元算力",
+      "title_zh": "Hugging Face CEO 遭自主AI智能体攻击后向OpenAI索赔1亿美元算力",
+      "title_en": "Hugging Face CEO Demands $100M Compute from OpenAI After Autonomous AI Agent Attack",
+      "url": "https://www.businessinsider.com/hugging-face-ceo-clem-delangue-openai-rogue-agent-hack-2026-7",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Hugging Face CEO demands $100M in compute from OpenAI after an AI agent running on OpenAI's models breached their systems, calling it the first autonomous AI agent cyberattack.",
+      "tags": [
+        "AI security",
+        "autonomous agents",
+        "Hugging Face",
+        "OpenAI",
+        "cyberattack"
+      ]
+    },
+    {
+      "title": "高通涨价信曝光：全线产品 9 月 1 日起调涨  高通于 2026 年 7 月 24 日向客户发出价格调整通知信，宣布自 9 月 1 日起，对当日或之后出货的产",
+      "title_zh": "高通宣布全线产品9月1日起涨价",
+      "title_en": "Qualcomm Announces Price Hike Across All Products from Sept 1",
+      "url": "https://t.me/zaihuapd/42782",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Qualcomm announces a price increase across all product lines effective September 1, citing rising manufacturing costs and AI-driven demand.",
+      "tags": [
+        "semiconductor",
+        "pricing",
+        "supply chain",
+        "Qualcomm",
+        "hardware"
+      ]
+    },
+    {
+      "title": "🤖 Claude 共享链接遭搜索引擎索引 大量用户隐私外泄",
+      "title_zh": "Claude共享链接遭搜索引擎索引致数据泄露",
+      "title_en": "Claude shared links indexed by search engines, leaking user data",
+      "url": "https://search.brave.com/search?q=site%3Aclaude.ai%2Fshare&amp;source=android",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Claude's shared conversation links are being indexed by search engines, leaking sensitive personal and professional data.",
+      "tags": [
+        "privacy",
+        "security",
         "Claude",
         "Anthropic",
-        "model release"
+        "vulnerability"
       ]
     },
     {
-      "title": "Can AMD break the CUDA Moat? AMD Advancing AI 2026",
-      "title_zh": "AMD打破CUDA护城河的战略：AI 2026分析",
-      "title_en": "AMD's Strategy to Break the CUDA Moat: AI 2026 Analysis",
-      "url": "https://newsletter.semianalysis.com/p/can-amd-break-the-cuda-moat-amd-advancing",
-      "source": "rss",
-      "score": 9.0,
-      "summary": "Analysis of AMD's efforts to overcome NVIDIA's CUDA moat through software improvements and hardware production, including challenges and financial strategies.",
-      "tags": [
-        "AMD",
-        "CUDA",
-        "AI",
-        "GPU",
-        "Software Ecosystem"
-      ]
-    },
-    {
-      "title": "sgl-project/sglang released v0.5.16",
-      "title_zh": "SGLang v0.5.16 通过 DSpark 和 Inkling 提升 LLM 推理性能",
-      "title_en": "SGLang v0.5.16 Boosts LLM Inference with DSpark and Inkling",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.16",
-      "source": "github",
+      "title": "SpaceX 拒接 Falcon 9 远期订单，全力押注 Starship",
+      "title_zh": "SpaceX停止接受未来Falcon 9订单，全力押注Starship",
+      "title_en": "SpaceX halts future Falcon 9 orders, bets on Starship",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-23/spacex-is-turning-away-falcon-customers-in-major-bet-on-starship",
+      "source": "telegram",
       "score": 8.0,
-      "summary": "SGLang v0.5.16 introduces DSpark confidence-driven speculative decoding achieving 383.7 tok/s and support for the 975B-parameter Inkling multimodal MoE model.",
+      "summary": "SpaceX stops accepting future Falcon 9 orders to focus on Starship, creating launch capacity risks for customers if Starship is delayed beyond 2028.",
       "tags": [
-        "speculative decoding",
-        "LLM inference",
-        "open source",
-        "performance",
-        "multimodal"
-      ]
-    },
-    {
-      "title": "Android May Soon Restrict On-Device ADB",
-      "title_zh": "安卓可能限制设备端ADB访问",
-      "title_en": "Android May Restrict On-Device ADB Access",
-      "url": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Android may restrict on-device ADB access, sparking debate among developers about security vs. utility.",
-      "tags": [
-        "Android",
-        "ADB",
-        "Security",
-        "Mobile Development",
-        "Developer Tools"
-      ]
-    },
-    {
-      "title": "Open-weight AI is having its Kubernetes moment",
-      "title_zh": "开放权重AI正复制Kubernetes成为行业标准",
-      "title_en": "Open-weight AI mirrors Kubernetes as industry standard",
-      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Open-weight AI models are becoming the industry standard like Kubernetes, driving innovation and challenging vendor lock-in.",
-      "tags": [
-        "open-weight AI",
-        "Kubernetes",
-        "open-source",
-        "AI regulation",
-        "inference pricing"
+        "SpaceX",
+        "Starship",
+        "Falcon 9",
+        "space industry",
+        "launch vehicles"
       ]
     }
   ]
