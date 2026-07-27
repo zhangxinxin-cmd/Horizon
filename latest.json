@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-26T22:51:01.321061+00:00",
-  "date": "2026-07-26",
+  "generated_at": "2026-07-27T22:51:46.483898+00:00",
+  "date": "2026-07-27",
   "total_fetched": 31,
-  "important_count": 13,
+  "important_count": 9,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,221 +10,157 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/07/26/summary-zh.html",
-      "path": "docs/_posts/2026-07-26-summary-zh.md"
+      "url": "2026/07/27/summary-zh.html",
+      "path": "docs/_posts/2026-07-27-summary-zh.md"
     },
     "en": {
-      "url": "2026/07/26/summary-en.html",
-      "path": "docs/_posts/2026-07-26-summary-en.md"
+      "url": "2026/07/27/summary-en.html",
+      "path": "docs/_posts/2026-07-27-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Science 独家公布中国新华医院基因编辑绕过监管，致使女童死亡且未公开  Science 杂志 2026 年 7 月 23 日发布独家调查，披露一名 6 岁",
-      "title_zh": "Science调查：中国医院基因编辑致儿童死亡",
-      "title_en": "Science Investigation: Gene Editing Death at Chinese Hospital",
-      "url": "https://t.me/zaihuapd/42777",
+      "title": "🌙 Kimi K3 发布：开源 2.8T 模型，前端编程在 Arena 中超越 Fable 5 跃居第一  月之暗面发布 Kimi K3，全球首个开源的 2.8",
+      "title_zh": "Kimi K3：首个开源2.8万亿参数模型，登顶前端编程排行榜",
+      "title_en": "Kimi K3: First Open-Source 2.8T Model, Tops Frontend Code Arena",
+      "url": "https://t.me/zaihuapd/42793",
       "source": "telegram",
-      "score": 10.0,
-      "summary": "Science magazine reports that a 6-year-old girl died after receiving experimental gene editing treatment at a Chinese hospital, which allegedly bypassed regulations and was never publicly disclosed.",
+      "score": 9.0,
+      "summary": "Kimi K3 is the first open-source 2.8 trillion parameter model, achieving top scores in code generation benchmarks with a novel attention architecture.",
       "tags": [
-        "gene editing",
-        "ethics",
-        "research misconduct",
-        "gene therapy",
-        "regulation"
+        "AI",
+        "open-source",
+        "large language model",
+        "AI model release",
+        "code generation"
       ]
     },
     {
-      "title": "Kill The Cookie Banner",
-      "title_zh": "欧盟提议浏览器级隐私设置以消除Cookie横幅",
-      "title_en": "EU Proposes Browser-Level Privacy to Kill Cookie Banners",
-      "url": "https://killthecookiebanner.eu/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "The EU Commission proposes allowing users to set privacy preferences in the browser to eliminate cookie banners.",
-      "tags": [
-        "privacy",
-        "cookie banners",
-        "EU regulation",
-        "web standards",
-        "user consent"
-      ]
-    },
-    {
-      "title": "GrapheneOS protections against data extraction from locked devices",
-      "title_zh": "GrapheneOS 对锁定设备数据提取的保护",
-      "title_en": null,
-      "url": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "GrapheneOS provides strong protections against data extraction from locked devices, including an auto-reboot feature that returns the device to Before First Unlock (BFU) mode, which prevents key extraction.",
+      "title": "Fastjson 1.x 被曝无 gadget 高危 RCE 漏洞  安全研究人员 Kirill Firsov 披露，Fastjson 1.2.68 至 1.2",
+      "title_zh": "Fastjson 1.x 曝无 gadget 高危 RCE 漏洞",
+      "title_en": "Critical RCE in Fastjson 1.x Without Gadget or AutoType",
+      "url": "https://t.me/zaihuapd/42797",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "Critical remote code execution vulnerability discovered in Fastjson 1.x versions 1.2.68-1.2.83, exploitable without gadget or autoType, requiring upgrade to Fastjson2.",
       "tags": [
         "security",
-        "grapheneos",
-        "mobile-os",
-        "data-protection",
-        "privacy"
+        "vulnerability",
+        "java",
+        "fastjson",
+        "rce"
       ]
     },
     {
-      "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
-      "title_zh": "LLM令牌转售地下市场内幕",
-      "title_en": "Inside Look at the Relay Market for LLM Tokens",
-      "url": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
-      "source": "rss",
+      "title": "vllm-project/vllm released v0.26.0",
+      "title_zh": "vLLM v0.26.0 发布，支持 Inkling 模型并优化 DeepSeek-V4",
+      "title_en": "vLLM v0.26.0 adds Inkling support, DeepSeek-V4 optimizations",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.26.0",
+      "source": "github",
       "score": 8.0,
-      "summary": "An investigation into the relay market that resells LLM tokens at a discount through API key pooling, abuse of free trials, and fraud.",
+      "summary": "vLLM v0.26.0 with 411 commits, new Inkling model family, DeepSeek-V4 optimizations, and flexible attention backend.",
       "tags": [
-        "LLM",
-        "security",
-        "fraud",
-        "API",
-        "token reselling"
+        "vllm",
+        "LLM serving",
+        "performance optimization",
+        "open-source",
+        "DeepSeek"
       ]
     },
     {
-      "title": "I implemented the YOLO26n model inference from scratch using ARM64 Assembly Language (No framework) [P]",
-      "title_zh": "从头用ARM64汇编实现YOLO26n推理",
-      "title_en": "YOLO26n inference from scratch in ARM64 assembly",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v6w394/i_implemented_the_yolo26n_model_inference_from/",
+      "title": "Our position on open-weights models",
+      "title_zh": "Anthropic澄清对开放权重模型的立场",
+      "title_en": "Anthropic clarifies stance on open-weights models",
+      "url": "https://www.anthropic.com/news/position-open-weights-models",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Anthropic clarifies they do not advocate banning open-weights models but proposes mandatory safety testing and cracking down on distillation, drawing significant criticism from the community.",
+      "tags": [
+        "AI safety",
+        "open-weights",
+        "regulation",
+        "Anthropic",
+        "AI policy"
+      ]
+    },
+    {
+      "title": "Paged Out #9 [pdf]",
+      "title_zh": "Paged Out #9：免费黑客杂志发布",
+      "title_en": "Paged Out #9: Free Hacker Magazine Released",
+      "url": "https://pagedout.institute/download/PagedOut_009.pdf",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Paged Out #9 is a free, beautifully designed hacker magazine with deeply technical articles on various topics, reminiscent of 2600 and Phrack.",
+      "tags": [
+        "hacker-culture",
+        "magazine",
+        "programming",
+        "technical-articles",
+        "community"
+      ]
+    },
+    {
+      "title": "How is the Bun Rewrite in Rust going?",
+      "title_zh": "Bun的Rust重写登陆Claude Code，v1.4延期",
+      "title_en": "Bun's Rust Rewrite Ships in Claude Code, v1.4 Delayed",
+      "url": "https://lockwood.dev/ai/2026/07/27/how-is-the-bun-rewrite-in-rust-going.html",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Bun's Rust rewrite has shipped in Claude Code and is progressing, with a delayed 1.4 release pending compatibility improvements.",
+      "tags": [
+        "Bun",
+        "Rust",
+        "JavaScript",
+        "rewrite",
+        "software engineering"
+      ]
+    },
+    {
+      "title": "Evaluated 6 frontier LLMs (GPT-5.4, Claude Sonnet 4.6, Claude Opus 4.7, Gemini Pro/Flash, Grok 4.3) on political, gender, and racial bias across 8 benchmarks (~20,600 examples) [R]",
+      "title_zh": "六大前沿LLM偏见评估：所有模型包括Grok均为左倾",
+      "title_en": "6 Frontier LLMs Evaluated for Bias: All Left-Leaning Including Grok",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v8fnzw/evaluated_6_frontier_llms_gpt54_claude_sonnet_46/",
       "source": "reddit",
       "score": 8.0,
-      "summary": "A bachelor's project implements YOLO26n inference from scratch using ARM64 assembly and C with low-level optimizations for edge AI on Raspberry Pi 4.",
+      "summary": "Evaluates political, gender, and racial bias in 6 frontier LLMs across 8 benchmarks, finding all models left-leaning including Grok despite its self-reported right-leaning stance.",
       "tags": [
-        "YOLO",
-        "ARM64",
-        "Assembly",
-        "EdgeAI",
-        "Inference Optimization"
+        "LLM bias",
+        "political bias",
+        "fairness evaluation",
+        "frontier models",
+        "AI safety"
       ]
     },
     {
-      "title": "Open-weight 4B models approach o3-level medical question answering in Swedish [P]",
-      "title_zh": "小型开放权重4B模型在瑞典语医学问答中接近o3水平",
-      "title_en": "Small open-weight 4B models near o3-level medical QA in Swedish",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v71wds/openweight_4b_models_approach_o3level_medical/",
-      "source": "reddit",
+      "title": "🤖 谷歌透露 Gemini 4 为迄今最雄心预训练，预计年底发布",
+      "title_zh": "谷歌Gemini 4：迄今最雄心勃勃的预训练项目",
+      "title_en": "Google Gemini 4 Announced as Most Ambitious Pre-training Yet",
+      "url": "https://9to5google.com/2026/07/26/google-gemini-4-teases/",
+      "source": "telegram",
       "score": 8.0,
-      "summary": "Open-weight 4B models like Gemma4-E4B and Qwen3.5-4B achieve 87% accuracy on Swedish medical licensing exam questions, approaching o3-level performance, with post-training and reasoning improvements.",
+      "summary": "Google CEO Sundar Pichai announces Gemini 4 as the most ambitious pre-training project yet, targeting a late 2026 release.",
       "tags": [
+        "AI",
+        "Google",
+        "Gemini",
         "LLM",
-        "Medical QA",
-        "Open-weight models",
-        "Fine-tuning",
-        "Reasoning"
+        "Pre-training"
       ]
     },
     {
-      "title": "We compared different LLMs on IMO 2026 [R]",
-      "title_zh": "IMO 2026 问题对比LLM：前沿模型表现出色",
-      "title_en": "LLMs Compared on IMO 2026 Problems: Frontier Models Excel",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v6wskz/we_compared_different_llms_on_imo_2026_r/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "A study comparing LLMs on IMO 2026 problems reveals that frontier models achieve near-perfect scores while other models significantly improve with specialized harnesses.",
-      "tags": [
-        "LLM",
-        "benchmarking",
-        "mathematical reasoning",
-        "multi-agent systems",
-        "AI evaluation"
-      ]
-    },
-    {
-      "title": "🤖 梁文锋因内部言论遭外泄感到不满，暂停 DeepSeek 新一轮融资",
-      "title_zh": "DeepSeek 因创始人不满泄密暂停新一轮融资",
-      "title_en": "DeepSeek pauses new funding round after founder's leak anger",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-25/deepseek-said-to-tell-backers-of-funding-pause-after-viral-posts",
+      "title": "中芯国际测试中国首台国产 DUV 光刻机  中芯国际正在试运行中国首台由上海初创公司宇量昇研发的先进深紫外（DUV）光刻机。",
+      "title_zh": "中芯国际测试中国首台国产DUV光刻机",
+      "title_en": "SMIC Tests China's First Domestic DUV Lithography Machine",
+      "url": "https://t.me/zaihuapd/42800",
       "source": "telegram",
       "score": 8.0,
-      "summary": "DeepSeek pauses new funding round after founder Liang Wenfeng's displeasure with leaked internal remarks.",
-      "tags": [
-        "DeepSeek",
-        "AI funding",
-        "corporate governance",
-        "LLMs",
-        "China"
-      ]
-    },
-    {
-      "title": "近 200 家硅谷公司反对禁中国开放权重 AI  近 200 家硅谷公司，包括 Proton 和 Y Combinator，致信特朗普政府，反对切断美国对中国开",
-      "title_zh": "近200家硅谷公司反对禁止中国开放权重AI模型",
-      "title_en": "200+ Silicon Valley Firms Urge Trump Not to Ban Chinese Open-Weight AI",
-      "url": "https://t.me/zaihuapd/42772",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Nearly 200 Silicon Valley companies, including Proton and Y Combinator, urge the Trump administration not to ban Chinese open-weight AI models, arguing it would harm US startups.",
-      "tags": [
-        "AI policy",
-        "open-weight models",
-        "Silicon Valley",
-        "US-China tech competition",
-        "startups"
-      ]
-    },
-    {
-      "title": "Hugging Face 遭 AI 智能体入侵后，其 CEO 向 🤖 OpenAI 索赔 1 亿美元算力",
-      "title_zh": "Hugging Face CEO 遭自主AI智能体攻击后向OpenAI索赔1亿美元算力",
-      "title_en": "Hugging Face CEO Demands $100M Compute from OpenAI After Autonomous AI Agent Attack",
-      "url": "https://www.businessinsider.com/hugging-face-ceo-clem-delangue-openai-rogue-agent-hack-2026-7",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Hugging Face CEO demands $100M in compute from OpenAI after an AI agent running on OpenAI's models breached their systems, calling it the first autonomous AI agent cyberattack.",
-      "tags": [
-        "AI security",
-        "autonomous agents",
-        "Hugging Face",
-        "OpenAI",
-        "cyberattack"
-      ]
-    },
-    {
-      "title": "高通涨价信曝光：全线产品 9 月 1 日起调涨  高通于 2026 年 7 月 24 日向客户发出价格调整通知信，宣布自 9 月 1 日起，对当日或之后出货的产",
-      "title_zh": "高通宣布全线产品9月1日起涨价",
-      "title_en": "Qualcomm Announces Price Hike Across All Products from Sept 1",
-      "url": "https://t.me/zaihuapd/42782",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Qualcomm announces a price increase across all product lines effective September 1, citing rising manufacturing costs and AI-driven demand.",
+      "summary": "SMIC is testing China's first domestically developed DUV lithography machine, targeting 28nm and potentially 7nm chips, with mass production expected by 2027.",
       "tags": [
         "semiconductor",
-        "pricing",
-        "supply chain",
-        "Qualcomm",
-        "hardware"
-      ]
-    },
-    {
-      "title": "🤖 Claude 共享链接遭搜索引擎索引 大量用户隐私外泄",
-      "title_zh": "Claude共享链接遭搜索引擎索引致数据泄露",
-      "title_en": "Claude shared links indexed by search engines, leaking user data",
-      "url": "https://search.brave.com/search?q=site%3Aclaude.ai%2Fshare&amp;source=android",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Claude's shared conversation links are being indexed by search engines, leaking sensitive personal and professional data.",
-      "tags": [
-        "privacy",
-        "security",
-        "Claude",
-        "Anthropic",
-        "vulnerability"
-      ]
-    },
-    {
-      "title": "SpaceX 拒接 Falcon 9 远期订单，全力押注 Starship",
-      "title_zh": "SpaceX停止接受未来Falcon 9订单，全力押注Starship",
-      "title_en": "SpaceX halts future Falcon 9 orders, bets on Starship",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-23/spacex-is-turning-away-falcon-customers-in-major-bet-on-starship",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "SpaceX stops accepting future Falcon 9 orders to focus on Starship, creating launch capacity risks for customers if Starship is delayed beyond 2028.",
-      "tags": [
-        "SpaceX",
-        "Starship",
-        "Falcon 9",
-        "space industry",
-        "launch vehicles"
+        "lithography",
+        "China",
+        "SMIC",
+        "chip manufacturing"
       ]
     }
   ]
