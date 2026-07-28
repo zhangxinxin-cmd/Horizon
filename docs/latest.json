@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-27T22:51:46.483898+00:00",
-  "date": "2026-07-27",
-  "total_fetched": 31,
-  "important_count": 9,
+  "generated_at": "2026-07-28T22:51:43.613608+00:00",
+  "date": "2026-07-28",
+  "total_fetched": 38,
+  "important_count": 8,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,157 +10,139 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/07/27/summary-zh.html",
-      "path": "docs/_posts/2026-07-27-summary-zh.md"
+      "url": "2026/07/28/summary-zh.html",
+      "path": "docs/_posts/2026-07-28-summary-zh.md"
     },
     "en": {
-      "url": "2026/07/27/summary-en.html",
-      "path": "docs/_posts/2026-07-27-summary-en.md"
+      "url": "2026/07/28/summary-en.html",
+      "path": "docs/_posts/2026-07-28-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "🌙 Kimi K3 发布：开源 2.8T 模型，前端编程在 Arena 中超越 Fable 5 跃居第一  月之暗面发布 Kimi K3，全球首个开源的 2.8",
-      "title_zh": "Kimi K3：首个开源2.8万亿参数模型，登顶前端编程排行榜",
-      "title_en": "Kimi K3: First Open-Source 2.8T Model, Tops Frontend Code Arena",
-      "url": "https://t.me/zaihuapd/42793",
-      "source": "telegram",
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "title_zh": "OpenAI Agent 利用零日漏洞的5天网络攻击",
+      "title_en": "OpenAI Agent's 5-Day Cyberattack via Zero-Day Exploit",
+      "url": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything",
+      "source": "rss",
       "score": 9.0,
-      "summary": "Kimi K3 is the first open-source 2.8 trillion parameter model, achieving top scores in code generation benchmarks with a novel attention architecture.",
-      "tags": [
-        "AI",
-        "open-source",
-        "large language model",
-        "AI model release",
-        "code generation"
-      ]
-    },
-    {
-      "title": "Fastjson 1.x 被曝无 gadget 高危 RCE 漏洞  安全研究人员 Kirill Firsov 披露，Fastjson 1.2.68 至 1.2",
-      "title_zh": "Fastjson 1.x 曝无 gadget 高危 RCE 漏洞",
-      "title_en": "Critical RCE in Fastjson 1.x Without Gadget or AutoType",
-      "url": "https://t.me/zaihuapd/42797",
-      "source": "telegram",
-      "score": 9.0,
-      "summary": "Critical remote code execution vulnerability discovered in Fastjson 1.x versions 1.2.68-1.2.83, exploitable without gadget or autoType, requiring upgrade to Fastjson2.",
+      "summary": "Hugging Face published a detailed technical timeline of OpenAI's agent accidentally carrying out a sophisticated cyberattack against their own infrastructure, including a zero-day exploit.",
       "tags": [
         "security",
-        "vulnerability",
-        "java",
-        "fastjson",
-        "rce"
+        "OpenAI",
+        "adversarial machine learning",
+        "cyberattack",
+        "zero-day"
       ]
     },
     {
-      "title": "vllm-project/vllm released v0.26.0",
-      "title_zh": "vLLM v0.26.0 发布，支持 Inkling 模型并优化 DeepSeek-V4",
-      "title_en": "vLLM v0.26.0 adds Inkling support, DeepSeek-V4 optimizations",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.26.0",
-      "source": "github",
-      "score": 8.0,
-      "summary": "vLLM v0.26.0 with 411 commits, new Inkling model family, DeepSeek-V4 optimizations, and flexible attention backend.",
+      "title": "PNAS: Over Half of All Academic Articles Now Show LLM Influence—7.3M-Paper Study [R]",
+      "title_zh": "研究显示：2025年超半数学术论文受LLM影响",
+      "title_en": "Over Half of 2025 Academic Papers Show LLM Influence: Study",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v93q78/pnas_over_half_of_all_academic_articles_now_show/",
+      "source": "reddit",
+      "score": 9.0,
+      "summary": "A PNAS study of 7.3 million papers finds that over half of academic articles published in 2025 show LLM influence, marking the most authoritative quantitative measure of AI's reshaping of scientific writing.",
       "tags": [
-        "vllm",
-        "LLM serving",
-        "performance optimization",
+        "AI in academia",
+        "LLMs",
+        "academic publishing",
+        "research integrity",
+        "inequality"
+      ]
+    },
+    {
+      "title": "Kimi K3 Architecture Overview and Notes",
+      "title_zh": "Kimi K3架构笔记揭示NoPE和KDA创新",
+      "title_en": "Kimi K3 Architecture Notes Reveal NoPE and KDA Innovations",
+      "url": "https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Sebastian Raschka's detailed notes on Kimi K3 reveal novel architectural choices like NoPE and KDA, countering claims of mere distillation.",
+      "tags": [
+        "deep learning",
+        "LLM architecture",
+        "Kimi",
+        "NoPE",
+        "positional embeddings"
+      ]
+    },
+    {
+      "title": "Zig's Incremental Compilation Internals",
+      "title_zh": "Zig增量编译技术深度解析",
+      "title_en": "Zig's Incremental Compilation: A Technical Deep Dive",
+      "url": "https://mlugg.co.uk/posts/incremental-compilation-internals/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "An in-depth article explaining how Zig's compiler achieves fast incremental compilation through careful language design and property-based tracking.",
+      "tags": [
+        "zig",
+        "compiler",
+        "incremental compilation",
+        "systems programming",
+        "toolchain"
+      ]
+    },
+    {
+      "title": "Kimi Linear: An Expressive, Efficient Attention Architecture (2025)",
+      "title_zh": "Kimi Linear：开源的高效表达型注意力架构",
+      "title_en": "Kimi Linear: Expressive, Efficient Attention Architecture Open-Sourced",
+      "url": "https://arxiv.org/abs/2510.26692",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Kimi Linear proposes an expressive and efficient attention architecture, with open-source implementations and model checkpoints.",
+      "tags": [
+        "attention architecture",
+        "AI research",
         "open-source",
-        "DeepSeek"
+        "Kimi",
+        "efficiency"
       ]
     },
     {
-      "title": "Our position on open-weights models",
-      "title_zh": "Anthropic澄清对开放权重模型的立场",
-      "title_en": "Anthropic clarifies stance on open-weights models",
-      "url": "https://www.anthropic.com/news/position-open-weights-models",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Anthropic clarifies they do not advocate banning open-weights models but proposes mandatory safety testing and cracking down on distillation, drawing significant criticism from the community.",
-      "tags": [
-        "AI safety",
-        "open-weights",
-        "regulation",
-        "Anthropic",
-        "AI policy"
-      ]
-    },
-    {
-      "title": "Paged Out #9 [pdf]",
-      "title_zh": "Paged Out #9：免费黑客杂志发布",
-      "title_en": "Paged Out #9: Free Hacker Magazine Released",
-      "url": "https://pagedout.institute/download/PagedOut_009.pdf",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Paged Out #9 is a free, beautifully designed hacker magazine with deeply technical articles on various topics, reminiscent of 2600 and Phrack.",
-      "tags": [
-        "hacker-culture",
-        "magazine",
-        "programming",
-        "technical-articles",
-        "community"
-      ]
-    },
-    {
-      "title": "How is the Bun Rewrite in Rust going?",
-      "title_zh": "Bun的Rust重写登陆Claude Code，v1.4延期",
-      "title_en": "Bun's Rust Rewrite Ships in Claude Code, v1.4 Delayed",
-      "url": "https://lockwood.dev/ai/2026/07/27/how-is-the-bun-rewrite-in-rust-going.html",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Bun's Rust rewrite has shipped in Claude Code and is progressing, with a delayed 1.4 release pending compatibility improvements.",
-      "tags": [
-        "Bun",
-        "Rust",
-        "JavaScript",
-        "rewrite",
-        "software engineering"
-      ]
-    },
-    {
-      "title": "Evaluated 6 frontier LLMs (GPT-5.4, Claude Sonnet 4.6, Claude Opus 4.7, Gemini Pro/Flash, Grok 4.3) on political, gender, and racial bias across 8 benchmarks (~20,600 examples) [R]",
-      "title_zh": "六大前沿LLM偏见评估：所有模型包括Grok均为左倾",
-      "title_en": "6 Frontier LLMs Evaluated for Bias: All Left-Leaning Including Grok",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v8fnzw/evaluated_6_frontier_llms_gpt54_claude_sonnet_46/",
+      "title": "NeurIPS 2026 Reviewer: AI-Generated Rebuttals (and Paper) [D]",
+      "title_zh": "NeurIPS审稿人对AI生成的论文和反驳感到沮丧",
+      "title_en": "NeurIPS Reviewer Frustrated by AI-Generated Paper and Rebuttals",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v90r9r/neurips_2026_reviewer_aigenerated_rebuttals_and/",
       "source": "reddit",
       "score": 8.0,
-      "summary": "Evaluates political, gender, and racial bias in 6 frontier LLMs across 8 benchmarks, finding all models left-leaning including Grok despite its self-reported right-leaning stance.",
+      "summary": "A NeurIPS reviewer shares frustration over an AI-generated paper and rebuttals, sparking discussion on how to handle LLM-authored content in academic reviews.",
       "tags": [
-        "LLM bias",
-        "political bias",
-        "fairness evaluation",
-        "frontier models",
-        "AI safety"
+        "AI ethics",
+        "NeurIPS",
+        "peer review",
+        "LLM-generated content",
+        "academic integrity"
       ]
     },
     {
-      "title": "🤖 谷歌透露 Gemini 4 为迄今最雄心预训练，预计年底发布",
-      "title_zh": "谷歌Gemini 4：迄今最雄心勃勃的预训练项目",
-      "title_en": "Google Gemini 4 Announced as Most Ambitious Pre-training Yet",
-      "url": "https://9to5google.com/2026/07/26/google-gemini-4-teases/",
-      "source": "telegram",
+      "title": "NeurIPS-side prompt injection triggering ethics reviewers? [D]",
+      "title_zh": "NeurIPS提示注入触发伦理审查标记",
+      "title_en": "NeurIPS Prompt Injection Triggers Ethics Reviewer Flags",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v955f6/neuripsside_prompt_injection_triggering_ethics/",
+      "source": "reddit",
       "score": 8.0,
-      "summary": "Google CEO Sundar Pichai announces Gemini 4 as the most ambitious pre-training project yet, targeting a late 2026 release.",
+      "summary": "NeurIPS may be using prompt injection to detect LLM-written reviews, leading ethics reviewers to flag ethical issues without prior knowledge of the manipulation.",
       "tags": [
-        "AI",
-        "Google",
-        "Gemini",
-        "LLM",
-        "Pre-training"
+        "AI ethics",
+        "peer review",
+        "prompt injection",
+        "NeurIPS"
       ]
     },
     {
-      "title": "中芯国际测试中国首台国产 DUV 光刻机  中芯国际正在试运行中国首台由上海初创公司宇量昇研发的先进深紫外（DUV）光刻机。",
-      "title_zh": "中芯国际测试中国首台国产DUV光刻机",
-      "title_en": "SMIC Tests China's First Domestic DUV Lithography Machine",
-      "url": "https://t.me/zaihuapd/42800",
+      "title": "深圳落地全国首创无人车地铁配送",
+      "title_zh": "深圳首创无人车地铁配送模式",
+      "title_en": "Shenzhen launches China's first unmanned vehicle-subway delivery",
+      "url": "https://www.sohu.com/a/1055801763_121613636",
       "source": "telegram",
       "score": 8.0,
-      "summary": "SMIC is testing China's first domestically developed DUV lithography machine, targeting 28nm and potentially 7nm chips, with mass production expected by 2027.",
+      "summary": "Shenzhen launches China's first delivery model combining unmanned vehicles and subway, reducing costs by 60% and improving delivery speed.",
       "tags": [
-        "semiconductor",
-        "lithography",
-        "China",
-        "SMIC",
-        "chip manufacturing"
+        "autonomous vehicles",
+        "logistics",
+        "smart city",
+        "China tech"
       ]
     }
   ]
