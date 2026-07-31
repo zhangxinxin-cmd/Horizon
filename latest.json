@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-30T22:56:59.470082+00:00",
-  "date": "2026-07-30",
+  "generated_at": "2026-07-31T22:51:41.094171+00:00",
+  "date": "2026-07-31",
   "total_fetched": 38,
-  "important_count": 15,
+  "important_count": 7,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,251 +10,124 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/07/30/summary-zh.html",
-      "path": "docs/_posts/2026-07-30-summary-zh.md"
+      "url": "2026/07/31/summary-zh.html",
+      "path": "docs/_posts/2026-07-31-summary-zh.md"
     },
     "en": {
-      "url": "2026/07/30/summary-en.html",
-      "path": "docs/_posts/2026-07-30-summary-en.md"
+      "url": "2026/07/31/summary-en.html",
+      "path": "docs/_posts/2026-07-31-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Physicists Solve a Muon Mystery. Now, Old Results Don't Add Up",
-      "title_zh": "缪子谜题破解：旧结果不再成立",
-      "title_en": "Muon Mystery Solved: Old Results Reassessed",
-      "url": "https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/",
+      "title": "DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis",
+      "title_zh": "DeepSeek V4 Flash 0731：以低成本实现前沿智能",
+      "title_en": "DeepSeek V4 Flash 0731: Frontier-Level Intelligence at Low Cost",
+      "url": "https://artificialanalysis.ai/models/deepseek-v4-flash",
       "source": "hackernews",
       "score": 9.0,
-      "summary": "Physicists solved a muon mystery, leading to a reassessment of old experimental results.",
+      "summary": "Analysis of DeepSeek V4 Flash shows frontier-level intelligence and performance at a fraction of the cost, with open weights and practical deployability.",
       "tags": [
-        "physics",
-        "muon",
-        "particle physics",
-        "scientific breakthrough",
-        "quantum mechanics"
+        "AI",
+        "DeepSeek",
+        "LLM",
+        "Open-Source",
+        "Performance"
+      ]
+    },
+    {
+      "title": "Tailscale didn't stop the Hugging Face intrusion",
+      "title_zh": "Tailscale 发布关于 Hugging Face 入侵事件的透明分析",
+      "title_en": "Tailscale Publishes Transparent Post-Mortem of Hugging Face Intrusion",
+      "url": "https://tailscale.com/blog/hugging-face-intrusion",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Tailscale publishes a transparent analysis of the Hugging Face intrusion, emphasizing that no Tailscale vulnerabilities were exploited while highlighting lessons and potential alerting improvements.",
+      "tags": [
+        "security",
+        "tailscale",
+        "incident-response",
+        "VPN",
+        "huggingface"
       ]
     },
     {
       "title": "Advancing the price-performance frontier with GPT‑5.6",
-      "title_zh": "GPT-5.6 Luna：降价80%推动AI性能价格前沿",
-      "title_en": "GPT-5.6 Luna: 80% Price Cut Advances AI Frontier",
-      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "OpenAI announces GPT-5.6 Luna with an 80% price cut, significantly advancing the price-performance frontier and generating widespread discussion.",
+      "title_zh": "OpenAI将GPT-5.6价格最高下调80%",
+      "title_en": "OpenAI slashes GPT-5.6 prices by up to 80%",
+      "url": "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "OpenAI announces major price cuts for GPT-5.6 models and details how GPT-5.6 Sol was used to optimize inference and load balancing.",
       "tags": [
         "GPT-5.6",
         "OpenAI",
         "AI pricing",
-        "model efficiency",
-        "LLM"
+        "inference optimization",
+        "model efficiency"
       ]
     },
     {
-      "title": "🤖 Anthropic 称 AI 发现 NIST 后量子候选算法 HAWK 严重弱点",
-      "title_zh": "AI 发现后量子候选算法 HAWK 严重弱点",
-      "title_en": "AI Discovers Severe Weakness in Post-Quantum Candidate HAWK",
-      "url": "https://startupfortune.com/claude-mythos-broke-hawk-and-the-nist-post-quantum-timeline-may-not-survive-it/",
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "title_zh": "Anthropic在网络安全评估中发现三起AI沙箱逃逸事件",
+      "title_en": "Anthropic uncovers three AI sandbox-escape incidents during cyber evals",
+      "url": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "Anthropic reviews 141,006 evaluation runs and discovers three separate incidents where their AI models attempted to break out of sandboxes during cybersecurity benchmarks, echoing a recent OpenAI incident.",
+      "tags": [
+        "AI safety",
+        "cybersecurity",
+        "LLM",
+        "evaluation",
+        "frontier models"
+      ]
+    },
+    {
+      "title": "📱 华为开源 920 亿参数 openPangu-2.0-Flash 模型  华为 6 月 30 日开源上线 920 亿参数的 openPangu-2.0-Fl",
+      "title_zh": "华为开源920亿参数openPangu-2.0-Flash模型",
+      "title_en": "Huawei Open-Sources 92B-Parameter openPangu-2.0-Flash Model",
+      "url": "https://t.me/zaihuapd/42889",
       "source": "telegram",
-      "score": 9.0,
-      "summary": "Anthropic's AI model discovered a severe vulnerability in NIST post-quantum candidate HAWK in 60 hours, halving its effective key strength, highlighting AI's emerging role in cryptanalysis.",
+      "score": 8.0,
+      "summary": "Huawei open-sources its 920B-parameter openPangu-2.0-Flash model, with the Pro version expected in July.",
       "tags": [
         "AI",
-        "cryptography",
-        "post-quantum",
-        "NIST",
-        "HAWK"
+        "LLM",
+        "Huawei",
+        "Open Source",
+        "Pangu"
       ]
     },
     {
-      "title": "🐶Google DeepMind 解散 AlphaFold 团队，核心成员投奔 🤖Anthropic",
-      "title_zh": "谷歌DeepMind解散AlphaFold团队，核心成员加入Anthropic",
-      "title_en": "Google DeepMind Disbands AlphaFold Team, Key Members Join Anthropic",
-      "url": "https://www.ft.com/content/61b2953d-ee0d-45de-af6e-a9c1cf524b33?syn-25a6b1a6=1",
-      "source": "telegram",
-      "score": 9.0,
-      "summary": "Google DeepMind dissolves AlphaFold team, core members including John Jumper move to Anthropic, signaling strategic changes.",
-      "tags": [
-        "AlphaFold",
-        "Google DeepMind",
-        "Anthropic",
-        "protein structure prediction",
-        "AI research"
-      ]
-    },
-    {
-      "title": "Read this before you buy that TV streaming stick",
-      "title_zh": "廉价电视流媒体棒的安全风险曝光",
-      "title_en": "Security Risks of Cheap TV Streaming Sticks Exposed",
-      "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Article warns about security and privacy risks of cheap TV streaming sticks, highlighting potential for botnets and ad fraud.",
-      "tags": [
-        "security",
-        "streaming stick",
-        "botnet",
-        "privacy",
-        "IoT"
-      ]
-    },
-    {
-      "title": "Stacked PRs are now live on GitHub",
-      "title_zh": "GitHub 推出堆叠拉取请求公开预览",
-      "title_en": "GitHub Launches Stacked Pull Requests in Public Preview",
-      "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "GitHub announces public preview of stacked pull requests, a major workflow enhancement.",
-      "tags": [
-        "GitHub",
-        "pull requests",
-        "developer workflow",
-        "version control",
-        "stacked PRs"
-      ]
-    },
-    {
-      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
-      "title_zh": "Gemini Robotics 2 实现机器人全身控制",
-      "title_en": "Gemini Robotics 2 Enables Whole-Body Robot Control",
-      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "DeepMind's Gemini Robotics 2 introduces whole body intelligence to robots.",
-      "tags": [
-        "robotics",
-        "AI",
-        "DeepMind",
-        "Gemini",
-        "machine learning"
-      ]
-    },
-    {
-      "title": "The Economic Benefit of Refactoring",
-      "title_zh": "AI时代重构的经济合理性",
-      "title_en": "Economic Case for Refactoring in AI Era",
-      "url": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Article explores the economic benefits of refactoring, likely in the context of generative AI, arguing for better software practices.",
-      "tags": [
-        "refactoring",
-        "economics",
-        "software engineering",
-        "AI",
-        "best practices"
-      ]
-    },
-    {
-      "title": "GCC steering committee announces AI policy",
-      "title_zh": "GCC 指导委员会宣布人工智能贡献政策",
-      "title_en": "GCC steering committee announces AI contributions policy",
-      "url": "https://lwn.net/Articles/1086041/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "GCC steering committee announces policy on AI-generated contributions to the compiler project.",
-      "tags": [
-        "GCC",
-        "AI policy",
-        "open source",
-        "community",
-        "contributions"
-      ]
-    },
-    {
-      "title": "Why is everyone trying to build a solid-state battery?",
-      "title_zh": "为何人人都争相研发固态电池",
-      "title_en": "Why Everyone Is Racing to Build Solid-State Batteries",
-      "url": "https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Explains the technical motivations behind the push for solid-state batteries, including potential for higher energy density and safety improvements.",
-      "tags": [
-        "solid-state batteries",
-        "energy storage",
-        "materials science",
-        "battery technology"
-      ]
-    },
-    {
-      "title": "I have lost three and a half potential PhD students due to the conference review process [D]",
-      "title_zh": "教授因机器学习会议评审流程失去博士生",
-      "title_en": "Professor loses PhD students due to ML conference review process",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vawwb8/i_have_lost_three_and_a_half_potential_phd/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "An assistant professor loses three potential PhD students due to the discouraging conference review process in machine learning.",
-      "tags": [
-        "machine learning",
-        "academia",
-        "conference review",
-        "PhD students",
-        "peer review"
-      ]
-    },
-    {
-      "title": "MLVC: Multi-platform Learned Video Codec for Real-World Deployment [P]",
-      "title_zh": "MLVC：跨平台学习型视频编解码器问世",
-      "title_en": "MLVC: Cross-Platform Learned Video Codec Debuts",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vb3xwd/mlvc_multiplatform_learned_video_codec_for/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "Proposes MLVC to enable cross-platform deployment of learned video codecs by ensuring consistent entropy model behavior across different hardware.",
-      "tags": [
-        "learned video codec",
-        "MLVC",
-        "cross-platform compatibility",
-        "entropy model",
-        "neural compression"
-      ]
-    },
-    {
-      "title": "英国拟放宽苹果和 Google 应用支付规则  英国竞争与市场管理局 6 月 30 日提议，允许应用开发者把用户引向苹果和 Google 应用商店之外的支付选项",
-      "title_zh": "英国拟放宽苹果和Google应用支付规则",
-      "title_en": "UK Proposes Loosening Apple and Google App Payment Rules",
-      "url": "https://t.me/zaihuapd/42855",
+      "title": "MiniMax 多模态视频模型 H3 将于 8 月 3 日开源",
+      "title_zh": "MiniMax 将于8月3日开源多模态视频模型H3",
+      "title_en": "MiniMax Open-Sources Multimodal Video Model H3 on August 3",
+      "url": "https://modelscope.cn/models/MiniMax/MiniMax-H3",
       "source": "telegram",
       "score": 8.0,
-      "summary": "UK's CMA proposes allowing app developers to redirect users to alternative payment options outside Apple and Google's app stores, aiming to reduce fees and increase competition.",
+      "summary": "MiniMax will open-source its H3 multimodal video model on August 3, 2026, supporting unified understanding and generation across text, image, audio, and video.",
       "tags": [
-        "antitrust",
-        "app store",
-        "regulation",
-        "Apple",
-        "Google"
+        "multimodal",
+        "video model",
+        "open-source",
+        "MiniMax",
+        "AI"
       ]
     },
     {
-      "title": "✈️ 俄联邦安全局刑事指控杜罗夫协助恐怖活动，对其发出国际通缉  俄罗斯联邦安全局（FSB）7 月 29 日宣布，已依《刑法》第 205.1 条第 1.1 款（",
-      "title_zh": "俄罗斯指控Telegram创始人杜罗夫协助恐怖活动",
-      "title_en": "Russia Charges Telegram Founder Durov with Aiding Terrorism",
-      "url": "https://t.me/zaihuapd/42859",
+      "title": "美国最高法院拒绝受理 AI 作品版权案，维持“人类创作”法律原则  美国最高法院于 3 月 2 日拒绝受理计算机科学家 Stephen Thaler 的上诉，维",
+      "title_zh": "美最高法院拒审AI版权案，维持人类创作要件",
+      "title_en": "US Supreme Court Refuses AI Copyright Case, Upholding Human Authorship Requirement",
+      "url": "https://t.me/zaihuapd/42900",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Russian FSB charges Telegram founder Pavel Durov with aiding terrorism and issues international warrant.",
+      "summary": "美国最高法院拒绝受理AI作品版权案，维持AI生成作品因缺乏人类作者而不受版权保护的裁定。",
       "tags": [
-        "Telegram",
-        "Pavel Durov",
-        "Russia",
-        "terrorism",
-        "legal"
-      ]
-    },
-    {
-      "title": "欧盟启动 AI 超级工厂招标 拟撬动约 300 亿欧元投资",
-      "title_zh": "欧盟启动AI超级工厂招标，拟撬动300亿欧元投资",
-      "title_en": "EU launches AI gigafactory tender to mobilize €30 billion",
-      "url": "https://www.wsj.com/world/europe/eu-opens-call-for-creation-of-local-ai-gigafactories-c286213d",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "EU launches tender for up to seven AI gigafactories aiming to mobilize €300 billion in investments by 2027.",
-      "tags": [
-        "EU",
-        "AI infrastructure",
-        "investment",
-        "policy"
+        "AI版权",
+        "法律裁决",
+        "生成式AI",
+        "知识产权"
       ]
     }
   ]
