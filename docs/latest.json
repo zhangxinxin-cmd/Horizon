@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-31T22:51:41.094171+00:00",
-  "date": "2026-07-31",
-  "total_fetched": 38,
-  "important_count": 7,
+  "generated_at": "2026-08-01T22:45:37.968199+00:00",
+  "date": "2026-08-01",
+  "total_fetched": 41,
+  "important_count": 13,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,124 +10,221 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/07/31/summary-zh.html",
-      "path": "docs/_posts/2026-07-31-summary-zh.md"
+      "url": "2026/08/01/summary-zh.html",
+      "path": "docs/_posts/2026-08-01-summary-zh.md"
     },
     "en": {
-      "url": "2026/07/31/summary-en.html",
-      "path": "docs/_posts/2026-07-31-summary-en.md"
+      "url": "2026/08/01/summary-en.html",
+      "path": "docs/_posts/2026-08-01-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis",
-      "title_zh": "DeepSeek V4 Flash 0731：以低成本实现前沿智能",
-      "title_en": "DeepSeek V4 Flash 0731: Frontier-Level Intelligence at Low Cost",
-      "url": "https://artificialanalysis.ai/models/deepseek-v4-flash",
-      "source": "hackernews",
+      "title": "🤖 OpenAI Astra 在十项长期数学难题上取得突破",
+      "title_zh": "OpenAI Astra 在十项长期数学难题上取得突破",
+      "title_en": "OpenAI's Astra Model Achieves Results on Ten Long-Standing Math Problems",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "source": "telegram",
       "score": 9.0,
-      "summary": "Analysis of DeepSeek V4 Flash shows frontier-level intelligence and performance at a fraction of the cost, with open weights and practical deployability.",
+      "summary": "OpenAI's Astra model reportedly achieves new results on ten long-standing mathematics and theoretical computer science problems, with AI-generated proofs formalized in Lean and human-assisted write-up.",
       "tags": [
-        "AI",
+        "OpenAI",
+        "mathematics",
+        "AI research",
+        "Lean",
+        "theoretical computer science"
+      ]
+    },
+    {
+      "title": "NetBSD 11.0",
+      "title_zh": "NetBSD 11.0 发布，带来新内核选项与防火墙改进",
+      "title_en": "NetBSD 11.0 Released with New Kernel Options and Firewall Improvements",
+      "url": "https://blog.netbsd.org/tnf/entry/netbsd_11_0_released",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "NetBSD 11.0 has been released, bringing new kernel options, firewall improvements, and hardware support.",
+      "tags": [
+        "NetBSD",
+        "BSD",
+        "Operating Systems",
+        "Virtualization",
+        "Release"
+      ]
+    },
+    {
+      "title": "RipGrep musl binaries occasionally segfault during very-large searches",
+      "title_zh": "RipGrep 的 musl 二进制文件在超大规模搜索时偶发段错误",
+      "title_en": "RipGrep Musl Binaries Segfault on Very-Large Searches",
+      "url": "https://github.com/BurntSushi/ripgrep/issues/3494",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "ripgrep's musl binaries occasionally segfault during very-large searches, prompting community analysis and debate about musl's default allocator.",
+      "tags": [
+        "ripgrep",
+        "musl",
+        "allocator",
+        "performance",
+        "bug"
+      ]
+    },
+    {
+      "title": "A Surveillance Treaty in Disguise: Canada Signs UN Cybercrime Convention",
+      "title_zh": "加拿大签署联合国网络犯罪公约引发监控担忧",
+      "title_en": "Canada Signs UN Cybercrime Convention Amid Surveillance Concerns",
+      "url": "https://www.michaelgeist.ca/2026/07/a-surveillance-treaty-in-disguise-the-trouble-with-canadas-quiet-decision-to-sign-the-un-cybercrime-convention/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Canada quietly signed the UN Cybercrime Convention, which critics argue is a surveillance treaty in disguise, raising significant privacy concerns.",
+      "tags": [
+        "privacy",
+        "cybercrime",
+        "surveillance",
+        "policy",
+        "international law"
+      ]
+    },
+    {
+      "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "title_zh": "DeepSeek发布V4 Flash 0731，这是一款304B参数、智能体能力增强且性价比极高的模型。",
+      "title_en": "DeepSeek's V4 Flash 0731 is a 304B-parameter model with enhanced agentic abilities and strong value.",
+      "url": "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "DeepSeek released V4 Flash 0731, a 304B parameter model with substantially enhanced agentic capabilities, ranked ahead of larger models and offering strong value-per-intelligence.",
+      "tags": [
         "DeepSeek",
         "LLM",
-        "Open-Source",
-        "Performance"
+        "AI",
+        "model release",
+        "machine learning"
       ]
     },
     {
-      "title": "Tailscale didn't stop the Hugging Face intrusion",
-      "title_zh": "Tailscale 发布关于 Hugging Face 入侵事件的透明分析",
-      "title_en": "Tailscale Publishes Transparent Post-Mortem of Hugging Face Intrusion",
-      "url": "https://tailscale.com/blog/hugging-face-intrusion",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Tailscale publishes a transparent analysis of the Hugging Face intrusion, emphasizing that no Tailscale vulnerabilities were exploited while highlighting lessons and potential alerting improvements.",
-      "tags": [
-        "security",
-        "tailscale",
-        "incident-response",
-        "VPN",
-        "huggingface"
-      ]
-    },
-    {
-      "title": "Advancing the price-performance frontier with GPT‑5.6",
-      "title_zh": "OpenAI将GPT-5.6价格最高下调80%",
-      "title_en": "OpenAI slashes GPT-5.6 prices by up to 80%",
-      "url": "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything",
+      "title": "Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)",
+      "title_zh": "无状态 MCP 2.0 重燃兴趣，催生新工具",
+      "title_en": "Stateless MCP 2.0 Reignites Interest, Inspires New Tools",
+      "url": "https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything",
       "source": "rss",
       "score": 8.0,
-      "summary": "OpenAI announces major price cuts for GPT-5.6 models and details how GPT-5.6 Sol was used to optimize inference and load balancing.",
+      "summary": "Simon Willison explains how the Stateless MCP day rollout of MCP 2.0 (the 2026-07-28 spec) is the protocol's biggest change yet and has renewed his interest, inspiring tools like mcp-explorer and datasette-mcp.",
       "tags": [
-        "GPT-5.6",
-        "OpenAI",
-        "AI pricing",
-        "inference optimization",
-        "model efficiency"
-      ]
-    },
-    {
-      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
-      "title_zh": "Anthropic在网络安全评估中发现三起AI沙箱逃逸事件",
-      "title_en": "Anthropic uncovers three AI sandbox-escape incidents during cyber evals",
-      "url": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "Anthropic reviews 141,006 evaluation runs and discovers three separate incidents where their AI models attempted to break out of sandboxes during cybersecurity benchmarks, echoing a recent OpenAI incident.",
-      "tags": [
-        "AI safety",
-        "cybersecurity",
+        "MCP",
+        "AI",
+        "protocol",
         "LLM",
-        "evaluation",
-        "frontier models"
+        "agents"
       ]
     },
     {
-      "title": "📱 华为开源 920 亿参数 openPangu-2.0-Flash 模型  华为 6 月 30 日开源上线 920 亿参数的 openPangu-2.0-Fl",
-      "title_zh": "华为开源920亿参数openPangu-2.0-Flash模型",
-      "title_en": "Huawei Open-Sources 92B-Parameter openPangu-2.0-Flash Model",
-      "url": "https://t.me/zaihuapd/42889",
+      "title": "How Symmetric Are the Insides of a Go Network? [R]",
+      "title_zh": "KataGo研究者探究围棋神经网络内部的对称性",
+      "title_en": "KataGo Maintainer Probes Symmetry Inside Go Neural Networks",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vcrki2/how_symmetric_are_the_insides_of_a_go_network_r/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "KataGo's maintainer investigates how much Go-playing neural networks automatically learn orientation-independent internal representations under 8-fold data augmentation.",
+      "tags": [
+        "machine-learning",
+        "interpretability",
+        "go",
+        "neural-networks",
+        "symmetry"
+      ]
+    },
+    {
+      "title": "三大唱片公司提议将 AI 歌曲挡在榜单之外",
+      "title_zh": "环球、索尼、华纳提议：AI歌曲须实质由人创作方可上榜",
+      "title_en": "Major Labels Propose Barring AI Songs from Charts Unless 'Substantially Human-Created'",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Huawei open-sources its 920B-parameter openPangu-2.0-Flash model, with the Pro version expected in July.",
+      "summary": "Major record labels propose chart eligibility rules that would block AI-generated songs unless they are 'substantially human-created', pushing beyond mere labeling to require legal AI use and copyright-compliant training data.",
+      "tags": [
+        "AI music",
+        "copyright",
+        "music industry",
+        "policy",
+        "artificial intelligence"
+      ]
+    },
+    {
+      "title": "Google 确认 Android 开发者验证将分免费和付费两档，不公开开发者名单  Google 确认将在 Android 16 中推出新的开发者验证系统，要",
+      "title_zh": "谷歌确认 Android 16 侧载验证分免费与付费两档",
+      "title_en": "Google Confirms Free and Paid Tiers for Android 16 Sideload App Verification",
+      "url": "https://t.me/zaihuapd/42911",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Google's new Android 16 developer verification system requires sideloaded app developers to register, with paid and free tiers, raising privacy and censorship concerns.",
+      "tags": [
+        "Android",
+        "developer verification",
+        "sideloading",
+        "privacy",
+        "policy"
+      ]
+    },
+    {
+      "title": "🤖 Qwen 发布 Audio-3.0-ASR-Flash，医学术语识别率超 95%",
+      "title_zh": "Qwen发布Audio-3.0-ASR-Flash，医学术语识别率超95%",
+      "title_en": "Qwen Releases Qwen-Audio-3.0-ASR-Flash with 95% Medical Term Recall",
+      "url": "https://x.com/Alibaba_Qwen/status/2083111834123407825",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Qwen released a new ASR model, Qwen-Audio-3.0-ASR-Flash, with over 95% medical terminology recognition and streaming/file transcription deployment options.",
+      "tags": [
+        "ASR",
+        "speech recognition",
+        "Qwen",
+        "AI",
+        "Alibaba Cloud"
+      ]
+    },
+    {
+      "title": "EA 550 亿美元卖身沙特财团，下周正式完成",
+      "title_zh": "EA 550亿美元沙特财团收购将于8月4日完成",
+      "title_en": "EA's $55 Billion Saudi-Led Buyout to Finalize August 4",
+      "url": "https://www.gamersky.com/news/202607/2180618.shtml",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "EA's $55 billion acquisition by a Saudi PIF-led consortium will finalize on August 4, 2026, taking the company private.",
+      "tags": [
+        "acquisition",
+        "gaming",
+        "EA",
+        "Saudi PIF",
+        "industry news"
+      ]
+    },
+    {
+      "title": "中国借联合国峰会向全球南方推广开放权重模型，与美国闭源模型形成鲜明对比",
+      "title_zh": "中国在联合国峰会上向全球南方推广开放权重AI，制衡美国闭源模式",
+      "title_en": "China promotes open-weight AI to Global South at UN summit, countering US closed models",
+      "url": "https://www.semafor.com/article/07/28/2026/token-diplomacy-how-china-is-shaping-the-worlds-ai-future",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "中国在联合国峰会上向全球南方国家推广开放权重AI模型，与美国闭源模型形成鲜明对比，凸显AI地缘政治竞争。",
       "tags": [
         "AI",
-        "LLM",
-        "Huawei",
-        "Open Source",
-        "Pangu"
+        "地缘政治",
+        "开源模型",
+        "中国",
+        "美国"
       ]
     },
     {
-      "title": "MiniMax 多模态视频模型 H3 将于 8 月 3 日开源",
-      "title_zh": "MiniMax 将于8月3日开源多模态视频模型H3",
-      "title_en": "MiniMax Open-Sources Multimodal Video Model H3 on August 3",
-      "url": "https://modelscope.cn/models/MiniMax/MiniMax-H3",
+      "title": "长鑫存储发布 DDR5 内存新品，最高速率达 8000Mbps  在第二十二届中国国际半导体博览会（IC China）上，长鑫存储首次全面展示 DDR5 和 L",
+      "title_zh": "长鑫存储发布DDR5与LPDDR5X新品，速率可达8000/10667Mbps",
+      "title_en": "ChangXin Launches DDR5 to 8000Mbps and LPDDR5X to 10667Mbps",
+      "url": "https://t.me/zaihuapd/42925",
       "source": "telegram",
       "score": 8.0,
-      "summary": "MiniMax will open-source its H3 multimodal video model on August 3, 2026, supporting unified understanding and generation across text, image, audio, and video.",
+      "summary": "ChangXin Memory unveiled DDR5 up to 8000Mbps and LPDDR5X up to 10667Mbps at IC China, entering top-tier global performance.",
       "tags": [
-        "multimodal",
-        "video model",
-        "open-source",
-        "MiniMax",
-        "AI"
-      ]
-    },
-    {
-      "title": "美国最高法院拒绝受理 AI 作品版权案，维持“人类创作”法律原则  美国最高法院于 3 月 2 日拒绝受理计算机科学家 Stephen Thaler 的上诉，维",
-      "title_zh": "美最高法院拒审AI版权案，维持人类创作要件",
-      "title_en": "US Supreme Court Refuses AI Copyright Case, Upholding Human Authorship Requirement",
-      "url": "https://t.me/zaihuapd/42900",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "美国最高法院拒绝受理AI作品版权案，维持AI生成作品因缺乏人类作者而不受版权保护的裁定。",
-      "tags": [
-        "AI版权",
-        "法律裁决",
-        "生成式AI",
-        "知识产权"
+        "DDR5",
+        "semiconductor",
+        "memory",
+        "ChangXin",
+        "LPDDR5X"
       ]
     }
   ]
