@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-02T22:45:23.669807+00:00",
-  "date": "2026-08-02",
-  "total_fetched": 28,
-  "important_count": 1,
+  "generated_at": "2026-08-03T22:53:11.278179+00:00",
+  "date": "2026-08-03",
+  "total_fetched": 34,
+  "important_count": 11,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,29 +10,189 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/02/summary-zh.html",
-      "path": "docs/_posts/2026-08-02-summary-zh.md"
+      "url": "2026/08/03/summary-zh.html",
+      "path": "docs/_posts/2026-08-03-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/02/summary-en.html",
-      "path": "docs/_posts/2026-08-02-summary-en.md"
+      "url": "2026/08/03/summary-en.html",
+      "path": "docs/_posts/2026-08-03-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Show HN: Bor – Open-source policy management for Linux desktops",
-      "title_zh": "Bor v0.8：面向Linux桌面的实时策略管理",
-      "title_en": "Bor v0.8: Real-time policy management for Linux desktops",
-      "url": "https://getbor.dev/blog/2026-08-02-bor-v080-release/",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "title_zh": "OpenAI 公布数学与理论计算机科学领域十大进展",
+      "title_en": "OpenAI Highlights Ten Advances in AI for Mathematics and Theoretical CS",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "OpenAI highlights ten recent breakthroughs in using AI for mathematics and theoretical computer science, sparking a major community discussion about the future of mathematical research.",
+      "tags": [
+        "AI",
+        "Mathematics",
+        "OpenAI",
+        "Machine Learning",
+        "Theoretical Computer Science"
+      ]
+    },
+    {
+      "title": "LLMs reward expertise",
+      "title_zh": "LLM 奖励的是专长",
+      "title_en": "LLMs reward expertise",
+      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Bor is an open-source system for centralized Linux desktop management using real-time mTLS/gRPC policy streaming, with v0.8 adding support for Thunderbird, Edge, and FirewallD.",
+      "summary": "The article argues that LLMs amplify existing expertise, providing greater benefits to experts than novices, contrary to the expectation that they would democratize technical skills.",
       "tags": [
-        "linux",
-        "policy-management",
-        "open-source",
-        "desktop-management",
-        "devops"
+        "LLMs",
+        "AI",
+        "Software Engineering",
+        "Expertise",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
+      "title_zh": "ComfyUI 首日支持 MiniMax H3，带来开源 2K 视频生成与原生音频",
+      "title_en": "ComfyUI Adds Day-0 Support for MiniMax H3 with 2K Video and Audio",
+      "url": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "ComfyUI adds Day-0 support for MiniMax H3, enabling open-weights 2K video generation with native audio and a memory-reducing pruning technique.",
+      "tags": [
+        "AI/ML",
+        "video generation",
+        "ComfyUI",
+        "MiniMax",
+        "open source"
+      ]
+    },
+    {
+      "title": "Andy Pavlo joins ClickHouse to establish ClickHouse Labs",
+      "title_zh": "Andy Pavlo 加入 ClickHouse 创立并领导 ClickHouse Labs",
+      "title_en": "Andy Pavlo joins ClickHouse to lead new ClickHouse Labs",
+      "url": "https://clickhouse.com/blog/andy-pavlo-joins-clickhouse",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Andy Pavlo, a leading database researcher and CMU professor, is joining ClickHouse to establish and lead ClickHouse Labs.",
+      "tags": [
+        "database",
+        "clickhouse",
+        "research",
+        "olap",
+        "industry-news"
+      ]
+    },
+    {
+      "title": "Bonsai: Janestreet's UI Library",
+      "title_zh": "Jane Street 的 Bonsai：让 OCaml 实现全栈 Web 开发",
+      "title_en": "Jane Street's Bonsai Brings Full-Stack OCaml to the Web",
+      "url": "https://github.com/janestreet/bonsai",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Jane Street's Bonsai is an OCaml UI library enabling shared types and logic across frontend and backend, generating significant community discussion.",
+      "tags": [
+        "OCaml",
+        "UI framework",
+        "Jane Street",
+        "functional programming",
+        "frontend"
+      ]
+    },
+    {
+      "title": "SQLite Critical CVEs or LLM Slop?",
+      "title_zh": "SQLite CVE 噪音：LLM 垃圾内容还是真实漏洞？",
+      "title_en": "SQLite CVE Noise: LLM Slop or Real Vulnerabilities?",
+      "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "An analysis of how LLM-generated false reports are contributing to noise in CVE databases, using SQLite as a case study, and sparking debate about the risks and benefits of AI in security research.",
+      "tags": [
+        "LLM",
+        "security",
+        "CVE",
+        "SQLite",
+        "AI-reliability"
+      ]
+    },
+    {
+      "title": "Kimi K3, The Manos, The Mythos, The Legendos",
+      "title_zh": "Kimi K3 架构深度解析：压缩记忆、潜在专家路由与推理性能",
+      "title_en": "Kimi K3 Architecture Deep Dive: Compressed Memory, Latent Experts, Inference",
+      "url": "https://newsletter.semianalysis.com/p/kimi-k3-the-manos-the-mythos-the",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "An in-depth analysis of Kimi K3's architecture highlighting compressed memory, attention across depth, latent expert routing, and inference performance.",
+      "tags": [
+        "AI",
+        "architecture",
+        "Kimi K3",
+        "memory",
+        "inference"
+      ]
+    },
+    {
+      "title": "美犯罪实验室 DNA 设备曝漏洞，30 年证据文件面临篡改风险",
+      "title_zh": "赛默飞修复DNA分析漏洞，30年法医证据面临篡改风险",
+      "title_en": "Thermo Fisher Patches DNA Analysis Flaw Risking 30 Years of Forensic Evidence",
+      "url": "https://www.wsj.com/tech/cybersecurity/security-flaw-placed-30-years-of-dna-evidence-at-risk-of-hacking-1932775a",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Security flaws in DNA analysis equipment used by US crime labs could allow attackers to undetectably alter 30 years of forensic evidence, with the vendor issuing a digital-signature patch and warnings.",
+      "tags": [
+        "cybersecurity",
+        "DNA forensics",
+        "vulnerability",
+        "AI",
+        "critical infrastructure"
+      ]
+    },
+    {
+      "title": "美至少 50 名警员被控滥用车牌摄像头窥探前任",
+      "title_zh": "美至少50名警员被控滥用车牌摄像头窥探前任",
+      "title_en": "At Least 50 US Officers Accused of Abusing License-Plate Cameras to Stalk Exes",
+      "url": "https://www.washingtonpost.com/technology/2026/08/02/how-police-officers-used-vast-network-cameras-spy-their-exes/",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "A Washington Post investigation reveals at least 50 US officers were accused of misusing license-plate cameras, including Flock systems, to stalk ex-partners, highlighting widespread surveillance abuse and weak oversight.",
+      "tags": [
+        "surveillance",
+        "privacy",
+        "police-misconduct",
+        "license-plate-recognition",
+        "policy"
+      ]
+    },
+    {
+      "title": "英伟达 170HX 矿卡被破解：最高解锁 80 GB 显存，二手价暴涨",
+      "title_zh": "英伟达170HX矿卡被破解：解锁80GB显存，二手价暴涨",
+      "title_en": "Nvidia CMP 170HX Cracking Unlocks 80GB VRAM, Sends Prices Soaring",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-08-03/doc-inikzqsf4659769.shtml",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Researchers publicly disclosed a method to crack Nvidia CMP 170HX mining cards, unlocking up to 80GB VRAM and 94 TFLOPS FP32, causing secondary market prices to soar.",
+      "tags": [
+        "hardware-security",
+        "GPU",
+        "exploit",
+        "AI-inference",
+        "Nvidia"
+      ]
+    },
+    {
+      "title": "英国政府再次要求苹果开放云存储数据访问权限  英国内政部于 9 月初向苹果发出新的技术能力通知，要求其为加密云备份创建后门，但这次仅针对英国公民数据。",
+      "title_zh": "英国再要求苹果为加密云备份开后门",
+      "title_en": "UK Demands Apple Backdoor for Encrypted Cloud Backups",
+      "url": "https://t.me/zaihuapd/42953",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "UK government issues new technical capability notice to Apple demanding a backdoor for encrypted cloud backups, limited to UK citizen data.",
+      "tags": [
+        "security",
+        "encryption",
+        "privacy",
+        "government policy",
+        "apple"
       ]
     }
   ]
