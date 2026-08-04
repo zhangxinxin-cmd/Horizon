@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-03T22:53:11.278179+00:00",
-  "date": "2026-08-03",
-  "total_fetched": 34,
-  "important_count": 11,
+  "generated_at": "2026-08-04T22:54:05.746762+00:00",
+  "date": "2026-08-04",
+  "total_fetched": 41,
+  "important_count": 12,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,189 +10,205 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/03/summary-zh.html",
-      "path": "docs/_posts/2026-08-03-summary-zh.md"
+      "url": "2026/08/04/summary-zh.html",
+      "path": "docs/_posts/2026-08-04-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/03/summary-en.html",
-      "path": "docs/_posts/2026-08-03-summary-en.md"
+      "url": "2026/08/04/summary-en.html",
+      "path": "docs/_posts/2026-08-04-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Ten advances in mathematics and theoretical computer science",
-      "title_zh": "OpenAI 公布数学与理论计算机科学领域十大进展",
-      "title_en": "OpenAI Highlights Ten Advances in AI for Mathematics and Theoretical CS",
-      "url": "https://openai.com/index/ten-advances-in-mathematics/",
-      "source": "hackernews",
+      "title": "华为发表“韬定律”：以时间缩微替代几何缩微，探索半导体新路径  近日在上海举行的 2026 国际电路与系统研讨会上，华为发表“韬定律”，提出以“时间缩微”替代“",
+      "title_zh": "华为发布“韬定律”：以时间缩微替代几何缩微",
+      "title_en": "Huawei Unveils 'Tao's Law': Time-Based Scaling to Replace Geometric Shrink",
+      "url": "https://t.me/zaihuapd/42966",
+      "source": "telegram",
       "score": 9.0,
-      "summary": "OpenAI highlights ten recent breakthroughs in using AI for mathematics and theoretical computer science, sparking a major community discussion about the future of mathematical research.",
+      "summary": "Huawei unveils 'Tao's Law' for semiconductor scaling via time-based optimization, claiming 381 chips designed and a new Kirin chip using logic folding this fall.",
+      "tags": [
+        "semiconductors",
+        "Huawei",
+        "chip design",
+        "Tao's Law",
+        "hardware innovation"
+      ]
+    },
+    {
+      "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
+      "title_zh": "Mistral发布Shieldstral：30亿参数开放权重多模态内容审核模型",
+      "title_en": "Mistral's Shieldstral: 3B Open-Weight Model for Multimodal Content Moderation",
+      "url": "https://mistral.ai/news/shieldstral/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Mistral introduces Shieldstral, a 3B open-weights model for multimodal content moderation, offering a cost-effective alternative to existing solutions.",
       "tags": [
         "AI",
-        "Mathematics",
-        "OpenAI",
-        "Machine Learning",
-        "Theoretical Computer Science"
-      ]
-    },
-    {
-      "title": "LLMs reward expertise",
-      "title_zh": "LLM 奖励的是专长",
-      "title_en": "LLMs reward expertise",
-      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "The article argues that LLMs amplify existing expertise, providing greater benefits to experts than novices, contrary to the expectation that they would democratize technical skills.",
-      "tags": [
-        "LLMs",
-        "AI",
-        "Software Engineering",
-        "Expertise",
-        "Productivity"
-      ]
-    },
-    {
-      "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
-      "title_zh": "ComfyUI 首日支持 MiniMax H3，带来开源 2K 视频生成与原生音频",
-      "title_en": "ComfyUI Adds Day-0 Support for MiniMax H3 with 2K Video and Audio",
-      "url": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "ComfyUI adds Day-0 support for MiniMax H3, enabling open-weights 2K video generation with native audio and a memory-reducing pruning technique.",
-      "tags": [
-        "AI/ML",
-        "video generation",
-        "ComfyUI",
-        "MiniMax",
-        "open source"
-      ]
-    },
-    {
-      "title": "Andy Pavlo joins ClickHouse to establish ClickHouse Labs",
-      "title_zh": "Andy Pavlo 加入 ClickHouse 创立并领导 ClickHouse Labs",
-      "title_en": "Andy Pavlo joins ClickHouse to lead new ClickHouse Labs",
-      "url": "https://clickhouse.com/blog/andy-pavlo-joins-clickhouse",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Andy Pavlo, a leading database researcher and CMU professor, is joining ClickHouse to establish and lead ClickHouse Labs.",
-      "tags": [
-        "database",
-        "clickhouse",
-        "research",
-        "olap",
-        "industry-news"
-      ]
-    },
-    {
-      "title": "Bonsai: Janestreet's UI Library",
-      "title_zh": "Jane Street 的 Bonsai：让 OCaml 实现全栈 Web 开发",
-      "title_en": "Jane Street's Bonsai Brings Full-Stack OCaml to the Web",
-      "url": "https://github.com/janestreet/bonsai",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Jane Street's Bonsai is an OCaml UI library enabling shared types and logic across frontend and backend, generating significant community discussion.",
-      "tags": [
-        "OCaml",
-        "UI framework",
-        "Jane Street",
-        "functional programming",
-        "frontend"
-      ]
-    },
-    {
-      "title": "SQLite Critical CVEs or LLM Slop?",
-      "title_zh": "SQLite CVE 噪音：LLM 垃圾内容还是真实漏洞？",
-      "title_en": "SQLite CVE Noise: LLM Slop or Real Vulnerabilities?",
-      "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "An analysis of how LLM-generated false reports are contributing to noise in CVE databases, using SQLite as a case study, and sparking debate about the risks and benefits of AI in security research.",
-      "tags": [
+        "Moderation",
+        "Open Source",
         "LLM",
+        "Multimodal"
+      ]
+    },
+    {
+      "title": "Waymo in Dallas",
+      "title_zh": "Waymo 在达拉斯向所有人开放无人驾驶打车服务",
+      "title_en": "Waymo opens driverless ride-hailing to everyone in Dallas",
+      "url": "https://waymo.com/blog/shorts/dallas-open-to-all/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Waymo opens its driverless ride-hailing service to everyone in Dallas, sparking discussion on its broader societal and housing implications.",
+      "tags": [
+        "Waymo",
+        "autonomous vehicles",
+        "Dallas",
+        "transportation",
+        "urban policy"
+      ]
+    },
+    {
+      "title": "Thanks FedEx, This Is Why We Keep Getting Phished (2024)",
+      "title_zh": "联邦快递的混乱邮件说明用户为何屡屡中网络钓鱼招",
+      "title_en": "FedEx's Confusing Emails Show Why Users Keep Falling for Phishing",
+      "url": "https://www.troyhunt.com/thanks-fedex-this-is-why-we-keep-getting-phished/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Troy Hunt uses FedEx's confusing email practices to illustrate why users keep falling for phishing, highlighting how legitimate services enable scammers.",
+      "tags": [
+        "phishing",
         "security",
-        "CVE",
-        "SQLite",
-        "AI-reliability"
-      ]
-    },
-    {
-      "title": "Kimi K3, The Manos, The Mythos, The Legendos",
-      "title_zh": "Kimi K3 架构深度解析：压缩记忆、潜在专家路由与推理性能",
-      "title_en": "Kimi K3 Architecture Deep Dive: Compressed Memory, Latent Experts, Inference",
-      "url": "https://newsletter.semianalysis.com/p/kimi-k3-the-manos-the-mythos-the",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "An in-depth analysis of Kimi K3's architecture highlighting compressed memory, attention across depth, latent expert routing, and inference performance.",
-      "tags": [
-        "AI",
-        "architecture",
-        "Kimi K3",
-        "memory",
-        "inference"
-      ]
-    },
-    {
-      "title": "美犯罪实验室 DNA 设备曝漏洞，30 年证据文件面临篡改风险",
-      "title_zh": "赛默飞修复DNA分析漏洞，30年法医证据面临篡改风险",
-      "title_en": "Thermo Fisher Patches DNA Analysis Flaw Risking 30 Years of Forensic Evidence",
-      "url": "https://www.wsj.com/tech/cybersecurity/security-flaw-placed-30-years-of-dna-evidence-at-risk-of-hacking-1932775a",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Security flaws in DNA analysis equipment used by US crime labs could allow attackers to undetectably alter 30 years of forensic evidence, with the vendor issuing a digital-signature patch and warnings.",
-      "tags": [
+        "email",
         "cybersecurity",
-        "DNA forensics",
-        "vulnerability",
-        "AI",
-        "critical infrastructure"
+        "FedEx"
       ]
     },
     {
-      "title": "美至少 50 名警员被控滥用车牌摄像头窥探前任",
-      "title_zh": "美至少50名警员被控滥用车牌摄像头窥探前任",
-      "title_en": "At Least 50 US Officers Accused of Abusing License-Plate Cameras to Stalk Exes",
-      "url": "https://www.washingtonpost.com/technology/2026/08/02/how-police-officers-used-vast-network-cameras-spy-their-exes/",
-      "source": "telegram",
+      "title": "DeepSeek V4 Flash on a Single AMD MI300X",
+      "title_zh": "在单块 AMD MI300X 上运行 DeepSeek V4 Flash",
+      "title_en": "DeepSeek V4 Flash Runs on a Single AMD MI300X",
+      "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "A Washington Post investigation reveals at least 50 US officers were accused of misusing license-plate cameras, including Flock systems, to stalk ex-partners, highlighting widespread surveillance abuse and weak oversight.",
+      "summary": "A technical guide and repository showing how to run DeepSeek V4 Flash on a single AMD MI300X, with community debate on hardware feasibility, quantization, and tradeoffs like reduced context length.",
       "tags": [
-        "surveillance",
-        "privacy",
-        "police-misconduct",
-        "license-plate-recognition",
-        "policy"
+        "DeepSeek",
+        "AMD MI300X",
+        "LLM inference",
+        "quantization",
+        "hardware"
       ]
     },
     {
-      "title": "英伟达 170HX 矿卡被破解：最高解锁 80 GB 显存，二手价暴涨",
-      "title_zh": "英伟达170HX矿卡被破解：解锁80GB显存，二手价暴涨",
-      "title_en": "Nvidia CMP 170HX Cracking Unlocks 80GB VRAM, Sends Prices Soaring",
-      "url": "https://finance.sina.com.cn/tech/roll/2026-08-03/doc-inikzqsf4659769.shtml",
-      "source": "telegram",
+      "title": "Keyv and friends compromised in active Shai-Hulud supply chain attack",
+      "title_zh": "Keyv 及相关 npm 包在 Shai-Hulud 供应链攻击中遭入侵",
+      "title_en": "Keyv and related npm packages compromised in Shai-Hulud supply chain attack",
+      "url": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "Researchers publicly disclosed a method to crack Nvidia CMP 170HX mining cards, unlocking up to 80GB VRAM and 94 TFLOPS FP32, causing secondary market prices to soar.",
+      "summary": "Keyv and related npm packages are compromised in an active Shai-Hulud supply chain attack, sparking community debate on pre-install hooks and mitigation strategies.",
       "tags": [
-        "hardware-security",
-        "GPU",
-        "exploit",
-        "AI-inference",
-        "Nvidia"
-      ]
-    },
-    {
-      "title": "英国政府再次要求苹果开放云存储数据访问权限  英国内政部于 9 月初向苹果发出新的技术能力通知，要求其为加密云备份创建后门，但这次仅针对英国公民数据。",
-      "title_zh": "英国再要求苹果为加密云备份开后门",
-      "title_en": "UK Demands Apple Backdoor for Encrypted Cloud Backups",
-      "url": "https://t.me/zaihuapd/42953",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "UK government issues new technical capability notice to Apple demanding a backdoor for encrypted cloud backups, limited to UK citizen data.",
-      "tags": [
+        "npm",
+        "supply-chain-attack",
         "security",
-        "encryption",
-        "privacy",
-        "government policy",
-        "apple"
+        "keyv",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Xbox goes down. You can't play games you own on disc",
+      "title_zh": "Xbox 宕机导致光盘游戏无法游玩，引发 DRM 所有权之争。",
+      "title_en": "Xbox outage blocks disc games, igniting DRM ownership debate.",
+      "url": "https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "An Xbox outage temporarily blocked playing even disc-based games, sparking widespread debate about ownership, DRM, and the future of media preservation.",
+      "tags": [
+        "gaming",
+        "DRM",
+        "digital-ownership",
+        "outage",
+        "content-preservation"
+      ]
+    },
+    {
+      "title": "Harness engineering for self-improvement",
+      "title_zh": "Harness工程：让AI智能体自我改进",
+      "title_en": "Harness Engineering for AI Self-Improvement",
+      "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Explores how to engineer harnesses that enable AI agents to self-improve, covering design principles, fitness functions, and tool optimization, with community insights on practical implementation.",
+      "tags": [
+        "AI agents",
+        "LLM",
+        "software engineering",
+        "harness",
+        "self-improvement"
+      ]
+    },
+    {
+      "title": "🍏 苹果批准 📱 微软请求：iPhone 与 Windows 跨设备剪贴板共享将随 iOS 28 登陆欧盟",
+      "title_zh": "iPhone 与 Windows 剪贴板共享将随 iOS 28 登陆欧盟",
+      "title_en": "iPhone–Windows Clipboard Sharing Coming to iOS 28 in EU",
+      "url": "https://appleinsider.com/articles/26/08/04/iphone-to-windows-clipboard-sharing-coming-to-ios-28-in-the-eu",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Apple approved Microsoft's DMA-based interoperability request to bring iPhone-Windows cross-device clipboard sharing to EU users with iOS 28 by 2027.",
+      "tags": [
+        "iOS",
+        "Windows",
+        "Interoperability",
+        "DMA",
+        "Clipboard Sharing"
+      ]
+    },
+    {
+      "title": "🐶 谷歌为 🤖 Anthropic 搭建 2000 亿美元华尔街融资机器",
+      "title_zh": "谷歌悄然搭建2000亿美元融资架构，为Anthropic供芯片",
+      "title_en": "Google Quietly Builds $200B Financing Structure for Anthropic's AI Chips",
+      "url": "https://www.ft.com/content/549f2e23-5aa2-49c7-9ea6-a9784ab7087c",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Google has quietly built a ~$200 billion Wall Street financing structure to deliver over $150 billion in AI chips to Anthropic, using a vendor-financing model with major investors.",
+      "tags": [
+        "AI infrastructure",
+        "Google",
+        "Anthropic",
+        "AI chips",
+        "Finance"
+      ]
+    },
+    {
+      "title": "我国首部 L3/L4 自动驾驶强制性国标报批，2027 年实施  工信部已完成《智能网联汽车自动驾驶系统安全要求》强制性国家标准报批稿，6 月 17 日起公示，",
+      "title_zh": "我国首部L3/L4自动驾驶强制性国标报批，2027年实施",
+      "title_en": "China Approves First Mandatory L3/L4 Autonomous Driving Safety Standard",
+      "url": "https://t.me/zaihuapd/42972",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "China's MIIT has submitted the first mandatory national standard for L3/L4 autonomous driving, with proposed implementation in July 2027, introducing Safety Case-based safety validation and specific requirements for human-machine handover and autonomous risk handling.",
+      "tags": [
+        "autonomous driving",
+        "regulation",
+        "safety standards",
+        "China",
+        "L3/L4"
+      ]
+    },
+    {
+      "title": "黄仁勋称优秀中国开源模型应被使用  英伟达 CEO 黄仁勋在采访中表示，中国开源 AI 模型“非常优秀”，美国企业“绝对”应该获准使用。",
+      "title_zh": "黄仁勋：优秀的中国开源AI模型应获准使用",
+      "title_en": "NVIDIA CEO Says Excellent Chinese Open-Source AI Models Should Be Used",
+      "url": "https://t.me/zaihuapd/42977",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "黄仁勋表示中国开源AI模型优秀且美国应获准使用，反对全面限制并主张针对具体问题治理。",
+      "tags": [
+        "AI",
+        "开源模型",
+        "政策",
+        "NVIDIA",
+        "中国AI"
       ]
     }
   ]
