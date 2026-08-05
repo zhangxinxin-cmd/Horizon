@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-04T22:54:05.746762+00:00",
-  "date": "2026-08-04",
-  "total_fetched": 41,
-  "important_count": 12,
+  "generated_at": "2026-08-05T22:49:55.131896+00:00",
+  "date": "2026-08-05",
+  "total_fetched": 31,
+  "important_count": 11,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,205 +10,188 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/04/summary-zh.html",
-      "path": "docs/_posts/2026-08-04-summary-zh.md"
+      "url": "2026/08/05/summary-zh.html",
+      "path": "docs/_posts/2026-08-05-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/04/summary-en.html",
-      "path": "docs/_posts/2026-08-04-summary-en.md"
+      "url": "2026/08/05/summary-en.html",
+      "path": "docs/_posts/2026-08-05-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "华为发表“韬定律”：以时间缩微替代几何缩微，探索半导体新路径  近日在上海举行的 2026 国际电路与系统研讨会上，华为发表“韬定律”，提出以“时间缩微”替代“",
-      "title_zh": "华为发布“韬定律”：以时间缩微替代几何缩微",
-      "title_en": "Huawei Unveils 'Tao's Law': Time-Based Scaling to Replace Geometric Shrink",
-      "url": "https://t.me/zaihuapd/42966",
+      "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+      "title_zh": "哈萨比斯转任DeepMind董事长，杰夫·迪恩离开谷歌",
+      "title_en": "Hassabis becomes DeepMind chair as Jeff Dean exits Google",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "Demis Hassabis becomes Chair, while Jeff Dean and Sanjay Ghemawat leave Google to launch a public benefit corporation, marking a major shift in Google DeepMind's leadership.",
+      "tags": [
+        "Google DeepMind",
+        "AI Leadership",
+        "Jeff Dean",
+        "Demis Hassabis",
+        "Industry News"
+      ]
+    },
+    {
+      "title": "ChainDrop 蠕虫攻陷 npm 逾 1300 个包",
+      "title_zh": "ChainDrop 蠕虫攻陷超 1300 个 npm 包",
+      "title_en": "ChainDrop Worm Compromises Over 1,300 npm Packages",
+      "url": "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
       "source": "telegram",
       "score": 9.0,
-      "summary": "Huawei unveils 'Tao's Law' for semiconductor scaling via time-based optimization, claiming 381 chips designed and a new Kirin chip using logic folding this fall.",
+      "summary": "The ChainDrop worm has infected over 1300 npm packages, including popular caching libraries, with malicious payloads that steal credentials and spread via maintenance account compromises.",
       "tags": [
-        "semiconductors",
-        "Huawei",
-        "chip design",
-        "Tao's Law",
-        "hardware innovation"
-      ]
-    },
-    {
-      "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
-      "title_zh": "Mistral发布Shieldstral：30亿参数开放权重多模态内容审核模型",
-      "title_en": "Mistral's Shieldstral: 3B Open-Weight Model for Multimodal Content Moderation",
-      "url": "https://mistral.ai/news/shieldstral/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Mistral introduces Shieldstral, a 3B open-weights model for multimodal content moderation, offering a cost-effective alternative to existing solutions.",
-      "tags": [
-        "AI",
-        "Moderation",
-        "Open Source",
-        "LLM",
-        "Multimodal"
-      ]
-    },
-    {
-      "title": "Waymo in Dallas",
-      "title_zh": "Waymo 在达拉斯向所有人开放无人驾驶打车服务",
-      "title_en": "Waymo opens driverless ride-hailing to everyone in Dallas",
-      "url": "https://waymo.com/blog/shorts/dallas-open-to-all/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Waymo opens its driverless ride-hailing service to everyone in Dallas, sparking discussion on its broader societal and housing implications.",
-      "tags": [
-        "Waymo",
-        "autonomous vehicles",
-        "Dallas",
-        "transportation",
-        "urban policy"
-      ]
-    },
-    {
-      "title": "Thanks FedEx, This Is Why We Keep Getting Phished (2024)",
-      "title_zh": "联邦快递的混乱邮件说明用户为何屡屡中网络钓鱼招",
-      "title_en": "FedEx's Confusing Emails Show Why Users Keep Falling for Phishing",
-      "url": "https://www.troyhunt.com/thanks-fedex-this-is-why-we-keep-getting-phished/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Troy Hunt uses FedEx's confusing email practices to illustrate why users keep falling for phishing, highlighting how legitimate services enable scammers.",
-      "tags": [
-        "phishing",
         "security",
-        "email",
-        "cybersecurity",
-        "FedEx"
-      ]
-    },
-    {
-      "title": "DeepSeek V4 Flash on a Single AMD MI300X",
-      "title_zh": "在单块 AMD MI300X 上运行 DeepSeek V4 Flash",
-      "title_en": "DeepSeek V4 Flash Runs on a Single AMD MI300X",
-      "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A technical guide and repository showing how to run DeepSeek V4 Flash on a single AMD MI300X, with community debate on hardware feasibility, quantization, and tradeoffs like reduced context length.",
-      "tags": [
-        "DeepSeek",
-        "AMD MI300X",
-        "LLM inference",
-        "quantization",
-        "hardware"
-      ]
-    },
-    {
-      "title": "Keyv and friends compromised in active Shai-Hulud supply chain attack",
-      "title_zh": "Keyv 及相关 npm 包在 Shai-Hulud 供应链攻击中遭入侵",
-      "title_en": "Keyv and related npm packages compromised in Shai-Hulud supply chain attack",
-      "url": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Keyv and related npm packages are compromised in an active Shai-Hulud supply chain attack, sparking community debate on pre-install hooks and mitigation strategies.",
-      "tags": [
         "npm",
-        "supply-chain-attack",
-        "security",
-        "keyv",
-        "javascript"
+        "supply-chain",
+        "malware",
+        "worm"
       ]
     },
     {
-      "title": "Xbox goes down. You can't play games you own on disc",
-      "title_zh": "Xbox 宕机导致光盘游戏无法游玩，引发 DRM 所有权之争。",
-      "title_en": "Xbox outage blocks disc games, igniting DRM ownership debate.",
-      "url": "https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/",
+      "title": "Discovery Loop",
+      "title_zh": "杰夫·迪恩等人创立Discovery Loop以自动化AI研究",
+      "title_en": "Jeff Dean and Colleagues Launch Discovery Loop to Automate AI Research",
+      "url": "https://www.discoveryloop.com/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "An Xbox outage temporarily blocked playing even disc-based games, sparking widespread debate about ownership, DRM, and the future of media preservation.",
+      "summary": "Discovery Loop is an initiative to automate the experimental loop for ML research and engineering, broadly applicable across science and engineering fields.",
       "tags": [
-        "gaming",
-        "DRM",
-        "digital-ownership",
-        "outage",
-        "content-preservation"
+        "machine-learning",
+        "research-automation",
+        "AI",
+        "experimentation",
+        "Karpathy"
       ]
     },
     {
-      "title": "Harness engineering for self-improvement",
-      "title_zh": "Harness工程：让AI智能体自我改进",
-      "title_en": "Harness Engineering for AI Self-Improvement",
-      "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+      "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
+      "title_zh": "Meta投放含AI生成的儿童性虐待图像广告",
+      "title_en": "Meta Ran Ads Containing AI-Generated Child Sexual Abuse Imagery",
+      "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Explores how to engineer harnesses that enable AI agents to self-improve, covering design principles, fitness functions, and tool optimization, with community insights on practical implementation.",
+      "summary": "Meta ran ads containing AI-generated child sexual abuse imagery, highlighting critical gaps in content moderation and AI safety practices.",
       "tags": [
+        "AI safety",
+        "content moderation",
+        "child safety",
+        "Meta",
+        "platform policy"
+      ]
+    },
+    {
+      "title": "Cloudflare OS: an open platform for agents, apps, and work",
+      "title_zh": "Cloudflare OS：面向智能体、应用与工作的开放平台",
+      "title_en": "Cloudflare OS: An Open Platform for Agents, Apps, and Work",
+      "url": "https://blog.cloudflare.com/cloudflare-os/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Cloudflare introduces Cloudflare OS, an open platform for agents, apps, and work, sparking community debate about its scope, naming, and lock-in concerns.",
+      "tags": [
+        "Cloudflare",
         "AI agents",
-        "LLM",
-        "software engineering",
-        "harness",
-        "self-improvement"
+        "developer platform",
+        "open source",
+        "serverless"
       ]
     },
     {
-      "title": "🍏 苹果批准 📱 微软请求：iPhone 与 Windows 跨设备剪贴板共享将随 iOS 28 登陆欧盟",
-      "title_zh": "iPhone 与 Windows 剪贴板共享将随 iOS 28 登陆欧盟",
-      "title_en": "iPhone–Windows Clipboard Sharing Coming to iOS 28 in EU",
-      "url": "https://appleinsider.com/articles/26/08/04/iphone-to-windows-clipboard-sharing-coming-to-ios-28-in-the-eu",
-      "source": "telegram",
+      "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
+      "title_zh": "LLM 0.32 新增推理轨迹、服务端工具及 OpenAI Responses API 支持",
+      "title_en": "LLM 0.32 adds reasoning traces, server-side tools, and OpenAI Responses API support",
+      "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
+      "source": "rss",
       "score": 8.0,
-      "summary": "Apple approved Microsoft's DMA-based interoperability request to bring iPhone-Windows cross-device clipboard sharing to EU users with iOS 28 by 2027.",
+      "summary": "LLM 0.32 is a major release adding visible reasoning traces, server-side provider tools, OpenAI Responses API support, and redesigned content-addressable logging.",
+      "tags": [
+        "LLM",
+        "CLI",
+        "AI",
+        "OpenAI",
+        "release"
+      ]
+    },
+    {
+      "title": "Running Whisper, Qwen3-ASR, Nemotron & MOSS completely offline on iPhone [P]",
+      "title_zh": "开源应用 LiveTranscriber 在 iPhone 上完全离线运行 Whisper、Qwen3-ASR 等模型",
+      "title_en": "Open-Source LiveTranscriber Runs Whisper, Qwen3-ASR, Nemotron, MOSS Offline on iPhone",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vgbl7w/running_whisper_qwen3asr_nemotron_moss_completely/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "An open-source iOS app (LiveTranscriber) runs Whisper, Qwen3-ASR, Nemotron, MOSS, and Qwen3 fully offline for transcription, translation, and summarization.",
       "tags": [
         "iOS",
-        "Windows",
-        "Interoperability",
-        "DMA",
-        "Clipboard Sharing"
+        "on-device ML",
+        "speech recognition",
+        "open-source",
+        "Whisper"
       ]
     },
     {
-      "title": "🐶 谷歌为 🤖 Anthropic 搭建 2000 亿美元华尔街融资机器",
-      "title_zh": "谷歌悄然搭建2000亿美元融资架构，为Anthropic供芯片",
-      "title_en": "Google Quietly Builds $200B Financing Structure for Anthropic's AI Chips",
-      "url": "https://www.ft.com/content/549f2e23-5aa2-49c7-9ea6-a9784ab7087c",
+      "title": "Monodratic: learned product-hash routing for sparse causal attention [R]",
+      "title_zh": "Monodratic：用于稀疏因果注意力的学习乘积哈希路由",
+      "title_en": "Monodratic: Learned Product-Hash Routing for Sparse Causal Attention",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vg3jda/monodratic_learned_producthash_routing_for_sparse/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "Introduces Monodratic, a sparse causal-attention architecture using learned product-hash routing to select remote source blocks, achieving high associative-recall accuracy with a bounded attention budget.",
+      "tags": [
+        "sparse attention",
+        "transformer",
+        "machine learning",
+        "routing",
+        "efficient attention"
+      ]
+    },
+    {
+      "title": "🤖 马斯克宣布 SpaceX 将独家采用英伟达 AI 架构",
+      "title_zh": "马斯克宣布 SpaceX 将独家采用英伟达 AI 架构",
+      "title_en": "Musk Commits SpaceX Exclusively to Nvidia AI Architecture",
+      "url": "https://wccftech.com/elon-musk-commits-spacex-exclusively-to-nvidia-gpus-citing-theyre-the-best/",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Google has quietly built a ~$200 billion Wall Street financing structure to deliver over $150 billion in AI chips to Anthropic, using a vendor-financing model with major investors.",
+      "summary": "Elon Musk announced SpaceX will exclusively use Nvidia's AI architecture, deploying Vera Rubin systems in ground and space data centers including the Starmind satellite project.",
       "tags": [
+        "Nvidia",
+        "SpaceX",
         "AI infrastructure",
-        "Google",
-        "Anthropic",
-        "AI chips",
-        "Finance"
+        "Satellite computing"
       ]
     },
     {
-      "title": "我国首部 L3/L4 自动驾驶强制性国标报批，2027 年实施  工信部已完成《智能网联汽车自动驾驶系统安全要求》强制性国家标准报批稿，6 月 17 日起公示，",
-      "title_zh": "我国首部L3/L4自动驾驶强制性国标报批，2027年实施",
-      "title_en": "China Approves First Mandatory L3/L4 Autonomous Driving Safety Standard",
-      "url": "https://t.me/zaihuapd/42972",
+      "title": "🤖 DeepSeek 重启第二轮融资 投前估值 5000 亿元",
+      "title_zh": "DeepSeek重启第二轮融资 投前估值5000亿元",
+      "title_en": "DeepSeek Restarts Second Funding Round at ¥500B Pre-Money Valuation",
+      "url": "https://finance.sina.com.cn/wm/2026-08-05/doc-inimfmyv1554159.shtml",
       "source": "telegram",
       "score": 8.0,
-      "summary": "China's MIIT has submitted the first mandatory national standard for L3/L4 autonomous driving, with proposed implementation in July 2027, introducing Safety Case-based safety validation and specific requirements for human-machine handover and autonomous risk handling.",
+      "summary": "DeepSeek has restarted its second round of financing with a pre-money valuation of 500 billion yuan, planning to raise 50 billion yuan.",
       "tags": [
-        "autonomous driving",
-        "regulation",
-        "safety standards",
-        "China",
-        "L3/L4"
-      ]
-    },
-    {
-      "title": "黄仁勋称优秀中国开源模型应被使用  英伟达 CEO 黄仁勋在采访中表示，中国开源 AI 模型“非常优秀”，美国企业“绝对”应该获准使用。",
-      "title_zh": "黄仁勋：优秀的中国开源AI模型应获准使用",
-      "title_en": "NVIDIA CEO Says Excellent Chinese Open-Source AI Models Should Be Used",
-      "url": "https://t.me/zaihuapd/42977",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "黄仁勋表示中国开源AI模型优秀且美国应获准使用，反对全面限制并主张针对具体问题治理。",
-      "tags": [
+        "DeepSeek",
         "AI",
-        "开源模型",
-        "政策",
-        "NVIDIA",
-        "中国AI"
+        "funding",
+        "startup finance",
+        "China"
+      ]
+    },
+    {
+      "title": "三星与 SK 海力士据报测试中微设备 对冲美国出口管制风险",
+      "title_zh": "三星与SK海力士据报测试中国芯片设备 对冲美国出口管制风险",
+      "title_en": "Samsung, SK Hynix Test Chinese Chip Tools to Hedge US Export Curb Risks",
+      "url": "https://www.reuters.com/world/china/samsung-sk-hynix-test-chinese-chip-tools-hedge-against-us-risks-2026-08-05/",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Samsung and SK Hynix are reportedly testing Chinese chip equipment maker AMEC's etching tools for their China factories to mitigate risks from US export controls, though no large-scale deployment has been decided yet.",
+      "tags": [
+        "semiconductors",
+        "export-controls",
+        "China-tech",
+        "supply-chain",
+        "geopolitics"
       ]
     }
   ]
