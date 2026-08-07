@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-05T22:49:55.131896+00:00",
-  "date": "2026-08-05",
-  "total_fetched": 31,
-  "important_count": 11,
+  "generated_at": "2026-08-07T01:29:44.692328+00:00",
+  "date": "2026-08-07",
+  "total_fetched": 37,
+  "important_count": 10,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,188 +10,170 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/05/summary-zh.html",
-      "path": "docs/_posts/2026-08-05-summary-zh.md"
+      "url": "2026/08/07/summary-zh.html",
+      "path": "docs/_posts/2026-08-07-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/05/summary-en.html",
-      "path": "docs/_posts/2026-08-05-summary-en.md"
+      "url": "2026/08/07/summary-en.html",
+      "path": "docs/_posts/2026-08-07-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
-      "title_zh": "哈萨比斯转任DeepMind董事长，杰夫·迪恩离开谷歌",
-      "title_en": "Hassabis becomes DeepMind chair as Jeff Dean exits Google",
-      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
-      "source": "hackernews",
+      "title": "中国科学家领衔首次证实全新物质形态「胶球」存在",
+      "title_zh": "中国领衔BESIII国际合作组首次证实胶球存在",
+      "title_en": "Chinese-led BESIII Collaboration Confirms Glueballs, New Form of Matter",
+      "url": "https://mp.weixin.qq.com/s/pvyNR1lN7QPx3IrpB3WtUg",
+      "source": "telegram",
       "score": 9.0,
-      "summary": "Demis Hassabis becomes Chair, while Jeff Dean and Sanjay Ghemawat leave Google to launch a public benefit corporation, marking a major shift in Google DeepMind's leadership.",
+      "summary": "Chinese-led BESIII collaboration has for the first time confirmed the existence of glueballs, a new state of matter composed of gluons, after 15 years of research.",
       "tags": [
-        "Google DeepMind",
-        "AI Leadership",
-        "Jeff Dean",
-        "Demis Hassabis",
+        "particle physics",
+        "glueball",
+        "standard model",
+        "BESIII"
+      ]
+    },
+    {
+      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "title_zh": "AMD收购Taalas，将AI模型蚀刻进硅片加速推理",
+      "title_en": "AMD acquires Taalas to etch AI models into silicon for faster inference",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "AMD acquires AI chip startup Taalas to improve inference performance by etching models into silicon, sparking discussion about strategic implications for AI hardware and model evolution.",
+      "tags": [
+        "AMD",
+        "AI inference",
+        "hardware",
+        "acquisition",
+        "silicon"
+      ]
+    },
+    {
+      "title": "Mario Meets Pareto",
+      "title_zh": "马里奥赛车解释帕累托最优与权衡",
+      "title_en": "Mario Kart Explains Pareto Optimality and Tradeoffs",
+      "url": "https://www.mayerowitz.io/blog/mario-meets-pareto",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "An article that uses Mario Kart to explain Pareto optimality, with community discussion on applying Pareto frontiers to game optimization and real-world tradeoffs.",
+      "tags": [
+        "Pareto optimality",
+        "Optimization",
+        "Game design",
+        "Tradeoffs"
+      ]
+    },
+    {
+      "title": "Taste Is All That's Left",
+      "title_zh": "品味是AI辅助编程中人类最后的优势",
+      "title_en": "Taste Is the Last Human Edge in AI-Assisted Coding",
+      "url": "https://notashelf.dev/posts/taste-is-all-thats-left",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "This essay argues that in an era of AI coding assistants, human taste and judgment are the remaining qualities that differentiate skilled developers and shape good software.",
+      "tags": [
+        "software-engineering",
+        "AI-assistants",
+        "human-judgment",
+        "LLM",
+        "coding"
+      ]
+    },
+    {
+      "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
+      "title_zh": "Qwen3.8 Max登顶Agentic Index，引发基准可信度讨论",
+      "title_en": "Qwen3.8 Max Tops Agentic Index, Sparking Benchmark Trust Debate",
+      "url": "https://artificialanalysis.ai/?intelligence=agentic-index",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Qwen3.8 Max reaches top of the agentic index, prompting discussion about China's AI progress and benchmark inconsistencies.",
+      "tags": [
+        "AI",
+        "LLM",
+        "Qwen",
+        "benchmarks",
+        "agentic"
+      ]
+    },
+    {
+      "title": "datasette 1.0a38",
+      "title_zh": "Datasette 1.0a38 修复混合访问数据库中的 SQL 注入漏洞",
+      "title_en": "Datasette 1.0a38 fixes SQL injection in mixed-access databases",
+      "url": "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "Datasette 1.0a38 fixes a SQL injection vulnerability that could allow read-only access to private tables in mixed-access databases.",
+      "tags": [
+        "security",
+        "sql-injection",
+        "datasette",
+        "vulnerability-fix"
+      ]
+    },
+    {
+      "title": "Round-Trip Consistency: Bidirectional Diffusion Models Can Predict Their Own Rollout Errors [R]",
+      "title_zh": "双向扩散模型利用往返一致性预测长程生成误差",
+      "title_en": "Bidirectional Diffusion Model Uses Round-Trip Consistency to Predict Rollout Errors",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vh2gn1/roundtrip_consistency_bidirectional_diffusion/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "A bidirectional conditional latent diffusion model uses round-trip consistency as a self-supervised proxy for rollout error, improving long-horizon generation and forecasting without ground truth or ensembles.",
+      "tags": [
+        "diffusion models",
+        "self-supervised learning",
+        "dynamical systems",
+        "machine learning",
+        "generative modeling"
+      ]
+    },
+    {
+      "title": "📱 张一鸣：字节跳动不会依赖 AI 蒸馏技术",
+      "title_zh": "张一鸣：不依赖AI蒸馏，优先长远目标",
+      "title_en": "ByteDance Founder Rules Out AI Distillation, Prioritizes Long-Term Goals",
+      "url": "https://www.theinformation.com/articles/bytedances-founder-rules-distillation-ai-models",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "ByteDance founder Zhang Yiming rules out relying on AI distillation to catch up in the model race, prioritizing long-term goals over short-term gains, partly due to US regulatory scrutiny over TikTok.",
+      "tags": [
+        "AI",
+        "ByteDance",
+        "Distillation",
+        "Tech Policy",
+        "TikTok"
+      ]
+    },
+    {
+      "title": "字节跳动讨论训练超 5 万亿参数大模型",
+      "title_zh": "字节跳动讨论训练超5万亿参数大模型",
+      "title_en": "ByteDance Discusses Building 5+ Trillion-Parameter AI Model",
+      "url": "https://mp.weixin.qq.com/s/_SGStRsaJmpos2_deXUs8A",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "ByteDance is reportedly planning a 5+ trillion parameter model, which would be China's largest, led by Seed Foundation's Xiang Liang.",
+      "tags": [
+        "AI",
+        "Large Language Models",
+        "ByteDance",
+        "Model Training",
         "Industry News"
       ]
     },
     {
-      "title": "ChainDrop 蠕虫攻陷 npm 逾 1300 个包",
-      "title_zh": "ChainDrop 蠕虫攻陷超 1300 个 npm 包",
-      "title_en": "ChainDrop Worm Compromises Over 1,300 npm Packages",
-      "url": "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
+      "title": "GPT-5 发布一周年，OpenAI 推出 Agent Plugins 开放标准",
+      "title_zh": "GPT-5一周年，OpenAI发布Agent Plugins开放标准",
+      "title_en": "OpenAI Launches Agent Plugins Open Standard on GPT-5's First Anniversary",
+      "url": "https://9to5mac.com/2026/08/06/gpt-5-turning-one-as-openai-shares-new-agent-plugins-standard/",
       "source": "telegram",
-      "score": 9.0,
-      "summary": "The ChainDrop worm has infected over 1300 npm packages, including popular caching libraries, with malicious payloads that steal credentials and spread via maintenance account compromises.",
-      "tags": [
-        "security",
-        "npm",
-        "supply-chain",
-        "malware",
-        "worm"
-      ]
-    },
-    {
-      "title": "Discovery Loop",
-      "title_zh": "杰夫·迪恩等人创立Discovery Loop以自动化AI研究",
-      "title_en": "Jeff Dean and Colleagues Launch Discovery Loop to Automate AI Research",
-      "url": "https://www.discoveryloop.com/",
-      "source": "hackernews",
       "score": 8.0,
-      "summary": "Discovery Loop is an initiative to automate the experimental loop for ML research and engineering, broadly applicable across science and engineering fields.",
+      "summary": "On GPT-5's first anniversary, OpenAI and industry partners launch Agent Plugins, an open standard for packaging agent skills and MCP servers across compatible clients.",
       "tags": [
-        "machine-learning",
-        "research-automation",
-        "AI",
-        "experimentation",
-        "Karpathy"
-      ]
-    },
-    {
-      "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
-      "title_zh": "Meta投放含AI生成的儿童性虐待图像广告",
-      "title_en": "Meta Ran Ads Containing AI-Generated Child Sexual Abuse Imagery",
-      "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Meta ran ads containing AI-generated child sexual abuse imagery, highlighting critical gaps in content moderation and AI safety practices.",
-      "tags": [
-        "AI safety",
-        "content moderation",
-        "child safety",
-        "Meta",
-        "platform policy"
-      ]
-    },
-    {
-      "title": "Cloudflare OS: an open platform for agents, apps, and work",
-      "title_zh": "Cloudflare OS：面向智能体、应用与工作的开放平台",
-      "title_en": "Cloudflare OS: An Open Platform for Agents, Apps, and Work",
-      "url": "https://blog.cloudflare.com/cloudflare-os/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Cloudflare introduces Cloudflare OS, an open platform for agents, apps, and work, sparking community debate about its scope, naming, and lock-in concerns.",
-      "tags": [
-        "Cloudflare",
-        "AI agents",
-        "developer platform",
-        "open source",
-        "serverless"
-      ]
-    },
-    {
-      "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
-      "title_zh": "LLM 0.32 新增推理轨迹、服务端工具及 OpenAI Responses API 支持",
-      "title_en": "LLM 0.32 adds reasoning traces, server-side tools, and OpenAI Responses API support",
-      "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "LLM 0.32 is a major release adding visible reasoning traces, server-side provider tools, OpenAI Responses API support, and redesigned content-addressable logging.",
-      "tags": [
-        "LLM",
-        "CLI",
-        "AI",
         "OpenAI",
-        "release"
-      ]
-    },
-    {
-      "title": "Running Whisper, Qwen3-ASR, Nemotron & MOSS completely offline on iPhone [P]",
-      "title_zh": "开源应用 LiveTranscriber 在 iPhone 上完全离线运行 Whisper、Qwen3-ASR 等模型",
-      "title_en": "Open-Source LiveTranscriber Runs Whisper, Qwen3-ASR, Nemotron, MOSS Offline on iPhone",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vgbl7w/running_whisper_qwen3asr_nemotron_moss_completely/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "An open-source iOS app (LiveTranscriber) runs Whisper, Qwen3-ASR, Nemotron, MOSS, and Qwen3 fully offline for transcription, translation, and summarization.",
-      "tags": [
-        "iOS",
-        "on-device ML",
-        "speech recognition",
-        "open-source",
-        "Whisper"
-      ]
-    },
-    {
-      "title": "Monodratic: learned product-hash routing for sparse causal attention [R]",
-      "title_zh": "Monodratic：用于稀疏因果注意力的学习乘积哈希路由",
-      "title_en": "Monodratic: Learned Product-Hash Routing for Sparse Causal Attention",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vg3jda/monodratic_learned_producthash_routing_for_sparse/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "Introduces Monodratic, a sparse causal-attention architecture using learned product-hash routing to select remote source blocks, achieving high associative-recall accuracy with a bounded attention budget.",
-      "tags": [
-        "sparse attention",
-        "transformer",
-        "machine learning",
-        "routing",
-        "efficient attention"
-      ]
-    },
-    {
-      "title": "🤖 马斯克宣布 SpaceX 将独家采用英伟达 AI 架构",
-      "title_zh": "马斯克宣布 SpaceX 将独家采用英伟达 AI 架构",
-      "title_en": "Musk Commits SpaceX Exclusively to Nvidia AI Architecture",
-      "url": "https://wccftech.com/elon-musk-commits-spacex-exclusively-to-nvidia-gpus-citing-theyre-the-best/",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Elon Musk announced SpaceX will exclusively use Nvidia's AI architecture, deploying Vera Rubin systems in ground and space data centers including the Starmind satellite project.",
-      "tags": [
-        "Nvidia",
-        "SpaceX",
-        "AI infrastructure",
-        "Satellite computing"
-      ]
-    },
-    {
-      "title": "🤖 DeepSeek 重启第二轮融资 投前估值 5000 亿元",
-      "title_zh": "DeepSeek重启第二轮融资 投前估值5000亿元",
-      "title_en": "DeepSeek Restarts Second Funding Round at ¥500B Pre-Money Valuation",
-      "url": "https://finance.sina.com.cn/wm/2026-08-05/doc-inimfmyv1554159.shtml",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "DeepSeek has restarted its second round of financing with a pre-money valuation of 500 billion yuan, planning to raise 50 billion yuan.",
-      "tags": [
-        "DeepSeek",
-        "AI",
-        "funding",
-        "startup finance",
-        "China"
-      ]
-    },
-    {
-      "title": "三星与 SK 海力士据报测试中微设备 对冲美国出口管制风险",
-      "title_zh": "三星与SK海力士据报测试中国芯片设备 对冲美国出口管制风险",
-      "title_en": "Samsung, SK Hynix Test Chinese Chip Tools to Hedge US Export Curb Risks",
-      "url": "https://www.reuters.com/world/china/samsung-sk-hynix-test-chinese-chip-tools-hedge-against-us-risks-2026-08-05/",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Samsung and SK Hynix are reportedly testing Chinese chip equipment maker AMEC's etching tools for their China factories to mitigate risks from US export controls, though no large-scale deployment has been decided yet.",
-      "tags": [
-        "semiconductors",
-        "export-controls",
-        "China-tech",
-        "supply-chain",
-        "geopolitics"
+        "GPT-5",
+        "Agent Plugins",
+        "AI agents",
+        "Open standard"
       ]
     }
   ]
