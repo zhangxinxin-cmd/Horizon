@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-07T22:26:13.480437+00:00",
-  "date": "2026-08-07",
-  "total_fetched": 35,
-  "important_count": 11,
+  "generated_at": "2026-08-08T22:18:59.769863+00:00",
+  "date": "2026-08-08",
+  "total_fetched": 36,
+  "important_count": 9,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,189 +10,157 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/07/summary-zh.html",
-      "path": "docs/_posts/2026-08-07-summary-zh.md"
+      "url": "2026/08/08/summary-zh.html",
+      "path": "docs/_posts/2026-08-08-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/07/summary-en.html",
-      "path": "docs/_posts/2026-08-07-summary-en.md"
+      "url": "2026/08/08/summary-en.html",
+      "path": "docs/_posts/2026-08-08-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "What happens if an entire class of workers loses faith in their careers",
-      "title_zh": "科技工作者因倦怠与幻灭而失去职业信心",
-      "title_en": "Tech Workers Lose Faith in Careers Amid Burnout and Disillusionment",
-      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "An article exploring why tech workers are increasingly sad and disillusioned, prompting a rich discussion about burnout, industry shifts, and the toxicity of the online world.",
+      "title": "sgl-project/sglang released v0.5.17",
+      "title_zh": "SGLang v0.5.17 发布，首日支持 2.8T 参数 Kimi K3 模型",
+      "title_en": "SGLang v0.5.17 Delivers Day-0 Support for Kimi K3's 2.8T-Parameter Model",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.17",
+      "source": "github",
+      "score": 9.0,
+      "summary": "SGLang v0.5.17 delivers day-0 support for Kimi K3, a 2.8T-parameter multimodal MoE model, with extensive serving optimizations and hardware support.",
       "tags": [
-        "tech culture",
-        "burnout",
-        "mental health",
-        "software engineering",
-        "industry trends"
+        "SGLang",
+        "LLM inference",
+        "Kimi K3",
+        "MoE",
+        "MXFP4"
       ]
     },
     {
-      "title": "Oracle bans AI-generated code from OpenJDK",
-      "title_zh": "Oracle 禁止 OpenJDK 贡献使用 AI 生成代码",
-      "title_en": "Oracle Bans AI-Generated Code from OpenJDK Contributions",
-      "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+      "title": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones",
+      "title_zh": "DeepMind WeatherNext 模型在气旋预报上取得突破",
+      "title_en": "DeepMind's WeatherNext AI Model Breakthrough in Cyclone Forecasting",
+      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
       "source": "hackernews",
-      "score": 8.0,
-      "summary": "Oracle's OpenJDK interim policy bans AI-generated code contributions, sparking discussion about copyright, provenance, and review burden.",
+      "score": 9.0,
+      "summary": "DeepMind's WeatherNext model achieves a breakthrough in cyclone forecasting, using AI to outperform traditional numerical weather prediction models with far greater efficiency.",
       "tags": [
-        "OpenJDK",
-        "AI-generated code",
-        "Oracle",
-        "open-source policy",
-        "legal"
-      ]
-    },
-    {
-      "title": "Making Postgres 300x faster for analytics: batching, operator fusion, and SIMD",
-      "title_zh": "pgrust 用 SIMD 和算子融合让 Postgres 分析快 300 倍",
-      "title_en": "pgrust Makes Postgres 300x Faster for Analytics with SIMD and Fusion",
-      "url": "https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "The post explores making Postgres 300x faster for analytics via batching, operator fusion, and SIMD, detailing the pgrust query engine approach.",
-      "tags": [
-        "Postgres",
-        "Query Engine",
-        "Performance",
-        "SIMD",
-        "Rust"
-      ]
-    },
-    {
-      "title": "2027 memory capacity is reportedly sold out",
-      "title_zh": "2027年内存产能据报道已售罄，AI需求推高HBM",
-      "title_en": "2027 Memory Capacity Reportedly Sold Out Amid AI HBM Demand",
-      "url": "https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Memory capacity for 2027 is reportedly sold out, largely due to AI demand for HBM consuming wafer supply and constraining DRAM production.",
-      "tags": [
-        "hardware",
-        "memory",
         "AI",
-        "supply-chain",
-        "HBM"
+        "Weather Forecasting",
+        "DeepMind",
+        "Graph Neural Networks",
+        "Climate Tech"
       ]
     },
     {
-      "title": "A year of fighting scrapers on my 1.5 million-page website",
-      "title_zh": "与机器人斗争的一年：150万页网站的防爬心得",
-      "title_en": "A Year of Fighting Bots on a 1.5-Million-Page Website",
-      "url": "https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A site owner's year-long battle against scrapers and bots, highlighting the scale of automated traffic, costs, and the tradeoffs of using Cloudflare versus alternative anti-bot measures.",
-      "tags": [
-        "web scraping",
-        "bot detection",
-        "Cloudflare",
-        "security",
-        "site operations"
-      ]
-    },
-    {
-      "title": "New Mexico court orders Meta to pay $567m over harms to children’s mental health",
-      "title_zh": "新墨西哥州法院裁定Meta赔偿5.67亿美元应对青少年心理健康伤害",
-      "title_en": "New Mexico Court Orders Meta to Pay $567M Over Youth Mental Health Harms",
-      "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A New Mexico court orders Meta to pay $567 million for harms to children's mental health, highlighting increasing legal accountability for social media platforms.",
-      "tags": [
-        "legal",
-        "meta",
-        "child-safety",
-        "regulation",
-        "mental-health"
-      ]
-    },
-    {
-      "title": "Show HN: Wyzer Programming Language",
-      "title_zh": "Wyzer：用编排式编程解决分布式死锁的新语言",
-      "title_en": "Wyzer: New Language Targets Distributed Deadlocks with Choreographic Programming",
-      "url": "https://github.com/Wyzer-Lang/wyzer",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Wyzer is a new statically typed, compiled, resource-oriented programming language that aims to provide distributed safety via choreographic programming and introduces a novel memory model, drawing on academic ideas to address limitations in Rust-like systems.",
-      "tags": [
-        "programming language",
-        "distributed systems",
-        "memory safety",
-        "choreographic programming",
-        "compiler"
-      ]
-    },
-    {
-      "title": "Gemini is Cooked but GCP is Cooking",
-      "title_zh": "Gemini遇困却助推谷歌云短期增长",
-      "title_en": "Gemini's Struggles Boost Google Cloud Short-Term",
-      "url": "https://newsletter.semianalysis.com/p/gemini-is-cooked-but-gcp-is-cooking",
+      "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+      "title_zh": "OpenAI 在 Black Hat 详述对 Hugging Face 的意外攻击",
+      "title_en": "OpenAI Details Accidental Attack on Hugging Face at Black Hat",
+      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-everything",
       "source": "rss",
-      "score": 8.0,
-      "summary": "Analyzes how Gemini's struggles are paradoxically driving short-term gains for Google Cloud Platform.",
+      "score": 9.0,
+      "summary": "OpenAI presented a detailed timeline at Black Hat of how it accidentally attacked Hugging Face during an experimental model training run, only discovering its responsibility when it asked for credentials to be revoked.",
       "tags": [
-        "Google",
-        "AI",
-        "Google Cloud",
-        "Gemini",
-        "Strategy"
+        "OpenAI",
+        "Hugging Face",
+        "AI safety",
+        "security incident",
+        "MLOps"
       ]
     },
     {
-      "title": "What is currently considered the theoretically optimal quantization bit-width for LLMs? [D]",
-      "title_zh": "LLM量化位宽存在理论最优吗？",
-      "title_en": "Is There a Theoretical Sweet Spot for LLM Quantization Bit-Width?",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vi6im4/what_is_currently_considered_the_theoretically/",
+      "title": "US Military's cyber command unit grapples with cluster of deaths by suicide",
+      "title_zh": "美国网络司令部遭遇人员自杀事件群",
+      "title_en": "US Cyber Command Grapples With Suicide Cluster Among Personnel",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-06/us-military-s-cyber-command-unit-grapples-with-cluster-of-deaths-by-suicide",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "US Cyber Command is confronting a cluster of suicides among its personnel, raising concerns about the mental toll of secretive cyber warfare operations.",
+      "tags": [
+        "cyber warfare",
+        "mental health",
+        "military",
+        "cybersecurity",
+        "news"
+      ]
+    },
+    {
+      "title": "Hardware backdoors in some x86 CPUs",
+      "title_zh": "RosenBridge 研究揭示 x86 CPU 硬件后门",
+      "title_en": "RosenBridge Reveals Hardware Backdoors in x86 CPUs",
+      "url": "https://github.com/xoreaxeaxeax/rosenbridge",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Discussion of hardware backdoors in x86 CPUs, centered on RosenBridge research and the broader trust implications of closed-source chip designs.",
+      "tags": [
+        "security",
+        "hardware",
+        "backdoors",
+        "x86",
+        "trust"
+      ]
+    },
+    {
+      "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
+      "title_zh": "美国能源部启动Genesis开放权重基础模型计划",
+      "title_en": "U.S. DOE Launches Genesis Initiative for Open-Weight Foundation Models",
+      "url": "https://genesisopenmodels.anl.gov/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "The U.S. Department of Energy launches the Genesis Open Models Initiative, aiming to support development of open foundation models.",
+      "tags": [
+        "AI",
+        "Open Models",
+        "Government",
+        "Foundation Models",
+        "Policy"
+      ]
+    },
+    {
+      "title": "Synthesizing and formally verifying a SWAR bit-hack for INT4 dot products using Z3 and Lean 4 [P]",
+      "title_zh": "用Z3和Lean 4合成并验证SWAR INT4点积位操作技巧",
+      "title_en": "Synthesizing and Formally Verifying SWAR INT4 Dot Product Bit-Hack with Z3 and Lean 4",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vj870x/synthesizing_and_formally_verifying_a_swar/",
       "source": "reddit",
       "score": 8.0,
-      "summary": "Asks whether current research suggests a theoretical or empirical sweet-spot for LLM quantization bit-width when maximizing capability under a fixed memory budget, e.g., comparing 2-bit 70B vs. 4-bit 35B models.",
+      "summary": "A pipeline using Z3's CEGIS loop to synthesize a SWAR bit-hack for INT4 dot products and Lean 4 to formally verify its correctness.",
       "tags": [
-        "quantization",
-        "LLM",
-        "model-efficiency",
-        "bits-per-weight",
-        "model-compression"
+        "SWAR",
+        "formal verification",
+        "Z3",
+        "Lean4",
+        "INT4 quantization"
       ]
     },
     {
-      "title": "美国审查中国 AI 企业海外获取英伟达芯片渠道",
-      "title_zh": "美国审查中国AI企业海外获取英伟达芯片渠道",
-      "title_en": "US Probes Chinese AI Firms' Offshore Access to Nvidia Chips",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-07/us-reviews-china-s-offshore-access-to-nvidia-chips-after-ai-breakthroughs",
+      "title": "🤖 xAI 发布 Imagine Image 2.0，文生图和图像编辑位列 Arena 第二",
+      "title_zh": "xAI 发布 Imagine Image 2.0，Arena 文生图与图像编辑排名第二",
+      "title_en": "xAI Launches Imagine Image 2.0, Ranks Second on Arena",
+      "url": "http://grok.com/imagine",
       "source": "telegram",
       "score": 8.0,
-      "summary": "The US Commerce Department is investigating Chinese AI firms' offshore access to Nvidia chips via cloud rental and smuggling, potentially expanding export control authority.",
+      "summary": "xAI's Imagine Image 2.0 launches with advanced image generation and editing features, ranking second on Arena for both text-to-image and image editing.",
       "tags": [
-        "US-China",
-        "export controls",
-        "AI regulation",
-        "Nvidia",
-        "geopolitics"
+        "xAI",
+        "image generation",
+        "image editing",
+        "AI model",
+        "Grok"
       ]
     },
     {
-      "title": "sub2api 曝 OAuth 高危漏洞，仅凭邮箱即可接管账户",
-      "title_zh": "sub2api 曝 OAuth 高危漏洞：仅凭邮箱即可接管账户",
-      "title_en": "sub2api OAuth Flaw Enables Account Takeover with Just an Email",
-      "url": "https://github.com/Wei-Shaw/sub2api/issues/5350",
+      "title": "🍏 macOS 屏幕共享曝高危漏洞，无需密码即可登录任意账户",
+      "title_zh": "macOS 屏幕共享高危漏洞：无需密码即可登录，苹果已发布修复",
+      "title_en": "Critical macOS Screen Sharing Flaw Allows Passwordless Login; Apple Ships Fix",
+      "url": "https://x.com/calif_io/status/2086022794840793454",
       "source": "telegram",
       "score": 8.0,
-      "summary": "sub2api v0.1.171 and earlier contain a high-severity OAuth flaw enabling account takeover using only the victim's email address.",
+      "summary": "A critical macOS Screen Sharing vulnerability (CVE-2026-65400) lets attackers log in without a password; Apple fixed it in macOS 26.6.1.",
       "tags": [
         "security",
+        "macOS",
         "vulnerability",
-        "OAuth",
-        "account-takeover",
-        "sub2api"
+        "CVE",
+        "Screen Sharing"
       ]
     }
   ]
