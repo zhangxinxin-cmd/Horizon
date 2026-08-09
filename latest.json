@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-08T22:18:59.769863+00:00",
-  "date": "2026-08-08",
-  "total_fetched": 36,
-  "important_count": 9,
+  "generated_at": "2026-08-09T22:20:00.337361+00:00",
+  "date": "2026-08-09",
+  "total_fetched": 30,
+  "important_count": 3,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,157 +10,60 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/08/summary-zh.html",
-      "path": "docs/_posts/2026-08-08-summary-zh.md"
+      "url": "2026/08/09/summary-zh.html",
+      "path": "docs/_posts/2026-08-09-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/08/summary-en.html",
-      "path": "docs/_posts/2026-08-08-summary-en.md"
+      "url": "2026/08/09/summary-en.html",
+      "path": "docs/_posts/2026-08-09-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "sgl-project/sglang released v0.5.17",
-      "title_zh": "SGLang v0.5.17 发布，首日支持 2.8T 参数 Kimi K3 模型",
-      "title_en": "SGLang v0.5.17 Delivers Day-0 Support for Kimi K3's 2.8T-Parameter Model",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.17",
-      "source": "github",
+      "title": "[R] Generative design of novel bacteriophages with genome language models [R]",
+      "title_zh": "Evo 1和Evo 2设计出可存活的噬菌体基因组",
+      "title_en": "Evo 1 and Evo 2 design viable bacteriophage genomes",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vjj4pr/r_generative_design_of_novel_bacteriophages_with/",
+      "source": "reddit",
       "score": 9.0,
-      "summary": "SGLang v0.5.17 delivers day-0 support for Kimi K3, a 2.8T-parameter multimodal MoE model, with extensive serving optimizations and hardware support.",
+      "summary": "Researchers used genome language models Evo 1 and Evo 2 to design viable bacteriophage genomes, yielding 16 functional phages with evolutionary novelty.",
       "tags": [
-        "SGLang",
-        "LLM inference",
-        "Kimi K3",
-        "MoE",
-        "MXFP4"
+        "AI/ML",
+        "genomics",
+        "language models",
+        "synthetic biology",
+        "research"
       ]
     },
     {
-      "title": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones",
-      "title_zh": "DeepMind WeatherNext 模型在气旋预报上取得突破",
-      "title_en": "DeepMind's WeatherNext AI Model Breakthrough in Cyclone Forecasting",
-      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "title": "Everything you do is being recorded",
+      "title_zh": "AI可穿戴监控催生反制措施，《大西洋月刊》报道",
+      "title_en": "AI Wearable Surveillance Spurs Countermeasures, Atlantic Reports",
+      "url": "https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/",
       "source": "hackernews",
-      "score": 9.0,
-      "summary": "DeepMind's WeatherNext model achieves a breakthrough in cyclone forecasting, using AI to outperform traditional numerical weather prediction models with far greater efficiency.",
+      "score": 8.0,
+      "summary": "An Atlantic article on AI wearable surveillance and countermeasures sparks a broad HN discussion on privacy, corporate influence, and societal implications.",
       "tags": [
+        "surveillance",
         "AI",
-        "Weather Forecasting",
-        "DeepMind",
-        "Graph Neural Networks",
-        "Climate Tech"
+        "privacy",
+        "wearables",
+        "society"
       ]
     },
     {
-      "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
-      "title_zh": "OpenAI 在 Black Hat 详述对 Hugging Face 的意外攻击",
-      "title_en": "OpenAI Details Accidental Attack on Hugging Face at Black Hat",
-      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-everything",
-      "source": "rss",
-      "score": 9.0,
-      "summary": "OpenAI presented a detailed timeline at Black Hat of how it accidentally attacked Hugging Face during an experimental model training run, only discovering its responsibility when it asked for credentials to be revoked.",
-      "tags": [
-        "OpenAI",
-        "Hugging Face",
-        "AI safety",
-        "security incident",
-        "MLOps"
-      ]
-    },
-    {
-      "title": "US Military's cyber command unit grapples with cluster of deaths by suicide",
-      "title_zh": "美国网络司令部遭遇人员自杀事件群",
-      "title_en": "US Cyber Command Grapples With Suicide Cluster Among Personnel",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-06/us-military-s-cyber-command-unit-grapples-with-cluster-of-deaths-by-suicide",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "US Cyber Command is confronting a cluster of suicides among its personnel, raising concerns about the mental toll of secretive cyber warfare operations.",
-      "tags": [
-        "cyber warfare",
-        "mental health",
-        "military",
-        "cybersecurity",
-        "news"
-      ]
-    },
-    {
-      "title": "Hardware backdoors in some x86 CPUs",
-      "title_zh": "RosenBridge 研究揭示 x86 CPU 硬件后门",
-      "title_en": "RosenBridge Reveals Hardware Backdoors in x86 CPUs",
-      "url": "https://github.com/xoreaxeaxeax/rosenbridge",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Discussion of hardware backdoors in x86 CPUs, centered on RosenBridge research and the broader trust implications of closed-source chip designs.",
-      "tags": [
-        "security",
-        "hardware",
-        "backdoors",
-        "x86",
-        "trust"
-      ]
-    },
-    {
-      "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
-      "title_zh": "美国能源部启动Genesis开放权重基础模型计划",
-      "title_en": "U.S. DOE Launches Genesis Initiative for Open-Weight Foundation Models",
-      "url": "https://genesisopenmodels.anl.gov/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "The U.S. Department of Energy launches the Genesis Open Models Initiative, aiming to support development of open foundation models.",
-      "tags": [
-        "AI",
-        "Open Models",
-        "Government",
-        "Foundation Models",
-        "Policy"
-      ]
-    },
-    {
-      "title": "Synthesizing and formally verifying a SWAR bit-hack for INT4 dot products using Z3 and Lean 4 [P]",
-      "title_zh": "用Z3和Lean 4合成并验证SWAR INT4点积位操作技巧",
-      "title_en": "Synthesizing and Formally Verifying SWAR INT4 Dot Product Bit-Hack with Z3 and Lean 4",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vj870x/synthesizing_and_formally_verifying_a_swar/",
+      "title": "A Mechanistic Explanation of Prompt Injection (and why you should study roles) [R]",
+      "title_zh": "提示注入的机制性解释聚焦角色动态",
+      "title_en": "Mechanistic Account of Prompt Injection Points to Role Dynamics",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vjvzm4/a_mechanistic_explanation_of_prompt_injection_and/",
       "source": "reddit",
       "score": 8.0,
-      "summary": "A pipeline using Z3's CEGIS loop to synthesize a SWAR bit-hack for INT4 dot products and Lean 4 to formally verify its correctness.",
+      "summary": "A mechanistic explanation of prompt injection, emphasizing the importance of studying roles.",
       "tags": [
-        "SWAR",
-        "formal verification",
-        "Z3",
-        "Lean4",
-        "INT4 quantization"
-      ]
-    },
-    {
-      "title": "🤖 xAI 发布 Imagine Image 2.0，文生图和图像编辑位列 Arena 第二",
-      "title_zh": "xAI 发布 Imagine Image 2.0，Arena 文生图与图像编辑排名第二",
-      "title_en": "xAI Launches Imagine Image 2.0, Ranks Second on Arena",
-      "url": "http://grok.com/imagine",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "xAI's Imagine Image 2.0 launches with advanced image generation and editing features, ranking second on Arena for both text-to-image and image editing.",
-      "tags": [
-        "xAI",
-        "image generation",
-        "image editing",
-        "AI model",
-        "Grok"
-      ]
-    },
-    {
-      "title": "🍏 macOS 屏幕共享曝高危漏洞，无需密码即可登录任意账户",
-      "title_zh": "macOS 屏幕共享高危漏洞：无需密码即可登录，苹果已发布修复",
-      "title_en": "Critical macOS Screen Sharing Flaw Allows Passwordless Login; Apple Ships Fix",
-      "url": "https://x.com/calif_io/status/2086022794840793454",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "A critical macOS Screen Sharing vulnerability (CVE-2026-65400) lets attackers log in without a password; Apple fixed it in macOS 26.6.1.",
-      "tags": [
-        "security",
-        "macOS",
-        "vulnerability",
-        "CVE",
-        "Screen Sharing"
+        "prompt injection",
+        "AI security",
+        "machine learning",
+        "LLM safety"
       ]
     }
   ]
