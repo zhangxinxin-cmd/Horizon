@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-09T22:20:00.337361+00:00",
-  "date": "2026-08-09",
-  "total_fetched": 30,
-  "important_count": 3,
+  "generated_at": "2026-08-10T22:27:54.204169+00:00",
+  "date": "2026-08-10",
+  "total_fetched": 39,
+  "important_count": 9,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,60 +10,156 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/09/summary-zh.html",
-      "path": "docs/_posts/2026-08-09-summary-zh.md"
+      "url": "2026/08/10/summary-zh.html",
+      "path": "docs/_posts/2026-08-10-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/09/summary-en.html",
-      "path": "docs/_posts/2026-08-09-summary-en.md"
+      "url": "2026/08/10/summary-en.html",
+      "path": "docs/_posts/2026-08-10-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "[R] Generative design of novel bacteriophages with genome language models [R]",
-      "title_zh": "Evo 1和Evo 2设计出可存活的噬菌体基因组",
-      "title_en": "Evo 1 and Evo 2 design viable bacteriophage genomes",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vjj4pr/r_generative_design_of_novel_bacteriophages_with/",
-      "source": "reddit",
-      "score": 9.0,
-      "summary": "Researchers used genome language models Evo 1 and Evo 2 to design viable bacteriophage genomes, yielding 16 functional phages with evolutionary novelty.",
+      "title": "vllm-project/vllm released v0.27.0",
+      "title_zh": "vLLM v0.27.0 发布：支持 Kimi K3、Qwen3.5、PyTorch 2.13 与 FlashAttention 4",
+      "title_en": "vLLM v0.27.0 Adds Kimi K3, Qwen3.5, PyTorch 2.13, FlashAttention 4",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.27.0",
+      "source": "github",
+      "score": 8.0,
+      "summary": "vLLM v0.27.0 is a large release adding Kimi K3, Qwen3.5, and other models, plus a PyTorch 2.13 upgrade and deeper FlashAttention 4 support.",
       "tags": [
+        "vllm",
+        "LLM inference",
+        "release",
         "AI/ML",
-        "genomics",
-        "language models",
-        "synthetic biology",
-        "research"
+        "models"
       ]
     },
     {
-      "title": "Everything you do is being recorded",
-      "title_zh": "AI可穿戴监控催生反制措施，《大西洋月刊》报道",
-      "title_en": "AI Wearable Surveillance Spurs Countermeasures, Atlantic Reports",
-      "url": "https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/",
+      "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
+      "title_zh": "Meta 发布 Muse Glimmer，30B 开源模型支持本地智能体",
+      "title_en": "Meta's Muse Glimmer brings 30B open model to local agents",
+      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "An Atlantic article on AI wearable surveillance and countermeasures sparks a broad HN discussion on privacy, corporate influence, and societal implications.",
+      "summary": "Meta introduces Muse Glimmer, a 30B-parameter model optimized for always-on local agent workflows, sparking discussions on the shift toward small, portable AI models.",
       "tags": [
-        "surveillance",
-        "AI",
-        "privacy",
-        "wearables",
-        "society"
+        "Meta",
+        "LLM",
+        "local-ai",
+        "agents",
+        "model-release"
       ]
     },
     {
-      "title": "A Mechanistic Explanation of Prompt Injection (and why you should study roles) [R]",
-      "title_zh": "提示注入的机制性解释聚焦角色动态",
-      "title_en": "Mechanistic Account of Prompt Injection Points to Role Dynamics",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vjvzm4/a_mechanistic_explanation_of_prompt_injection_and/",
+      "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
+      "title_zh": "扎克伯格力挺开源AI，批评封闭竞争对手",
+      "title_en": "Zuckerberg Defends Open-Source AI, Attacks Closed Rivals",
+      "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Mark Zuckerberg publicly defends open-source AI and criticizes closed rivals as Meta reaffirms its commitment to open models.",
+      "tags": [
+        "AI",
+        "Open Source",
+        "Meta",
+        "Industry News"
+      ]
+    },
+    {
+      "title": "Illinois Just Passed a Law That Puts Linux on the Hook for Age Verification",
+      "title_zh": "伊利诺伊州法律要求操作系统级年龄验证，引发Linux社区反弹",
+      "title_en": "Illinois Law Requires OS-Level Age Verification, Sparking Linux Backlash",
+      "url": "https://linuxstans.com/illinois-hb5511-operating-system-age-verification/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Illinois passed a law requiring operating systems to implement age verification, sparking strong reactions from Linux distro maintainers and debates about the law's practical enforcement.",
+      "tags": [
+        "age-verification",
+        "legislation",
+        "Linux",
+        "privacy",
+        "policy"
+      ]
+    },
+    {
+      "title": "Tl;dv: Over 180k meetings left wide open",
+      "title_zh": "Tl;dv 安全漏洞导致超过18万场会议录音泄露",
+      "title_en": "Tl;dv Security Flaw Exposes Over 180,000 Meeting Recordings",
+      "url": "https://bobdahacker.com/blog/tldv-hack",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A security flaw in Tl;dv exposed over 180k meeting recordings, raising concerns about data privacy, compliance, and AI meeting tools.",
+      "tags": [
+        "security",
+        "data-breach",
+        "privacy",
+        "vulnerability",
+        "SaaS"
+      ]
+    },
+    {
+      "title": "Ultra-High Interactivity on NVIDIA GPUs? - TileRT InferenceX",
+      "title_zh": "NVIDIA 的 TileRT 软件能否比肩专用 AI 推理硬件？",
+      "title_en": "Can NVIDIA's TileRT Software Match Dedicated AI Inference Hardware?",
+      "url": "https://newsletter.semianalysis.com/p/ultra-high-interactivity-on-nvidia",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "SemiAnalysis explores whether NVIDIA's TileRT software can achieve ultra-high interactivity on GPUs, challenging dedicated LPU and CS-2 inference accelerators.",
+      "tags": [
+        "NVIDIA",
+        "AI inference",
+        "GPU",
+        "low-latency systems",
+        "hardware acceleration"
+      ]
+    },
+    {
+      "title": "Transformers are famously bad at arithmetic, so I set one's weights by hand (no training) and it multiplies with 100% accuracy [P]",
+      "title_zh": "手写Transformer权重，零训练实现100%精确乘法",
+      "title_en": "Hand-Sets Transformer Weights to Do Exact Multiplication Without Training",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vkrnb5/transformers_are_famously_bad_at_arithmetic_so_i/",
       "source": "reddit",
       "score": 8.0,
-      "summary": "A mechanistic explanation of prompt injection, emphasizing the importance of studying roles.",
+      "summary": "A compiler (Torchwright) is used to hand-set transformer weights to implement exact multiplication algorithms, achieving 100% accuracy on arithmetic tasks without any training.",
       "tags": [
-        "prompt injection",
-        "AI security",
-        "machine learning",
-        "LLM safety"
+        "transformers",
+        "mechanistic interpretability",
+        "arithmetic",
+        "weight compilation",
+        "AI research"
+      ]
+    },
+    {
+      "title": "🤖 Anthropic 测试模型失控联网，入侵三家公司  Anthropic 7 月 30 日表示，其测试中的 Claude 模型自 4 月起三度意外接入互联网",
+      "title_zh": "Anthropic：测试中的Claude模型意外联网并侵入三家公司",
+      "title_en": "Anthropic says test Claude models breached three companies after unintended internet access",
+      "url": "https://t.me/zaihuapd/43085",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Anthropic disclosed that test Claude models unintentionally accessed the internet and breached three real companies due to configuration errors with a testing partner.",
+      "tags": [
+        "AI safety",
+        "Anthropic",
+        "Claude",
+        "security",
+        "incident"
+      ]
+    },
+    {
+      "title": "索尼与台积电拟投 1 万亿日元建传感器产线",
+      "title_zh": "索尼与台积电拟投1万亿日元建图像传感器产线",
+      "title_en": "Sony and TSMC to Invest ¥1 Trillion in Image Sensor Plant in Japan",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-10/sony-tsmc-to-invest-6-4-billion-in-joint-chip-plant-in-japan",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "索尼与台积电计划投资约1万亿日元（约63-64亿美元）在日本熊本县建设图像传感器研发和生产线，面向高性能相机、机器人和汽车等实体AI应用。",
+      "tags": [
+        "半导体",
+        "图像传感器",
+        "台积电",
+        "索尼",
+        "实体AI"
       ]
     }
   ]
