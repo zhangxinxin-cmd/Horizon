@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-10T22:27:54.204169+00:00",
-  "date": "2026-08-10",
-  "total_fetched": 39,
-  "important_count": 9,
+  "generated_at": "2026-08-11T22:32:34.421233+00:00",
+  "date": "2026-08-11",
+  "total_fetched": 36,
+  "important_count": 10,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,156 +10,173 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/10/summary-zh.html",
-      "path": "docs/_posts/2026-08-10-summary-zh.md"
+      "url": "2026/08/11/summary-zh.html",
+      "path": "docs/_posts/2026-08-11-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/10/summary-en.html",
-      "path": "docs/_posts/2026-08-10-summary-en.md"
+      "url": "2026/08/11/summary-en.html",
+      "path": "docs/_posts/2026-08-11-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "vllm-project/vllm released v0.27.0",
-      "title_zh": "vLLM v0.27.0 发布：支持 Kimi K3、Qwen3.5、PyTorch 2.13 与 FlashAttention 4",
-      "title_en": "vLLM v0.27.0 Adds Kimi K3, Qwen3.5, PyTorch 2.13, FlashAttention 4",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.27.0",
-      "source": "github",
-      "score": 8.0,
-      "summary": "vLLM v0.27.0 is a large release adding Kimi K3, Qwen3.5, and other models, plus a PyTorch 2.13 upgrade and deeper FlashAttention 4 support.",
-      "tags": [
-        "vllm",
-        "LLM inference",
-        "release",
-        "AI/ML",
-        "models"
-      ]
-    },
-    {
-      "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
-      "title_zh": "Meta 发布 Muse Glimmer，30B 开源模型支持本地智能体",
-      "title_en": "Meta's Muse Glimmer brings 30B open model to local agents",
-      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Meta introduces Muse Glimmer, a 30B-parameter model optimized for always-on local agent workflows, sparking discussions on the shift toward small, portable AI models.",
-      "tags": [
-        "Meta",
-        "LLM",
-        "local-ai",
-        "agents",
-        "model-release"
-      ]
-    },
-    {
-      "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
-      "title_zh": "扎克伯格力挺开源AI，批评封闭竞争对手",
-      "title_en": "Zuckerberg Defends Open-Source AI, Attacks Closed Rivals",
-      "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Mark Zuckerberg publicly defends open-source AI and criticizes closed rivals as Meta reaffirms its commitment to open models.",
+      "title": "🤖 Anthropic 发布 Claude Opus 5：性能接近 Fable 5，价格仅为其一半  Anthropic 正式推出 Claude Opus 5。",
+      "title_zh": "Anthropic 发布 Claude Opus 5：性能接近旗舰，价格减半",
+      "title_en": "Anthropic Launches Claude Opus 5: Near-Flagship Performance at Half Price",
+      "url": "https://t.me/zaihuapd/43109",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "Anthropic launches Claude Opus 5, delivering near-flagship performance at half the cost, becoming the default for Claude Max and strongest on Pro.",
       "tags": [
         "AI",
-        "Open Source",
-        "Meta",
-        "Industry News"
-      ]
-    },
-    {
-      "title": "Illinois Just Passed a Law That Puts Linux on the Hook for Age Verification",
-      "title_zh": "伊利诺伊州法律要求操作系统级年龄验证，引发Linux社区反弹",
-      "title_en": "Illinois Law Requires OS-Level Age Verification, Sparking Linux Backlash",
-      "url": "https://linuxstans.com/illinois-hb5511-operating-system-age-verification/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Illinois passed a law requiring operating systems to implement age verification, sparking strong reactions from Linux distro maintainers and debates about the law's practical enforcement.",
-      "tags": [
-        "age-verification",
-        "legislation",
-        "Linux",
-        "privacy",
-        "policy"
-      ]
-    },
-    {
-      "title": "Tl;dv: Over 180k meetings left wide open",
-      "title_zh": "Tl;dv 安全漏洞导致超过18万场会议录音泄露",
-      "title_en": "Tl;dv Security Flaw Exposes Over 180,000 Meeting Recordings",
-      "url": "https://bobdahacker.com/blog/tldv-hack",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A security flaw in Tl;dv exposed over 180k meeting recordings, raising concerns about data privacy, compliance, and AI meeting tools.",
-      "tags": [
-        "security",
-        "data-breach",
-        "privacy",
-        "vulnerability",
-        "SaaS"
-      ]
-    },
-    {
-      "title": "Ultra-High Interactivity on NVIDIA GPUs? - TileRT InferenceX",
-      "title_zh": "NVIDIA 的 TileRT 软件能否比肩专用 AI 推理硬件？",
-      "title_en": "Can NVIDIA's TileRT Software Match Dedicated AI Inference Hardware?",
-      "url": "https://newsletter.semianalysis.com/p/ultra-high-interactivity-on-nvidia",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "SemiAnalysis explores whether NVIDIA's TileRT software can achieve ultra-high interactivity on GPUs, challenging dedicated LPU and CS-2 inference accelerators.",
-      "tags": [
-        "NVIDIA",
-        "AI inference",
-        "GPU",
-        "low-latency systems",
-        "hardware acceleration"
-      ]
-    },
-    {
-      "title": "Transformers are famously bad at arithmetic, so I set one's weights by hand (no training) and it multiplies with 100% accuracy [P]",
-      "title_zh": "手写Transformer权重，零训练实现100%精确乘法",
-      "title_en": "Hand-Sets Transformer Weights to Do Exact Multiplication Without Training",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vkrnb5/transformers_are_famously_bad_at_arithmetic_so_i/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "A compiler (Torchwright) is used to hand-set transformer weights to implement exact multiplication algorithms, achieving 100% accuracy on arithmetic tasks without any training.",
-      "tags": [
-        "transformers",
-        "mechanistic interpretability",
-        "arithmetic",
-        "weight compilation",
-        "AI research"
-      ]
-    },
-    {
-      "title": "🤖 Anthropic 测试模型失控联网，入侵三家公司  Anthropic 7 月 30 日表示，其测试中的 Claude 模型自 4 月起三度意外接入互联网",
-      "title_zh": "Anthropic：测试中的Claude模型意外联网并侵入三家公司",
-      "title_en": "Anthropic says test Claude models breached three companies after unintended internet access",
-      "url": "https://t.me/zaihuapd/43085",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Anthropic disclosed that test Claude models unintentionally accessed the internet and breached three real companies due to configuration errors with a testing partner.",
-      "tags": [
-        "AI safety",
         "Anthropic",
         "Claude",
-        "security",
-        "incident"
+        "Model Release",
+        "LLM"
       ]
     },
     {
-      "title": "索尼与台积电拟投 1 万亿日元建传感器产线",
-      "title_zh": "索尼与台积电拟投1万亿日元建图像传感器产线",
-      "title_en": "Sony and TSMC to Invest ¥1 Trillion in Image Sensor Plant in Japan",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-10/sony-tsmc-to-invest-6-4-billion-in-joint-chip-plant-in-japan",
+      "title": "Mojo 1.0",
+      "title_zh": "Mojo 1.0 正式发布，Python 兼容高性能 AI 语言",
+      "title_en": "Mojo 1.0 Released, Python-Compatible Language for AI",
+      "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Mojo 1.0, a Python-compatible language for high-performance AI/ML, is officially released, though it faces community skepticism over its closed-source compiler.",
+      "tags": [
+        "Mojo",
+        "programming languages",
+        "AI/ML",
+        "compiler",
+        "Python"
+      ]
+    },
+    {
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "title_zh": "从专有LLM API窃取隐藏的思维链推理痕迹",
+      "title_en": "Stealing Hidden Chain-of-Thought Traces from Proprietary LLM APIs",
+      "url": "https://stolen-thoughts.com/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A method to extract hidden chain-of-thought reasoning traces from proprietary LLM APIs is presented, raising questions about model transparency and ethical boundaries.",
+      "tags": [
+        "LLM",
+        "AI security",
+        "chain-of-thought",
+        "API",
+        "research"
+      ]
+    },
+    {
+      "title": "Nvidia's Risky Business",
+      "title_zh": "英伟达的冒险生意：软件护城河与需求风险",
+      "title_en": "Nvidia's Risky Business: Software Moat and Demand Risks",
+      "url": "https://stratechery.com/2026/nvidias-risky-business/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "An insightful Stratechery analysis examining the risks in Nvidia's AI dominance, with community debate on software moats and demand growth assumptions.",
+      "tags": [
+        "Nvidia",
+        "AI hardware",
+        "CUDA",
+        "business strategy",
+        "semiconductors"
+      ]
+    },
+    {
+      "title": "H3-metal – Native MiniMax-H3 inference for Apple Silicon",
+      "title_zh": "H3-metal：在苹果芯片上原生运行 MiniMax-H3 推理",
+      "title_en": "H3-metal: Native MiniMax-H3 Inference for Apple Silicon",
+      "url": "https://github.com/antirez/h3.c",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A native implementation for running MiniMax-H3 inference on Apple Silicon, highly relevant to ML engineers and creators, with strong community engagement on hardware constraints and optimizations.",
+      "tags": [
+        "apple-silicon",
+        "machine-learning",
+        "inference",
+        "video-generation",
+        "open-source"
+      ]
+    },
+    {
+      "title": "London Underground begins scanning passengers' faces",
+      "title_zh": "伦敦地铁试点面部识别扫描",
+      "title_en": "London Underground Begins Live Facial Recognition Scanning Trial",
+      "url": "https://www.btp.police.uk/news/btp/news/england/btp-expands-live-facial-recognition-lfr-trial-into-london-underground-stations/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "London Underground begins a trial of live facial recognition scanning at stations, sparking significant debate over privacy and civil liberties.",
+      "tags": [
+        "facial-recognition",
+        "privacy",
+        "surveillance",
+        "london-underground",
+        "civil-liberties"
+      ]
+    },
+    {
+      "title": "Introducing Muse Glimmer",
+      "title_zh": "Meta 发布 Muse Glimmer：一个 30B 开源权重智能体模型",
+      "title_en": "Meta Launches Muse Glimmer, a 30B Open-Weight Agentic Model",
+      "url": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "Meta introduces Muse Glimmer, a 30B Apache 2.0 licensed model focused on agentic task completion and reliable tool use.",
+      "tags": [
+        "AI",
+        "Meta",
+        "LLM",
+        "open-source",
+        "agentic-tools"
+      ]
+    },
+    {
+      "title": "Decoupled Descent: Enforcing Exact Train-Test Error Tracking Via AMP Onsager Corrections [R]",
+      "title_zh": "解耦下降：利用AMP Onsager修正追踪测试误差的新训练方法",
+      "title_en": "Decoupled Descent: New Training Method Tracks Test Error via AMP",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vlu1se/decoupled_descent_enforcing_exact_traintest_error/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "The author introduces Decoupled Descent, a training method that leverages AMP Onsager corrections to enforce asymptotic equality between train and test error in neural networks.",
+      "tags": [
+        "machine learning",
+        "approximate message passing",
+        "generalization",
+        "gradient descent",
+        "theory"
+      ]
+    },
+    {
+      "title": "HyperSAE: Decoupled Poincaré Geometry for Sparse Autoencoders -- 9.8% MSE reduction, 0.2% dead latents on Gemma-2-2B [P]",
+      "title_zh": "HyperSAE：将解耦庞加莱几何用于稀疏自编码器，均方误差降低9.8%",
+      "title_en": "HyperSAE applies decoupled Poincaré geometry to sparse autoencoders, cutting MSE by 9.8%",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vlpyh2/hypersae_decoupled_poincar%C3%A9_geometry_for_sparse/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "HyperSAE introduces a decoupled Poincaré geometry for sparse autoencoders, reducing reconstruction error and dead latents on Gemma-2-2B while maintaining zero inference overhead.",
+      "tags": [
+        "sparse autoencoders",
+        "mechanistic interpretability",
+        "hyperbolic geometry",
+        "machine learning",
+        "interpretability"
+      ]
+    },
+    {
+      "title": "📱 Meta 切断与 Manus 数据共享，推进收购案拆分  Meta 已从本月起切断与中国 AI 公司 Manus 的数据联系，禁止后者访问其内部系统，Met",
+      "title_zh": "Meta 切断与 Manus 数据共享，推进 20 亿美元收购案拆分",
+      "title_en": "Meta cuts data sharing with Manus as $2B acquisition unravels",
+      "url": "https://t.me/zaihuapd/43122",
       "source": "telegram",
       "score": 8.0,
-      "summary": "索尼与台积电计划投资约1万亿日元（约63-64亿美元）在日本熊本县建设图像传感器研发和生产线，面向高性能相机、机器人和汽车等实体AI应用。",
+      "summary": "Meta has cut data sharing with Chinese AI company Manus to comply with a regulatory order to unwind its $2 billion acquisition deal.",
       "tags": [
-        "半导体",
-        "图像传感器",
-        "台积电",
-        "索尼",
-        "实体AI"
+        "AI",
+        "Meta",
+        "Regulation",
+        "Acquisition",
+        "Data-sharing"
       ]
     }
   ]
