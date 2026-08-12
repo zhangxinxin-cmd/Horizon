@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-11T22:32:34.421233+00:00",
-  "date": "2026-08-11",
-  "total_fetched": 36,
-  "important_count": 10,
+  "generated_at": "2026-08-12T22:31:46.768822+00:00",
+  "date": "2026-08-12",
+  "total_fetched": 40,
+  "important_count": 15,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,173 +10,252 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/11/summary-zh.html",
-      "path": "docs/_posts/2026-08-11-summary-zh.md"
+      "url": "2026/08/12/summary-zh.html",
+      "path": "docs/_posts/2026-08-12-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/11/summary-en.html",
-      "path": "docs/_posts/2026-08-11-summary-en.md"
+      "url": "2026/08/12/summary-en.html",
+      "path": "docs/_posts/2026-08-12-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "🤖 Anthropic 发布 Claude Opus 5：性能接近 Fable 5，价格仅为其一半  Anthropic 正式推出 Claude Opus 5。",
-      "title_zh": "Anthropic 发布 Claude Opus 5：性能接近旗舰，价格减半",
-      "title_en": "Anthropic Launches Claude Opus 5: Near-Flagship Performance at Half Price",
-      "url": "https://t.me/zaihuapd/43109",
-      "source": "telegram",
+      "title": "Qwen3.8-2.4T",
+      "title_zh": "Qwen开源2.4万亿参数MoE模型Qwen3.8-2.4T，激活参数95B",
+      "title_en": "Qwen Releases Qwen3.8-2.4T: 2.4T-Parameter MoE with 95B Active",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "source": "hackernews",
       "score": 9.0,
-      "summary": "Anthropic launches Claude Opus 5, delivering near-flagship performance at half the cost, becoming the default for Claude Max and strongest on Pro.",
+      "summary": "Qwen released Qwen3.8-2.4T, a 2.4-trillion-parameter Mixture-of-Experts model with 95B active parameters, reportedly performing at or near the level of leading models like Opus 4.5 and Fable 5.",
       "tags": [
+        "LLM",
         "AI",
-        "Anthropic",
-        "Claude",
-        "Model Release",
-        "LLM"
+        "Qwen",
+        "MoE",
+        "Model Release"
       ]
     },
     {
-      "title": "Mojo 1.0",
-      "title_zh": "Mojo 1.0 正式发布，Python 兼容高性能 AI 语言",
-      "title_en": "Mojo 1.0 Released, Python-Compatible Language for AI",
-      "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+      "title": "Grok 4.6",
+      "title_zh": "xAI 发布 Grok 4.6，引发 API 与基准测试争议",
+      "title_en": "xAI Releases Grok 4.6, Sparking API and Benchmark Debates",
+      "url": "https://x.ai/news/grok-4-6",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "xAI announces Grok 4.6, a new frontier AI model, sparking community debate over API behavior and performance authenticity.",
+      "tags": [
+        "Grok",
+        "xAI",
+        "AI",
+        "LLM",
+        "machine-learning"
+      ]
+    },
+    {
+      "title": "DeepSeek V4 Pro 0813",
+      "title_zh": "DeepSeek V4 Pro 0813 上线 OpenRouter，引发基准测试与定价热议",
+      "title_en": "DeepSeek V4 Pro 0813 Debuts on OpenRouter, Sparking Benchmark Debate",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Mojo 1.0, a Python-compatible language for high-performance AI/ML, is officially released, though it faces community skepticism over its closed-source compiler.",
+      "summary": "DeepSeek V4 Pro 0813 model released on OpenRouter, sparking extensive discussion about performance, benchmarks, and pricing.",
       "tags": [
-        "Mojo",
-        "programming languages",
-        "AI/ML",
-        "compiler",
-        "Python"
+        "AI",
+        "LLM",
+        "DeepSeek",
+        "Machine Learning",
+        "Benchmarks"
+      ]
+    },
+    {
+      "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
+      "title_zh": "Tailscale 将数据库损坏追溯至 16 年前的 SQLite WAL-Reset 缺陷",
+      "title_en": "Tailscale Traces DB Corruption to 16-Year-Old SQLite WAL-Reset Bug",
+      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Tailscale traces a database corruption issue to a 16-year-old SQLite WAL-reset race condition and funded an open-source VFS shim to isolate it.",
+      "tags": [
+        "sqlite",
+        "databases",
+        "debugging",
+        "open-source",
+        "tailscale"
+      ]
+    },
+    {
+      "title": "Why tiny JPEGs look different in Chrome",
+      "title_zh": "为何微小 JPEG 在 Chrome 中显示不同",
+      "title_en": "Why Tiny JPEGs Look Different in Chrome",
+      "url": "https://guillaumetech.github.io/posts/jpg-scaling-chrome/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Explains how Chrome's partial JPEG decoding optimization causes tiny images to appear different compared to Firefox, and advises against using JPEGs for small icons.",
+      "tags": [
+        "JPEG",
+        "Chrome",
+        "image-scaling",
+        "browser",
+        "web-performance"
+      ]
+    },
+    {
+      "title": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
+      "title_zh": "uBlock Origin 放弃屏蔽 Facebook 广告",
+      "title_en": "uBlock Origin Withdraws From Blocking Facebook Ads",
+      "url": "https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "uBlock Origin has stopped fighting to block Facebook ads due to the platform's increasingly difficult anti-adblocking measures, sparking a wide-ranging discussion on ad-blocking future and Facebook's role.",
+      "tags": [
+        "ad-blocking",
+        "privacy",
+        "facebook",
+        "ublock-origin",
+        "arms-race"
+      ]
+    },
+    {
+      "title": "AI is removing the middle class of software engineering?",
+      "title_zh": "AI正在让软件工程的中层岗位消失吗？",
+      "title_en": "AI Is Removing the Middle Class of Software Engineering?",
+      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "The article argues AI is eliminating the middle class of software engineering by automating routine coding tasks, while amplifying the impact of both capable and poor engineers, sparking a rich community debate.",
+      "tags": [
+        "AI",
+        "software-engineering",
+        "LLM",
+        "productivity",
+        "career"
+      ]
+    },
+    {
+      "title": "License plate reader searches should require a warrant",
+      "title_zh": "车牌读取器搜索须获搜查令",
+      "title_en": "Warrant Needed for License Plate Reader Searches",
+      "url": "https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A blog post arguing that law enforcement should need a warrant to search license plate reader data, sparking debate about mass surveillance and technology safeguards.",
+      "tags": [
+        "privacy",
+        "surveillance",
+        "public-policy",
+        "ethics",
+        "law-enforcement"
+      ]
+    },
+    {
+      "title": "What sort of maths are LLMs good at?",
+      "title_zh": "高尔斯探讨LLM擅长何种数学任务",
+      "title_en": "Gowers probes which math tasks LLMs handle well",
+      "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Timothy Gowers explores which mathematical tasks LLMs are good at, sparking a deep community discussion on test-time scaling, sampling, and the potential for AI to produce beautiful proofs.",
+      "tags": [
+        "LLM",
+        "mathematics",
+        "test-time scaling",
+        "AI research"
+      ]
+    },
+    {
+      "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
+      "title_zh": "Woxi：用Rust编写的开源Wolfram语言解释器",
+      "title_en": "Woxi: Open-Source Wolfram Language Interpreter Written in Rust",
+      "url": "https://woxi.ad-si.com/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Woxi is an open-source Rust-based interpreter for the Wolfram Language with a GUI, CLI, Jupyter kernel, and WASM support, positioning itself as a fast and free alternative to Mathematica.",
+      "tags": [
+        "Wolfram Language",
+        "Rust",
+        "Open Source",
+        "Scientific Computing",
+        "Interpreter"
       ]
     },
     {
       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
-      "title_zh": "从专有LLM API窃取隐藏的思维链推理痕迹",
-      "title_en": "Stealing Hidden Chain-of-Thought Traces from Proprietary LLM APIs",
-      "url": "https://stolen-thoughts.com/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A method to extract hidden chain-of-thought reasoning traces from proprietary LLM APIs is presented, raising questions about model transparency and ethical boundaries.",
-      "tags": [
-        "LLM",
-        "AI security",
-        "chain-of-thought",
-        "API",
-        "research"
-      ]
-    },
-    {
-      "title": "Nvidia's Risky Business",
-      "title_zh": "英伟达的冒险生意：软件护城河与需求风险",
-      "title_en": "Nvidia's Risky Business: Software Moat and Demand Risks",
-      "url": "https://stratechery.com/2026/nvidias-risky-business/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "An insightful Stratechery analysis examining the risks in Nvidia's AI dominance, with community debate on software moats and demand growth assumptions.",
-      "tags": [
-        "Nvidia",
-        "AI hardware",
-        "CUDA",
-        "business strategy",
-        "semiconductors"
-      ]
-    },
-    {
-      "title": "H3-metal – Native MiniMax-H3 inference for Apple Silicon",
-      "title_zh": "H3-metal：在苹果芯片上原生运行 MiniMax-H3 推理",
-      "title_en": "H3-metal: Native MiniMax-H3 Inference for Apple Silicon",
-      "url": "https://github.com/antirez/h3.c",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A native implementation for running MiniMax-H3 inference on Apple Silicon, highly relevant to ML engineers and creators, with strong community engagement on hardware constraints and optimizations.",
-      "tags": [
-        "apple-silicon",
-        "machine-learning",
-        "inference",
-        "video-generation",
-        "open-source"
-      ]
-    },
-    {
-      "title": "London Underground begins scanning passengers' faces",
-      "title_zh": "伦敦地铁试点面部识别扫描",
-      "title_en": "London Underground Begins Live Facial Recognition Scanning Trial",
-      "url": "https://www.btp.police.uk/news/btp/news/england/btp-expands-live-facial-recognition-lfr-trial-into-london-underground-stations/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "London Underground begins a trial of live facial recognition scanning at stations, sparking significant debate over privacy and civil liberties.",
-      "tags": [
-        "facial-recognition",
-        "privacy",
-        "surveillance",
-        "london-underground",
-        "civil-liberties"
-      ]
-    },
-    {
-      "title": "Introducing Muse Glimmer",
-      "title_zh": "Meta 发布 Muse Glimmer：一个 30B 开源权重智能体模型",
-      "title_en": "Meta Launches Muse Glimmer, a 30B Open-Weight Agentic Model",
-      "url": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+      "title_zh": "研究人员窃取专有LLM API的隐藏推理痕迹",
+      "title_en": "Researchers Steal Hidden Reasoning Traces from Proprietary LLM APIs",
+      "url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/",
       "source": "rss",
       "score": 8.0,
-      "summary": "Meta introduces Muse Glimmer, a 30B Apache 2.0 licensed model focused on agentic task completion and reliable tool use.",
+      "summary": "A security paper demonstrates that encrypted chain-of-thought traces from frontier LLM APIs can be replayed into weaker models and jailbroken to reveal the original hidden reasoning.",
       "tags": [
-        "AI",
-        "Meta",
-        "LLM",
-        "open-source",
-        "agentic-tools"
+        "LLM security",
+        "chain-of-thought",
+        "privacy",
+        "OpenAI",
+        "Anthropic"
       ]
     },
     {
-      "title": "Decoupled Descent: Enforcing Exact Train-Test Error Tracking Via AMP Onsager Corrections [R]",
-      "title_zh": "解耦下降：利用AMP Onsager修正追踪测试误差的新训练方法",
-      "title_en": "Decoupled Descent: New Training Method Tracks Test Error via AMP",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vlu1se/decoupled_descent_enforcing_exact_traintest_error/",
+      "title": "The Loss Does Not See the Basis, But Adam Does [R]",
+      "title_zh": "为何Adam会失去GD的隐式低秩偏差",
+      "title_en": "Why Adam Loses GD's Implicit Low-Rank Bias",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vmjb3p/the_loss_does_not_see_the_basis_but_adam_does_r/",
       "source": "reddit",
       "score": 8.0,
-      "summary": "The author introduces Decoupled Descent, a training method that leverages AMP Onsager corrections to enforce asymptotic equality between train and test error in neural networks.",
+      "summary": "Demonstrates that Adam's per-coordinate second moment breaks rotational invariance and thereby loses GD's implicit low-rank bias, unlike optimizers like Muon and Shampoo.",
       "tags": [
-        "machine learning",
-        "approximate message passing",
-        "generalization",
-        "gradient descent",
-        "theory"
+        "optimization",
+        "implicit bias",
+        "Adam",
+        "matrix sensing",
+        "low-rank"
       ]
     },
     {
-      "title": "HyperSAE: Decoupled Poincaré Geometry for Sparse Autoencoders -- 9.8% MSE reduction, 0.2% dead latents on Gemma-2-2B [P]",
-      "title_zh": "HyperSAE：将解耦庞加莱几何用于稀疏自编码器，均方误差降低9.8%",
-      "title_en": "HyperSAE applies decoupled Poincaré geometry to sparse autoencoders, cutting MSE by 9.8%",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vlpyh2/hypersae_decoupled_poincar%C3%A9_geometry_for_sparse/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "HyperSAE introduces a decoupled Poincaré geometry for sparse autoencoders, reducing reconstruction error and dead latents on Gemma-2-2B while maintaining zero inference overhead.",
-      "tags": [
-        "sparse autoencoders",
-        "mechanistic interpretability",
-        "hyperbolic geometry",
-        "machine learning",
-        "interpretability"
-      ]
-    },
-    {
-      "title": "📱 Meta 切断与 Manus 数据共享，推进收购案拆分  Meta 已从本月起切断与中国 AI 公司 Manus 的数据联系，禁止后者访问其内部系统，Met",
-      "title_zh": "Meta 切断与 Manus 数据共享，推进 20 亿美元收购案拆分",
-      "title_en": "Meta cuts data sharing with Manus as $2B acquisition unravels",
-      "url": "https://t.me/zaihuapd/43122",
+      "title": "LTX 发布开源视频模型 LTX-2.5，单张 RTX 5090 即可本地运行",
+      "title_zh": "LTX 发布开源视频模型 LTX-2.5，单张 RTX 5090 即可运行",
+      "title_en": "LTX Releases Open-Source Video Model LTX-2.5, Runs on RTX 5090",
+      "url": "https://ltx.io/model/ltx-2-5",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Meta has cut data sharing with Chinese AI company Manus to comply with a regulatory order to unwind its $2 billion acquisition deal.",
+      "summary": "LTX releases open-source video generation model LTX-2.5, runnable on a single RTX 5090 with weights, training code, and inference pipeline fully open.",
       "tags": [
+        "video generation",
+        "open-source",
+        "AI model",
+        "diffusion model",
+        "LTX"
+      ]
+    },
+    {
+      "title": "微信团队发布 WeLM，大语言模型家族以资源效率为核心",
+      "title_zh": "微信发布资源高效的 WeLM 大语言模型系列",
+      "title_en": "WeChat Releases WeLM, Resource-Efficient LLM Family",
+      "url": "https://x.com/Weixin_WeChat/status/2087509298310209718",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "WeChat Team releases WeLM, a resource-efficient large language model family including a 80B/3B-active model for production and a MoE-based 617B/23B-active model for future complex tasks.",
+      "tags": [
+        "LLM",
+        "MoE",
+        "WeChat",
+        "AI Research",
+        "Efficiency"
+      ]
+    },
+    {
+      "title": "🤖 DeepSeek-V4-Flash 正式版 API 上线公测  2026 年 7 月 31 日，DeepSeek 上线 V4-Flash 正式版 API 公",
+      "title_zh": "DeepSeek 推出 V4-Flash 正式版 API 公测，智能体基准表现出色",
+      "title_en": "DeepSeek Launches V4-Flash API Public Beta with Strong Agent Benchmarks",
+      "url": "https://t.me/zaihuapd/43149",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "DeepSeek launches V4-Flash official API public beta with enhanced agent capabilities and strong benchmark scores.",
+      "tags": [
+        "DeepSeek",
         "AI",
-        "Meta",
-        "Regulation",
-        "Acquisition",
-        "Data-sharing"
+        "API",
+        "model release",
+        "benchmarks"
       ]
     }
   ]
