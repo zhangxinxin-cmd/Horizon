@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-12T22:31:46.768822+00:00",
-  "date": "2026-08-12",
-  "total_fetched": 40,
-  "important_count": 15,
+  "generated_at": "2026-08-13T22:32:44.308419+00:00",
+  "date": "2026-08-13",
+  "total_fetched": 32,
+  "important_count": 9,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,252 +10,156 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/12/summary-zh.html",
-      "path": "docs/_posts/2026-08-12-summary-zh.md"
+      "url": "2026/08/13/summary-zh.html",
+      "path": "docs/_posts/2026-08-13-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/12/summary-en.html",
-      "path": "docs/_posts/2026-08-12-summary-en.md"
+      "url": "2026/08/13/summary-en.html",
+      "path": "docs/_posts/2026-08-13-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Qwen3.8-2.4T",
-      "title_zh": "Qwen开源2.4万亿参数MoE模型Qwen3.8-2.4T，激活参数95B",
-      "title_en": "Qwen Releases Qwen3.8-2.4T: 2.4T-Parameter MoE with 95B Active",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "title": "Spaghettifying DRAM",
+      "title_zh": "“Spaghettifying DRAM”：新攻击技术扩大硬件攻击面",
+      "title_en": "Spaghettifying DRAM: New Attack Expands Hardware Attack Surface",
+      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
       "source": "hackernews",
       "score": 9.0,
-      "summary": "Qwen released Qwen3.8-2.4T, a 2.4-trillion-parameter Mixture-of-Experts model with 95B active parameters, reportedly performing at or near the level of leading models like Opus 4.5 and Fable 5.",
+      "summary": "A new DRAM manipulation technique that expands the hardware attack surface and enables deep system compromise, as demonstrated by Christopher Domas.",
       "tags": [
-        "LLM",
+        "security",
+        "DRAM",
+        "hardware",
+        "exploit",
+        "Black Hat"
+      ]
+    },
+    {
+      "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+      "title_zh": "DeepSeek V4 Pro 0813 发布：API上线、开放权重，参数达1.7万亿",
+      "title_en": "DeepSeek V4 Pro 0813 Released via API and Open Weights on Hugging Face",
+      "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
+      "source": "rss",
+      "score": 9.0,
+      "summary": "DeepSeek V4 Pro 0813 has been released via API with open weights on Hugging Face, featuring 1.7T parameters.",
+      "tags": [
+        "DeepSeek",
         "AI",
-        "Qwen",
-        "MoE",
+        "Large Language Model",
+        "Open Source",
         "Model Release"
       ]
     },
     {
-      "title": "Grok 4.6",
-      "title_zh": "xAI 发布 Grok 4.6，引发 API 与基准测试争议",
-      "title_en": "xAI Releases Grok 4.6, Sparking API and Benchmark Debates",
-      "url": "https://x.ai/news/grok-4-6",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "xAI announces Grok 4.6, a new frontier AI model, sparking community debate over API behavior and performance authenticity.",
-      "tags": [
-        "Grok",
-        "xAI",
-        "AI",
-        "LLM",
-        "machine-learning"
-      ]
-    },
-    {
-      "title": "DeepSeek V4 Pro 0813",
-      "title_zh": "DeepSeek V4 Pro 0813 上线 OpenRouter，引发基准测试与定价热议",
-      "title_en": "DeepSeek V4 Pro 0813 Debuts on OpenRouter, Sparking Benchmark Debate",
-      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "title": "Gemini 3.7 Flash",
+      "title_zh": "谷歌推出 Gemini 3.7 Flash，新一代高效 AI 模型",
+      "title_en": "Google Launches Gemini 3.7 Flash, a Speedy New AI Model",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "DeepSeek V4 Pro 0813 model released on OpenRouter, sparking extensive discussion about performance, benchmarks, and pricing.",
+      "summary": "Google introduces Gemini 3.7 Flash, a new efficient AI model with competitive vision-to-HTML performance and notable pricing changes, sparking active community debate.",
       "tags": [
         "AI",
-        "LLM",
-        "DeepSeek",
+        "Gemini",
         "Machine Learning",
-        "Benchmarks"
+        "Model Release",
+        "Pricing"
       ]
     },
     {
-      "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
-      "title_zh": "Tailscale 将数据库损坏追溯至 16 年前的 SQLite WAL-Reset 缺陷",
-      "title_en": "Tailscale Traces DB Corruption to 16-Year-Old SQLite WAL-Reset Bug",
-      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "title": "Choose Boring Technology (2015)",
+      "title_zh": "选择无聊的技术：为「创新代币」辩护的经典观点",
+      "title_en": "Choose Boring Technology: The Enduring Case for Innovation Tokens",
+      "url": "https://mcfunley.com/choose-boring-technology",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Tailscale traces a database corruption issue to a 16-year-old SQLite WAL-reset race condition and funded an open-source VFS shim to isolate it.",
+      "summary": "Argues that companies should prefer boring, proven technology for most problems, conserving limited 'innovation tokens' for areas where they truly matter.",
       "tags": [
-        "sqlite",
-        "databases",
-        "debugging",
+        "software engineering",
+        "technology strategy",
+        "engineering culture",
+        "essay"
+      ]
+    },
+    {
+      "title": "DeepSeek Harness developer preview",
+      "title_zh": "DeepSeek 发布 MIT 许可的 DeepSeek Harness 开发者预览版",
+      "title_en": "DeepSeek Releases MIT-Licensed DeepSeek Harness Developer Preview",
+      "url": "https://deepseek.com/harness/en/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "DeepSeek releases an MIT-licensed developer preview of DeepSeek Harness, an agent orchestration framework emphasizing full traceability, hot-reload, and dynamic plugin capabilities.",
+      "tags": [
+        "deepseek",
+        "ai-agents",
+        "developer-tools",
         "open-source",
-        "tailscale"
+        "orchestration"
       ]
     },
     {
-      "title": "Why tiny JPEGs look different in Chrome",
-      "title_zh": "为何微小 JPEG 在 Chrome 中显示不同",
-      "title_en": "Why Tiny JPEGs Look Different in Chrome",
-      "url": "https://guillaumetech.github.io/posts/jpg-scaling-chrome/",
-      "source": "hackernews",
+      "title": "DeepMind 推手语转文字模型 SL2T，首次落地 Pixel 11 键盘与实时字幕",
+      "title_zh": "DeepMind 发布 SL2T 手语转文字模型，首次落地 Pixel 11",
+      "title_en": "DeepMind's SL2T Brings Sign-Language-to-Text AI to Pixel 11",
+      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "source": "telegram",
       "score": 8.0,
-      "summary": "Explains how Chrome's partial JPEG decoding optimization causes tiny images to appear different compared to Firefox, and advises against using JPEGs for small icons.",
+      "summary": "Google DeepMind's new sign language-to-text model SL2T is first deployed on Pixel 11's Gboard and Live Transcribe, supporting ASL-to-English with 100k hours of multilingual training data.",
       "tags": [
-        "JPEG",
-        "Chrome",
-        "image-scaling",
-        "browser",
-        "web-performance"
-      ]
-    },
-    {
-      "title": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
-      "title_zh": "uBlock Origin 放弃屏蔽 Facebook 广告",
-      "title_en": "uBlock Origin Withdraws From Blocking Facebook Ads",
-      "url": "https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "uBlock Origin has stopped fighting to block Facebook ads due to the platform's increasingly difficult anti-adblocking measures, sparking a wide-ranging discussion on ad-blocking future and Facebook's role.",
-      "tags": [
-        "ad-blocking",
-        "privacy",
-        "facebook",
-        "ublock-origin",
-        "arms-race"
-      ]
-    },
-    {
-      "title": "AI is removing the middle class of software engineering?",
-      "title_zh": "AI正在让软件工程的中层岗位消失吗？",
-      "title_en": "AI Is Removing the Middle Class of Software Engineering?",
-      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "The article argues AI is eliminating the middle class of software engineering by automating routine coding tasks, while amplifying the impact of both capable and poor engineers, sparking a rich community debate.",
-      "tags": [
+        "Sign Language",
+        "DeepMind",
         "AI",
-        "software-engineering",
-        "LLM",
-        "productivity",
-        "career"
+        "Accessibility",
+        "Multimodal"
       ]
     },
     {
-      "title": "License plate reader searches should require a warrant",
-      "title_zh": "车牌读取器搜索须获搜查令",
-      "title_en": "Warrant Needed for License Plate Reader Searches",
-      "url": "https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A blog post arguing that law enforcement should need a warrant to search license plate reader data, sparking debate about mass surveillance and technology safeguards.",
-      "tags": [
-        "privacy",
-        "surveillance",
-        "public-policy",
-        "ethics",
-        "law-enforcement"
-      ]
-    },
-    {
-      "title": "What sort of maths are LLMs good at?",
-      "title_zh": "高尔斯探讨LLM擅长何种数学任务",
-      "title_en": "Gowers probes which math tasks LLMs handle well",
-      "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Timothy Gowers explores which mathematical tasks LLMs are good at, sparking a deep community discussion on test-time scaling, sampling, and the potential for AI to produce beautiful proofs.",
-      "tags": [
-        "LLM",
-        "mathematics",
-        "test-time scaling",
-        "AI research"
-      ]
-    },
-    {
-      "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
-      "title_zh": "Woxi：用Rust编写的开源Wolfram语言解释器",
-      "title_en": "Woxi: Open-Source Wolfram Language Interpreter Written in Rust",
-      "url": "https://woxi.ad-si.com/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Woxi is an open-source Rust-based interpreter for the Wolfram Language with a GUI, CLI, Jupyter kernel, and WASM support, positioning itself as a fast and free alternative to Mathematica.",
-      "tags": [
-        "Wolfram Language",
-        "Rust",
-        "Open Source",
-        "Scientific Computing",
-        "Interpreter"
-      ]
-    },
-    {
-      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
-      "title_zh": "研究人员窃取专有LLM API的隐藏推理痕迹",
-      "title_en": "Researchers Steal Hidden Reasoning Traces from Proprietary LLM APIs",
-      "url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "A security paper demonstrates that encrypted chain-of-thought traces from frontier LLM APIs can be replayed into weaker models and jailbroken to reveal the original hidden reasoning.",
-      "tags": [
-        "LLM security",
-        "chain-of-thought",
-        "privacy",
-        "OpenAI",
-        "Anthropic"
-      ]
-    },
-    {
-      "title": "The Loss Does Not See the Basis, But Adam Does [R]",
-      "title_zh": "为何Adam会失去GD的隐式低秩偏差",
-      "title_en": "Why Adam Loses GD's Implicit Low-Rank Bias",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vmjb3p/the_loss_does_not_see_the_basis_but_adam_does_r/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "Demonstrates that Adam's per-coordinate second moment breaks rotational invariance and thereby loses GD's implicit low-rank bias, unlike optimizers like Muon and Shampoo.",
-      "tags": [
-        "optimization",
-        "implicit bias",
-        "Adam",
-        "matrix sensing",
-        "low-rank"
-      ]
-    },
-    {
-      "title": "LTX 发布开源视频模型 LTX-2.5，单张 RTX 5090 即可本地运行",
-      "title_zh": "LTX 发布开源视频模型 LTX-2.5，单张 RTX 5090 即可运行",
-      "title_en": "LTX Releases Open-Source Video Model LTX-2.5, Runs on RTX 5090",
-      "url": "https://ltx.io/model/ltx-2-5",
+      "title": "🤖 DeepSeek Harness 已发布，DeepSeek-V4-Pro-0813 权重已开放",
+      "title_zh": "DeepSeek 发布开源 Harness，并开放 V4-Pro-0813 权重",
+      "title_en": "DeepSeek Releases Open-Source Harness and V4-Pro-0813 Weights",
+      "url": "https://mp.weixin.qq.com/s/mANdGRI4fO_sEbC1ECEoZQ",
       "source": "telegram",
       "score": 8.0,
-      "summary": "LTX releases open-source video generation model LTX-2.5, runnable on a single RTX 5090 with weights, training code, and inference pipeline fully open.",
-      "tags": [
-        "video generation",
-        "open-source",
-        "AI model",
-        "diffusion model",
-        "LTX"
-      ]
-    },
-    {
-      "title": "微信团队发布 WeLM，大语言模型家族以资源效率为核心",
-      "title_zh": "微信发布资源高效的 WeLM 大语言模型系列",
-      "title_en": "WeChat Releases WeLM, Resource-Efficient LLM Family",
-      "url": "https://x.com/Weixin_WeChat/status/2087509298310209718",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "WeChat Team releases WeLM, a resource-efficient large language model family including a 80B/3B-active model for production and a MoE-based 617B/23B-active model for future complex tasks.",
-      "tags": [
-        "LLM",
-        "MoE",
-        "WeChat",
-        "AI Research",
-        "Efficiency"
-      ]
-    },
-    {
-      "title": "🤖 DeepSeek-V4-Flash 正式版 API 上线公测  2026 年 7 月 31 日，DeepSeek 上线 V4-Flash 正式版 API 公",
-      "title_zh": "DeepSeek 推出 V4-Flash 正式版 API 公测，智能体基准表现出色",
-      "title_en": "DeepSeek Launches V4-Flash API Public Beta with Strong Agent Benchmarks",
-      "url": "https://t.me/zaihuapd/43149",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "DeepSeek launches V4-Flash official API public beta with enhanced agent capabilities and strong benchmark scores.",
+      "summary": "DeepSeek released the open-source 'Harness' application and made DeepSeek-V4-Pro-0813 weights available on Hugging Face.",
       "tags": [
         "DeepSeek",
+        "Open Source",
+        "AI Model",
+        "Harness",
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "🤖 OpenAI 升级 ChatGPT GPT-5.6 系列并开放更多免费权限  OpenAI 宣布更新 ChatGPT 模型体验。",
+      "title_zh": "OpenAI升级ChatGPT GPT-5.6系列并扩大免费访问",
+      "title_en": "OpenAI Upgrades ChatGPT with GPT-5.6 Series and Expands Free Access",
+      "url": "https://t.me/zaihuapd/43176",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "OpenAI announces GPT-5.6 series upgrades, including improved paid-tier models and free-tier access with a new Think button for complex reasoning.",
+      "tags": [
+        "OpenAI",
+        "GPT-5.6",
+        "ChatGPT",
+        "AI model release",
+        "Free access"
+      ]
+    },
+    {
+      "title": "🤖 Google 发布 Gemini 3.6 Flash，并透露 Gemini 4 已启动预训练  Google 发布 Gemini 3.6 Flash，称新模",
+      "title_zh": "谷歌发布 Gemini 3.6 Flash，并透露 Gemini 4 已开始预训练",
+      "title_en": "Google Releases Gemini 3.6 Flash, Reveals Gemini 4 Pretraining Has Begun",
+      "url": "https://t.me/zaihuapd/43177",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Google announces Gemini 3.6 Flash with token efficiency and capability improvements, while revealing Gemini 4 has started pretraining.",
+      "tags": [
         "AI",
-        "API",
-        "model release",
-        "benchmarks"
+        "Google",
+        "Gemini",
+        "Large Language Models",
+        "News"
       ]
     }
   ]
