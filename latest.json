@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-13T22:32:44.308419+00:00",
-  "date": "2026-08-13",
-  "total_fetched": 32,
-  "important_count": 9,
+  "generated_at": "2026-08-14T22:13:19.306049+00:00",
+  "date": "2026-08-14",
+  "total_fetched": 33,
+  "important_count": 10,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,156 +10,173 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/13/summary-zh.html",
-      "path": "docs/_posts/2026-08-13-summary-zh.md"
+      "url": "2026/08/14/summary-zh.html",
+      "path": "docs/_posts/2026-08-14-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/13/summary-en.html",
-      "path": "docs/_posts/2026-08-13-summary-en.md"
+      "url": "2026/08/14/summary-en.html",
+      "path": "docs/_posts/2026-08-14-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Spaghettifying DRAM",
-      "title_zh": "“Spaghettifying DRAM”：新攻击技术扩大硬件攻击面",
-      "title_en": "Spaghettifying DRAM: New Attack Expands Hardware Attack Surface",
-      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+      "title": "Qwen 3.8 27B",
+      "title_zh": "开源模型 Qwen 3.8 27B 在 DeepSWE 上超越 Opus，可在笔记本运行",
+      "title_en": "Qwen 3.8 27B Open-Source Model Beats Opus on DeepSWE, Runs on Laptops",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
       "source": "hackernews",
-      "score": 9.0,
-      "summary": "A new DRAM manipulation technique that expands the hardware attack surface and enables deep system compromise, as demonstrated by Christopher Domas.",
-      "tags": [
-        "security",
-        "DRAM",
-        "hardware",
-        "exploit",
-        "Black Hat"
-      ]
-    },
-    {
-      "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
-      "title_zh": "DeepSeek V4 Pro 0813 发布：API上线、开放权重，参数达1.7万亿",
-      "title_en": "DeepSeek V4 Pro 0813 Released via API and Open Weights on Hugging Face",
-      "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
-      "source": "rss",
-      "score": 9.0,
-      "summary": "DeepSeek V4 Pro 0813 has been released via API with open weights on Hugging Face, featuring 1.7T parameters.",
-      "tags": [
-        "DeepSeek",
-        "AI",
-        "Large Language Model",
-        "Open Source",
-        "Model Release"
-      ]
-    },
-    {
-      "title": "Gemini 3.7 Flash",
-      "title_zh": "谷歌推出 Gemini 3.7 Flash，新一代高效 AI 模型",
-      "title_en": "Google Launches Gemini 3.7 Flash, a Speedy New AI Model",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Google introduces Gemini 3.7 Flash, a new efficient AI model with competitive vision-to-HTML performance and notable pricing changes, sparking active community debate.",
+      "score": 10.0,
+      "summary": "Qwen 3.8 27B is a powerful new open-source model that delivers top-tier performance on benchmarks while running efficiently on laptop-class hardware, sparking significant community excitement and discussion.",
       "tags": [
         "AI",
-        "Gemini",
         "Machine Learning",
-        "Model Release",
-        "Pricing"
-      ]
-    },
-    {
-      "title": "Choose Boring Technology (2015)",
-      "title_zh": "选择无聊的技术：为「创新代币」辩护的经典观点",
-      "title_en": "Choose Boring Technology: The Enduring Case for Innovation Tokens",
-      "url": "https://mcfunley.com/choose-boring-technology",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Argues that companies should prefer boring, proven technology for most problems, conserving limited 'innovation tokens' for areas where they truly matter.",
-      "tags": [
-        "software engineering",
-        "technology strategy",
-        "engineering culture",
-        "essay"
-      ]
-    },
-    {
-      "title": "DeepSeek Harness developer preview",
-      "title_zh": "DeepSeek 发布 MIT 许可的 DeepSeek Harness 开发者预览版",
-      "title_en": "DeepSeek Releases MIT-Licensed DeepSeek Harness Developer Preview",
-      "url": "https://deepseek.com/harness/en/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "DeepSeek releases an MIT-licensed developer preview of DeepSeek Harness, an agent orchestration framework emphasizing full traceability, hot-reload, and dynamic plugin capabilities.",
-      "tags": [
-        "deepseek",
-        "ai-agents",
-        "developer-tools",
-        "open-source",
-        "orchestration"
-      ]
-    },
-    {
-      "title": "DeepMind 推手语转文字模型 SL2T，首次落地 Pixel 11 键盘与实时字幕",
-      "title_zh": "DeepMind 发布 SL2T 手语转文字模型，首次落地 Pixel 11",
-      "title_en": "DeepMind's SL2T Brings Sign-Language-to-Text AI to Pixel 11",
-      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Google DeepMind's new sign language-to-text model SL2T is first deployed on Pixel 11's Gboard and Live Transcribe, supporting ASL-to-English with 100k hours of multilingual training data.",
-      "tags": [
-        "Sign Language",
-        "DeepMind",
-        "AI",
-        "Accessibility",
-        "Multimodal"
-      ]
-    },
-    {
-      "title": "🤖 DeepSeek Harness 已发布，DeepSeek-V4-Pro-0813 权重已开放",
-      "title_zh": "DeepSeek 发布开源 Harness，并开放 V4-Pro-0813 权重",
-      "title_en": "DeepSeek Releases Open-Source Harness and V4-Pro-0813 Weights",
-      "url": "https://mp.weixin.qq.com/s/mANdGRI4fO_sEbC1ECEoZQ",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "DeepSeek released the open-source 'Harness' application and made DeepSeek-V4-Pro-0813 weights available on Hugging Face.",
-      "tags": [
-        "DeepSeek",
+        "LLM",
         "Open Source",
-        "AI Model",
-        "Harness",
-        "Hugging Face"
+        "Qwen"
       ]
     },
     {
-      "title": "🤖 OpenAI 升级 ChatGPT GPT-5.6 系列并开放更多免费权限  OpenAI 宣布更新 ChatGPT 模型体验。",
-      "title_zh": "OpenAI升级ChatGPT GPT-5.6系列并扩大免费访问",
-      "title_en": "OpenAI Upgrades ChatGPT with GPT-5.6 Series and Expands Free Access",
-      "url": "https://t.me/zaihuapd/43176",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "OpenAI announces GPT-5.6 series upgrades, including improved paid-tier models and free-tier access with a new Think button for complex reasoning.",
-      "tags": [
-        "OpenAI",
-        "GPT-5.6",
-        "ChatGPT",
-        "AI model release",
-        "Free access"
-      ]
-    },
-    {
-      "title": "🤖 Google 发布 Gemini 3.6 Flash，并透露 Gemini 4 已启动预训练  Google 发布 Gemini 3.6 Flash，称新模",
-      "title_zh": "谷歌发布 Gemini 3.6 Flash，并透露 Gemini 4 已开始预训练",
-      "title_en": "Google Releases Gemini 3.6 Flash, Reveals Gemini 4 Pretraining Has Begun",
-      "url": "https://t.me/zaihuapd/43177",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Google announces Gemini 3.6 Flash with token efficiency and capability improvements, while revealing Gemini 4 has started pretraining.",
+      "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
+      "title_zh": "GLM-5.3：Z.ai 前沿编程模型展现涌现网络能力",
+      "title_en": "GLM-5.3: Z.ai's frontier coding model shows emergent cyber capabilities",
+      "url": "https://z.ai/blog/glm-5.3",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "GLM-5.3 is a frontier coding model with emergent cyber capabilities, as demonstrated by community red teaming and vulnerability discovery in real-world software.",
       "tags": [
         "AI",
+        "LLM",
+        "cybersecurity",
+        "frontier models",
+        "GLM"
+      ]
+    },
+    {
+      "title": "小红书开源 dots3-note，280B MoE 仅 16B 激活参数",
+      "title_zh": "小红书开源 dots3-note：280B MoE 仅 16B 激活参数",
+      "title_en": "Xiaohongshu open-sources dots3-note: 280B MoE, 16B active",
+      "url": "https://x.com/dotsstudioai/status/2088083314855018521",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "Xiaohongshu's Dots lab open-sources dots3-note preview, a 280B-parameter MoE model with 16B active parameters, 512K context, multimodal support, and a new TEMPO reinforcement learning method for long-horizon agents.",
+      "tags": [
+        "MoE",
+        "Open Source",
+        "Reinforcement Learning",
+        "Multimodal",
+        "AI Agents"
+      ]
+    },
+    {
+      "title": "🍏 苹果官宣换帅：库克卸任CEO，特努斯接任  苹果宣布管理层交接，现任 CEO 蒂姆·库克将出任董事会执行董事长，硬件工程高级副总裁约翰·特努斯将从 2026",
+      "title_zh": "苹果官宣换帅：库克转任执行董事长，特努斯接任CEO",
+      "title_en": "Apple Announces CEO Transition: Cook to Executive Chairman, Ternus to Succeed",
+      "url": "https://t.me/zaihuapd/43191",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "Apple announces CEO succession plan: Tim Cook becomes executive chairman, with John Ternus taking over as CEO in September 2026.",
+      "tags": [
+        "Apple",
+        "CEO transition",
+        "Tim Cook",
+        "John Ternus",
+        "tech news"
+      ]
+    },
+    {
+      "title": "Google is making private AI practical with homomorphic encryption",
+      "title_zh": "谷歌用同态加密让隐私AI走向实用",
+      "title_en": "Google Makes Private AI Practical with Homomorphic Encryption",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Google discusses progress in applying homomorphic encryption to AI, aiming to make privacy-preserving machine learning more practical despite significant computational overhead.",
+      "tags": [
+        "homomorphic encryption",
+        "privacy-preserving ML",
+        "Google AI",
+        "security",
+        "machine learning"
+      ]
+    },
+    {
+      "title": "I compiled Doom's renderer into a 21B-parameter transformer -- no training anywhere [P]",
+      "title_zh": "将《毁灭战士》渲染器编译成210亿参数Transformer，无需训练",
+      "title_en": "Compiling Doom's Renderer Into a 21B-Parameter Transformer Without Training",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1voazhm/i_compiled_dooms_renderer_into_a_21bparameter/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "The author presents a compiler that converts Doom's rendering algorithm into a 21B-parameter transformer checkpoint, which can render frames via token generation without any training.",
+      "tags": [
+        "transformers",
+        "compiler",
+        "doom",
+        "neural-networks",
+        "interpretability"
+      ]
+    },
+    {
+      "title": "A linter for PyTorch 'torch-preflight' [P]",
+      "title_zh": "torch-preflight：用于捕获 PyTorch 浪费 GPU 资源 bug 的新 linter",
+      "title_en": "torch-preflight: A new linter that catches PyTorch GPU-wasting bugs",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vo8vv0/a_linter_for_pytorch_torchpreflight_p/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "Introduces torch-preflight, a linter that statically analyzes PyTorch code to catch GPU-wasting bugs and estimate VRAM requirements.",
+      "tags": [
+        "PyTorch",
+        "linter",
+        "ML tooling",
+        "debugging",
+        "VRAM estimation"
+      ]
+    },
+    {
+      "title": "谷歌被令取消第三方应用商店安装障碍，一周内去除多余警告步骤",
+      "title_zh": "美国法官勒令谷歌移除第三方应用商店安装障碍",
+      "title_en": "US Judge Orders Google to Remove Third-Party App Store Installation Barriers",
+      "url": "https://www.androidauthority.com/google-play-store-remove-third-party-app-store-friction-3698697/",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "A US judge ordered Google to remove extra installation steps and warnings for third-party app stores within a week, citing anti-competitive friction in the Epic v. Google antitrust case.",
+      "tags": [
+        "antitrust",
         "Google",
-        "Gemini",
-        "Large Language Models",
-        "News"
+        "Android",
+        "app stores",
+        "Epic Games"
+      ]
+    },
+    {
+      "title": "PostgreSQL 修复高危 to_char 漏洞，攻击者可执行任意代码",
+      "title_zh": "PostgreSQL 修复高危 to_char 堆溢出，可致任意代码执行",
+      "title_en": "PostgreSQL Patches High-Risk to_char Heap Overflow Allowing Code Execution",
+      "url": "https://www.postgresql.org/support/security/CVE-2026-14669/",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "PostgreSQL disclosed CVE-2026-14669, a high-severity to_char() heap overflow vulnerability allowing arbitrary code execution, with updates available for all supported versions.",
+      "tags": [
+        "PostgreSQL",
+        "CVE",
+        "Security",
+        "Vulnerability",
+        "Database"
+      ]
+    },
+    {
+      "title": "苹果自研中国专属 AI 大模型，联手阿里或成首个获批外企",
+      "title_zh": "苹果联手阿里开发中国专属AI模型，或成外企首例",
+      "title_en": "Apple Develops China-Specific AI Model with Alibaba Support",
+      "url": "https://www.reuters.com/business/retail-consumer/apple-trains-its-own-ai-model-china-market-with-alibabas-support-sources-say-2026-08-14/",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Apple is developing a China-specific AI model with Alibaba's help, potentially becoming the first foreign company approved to offer its own AI model in China.",
+      "tags": [
+        "Apple",
+        "AI",
+        "China",
+        "Alibaba",
+        "Regulation"
       ]
     }
   ]
