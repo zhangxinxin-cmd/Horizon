@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-14T22:13:19.306049+00:00",
-  "date": "2026-08-14",
-  "total_fetched": 33,
-  "important_count": 10,
+  "generated_at": "2026-08-15T22:10:30.674282+00:00",
+  "date": "2026-08-15",
+  "total_fetched": 24,
+  "important_count": 3,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,173 +10,61 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/14/summary-zh.html",
-      "path": "docs/_posts/2026-08-14-summary-zh.md"
+      "url": "2026/08/15/summary-zh.html",
+      "path": "docs/_posts/2026-08-15-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/14/summary-en.html",
-      "path": "docs/_posts/2026-08-14-summary-en.md"
+      "url": "2026/08/15/summary-en.html",
+      "path": "docs/_posts/2026-08-15-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Qwen 3.8 27B",
-      "title_zh": "开源模型 Qwen 3.8 27B 在 DeepSWE 上超越 Opus，可在笔记本运行",
-      "title_en": "Qwen 3.8 27B Open-Source Model Beats Opus on DeepSWE, Runs on Laptops",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
-      "source": "hackernews",
-      "score": 10.0,
-      "summary": "Qwen 3.8 27B is a powerful new open-source model that delivers top-tier performance on benchmarks while running efficiently on laptop-class hardware, sparking significant community excitement and discussion.",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "LLM",
-        "Open Source",
-        "Qwen"
-      ]
-    },
-    {
-      "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
-      "title_zh": "GLM-5.3：Z.ai 前沿编程模型展现涌现网络能力",
-      "title_en": "GLM-5.3: Z.ai's frontier coding model shows emergent cyber capabilities",
-      "url": "https://z.ai/blog/glm-5.3",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "GLM-5.3 is a frontier coding model with emergent cyber capabilities, as demonstrated by community red teaming and vulnerability discovery in real-world software.",
-      "tags": [
-        "AI",
-        "LLM",
-        "cybersecurity",
-        "frontier models",
-        "GLM"
-      ]
-    },
-    {
-      "title": "小红书开源 dots3-note，280B MoE 仅 16B 激活参数",
-      "title_zh": "小红书开源 dots3-note：280B MoE 仅 16B 激活参数",
-      "title_en": "Xiaohongshu open-sources dots3-note: 280B MoE, 16B active",
-      "url": "https://x.com/dotsstudioai/status/2088083314855018521",
-      "source": "telegram",
-      "score": 9.0,
-      "summary": "Xiaohongshu's Dots lab open-sources dots3-note preview, a 280B-parameter MoE model with 16B active parameters, 512K context, multimodal support, and a new TEMPO reinforcement learning method for long-horizon agents.",
-      "tags": [
-        "MoE",
-        "Open Source",
-        "Reinforcement Learning",
-        "Multimodal",
-        "AI Agents"
-      ]
-    },
-    {
-      "title": "🍏 苹果官宣换帅：库克卸任CEO，特努斯接任  苹果宣布管理层交接，现任 CEO 蒂姆·库克将出任董事会执行董事长，硬件工程高级副总裁约翰·特努斯将从 2026",
-      "title_zh": "苹果官宣换帅：库克转任执行董事长，特努斯接任CEO",
-      "title_en": "Apple Announces CEO Transition: Cook to Executive Chairman, Ternus to Succeed",
-      "url": "https://t.me/zaihuapd/43191",
-      "source": "telegram",
-      "score": 9.0,
-      "summary": "Apple announces CEO succession plan: Tim Cook becomes executive chairman, with John Ternus taking over as CEO in September 2026.",
-      "tags": [
-        "Apple",
-        "CEO transition",
-        "Tim Cook",
-        "John Ternus",
-        "tech news"
-      ]
-    },
-    {
-      "title": "Google is making private AI practical with homomorphic encryption",
-      "title_zh": "谷歌用同态加密让隐私AI走向实用",
-      "title_en": "Google Makes Private AI Practical with Homomorphic Encryption",
-      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "title": "The other Sean Byrne doesn't exist",
+      "title_zh": "另一个肖恩·伯恩不存在：身份误匹配的警示故事",
+      "title_en": "The Other Sean Byrne Doesn't Exist: A False Identity Match Horror Story",
+      "url": "https://conic.al/writing/the-other-sean-byrne-doesnt-exist/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Google discusses progress in applying homomorphic encryption to AI, aiming to make privacy-preserving machine learning more practical despite significant computational overhead.",
+      "summary": "A personal account of being mistaken for another person named Sean Byrne, illustrating the dangerous consequences of flawed identity verification systems.",
       "tags": [
-        "homomorphic encryption",
-        "privacy-preserving ML",
-        "Google AI",
-        "security",
-        "machine learning"
+        "identity-verification",
+        "false-positives",
+        "systems-design",
+        "privacy",
+        "civil-liberties"
       ]
     },
     {
-      "title": "I compiled Doom's renderer into a 21B-parameter transformer -- no training anywhere [P]",
-      "title_zh": "将《毁灭战士》渲染器编译成210亿参数Transformer，无需训练",
-      "title_en": "Compiling Doom's Renderer Into a 21B-Parameter Transformer Without Training",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1voazhm/i_compiled_dooms_renderer_into_a_21bparameter/",
+      "title": "BDH-CQ: IN-CONTEXT LEARNING WITH RECURRENT LATENT REASONING [R]",
+      "title_zh": "BDH-CQ：循环潜在推理模型突破ARC-AGI成本前沿",
+      "title_en": "BDH-CQ: Recurrent Latent Reasoning Model Breaks ARC-AGI Cost Frontier",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vov5r5/bdhcq_incontext_learning_with_recurrent_latent/",
       "source": "reddit",
       "score": 8.0,
-      "summary": "The author presents a compiler that converts Doom's rendering algorithm into a 21B-parameter transformer checkpoint, which can render frames via token generation without any training.",
+      "summary": "Introduces BDH-CQ, a 150M-parameter recurrent latent reasoning system that achieves 29.5% pass@2 on ARC-AGI-1 at $0.00070 per task, improving the cost-accuracy Pareto frontier.",
       "tags": [
-        "transformers",
-        "compiler",
-        "doom",
-        "neural-networks",
-        "interpretability"
+        "machine learning",
+        "in-context learning",
+        "recurrent reasoning",
+        "ARC-AGI",
+        "efficiency"
       ]
     },
     {
-      "title": "A linter for PyTorch 'torch-preflight' [P]",
-      "title_zh": "torch-preflight：用于捕获 PyTorch 浪费 GPU 资源 bug 的新 linter",
-      "title_en": "torch-preflight: A new linter that catches PyTorch GPU-wasting bugs",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vo8vv0/a_linter_for_pytorch_torchpreflight_p/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "Introduces torch-preflight, a linter that statically analyzes PyTorch code to catch GPU-wasting bugs and estimate VRAM requirements.",
-      "tags": [
-        "PyTorch",
-        "linter",
-        "ML tooling",
-        "debugging",
-        "VRAM estimation"
-      ]
-    },
-    {
-      "title": "谷歌被令取消第三方应用商店安装障碍，一周内去除多余警告步骤",
-      "title_zh": "美国法官勒令谷歌移除第三方应用商店安装障碍",
-      "title_en": "US Judge Orders Google to Remove Third-Party App Store Installation Barriers",
-      "url": "https://www.androidauthority.com/google-play-store-remove-third-party-app-store-friction-3698697/",
+      "title": "阿里 AI 开放权重模型下载量超 30 亿，半年内超过 Meta 和谷歌",
+      "title_zh": "阿里开放权重AI模型下载量破30亿，超越Meta与谷歌",
+      "title_en": "Alibaba Open-Weight AI Models Top 3 Billion Downloads, Passing Meta and Google",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google",
       "source": "telegram",
       "score": 8.0,
-      "summary": "A US judge ordered Google to remove extra installation steps and warnings for third-party app stores within a week, citing anti-competitive friction in the Epic v. Google antitrust case.",
+      "summary": "Alibaba's open-weight AI models exceeded 3 billion downloads in six months, surpassing Meta and Google.",
       "tags": [
-        "antitrust",
-        "Google",
-        "Android",
-        "app stores",
-        "Epic Games"
-      ]
-    },
-    {
-      "title": "PostgreSQL 修复高危 to_char 漏洞，攻击者可执行任意代码",
-      "title_zh": "PostgreSQL 修复高危 to_char 堆溢出，可致任意代码执行",
-      "title_en": "PostgreSQL Patches High-Risk to_char Heap Overflow Allowing Code Execution",
-      "url": "https://www.postgresql.org/support/security/CVE-2026-14669/",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "PostgreSQL disclosed CVE-2026-14669, a high-severity to_char() heap overflow vulnerability allowing arbitrary code execution, with updates available for all supported versions.",
-      "tags": [
-        "PostgreSQL",
-        "CVE",
-        "Security",
-        "Vulnerability",
-        "Database"
-      ]
-    },
-    {
-      "title": "苹果自研中国专属 AI 大模型，联手阿里或成首个获批外企",
-      "title_zh": "苹果联手阿里开发中国专属AI模型，或成外企首例",
-      "title_en": "Apple Develops China-Specific AI Model with Alibaba Support",
-      "url": "https://www.reuters.com/business/retail-consumer/apple-trains-its-own-ai-model-china-market-with-alibabas-support-sources-say-2026-08-14/",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Apple is developing a China-specific AI model with Alibaba's help, potentially becoming the first foreign company approved to offer its own AI model in China.",
-      "tags": [
-        "Apple",
         "AI",
-        "China",
+        "Open-source",
         "Alibaba",
-        "Regulation"
+        "Qwen",
+        "Model Downloads"
       ]
     }
   ]
