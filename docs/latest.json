@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-15T22:10:30.674282+00:00",
-  "date": "2026-08-15",
-  "total_fetched": 24,
-  "important_count": 3,
+  "generated_at": "2026-08-16T22:11:17.249719+00:00",
+  "date": "2026-08-16",
+  "total_fetched": 29,
+  "important_count": 4,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,61 +10,76 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/15/summary-zh.html",
-      "path": "docs/_posts/2026-08-15-summary-zh.md"
+      "url": "2026/08/16/summary-zh.html",
+      "path": "docs/_posts/2026-08-16-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/15/summary-en.html",
-      "path": "docs/_posts/2026-08-15-summary-en.md"
+      "url": "2026/08/16/summary-en.html",
+      "path": "docs/_posts/2026-08-16-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "The other Sean Byrne doesn't exist",
-      "title_zh": "另一个肖恩·伯恩不存在：身份误匹配的警示故事",
-      "title_en": "The Other Sean Byrne Doesn't Exist: A False Identity Match Horror Story",
-      "url": "https://conic.al/writing/the-other-sean-byrne-doesnt-exist/",
+      "title": "Claude: System Prompts",
+      "title_zh": "An Anthropic公开Claude系统提示词，引发透明度讨论",
+      "title_en": "Anthropic Publicly Releases Claude System Prompts, Sparking Transparency Debate",
+      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "A personal account of being mistaken for another person named Sean Byrne, illustrating the dangerous consequences of flawed identity verification systems.",
+      "summary": "Anthropic publicly releases Claude system prompts, enabling community analysis and sparking debate on AI behavior and transparency.",
       "tags": [
-        "identity-verification",
-        "false-positives",
-        "systems-design",
-        "privacy",
-        "civil-liberties"
+        "Claude",
+        "AI",
+        "System Prompts",
+        "Transparency",
+        "LLM"
       ]
     },
     {
-      "title": "BDH-CQ: IN-CONTEXT LEARNING WITH RECURRENT LATENT REASONING [R]",
-      "title_zh": "BDH-CQ：循环潜在推理模型突破ARC-AGI成本前沿",
-      "title_en": "BDH-CQ: Recurrent Latent Reasoning Model Breaks ARC-AGI Cost Frontier",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vov5r5/bdhcq_incontext_learning_with_recurrent_latent/",
-      "source": "reddit",
+      "title": "Models Are Getting Dumber on Purpose",
+      "title_zh": "模型故意“变笨”：转向外部工具的知识压缩",
+      "title_en": "Models Getting 'Dumber' on Purpose: The Shift to External Tools",
+      "url": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "Introduces BDH-CQ, a 150M-parameter recurrent latent reasoning system that achieves 29.5% pass@2 on ARC-AGI-1 at $0.00070 per task, improving the cost-accuracy Pareto frontier.",
+      "summary": "The article explores how AI models are intentionally being made less knowledgeable by relying on external tools, sparking debate about the trade-offs in hallucination and model architecture.",
       "tags": [
-        "machine learning",
-        "in-context learning",
-        "recurrent reasoning",
-        "ARC-AGI",
-        "efficiency"
+        "LLM",
+        "AI",
+        "machine-learning",
+        "tools",
+        "knowledge-representation"
       ]
     },
     {
-      "title": "阿里 AI 开放权重模型下载量超 30 亿，半年内超过 Meta 和谷歌",
-      "title_zh": "阿里开放权重AI模型下载量破30亿，超越Meta与谷歌",
-      "title_en": "Alibaba Open-Weight AI Models Top 3 Billion Downloads, Passing Meta and Google",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google",
+      "title": "美国据报要求盟友在 AI 合作中选边，签署 Pax Silica 宣言不得加入冲突倡议",
+      "title_zh": "美国据报要求盟友在AI合作中选边，签署Pax Silica宣言不得加入冲突倡议",
+      "title_en": null,
+      "url": "https://www.neowin.net/news/us-warns-allied-nations-side-with-us-in-the-ai-race-against-china-or-face-the-consequences/",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Alibaba's open-weight AI models exceeded 3 billion downloads in six months, surpassing Meta and Google.",
+      "summary": "The US reportedly demands allies choose sides in AI cooperation, signing the Pax Silica declaration or facing exclusion from US-led AI alliances, highlighting AI geopolitical tensions.",
       "tags": [
-        "AI",
-        "Open-source",
-        "Alibaba",
-        "Qwen",
-        "Model Downloads"
+        "AI policy",
+        "geopolitics",
+        "international relations",
+        "AI alliance"
+      ]
+    },
+    {
+      "title": "🤖 Anthropic 第二季营收暴涨 14 倍，初步数字超 115 亿美元",
+      "title_zh": "Anthropic 第二季营收超 115 亿美元，同比增长 14 倍",
+      "title_en": "Anthropic Q2 Revenue Surpasses $11.5 Billion, Up 14x Year Over Year",
+      "url": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Anthropic's Q2 preliminary revenue exceeds $11.5 billion, up over 14x year-over-year, with positive adjusted operating income and a possible IPO on the horizon.",
+      "tags": [
+        "Anthropic",
+        "AI Industry",
+        "Revenue",
+        "IPO",
+        "Business News"
       ]
     }
   ]
