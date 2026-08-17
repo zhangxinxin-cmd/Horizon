@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T22:11:17.249719+00:00",
-  "date": "2026-08-16",
-  "total_fetched": 29,
-  "important_count": 4,
+  "generated_at": "2026-08-17T22:14:18.926388+00:00",
+  "date": "2026-08-17",
+  "total_fetched": 36,
+  "important_count": 10,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,76 +10,172 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/16/summary-zh.html",
-      "path": "docs/_posts/2026-08-16-summary-zh.md"
+      "url": "2026/08/17/summary-zh.html",
+      "path": "docs/_posts/2026-08-17-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/16/summary-en.html",
-      "path": "docs/_posts/2026-08-16-summary-en.md"
+      "url": "2026/08/17/summary-en.html",
+      "path": "docs/_posts/2026-08-17-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Claude: System Prompts",
-      "title_zh": "An Anthropic公开Claude系统提示词，引发透明度讨论",
-      "title_en": "Anthropic Publicly Releases Claude System Prompts, Sparking Transparency Debate",
-      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+      "title": "A Preview of DuckDB v2.0",
+      "title_zh": "DuckDB v2.0 预览：新增 Quack 客户端-服务器支持和扩展签名",
+      "title_en": "DuckDB v2.0 Preview Adds Quack Client-Server and Signed Extensions",
+      "url": "https://duckdb.org/2026/08/17/duckdb-20-highlights",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "DuckDB v2.0 preview announces major new capabilities and improvements, generating substantial excitement in the Hacker News community.",
+      "tags": [
+        "duckdb",
+        "database",
+        "release",
+        "analytics",
+        "sql"
+      ]
+    },
+    {
+      "title": "Qwen3.8 27B scores 52 on Artificial Analysis",
+      "title_zh": "Qwen3.8 27B在Artificial Analysis得分52，超越更大模型",
+      "title_en": "Qwen3.8 27B Scores 52 on Artificial Analysis, Beating Larger Models",
+      "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "Qwen3.8 27B achieves an Artificial Analysis score of 52, beating many larger models and matching frontier-class performance, sparking widespread discussion and surprise due to its compact size.",
+      "tags": [
+        "AI",
+        "Qwen",
+        "benchmarks",
+        "open-source",
+        "model efficiency"
+      ]
+    },
+    {
+      "title": "$12B of US ratepayers' money wasted on a modeling mistake and PJM wants to do it again",
+      "title_zh": "PJM建模失误浪费120亿美元用户资金，改革势在必行",
+      "title_en": "PJM’s $12B Modeling Mistake Wastes Ratepayer Money; Reform Needed",
+      "url": "https://newsletter.semianalysis.com/p/12b-of-us-ratepayers-money-wasted",
+      "source": "rss",
+      "score": 9.0,
+      "summary": "Exposes a $12B modeling mistake in PJM's grid design that wasted ratepayer money and argues for a fundamental overhaul of American grid design, highlighting the role of cold air in improving efficiency.",
+      "tags": [
+        "energy grid",
+        "PJM",
+        "modeling",
+        "energy policy",
+        "infrastructure"
+      ]
+    },
+    {
+      "title": "AI;DR (AI; Didn't Read)",
+      "title_zh": "AI;DR一文批评AI生成的技术内容",
+      "title_en": "AI;DR Essay Criticizes AI-Generated Tech Content",
+      "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Anthropic publicly releases Claude system prompts, enabling community analysis and sparking debate on AI behavior and transparency.",
+      "summary": "An essay criticizing the prevalence of AI-generated content in technical communication, arguing that it undermines genuine human exchange and readability, with community comments sharing similar experiences in code reviews and online reading.",
       "tags": [
-        "Claude",
         "AI",
-        "System Prompts",
-        "Transparency",
-        "LLM"
+        "AI-generated content",
+        "communication",
+        "software engineering",
+        "HN discussion"
       ]
     },
     {
-      "title": "Models Are Getting Dumber on Purpose",
-      "title_zh": "模型故意“变笨”：转向外部工具的知识压缩",
-      "title_en": "Models Getting 'Dumber' on Purpose: The Shift to External Tools",
-      "url": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
+      "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+      "title_zh": "AI生成的Copilot自动修复导致Snowflake Jira遭入侵",
+      "title_en": "AI-Generated Copilot Autofix Enabled Snowflake Jira Compromise",
+      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "The article explores how AI models are intentionally being made less knowledgeable by relying on external tools, sparking debate about the trade-offs in hallucination and model architecture.",
+      "summary": "Wiz's red team demonstrates that an AI-generated GitHub Copilot autofix introduced a CI/CD vulnerability used to compromise Snowflake's Jira, illustrating the security risks of AI-assisted code changes.",
       "tags": [
-        "LLM",
+        "AI security",
+        "CI/CD",
+        "vulnerability",
+        "GitHub Copilot",
+        "supply chain security"
+      ]
+    },
+    {
+      "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+      "title_zh": "调查追踪稀有书籍发货至亚马逊AI训练设施",
+      "title_en": "Investigation Tracks Rare Book Shipment to Amazon AI Training Facility",
+      "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "404 Media tracks a large rare book shipment via AirTag to an Amazon AI training facility, confirming suspicions that anonymous bulk book buyers are AI companies.",
+      "tags": [
+        "AI training",
+        "data sourcing",
+        "Amazon",
+        "investigative journalism",
+        "books"
+      ]
+    },
+    {
+      "title": "How to make any Sparse Attention / KV Compression look good? [D] [R]",
+      "title_zh": "研究者揭露让稀疏注意力与KV压缩看起来更有效的套路",
+      "title_en": "Researcher Reveals Tricks That Make Sparse Attention and KV Compression Seem Better Than They Are",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vqqqcs/how_to_make_any_sparse_attention_kv_compression/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "A researcher shares field-specific knowledge on how to make sparse attention and KV compression methods appear effective, warning against benchmark contamination and unintentionally favorable settings.",
+      "tags": [
+        "attention",
+        "KV compression",
+        "efficiency",
+        "research methodology"
+      ]
+    },
+    {
+      "title": "Stripe 洽购 OpenRouter 估值或达百亿美元  Stripe 正就收购 AI 模型路由初创公司 OpenRouter 进行谈判，交易估值约 100",
+      "title_zh": "Stripe 洽购 AI 模型路由初创公司 OpenRouter，估值约百亿美元",
+      "title_en": "Stripe in Talks to Acquire AI Router OpenRouter at $10B",
+      "url": "https://t.me/zaihuapd/43229",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Stripe is in talks to acquire AI model routing startup OpenRouter at a valuation of approximately $10 billion.",
+      "tags": [
         "AI",
-        "machine-learning",
-        "tools",
-        "knowledge-representation"
+        "Acquisition",
+        "OpenRouter",
+        "Stripe",
+        "Business"
       ]
     },
     {
-      "title": "美国据报要求盟友在 AI 合作中选边，签署 Pax Silica 宣言不得加入冲突倡议",
-      "title_zh": "美国据报要求盟友在AI合作中选边，签署Pax Silica宣言不得加入冲突倡议",
-      "title_en": null,
-      "url": "https://www.neowin.net/news/us-warns-allied-nations-side-with-us-in-the-ai-race-against-china-or-face-the-consequences/",
+      "title": "美团高管反思全员“养虾运动”：日耗千万 Token，干扰真实经营",
+      "title_zh": "美团高管反思全员AI运动：日耗千万Token，干扰真实经营",
+      "title_en": "Meituan Executive Reflects on Costly Internal AI Campaign",
+      "url": "https://weibo.com/1642634100/RdM6hhhpW",
       "source": "telegram",
       "score": 8.0,
-      "summary": "The US reportedly demands allies choose sides in AI cooperation, signing the Pax Silica declaration or facing exclusion from US-led AI alliances, highlighting AI geopolitical tensions.",
+      "summary": "Meituan's executive reflects on the costly and disruptive internal AI campaign, highlighting the gap between AI investment and measurable business value.",
       "tags": [
-        "AI policy",
-        "geopolitics",
-        "international relations",
-        "AI alliance"
+        "AI adoption",
+        "Token costs",
+        "Organizational change",
+        "Meituan",
+        "Enterprise AI"
       ]
     },
     {
-      "title": "🤖 Anthropic 第二季营收暴涨 14 倍，初步数字超 115 亿美元",
-      "title_zh": "Anthropic 第二季营收超 115 亿美元，同比增长 14 倍",
-      "title_en": "Anthropic Q2 Revenue Surpasses $11.5 Billion, Up 14x Year Over Year",
-      "url": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html",
+      "title": "宇树预告新机“超人”，原地跳高 2 米超人类纪录",
+      "title_zh": "宇树预告人形机器人“超人”，原地跳高2米创纪录",
+      "title_en": "Unitree teases 'Superman' humanoid robot with record 2m jump",
+      "url": "https://m.weibo.cn/detail/5332901463070926",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Anthropic's Q2 preliminary revenue exceeds $11.5 billion, up over 14x year-over-year, with positive adjusted operating income and a possible IPO on the horizon.",
+      "summary": "Unitree teases its new humanoid robot 'Superman' with a 2-meter standing high jump and 12.66 m/s speed, surpassing human records.",
       "tags": [
-        "Anthropic",
-        "AI Industry",
-        "Revenue",
-        "IPO",
-        "Business News"
+        "robotics",
+        "humanoid",
+        "Unitree",
+        "AI",
+        "engineering"
       ]
     }
   ]
