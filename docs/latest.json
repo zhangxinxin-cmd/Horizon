@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-17T22:14:18.926388+00:00",
-  "date": "2026-08-17",
-  "total_fetched": 36,
-  "important_count": 10,
+  "generated_at": "2026-08-18T22:12:35.028596+00:00",
+  "date": "2026-08-18",
+  "total_fetched": 30,
+  "important_count": 6,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,172 +10,109 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/17/summary-zh.html",
-      "path": "docs/_posts/2026-08-17-summary-zh.md"
+      "url": "2026/08/18/summary-zh.html",
+      "path": "docs/_posts/2026-08-18-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/17/summary-en.html",
-      "path": "docs/_posts/2026-08-17-summary-en.md"
+      "url": "2026/08/18/summary-en.html",
+      "path": "docs/_posts/2026-08-18-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "A Preview of DuckDB v2.0",
-      "title_zh": "DuckDB v2.0 预览：新增 Quack 客户端-服务器支持和扩展签名",
-      "title_en": "DuckDB v2.0 Preview Adds Quack Client-Server and Signed Extensions",
-      "url": "https://duckdb.org/2026/08/17/duckdb-20-highlights",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "DuckDB v2.0 preview announces major new capabilities and improvements, generating substantial excitement in the Hacker News community.",
-      "tags": [
-        "duckdb",
-        "database",
-        "release",
-        "analytics",
-        "sql"
-      ]
-    },
-    {
-      "title": "Qwen3.8 27B scores 52 on Artificial Analysis",
-      "title_zh": "Qwen3.8 27B在Artificial Analysis得分52，超越更大模型",
-      "title_en": "Qwen3.8 27B Scores 52 on Artificial Analysis, Beating Larger Models",
-      "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "Qwen3.8 27B achieves an Artificial Analysis score of 52, beating many larger models and matching frontier-class performance, sparking widespread discussion and surprise due to its compact size.",
-      "tags": [
-        "AI",
-        "Qwen",
-        "benchmarks",
-        "open-source",
-        "model efficiency"
-      ]
-    },
-    {
-      "title": "$12B of US ratepayers' money wasted on a modeling mistake and PJM wants to do it again",
-      "title_zh": "PJM建模失误浪费120亿美元用户资金，改革势在必行",
-      "title_en": "PJM’s $12B Modeling Mistake Wastes Ratepayer Money; Reform Needed",
-      "url": "https://newsletter.semianalysis.com/p/12b-of-us-ratepayers-money-wasted",
-      "source": "rss",
-      "score": 9.0,
-      "summary": "Exposes a $12B modeling mistake in PJM's grid design that wasted ratepayer money and argues for a fundamental overhaul of American grid design, highlighting the role of cold air in improving efficiency.",
-      "tags": [
-        "energy grid",
-        "PJM",
-        "modeling",
-        "energy policy",
-        "infrastructure"
-      ]
-    },
-    {
-      "title": "AI;DR (AI; Didn't Read)",
-      "title_zh": "AI;DR一文批评AI生成的技术内容",
-      "title_en": "AI;DR Essay Criticizes AI-Generated Tech Content",
-      "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+      "title": "The Amazon tax",
+      "title_zh": "Godin评“亚马逊税”：搜索为广告利润牺牲用户体验",
+      "title_en": "Godin: Amazon's Search Prioritizes Ad Profits Over Shoppers' Needs",
+      "url": "https://seths.blog/2026/08/the-amazon-tax/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "An essay criticizing the prevalence of AI-generated content in technical communication, arguing that it undermines genuine human exchange and readability, with community comments sharing similar experiences in code reviews and online reading.",
+      "summary": "Seth Godin's 'The Amazon tax' critiques how Amazon's search and advertising prioritize platform profits over user needs, degrading the shopping experience.",
       "tags": [
-        "AI",
-        "AI-generated content",
-        "communication",
-        "software engineering",
-        "HN discussion"
-      ]
-    },
-    {
-      "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
-      "title_zh": "AI生成的Copilot自动修复导致Snowflake Jira遭入侵",
-      "title_en": "AI-Generated Copilot Autofix Enabled Snowflake Jira Compromise",
-      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Wiz's red team demonstrates that an AI-generated GitHub Copilot autofix introduced a CI/CD vulnerability used to compromise Snowflake's Jira, illustrating the security risks of AI-assisted code changes.",
-      "tags": [
-        "AI security",
-        "CI/CD",
-        "vulnerability",
-        "GitHub Copilot",
-        "supply chain security"
-      ]
-    },
-    {
-      "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
-      "title_zh": "调查追踪稀有书籍发货至亚马逊AI训练设施",
-      "title_en": "Investigation Tracks Rare Book Shipment to Amazon AI Training Facility",
-      "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "404 Media tracks a large rare book shipment via AirTag to an Amazon AI training facility, confirming suspicions that anonymous bulk book buyers are AI companies.",
-      "tags": [
-        "AI training",
-        "data sourcing",
         "Amazon",
-        "investigative journalism",
-        "books"
+        "e-commerce",
+        "search",
+        "advertising",
+        "user experience"
       ]
     },
     {
-      "title": "How to make any Sparse Attention / KV Compression look good? [D] [R]",
-      "title_zh": "研究者揭露让稀疏注意力与KV压缩看起来更有效的套路",
-      "title_en": "Researcher Reveals Tricks That Make Sparse Attention and KV Compression Seem Better Than They Are",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vqqqcs/how_to_make_any_sparse_attention_kv_compression/",
-      "source": "reddit",
+      "title": "Fixing a bricked Framework laptop",
+      "title_zh": "20美元工具修复变砖的Framework笔记本",
+      "title_en": "Bricked Framework Laptop Rescued with $20 Pogo-Pin Tools",
+      "url": "https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "A researcher shares field-specific knowledge on how to make sparse attention and KV compression methods appear effective, warning against benchmark contamination and unintentionally favorable settings.",
+      "summary": "A technical guide to restoring a bricked Framework laptop using pogo pins and $20 tools, exposing challenges in firmware recovery and manufacturer design choices.",
       "tags": [
-        "attention",
-        "KV compression",
-        "efficiency",
-        "research methodology"
+        "hardware hacking",
+        "BIOS",
+        "firmware",
+        "laptop repair",
+        "embedded systems"
       ]
     },
     {
-      "title": "Stripe 洽购 OpenRouter 估值或达百亿美元  Stripe 正就收购 AI 模型路由初创公司 OpenRouter 进行谈判，交易估值约 100",
-      "title_zh": "Stripe 洽购 AI 模型路由初创公司 OpenRouter，估值约百亿美元",
-      "title_en": "Stripe in Talks to Acquire AI Router OpenRouter at $10B",
-      "url": "https://t.me/zaihuapd/43229",
-      "source": "telegram",
+      "title": "Linux 7.3 improves performance when running out of vRAM",
+      "title_zh": "Linux 7.3 提升显存耗尽时的性能",
+      "title_en": "Linux 7.3 Improves Performance When Running Out of VRAM",
+      "url": "https://pixelcluster.dev/VRAM-Overcommit/",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "Stripe is in talks to acquire AI model routing startup OpenRouter at a valuation of approximately $10 billion.",
+      "summary": "Linux kernel 7.3 improves performance when running out of VRAM by better handling memory overcommit and fragmentation.",
+      "tags": [
+        "linux",
+        "kernel",
+        "vram",
+        "memory-management",
+        "performance"
+      ]
+    },
+    {
+      "title": "Mojo🔥 is now open source",
+      "title_zh": "Mojo 编译器和工具链现已以 Apache 2.0 协议开源",
+      "title_en": "Mojo compiler and toolchain now open source under Apache 2.0",
+      "url": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "Mojo's compiler and toolchain are now open source under Apache 2.0, fulfilling the original promise after the language's 1.0 release.",
+      "tags": [
+        "programming-language",
+        "open-source",
+        "compiler",
+        "AI",
+        "systems"
+      ]
+    },
+    {
+      "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+      "title_zh": "Qwen 3.8 27B 在 Artificial Analysis Intelligence Index 获得 52 分",
+      "title_en": "Qwen 3.8 27B scores 52 on Artificial Analysis Intelligence Index",
+      "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "Qwen 3.8 27B achieves an Artificial Analysis Intelligence Index score of 52, matching GPT-5.6 Luna and narrowly trailing far larger models like GLM-5.2 and DeepSeek V4 Pro.",
       "tags": [
         "AI",
-        "Acquisition",
-        "OpenRouter",
-        "Stripe",
-        "Business"
+        "LLMs",
+        "Qwen",
+        "open-source",
+        "benchmarks"
       ]
     },
     {
-      "title": "美团高管反思全员“养虾运动”：日耗千万 Token，干扰真实经营",
-      "title_zh": "美团高管反思全员AI运动：日耗千万Token，干扰真实经营",
-      "title_en": "Meituan Executive Reflects on Costly Internal AI Campaign",
-      "url": "https://weibo.com/1642634100/RdM6hhhpW",
+      "title": "中国要求部分政府相关机构卸载定制版 Windows 10，停用计划提前数月",
+      "title_zh": "中国要求政府机构提前卸载定制版Windows 10",
+      "title_en": "China Orders State Agencies to Remove Custom Windows 10 Early",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-18/china-axing-microsoft-windows-from-state-agencies-ahead-of-plan",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Meituan's executive reflects on the costly and disruptive internal AI campaign, highlighting the gap between AI investment and measurable business value.",
+      "summary": "China's Ministry of State Security is ordering some government agencies to uninstall customized Windows 10 ahead of schedule due to data security concerns.",
       "tags": [
-        "AI adoption",
-        "Token costs",
-        "Organizational change",
-        "Meituan",
-        "Enterprise AI"
-      ]
-    },
-    {
-      "title": "宇树预告新机“超人”，原地跳高 2 米超人类纪录",
-      "title_zh": "宇树预告人形机器人“超人”，原地跳高2米创纪录",
-      "title_en": "Unitree teases 'Superman' humanoid robot with record 2m jump",
-      "url": "https://m.weibo.cn/detail/5332901463070926",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Unitree teases its new humanoid robot 'Superman' with a 2-meter standing high jump and 12.66 m/s speed, surpassing human records.",
-      "tags": [
-        "robotics",
-        "humanoid",
-        "Unitree",
-        "AI",
-        "engineering"
+        "China",
+        "Windows 10",
+        "Cybersecurity",
+        "Government IT",
+        "Microsoft"
       ]
     }
   ]
