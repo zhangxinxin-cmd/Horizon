@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-18T22:12:35.028596+00:00",
-  "date": "2026-08-18",
-  "total_fetched": 30,
-  "important_count": 6,
+  "generated_at": "2026-08-19T22:15:11.972935+00:00",
+  "date": "2026-08-19",
+  "total_fetched": 35,
+  "important_count": 11,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,109 +10,189 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/18/summary-zh.html",
-      "path": "docs/_posts/2026-08-18-summary-zh.md"
+      "url": "2026/08/19/summary-zh.html",
+      "path": "docs/_posts/2026-08-19-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/18/summary-en.html",
-      "path": "docs/_posts/2026-08-18-summary-en.md"
+      "url": "2026/08/19/summary-en.html",
+      "path": "docs/_posts/2026-08-19-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "The Amazon tax",
-      "title_zh": "Godin评“亚马逊税”：搜索为广告利润牺牲用户体验",
-      "title_en": "Godin: Amazon's Search Prioritizes Ad Profits Over Shoppers' Needs",
-      "url": "https://seths.blog/2026/08/the-amazon-tax/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Seth Godin's 'The Amazon tax' critiques how Amazon's search and advertising prioritize platform profits over user needs, degrading the shopping experience.",
+      "title": "Moderna 与默沙东宣布疫苗三期成功，黑色素瘤术后复发风险显著下降",
+      "title_zh": "Moderna与默沙东宣布mRNA癌症疫苗三期成功，黑色素瘤复发风险显著降低",
+      "title_en": "Moderna and Merck Report Phase 3 Success for Personalized mRNA Cancer Vaccine in Melanoma",
+      "url": "https://wallstreetcn.com/articles/3779803",
+      "source": "telegram",
+      "score": 10.0,
+      "summary": "Moderna and Merck announced that their personalized mRNA cancer vaccine plus Keytruda met primary and key secondary endpoints in a phase 3 melanoma trial, significantly reducing recurrence and metastasis risk.",
       "tags": [
-        "Amazon",
-        "e-commerce",
-        "search",
-        "advertising",
-        "user experience"
+        "mRNA vaccine",
+        "cancer immunotherapy",
+        "Moderna",
+        "Merck",
+        "clinical trial"
       ]
     },
     {
-      "title": "Fixing a bricked Framework laptop",
-      "title_zh": "20美元工具修复变砖的Framework笔记本",
-      "title_en": "Bricked Framework Laptop Rescued with $20 Pogo-Pin Tools",
-      "url": "https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/",
+      "title": "OpenRouter is joining Stripe",
+      "title_zh": "OpenRouter 加入 Stripe，传收购价超 70 亿美元",
+      "title_en": "OpenRouter Joins Stripe in Reported $7B AI API Deal",
+      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
       "source": "hackernews",
-      "score": 8.0,
-      "summary": "A technical guide to restoring a bricked Framework laptop using pogo pins and $20 tools, exposing challenges in firmware recovery and manufacturer design choices.",
+      "score": 9.0,
+      "summary": "OpenRouter is joining Stripe after Stripe's reported $7B acquisition, marking a major consolidation in the AI infrastructure space.",
       "tags": [
-        "hardware hacking",
-        "BIOS",
-        "firmware",
-        "laptop repair",
-        "embedded systems"
+        "acquisition",
+        "AI",
+        "Stripe",
+        "OpenRouter",
+        "API"
       ]
     },
     {
-      "title": "Linux 7.3 improves performance when running out of vRAM",
-      "title_zh": "Linux 7.3 提升显存耗尽时的性能",
-      "title_en": "Linux 7.3 Improves Performance When Running Out of VRAM",
-      "url": "https://pixelcluster.dev/VRAM-Overcommit/",
+      "title": "Go 1.27",
+      "title_zh": "Go 1.27 发布：引入泛型方法与后量子密码学",
+      "title_en": "Go 1.27 Released with Generic Methods and Post-Quantum Crypto",
+      "url": "https://go.dev/blog/go1.27",
       "source": "hackernews",
-      "score": 8.0,
-      "summary": "Linux kernel 7.3 improves performance when running out of VRAM by better handling memory overcommit and fragmentation.",
+      "score": 9.0,
+      "summary": "Go 1.27 is released, introducing generic methods and other notable improvements.",
       "tags": [
-        "linux",
-        "kernel",
-        "vram",
-        "memory-management",
-        "performance"
-      ]
-    },
-    {
-      "title": "Mojo🔥 is now open source",
-      "title_zh": "Mojo 编译器和工具链现已以 Apache 2.0 协议开源",
-      "title_en": "Mojo compiler and toolchain now open source under Apache 2.0",
-      "url": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "Mojo's compiler and toolchain are now open source under Apache 2.0, fulfilling the original promise after the language's 1.0 release.",
-      "tags": [
+        "Go",
         "programming-language",
-        "open-source",
-        "compiler",
-        "AI",
-        "systems"
+        "release",
+        "generic-methods",
+        "crypto"
       ]
     },
     {
-      "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
-      "title_zh": "Qwen 3.8 27B 在 Artificial Analysis Intelligence Index 获得 52 分",
-      "title_en": "Qwen 3.8 27B scores 52 on Artificial Analysis Intelligence Index",
-      "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+      "title": "长征十号乙完成一子级海上回收，为全球首次网系回收  7 月 10 日，长征十号乙运载火箭从海南商业航天发射场升空。",
+      "title_zh": "长征十号乙完成全球首次海上网系回收",
+      "title_en": "Long March 10B Achieves World-First Sea-Based Net Rocket Recovery",
+      "url": "https://t.me/zaihuapd/43264",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "Long March 10B completed the world's first sea-based net recovery of a rocket first stage, marking China's first controlled recovery of a launch vehicle first stage.",
+      "tags": [
+        "aerospace",
+        "rocketry",
+        "China",
+        "spaceflight",
+        "reusability"
+      ]
+    },
+    {
+      "title": "A joke domain purchase turned in geopolitical warfare",
+      "title_zh": "玩笑式购买气象气球相关域名竟演变为地缘政治冲突",
+      "title_en": "Joke Domain Purchase Over Weather Balloons Turns Into Geopolitical Clash",
+      "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A humorous domain registration spirals into a serious conflict involving weather balloon tracking and geopolitical tensions.",
+      "tags": [
+        "geopolitics",
+        "radiosonde",
+        "domain names",
+        "tech culture",
+        "hackernews"
+      ]
+    },
+    {
+      "title": "Geolocating a random island using geometry and CUDA programming",
+      "title_zh": "开发者用几何与CUDA定位随机岛屿",
+      "title_en": "Developer Geolocates Random Island Using Geometry and CUDA",
+      "url": "https://yassa9.github.io/osint/gralhix-004/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A developer uses geometry and CUDA to geolocate a random island from scratch, showcasing an impressive OSINT technique.",
+      "tags": [
+        "OSINT",
+        "CUDA",
+        "geolocation",
+        "geometry",
+        "programming"
+      ]
+    },
+    {
+      "title": "Devices with GrapheneOS support should be available in 2027",
+      "title_zh": "GrapheneOS：摩托罗拉设备或于2027年获得官方支持",
+      "title_en": "GrapheneOS says Motorola devices may get official support by 2027",
+      "url": "https://grapheneos.social/@GrapheneOS/117078064184215730",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "GrapheneOS announces that select Motorola devices (2027 Signature, Razr fold/flip) may receive official support by 2027, with Motorola currently porting GrapheneOS to their hardware.",
+      "tags": [
+        "GrapheneOS",
+        "Android",
+        "mobile security",
+        "privacy",
+        "Motorola"
+      ]
+    },
+    {
+      "title": "Cerebras's Next Generation CS-4: Fast Just Got Faster",
+      "title_zh": "Cerebras 发布 CS-4：性能与功耗双双翻倍",
+      "title_en": "Cerebras CS-4 Announced: Double Performance, Double Power",
+      "url": "https://newsletter.semianalysis.com/p/cerebrass-next-generation-cs-4-fast",
       "source": "rss",
       "score": 8.0,
-      "summary": "Qwen 3.8 27B achieves an Artificial Analysis Intelligence Index score of 52, matching GPT-5.6 Luna and narrowly trailing far larger models like GLM-5.2 and DeepSeek V4 Pro.",
+      "summary": "Cerebras announces its next-generation CS-4 chip, claiming doubled performance with doubled power.",
       "tags": [
-        "AI",
-        "LLMs",
-        "Qwen",
-        "open-source",
-        "benchmarks"
+        "AI hardware",
+        "Cerebras",
+        "semiconductors",
+        "machine learning",
+        "accelerators"
       ]
     },
     {
-      "title": "中国要求部分政府相关机构卸载定制版 Windows 10，停用计划提前数月",
-      "title_zh": "中国要求政府机构提前卸载定制版Windows 10",
-      "title_en": "China Orders State Agencies to Remove Custom Windows 10 Early",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-18/china-axing-microsoft-windows-from-state-agencies-ahead-of-plan",
+      "title": "How much of the weight-space perception gap is actually symmetry? Evidence from ~1.8M fitted SIRENs [R]",
+      "title_zh": "仅对称性即可重现权重空间感知差距的大部分",
+      "title_en": "Symmetry Alone Can Reproduce Most of the Weight-Space Perception Gap",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vswdnf/how_much_of_the_weightspace_perception_gap_is/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "An empirical study using ~1.8M fitted SIRENs to disentangle how parameter symmetries contribute to the weight-space perception gap between shared-init and independently trained networks.",
+      "tags": [
+        "weight-space learning",
+        "neural network symmetry",
+        "implicit neural representations",
+        "SIREN",
+        "deep learning"
+      ]
+    },
+    {
+      "title": "🤖 Anthropic 呼吁全球放缓前沿 AI 开发  Anthropic 呼吁全球主要 AI 实验室考虑放缓前沿模型开发节奏。",
+      "title_zh": "Anthropic 呼吁全球协调放缓前沿 AI 开发",
+      "title_en": "Anthropic Urges Global Coordination to Slow Frontier AI Development",
+      "url": "https://t.me/zaihuapd/43268",
       "source": "telegram",
       "score": 8.0,
-      "summary": "China's Ministry of State Security is ordering some government agencies to uninstall customized Windows 10 ahead of schedule due to data security concerns.",
+      "summary": "Anthropic calls for international coordination to pause frontier AI development due to risks of recursive self-improvement, a proposal that faces criticism from Washington, Silicon Valley, and concerns about China's strategic advantage.",
       "tags": [
-        "China",
-        "Windows 10",
-        "Cybersecurity",
-        "Government IT",
-        "Microsoft"
+        "AI safety",
+        "Anthropic",
+        "frontier AI",
+        "AI regulation",
+        "geopolitics"
+      ]
+    },
+    {
+      "title": "♻️ 美国放行 H200 对华销售，英伟达寻求在华突破  路透社报道，美国商务部已批准约 10 家中国企业购买英伟达 H200 芯片，相关买家包括阿里巴巴、腾讯",
+      "title_zh": "美批准H200对华销售，阿里腾讯等约10家中企获准",
+      "title_en": "US Approves Nvidia H200 Sales to About 10 Chinese Firms",
+      "url": "https://t.me/zaihuapd/43272",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "US Commerce Department approved sales of Nvidia H200 chips to about 10 Chinese companies including Alibaba and Tencent, but no deliveries have been completed yet as firms remain cautious under Beijing's guidance.",
+      "tags": [
+        "semiconductors",
+        "AI chips",
+        "NVIDIA",
+        "export controls",
+        "China tech"
       ]
     }
   ]
