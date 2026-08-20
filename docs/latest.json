@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-19T22:15:11.972935+00:00",
-  "date": "2026-08-19",
-  "total_fetched": 35,
-  "important_count": 11,
+  "generated_at": "2026-08-20T22:17:12.884713+00:00",
+  "date": "2026-08-20",
+  "total_fetched": 38,
+  "important_count": 9,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,189 +10,156 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/19/summary-zh.html",
-      "path": "docs/_posts/2026-08-19-summary-zh.md"
+      "url": "2026/08/20/summary-zh.html",
+      "path": "docs/_posts/2026-08-20-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/19/summary-en.html",
-      "path": "docs/_posts/2026-08-19-summary-en.md"
+      "url": "2026/08/20/summary-en.html",
+      "path": "docs/_posts/2026-08-20-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Moderna 与默沙东宣布疫苗三期成功，黑色素瘤术后复发风险显著下降",
-      "title_zh": "Moderna与默沙东宣布mRNA癌症疫苗三期成功，黑色素瘤复发风险显著降低",
-      "title_en": "Moderna and Merck Report Phase 3 Success for Personalized mRNA Cancer Vaccine in Melanoma",
-      "url": "https://wallstreetcn.com/articles/3779803",
-      "source": "telegram",
-      "score": 10.0,
-      "summary": "Moderna and Merck announced that their personalized mRNA cancer vaccine plus Keytruda met primary and key secondary endpoints in a phase 3 melanoma trial, significantly reducing recurrence and metastasis risk.",
+      "title": "Malicious Rust crate Arrayref runs a build-time payload",
+      "title_zh": "恶意 Rust crate arrayref 在构建时运行恶意负载",
+      "title_en": "Malicious Rust crate arrayref runs build-time payload",
+      "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "A malicious version of the Rust crate 'arrayref' executes a build-time payload, highlighting supply-chain risks and response gaps in the Rust package ecosystem.",
       "tags": [
-        "mRNA vaccine",
-        "cancer immunotherapy",
-        "Moderna",
-        "Merck",
-        "clinical trial"
+        "rust",
+        "supply-chain-security",
+        "malware",
+        "crates.io",
+        "security"
       ]
     },
     {
-      "title": "OpenRouter is joining Stripe",
-      "title_zh": "OpenRouter 加入 Stripe，传收购价超 70 亿美元",
-      "title_en": "OpenRouter Joins Stripe in Reported $7B AI API Deal",
-      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
+      "title": "Linux 7.2",
+      "title_zh": "Linux 7.2 内核发布，改进 HDMI 2.1 支持",
+      "title_en": "Linux 7.2 Kernel Released with Improved HDMI 2.1 Support",
+      "url": "https://www.igalia.com/2026/08/19/Linux-72-Released.html",
       "source": "hackernews",
       "score": 9.0,
-      "summary": "OpenRouter is joining Stripe after Stripe's reported $7B acquisition, marking a major consolidation in the AI infrastructure space.",
+      "summary": "Linux 7.2 kernel release brings significant updates, with community discussion focusing on HDMI 2.1 support and display interface choices.",
       "tags": [
-        "acquisition",
-        "AI",
+        "linux",
+        "kernel",
+        "hdmi",
+        "open-source",
+        "release"
+      ]
+    },
+    {
+      "title": "The August 17 outage, and the work ahead",
+      "title_zh": "GitHub 8月17日宕机：重试风暴与可靠性计划",
+      "title_en": "GitHub's August 17 Outage: Retry Storm and Reliability Plans",
+      "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "GitHub's post-mortem explains the August 17 outage, triggered by dependency failures and worsened by client-side retry loops, and outlines future reliability work.",
+      "tags": [
+        "incident-response",
+        "reliability",
+        "postmortem",
+        "github",
+        "retry-storm"
+      ]
+    },
+    {
+      "title": "I should have loved biology (2020)",
+      "title_zh": "反思传统教育如何扼杀对生物学的热爱",
+      "title_en": "Essay Reflects on How Traditional Schooling Crushed a Love for Biology",
+      "url": "https://jsomers.net/i-should-have-loved-biology/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A reflective essay on how traditional education crushed the author's love for biology, contrasted with a deeper appreciation of life sciences through discovery and systems thinking.",
+      "tags": [
+        "biology",
+        "education",
+        "pedagogy",
+        "science",
+        "essay"
+      ]
+    },
+    {
+      "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
+      "title_zh": "阿里速卖通无声WebAudio指纹识别干扰蓝牙多点连接",
+      "title_en": "AliExpress Runs Silent WebAudio Fingerprinting That Breaks Bluetooth Multipoint",
+      "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "AliExpress uses silent WebAudio playback for fingerprinting, which unintentionally disrupts Bluetooth multipoint connections and raises broader privacy concerns.",
+      "tags": [
+        "privacy",
+        "webaudio",
+        "fingerprinting",
+        "bluetooth",
+        "aliexpress"
+      ]
+    },
+    {
+      "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
+      "title_zh": "设备端125M参数Transformer实时自动续弹钢琴",
+      "title_en": "On-Device 125M Transformer Autocompletes Piano in Real Time",
+      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A 125M-parameter transformer trained to autocomplete piano performances in real time on an iPhone, demonstrated as a free app.",
+      "tags": [
+        "music generation",
+        "transformer",
+        "on-device ML",
+        "Core ML",
+        "autocomplete"
+      ]
+    },
+    {
+      "title": "知情人士称 Stripe 已敲定超 70 亿美元收购 OpenRouter，最终价格仍可能变动  知情人士称，Stripe 已与 OpenRouter 达成收购",
+      "title_zh": "Stripe 以超70亿美元收购 AI 模型平台 OpenRouter",
+      "title_en": "Stripe to Acquire AI Model Hub OpenRouter for Over $7 Billion",
+      "url": "https://t.me/zaihuapd/43290",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Stripe has reportedly reached a deal to acquire OpenRouter for over $7 billion, a major consolidation in the AI model access market.",
+      "tags": [
         "Stripe",
         "OpenRouter",
-        "API"
+        "Acquisition",
+        "AI Models",
+        "M&A"
       ]
     },
     {
-      "title": "Go 1.27",
-      "title_zh": "Go 1.27 发布：引入泛型方法与后量子密码学",
-      "title_en": "Go 1.27 Released with Generic Methods and Post-Quantum Crypto",
-      "url": "https://go.dev/blog/go1.27",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "Go 1.27 is released, introducing generic methods and other notable improvements.",
-      "tags": [
-        "Go",
-        "programming-language",
-        "release",
-        "generic-methods",
-        "crypto"
-      ]
-    },
-    {
-      "title": "长征十号乙完成一子级海上回收，为全球首次网系回收  7 月 10 日，长征十号乙运载火箭从海南商业航天发射场升空。",
-      "title_zh": "长征十号乙完成全球首次海上网系回收",
-      "title_en": "Long March 10B Achieves World-First Sea-Based Net Rocket Recovery",
-      "url": "https://t.me/zaihuapd/43264",
+      "title": "陶哲轩称 AI 或致数学界最大危机，警告证明过剩致无人能懂",
+      "title_zh": "陶哲轩：AI 或致数学界自哥德尔以来最大危机",
+      "title_en": "AI Could Trigger Math's Biggest Crisis Since Gödel, Tao Warns",
+      "url": "https://the-decoder.com/terence-tao-says-ai-could-trigger-maths-biggest-crisis-since-godel/",
       "source": "telegram",
-      "score": 9.0,
-      "summary": "Long March 10B completed the world's first sea-based net recovery of a rocket first stage, marking China's first controlled recovery of a launch vehicle first stage.",
+      "score": 8.0,
+      "summary": "Terence Tao warns that AI could trigger mathematics' biggest crisis since Gödel by creating an oversupply of proofs that no one can fully understand or verify.",
       "tags": [
-        "aerospace",
-        "rocketry",
-        "China",
-        "spaceflight",
-        "reusability"
+        "AI",
+        "mathematics",
+        "Terence Tao",
+        "formal verification",
+        "research"
       ]
     },
     {
-      "title": "A joke domain purchase turned in geopolitical warfare",
-      "title_zh": "玩笑式购买气象气球相关域名竟演变为地缘政治冲突",
-      "title_en": "Joke Domain Purchase Over Weather Balloons Turns Into Geopolitical Clash",
-      "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
-      "source": "hackernews",
+      "title": "反向查询服务泄露数百万张人物面部照片",
+      "title_zh": "反向图像搜索服务泄露数百万张人脸照片",
+      "title_en": "Reverse Image Search Service Exposes Millions of Facial Photos",
+      "url": "https://arstechnica.com/gadgets/2026/08/reverse-lookup-service-exposed-millions-of-photos-of-peoples-faces/",
+      "source": "telegram",
       "score": 8.0,
-      "summary": "A humorous domain registration spirals into a serious conflict involving weather balloon tracking and geopolitical tensions.",
+      "summary": "A reverse image search service exposed millions of facial photos and personal data, raising serious biometric privacy concerns.",
       "tags": [
-        "geopolitics",
-        "radiosonde",
-        "domain names",
-        "tech culture",
-        "hackernews"
-      ]
-    },
-    {
-      "title": "Geolocating a random island using geometry and CUDA programming",
-      "title_zh": "开发者用几何与CUDA定位随机岛屿",
-      "title_en": "Developer Geolocates Random Island Using Geometry and CUDA",
-      "url": "https://yassa9.github.io/osint/gralhix-004/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A developer uses geometry and CUDA to geolocate a random island from scratch, showcasing an impressive OSINT technique.",
-      "tags": [
-        "OSINT",
-        "CUDA",
-        "geolocation",
-        "geometry",
-        "programming"
-      ]
-    },
-    {
-      "title": "Devices with GrapheneOS support should be available in 2027",
-      "title_zh": "GrapheneOS：摩托罗拉设备或于2027年获得官方支持",
-      "title_en": "GrapheneOS says Motorola devices may get official support by 2027",
-      "url": "https://grapheneos.social/@GrapheneOS/117078064184215730",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "GrapheneOS announces that select Motorola devices (2027 Signature, Razr fold/flip) may receive official support by 2027, with Motorola currently porting GrapheneOS to their hardware.",
-      "tags": [
-        "GrapheneOS",
-        "Android",
-        "mobile security",
         "privacy",
-        "Motorola"
-      ]
-    },
-    {
-      "title": "Cerebras's Next Generation CS-4: Fast Just Got Faster",
-      "title_zh": "Cerebras 发布 CS-4：性能与功耗双双翻倍",
-      "title_en": "Cerebras CS-4 Announced: Double Performance, Double Power",
-      "url": "https://newsletter.semianalysis.com/p/cerebrass-next-generation-cs-4-fast",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "Cerebras announces its next-generation CS-4 chip, claiming doubled performance with doubled power.",
-      "tags": [
-        "AI hardware",
-        "Cerebras",
-        "semiconductors",
-        "machine learning",
-        "accelerators"
-      ]
-    },
-    {
-      "title": "How much of the weight-space perception gap is actually symmetry? Evidence from ~1.8M fitted SIRENs [R]",
-      "title_zh": "仅对称性即可重现权重空间感知差距的大部分",
-      "title_en": "Symmetry Alone Can Reproduce Most of the Weight-Space Perception Gap",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vswdnf/how_much_of_the_weightspace_perception_gap_is/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "An empirical study using ~1.8M fitted SIRENs to disentangle how parameter symmetries contribute to the weight-space perception gap between shared-init and independently trained networks.",
-      "tags": [
-        "weight-space learning",
-        "neural network symmetry",
-        "implicit neural representations",
-        "SIREN",
-        "deep learning"
-      ]
-    },
-    {
-      "title": "🤖 Anthropic 呼吁全球放缓前沿 AI 开发  Anthropic 呼吁全球主要 AI 实验室考虑放缓前沿模型开发节奏。",
-      "title_zh": "Anthropic 呼吁全球协调放缓前沿 AI 开发",
-      "title_en": "Anthropic Urges Global Coordination to Slow Frontier AI Development",
-      "url": "https://t.me/zaihuapd/43268",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Anthropic calls for international coordination to pause frontier AI development due to risks of recursive self-improvement, a proposal that faces criticism from Washington, Silicon Valley, and concerns about China's strategic advantage.",
-      "tags": [
-        "AI safety",
-        "Anthropic",
-        "frontier AI",
-        "AI regulation",
-        "geopolitics"
-      ]
-    },
-    {
-      "title": "♻️ 美国放行 H200 对华销售，英伟达寻求在华突破  路透社报道，美国商务部已批准约 10 家中国企业购买英伟达 H200 芯片，相关买家包括阿里巴巴、腾讯",
-      "title_zh": "美批准H200对华销售，阿里腾讯等约10家中企获准",
-      "title_en": "US Approves Nvidia H200 Sales to About 10 Chinese Firms",
-      "url": "https://t.me/zaihuapd/43272",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "US Commerce Department approved sales of Nvidia H200 chips to about 10 Chinese companies including Alibaba and Tencent, but no deliveries have been completed yet as firms remain cautious under Beijing's guidance.",
-      "tags": [
-        "semiconductors",
-        "AI chips",
-        "NVIDIA",
-        "export controls",
-        "China tech"
+        "data breach",
+        "biometrics",
+        "security"
       ]
     }
   ]
