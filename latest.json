@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T22:17:12.884713+00:00",
-  "date": "2026-08-20",
-  "total_fetched": 38,
-  "important_count": 9,
+  "generated_at": "2026-08-21T22:14:03.019454+00:00",
+  "date": "2026-08-21",
+  "total_fetched": 41,
+  "important_count": 8,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,156 +10,140 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/20/summary-zh.html",
-      "path": "docs/_posts/2026-08-20-summary-zh.md"
+      "url": "2026/08/21/summary-zh.html",
+      "path": "docs/_posts/2026-08-21-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/20/summary-en.html",
-      "path": "docs/_posts/2026-08-20-summary-en.md"
+      "url": "2026/08/21/summary-en.html",
+      "path": "docs/_posts/2026-08-21-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Malicious Rust crate Arrayref runs a build-time payload",
-      "title_zh": "恶意 Rust crate arrayref 在构建时运行恶意负载",
-      "title_en": "Malicious Rust crate arrayref runs build-time payload",
-      "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
+      "title": "Felony charges for citizen deleting phone data at US Border",
+      "title_zh": "美国公民因在边境删除手机数据面临重罪指控",
+      "title_en": "Felony Charges for Citizen Who Deleted Phone Data at US Border",
+      "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
       "source": "hackernews",
-      "score": 9.0,
-      "summary": "A malicious version of the Rust crate 'arrayref' executes a build-time payload, highlighting supply-chain risks and response gaps in the Rust package ecosystem.",
+      "score": 8.0,
+      "summary": "A US citizen faces felony charges for deleting phone data at a border crossing, raising concerns about digital privacy and legal rights.",
       "tags": [
-        "rust",
-        "supply-chain-security",
-        "malware",
-        "crates.io",
+        "privacy",
+        "digital-rights",
+        "border-search",
+        "legal",
         "security"
       ]
     },
     {
-      "title": "Linux 7.2",
-      "title_zh": "Linux 7.2 内核发布，改进 HDMI 2.1 支持",
-      "title_en": "Linux 7.2 Kernel Released with Improved HDMI 2.1 Support",
-      "url": "https://www.igalia.com/2026/08/19/Linux-72-Released.html",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "Linux 7.2 kernel release brings significant updates, with community discussion focusing on HDMI 2.1 support and display interface choices.",
-      "tags": [
-        "linux",
-        "kernel",
-        "hdmi",
-        "open-source",
-        "release"
-      ]
-    },
-    {
-      "title": "The August 17 outage, and the work ahead",
-      "title_zh": "GitHub 8月17日宕机：重试风暴与可靠性计划",
-      "title_en": "GitHub's August 17 Outage: Retry Storm and Reliability Plans",
-      "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+      "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
+      "title_zh": "研究人员意外劫持E.164.arpa，记录到打往军事基地的电话",
+      "title_en": "Researcher accidentally logs calls to military bases via E.164.arpa hijack",
+      "url": "https://lina.sh/blog/hijacking-e164-arpa",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "GitHub's post-mortem explains the August 17 outage, triggered by dependency failures and worsened by client-side retry loops, and outlines future reliability work.",
+      "summary": "A researcher accidentally hijacked E.164.arpa ENUM lookups, logging hundreds of thousands of phone calls to military bases, exposing a largely ignored and insecure infrastructure.",
       "tags": [
-        "incident-response",
-        "reliability",
-        "postmortem",
-        "github",
-        "retry-storm"
-      ]
-    },
-    {
-      "title": "I should have loved biology (2020)",
-      "title_zh": "反思传统教育如何扼杀对生物学的热爱",
-      "title_en": "Essay Reflects on How Traditional Schooling Crushed a Love for Biology",
-      "url": "https://jsomers.net/i-should-have-loved-biology/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A reflective essay on how traditional education crushed the author's love for biology, contrasted with a deeper appreciation of life sciences through discovery and systems thinking.",
-      "tags": [
-        "biology",
-        "education",
-        "pedagogy",
-        "science",
-        "essay"
-      ]
-    },
-    {
-      "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
-      "title_zh": "阿里速卖通无声WebAudio指纹识别干扰蓝牙多点连接",
-      "title_en": "AliExpress Runs Silent WebAudio Fingerprinting That Breaks Bluetooth Multipoint",
-      "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "AliExpress uses silent WebAudio playback for fingerprinting, which unintentionally disrupts Bluetooth multipoint connections and raises broader privacy concerns.",
-      "tags": [
+        "security",
+        "ENUM",
+        "telecom",
         "privacy",
-        "webaudio",
-        "fingerprinting",
-        "bluetooth",
-        "aliexpress"
-      ]
-    },
-    {
-      "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
-      "title_zh": "设备端125M参数Transformer实时自动续弹钢琴",
-      "title_en": "On-Device 125M Transformer Autocompletes Piano in Real Time",
-      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A 125M-parameter transformer trained to autocomplete piano performances in real time on an iPhone, demonstrated as a free app.",
-      "tags": [
-        "music generation",
-        "transformer",
-        "on-device ML",
-        "Core ML",
-        "autocomplete"
-      ]
-    },
-    {
-      "title": "知情人士称 Stripe 已敲定超 70 亿美元收购 OpenRouter，最终价格仍可能变动  知情人士称，Stripe 已与 OpenRouter 达成收购",
-      "title_zh": "Stripe 以超70亿美元收购 AI 模型平台 OpenRouter",
-      "title_en": "Stripe to Acquire AI Model Hub OpenRouter for Over $7 Billion",
-      "url": "https://t.me/zaihuapd/43290",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Stripe has reportedly reached a deal to acquire OpenRouter for over $7 billion, a major consolidation in the AI model access market.",
-      "tags": [
-        "Stripe",
-        "OpenRouter",
-        "Acquisition",
-        "AI Models",
-        "M&A"
-      ]
-    },
-    {
-      "title": "陶哲轩称 AI 或致数学界最大危机，警告证明过剩致无人能懂",
-      "title_zh": "陶哲轩：AI 或致数学界自哥德尔以来最大危机",
-      "title_en": "AI Could Trigger Math's Biggest Crisis Since Gödel, Tao Warns",
-      "url": "https://the-decoder.com/terence-tao-says-ai-could-trigger-maths-biggest-crisis-since-godel/",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Terence Tao warns that AI could trigger mathematics' biggest crisis since Gödel by creating an oversupply of proofs that no one can fully understand or verify.",
-      "tags": [
-        "AI",
-        "mathematics",
-        "Terence Tao",
-        "formal verification",
         "research"
       ]
     },
     {
-      "title": "反向查询服务泄露数百万张人物面部照片",
-      "title_zh": "反向图像搜索服务泄露数百万张人脸照片",
-      "title_en": "Reverse Image Search Service Exposes Millions of Facial Photos",
-      "url": "https://arstechnica.com/gadgets/2026/08/reverse-lookup-service-exposed-millions-of-photos-of-peoples-faces/",
+      "title": "I'm becoming AI-blind",
+      "title_zh": "成为“AI盲”：当精致的AI文本让人无法理解",
+      "title_en": "Becoming AI-Blind: When Polished AI Text Stops Making Sense",
+      "url": "https://cymerys.com/w/im-becoming-ai-blind",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "The author describes becoming 'AI-blind'—an inability to meaningfully parse AI-generated text—sparking significant discussion about the psychological and practical effects of AI writing on readers.",
+      "tags": [
+        "AI",
+        "writing",
+        "cognition",
+        "LLMs",
+        "human-computer interaction"
+      ]
+    },
+    {
+      "title": "Stop Making TUIs",
+      "title_zh": "别再写TUI了：普塔切克呼吁所有工具都构建原生界面",
+      "title_en": "Stop Making TUIs: Ptacek Urges Native UIs for All Tools",
+      "url": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "Thomas Ptacek argues that coding agents have made native UI development so cheap that developers should build real GUIs for even small personal tools, a view endorsed by Simon Willison.",
+      "tags": [
+        "user-interface",
+        "CLI",
+        "AI-assisted development",
+        "developer tools"
+      ]
+    },
+    {
+      "title": "Are Open Models Catching Up?",
+      "title_zh": "开源与闭源前沿模型：一项比较分析",
+      "title_en": "Open vs. Closed Frontier Models: A Comparative Analysis",
+      "url": "https://newsletter.semianalysis.com/p/are-open-models-catching-up",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "An analytical comparison of open and closed models across different eras of frontier AI development.",
+      "tags": [
+        "open-source",
+        "AI models",
+        "frontier models",
+        "ML research",
+        "analysis"
+      ]
+    },
+    {
+      "title": "🤖 文件披露：Anthropic 砍书扫描数百万册训练 Claude，曾涉 LibGen 下载被罚 15 亿美元  《华盛顿邮报》披露，Anthropic 内部",
+      "title_zh": "Anthropic 秘密扫描数百万册图书以训练 Claude",
+      "title_en": "Anthropic Secretly Scanned Millions of Books to Train Claude",
+      "url": "https://t.me/zaihuapd/43305",
       "source": "telegram",
       "score": 8.0,
-      "summary": "A reverse image search service exposed millions of facial photos and personal data, raising serious biometric privacy concerns.",
+      "summary": "Anthropic secretly scanned millions of books and used shadow library data to train Claude, according to internal documents revealed in a copyright lawsuit.",
       "tags": [
-        "privacy",
-        "data breach",
-        "biometrics",
-        "security"
+        "AI",
+        "Anthropic",
+        "Copyright",
+        "Training Data",
+        "Legal"
+      ]
+    },
+    {
+      "title": "特斯拉召回逾120万辆电动车 更新软件修复安全隐患  1月24日，特斯拉因安全隐患主动召回超过120万辆电动车，包括进口Model S、Model X及上海生产",
+      "title_zh": "特斯拉召回逾120万辆电动车 软件升级修复隐患",
+      "title_en": "Tesla Recalls Over 1.2 Million EVs for Software Fixes",
+      "url": "https://t.me/zaihuapd/43314",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "特斯拉因反向电流和转向辅助系统故障召回超过120万辆电动车，通过OTA升级修复安全隐患。",
+      "tags": [
+        "特斯拉",
+        "召回",
+        "OTA更新",
+        "汽车安全",
+        "软件修复"
+      ]
+    },
+    {
+      "title": "长江存储科创板 IPO 获受理，拟融资 330 亿元",
+      "title_zh": "长江存储科创板IPO获受理，拟融资330亿元",
+      "title_en": "Yangtze Memory Files for STAR Market IPO to Raise 33B Yuan",
+      "url": "https://api3.cls.cn/share/article/2461025?os=android&amp;sv=8.8.2&amp;app=cailianpress",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Yangtze Memory Technologies' STAR Market IPO has been accepted, aiming to raise 33 billion yuan, with the company recently breaking into the global top 3 in NAND shipments.",
+      "tags": [
+        "semiconductors",
+        "NAND",
+        "IPO",
+        "YMTC",
+        "China tech"
       ]
     }
   ]
