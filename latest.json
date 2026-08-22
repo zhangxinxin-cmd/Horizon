@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-21T22:14:03.019454+00:00",
-  "date": "2026-08-21",
-  "total_fetched": 41,
-  "important_count": 8,
+  "generated_at": "2026-08-22T22:12:01.319574+00:00",
+  "date": "2026-08-22",
+  "total_fetched": 29,
+  "important_count": 5,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,140 +10,92 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/21/summary-zh.html",
-      "path": "docs/_posts/2026-08-21-summary-zh.md"
+      "url": "2026/08/22/summary-zh.html",
+      "path": "docs/_posts/2026-08-22-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/21/summary-en.html",
-      "path": "docs/_posts/2026-08-21-summary-en.md"
+      "url": "2026/08/22/summary-en.html",
+      "path": "docs/_posts/2026-08-22-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Felony charges for citizen deleting phone data at US Border",
-      "title_zh": "美国公民因在边境删除手机数据面临重罪指控",
-      "title_en": "Felony Charges for Citizen Who Deleted Phone Data at US Border",
-      "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
+      "title": "sgl-project/sglang released v0.5.18",
+      "title_zh": "SGLang v0.5.18 发布：新增模型支持与性能提升",
+      "title_en": "SGLang v0.5.18 Adds New Models, Boosts Performance",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.18",
+      "source": "github",
+      "score": 8.0,
+      "summary": "SGLang v0.5.18 is a major release adding support for multiple new models and incorporating contributions from over 200 contributors.",
+      "tags": [
+        "SGLang",
+        "LLM inference",
+        "release",
+        "model support"
+      ]
+    },
+    {
+      "title": "Munder Difflin – Agent harness to run an office of your clones",
+      "title_zh": "Munder Difflin：让AI编码代理克隆体组成办公室协同工作",
+      "title_en": "Munder Difflin Runs an Office of Your Coding Agent Clones",
+      "url": "https://munderdiffl.in/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "A US citizen faces felony charges for deleting phone data at a border crossing, raising concerns about digital privacy and legal rights.",
+      "summary": "Munder Difflin is a local multi-agent harness that wraps around existing coding agent subscriptions to run deterministic simulations of agent offices, reducing token usage while orchestrating multiple LLM roles.",
       "tags": [
-        "privacy",
-        "digital-rights",
-        "border-search",
-        "legal",
-        "security"
+        "AI agents",
+        "multi-agent systems",
+        "LLM tooling",
+        "developer tools",
+        "Claude Code"
       ]
     },
     {
-      "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
-      "title_zh": "研究人员意外劫持E.164.arpa，记录到打往军事基地的电话",
-      "title_en": "Researcher accidentally logs calls to military bases via E.164.arpa hijack",
-      "url": "https://lina.sh/blog/hijacking-e164-arpa",
-      "source": "hackernews",
+      "title": "I developed my own quantized LLM from scratch, trained on 30B tokens, deploys in 60 MB [R]",
+      "title_zh": "开发者从零训练量化LLM，部署体积仅60 MB",
+      "title_en": "Developer Builds 60 MB Quantized LLM From Scratch on 30B Tokens",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vv2nkh/i_developed_my_own_quantized_llm_from_scratch/",
+      "source": "reddit",
       "score": 8.0,
-      "summary": "A researcher accidentally hijacked E.164.arpa ENUM lookups, logging hundreds of thousands of phone calls to military bases, exposing a largely ignored and insecure infrastructure.",
+      "summary": "An LLM trained from scratch on 30B tokens, quantized to under 2 bits, achieving 60 MB deployment and 400 tok/s CPU inference with a novel disk-based long-context retrieval mechanism.",
       "tags": [
-        "security",
-        "ENUM",
-        "telecom",
-        "privacy",
-        "research"
+        "quantization",
+        "LLM",
+        "efficient inference",
+        "long context",
+        "from-scratch training"
       ]
     },
     {
-      "title": "I'm becoming AI-blind",
-      "title_zh": "成为“AI盲”：当精致的AI文本让人无法理解",
-      "title_en": "Becoming AI-Blind: When Polished AI Text Stops Making Sense",
-      "url": "https://cymerys.com/w/im-becoming-ai-blind",
-      "source": "hackernews",
+      "title": "I built an open-source roguelike specifically for training game-playing agents [P]",
+      "title_zh": "DelveRL：专为训练智能体而生的开源Roguelike游戏",
+      "title_en": "DelveRL: Open-Source Roguelike for Training RL Agents",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vvii1j/i_built_an_opensource_roguelike_specifically_for/",
+      "source": "reddit",
       "score": 8.0,
-      "summary": "The author describes becoming 'AI-blind'—an inability to meaningfully parse AI-generated text—sparking significant discussion about the psychological and practical effects of AI writing on readers.",
+      "summary": "DelveRL is a new open-source roguelike designed specifically for training game-playing agents, featuring deterministic simulation, batched environments, and a baseline reaching floor 18-33.",
       "tags": [
-        "AI",
-        "writing",
-        "cognition",
-        "LLMs",
-        "human-computer interaction"
+        "reinforcement learning",
+        "game environments",
+        "open-source",
+        "AI agents",
+        "procedural generation"
       ]
     },
     {
-      "title": "Stop Making TUIs",
-      "title_zh": "别再写TUI了：普塔切克呼吁所有工具都构建原生界面",
-      "title_en": "Stop Making TUIs: Ptacek Urges Native UIs for All Tools",
-      "url": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "Thomas Ptacek argues that coding agents have made native UI development so cheap that developers should build real GUIs for even small personal tools, a view endorsed by Simon Willison.",
-      "tags": [
-        "user-interface",
-        "CLI",
-        "AI-assisted development",
-        "developer tools"
-      ]
-    },
-    {
-      "title": "Are Open Models Catching Up?",
-      "title_zh": "开源与闭源前沿模型：一项比较分析",
-      "title_en": "Open vs. Closed Frontier Models: A Comparative Analysis",
+      "title": "SemiAnalysis：开源模型加速追赶，每代追平时间减半",
+      "title_zh": "SemiAnalysis：开源模型加速追赶，每代追平时间减半",
+      "title_en": "SemiAnalysis: Open Models Close the Gap Twice as Fast Each Generation",
       "url": "https://newsletter.semianalysis.com/p/are-open-models-catching-up",
-      "source": "rss",
+      "source": "telegram",
       "score": 8.0,
-      "summary": "An analytical comparison of open and closed models across different eras of frontier AI development.",
+      "summary": "SemiAnalysis finds that open-source models are catching up to closed frontiers twice as fast with each generation, now matching top models within months and threatening the commercial value of model layers.",
       "tags": [
         "open-source",
-        "AI models",
-        "frontier models",
-        "ML research",
-        "analysis"
-      ]
-    },
-    {
-      "title": "🤖 文件披露：Anthropic 砍书扫描数百万册训练 Claude，曾涉 LibGen 下载被罚 15 亿美元  《华盛顿邮报》披露，Anthropic 内部",
-      "title_zh": "Anthropic 秘密扫描数百万册图书以训练 Claude",
-      "title_en": "Anthropic Secretly Scanned Millions of Books to Train Claude",
-      "url": "https://t.me/zaihuapd/43305",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Anthropic secretly scanned millions of books and used shadow library data to train Claude, according to internal documents revealed in a copyright lawsuit.",
-      "tags": [
-        "AI",
-        "Anthropic",
-        "Copyright",
-        "Training Data",
-        "Legal"
-      ]
-    },
-    {
-      "title": "特斯拉召回逾120万辆电动车 更新软件修复安全隐患  1月24日，特斯拉因安全隐患主动召回超过120万辆电动车，包括进口Model S、Model X及上海生产",
-      "title_zh": "特斯拉召回逾120万辆电动车 软件升级修复隐患",
-      "title_en": "Tesla Recalls Over 1.2 Million EVs for Software Fixes",
-      "url": "https://t.me/zaihuapd/43314",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "特斯拉因反向电流和转向辅助系统故障召回超过120万辆电动车，通过OTA升级修复安全隐患。",
-      "tags": [
-        "特斯拉",
-        "召回",
-        "OTA更新",
-        "汽车安全",
-        "软件修复"
-      ]
-    },
-    {
-      "title": "长江存储科创板 IPO 获受理，拟融资 330 亿元",
-      "title_zh": "长江存储科创板IPO获受理，拟融资330亿元",
-      "title_en": "Yangtze Memory Files for STAR Market IPO to Raise 33B Yuan",
-      "url": "https://api3.cls.cn/share/article/2461025?os=android&amp;sv=8.8.2&amp;app=cailianpress",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Yangtze Memory Technologies' STAR Market IPO has been accepted, aiming to raise 33 billion yuan, with the company recently breaking into the global top 3 in NAND shipments.",
-      "tags": [
-        "semiconductors",
-        "NAND",
-        "IPO",
-        "YMTC",
-        "China tech"
+        "LLM",
+        "AI competition",
+        "industry analysis",
+        "model economics"
       ]
     }
   ]
