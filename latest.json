@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T22:12:01.319574+00:00",
-  "date": "2026-08-22",
-  "total_fetched": 29,
-  "important_count": 5,
+  "generated_at": "2026-08-23T22:11:59.522883+00:00",
+  "date": "2026-08-23",
+  "total_fetched": 34,
+  "important_count": 8,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,92 +10,140 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/22/summary-zh.html",
-      "path": "docs/_posts/2026-08-22-summary-zh.md"
+      "url": "2026/08/23/summary-zh.html",
+      "path": "docs/_posts/2026-08-23-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/22/summary-en.html",
-      "path": "docs/_posts/2026-08-22-summary-en.md"
+      "url": "2026/08/23/summary-en.html",
+      "path": "docs/_posts/2026-08-23-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "sgl-project/sglang released v0.5.18",
-      "title_zh": "SGLang v0.5.18 发布：新增模型支持与性能提升",
-      "title_en": "SGLang v0.5.18 Adds New Models, Boosts Performance",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.18",
-      "source": "github",
-      "score": 8.0,
-      "summary": "SGLang v0.5.18 is a major release adding support for multiple new models and incorporating contributions from over 200 contributors.",
+      "title": "How Complex Systems Fail (1998)",
+      "title_zh": "复杂系统为何失效：经典文章",
+      "title_en": "Classic 1998 Essay: Why Complex Systems Fail—and Why Root Cause Analysis Falls Short",
+      "url": "https://how.complexsystems.fail/",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "A classic essay on why complex systems inherently fail and how traditional root cause analysis is often counterproductive, with expert comments connecting it to chaos engineering and resilience practices.",
       "tags": [
-        "SGLang",
-        "LLM inference",
-        "release",
-        "model support"
+        "complex systems",
+        "failure analysis",
+        "resilience engineering",
+        "chaos engineering",
+        "incident management"
       ]
     },
     {
-      "title": "Munder Difflin – Agent harness to run an office of your clones",
-      "title_zh": "Munder Difflin：让AI编码代理克隆体组成办公室协同工作",
-      "title_en": "Munder Difflin Runs an Office of Your Coding Agent Clones",
-      "url": "https://munderdiffl.in/",
+      "title": "What Is a Harness?",
+      "title_zh": "什么是智能体框架？解析 AI 智能体基础设施",
+      "title_en": "What Is a Harness? AI Agent Infrastructure Explained",
+      "url": "https://earendil.com/posts/what-is-a-harness/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Munder Difflin is a local multi-agent harness that wraps around existing coding agent subscriptions to run deterministic simulations of agent offices, reducing token usage while orchestrating multiple LLM roles.",
+      "summary": "Explores the concept of a 'harness' in AI systems, drawing parallels to chassis/engine and electricity/electronics, with community insights on building internal CLIs and agent handoff challenges.",
       "tags": [
-        "AI agents",
-        "multi-agent systems",
-        "LLM tooling",
-        "developer tools",
-        "Claude Code"
+        "ai-agents",
+        "llm",
+        "agent-harness",
+        "software-engineering"
       ]
     },
     {
-      "title": "I developed my own quantized LLM from scratch, trained on 30B tokens, deploys in 60 MB [R]",
-      "title_zh": "开发者从零训练量化LLM，部署体积仅60 MB",
-      "title_en": "Developer Builds 60 MB Quantized LLM From Scratch on 30B Tokens",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vv2nkh/i_developed_my_own_quantized_llm_from_scratch/",
-      "source": "reddit",
+      "title": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day",
+      "title_zh": "四个AI模型花266美元破解Fire HD平板，GLM-5.3一天完成",
+      "title_en": "AI Models Root Fire HD Tablet for $266; GLM-5.3 Finishes in a Day",
+      "url": "https://ericpardee.github.io/fire-hd-ownership/",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "An LLM trained from scratch on 30B tokens, quantized to under 2 bits, achieving 60 MB deployment and 400 tok/s CPU inference with a novel disk-based long-context retrieval mechanism.",
+      "summary": "An individual used four AI models to exploit and root a Fire HD tablet, with GLM-5.3 completing the task in a day.",
       "tags": [
-        "quantization",
-        "LLM",
-        "efficient inference",
-        "long context",
-        "from-scratch training"
+        "AI",
+        "security",
+        "exploit-development",
+        "reverse-engineering",
+        "open-source"
       ]
     },
     {
-      "title": "I built an open-source roguelike specifically for training game-playing agents [P]",
-      "title_zh": "DelveRL：专为训练智能体而生的开源Roguelike游戏",
-      "title_en": "DelveRL: Open-Source Roguelike for Training RL Agents",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vvii1j/i_built_an_opensource_roguelike_specifically_for/",
-      "source": "reddit",
+      "title": "Slovakia finds Russian backdoor in traffic speed cameras",
+      "title_zh": "斯洛伐克在交通超速摄像头中发现俄罗斯后门",
+      "title_en": "Slovakia Finds Russian Backdoor in Traffic Speed Cameras",
+      "url": "https://risky.biz/risky-bulletin-slovakia-finds-russian-backdoor-in-traffic-speed-cameras/",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "DelveRL is a new open-source roguelike designed specifically for training game-playing agents, featuring deterministic simulation, batched environments, and a baseline reaching floor 18-33.",
+      "summary": "Slovakia discovered Russian backdoors in traffic speed cameras, exposing supply chain vulnerabilities in critical infrastructure.",
       "tags": [
-        "reinforcement learning",
-        "game environments",
-        "open-source",
-        "AI agents",
-        "procedural generation"
+        "cybersecurity",
+        "supply chain security",
+        "backdoor",
+        "critical infrastructure",
+        "open-source firmware"
       ]
     },
     {
-      "title": "SemiAnalysis：开源模型加速追赶，每代追平时间减半",
-      "title_zh": "SemiAnalysis：开源模型加速追赶，每代追平时间减半",
-      "title_en": "SemiAnalysis: Open Models Close the Gap Twice as Fast Each Generation",
-      "url": "https://newsletter.semianalysis.com/p/are-open-models-catching-up",
+      "title": "MartyPC is a cross-platform emulator of early PCs written in Rust",
+      "title_zh": "MartyPC：用Rust编写的早期PC循环精确模拟器",
+      "title_en": "MartyPC: Cycle-Accurate Early PC Emulator Written in Rust",
+      "url": "https://martypc.net/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "MartyPC is a Rust-based cross-platform emulator of early PCs, notable for its pursuit of cycle-accurate emulation validated against real hardware harnesses.",
+      "tags": [
+        "emulation",
+        "Rust",
+        "retrocomputing",
+        "hardware",
+        "open-source"
+      ]
+    },
+    {
+      "title": "乌兰察布成中国 AI 算力热土，中企承诺容量 12.5 吉瓦超星际之门",
+      "title_zh": "乌兰察布成为中国AI算力枢纽，承诺容量12.5吉瓦",
+      "title_en": "Ulanqab Emerges as China's AI Data Center Hub with 12.5 GW Capacity",
+      "url": "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/",
       "source": "telegram",
       "score": 8.0,
-      "summary": "SemiAnalysis finds that open-source models are catching up to closed frontiers twice as fast with each generation, now matching top models within months and threatening the commercial value of model layers.",
+      "summary": "Ulanqab, Inner Mongolia has become a central hub for China's AI data centers, with committed capacity of 12.5 GW surpassing OpenAI's Stargate, but faces water scarcity and coal dependency challenges.",
       "tags": [
-        "open-source",
-        "LLM",
-        "AI competition",
-        "industry analysis",
-        "model economics"
+        "AI infrastructure",
+        "Data centers",
+        "China tech",
+        "Cloud computing",
+        "Energy"
+      ]
+    },
+    {
+      "title": "英伟达通知大客户 AI 服务器涨价，涨幅普遍超 15%",
+      "title_zh": "英伟达AI服务器涨价超15% 内存成本飙升所致",
+      "title_en": "Nvidia Hikes AI Server Prices Over 15% as Memory Costs Soar",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-22/nvidia-customers-notified-about-ai-related-price-hikes-above-15",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Nvidia has notified major customers of AI server price increases exceeding 15% due to rising memory chip costs, affecting upcoming systems with Vera Rubin and Grace Blackwell chips.",
+      "tags": [
+        "Nvidia",
+        "AI hardware",
+        "memory chips",
+        "pricing",
+        "data center"
+      ]
+    },
+    {
+      "title": "♻️ 英伟达 60 亿美元获 Poolside 技术授权，打造对标中国开源模型的美国方案",
+      "title_zh": "英伟达60亿美元授权Poolside技术，打造美国开源权重模型以对抗中国AI",
+      "title_en": "Nvidia spends $6B to license Poolside tech, builds US rival to Chinese open-weight AI",
+      "url": "https://www.wsj.com/tech/ai/nvidia-is-spending-6-billion-to-build-a-powerful-u-s-alternative-to-chinese-ai-c51c38cc",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Nvidia invests $1B and licenses Poolside technology for $6B, absorbing engineers to build a leading open-weight model family (Nemotron) competing with DeepSeek/Kimi and OpenAI/Anthropic.",
+      "tags": [
+        "Nvidia",
+        "AI",
+        "Open Source Models",
+        "M&A",
+        "Competition"
       ]
     }
   ]
