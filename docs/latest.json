@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-23T22:11:59.522883+00:00",
-  "date": "2026-08-23",
-  "total_fetched": 34,
-  "important_count": 8,
+  "generated_at": "2026-08-24T22:16:16.175542+00:00",
+  "date": "2026-08-24",
+  "total_fetched": 39,
+  "important_count": 9,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,140 +10,157 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/23/summary-zh.html",
-      "path": "docs/_posts/2026-08-23-summary-zh.md"
+      "url": "2026/08/24/summary-zh.html",
+      "path": "docs/_posts/2026-08-24-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/23/summary-en.html",
-      "path": "docs/_posts/2026-08-23-summary-en.md"
+      "url": "2026/08/24/summary-en.html",
+      "path": "docs/_posts/2026-08-24-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "How Complex Systems Fail (1998)",
-      "title_zh": "复杂系统为何失效：经典文章",
-      "title_en": "Classic 1998 Essay: Why Complex Systems Fail—and Why Root Cause Analysis Falls Short",
-      "url": "https://how.complexsystems.fail/",
+      "title": "Executable Is a SQLite Database",
+      "title_zh": "把可执行文件变成SQLite数据库",
+      "title_en": "SQLite as an Executable Format: Self-Describing and Queryable",
+      "url": "https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database",
       "source": "hackernews",
       "score": 9.0,
-      "summary": "A classic essay on why complex systems inherently fail and how traditional root cause analysis is often counterproductive, with expert comments connecting it to chaos engineering and resilience practices.",
+      "summary": "Proposes and explores using SQLite as the container/format for an executable, leveraging its virtual tables and dynamic linking to create a self-describing, modifiable, and queryable binary format.",
       "tags": [
-        "complex systems",
-        "failure analysis",
-        "resilience engineering",
-        "chaos engineering",
-        "incident management"
+        "sqlite",
+        "executable",
+        "ELF",
+        "virtual-tables",
+        "file-format"
       ]
     },
     {
-      "title": "What Is a Harness?",
-      "title_zh": "什么是智能体框架？解析 AI 智能体基础设施",
-      "title_en": "What Is a Harness? AI Agent Infrastructure Explained",
-      "url": "https://earendil.com/posts/what-is-a-harness/",
+      "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
+      "title_zh": "小米XRing O3处理器据称单核追平苹果，多核领先",
+      "title_en": "Xiaomi's XRing O3 CPU reportedly matches Apple in single-core, leads in multi-core",
+      "url": "https://twitter.com/lemire/status/2091894299289874926",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Explores the concept of a 'harness' in AI systems, drawing parallels to chassis/engine and electricity/electronics, with community insights on building internal CLIs and agent handoff challenges.",
+      "summary": "Xiaomi's new CPU reportedly matches Apple's single-core performance and exceeds it in multithreaded benchmarks, drawing attention to its competitive impact despite open questions about power consumption.",
       "tags": [
-        "ai-agents",
-        "llm",
-        "agent-harness",
-        "software-engineering"
-      ]
-    },
-    {
-      "title": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day",
-      "title_zh": "四个AI模型花266美元破解Fire HD平板，GLM-5.3一天完成",
-      "title_en": "AI Models Root Fire HD Tablet for $266; GLM-5.3 Finishes in a Day",
-      "url": "https://ericpardee.github.io/fire-hd-ownership/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "An individual used four AI models to exploit and root a Fire HD tablet, with GLM-5.3 completing the task in a day.",
-      "tags": [
-        "AI",
-        "security",
-        "exploit-development",
-        "reverse-engineering",
-        "open-source"
-      ]
-    },
-    {
-      "title": "Slovakia finds Russian backdoor in traffic speed cameras",
-      "title_zh": "斯洛伐克在交通超速摄像头中发现俄罗斯后门",
-      "title_en": "Slovakia Finds Russian Backdoor in Traffic Speed Cameras",
-      "url": "https://risky.biz/risky-bulletin-slovakia-finds-russian-backdoor-in-traffic-speed-cameras/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Slovakia discovered Russian backdoors in traffic speed cameras, exposing supply chain vulnerabilities in critical infrastructure.",
-      "tags": [
-        "cybersecurity",
-        "supply chain security",
-        "backdoor",
-        "critical infrastructure",
-        "open-source firmware"
-      ]
-    },
-    {
-      "title": "MartyPC is a cross-platform emulator of early PCs written in Rust",
-      "title_zh": "MartyPC：用Rust编写的早期PC循环精确模拟器",
-      "title_en": "MartyPC: Cycle-Accurate Early PC Emulator Written in Rust",
-      "url": "https://martypc.net/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "MartyPC is a Rust-based cross-platform emulator of early PCs, notable for its pursuit of cycle-accurate emulation validated against real hardware harnesses.",
-      "tags": [
-        "emulation",
-        "Rust",
-        "retrocomputing",
         "hardware",
-        "open-source"
+        "CPU",
+        "Xiaomi",
+        "Apple",
+        "semiconductors"
       ]
     },
     {
-      "title": "乌兰察布成中国 AI 算力热土，中企承诺容量 12.5 吉瓦超星际之门",
-      "title_zh": "乌兰察布成为中国AI算力枢纽，承诺容量12.5吉瓦",
-      "title_en": "Ulanqab Emerges as China's AI Data Center Hub with 12.5 GW Capacity",
-      "url": "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/",
-      "source": "telegram",
+      "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
+      "title_zh": "MS Paint 与照片应用在 AI 编辑图片中嵌入隐形 GUID 水印",
+      "title_en": "MS Paint and Photos Embed Invisible GUID Watermarks into AI-Edited Images",
+      "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "Ulanqab, Inner Mongolia has become a central hub for China's AI data centers, with committed capacity of 12.5 GW surpassing OpenAI's Stargate, but faces water scarcity and coal dependency challenges.",
+      "summary": "MS Paint and Photos silently embed invisible GUID watermarks into locally AI-edited images, enabling provenance tracing and raising privacy concerns.",
       "tags": [
-        "AI infrastructure",
-        "Data centers",
-        "China tech",
-        "Cloud computing",
-        "Energy"
+        "watermarking",
+        "privacy",
+        "microsoft",
+        "forensics",
+        "ai"
       ]
     },
     {
-      "title": "英伟达通知大客户 AI 服务器涨价，涨幅普遍超 15%",
-      "title_zh": "英伟达AI服务器涨价超15% 内存成本飙升所致",
-      "title_en": "Nvidia Hikes AI Server Prices Over 15% as Memory Costs Soar",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-22/nvidia-customers-notified-about-ai-related-price-hikes-above-15",
-      "source": "telegram",
+      "title": "The entire city of San Francisco as a video game",
+      "title_zh": "旧金山全城变身可玩网页游戏",
+      "title_en": "San Francisco Cityscape Turns into a Playable Web Game",
+      "url": "https://sf.thijs.gg/",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "Nvidia has notified major customers of AI server price increases exceeding 15% due to rising memory chip costs, affecting upcoming systems with Vera Rubin and Grace Blackwell chips.",
+      "summary": "A web-based project that renders all of San Francisco as a playable video game using real GIS data, drawing significant community engagement and discussion.",
       "tags": [
-        "Nvidia",
-        "AI hardware",
-        "memory chips",
-        "pricing",
-        "data center"
+        "San Francisco",
+        "video game",
+        "GIS",
+        "procedural generation",
+        "game development"
       ]
     },
     {
-      "title": "♻️ 英伟达 60 亿美元获 Poolside 技术授权，打造对标中国开源模型的美国方案",
-      "title_zh": "英伟达60亿美元授权Poolside技术，打造美国开源权重模型以对抗中国AI",
-      "title_en": "Nvidia spends $6B to license Poolside tech, builds US rival to Chinese open-weight AI",
-      "url": "https://www.wsj.com/tech/ai/nvidia-is-spending-6-billion-to-build-a-powerful-u-s-alternative-to-chinese-ai-c51c38cc",
+      "title": "SeL4 security proofs now complete on AArch64",
+      "title_zh": "seL4在AArch64上的安全证明已完成",
+      "title_en": "seL4 Security Proofs Completed for AArch64",
+      "url": "https://proofcraft.systems/news-2026/#2026-08-21",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "seL4's complete security proofs on AArch64 mark a significant step forward in formally verified microkernels.",
+      "tags": [
+        "formal verification",
+        "seL4",
+        "microkernel",
+        "AArch64",
+        "security"
+      ]
+    },
+    {
+      "title": "Coding expertise is going to collapse from AI reliance",
+      "title_zh": "依赖AI编程将导致编码专业知识崩塌",
+      "title_en": "AI Reliance Will Collapse Coding Expertise, Article Warns",
+      "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Argues that excessive reliance on AI coding tools will erode deep coding expertise and create unsustainable engineering practices.",
+      "tags": [
+        "AI coding",
+        "software engineering",
+        "LLMs",
+        "developer expertise",
+        "industry trends"
+      ]
+    },
+    {
+      "title": "AgentX - InferenceXv3: Does CUDA Moat Hold up in Agentic Inferencing?",
+      "title_zh": "AgentX：CUDA 护城河能否经受 Agentic 推理考验？",
+      "title_en": "AgentX: Does CUDA Moat Survive Agentic Inference?",
+      "url": "https://newsletter.semianalysis.com/p/agentx-inferencexv3-does-cuda-moat",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "This analysis examines whether NVIDIA's CUDA ecosystem retains its competitive advantage in agentic inference, backed by an open-sourced dataset and performance benchmarks across leading hardware.",
+      "tags": [
+        "AI inference",
+        "CUDA",
+        "agentic AI",
+        "GPU hardware",
+        "machine learning systems"
+      ]
+    },
+    {
+      "title": "Delay-corrected Bellman operator + causal attribution for constrained RL contraction proof under unknown stochastic delay [R]",
+      "title_zh": "CCPL：延迟校正Bellman算子与因果归因用于受限强化学习",
+      "title_en": "CCPL: Delay-Corrected Bellman Operator and Causal Attribution for Constrained RL",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vx11hz/delaycorrected_bellman_operator_causal/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "Introduces CCPL, a constrained RL approach with a delay-corrected Bellman operator and causal attribution network for handling delayed stochastic consequences.",
+      "tags": [
+        "reinforcement learning",
+        "constrained RL",
+        "causal inference",
+        "Bellman operator",
+        "stochastic delay"
+      ]
+    },
+    {
+      "title": "Hugging Face 探索出售，估值或达 130 亿美元",
+      "title_zh": "Hugging Face 探索出售，估值或超130亿美元",
+      "title_en": "Hugging Face Explores Sale at $13B+ Valuation",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-23/hugging-face-gauging-interest-for-potential-sale-business-insider-says",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Nvidia invests $1B and licenses Poolside technology for $6B, absorbing engineers to build a leading open-weight model family (Nemotron) competing with DeepSeek/Kimi and OpenAI/Anthropic.",
+      "summary": "Hugging Face is exploring a potential sale at a valuation of $13 billion or more, according to Bloomberg.",
       "tags": [
-        "Nvidia",
+        "Hugging Face",
         "AI",
-        "Open Source Models",
         "M&A",
-        "Competition"
+        "LLM",
+        "Valuation"
       ]
     }
   ]
