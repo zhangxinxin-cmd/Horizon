@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T22:16:16.175542+00:00",
-  "date": "2026-08-24",
+  "generated_at": "2026-08-25T22:17:01.406353+00:00",
+  "date": "2026-08-25",
   "total_fetched": 39,
-  "important_count": 9,
+  "important_count": 8,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,157 +10,139 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/24/summary-zh.html",
-      "path": "docs/_posts/2026-08-24-summary-zh.md"
+      "url": "2026/08/25/summary-zh.html",
+      "path": "docs/_posts/2026-08-25-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/24/summary-en.html",
-      "path": "docs/_posts/2026-08-24-summary-en.md"
+      "url": "2026/08/25/summary-en.html",
+      "path": "docs/_posts/2026-08-25-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Executable Is a SQLite Database",
-      "title_zh": "把可执行文件变成SQLite数据库",
-      "title_en": "SQLite as an Executable Format: Self-Describing and Queryable",
-      "url": "https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "Proposes and explores using SQLite as the container/format for an executable, leveraging its virtual tables and dynamic linking to create a self-describing, modifiable, and queryable binary format.",
-      "tags": [
-        "sqlite",
-        "executable",
-        "ELF",
-        "virtual-tables",
-        "file-format"
-      ]
-    },
-    {
-      "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
-      "title_zh": "小米XRing O3处理器据称单核追平苹果，多核领先",
-      "title_en": "Xiaomi's XRing O3 CPU reportedly matches Apple in single-core, leads in multi-core",
-      "url": "https://twitter.com/lemire/status/2091894299289874926",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Xiaomi's new CPU reportedly matches Apple's single-core performance and exceeds it in multithreaded benchmarks, drawing attention to its competitive impact despite open questions about power consumption.",
-      "tags": [
-        "hardware",
-        "CPU",
-        "Xiaomi",
-        "Apple",
-        "semiconductors"
-      ]
-    },
-    {
-      "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
-      "title_zh": "MS Paint 与照片应用在 AI 编辑图片中嵌入隐形 GUID 水印",
-      "title_en": "MS Paint and Photos Embed Invisible GUID Watermarks into AI-Edited Images",
-      "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "MS Paint and Photos silently embed invisible GUID watermarks into locally AI-edited images, enabling provenance tracing and raising privacy concerns.",
-      "tags": [
-        "watermarking",
-        "privacy",
-        "microsoft",
-        "forensics",
-        "ai"
-      ]
-    },
-    {
-      "title": "The entire city of San Francisco as a video game",
-      "title_zh": "旧金山全城变身可玩网页游戏",
-      "title_en": "San Francisco Cityscape Turns into a Playable Web Game",
-      "url": "https://sf.thijs.gg/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A web-based project that renders all of San Francisco as a playable video game using real GIS data, drawing significant community engagement and discussion.",
-      "tags": [
-        "San Francisco",
-        "video game",
-        "GIS",
-        "procedural generation",
-        "game development"
-      ]
-    },
-    {
-      "title": "SeL4 security proofs now complete on AArch64",
-      "title_zh": "seL4在AArch64上的安全证明已完成",
-      "title_en": "seL4 Security Proofs Completed for AArch64",
-      "url": "https://proofcraft.systems/news-2026/#2026-08-21",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "seL4's complete security proofs on AArch64 mark a significant step forward in formally verified microkernels.",
-      "tags": [
-        "formal verification",
-        "seL4",
-        "microkernel",
-        "AArch64",
-        "security"
-      ]
-    },
-    {
-      "title": "Coding expertise is going to collapse from AI reliance",
-      "title_zh": "依赖AI编程将导致编码专业知识崩塌",
-      "title_en": "AI Reliance Will Collapse Coding Expertise, Article Warns",
-      "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Argues that excessive reliance on AI coding tools will erode deep coding expertise and create unsustainable engineering practices.",
-      "tags": [
-        "AI coding",
-        "software engineering",
-        "LLMs",
-        "developer expertise",
-        "industry trends"
-      ]
-    },
-    {
-      "title": "AgentX - InferenceXv3: Does CUDA Moat Hold up in Agentic Inferencing?",
-      "title_zh": "AgentX：CUDA 护城河能否经受 Agentic 推理考验？",
-      "title_en": "AgentX: Does CUDA Moat Survive Agentic Inference?",
-      "url": "https://newsletter.semianalysis.com/p/agentx-inferencexv3-does-cuda-moat",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "This analysis examines whether NVIDIA's CUDA ecosystem retains its competitive advantage in agentic inference, backed by an open-sourced dataset and performance benchmarks across leading hardware.",
-      "tags": [
-        "AI inference",
-        "CUDA",
-        "agentic AI",
-        "GPU hardware",
-        "machine learning systems"
-      ]
-    },
-    {
-      "title": "Delay-corrected Bellman operator + causal attribution for constrained RL contraction proof under unknown stochastic delay [R]",
-      "title_zh": "CCPL：延迟校正Bellman算子与因果归因用于受限强化学习",
-      "title_en": "CCPL: Delay-Corrected Bellman Operator and Causal Attribution for Constrained RL",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vx11hz/delaycorrected_bellman_operator_causal/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "Introduces CCPL, a constrained RL approach with a delay-corrected Bellman operator and causal attribution network for handling delayed stochastic consequences.",
-      "tags": [
-        "reinforcement learning",
-        "constrained RL",
-        "causal inference",
-        "Bellman operator",
-        "stochastic delay"
-      ]
-    },
-    {
-      "title": "Hugging Face 探索出售，估值或达 130 亿美元",
-      "title_zh": "Hugging Face 探索出售，估值或超130亿美元",
-      "title_en": "Hugging Face Explores Sale at $13B+ Valuation",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/hugging-face-gauging-interest-for-potential-sale-business-insider-says",
+      "title": "♻️ 英伟达首测 Vera Rubin NVL72，DeepSeek 实测吞吐暴涨 30 倍",
+      "title_zh": "英伟达Vera Rubin NVL72首测：吞吐提升30倍、成本降低35倍",
+      "title_en": "NVIDIA Vera Rubin NVL72 Debuts: 30x Throughput Gain on DeepSeek AI",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
       "source": "telegram",
-      "score": 8.0,
-      "summary": "Hugging Face is exploring a potential sale at a valuation of $13 billion or more, according to Bloomberg.",
+      "score": 9.0,
+      "summary": "NVIDIA's first Vera Rubin NVL72 benchmark shows 30x throughput gain on DeepSeek coding agents and 35x cost reduction, alongside Groq 3 LPX and SpaceX deployment announcements.",
       "tags": [
-        "Hugging Face",
-        "AI",
-        "M&A",
-        "LLM",
-        "Valuation"
+        "NVIDIA",
+        "Vera Rubin",
+        "AI hardware",
+        "DeepSeek",
+        "inference"
+      ]
+    },
+    {
+      "title": "FDA authorizes first wearable device that monitors ketone and blood sugar levels",
+      "title_zh": "FDA批准首款可穿戴设备，持续监测酮体和血糖",
+      "title_en": "FDA Authorizes First Wearable to Continuously Monitor Ketones and Blood Sugar",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "FDA authorizes the first wearable device that continuously monitors both ketone levels and blood sugar, marking a notable advancement in diabetes and metabolic health management.",
+      "tags": [
+        "healthcare",
+        "wearables",
+        "FDA",
+        "diabetes",
+        "medical-devices"
+      ]
+    },
+    {
+      "title": "Apple introduces M6 and M5 Ultra",
+      "title_zh": "苹果发布M6和M5 Ultra，性能与AI算力大幅跃升",
+      "title_en": "Apple unveils M6 and M5 Ultra, boosting performance and AI compute",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Apple introduces M6 and M5 Ultra chips, promising significant performance and AI compute gains, sparking extensive community discussion.",
+      "tags": [
+        "Apple Silicon",
+        "Hardware",
+        "AI Compute",
+        "Performance"
+      ]
+    },
+    {
+      "title": "OpenAI Jalapeño: Better than Nvidia Blackwell",
+      "title_zh": "OpenAI的Jalapeño芯片宣称能效优于英伟达Blackwell",
+      "title_en": "OpenAI's Jalapeño chip claims efficiency edge over Nvidia Blackwell",
+      "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "SemiAnalysis examines OpenAI's custom Jalapeño ASIC, comparing its TCO and performance per MW against Nvidia's Blackwell/Rubin, sparking discussion on the future of inference chips.",
+      "tags": [
+        "AI hardware",
+        "OpenAI",
+        "semiconductors",
+        "Nvidia",
+        "custom chips"
+      ]
+    },
+    {
+      "title": "New Mac Studio with M5 Max and M5 Ultra",
+      "title_zh": "苹果发布搭载M5 Max与M5 Ultra的新Mac Studio，主打本地AI",
+      "title_en": "Apple Unveils Mac Studio with M5 Max and M5 Ultra for Local AI",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Apple announces the new Mac Studio with M5 Max and M5 Ultra, emphasizing powerful local AI performance with up to 1.2TB/s memory bandwidth.",
+      "tags": [
+        "Apple",
+        "Mac Studio",
+        "M5 Ultra",
+        "Local AI",
+        "Hardware"
+      ]
+    },
+    {
+      "title": "Nitter project received cease and desist",
+      "title_zh": "Nitter 收到停止函后全面下线",
+      "title_en": "Nitter Shuts Down After Cease-and-Desist Letters",
+      "url": "https://github.com/zedeus/nitter/issues/1442",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "The Nitter project received cease-and-desist letters, likely from X/Twitter, causing all instances to go down and sparking debate about the future of privacy-focused alternative frontends.",
+      "tags": [
+        "Nitter",
+        "Twitter",
+        "legal",
+        "open-source",
+        "privacy"
+      ]
+    },
+    {
+      "title": "Firefox 157 will include JPEG XL by default on all platforms",
+      "title_zh": "Firefox 157 将在所有平台默认启用 JPEG XL",
+      "title_en": "Firefox 157 will enable JPEG XL by default on all platforms",
+      "url": "https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA?pli=1",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Firefox 157 will enable JPEG XL by default on all platforms, a notable step forward for the modern image format's adoption.",
+      "tags": [
+        "browsers",
+        "jpeg-xl",
+        "firefox",
+        "image formats",
+        "web standards"
+      ]
+    },
+    {
+      "title": "Starbase, LA",
+      "title_zh": "SpaceX 正式宣布在路易斯安那州设立 Starbase LA 发射场",
+      "title_en": "SpaceX Officially Announces Starbase LA Launch Site in Louisiana",
+      "url": "https://www.spacex.com/sites/starbase-la",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "SpaceX officially announces Starbase LA, a new launch facility in Louisiana, sparking widespread community discussion about its technical and economic significance.",
+      "tags": [
+        "SpaceX",
+        "aerospace",
+        "infrastructure",
+        "Louisiana"
       ]
     }
   ]
