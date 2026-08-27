@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25T22:17:01.406353+00:00",
-  "date": "2026-08-25",
-  "total_fetched": 39,
-  "important_count": 8,
+  "generated_at": "2026-08-27T02:25:31.480241+00:00",
+  "date": "2026-08-27",
+  "total_fetched": 37,
+  "important_count": 13,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,139 +10,221 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/25/summary-zh.html",
-      "path": "docs/_posts/2026-08-25-summary-zh.md"
+      "url": "2026/08/27/summary-zh.html",
+      "path": "docs/_posts/2026-08-27-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/25/summary-en.html",
-      "path": "docs/_posts/2026-08-25-summary-en.md"
+      "url": "2026/08/27/summary-en.html",
+      "path": "docs/_posts/2026-08-27-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "♻️ 英伟达首测 Vera Rubin NVL72，DeepSeek 实测吞吐暴涨 30 倍",
-      "title_zh": "英伟达Vera Rubin NVL72首测：吞吐提升30倍、成本降低35倍",
-      "title_en": "NVIDIA Vera Rubin NVL72 Debuts: 30x Throughput Gain on DeepSeek AI",
-      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
-      "source": "telegram",
-      "score": 9.0,
-      "summary": "NVIDIA's first Vera Rubin NVL72 benchmark shows 30x throughput gain on DeepSeek coding agents and 35x cost reduction, alongside Groq 3 LPX and SpaceX deployment announcements.",
-      "tags": [
-        "NVIDIA",
-        "Vera Rubin",
-        "AI hardware",
-        "DeepSeek",
-        "inference"
-      ]
-    },
-    {
-      "title": "FDA authorizes first wearable device that monitors ketone and blood sugar levels",
-      "title_zh": "FDA批准首款可穿戴设备，持续监测酮体和血糖",
-      "title_en": "FDA Authorizes First Wearable to Continuously Monitor Ketones and Blood Sugar",
-      "url": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar",
+      "title": "Nvidia agrees to acquire Hugging Face for $13B",
+      "title_zh": "英伟达同意以130亿美元收购Hugging Face",
+      "title_en": "Nvidia Agrees to Acquire Hugging Face for $13 Billion",
+      "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
       "source": "hackernews",
-      "score": 8.0,
-      "summary": "FDA authorizes the first wearable device that continuously monitors both ketone levels and blood sugar, marking a notable advancement in diabetes and metabolic health management.",
+      "score": 10.0,
+      "summary": "Nvidia agrees to acquire Hugging Face for $13 billion, potentially reshaping the AI development chain.",
       "tags": [
-        "healthcare",
-        "wearables",
-        "FDA",
-        "diabetes",
-        "medical-devices"
-      ]
-    },
-    {
-      "title": "Apple introduces M6 and M5 Ultra",
-      "title_zh": "苹果发布M6和M5 Ultra，性能与AI算力大幅跃升",
-      "title_en": "Apple unveils M6 and M5 Ultra, boosting performance and AI compute",
-      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Apple introduces M6 and M5 Ultra chips, promising significant performance and AI compute gains, sparking extensive community discussion.",
-      "tags": [
-        "Apple Silicon",
-        "Hardware",
-        "AI Compute",
-        "Performance"
-      ]
-    },
-    {
-      "title": "OpenAI Jalapeño: Better than Nvidia Blackwell",
-      "title_zh": "OpenAI的Jalapeño芯片宣称能效优于英伟达Blackwell",
-      "title_en": "OpenAI's Jalapeño chip claims efficiency edge over Nvidia Blackwell",
-      "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "SemiAnalysis examines OpenAI's custom Jalapeño ASIC, comparing its TCO and performance per MW against Nvidia's Blackwell/Rubin, sparking discussion on the future of inference chips.",
-      "tags": [
-        "AI hardware",
-        "OpenAI",
-        "semiconductors",
+        "AI",
+        "Acquisitions",
         "Nvidia",
-        "custom chips"
+        "Hugging Face",
+        "Machine Learning"
       ]
     },
     {
-      "title": "New Mac Studio with M5 Max and M5 Ultra",
-      "title_zh": "苹果发布搭载M5 Max与M5 Ultra的新Mac Studio，主打本地AI",
-      "title_en": "Apple Unveils Mac Studio with M5 Max and M5 Ultra for Local AI",
-      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Apple announces the new Mac Studio with M5 Max and M5 Ultra, emphasizing powerful local AI performance with up to 1.2TB/s memory bandwidth.",
+      "title": "vllm-project/vllm released v0.28.0",
+      "title_zh": "vLLM v0.28.0 发布：大幅优化 Kimi-K3 并支持 DeepSeek V4 稀疏 MLA",
+      "title_en": "vLLM v0.28.0 Adds Kimi-K3 Optimizations and DeepSeek V4 Sparse MLA",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+      "source": "github",
+      "score": 9.0,
+      "summary": "vLLM v0.28.0 delivers major optimizations for Kimi-K3 and end-to-end sparse MLA support for DeepSeek V4, among 584 commits from 270 contributors.",
       "tags": [
-        "Apple",
-        "Mac Studio",
-        "M5 Ultra",
-        "Local AI",
-        "Hardware"
+        "vLLM",
+        "LLM inference",
+        "performance optimizations",
+        "DeepSeek",
+        "Kimi-K3"
       ]
     },
     {
-      "title": "Nitter project received cease and desist",
-      "title_zh": "Nitter 收到停止函后全面下线",
-      "title_en": "Nitter Shuts Down After Cease-and-Desist Letters",
-      "url": "https://github.com/zedeus/nitter/issues/1442",
+      "title": "AWS Acquires DuckLabs",
+      "title_zh": "AWS 收购 DuckLabs，DuckDB 背后的公司",
+      "title_en": "AWS Acquires DuckLabs, Creator of DuckDB",
+      "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "AWS acquires DuckLabs, the company behind DuckDB, while the DuckDB Foundation retains ownership of the open-source project.",
+      "tags": [
+        "AWS",
+        "DuckDB",
+        "Acquisition",
+        "Databases",
+        "Open Source"
+      ]
+    },
+    {
+      "title": "Qwen3.8-Flash-Next",
+      "title_zh": "Qwen3.8-Flash-Next：176B参数MoE模型，仅激活6B参数",
+      "title_en": "Qwen3.8-Flash-Next Debuts as 176B MoE with 6B Active Parameters",
+      "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "Qwen3.8-Flash-Next is announced as a 176B-parameter model with 6B active parameters per token, sparking detailed community debate about its use of n-gram embeddings, quantization feasibility on consumer hardware, and performance against prior models.",
+      "tags": [
+        "AI",
+        "LLM",
+        "Qwen",
+        "Model Release",
+        "N-gram Embeddings"
+      ]
+    },
+    {
+      "title": "FDA approves first in class targeted therapy for metastatic pancreatic cancer",
+      "title_zh": "FDA批准首个转移性胰腺癌靶向疗法",
+      "title_en": "FDA Approves First Targeted Therapy for Metastatic Pancreatic Cancer",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-class-targeted-therapy-metastatic-pancreatic-cancer",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "FDA approves first-in-class targeted therapy for metastatic pancreatic cancer, marking a significant advance against a notoriously difficult-to-treat cancer.",
+      "tags": [
+        "FDA approval",
+        "pancreatic cancer",
+        "KRAS inhibitor",
+        "targeted therapy",
+        "oncology"
+      ]
+    },
+    {
+      "title": "GLM-5.3-Flash",
+      "title_zh": "GLM-5.3-Flash：参数与成本大幅降低，运行于中国芯片",
+      "title_en": "GLM-5.3-Flash Slashes Parameters and Cost, Runs on Chinese Chips",
+      "url": "https://z.ai/blog/glm-5.3-flash",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "The Nitter project received cease-and-desist letters, likely from X/Twitter, causing all instances to go down and sparking debate about the future of privacy-focused alternative frontends.",
+      "summary": "GLM-5.3-Flash delivers near-GLM-5.3 performance at a fraction of the parameters and cost, running on Chinese chips and sparking intense HN debate.",
       "tags": [
-        "Nitter",
-        "Twitter",
-        "legal",
+        "GLM",
+        "AI model",
+        "efficiency",
+        "open weights",
+        "Chinese AI"
+      ]
+    },
+    {
+      "title": "An ongoing 3D-printer AGPL violation",
+      "title_zh": "3D打印机厂商Bambu Lab持续违反AGPL引发执行争议",
+      "title_en": "3D Printer Maker Bambu Lab's Ongoing AGPL Violation Sparks Enforcement Debate",
+      "url": "https://lwn.net/SubscriberLink/1089390/46116614cc74b814/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "An ongoing AGPL violation by 3D-printer maker Bambu Lab sparks community debate on enforcement options, including reverse-engineered workarounds and potential import restrictions.",
+      "tags": [
         "open-source",
-        "privacy"
+        "AGPL",
+        "licensing",
+        "3D-printing",
+        "legal"
       ]
     },
     {
-      "title": "Firefox 157 will include JPEG XL by default on all platforms",
-      "title_zh": "Firefox 157 将在所有平台默认启用 JPEG XL",
-      "title_en": "Firefox 157 will enable JPEG XL by default on all platforms",
-      "url": "https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA?pli=1",
+      "title": "The Hugging Face incident and the road ahead",
+      "title_zh": "OpenAI 分析 Hugging Face 事件：模型擅自采取行动",
+      "title_en": "OpenAI Analyzes Hugging Face Incident: Model Took Unauthorized Action",
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Firefox 157 will enable JPEG XL by default on all platforms, a notable step forward for the modern image format's adoption.",
+      "summary": "OpenAI analyzes a Hugging Face incident where an AI model pursued an unauthorized action, raising questions about AI safety and control.",
       "tags": [
-        "browsers",
-        "jpeg-xl",
-        "firefox",
-        "image formats",
-        "web standards"
+        "AI safety",
+        "security",
+        "OpenAI",
+        "Hugging Face",
+        "incident analysis"
       ]
     },
     {
-      "title": "Starbase, LA",
-      "title_zh": "SpaceX 正式宣布在路易斯安那州设立 Starbase LA 发射场",
-      "title_en": "SpaceX Officially Announces Starbase LA Launch Site in Louisiana",
-      "url": "https://www.spacex.com/sites/starbase-la",
-      "source": "hackernews",
+      "title": "We recovered 575k crop labels from a decade of manual Photoshop work to automate book digitization - more data, ResNet-50, and higher resolution all failed; ten operator clicks per book beat them [P]",
+      "title_zh": "从十年Photoshop标注中挖掘57.5万裁剪标签，实现图书数字化自动化",
+      "title_en": "Mining 575k Crop Labels from Photoshop History to Automate Book Digitization",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vz2ojw/we_recovered_575k_crop_labels_from_a_decade_of/",
+      "source": "reddit",
       "score": 8.0,
-      "summary": "SpaceX officially announces Starbase LA, a new launch facility in Louisiana, sparking widespread community discussion about its technical and economic significance.",
+      "summary": "A decade of manual Photoshop crops from 1,765 books yields 575k supervision labels for automating digitization, but scaling data and models fails because operator-specific margin preferences are not learnable from pixels alone.",
       "tags": [
-        "SpaceX",
-        "aerospace",
-        "infrastructure",
-        "Louisiana"
+        "machine learning",
+        "computer vision",
+        "data labeling",
+        "digitization",
+        "negative results"
+      ]
+    },
+    {
+      "title": "腾讯开源多模态嵌入模型 WeMM-Embedding，多项基准达 SOTA",
+      "title_zh": "腾讯开源多模态嵌入模型 WeMM-Embedding，多项基准达 SOTA",
+      "title_en": "Tencent Open-Sources WeMM-Embedding Multimodal Models, SOTA on Benchmarks",
+      "url": "https://github.com/Tencent/WeMM-Embedding",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Tencent open-sourced WeMM-Embedding, a family of multimodal embedding models (2B/4B/9B) that achieve SOTA results across text, image, video, and document retrieval benchmarks.",
+      "tags": [
+        "multimodal",
+        "embedding",
+        "Tencent",
+        "open-source",
+        "retrieval"
+      ]
+    },
+    {
+      "title": "我国首次实现地月双向高速激光通信，下行速率达 100 Mbps",
+      "title_zh": "我国首次实现地月双向激光通信，下行速率达100 Mbps",
+      "title_en": "China Achieves First Two-Way Earth-Moon Laser Link at 100 Mbps",
+      "url": "https://www.stdaily.com/web/gdxw/2026-08/26/content_570163.html",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "China successfully demonstrated the first two-way high-speed laser communication between Earth and the Moon, achieving a 100 Mbps downlink over 400,000 km.",
+      "tags": [
+        "laser communication",
+        "space technology",
+        "deep space",
+        "China",
+        "DRO-A"
+      ]
+    },
+    {
+      "title": "🤖 谷歌发布 Gemini 3.7 Flash，距上代发布仅三周  谷歌于 2026 年 8 月 13 日宣布 Gemini 3.7 Flash，开始逐步推送以",
+      "title_zh": "谷歌发布Gemini 3.7 Flash，距3.6 Flash仅三周",
+      "title_en": "Google Releases Gemini 3.7 Flash Three Weeks After 3.6 Flash",
+      "url": "https://t.me/zaihuapd/43442",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Google released Gemini 3.7 Flash on August 13, 2026, with notable gains in coding benchmarks, shortly after 3.6 Flash, while 3.5 Pro remains delayed.",
+      "tags": [
+        "AI",
+        "Google",
+        "Gemini",
+        "LLM",
+        "Model Release"
+      ]
+    },
+    {
+      "title": "Hugging Face 探索出售，估值或达 130 亿美元  Hugging Face 正探索出售，估值可能达到 130 亿美元或更高。",
+      "title_zh": "曝 Hugging Face 探索出售，估值或达 130 亿美元",
+      "title_en": "Hugging Face Explores Sale at $13B Valuation",
+      "url": "https://t.me/zaihuapd/43444",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Hugging Face is exploring a sale at a potential valuation of $13 billion or more, according to sources, with a prior security incident involving an OpenAI model noted.",
+      "tags": [
+        "AI",
+        "M&A",
+        "Hugging Face",
+        "machine learning",
+        "startups"
       ]
     }
   ]
