@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-29T03:26:55.050026+00:00",
+  "generated_at": "2026-08-29T23:41:42.040278+00:00",
   "date": "2026-08-29",
-  "total_fetched": 30,
-  "important_count": 11,
+  "total_fetched": 23,
+  "important_count": 2,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -20,177 +20,33 @@
   },
   "items": [
     {
-      "title": "Htmx 4.0",
-      "title_zh": "Htmx 4.0 发布：超媒体驱动前端的重要里程碑",
-      "title_en": "Htmx 4.0 Released: Major Milestone for Hypermedia-Driven Frontend",
-      "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "Htmx 4.0 was released, marking a significant milestone for the popular hypermedia-driven frontend library.",
-      "tags": [
-        "htmx",
-        "frontend",
-        "hypermedia",
-        "web development",
-        "release"
-      ]
-    },
-    {
-      "title": "GLM-5.3 is now open-weight",
-      "title_zh": "Z.ai 发布开放权重模型 GLM-5.3，获社区高度评价",
-      "title_en": "Z.ai Releases GLM-5.3 as Open-Weight Model, Drawing Strong Community Praise",
-      "url": "https://huggingface.co/zai-org/GLM-5.3",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "Z.ai releases GLM-5.3 as an open-weight model, drawing strong community interest and positive technical feedback on its capabilities and token efficiency.",
-      "tags": [
-        "LLM",
-        "open-source",
-        "AI",
-        "GLM",
-        "HuggingFace"
-      ]
-    },
-    {
-      "title": "🐧 腾讯混元发布 Hy4 preview，盲测得分略胜 GLM-5.3 与 Kimi K3",
-      "title_zh": "腾讯发布开源Hy4 preview：770B参数，盲测略胜GLM-5.3与Kimi K3",
-      "title_en": "Tencent Releases Hy4 Preview, an Open-Source 770B-Parameter MoE Model",
-      "url": "https://mp.weixin.qq.com/s/ymr3X878B8oa2XP15CH8TQ",
-      "source": "telegram",
-      "score": 9.0,
-      "summary": "Tencent releases Hy4 preview, a powerful open-source model with 770B total parameters, slightly outperforming GLM-5.3 and Kimi K3 on engineering benchmarks.",
-      "tags": [
-        "LLM",
-        "AI",
-        "Tencent",
-        "Open Source",
-        "Model Release"
-      ]
-    },
-    {
-      "title": "triton-lang/triton released v3.8.0",
-      "title_zh": "Triton 3.8.0 发布：新增前端 API 与后端优化",
-      "title_en": "Triton 3.8.0 Released with New Frontend APIs and Backend Optimizations",
-      "url": "https://github.com/triton-lang/triton/releases/tag/v3.8.0",
-      "source": "github",
-      "score": 8.0,
-      "summary": "Triton 3.8.0 delivers new frontend APIs, backend enhancements, and performance improvements for GPU computing.",
-      "tags": [
-        "GPU",
-        "AI/ML",
-        "compiler",
-        "Triton"
-      ]
-    },
-    {
-      "title": "GUIs should be fully keyboard-driven",
-      "title_zh": "图形界面应完全键盘驱动：呼吁无障碍与高效",
-      "title_en": "GUIs Should Be Fully Keyboard-Driven: For Accessibility and Efficiency",
-      "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A call for GUIs to be fully keyboard-driven to improve accessibility and efficiency, backed by a lively HN discussion on implementation challenges and OS-level support.",
-      "tags": [
-        "accessibility",
-        "UI/UX",
-        "keyboard navigation",
-        "software design",
-        "Hacker News discussion"
-      ]
-    },
-    {
-      "title": "U.S. sanctions against the A/I Collective",
-      "title_zh": "美国将意大利主机商Autistici/Inventati列为“全球恐怖分子”并实施制裁",
-      "title_en": "US Sanctions Italian Hosting Provider Autistici/Inventati as 'Global Terrorist'",
-      "url": "https://www.inventati.org/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "US sanctions against Italian hosting provider Autistici/Inventati spark widespread debate over the unprecedented targeting of infrastructure providers as terrorists.",
-      "tags": [
-        "sanctions",
-        "hosting",
-        "privacy",
-        "internet-freedom",
-        "policy"
-      ]
-    },
-    {
-      "title": "Just the rumour of a bug is enough to find an exploit these days",
-      "title_zh": "漏洞传闻即足以发现漏洞，LLM 加速威胁",
-      "title_en": "Rumors of Bugs Now Enough for Exploit Discovery, LLMs Accelerate Threat",
-      "url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "The post argues that rumors of bugs are now sufficient for attackers to discover and exploit them, especially with LLM assistance, creating a serious challenge for open source maintainers.",
-      "tags": [
-        "security",
-        "LLMs",
-        "exploits",
-        "open source",
-        "vulnerability discovery"
-      ]
-    },
-    {
-      "title": "Luanti removed from Google Play due to baseless AI copyright notice",
-      "title_zh": "Luanti 因一份毫无根据的 AI 生成版权通知被 Google Play 下架",
-      "title_en": "Luanti Removed from Google Play Over Baseless AI-Generated DMCA Notice",
-      "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Luanti was removed from Google Play due to a baseless AI-generated copyright notice, highlighting ongoing DMCA abuse and the impact on open-source projects.",
-      "tags": [
-        "DMCA",
-        "copyright",
-        "open-source",
-        "AI",
-        "Google Play"
-      ]
-    },
-    {
-      "title": "I implemented a very tiny image generation model (latent flow transformer) on a RP2350 microcontroller - it can generate 128x128 images of faces [P]",
-      "title_zh": "RP2350 上的微型潜流变换器可生成 128x128 人脸图像",
-      "title_en": "Tiny Latent Flow Transformer on RP2350 Generates 128x128 Faces",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w10tax/i_implemented_a_very_tiny_image_generation_model/",
+      "title": "You can beat SOTA Time Series Anomaly Detection methods with a 100 year old algorithm [R]",
+      "title_zh": "简单的百年SPC算法在TSB-AD基准上击败SOTA方法",
+      "title_en": "Simple 100-Year-Old SPC Algorithm Beats SOTA on TSB-AD Benchmark",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w1wt1s/you_can_beat_sota_time_series_anomaly_detection/",
       "source": "reddit",
       "score": 8.0,
-      "summary": "A latent flow transformer with 2.4-4M parameters is implemented on an RP2350 microcontroller to generate 128x128 images, using int8 quantization, streamed DMA, and sparsity-driven computation.",
+      "summary": "Claims that a simple 100-year-old Statistical Process Control algorithm outperforms SOTA time series anomaly detection methods on the TSB-AD benchmark, suggesting the benchmark is too trivial for meaningful evaluation.",
       "tags": [
-        "Embedded AI",
-        "Model Compression",
-        "Image Generation",
-        "Microcontrollers",
-        "Efficient Inference"
-      ]
-    },
-    {
-      "title": "Z.ai 发布 GLM-5.3-Flash，18B 激活参数价格仅上代十分之一，限时价格低至每百万 Tokens 输入 0.075 美元  Z.ai 发布 GL",
-      "title_zh": "Z.ai 发布 GLM-5.3-Flash，18B 激活参数，限时价格降至十分之一",
-      "title_en": "Z.ai Launches GLM-5.3-Flash MoE with 18B Active Parameters at One-Tenth Price",
-      "url": "https://t.me/zaihuapd/43471",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Z.ai released GLM-5.3-Flash, a multimodal MoE model with 18B active parameters, priced at one-tenth of its predecessor while claiming competitive performance.",
-      "tags": [
-        "AI",
-        "GLM",
-        "multimodal",
-        "LLM",
-        "API pricing"
+        "time series anomaly detection",
+        "benchmark evaluation",
+        "statistical process control",
+        "research critique"
       ]
     },
     {
       "title": "🤖 OpenAI 终止向 Cursor 提供模型，停服日期定为 2026 年 11 月 12 日",
-      "title_zh": "OpenAI 终止向 Cursor 提供模型，2026年11月停服",
-      "title_en": "OpenAI Ends Cursor Model Supply After SpaceX Acquisition, Set for November 2026",
+      "title_zh": "OpenAI 终止向 Cursor 提供模型，因 SpaceX 收购",
+      "title_en": "OpenAI Ends Cursor Model Supply After SpaceX Acquisition",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
       "source": "telegram",
       "score": 8.0,
-      "summary": "OpenAI terminates its model supply agreement with Cursor, citing concerns over SpaceX's compliance record after its acquisition, with service ending by November 2026.",
+      "summary": "OpenAI terminates its model supply contract with Cursor by November 2026 following SpaceX's acquisition, citing distrust of Musk's companies' compliance record.",
       "tags": [
         "OpenAI",
         "Cursor",
         "SpaceX",
-        "AI coding",
+        "AI",
         "Business"
       ]
     }
