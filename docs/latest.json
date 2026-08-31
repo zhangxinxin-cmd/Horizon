@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-29T23:41:42.040278+00:00",
-  "date": "2026-08-29",
-  "total_fetched": 23,
-  "important_count": 2,
+  "generated_at": "2026-08-31T00:02:13.352553+00:00",
+  "date": "2026-08-31",
+  "total_fetched": 29,
+  "important_count": 11,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,44 +10,189 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/29/summary-zh.html",
-      "path": "docs/_posts/2026-08-29-summary-zh.md"
+      "url": "2026/08/31/summary-zh.html",
+      "path": "docs/_posts/2026-08-31-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/29/summary-en.html",
-      "path": "docs/_posts/2026-08-29-summary-en.md"
+      "url": "2026/08/31/summary-en.html",
+      "path": "docs/_posts/2026-08-31-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "You can beat SOTA Time Series Anomaly Detection methods with a 100 year old algorithm [R]",
-      "title_zh": "简单的百年SPC算法在TSB-AD基准上击败SOTA方法",
-      "title_en": "Simple 100-Year-Old SPC Algorithm Beats SOTA on TSB-AD Benchmark",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w1wt1s/you_can_beat_sota_time_series_anomaly_detection/",
+      "title": "[R] Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
+      "title_zh": "开放世界环境中的AI智能体发现新的数学成果",
+      "title_en": "AI Agents in Open-World Environment Discover New Mathematical Results",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w2fl67/r_autonomous_mathematical_discovery_in_an/",
       "source": "reddit",
-      "score": 8.0,
-      "summary": "Claims that a simple 100-year-old Statistical Process Control algorithm outperforms SOTA time series anomaly detection methods on the TSB-AD benchmark, suggesting the benchmark is too trivial for meaningful evaluation.",
+      "score": 9.0,
+      "summary": "The paper presents an open-world multi-agent environment where AI agents autonomously discover new mathematical constructions and theorems across multiple problems, achieving results novel to prior literature.",
       "tags": [
-        "time series anomaly detection",
-        "benchmark evaluation",
-        "statistical process control",
-        "research critique"
+        "AI",
+        "Multi-Agent Systems",
+        "Mathematical Discovery",
+        "Machine Learning",
+        "Research"
       ]
     },
     {
-      "title": "🤖 OpenAI 终止向 Cursor 提供模型，停服日期定为 2026 年 11 月 12 日",
-      "title_zh": "OpenAI 终止向 Cursor 提供模型，因 SpaceX 收购",
-      "title_en": "OpenAI Ends Cursor Model Supply After SpaceX Acquisition",
-      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+      "title": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel",
+      "title_zh": "QubesOS披露复制到VM错误回传通道的任意代码执行漏洞",
+      "title_en": "QubesOS Discloses Arbitrary Code Execution via Copy-to-VM Error Backchannel",
+      "url": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "QubesOS discloses a vulnerability allowing arbitrary code execution via the copy-to-VM error reporting backchannel, affecting Dom0 operations.",
+      "tags": [
+        "security",
+        "vulnerability",
+        "QubesOS",
+        "arbitrary-code-execution",
+        "backchannel"
+      ]
+    },
+    {
+      "title": "European Commission Revives Push for Encryption Backdoors in ProtectEU Strategy",
+      "title_zh": "欧盟委员会在ProtectEU战略中重提加密后门计划",
+      "title_en": "European Commission Revives Encryption Backdoor Plan in ProtectEU Strategy",
+      "url": "https://reclaimthenet.org/eu-protecteu-strategy-encryption-backdoor-law-enforcement",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "The European Commission is reviving proposals for encryption backdoors under its ProtectEU strategy, drawing criticism from privacy advocates and security experts.",
+      "tags": [
+        "encryption",
+        "privacy",
+        "EU policy",
+        "security",
+        "surveillance"
+      ]
+    },
+    {
+      "title": "Omarchy: Any User Process Can Escalate to Root",
+      "title_zh": "Omarchy Linux 漏洞：任意用户进程可提权至 root",
+      "title_en": "Omarchy Linux Flaw Lets Any User Process Gain Root Access",
+      "url": "https://0xcc.io/posts/omarchy-root-creds/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A serious security flaw in Omarchy Linux allows any user process to escalate to root, prompting debate about the safety of hyped distros.",
+      "tags": [
+        "security",
+        "vulnerability",
+        "linux",
+        "root-escalation",
+        "omarchy"
+      ]
+    },
+    {
+      "title": "METR and Redwood Offer Holy %^ Postmortem of the HuggingFace Hack",
+      "title_zh": "METR与Redwood发布HuggingFace黑客事件事后分析",
+      "title_en": "METR and Redwood Analyze AI Agents in HuggingFace Hack Postmortem",
+      "url": "https://thezvi.wordpress.com/2026/08/29/metr-and-redwood-offer-holy-postmortem-of-the-huggingface-hack/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "METR and Redwood's postmortem of the HuggingFace hack analyzes AI agents' involvement and sparks debate on AI safety and structural failures.",
+      "tags": [
+        "AI safety",
+        "security",
+        "postmortem",
+        "HuggingFace hack",
+        "AI agents"
+      ]
+    },
+    {
+      "title": "Most Neoclouds Suck At Security",
+      "title_zh": "SemiAnalysis：多数Neocloud提供商安全性堪忧",
+      "title_en": "SemiAnalysis Exposes Security Flaws in Most Neoclouds",
+      "url": "https://newsletter.semianalysis.com/p/most-neoclouds-suck-at-security",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "Analysis of security weaknesses in neocloud providers, covering container escapes, kernel bypasses, network policies, and multi-tenant isolation issues.",
+      "tags": [
+        "security",
+        "cloud-computing",
+        "AI-infrastructure",
+        "containers",
+        "neoclouds"
+      ]
+    },
+    {
+      "title": "Reconstructing 3D bone geometry from 2 X-ray silhouettes using a statistical shape model + differentiable rendering [P]",
+      "title_zh": "基于统计形状模型与可微渲染从两张X光片重建三维骨骼",
+      "title_en": "Reconstructing 3D Bone Geometry from Two X-rays Using SSM and Differentiable Rendering",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w2go6l/reconstructing_3d_bone_geometry_from_2_xray/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "Presents a method to reconstruct 3D bone geometry from two X-ray silhouettes using a PCA shape model and differentiable rendering with PyTorch3D, achieving sub-1.5mm accuracy on held-out femurs.",
+      "tags": [
+        "differentiable rendering",
+        "statistical shape model",
+        "medical imaging",
+        "3D reconstruction",
+        "PyTorch3D"
+      ]
+    },
+    {
+      "title": "🤖 索尼音乐等起诉 Anthropic，指控用盗版歌词训练 Claude",
+      "title_zh": "索尼音乐等起诉Anthropic 指控用盗版书籍和歌词训练Claude",
+      "title_en": "Sony Music, Publishers Sue Anthropic Over Pirated Books and Lyrics",
+      "url": "https://www.musicbusinessworldwide.com/files/2026/08/COMPLAINT-in-Sony_Music_Publishing_US_LLC_e.pdf",
       "source": "telegram",
       "score": 8.0,
-      "summary": "OpenAI terminates its model supply contract with Cursor by November 2026 following SpaceX's acquisition, citing distrust of Musk's companies' compliance record.",
+      "summary": "Sony Music and other publishers sue Anthropic for allegedly using pirated lyrics and books to train Claude, seeking damages and an injunction.",
       "tags": [
-        "OpenAI",
-        "Cursor",
-        "SpaceX",
         "AI",
-        "Business"
+        "Copyright",
+        "Lawsuit",
+        "Anthropic",
+        "Training Data"
+      ]
+    },
+    {
+      "title": "丰田罕见在华率先产下一代电动车，雷克萨斯 SUV 2027 年投产",
+      "title_zh": "丰田率先在华产下一代电动车，雷克萨斯2027年投产",
+      "title_en": "Toyota to Build Next-Gen EVs in China First; Lexus SUV Starts 2027",
+      "url": "https://www.zaobao.com.sg/news/china/story20260830-9597099",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Toyota will produce its next-generation electric vehicles in China first, with a Lexus SUV to be built at a new Shanghai plant starting in 2027.",
+      "tags": [
+        "Toyota",
+        "Electric Vehicles",
+        "China",
+        "Manufacturing",
+        "Lexus"
+      ]
+    },
+    {
+      "title": "NASA罗曼空间望远镜搭乘猎鹰重型火箭升空，两枚侧助推器成功回收",
+      "title_zh": "NASA罗曼望远镜猎鹰重型发射成功，助推器同步回收",
+      "title_en": "NASA's Roman Space Telescope Launches on Falcon Heavy, Boosters Recovered",
+      "url": "https://weibo.com/6560646233/RfOLkeG70",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "NASA's Roman Space Telescope launched on a Falcon Heavy rocket, with both side boosters successfully recovered.",
+      "tags": [
+        "NASA",
+        "space telescope",
+        "launch",
+        "astronomy",
+        "SpaceX"
+      ]
+    },
+    {
+      "title": "🍏 苹果发布 M6 与 M5 Ultra 芯片，M6 首搭 2 纳米制程  Apple 在新 Mac mini 中首发 M6 芯片，并在新 Mac Studio",
+      "title_zh": "苹果发布 M6 与 M5 Ultra 芯片：M6 首搭 2nm，M5 Ultra 性能最强",
+      "title_en": "Apple unveils M6 (2nm) and M5 Ultra, its most powerful chip yet",
+      "url": "https://t.me/zaihuapd/43505",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Apple announces M6 and M5 Ultra chips, with M6 featuring 2nm process and M5 Ultra boasting the highest performance in the M series.",
+      "tags": [
+        "Apple",
+        "Silicon",
+        "M6",
+        "M5 Ultra",
+        "2nm"
       ]
     }
   ]
