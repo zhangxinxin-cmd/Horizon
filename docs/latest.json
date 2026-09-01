@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T00:02:13.352553+00:00",
-  "date": "2026-08-31",
-  "total_fetched": 29,
-  "important_count": 11,
+  "generated_at": "2026-09-01T00:55:12.936387+00:00",
+  "date": "2026-09-01",
+  "total_fetched": 37,
+  "important_count": 8,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,189 +10,140 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/08/31/summary-zh.html",
-      "path": "docs/_posts/2026-08-31-summary-zh.md"
+      "url": "2026/09/01/summary-zh.html",
+      "path": "docs/_posts/2026-09-01-summary-zh.md"
     },
     "en": {
-      "url": "2026/08/31/summary-en.html",
-      "path": "docs/_posts/2026-08-31-summary-en.md"
+      "url": "2026/09/01/summary-en.html",
+      "path": "docs/_posts/2026-09-01-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "[R] Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
-      "title_zh": "开放世界环境中的AI智能体发现新的数学成果",
-      "title_en": "AI Agents in Open-World Environment Discover New Mathematical Results",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w2fl67/r_autonomous_mathematical_discovery_in_an/",
-      "source": "reddit",
-      "score": 9.0,
-      "summary": "The paper presents an open-world multi-agent environment where AI agents autonomously discover new mathematical constructions and theorems across multiple problems, achieving results novel to prior literature.",
+      "title": "Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO",
+      "title_zh": "谷歌从Chrome应用商店移除MV2扩展，包括uBlock Origin",
+      "title_en": "Google Removes MV2 Extensions, Including uBlock Origin, from Chrome Web Store",
+      "url": "https://webiterate.dev/google-removed-extensions-ublock-origin-108/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Google has removed Manifest V2 extensions, including uBlock Origin, from the Chrome Web Store, sparking widespread user concern over ad blocking and browser control.",
       "tags": [
-        "AI",
-        "Multi-Agent Systems",
-        "Mathematical Discovery",
-        "Machine Learning",
-        "Research"
+        "Chrome",
+        "Manifest V3",
+        "uBlock Origin",
+        "Ad Blocking",
+        "Browser Extensions"
       ]
     },
     {
-      "title": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel",
-      "title_zh": "QubesOS披露复制到VM错误回传通道的任意代码执行漏洞",
-      "title_en": "QubesOS Discloses Arbitrary Code Execution via Copy-to-VM Error Backchannel",
-      "url": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
+      "title": "Internet centralization and the original sin of NAT",
+      "title_zh": "Linux NAT 实现者反思：NAT 如何侵蚀开放互联网",
+      "title_en": "Linux NAT implementer reflects on how NAT eroded the open internet",
+      "url": "https://dreamstation.systems/personal/ntppost.html",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "QubesOS discloses a vulnerability allowing arbitrary code execution via the copy-to-VM error reporting backchannel, affecting Dom0 operations.",
+      "summary": "A personal reflection by the implementer of Linux NAT argues that NAT's design contributed to internet centralization by eroding public endpoints and shaping client-server assumptions.",
+      "tags": [
+        "networking",
+        "NAT",
+        "internet-history",
+        "architecture",
+        "decentralization"
+      ]
+    },
+    {
+      "title": "Sliding-window attention beats linear on long-context reasoning [R]",
+      "title_zh": "滑窗注意力在长上下文推理上胜过线性注意力",
+      "title_en": "Sliding-Window Attention Outperforms Linear Attention on Long-Context Reasoning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w3j1vw/slidingwindow_attention_beats_linear_on/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "A new preprint reports that sliding-window attention with sinks substantially outperforms linear attention variants on long-context reasoning benchmarks like Needle-in-a-Haystack and BABILong.",
+      "tags": [
+        "sliding-window attention",
+        "linear attention",
+        "long-context",
+        "reasoning",
+        "LLM"
+      ]
+    },
+    {
+      "title": "Your GNN is probably just an overcomplicated MLP (Tabular Leakage). We built SynthFin-AML to enforce strict causal boundaries. [P]",
+      "title_zh": "GNN存在时间泄漏，SynthFin-AML强制因果划分",
+      "title_en": "GNNs Leak Future Edges; SynthFin-AML Enforces Causal Splits",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w3imxy/your_gnn_is_probably_just_an_overcomplicated_mlp/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "The post highlights temporal leakage in GNN training on dynamic graphs and introduces SynthFin-AML, a synthetic dataset designed to enforce strict causal evaluation boundaries.",
+      "tags": [
+        "GNN",
+        "Temporal Leakage",
+        "Dynamic Graphs",
+        "Benchmark",
+        "Anti-Money Laundering"
+      ]
+    },
+    {
+      "title": "🤖 Claude 共享链接遭搜索引擎索引 大量用户隐私外泄  Claude 的共享对话功能出现严重隐私漏洞。",
+      "title_zh": "Claude 共享对话遭搜索引擎收录 敏感数据面临泄露",
+      "title_en": "Claude Shared Chats Leak Sensitive Data via Search Engine Indexing",
+      "url": "https://t.me/zaihuapd/43511",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Claude's shared conversation links are being indexed by search engines, exposing sensitive user data such as API keys and personal information.",
       "tags": [
         "security",
-        "vulnerability",
-        "QubesOS",
-        "arbitrary-code-execution",
-        "backchannel"
-      ]
-    },
-    {
-      "title": "European Commission Revives Push for Encryption Backdoors in ProtectEU Strategy",
-      "title_zh": "欧盟委员会在ProtectEU战略中重提加密后门计划",
-      "title_en": "European Commission Revives Encryption Backdoor Plan in ProtectEU Strategy",
-      "url": "https://reclaimthenet.org/eu-protecteu-strategy-encryption-backdoor-law-enforcement",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "The European Commission is reviving proposals for encryption backdoors under its ProtectEU strategy, drawing criticism from privacy advocates and security experts.",
-      "tags": [
-        "encryption",
         "privacy",
-        "EU policy",
-        "security",
-        "surveillance"
-      ]
-    },
-    {
-      "title": "Omarchy: Any User Process Can Escalate to Root",
-      "title_zh": "Omarchy Linux 漏洞：任意用户进程可提权至 root",
-      "title_en": "Omarchy Linux Flaw Lets Any User Process Gain Root Access",
-      "url": "https://0xcc.io/posts/omarchy-root-creds/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A serious security flaw in Omarchy Linux allows any user process to escalate to root, prompting debate about the safety of hyped distros.",
-      "tags": [
-        "security",
+        "Claude",
         "vulnerability",
-        "linux",
-        "root-escalation",
-        "omarchy"
+        "AI"
       ]
     },
     {
-      "title": "METR and Redwood Offer Holy %^ Postmortem of the HuggingFace Hack",
-      "title_zh": "METR与Redwood发布HuggingFace黑客事件事后分析",
-      "title_en": "METR and Redwood Analyze AI Agents in HuggingFace Hack Postmortem",
-      "url": "https://thezvi.wordpress.com/2026/08/29/metr-and-redwood-offer-holy-postmortem-of-the-huggingface-hack/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "METR and Redwood's postmortem of the HuggingFace hack analyzes AI agents' involvement and sparks debate on AI safety and structural failures.",
-      "tags": [
-        "AI safety",
-        "security",
-        "postmortem",
-        "HuggingFace hack",
-        "AI agents"
-      ]
-    },
-    {
-      "title": "Most Neoclouds Suck At Security",
-      "title_zh": "SemiAnalysis：多数Neocloud提供商安全性堪忧",
-      "title_en": "SemiAnalysis Exposes Security Flaws in Most Neoclouds",
-      "url": "https://newsletter.semianalysis.com/p/most-neoclouds-suck-at-security",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "Analysis of security weaknesses in neocloud providers, covering container escapes, kernel bypasses, network policies, and multi-tenant isolation issues.",
-      "tags": [
-        "security",
-        "cloud-computing",
-        "AI-infrastructure",
-        "containers",
-        "neoclouds"
-      ]
-    },
-    {
-      "title": "Reconstructing 3D bone geometry from 2 X-ray silhouettes using a statistical shape model + differentiable rendering [P]",
-      "title_zh": "基于统计形状模型与可微渲染从两张X光片重建三维骨骼",
-      "title_en": "Reconstructing 3D Bone Geometry from Two X-rays Using SSM and Differentiable Rendering",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w2go6l/reconstructing_3d_bone_geometry_from_2_xray/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "Presents a method to reconstruct 3D bone geometry from two X-ray silhouettes using a PCA shape model and differentiable rendering with PyTorch3D, achieving sub-1.5mm accuracy on held-out femurs.",
-      "tags": [
-        "differentiable rendering",
-        "statistical shape model",
-        "medical imaging",
-        "3D reconstruction",
-        "PyTorch3D"
-      ]
-    },
-    {
-      "title": "🤖 索尼音乐等起诉 Anthropic，指控用盗版歌词训练 Claude",
-      "title_zh": "索尼音乐等起诉Anthropic 指控用盗版书籍和歌词训练Claude",
-      "title_en": "Sony Music, Publishers Sue Anthropic Over Pirated Books and Lyrics",
-      "url": "https://www.musicbusinessworldwide.com/files/2026/08/COMPLAINT-in-Sony_Music_Publishing_US_LLC_e.pdf",
+      "title": "OpenClaw 发布史上最大更新 2.0，汇集逾 1.6 万个拉取请求",
+      "title_zh": "OpenClaw 发布重大 2.0 更新，合并逾 1.6 万个拉取请求",
+      "title_en": "OpenClaw Releases Landmark 2.0, Merging Over 16,000 Pull Requests",
+      "url": "https://openclaw.ai/blog/openclaw-2-accidentally",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Sony Music and other publishers sue Anthropic for allegedly using pirated lyrics and books to train Claude, seeking damages and an injunction.",
+      "summary": "OpenClaw shipped its largest update ever, version 2.0, incorporating over 16,000 pull requests from 933 contributors and overhauling installation, browser experience, and cloud collaboration.",
       "tags": [
+        "OpenClaw",
+        "release",
+        "open-source",
+        "software-update",
+        "collaboration"
+      ]
+    },
+    {
+      "title": "欧盟认定 ChatGPT、Reddit、Roblox 为超大型服务，三者面临更严数字监管",
+      "title_zh": "欧盟依据《数字服务法》认定ChatGPT、Reddit和Roblox为“超大型”在线服务",
+      "title_en": "EU Designates ChatGPT, Reddit, and Roblox as 'Very Large' Online Services Under DSA",
+      "url": "https://www.euronews.com/next/2026/08/31/eu-places-chatgpt-reddit-and-roblox-under-strictest-digital-safety-rules",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "EU designates ChatGPT, Reddit, and Roblox as very large online services under the Digital Services Act, imposing stricter safety, auditing, and data-sharing obligations.",
+      "tags": [
+        "EU regulation",
+        "Digital Services Act",
+        "AI policy",
+        "online platforms"
+      ]
+    },
+    {
+      "title": "📱 小米发布三款玄戒新芯片，AI 旗舰 SoC 将首搭小米 18 Fold  小米宣布新一代玄戒芯片发布，包括 AI 旗舰 SoC 玄戒 O3、1.22 TB/",
+      "title_zh": "小米发布玄戒O3芯片及两款AI芯片，首发支持LPDDR6",
+      "title_en": "Xiaomi unveils Xuanjie O3 SoC plus two AI chips, first mobile chip with LPDDR6",
+      "url": "https://t.me/zaihuapd/43524",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Xiaomi announces three new Xuanjie chips (AI flagship SoC, AI accelerator, and 3nm automotive AI chip) covering end-side AI needs across mobile, vehicle, and home.",
+      "tags": [
+        "Xiaomi",
+        "chips",
         "AI",
-        "Copyright",
-        "Lawsuit",
-        "Anthropic",
-        "Training Data"
-      ]
-    },
-    {
-      "title": "丰田罕见在华率先产下一代电动车，雷克萨斯 SUV 2027 年投产",
-      "title_zh": "丰田率先在华产下一代电动车，雷克萨斯2027年投产",
-      "title_en": "Toyota to Build Next-Gen EVs in China First; Lexus SUV Starts 2027",
-      "url": "https://www.zaobao.com.sg/news/china/story20260830-9597099",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Toyota will produce its next-generation electric vehicles in China first, with a Lexus SUV to be built at a new Shanghai plant starting in 2027.",
-      "tags": [
-        "Toyota",
-        "Electric Vehicles",
-        "China",
-        "Manufacturing",
-        "Lexus"
-      ]
-    },
-    {
-      "title": "NASA罗曼空间望远镜搭乘猎鹰重型火箭升空，两枚侧助推器成功回收",
-      "title_zh": "NASA罗曼望远镜猎鹰重型发射成功，助推器同步回收",
-      "title_en": "NASA's Roman Space Telescope Launches on Falcon Heavy, Boosters Recovered",
-      "url": "https://weibo.com/6560646233/RfOLkeG70",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "NASA's Roman Space Telescope launched on a Falcon Heavy rocket, with both side boosters successfully recovered.",
-      "tags": [
-        "NASA",
-        "space telescope",
-        "launch",
-        "astronomy",
-        "SpaceX"
-      ]
-    },
-    {
-      "title": "🍏 苹果发布 M6 与 M5 Ultra 芯片，M6 首搭 2 纳米制程  Apple 在新 Mac mini 中首发 M6 芯片，并在新 Mac Studio",
-      "title_zh": "苹果发布 M6 与 M5 Ultra 芯片：M6 首搭 2nm，M5 Ultra 性能最强",
-      "title_en": "Apple unveils M6 (2nm) and M5 Ultra, its most powerful chip yet",
-      "url": "https://t.me/zaihuapd/43505",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Apple announces M6 and M5 Ultra chips, with M6 featuring 2nm process and M5 Ultra boasting the highest performance in the M series.",
-      "tags": [
-        "Apple",
-        "Silicon",
-        "M6",
-        "M5 Ultra",
-        "2nm"
+        "SoC",
+        "semiconductors"
       ]
     }
   ]
