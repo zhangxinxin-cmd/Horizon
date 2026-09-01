@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-01T00:55:12.936387+00:00",
+  "generated_at": "2026-09-01T23:41:25.797086+00:00",
   "date": "2026-09-01",
-  "total_fetched": 37,
-  "important_count": 8,
+  "total_fetched": 44,
+  "important_count": 11,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -20,130 +20,179 @@
   },
   "items": [
     {
-      "title": "Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO",
-      "title_zh": "谷歌从Chrome应用商店移除MV2扩展，包括uBlock Origin",
-      "title_en": "Google Removes MV2 Extensions, Including uBlock Origin, from Chrome Web Store",
-      "url": "https://webiterate.dev/google-removed-extensions-ublock-origin-108/",
+      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+      "title_zh": "Anthropic发布Claude Fable 5.1与Mythos 5.1，新增最高思考档位",
+      "title_en": "Anthropic Releases Claude Fable 5.1 and Mythos 5.1 with Max Thinking Effort",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
       "source": "hackernews",
-      "score": 8.0,
-      "summary": "Google has removed Manifest V2 extensions, including uBlock Origin, from the Chrome Web Store, sparking widespread user concern over ad blocking and browser control.",
+      "score": 9.0,
+      "summary": "Anthropic releases Claude Fable 5.1 and Mythos 5.1 with improved writing style, configurable thinking effort (including a new 'max' level), and notably reduced cache read pricing.",
       "tags": [
-        "Chrome",
-        "Manifest V3",
-        "uBlock Origin",
-        "Ad Blocking",
-        "Browser Extensions"
-      ]
-    },
-    {
-      "title": "Internet centralization and the original sin of NAT",
-      "title_zh": "Linux NAT 实现者反思：NAT 如何侵蚀开放互联网",
-      "title_en": "Linux NAT implementer reflects on how NAT eroded the open internet",
-      "url": "https://dreamstation.systems/personal/ntppost.html",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A personal reflection by the implementer of Linux NAT argues that NAT's design contributed to internet centralization by eroding public endpoints and shaping client-server assumptions.",
-      "tags": [
-        "networking",
-        "NAT",
-        "internet-history",
-        "architecture",
-        "decentralization"
-      ]
-    },
-    {
-      "title": "Sliding-window attention beats linear on long-context reasoning [R]",
-      "title_zh": "滑窗注意力在长上下文推理上胜过线性注意力",
-      "title_en": "Sliding-Window Attention Outperforms Linear Attention on Long-Context Reasoning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w3j1vw/slidingwindow_attention_beats_linear_on/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "A new preprint reports that sliding-window attention with sinks substantially outperforms linear attention variants on long-context reasoning benchmarks like Needle-in-a-Haystack and BABILong.",
-      "tags": [
-        "sliding-window attention",
-        "linear attention",
-        "long-context",
-        "reasoning",
-        "LLM"
-      ]
-    },
-    {
-      "title": "Your GNN is probably just an overcomplicated MLP (Tabular Leakage). We built SynthFin-AML to enforce strict causal boundaries. [P]",
-      "title_zh": "GNN存在时间泄漏，SynthFin-AML强制因果划分",
-      "title_en": "GNNs Leak Future Edges; SynthFin-AML Enforces Causal Splits",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w3imxy/your_gnn_is_probably_just_an_overcomplicated_mlp/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "The post highlights temporal leakage in GNN training on dynamic graphs and introduces SynthFin-AML, a synthetic dataset designed to enforce strict causal evaluation boundaries.",
-      "tags": [
-        "GNN",
-        "Temporal Leakage",
-        "Dynamic Graphs",
-        "Benchmark",
-        "Anti-Money Laundering"
-      ]
-    },
-    {
-      "title": "🤖 Claude 共享链接遭搜索引擎索引 大量用户隐私外泄  Claude 的共享对话功能出现严重隐私漏洞。",
-      "title_zh": "Claude 共享对话遭搜索引擎收录 敏感数据面临泄露",
-      "title_en": "Claude Shared Chats Leak Sensitive Data via Search Engine Indexing",
-      "url": "https://t.me/zaihuapd/43511",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Claude's shared conversation links are being indexed by search engines, exposing sensitive user data such as API keys and personal information.",
-      "tags": [
-        "security",
-        "privacy",
         "Claude",
-        "vulnerability",
+        "Anthropic",
+        "AI",
+        "LLM",
+        "Model Release"
+      ]
+    },
+    {
+      "title": "Korea’s Trillion-Dollar Sovereign AI Investment: Nvidia Wins, Hynix Loses",
+      "title_zh": "韩国万亿主权AI投资：英伟达受益，海力士承压",
+      "title_en": "Korea's Trillion-Dollar Sovereign AI Bets Favor Nvidia, Squeeze Hynix",
+      "url": "https://newsletter.semianalysis.com/p/koreas-trillion-dollar-sovereign",
+      "source": "rss",
+      "score": 9.0,
+      "summary": "Korea's trillion-dollar sovereign AI investment will favor Nvidia while disadvantaging Hynix, reshaping the competitive landscape for Samsung and open source AI models.",
+      "tags": [
+        "Sovereign AI",
+        "Semiconductors",
+        "AI Investment",
+        "Nvidia",
+        "Hynix"
+      ]
+    },
+    {
+      "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+      "title_zh": "Dan Luu 复盘 Ed Zitron 的 AI 怀疑论预测",
+      "title_en": "Dan Luu Reviews Ed Zitron's AI Skeptic Predictions",
+      "url": "https://danluu.com/zitron/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Dan Luu assesses the accuracy of Ed Zitron's AI skeptic predictions, finding a mixed record that sparks rich discussion on the credibility of AI forecasts and the dynamics of skepticism.",
+      "tags": [
+        "AI",
+        "predictions",
+        "skepticism",
+        "technology-analysis",
+        "Dan Luu"
+      ]
+    },
+    {
+      "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
+      "title_zh": "Google Play 移除 AnkiDroid 捐赠链接，引发开源资助争议",
+      "title_en": "Google Play Removes AnkiDroid Donation Link, Sparking Open-Source Funding Debate",
+      "url": "https://github.com/ankidroid/Anki-Android/issues/21656",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Google Play has removed AnkiDroid's Open Collective donation link, prompting debate about app store monopoly power and open-source funding.",
+      "tags": [
+        "open-source",
+        "google-play",
+        "app-store-policy",
+        "monetization",
+        "android"
+      ]
+    },
+    {
+      "title": "I trained a small transformer in 1.5hrs and it beats many LLMs",
+      "title_zh": "1.5小时训练的小型Transformer在ARC上超越许多大语言模型",
+      "title_en": "Tiny Transformer Trained in 1.5 Hours Beats Many LLMs on ARC",
+      "url": "https://mvakde.github.io/blog/44-on-arc-1/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A small autoregressive transformer trained from scratch in 1.5 hours beats many large language models on the ARC benchmark, demonstrating that efficient specialized models can rival far larger approaches.",
+      "tags": [
+        "transformer",
+        "ARC",
+        "LLM",
+        "efficiency",
+        "deep-learning"
+      ]
+    },
+    {
+      "title": "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit",
+      "title_zh": "苹果在OpenAI诉讼中呈交MacBook取证证据",
+      "title_en": "Apple presents MacBook evidence in OpenAI trade-secret lawsuit",
+      "url": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Apple presents forensic evidence that an ex-employee used its confidential circuit schematics in OpenAI work, raising key legal questions about trade secrets and AI training.",
+      "tags": [
+        "Apple",
+        "OpenAI",
+        "trade-secrets",
+        "legal",
         "AI"
       ]
     },
     {
-      "title": "OpenClaw 发布史上最大更新 2.0，汇集逾 1.6 万个拉取请求",
-      "title_zh": "OpenClaw 发布重大 2.0 更新，合并逾 1.6 万个拉取请求",
-      "title_en": "OpenClaw Releases Landmark 2.0, Merging Over 16,000 Pull Requests",
-      "url": "https://openclaw.ai/blog/openclaw-2-accidentally",
-      "source": "telegram",
+      "title": "Introducing wrapture",
+      "title_zh": "Wrapture：通过猴子补丁实现追踪与测试的新Python库",
+      "title_en": "Wrapture: New Python Library for Tracing and Testing via Monkeypatching",
+      "url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+      "source": "rss",
       "score": 8.0,
-      "summary": "OpenClaw shipped its largest update ever, version 2.0, incorporating over 16,000 pull requests from 933 contributors and overhauling installation, browser experience, and cloud collaboration.",
+      "summary": "Graham Dumpleton introduces Wrapture, a Python library extending wrapt's monkeypatching to enable tracing and testing via function wrapping.",
       "tags": [
-        "OpenClaw",
-        "release",
+        "Python",
+        "Testing",
+        "Tracing",
+        "Monkeypatching",
+        "Developer Tools"
+      ]
+    },
+    {
+      "title": "Latent Reasoning Landscape in 2026: Mapping BDH-CQ, HRM/TRM, Coconut [D]",
+      "title_zh": "绘制2026年潜在推理版图：突破思维链",
+      "title_en": "Mapping 2026's Latent Reasoning Landscape: Beyond Chain-of-Thought",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w4evwo/latent_reasoning_landscape_in_2026_mapping_bdhcq/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "The post maps the 2026 latent reasoning research landscape, arguing that reasoning beyond the token stream via continuous hidden-state transformations is a key alternative to chain-of-thought.",
+      "tags": [
+        "latent reasoning",
+        "LLM architectures",
+        "chain-of-thought",
+        "AGI",
+        "ML research"
+      ]
+    },
+    {
+      "title": "We released TontaubeV1, a character-level TTS model for long-form generation [P]",
+      "title_zh": "开源字符级TTS模型TontaubeV1发布，专注长文语音生成",
+      "title_en": "TontaubeV1: Open-Weight Character-Level TTS Model for Long-Form Speech",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w4afjn/we_released_tontaubev1_a_characterlevel_tts_model/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "The authors released TontaubeV1, a 2.9B-parameter open-weight TTS model for expressive long-form speech with zero-shot voice cloning, highlighting character-level tokenization as a beneficial design choice.",
+      "tags": [
+        "TTS",
         "open-source",
-        "software-update",
-        "collaboration"
+        "audio generation",
+        "machine learning",
+        "NLP"
       ]
     },
     {
-      "title": "欧盟认定 ChatGPT、Reddit、Roblox 为超大型服务，三者面临更严数字监管",
-      "title_zh": "欧盟依据《数字服务法》认定ChatGPT、Reddit和Roblox为“超大型”在线服务",
-      "title_en": "EU Designates ChatGPT, Reddit, and Roblox as 'Very Large' Online Services Under DSA",
-      "url": "https://www.euronews.com/next/2026/08/31/eu-places-chatgpt-reddit-and-roblox-under-strictest-digital-safety-rules",
-      "source": "telegram",
+      "title": "EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agent Harnesses [R]",
+      "title_zh": "EvoUndo：使LLM智能体自我进化具备可恢复性",
+      "title_en": "EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agents",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w4m0hq/evoundo_recoverabilityconstrained_selfevolution/",
+      "source": "reddit",
       "score": 8.0,
-      "summary": "EU designates ChatGPT, Reddit, and Roblox as very large online services under the Digital Services Act, imposing stricter safety, auditing, and data-sharing obligations.",
+      "summary": "Introduces EvoUndo, a framework for ensuring that LLM agents' self-modifications are recoverable across counterfactual states, demonstrating that many capability-improving mutations fail verification and proposing an extended recovery calculus to address this.",
       "tags": [
-        "EU regulation",
-        "Digital Services Act",
-        "AI policy",
-        "online platforms"
+        "LLM agents",
+        "self-evolution",
+        "recoverability",
+        "AI safety",
+        "machine learning"
       ]
     },
     {
-      "title": "📱 小米发布三款玄戒新芯片，AI 旗舰 SoC 将首搭小米 18 Fold  小米宣布新一代玄戒芯片发布，包括 AI 旗舰 SoC 玄戒 O3、1.22 TB/",
-      "title_zh": "小米发布玄戒O3芯片及两款AI芯片，首发支持LPDDR6",
-      "title_en": "Xiaomi unveils Xuanjie O3 SoC plus two AI chips, first mobile chip with LPDDR6",
-      "url": "https://t.me/zaihuapd/43524",
+      "title": "Virtualizor 更新设施遭 BGP 劫持，恶意更新植入 root 后门",
+      "title_zh": "Virtualizor 更新设施遭 BGP 劫持，恶意更新植入 Root 后门",
+      "title_en": "Virtualizor Update System BGP-Hijacked to Deliver Root Backdoor",
+      "url": "https://www.virtualizor.com/blog/security-incident-bgp-hijacking/",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Xiaomi announces three new Xuanjie chips (AI flagship SoC, AI accelerator, and 3nm automotive AI chip) covering end-side AI needs across mobile, vehicle, and home.",
+      "summary": "Virtualizor's update infrastructure was compromised via BGP hijacking, delivering malicious updates that installed a root backdoor on affected systems.",
       "tags": [
-        "Xiaomi",
-        "chips",
-        "AI",
-        "SoC",
-        "semiconductors"
+        "security",
+        "BGP hijacking",
+        "supply chain",
+        "malware",
+        "virtualization"
       ]
     }
   ]

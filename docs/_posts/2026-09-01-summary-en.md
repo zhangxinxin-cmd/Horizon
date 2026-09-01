@@ -5,194 +5,252 @@ date: 2026-09-01
 lang: en
 ---
 
-> From 37 items, 8 important content pieces were selected
+> From 44 items, 11 important content pieces were selected
 
 ---
 
-1. [Google Removes MV2 Extensions, Including uBlock Origin, from Chrome Web Store](#item-1) ⭐️ 8.0/10
-2. [Linux NAT implementer reflects on how NAT eroded the open internet](#item-2) ⭐️ 8.0/10
-3. [Sliding-Window Attention Outperforms Linear Attention on Long-Context Reasoning](#item-3) ⭐️ 8.0/10
-4. [GNNs Leak Future Edges; SynthFin-AML Enforces Causal Splits](#item-4) ⭐️ 8.0/10
-5. [Claude Shared Chats Leak Sensitive Data via Search Engine Indexing](#item-5) ⭐️ 8.0/10
-6. [OpenClaw Releases Landmark 2.0, Merging Over 16,000 Pull Requests](#item-6) ⭐️ 8.0/10
-7. [EU Designates ChatGPT, Reddit, and Roblox as 'Very Large' Online Services Under DSA](#item-7) ⭐️ 8.0/10
-8. [Xiaomi unveils Xuanjie O3 SoC plus two AI chips, first mobile chip with LPDDR6](#item-8) ⭐️ 8.0/10
+1. [Anthropic Releases Claude Fable 5.1 and Mythos 5.1 with Max Thinking Effort](#item-1) ⭐️ 9.0/10
+2. [Korea's Trillion-Dollar Sovereign AI Bets Favor Nvidia, Squeeze Hynix](#item-2) ⭐️ 9.0/10
+3. [Dan Luu Reviews Ed Zitron's AI Skeptic Predictions](#item-3) ⭐️ 8.0/10
+4. [Google Play Removes AnkiDroid Donation Link, Sparking Open-Source Funding Debate](#item-4) ⭐️ 8.0/10
+5. [Tiny Transformer Trained in 1.5 Hours Beats Many LLMs on ARC](#item-5) ⭐️ 8.0/10
+6. [Apple presents MacBook evidence in OpenAI trade-secret lawsuit](#item-6) ⭐️ 8.0/10
+7. [Wrapture: New Python Library for Tracing and Testing via Monkeypatching](#item-7) ⭐️ 8.0/10
+8. [Mapping 2026's Latent Reasoning Landscape: Beyond Chain-of-Thought](#item-8) ⭐️ 8.0/10
+9. [TontaubeV1: Open-Weight Character-Level TTS Model for Long-Form Speech](#item-9) ⭐️ 8.0/10
+10. [EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agents](#item-10) ⭐️ 8.0/10
+11. [Virtualizor Update System BGP-Hijacked to Deliver Root Backdoor](#item-11) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Google Removes MV2 Extensions, Including uBlock Origin, from Chrome Web Store](https://webiterate.dev/google-removed-extensions-ublock-origin-108/) ⭐️ 8.0/10
+## [Anthropic Releases Claude Fable 5.1 and Mythos 5.1 with Max Thinking Effort](https://www.anthropic.com/claude-fable-and-mythos-5-1) ⭐️ 9.0/10
 
-Google has removed Manifest V2 (MV2) extensions from the Chrome Web Store, including the popular ad blocker uBlock Origin. This completes the transition to Manifest V3, which the Chrome team first announced in 2020. uBlock Origin has over 10 million users, and its removal significantly affects ad blocking, privacy, and user control over browsing. This could push users toward alternative browsers like Firefox or toward less capable MV3-based ad blockers. Manifest V3 removes long-lived background pages and restricts remotely hosted code, limiting the techniques that powerful blockers like uBlock Origin rely on. A lighter version, uBlock Origin Lite, remains available, but enterprise MV2 support will be fully removed with Chrome 139 in July 2026.
+Anthropic has released Claude Fable 5.1 and Claude Mythos 5.1, introducing a new 'max' thinking effort level alongside low, medium, high, and extra-high options. The release also cuts cache read pricing from $1 per million tokens to $0.25 per million tokens and includes several breaking changes to improve model behavior. This is a major release from a leading AI lab, and the aggressive cache read price cut could lower long-context application costs significantly and put pressure on competitor pricing. The new high-end thinking mode may also push the frontier for complex reasoning tasks, affecting developers and enterprises building on Claude. The 'max' thinking level is computationally intensive: one community test took nearly 14 minutes and produced a 'significant improvement' in output. The cache read price drop, from $1/M to $0.25/M, makes Fable 5.1 cache reads cheaper than Opus's current $0.5/M, and the breaking changes appear to patch chain-of-thought disclosure vulnerabilities.
 
-hackernews · twapi · Aug 31, 21:10 · [Discussion](https://news.ycombinator.com/item?id=49514878)
+hackernews · denysvitali · Sep 1, 17:53 · [Discussion](https://news.ycombinator.com/item?id=49525378)
 
-**Background**: Manifest V3 is the latest version of the Chrome extensions platform, designed by Google to improve privacy, security, and performance. It replaces the older Manifest V2, which allowed extensions to use powerful APIs but also presented security risks. uBlock Origin is a free, open-source content blocker that gained millions of users for its low CPU and memory usage. Google began deprecating MV2 in 2020, and the removal from the Web Store is the latest step in that timeline.
+**Background**: Claude models support a thinking feature in which the model produces internal reasoning before answering; the API's effort parameter sets a budget_tokens cap that controls how much thinking is allowed. Prompt caching lets developers reuse a stored input prefix so repeated calls avoid reprocessing, with cache reads normally costing about 10% of standard input pricing. This release changes both knobs, adding a higher effort tier and cutting the cost of cache reads.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline">Manifest V2 support timeline | Chrome for Developers</a></li>
-<li><a href="https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3">Extensions / Manifest V3 | Chrome for Developers</a></li>
-<li><a href="https://en.wikipedia.org/wiki/UBlock_Origin">uBlock Origin - Wikipedia</a></li>
+<li><a href="https://www.mindstudio.ai/blog/claude-opus-4-8-effort-levels-explained">Claude Opus 4.8 Effort Levels Explained: Low, Medium... | MindStudio</a></li>
+<li><a href="https://platform.claude.com/docs/en/about-claude/pricing">Pricing - Claude Platform Docs</a></li>
+<li><a href="https://pecollective.com/tools/claude-pricing-guide/">Claude Cost Optimization 2026: Batch API (50% Off) and Prompt Caching (90% Off)</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters express strong frustration with Google's move and see it as a safety and monopoly issue. Several users recommend switching to Firefox, noting that uBlock Origin works best there and that Firefox is 'really great these days.' The prevailing sentiment is distrust of Google's unilateral control over web browsing.
+**Discussion**: Commenters were broadly positive: an Anthropic employee said Fable 5.1's writing is more natural and responds better to style instructions, while Simon Willison shared effort-level tests showing the 'max' setting produced a significant quality improvement after ~14 minutes. Others were more skeptical, noting that benchmark gains were mostly concentrated in Terminal-Bench-Science and that the price cut suggests weak demand for Fable at its original pricing. One commenter added that the breaking changes fix chain-of-thought disclosure issues.
 
-**Tags**: `#Chrome`, `#Manifest V3`, `#uBlock Origin`, `#Ad Blocking`, `#Browser Extensions`
+**Tags**: `#Claude`, `#Anthropic`, `#AI`, `#LLM`, `#Model Release`
 
 ---
 
 <a id="item-2"></a>
-## [Linux NAT implementer reflects on how NAT eroded the open internet](https://dreamstation.systems/personal/ntppost.html) ⭐️ 8.0/10
+## [Korea's Trillion-Dollar Sovereign AI Bets Favor Nvidia, Squeeze Hynix](https://newsletter.semianalysis.com/p/koreas-trillion-dollar-sovereign) ⭐️ 9.0/10
 
-Rusty Russell, the implementer of the current NAT system in Linux, published a personal retrospective arguing that NAT's design eroded public endpoints and shaped client-server assumptions, contributing to internet centralization. The essay has sparked substantial discussion with 130 comments. This retrospective comes from a key implementer and offers rare historical insight into how a technical workaround for IPv4 scarcity shaped the internet's architecture and power dynamics. It resonates with ongoing debates about decentralization, self-hosting, and the difficulty of running servers in a NAT-dominated world. Russell explains that NAT avoided port reservation in favor of squeezing more connections into one IP address, but this made incoming traffic from a different address unroutable, eliminating public endpoints. Commenters add that NAT also trained users to see client-server as natural, though some defend NAT as a de facto firewall that protected insecure devices.
+Korea has unveiled a sovereign AI push that could see total investments reach nearly $1.2 trillion by 2035, including a national AI tournament in which 200 lottery-selected citizens will score four sovereign AI models. According to SemiAnalysis, this plan heavily favors Nvidia's GPU ecosystem while placing SK Hynix at a disadvantage. This matters because the sheer scale of Korea's investment will reshape the global AI hardware market, directly boosting Nvidia as the dominant GPU supplier and pressuring SK Hynix, a key memory producer. It also underscores how governments are pursuing sovereign AI to control data and infrastructure, while open source model competition becomes a central strategic factor. The AI tournament, hosted by the Ministry of Science and ICT, has 200 lottery-selected citizens scoring four sovereign AI models, with the winning model set to power a free national AI service for 51 million residents. By 2035, South Korea expects AI data-center investment to exceed 1,000 trillion won (about $646 billion), contributing to a total plan close to $1.2 trillion.
 
-hackernews · robinpie · Aug 31, 02:23 · [Discussion](https://news.ycombinator.com/item?id=49504905)
+rss · Semianalysis · Sep 1, 20:14
 
-**Background**: NAT (Network Address Translation) lets multiple devices on a private network share a single public IP address, helping to conserve the limited supply of IPv4 addresses. It became ubiquitous in home routers and mobile networks, hiding internal devices but also breaking the end-to-end connectivity that made running a public server simple. The internet was originally designed so any host could reach any other host directly; NAT introduced a one-way, client-server model by default.
+**Background**: Sovereign AI refers to a nation's ability to build, run, and govern AI according to its own rules, security needs, and values, while keeping data local. Korea's initiative combines large-scale infrastructure investment with a public-facing AI tournament, reflecting a global trend toward national AI self-reliance. Nvidia has promoted open source models to expand its ecosystem, which may explain why the elimination of a leading non-Chinese open source model in the tournament matters to the company.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Network_address_translation">Network address translation - Wikipedia</a></li>
-<li><a href="https://www.geeksforgeeks.org/computer-networks/network-address-translation-nat/">Network Address Translation (NAT) - GeeksforGeeks</a></li>
+<li><a href="https://www.redhat.com/en/topics/ai/sovereign-ai">What is sovereign AI?</a></li>
+<li><a href="https://en.sedaily.com/news/2026/03/26/korea-launches-nationwide-ai-competition-for-all-ages">Korea Launches Nationwide AI Competition for All Ages - Seoul Economic Daily</a></li>
+<li><a href="https://www.linkedin.com/posts/brunellalupano_southkorea-trillion-investment-activity-7478817061687902208-jpTN">#southkorea # trillion # investment #semiconductor # ai #datacenter...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters largely agree that NAT played a role in the internet's centralization, though some call the idea of it being the 'original sin' an exaggeration. RustyRussell himself acknowledges the tradeoff, while others defend regular NAT as controllable and note that Carrier Grade NAT (CGNAT) is the more problematic variant. There is also a viewpoint that the designers' real mistake was applying physical-world security assumptions to cyberspace.
-
-**Tags**: `#networking`, `#NAT`, `#internet-history`, `#architecture`, `#decentralization`
+**Tags**: `#Sovereign AI`, `#Semiconductors`, `#AI Investment`, `#Nvidia`, `#Hynix`
 
 ---
 
 <a id="item-3"></a>
-## [Sliding-Window Attention Outperforms Linear Attention on Long-Context Reasoning](https://www.reddit.com/r/MachineLearning/comments/1w3j1vw/slidingwindow_attention_beats_linear_on/) ⭐️ 8.0/10
+## [Dan Luu Reviews Ed Zitron's AI Skeptic Predictions](https://danluu.com/zitron/) ⭐️ 8.0/10
 
-A new arXiv preprint by Alexia Jolicoeur-Martineau and colleagues reports that sliding-window attention (SWA) with sinks achieves 2 to 10 times higher performance than linear attention variants on the Needle-in-a-Haystack and BABILong benchmarks. The authors recommend switching to SWA instead of post-training linear models. This finding challenges the prevailing research direction of replacing softmax attention with linear attention for long-context models. It suggests that a simple, existing baseline may already be more effective, potentially reshaping how labs allocate post-training compute for long-context reasoning. The comparison was conducted across multiple LLMs on various downstream tasks, with SWA requiring no post-training while maintaining low memory and fast inference. The paper concedes that linear attention may show promise but likely needs to be trained from scratch or extensively post-trained to match SWA.
+Dan Luu published a detailed retrospective evaluating the accuracy of Ed Zitron's AI-skeptic predictions, concluding that Zitron's record is mixed. The piece has drawn significant attention on Hacker News, with 321 points and 380 comments. This matters because Zitron is a prominent AI critic, and evaluating his track record sheds light on the credibility of AI skepticism more broadly. It also fuels ongoing debate about hype, bias, and prediction quality among both AI skeptics and boosters. The analysis engages directly with the literal text of Zitron's statements rather than reinterpreted versions, and highlights that some criticisms of AI industry leaders apply to skeptics too. Commenters note that Zitron's audience incentives may prevent him from conceding mistakes.
 
-reddit · r/MachineLearning · /u/Justgototheeffinmoon · Aug 31, 16:35
+hackernews · jatins · Sep 1, 18:35 · [Discussion](https://news.ycombinator.com/item?id=49526069)
 
-**Background**: Standard softmax attention has quadratic complexity with sequence length, motivating research into linear attention variants that reduce this cost. Sliding-window attention with sinks is a simpler existing fix: it limits attention to a fixed window and retains early tokens as attention sinks, trading global context for efficiency. BABILong and Needle-in-a-Haystack are long-context reasoning benchmarks that test a model's ability to retrieve and reason over facts buried in long documents.
+**Background**: In recent years, AI discourse has become polarized between boosterish forecasts from industry leaders and skeptical warnings about bubbles and exaggerated claims. Ed Zitron is a media commentator known for sharply criticizing AI hype, while Dan Luu is a software engineer and writer who analyzes technical and industry topics with evidence. Retrospective checks like this help ground the debate in actual track records rather than vibes.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://arxiv.org/html/2608.28444v1">Sliding - window beats linear attention</a></li>
-<li><a href="https://www.alphaxiv.org/abs/2608.28444">Sliding - window beats linear attention | alphaXiv</a></li>
-<li><a href="https://runinfra.ai/glossary/attention-sinks">Attention sinks : what it is and why it moves cost | RunInfra</a></li>
+**Discussion**: Comments are split: some call Zitron a 'blow hard' and ask for equivalent audits of Altman and Amodei, while others argue he has become the mirror image of AI boosters, trapped by an audience that rewards perpetual skepticism. A third thread notes that commenters often project their own predictions onto Zitron rather than evaluating his actual statements. One commenter also flags accounting-related criticisms, such as hyperscalers booking valuation increases in AI companies as 'Other Income', that the essay does not discuss.
 
-</ul>
-</details>
-
-**Tags**: `#sliding-window attention`, `#linear attention`, `#long-context`, `#reasoning`, `#LLM`
+**Tags**: `#AI`, `#predictions`, `#skepticism`, `#technology-analysis`, `#Dan Luu`
 
 ---
 
 <a id="item-4"></a>
-## [GNNs Leak Future Edges; SynthFin-AML Enforces Causal Splits](https://www.reddit.com/r/MachineLearning/comments/1w3imxy/your_gnn_is_probably_just_an_overcomplicated_mlp/) ⭐️ 8.0/10
+## [Google Play Removes AnkiDroid Donation Link, Sparking Open-Source Funding Debate](https://github.com/ankidroid/Anki-Android/issues/21656) ⭐️ 8.0/10
 
-The authors show that standard GNN training on static snapshots of dynamic graphs leaks future edges, letting models 'cheat.' They release SynthFin-AML v10.0 (100k nodes, 1.2M edges), a synthetic benchmark with strict 3-snapshot temporal splits and matched distributions, and report LightGBM (PR-AUC 0.848) vs GraphSAGE (0.881). This exposes a common evaluation flaw in graph machine learning: many reported results may be inflated by temporal leakage rather than genuine model quality. SynthFin-AML provides a stricter evaluation standard for dynamic graphs, which could improve rigor in AML and other temporal graph applications. The benchmark enforces a 3-snapshot split (train edges ≤ Day 7, val ≤ Day 8, test ≤ Day 10) and makes fraud and retail transaction amounts share the same lognormal distribution (μ=8.517, σ=0.8) to remove tabular leakage. The authors engineered 11 point-in-time graph features for the tree model; the benchmark has been submitted upstream to PyTorch Geometric.
+Google Play has removed the Open Collective donation link from AnkiDroid's Play Store listing. The AnkiDroid developers reported the removal in GitHub issue #21656, triggering a community debate about app store policies and open-source funding. This matters because it shows how a single app store's policy can cut off a major funding channel for open-source applications. It also deepens concerns about app store monopolies and the sustainability of open-source projects that rely on donations. AnkiDroid is an open-source Android app whose donations flow through Open Collective, a platform providing fiscal hosting. A key nuance is that although Open Collective's legal entity is a 501(c)(6) tax-exempt organization, donations to hosted projects are not tax-deductible, which appears to be at the center of Google's compliance concern.
 
-reddit · r/MachineLearning · /u/Glabmayt2075 · Aug 31, 16:21
+hackernews · hexa555 · Sep 1, 10:11 · [Discussion](https://news.ycombinator.com/item?id=49520022)
 
-**Background**: Graph neural networks (GNNs) learn from relational data by passing messages along edges; when graphs evolve over time, models must respect causality. Temporal leakage occurs when a GNN sees edges or features from the future during training, often because random splits of a static snapshot ignore timestamps. Anti-money laundering (AML) networks are a classic dynamic-graph domain, and synthetic datasets like SynthAML have been used for benchmarking. The 3-snapshot architecture physically separates train/validation/test temporal windows to bound the model's receptive field to true causal horizons.
+**Background**: AnkiDroid is a semi-official open-source port of Anki, a popular spaced-repetition flashcard system, to Android. It is available on both Google Play and the F-Droid repository. Open Collective is a crowdfunding and financial management platform that lets open-source communities receive and spend money transparently. Google Play has policies restricting how developers can link to external payment or donation platforms, which is why the removal of the link has sparked debate about the power app stores hold over software distribution.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://kumo.ai/pyg/concepts/data-leakage/">Data Leakage in Graph ML: When Future Information Contaminates Training | Kumo.ai | Kumo.ai</a></li>
-<li><a href="https://github.com/valiyevoktay-cmd/synthfin-aml-">GitHub - valiyevoktay-cmd/synthfin-aml-: A graph-native Anti ...</a></li>
+<li><a href="https://github.com/ankidroid/Anki-Android">GitHub - ankidroid/Anki-Android: AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention. · GitHub</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Anki_(software)">Anki - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Open_Collective">Open Collective - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#GNN`, `#Temporal Leakage`, `#Dynamic Graphs`, `#Benchmark`, `#Anti-Money Laundering`
+**Discussion**: Commenters pointed out that Google ejected WireGuard from Play Store in 2019 and argued that app-store distribution gives a monopolist arbitrary control over software. Others discussed the tax-exempt distinction between 501(c)(6) organizations and donations, while some users thanked AnkiDroid and said they would donate or consider Linux phones.
+
+**Tags**: `#open-source`, `#google-play`, `#app-store-policy`, `#monetization`, `#android`
 
 ---
 
 <a id="item-5"></a>
-## [Claude Shared Chats Leak Sensitive Data via Search Engine Indexing](https://t.me/zaihuapd/43511) ⭐️ 8.0/10
+## [Tiny Transformer Trained in 1.5 Hours Beats Many LLMs on ARC](https://mvakde.github.io/blog/44-on-arc-1/) ⭐️ 8.0/10
 
-Claude's shared conversation links are being indexed by Google and Bing because the pages lack a 'noindex' meta tag. As a result, sensitive user data such as API keys, crypto wallet addresses, resumes, and private records are publicly searchable. Anthropic has not yet fixed the issue, and users are being urged to delete shared chats manually. This is a serious privacy vulnerability that affects any Claude user who has used the share feature, potentially exposing confidential information to anyone on the internet. It echoes a similar ChatGPT incident from about a year ago and underscores the importance of privacy safeguards in AI chat-sharing features. The shared pages do not include the robots 'noindex' meta tag, which is a standard HTML directive used to block search engine indexing. Reports indicate hundreds of Claude shared chats have surfaced in search results, containing material such as lawyers' consultation records, internal company project documents, and social security numbers, and the vulnerability remains unpatched.
+A blog post describes a small autoregressive transformer trained from scratch in 1.5 hours that outperforms many large language models on the ARC benchmark. The result highlights that efficient specialized models can rival far larger approaches on a challenging reasoning task. This matters because it challenges the assumption that massive scale is necessary for strong reasoning performance, showing that architecture and data quality can be more important than raw parameter count. It could lower the cost of building capable reasoning systems and shift research attention toward sample efficiency. The model is a small autoregressive transformer, not an LLM, and was trained from scratch. The author attributes score gains to modern architecture choices (SwiGLU, RMSNorm), more data diversity, better shuffling, and increasing from 4 to 8 layers, while noting that ARC is a meta-learning benchmark where training on eval puzzles is expected and not considered 'training on test.'
 
-telegram · zaihuapd · Aug 31, 03:22
+hackernews · porridgeraisin · Sep 1, 09:52 · [Discussion](https://news.ycombinator.com/item?id=49519939)
 
-**Background**: Claude is an AI assistant developed by Anthropic that lets users generate shareable links to conversations. A 'noindex' meta tag is an HTML directive that tells search engine crawlers such as Google not to index a page. Without this tag, search engines may crawl and display the page content to anyone using relevant search terms. A similar privacy issue affected ChatGPT around a year ago and was quickly fixed.
+**Background**: The Abstraction and Reasoning Corpus (ARC) is a benchmark designed to measure human-like general fluid intelligence through grid-based reasoning tasks, consisting of 800 tasks (400 training, 400 evaluation). Previous attempts to score well on ARC were mostly limited to LLMs or their fine-tunes with enormous training costs, or to complex architectures with very high compute requirements.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://cybersecuritynews.com/claude-ai-shared-chats/">Claude AI Shared Chats Reportedly Exposed in Google Search ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Noindex">noindex - Wikipedia</a></li>
-<li><a href="https://developers.google.com/search/docs/crawling-indexing/block-indexing">Block Search Indexing with noindex | Google Search Central</a></li>
+<li><a href="https://neoneye.github.io/arc/about.html">About - ARC -Interactive</a></li>
+<li><a href="https://llm-stats.com/benchmarks/arc">Arc Leaderboard | LLM Stats</a></li>
+<li><a href="https://www.emergentmind.com/topics/abstraction-and-reasoning-corpus-arc">Abstraction and Reasoning Corpus ( ARC )</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#security`, `#privacy`, `#Claude`, `#vulnerability`, `#AI`
+**Discussion**: In the HN discussion, the author clarified that this is a small transformer trained from scratch, not an LLM, and argued that complex problems can be tackled without LLMs. Some commenters noted that the described gains come from 'squeezing the lemon'—architecture tweaks and data engineering—rather than a fundamentally new method, while others praised the result and joked about a Kaggle top-5 and possible SF recruiting attention.
+
+**Tags**: `#transformer`, `#ARC`, `#LLM`, `#efficiency`, `#deep-learning`
 
 ---
 
 <a id="item-6"></a>
-## [OpenClaw Releases Landmark 2.0, Merging Over 16,000 Pull Requests](https://openclaw.ai/blog/openclaw-2-accidentally) ⭐️ 8.0/10
+## [Apple presents MacBook evidence in OpenAI trade-secret lawsuit](https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/) ⭐️ 8.0/10
 
-On August 30, OpenClaw released version 2.0, its largest update to date, incorporating over 16,000 pull requests from 933 contributors, including 569 first-time participants. The release overhauls installation, messaging, memory, skills, models, browser, plugins, and security, and adds shared cloud sessions for collaboration. This marks a major milestone for OpenClaw, representing roughly half of all pull requests ever made to the project. The addition of collaborative cloud sessions and a rebuilt browser experience broadens the tool's appeal for teams and everyday users. The team paused releases for nearly seven weeks to prepare the update. Installation was simplified, and the browser-side experience was rebuilt from the ground up.
+Apple presented forensic evidence from an ex-employee's MacBook, alleging the employee downloaded confidential circuit schematics and used them in his work at OpenAI. The filing argues that feeding trade secrets into an AI model creates irreversible and continually propagating uses. This case could set a legal precedent for how trade secrets are treated when ingested by AI systems, since AI training may make confidential data impossible to fully retract. It affects both companies and employees in the AI industry, raising questions about accountability and data provenance. Apple discovered the alleged use because Liu ran a simulation with the schematic in LTspice on a Mac mini that synced via iCloud to the Apple-owned MacBook. Apple also seeks access to that Mac mini, and alleges Liu tried to destroy evidence after learning of Apple's internal investigation.
 
-telegram · zaihuapd · Aug 31, 04:38
+hackernews · colinprince · Sep 1, 20:19 · [Discussion](https://news.ycombinator.com/item?id=49527573)
 
-**Background**: OpenClaw is a free and open-source autonomous AI agent that executes tasks via large language models (LLMs), using messaging platforms as its primary user interface. It runs locally and works across WhatsApp, Telegram, Discord, and 30+ other platforms, supporting models like Claude, GPT, or local models.
+**Background**: Apple sued a former employee, Liu, alleging he took confidential circuit schematics and used them at OpenAI. The case touches on how traditional trade-secret law applies to modern AI training, where ingested data may propagate through learned model weights. The community discussion highlights that this is an untested legal argument with broad implications.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/OpenClaw">OpenClaw</a></li>
-<li><a href="https://openclaw.ai/">OpenClaw — Open -Source AI Assistant</a></li>
+**Discussion**: Commenters focused on the unprecedented legal argument that AI learning creates irreversible uses of trade secrets, and debated privacy implications of iCloud sync and company laptops. Some noted the irony of "I didn't steal it, I fed it to an agent," while others compared the case to historical trade-secret cases like the Coca-Cola recipe. No consensus on whether Apple's argument will hold in court.
 
-</ul>
-</details>
-
-**Tags**: `#OpenClaw`, `#release`, `#open-source`, `#software-update`, `#collaboration`
+**Tags**: `#Apple`, `#OpenAI`, `#trade-secrets`, `#legal`, `#AI`
 
 ---
 
 <a id="item-7"></a>
-## [EU Designates ChatGPT, Reddit, and Roblox as 'Very Large' Online Services Under DSA](https://www.euronews.com/next/2026/08/31/eu-places-chatgpt-reddit-and-roblox-under-strictest-digital-safety-rules) ⭐️ 8.0/10
+## [Wrapture: New Python Library for Tracing and Testing via Monkeypatching](https://simonwillison.net/2026/Aug/31/introducing-wrapture/) ⭐️ 8.0/10
 
-On August 31, 2026, the European Commission designated ChatGPT as a Very Large Online Search Engine and Reddit and Roblox as Very Large Online Platforms under the Digital Services Act, because each exceeds 45 million monthly active users in the EU. They now face stricter safety, auditing, and data-sharing obligations. This is the first time an AI service has been classified as a Very Large Online Search Engine under the DSA, setting a precedent for how generative AI tools are regulated in Europe. The designations impose the DSA's most stringent requirements on three services that collectively shape online speech, content discovery, and social interaction for millions of EU users. The services have a four-month transition period to comply, during which they must conduct annual systemic risk assessments, commission independent audits, and share data with regulators and vetted researchers. Priorities include illegal content, protection of minors, and risks to users' physical and mental well-being.
+Graham Dumpleton released Wrapture, a new Python library that extends the monkeypatching ideas from wrapt to support tracing and testing. It allows wrapping any function or method so calls can be traced or overridden, and includes OpenTelemetry support and a configuration-based tracing mechanism. Wrapture offers a novel approach for Python developers to observe and test code without modifying it, acting as an alternative to unittest.mock. It could become a valuable tool for debugging, tracing, and writing robust tests, especially for legacy or external code. The project is only a few weeks old and was built entirely by an AI assistant under Dumpleton's direction, though he emphasized he designed the architecture himself. Its configuration-based tracing uses a TOML snippet that specifies capture level, observe targets, and sinks like JSONL output.
 
-telegram · zaihuapd · Aug 31, 14:39
+rss · Simon Willison · Aug 31, 23:59
 
-**Background**: The Digital Services Act (DSA) is an EU regulation that applies a tiered set of obligations to online intermediaries: basic rules for all services, enhanced duties for platforms, and the strictest requirements for Very Large Online Platforms (VLOPs) and Very Large Online Search Engines (VLOSEs) with over 45 million monthly active users in the EU. The designation process is meant to move large platforms from voluntary self-regulation to binding, audited compliance. These additions bring ChatGPT, Reddit, and Roblox into the same category as previously designated services such as major social networks and marketplaces.
+**Background**: Wrapt is a Python module for decorators, wrappers, and monkey patching, providing a transparent object proxy. Monkey patching dynamically alters code behavior at runtime, commonly used in testing frameworks like pytest. Wrapture builds on wrapt to apply these techniques to tracing and testing in a unified way.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Digital_Services_Act">Digital Services Act - Wikipedia</a></li>
-<li><a href="https://www.explainx.ai/blog/eu-dsa-designation-chatgpt-reddit-roblox-august-2026">EU DSA: ChatGPT Named a Very Large Search Engine (2026 ...</a></li>
-<li><a href="https://digital-strategy.ec.europa.eu/en/policies/list-designated-vlops-and-vloses">Supervision of the designated very large online platforms and ...</a></li>
+<li><a href="https://pypi.org/project/wrapt/">wrapt · PyPI</a></li>
+<li><a href="https://github.com/GrahamDumpleton/wrapt">GitHub - GrahamDumpleton/wrapt: A Python module for decorators, wrappers and monkey patching. · GitHub</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#EU regulation`, `#Digital Services Act`, `#AI policy`, `#online platforms`
+**Tags**: `#Python`, `#Testing`, `#Tracing`, `#Monkeypatching`, `#Developer Tools`
 
 ---
 
 <a id="item-8"></a>
-## [Xiaomi unveils Xuanjie O3 SoC plus two AI chips, first mobile chip with LPDDR6](https://t.me/zaihuapd/43524) ⭐️ 8.0/10
+## [Mapping 2026's Latent Reasoning Landscape: Beyond Chain-of-Thought](https://www.reddit.com/r/MachineLearning/comments/1w4evwo/latent_reasoning_landscape_in_2026_mapping_bdhcq/) ⭐️ 8.0/10
 
-Xiaomi announced three new Xuanjie chips: the AI flagship SoC Xuanjie O3, the 1.22 TB/s AI accelerator Xuanjie O100, and the Xuanjie D100, China's first 3nm automotive AI chip. All three have completed tape-out verification, and the O3 will first debut in the Xiaomi 18 Fold. This signals Xiaomi's deepening investment in self-developed silicon across mobile, vehicle, and home ecosystems, intensifying competition with other custom SoC makers. The O3's LPDDR6 support, with domestic partner CXMT, also highlights China's progress in memory supply chain independence. The Xuanjie O3 has a ten-core all-big-core CPU whose multi-core score broke 15,000 for the first time, and a 16-core Mali-G2-Ultra NX GPU delivering 85% higher performance and 64% lower power draw than the Xuanjie O1. It is claimed to be the world's first mobile processor supporting LPDDR6, scoring 5.22 million on AnTuTu.
+The post maps the emerging latent reasoning research landscape, categorizing it into five families: continuous thoughts like Coconut, compressed non-linguistic tokens, recurrent-depth and looped models, task-trained recursive solvers like HRM/TRM, and in-context recurrent latent solvers such as BDH-CQ. It argues that reasoning beyond the token stream is a promising alternative to verbalized chain-of-thought. This overview highlights a potential shift in LLM reasoning from verbose CoT traces to efficient latent computation, which could reshape interpretability, evaluation, and inference-cost trade-offs across the industry. It also raises a critical question: whether readable reasoning traces are essential for safety or merely a byproduct of how LLMs were scaled. BDH-CQ, a 150M-parameter model, reports 29.5% pass@2 on public ARC-AGI-1, surpassing the previously published cost–accuracy Pareto frontier, and shows transformer-like scaling laws up to 600B parameters. The post highlights two key distinctions among latent reasoning methods: how a system acquires a new task (context/memory vs gradient-based optimization) and where intermediate computation occurs (language tokens, abstract tokens, or continuous latent states).
 
-telegram · zaihuapd · Aug 31, 15:15
+reddit · r/MachineLearning · /u/Typical-Scene-5794 · Sep 1, 15:14
 
-**Background**: Xiaomi re-entered the flagship mobile SoC arena with the Xuanjie O1 roughly 459 days before the O3 launch. The Xuanjie series is positioned across end-side AI, covering mobile, vehicle, and home scenarios. LPDDR6 is the low-power DRAM standard published by JEDEC in July 2025, offering data rates from 10,667 to 14,400 Mt/s, and CXMT has begun mass-producing LPDDR6 memory.
+**Background**: Latent reasoning is an alternative to chain-of-thought where the model repeatedly transforms its continuous hidden state and decodes only the final answer, rather than verbalizing intermediate steps. Coconut, a prominent example, feeds the last hidden state back as the next input embedding directly in the continuous space. Conservative approaches like TRM use a tiny recursive network that improves its answer over multiple latent steps. These methods aim to improve inference efficiency and enable parallel exploration of multiple reasoning paths.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://pandaily.com/xiaomi-unveils-xuanjie-o3-first-flagship-soc-break-5-million-aug2026">Xiaomi Unveils Xuanjie O 3 , First Flagship SoC to Break... - Pandaily</a></li>
-<li><a href="https://news.metal.com/newscontent/104078070-xiaomi-xuanjie-o3-officially-announced-support-for-lpddr6-changxin-memory-as-domestic-memory-partner">On August 24, Xiaomi officially released the Xuanjie O 3 chip .</a></li>
-<li><a href="https://www.techpowerup.com/352114/cxmt-officially-starts-mass-production-of-lpddr6-memory">CXMT Officially Starts Mass Production of LPDDR 6 Memory</a></li>
+<li><a href="https://arxiv.org/abs/2412.06769">[2412.06769] Training Large Language Models to Reason in a Continuous Latent Space</a></li>
+<li><a href="https://www.emergentmind.com/topics/bdh-cq">BDH - CQ : Recurrent Latent Reasoning for ARC</a></li>
+<li><a href="https://learnopencv.com/trm-tiny-ai-models-outsmarting-giants-on-complex-puzzles/">TRM: Tiny AI Models Outsmarting Giants on Complex Puzzles</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Xiaomi`, `#chips`, `#AI`, `#SoC`, `#semiconductors`
+**Tags**: `#latent reasoning`, `#LLM architectures`, `#chain-of-thought`, `#AGI`, `#ML research`
+
+---
+
+<a id="item-9"></a>
+## [TontaubeV1: Open-Weight Character-Level TTS Model for Long-Form Speech](https://www.reddit.com/r/MachineLearning/comments/1w4afjn/we_released_tontaubev1_a_characterlevel_tts_model/) ⭐️ 8.0/10
+
+The authors released TontaubeV1, a 2.9B-parameter open-weight text-to-speech model built on DualCodec, supporting expressive long-form generation, low-latency local inference, and zero-shot voice cloning from up to one minute of reference audio. It highlights character-level tokenization and a chunking/position scheme as key design choices. Open-weight TTS models with strong long-form and voice-cloning capabilities broaden access to high-quality speech synthesis research and applications, especially for English and German. The reported benefits of character-level tokenization could influence how future LLM-based TTS systems handle rare text sequences. The model was trained on about 200k hours of audio across 7 languages, primarily tested in English and German. It uses a Qwen3-1.7B backbone for its semantic codebook model, forces character-level tokenization, and pairs text and audio on shared logical position timelines with chunk boundaries that keep context bounded for very long passages.
+
+reddit · r/MachineLearning · /u/EAVDR · Sep 1, 12:23
+
+**Background**: Text-to-speech (TTS) models convert written text into spoken audio. Modern LLM-based TTS systems typically tokenize text with the backbone model's subword tokenizer and predict discrete audio tokens from a neural audio codec. DualCodec is a low-frame-rate, semantically-enhanced neural audio codec that extracts discrete tokens for efficient speech generation at 12.5Hz or 25Hz.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://arxiv.org/abs/2505.13000">[2505.13000] DualCodec : A Low-Frame-Rate, Semantically-Enhanced...</a></li>
+<li><a href="https://github.com/jiaqili3/DualCodec">GitHub - jiaqili3/ DualCodec : [Interspeech 2025] DualCodec ...</a></li>
+<li><a href="https://www.pranaypourkar.co.in/the-programmers-guide/ai/generative-ai/large-language-models-llm/llm-foundations/tokens-and-tokenization/character-level-tokenization">Character - Level Tokenization | The Programmer's Guide</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#TTS`, `#open-source`, `#audio generation`, `#machine learning`, `#NLP`
+
+---
+
+<a id="item-10"></a>
+## [EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agents](https://www.reddit.com/r/MachineLearning/comments/1w4m0hq/evoundo_recoverabilityconstrained_selfevolution/) ⭐️ 8.0/10
+
+EvoUndo is a new framework for representing, synthesizing, diagnosing, and verifying whether LLM agents' runtime self-modifications are recoverable across counterfactual states. In 600 one-shot self-evolution tasks, it found 197 capability-improving mutations that fail recoverability verification, with conventional repair recovering none and an extended recovery calculus recovering 191 of 197. This addresses a critical but underexplored safety problem: a self-improving agent may make changes that work in one context but cannot be safely undone in another. Reliable self-evolution requires co-designing verification, state grounding, witness semantics, and recovery-language expressivity, informing how developers build trustworthy autonomous agents. The paper distinguishes the original recovery language L0 from an extended recovery calculus: under deterministic oracle analysis, L0 recovers 48 of 197 failures, while the extended calculus achieves 191 of 197. A protocol-locked 2×2 grounding-by-expressivity intervention showed that exact state-address grounding raises recovery from 0/48 to 38/48 when L0 suffices, but on the gpt-oss-120b backbone adding exact-address diagnostics to the richer language reduces recovery to 133/143, while a Qwen3.8-27B replication preserves grounding and expressivity effects without that negative interaction.
+
+reddit · r/MachineLearning · /u/AccomplishedLeg1508 · Sep 1, 19:17
+
+**Background**: LLM agents increasingly modify their own prompts, tools, middleware, resources, and execution harnesses at runtime to improve capability, a process known as self-evolution. A successful mutation may leave persistent effects that cannot be safely reversed in states different from the one in which it was created; EvoUndo treats this recoverability problem as a first-class constraint. The framework represents and independently verifies model-generated self-modifications across counterfactual states, using a recovery calculus to separate bottlenecks of state grounding and language expressivity.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://arxiv.org/abs/2608.28363">[2608.28363] EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agent Harnesses</a></li>
+<li><a href="https://huggingface.co/papers/2608.28363">Paper page - EvoUndo : Recoverability -Constrained Self - Evolution ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#LLM agents`, `#self-evolution`, `#recoverability`, `#AI safety`, `#machine learning`
+
+---
+
+<a id="item-11"></a>
+## [Virtualizor Update System BGP-Hijacked to Deliver Root Backdoor](https://www.virtualizor.com/blog/security-incident-bgp-hijacking/) ⭐️ 8.0/10
+
+From August 28 to 30, 2026, attackers hijacked BGP routes to Virtualizor's update infrastructure and delivered malicious update packages signed with valid TLS certificates. The malicious packages installed a root SSH key, a Java payload, and a persistent service on affected systems. This is a serious supply chain attack because Virtualizor is a widely used VPS control panel, and the compromise leveraged BGP hijacking, a fundamental Internet routing weakness, to target trusted update mechanisms. System administrators and hosting providers using Virtualizor are directly affected, and the incident underscores the real-world risk of routing-layer attacks against software distribution channels. According to the official statement, only a small number of installations that updated during the hijack window were affected, and the incident was caused by the distribution chain being compromised, not a software code vulnerability. Independent forensic analysis by AlbaHost found indicators of compromise on 5 of 34 hypervisors, and Softaculous said there is currently no evidence that other products were impacted.
+
+telegram · zaihuapd · Sep 1, 06:05
+
+**Background**: BGP (Border Gateway Protocol) is the routing protocol that directs traffic across the Internet, and BGP hijacking occurs when an attacker takes over groups of IP addresses by corrupting Internet routing tables. Virtualizor is a web-based VPS control panel used by hosting providers to deploy and manage virtual private servers on physical servers. A hypervisor is a type of software that creates and runs virtual machines, and it is a critical component that the malicious update targeted. This incident shows that even cryptographically signed updates can be intercepted if the network routing layer is compromised.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/BGP_hijacking">BGP hijacking - Wikipedia</a></li>
+<li><a href="https://www.cloudflare.com/learning/security/glossary/bgp-hijacking/">What Is BGP Hijacking ?</a></li>
+<li><a href="https://www.virtualizor.com/">Virtualizor – Cloud Control Panel</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#security`, `#BGP hijacking`, `#supply chain`, `#malware`, `#virtualization`
 
 ---
