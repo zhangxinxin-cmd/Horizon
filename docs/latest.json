@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-01T23:41:25.797086+00:00",
-  "date": "2026-09-01",
-  "total_fetched": 44,
-  "important_count": 11,
+  "generated_at": "2026-09-02T23:42:38.235737+00:00",
+  "date": "2026-09-02",
+  "total_fetched": 40,
+  "important_count": 13,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,189 +10,220 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/09/01/summary-zh.html",
-      "path": "docs/_posts/2026-09-01-summary-zh.md"
+      "url": "2026/09/02/summary-zh.html",
+      "path": "docs/_posts/2026-09-02-summary-zh.md"
     },
     "en": {
-      "url": "2026/09/01/summary-en.html",
-      "path": "docs/_posts/2026-09-01-summary-en.md"
+      "url": "2026/09/02/summary-en.html",
+      "path": "docs/_posts/2026-09-02-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
-      "title_zh": "Anthropic发布Claude Fable 5.1与Mythos 5.1，新增最高思考档位",
-      "title_en": "Anthropic Releases Claude Fable 5.1 and Mythos 5.1 with Max Thinking Effort",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "title_zh": "谷歌推出Gemini 3.8 Flash与网络安全版3.8 Flash Cyber",
+      "title_en": "Google Introduces Gemini 3.8 Flash and Cyber Security Model",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
       "source": "hackernews",
       "score": 9.0,
-      "summary": "Anthropic releases Claude Fable 5.1 and Mythos 5.1 with improved writing style, configurable thinking effort (including a new 'max' level), and notably reduced cache read pricing.",
+      "summary": "Google announces Gemini 3.8 Flash and 3.8 Flash Cyber, a new fast, low-cost model with strong coding and benchmark performance.",
       "tags": [
-        "Claude",
-        "Anthropic",
-        "AI",
-        "LLM",
-        "Model Release"
+        "Gemini",
+        "AI models",
+        "Google",
+        "machine learning",
+        "release"
       ]
     },
     {
-      "title": "Korea’s Trillion-Dollar Sovereign AI Investment: Nvidia Wins, Hynix Loses",
-      "title_zh": "韩国万亿主权AI投资：英伟达受益，海力士承压",
-      "title_en": "Korea's Trillion-Dollar Sovereign AI Bets Favor Nvidia, Squeeze Hynix",
-      "url": "https://newsletter.semianalysis.com/p/koreas-trillion-dollar-sovereign",
-      "source": "rss",
-      "score": 9.0,
-      "summary": "Korea's trillion-dollar sovereign AI investment will favor Nvidia while disadvantaging Hynix, reshaping the competitive landscape for Samsung and open source AI models.",
-      "tags": [
-        "Sovereign AI",
-        "Semiconductors",
-        "AI Investment",
-        "Nvidia",
-        "Hynix"
-      ]
-    },
-    {
-      "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
-      "title_zh": "Dan Luu 复盘 Ed Zitron 的 AI 怀疑论预测",
-      "title_en": "Dan Luu Reviews Ed Zitron's AI Skeptic Predictions",
-      "url": "https://danluu.com/zitron/",
+      "title": "Muse Spark 1.3",
+      "title_zh": "Meta 发布 Muse Spark 1.3，以低成本刷新软件工程基准纪录",
+      "title_en": "Meta's Muse Spark 1.3 Tops Software Engineering Benchmark at Low Cost",
+      "url": "https://developer.meta.com/ai/models/muse-spark/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Dan Luu assesses the accuracy of Ed Zitron's AI skeptic predictions, finding a mixed record that sparks rich discussion on the credibility of AI forecasts and the dynamics of skepticism.",
+      "summary": "Meta's Muse Spark 1.3 is a new, highly cost-effective AI model that pushes toward state-of-the-art performance on software engineering benchmarks.",
       "tags": [
-        "AI",
-        "predictions",
-        "skepticism",
-        "technology-analysis",
-        "Dan Luu"
-      ]
-    },
-    {
-      "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
-      "title_zh": "Google Play 移除 AnkiDroid 捐赠链接，引发开源资助争议",
-      "title_en": "Google Play Removes AnkiDroid Donation Link, Sparking Open-Source Funding Debate",
-      "url": "https://github.com/ankidroid/Anki-Android/issues/21656",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Google Play has removed AnkiDroid's Open Collective donation link, prompting debate about app store monopoly power and open-source funding.",
-      "tags": [
-        "open-source",
-        "google-play",
-        "app-store-policy",
-        "monetization",
-        "android"
-      ]
-    },
-    {
-      "title": "I trained a small transformer in 1.5hrs and it beats many LLMs",
-      "title_zh": "1.5小时训练的小型Transformer在ARC上超越许多大语言模型",
-      "title_en": "Tiny Transformer Trained in 1.5 Hours Beats Many LLMs on ARC",
-      "url": "https://mvakde.github.io/blog/44-on-arc-1/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A small autoregressive transformer trained from scratch in 1.5 hours beats many large language models on the ARC benchmark, demonstrating that efficient specialized models can rival far larger approaches.",
-      "tags": [
-        "transformer",
-        "ARC",
-        "LLM",
-        "efficiency",
-        "deep-learning"
-      ]
-    },
-    {
-      "title": "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit",
-      "title_zh": "苹果在OpenAI诉讼中呈交MacBook取证证据",
-      "title_en": "Apple presents MacBook evidence in OpenAI trade-secret lawsuit",
-      "url": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Apple presents forensic evidence that an ex-employee used its confidential circuit schematics in OpenAI work, raising key legal questions about trade secrets and AI training.",
-      "tags": [
-        "Apple",
-        "OpenAI",
-        "trade-secrets",
-        "legal",
+        "Meta AI",
+        "Muse Spark",
+        "language model",
+        "benchmarks",
         "AI"
       ]
     },
     {
-      "title": "Introducing wrapture",
-      "title_zh": "Wrapture：通过猴子补丁实现追踪与测试的新Python库",
-      "title_en": "Wrapture: New Python Library for Tracing and Testing via Monkeypatching",
-      "url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+      "title": "Google avoids a breakup of its ad tech business",
+      "title_zh": "谷歌广告科技业务免于被法院强制拆分",
+      "title_en": "Google Avoids Court-Ordered Breakup of Ad Tech Business",
+      "url": "https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Google avoids a court-ordered breakup of its ad tech business, though the DOJ wins some remedies, reflecting a major moment in tech antitrust enforcement.",
+      "tags": [
+        "google",
+        "antitrust",
+        "adtech",
+        "regulation",
+        "tech policy"
+      ]
+    },
+    {
+      "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
+      "title_zh": "报告揭露三个网站制造21.5万AI引用“最佳软件”页面",
+      "title_en": "Report Exposes Three Sites' 215,128 AI-Cited 'Best Software' Pages",
+      "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A report exposes how three sites generated hundreds of thousands of 'best software' pages that are now cited by AI systems like Perplexity, highlighting the feedback loop of low-quality manufactured content influencing AI responses.",
+      "tags": [
+        "AI",
+        "LLM",
+        "content quality",
+        "search",
+        "misinformation"
+      ]
+    },
+    {
+      "title": "Can I opt out of my input or output data being used for training?",
+      "title_zh": "Mistral 默认将用户数据用于训练引发隐私担忧",
+      "title_en": "Mistral's Default Opt-In Data Training Draws Privacy Concerns",
+      "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A Hacker News discussion critiques Mistral's default opt-in data training policy, reflecting broader user concerns about privacy and trust in AI companies.",
+      "tags": [
+        "privacy",
+        "ai-training",
+        "data-consent",
+        "mistral",
+        "enterprise-ai"
+      ]
+    },
+    {
+      "title": "Claude Fable 5.1 made me a really nice animated pelican",
+      "title_zh": "Claude Fable 5.1 发布，基准大涨；Willison 用鹈鹕图测试",
+      "title_en": "Claude Fable 5.1 released with strong benchmarks; Willison runs pelican test",
+      "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
       "source": "rss",
       "score": 8.0,
-      "summary": "Graham Dumpleton introduces Wrapture, a Python library extending wrapt's monkeypatching to enable tracing and testing via function wrapping.",
+      "summary": "Simon Willison reacts to Anthropic's Claude Fable 5.1 launch, noting its strong benchmark scores and playfully evaluating its 'pelican' capabilities.",
       "tags": [
-        "Python",
-        "Testing",
-        "Tracing",
-        "Monkeypatching",
-        "Developer Tools"
+        "Claude",
+        "Anthropic",
+        "AI benchmarks",
+        "model release"
       ]
     },
     {
-      "title": "Latent Reasoning Landscape in 2026: Mapping BDH-CQ, HRM/TRM, Coconut [D]",
-      "title_zh": "绘制2026年潜在推理版图：突破思维链",
-      "title_en": "Mapping 2026's Latent Reasoning Landscape: Beyond Chain-of-Thought",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w4evwo/latent_reasoning_landscape_in_2026_mapping_bdhcq/",
+      "title": "Most open-source AI detectors can't hold a 0.5% false-positive rate [P]",
+      "title_zh": "开源AI检测器多数无法达到0.5%误报率，并存在偏见",
+      "title_en": "Open-source AI detectors fail 0.5% false-positive test and show bias",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w58erw/most_opensource_ai_detectors_cant_hold_a_05/",
       "source": "reddit",
       "score": 8.0,
-      "summary": "The post maps the 2026 latent reasoning research landscape, arguing that reasoning beyond the token stream via continuous hidden-state transformations is a key alternative to chain-of-thought.",
+      "summary": "An evaluation of open-source AI detectors shows most cannot maintain a 0.5% false-positive rate, perform poorly on paraphrased text, and exhibit bias against non-native writers.",
       "tags": [
-        "latent reasoning",
-        "LLM architectures",
-        "chain-of-thought",
-        "AGI",
-        "ML research"
+        "AI detection",
+        "Machine Learning",
+        "Algorithmic bias",
+        "Evaluation",
+        "Text classification"
       ]
     },
     {
-      "title": "We released TontaubeV1, a character-level TTS model for long-form generation [P]",
-      "title_zh": "开源字符级TTS模型TontaubeV1发布，专注长文语音生成",
-      "title_en": "TontaubeV1: Open-Weight Character-Level TTS Model for Long-Form Speech",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w4afjn/we_released_tontaubev1_a_characterlevel_tts_model/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "The authors released TontaubeV1, a 2.9B-parameter open-weight TTS model for expressive long-form speech with zero-shot voice cloning, highlighting character-level tokenization as a beneficial design choice.",
-      "tags": [
-        "TTS",
-        "open-source",
-        "audio generation",
-        "machine learning",
-        "NLP"
-      ]
-    },
-    {
-      "title": "EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agent Harnesses [R]",
-      "title_zh": "EvoUndo：使LLM智能体自我进化具备可恢复性",
-      "title_en": "EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agents",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w4m0hq/evoundo_recoverabilityconstrained_selfevolution/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "Introduces EvoUndo, a framework for ensuring that LLM agents' self-modifications are recoverable across counterfactual states, demonstrating that many capability-improving mutations fail verification and proposing an extended recovery calculus to address this.",
-      "tags": [
-        "LLM agents",
-        "self-evolution",
-        "recoverability",
-        "AI safety",
-        "machine learning"
-      ]
-    },
-    {
-      "title": "Virtualizor 更新设施遭 BGP 劫持，恶意更新植入 root 后门",
-      "title_zh": "Virtualizor 更新设施遭 BGP 劫持，恶意更新植入 Root 后门",
-      "title_en": "Virtualizor Update System BGP-Hijacked to Deliver Root Backdoor",
-      "url": "https://www.virtualizor.com/blog/security-incident-bgp-hijacking/",
+      "title": "♻️ 英伟达发布 DLSS 5 神经渲染，9 月 3 日随 NBA 2K27 上线",
+      "title_zh": "英伟达发布搭载 3D 引导神经渲染的 DLSS 5，9 月 3 日上线",
+      "title_en": "NVIDIA Unveils DLSS 5 with 3D-Guided Neural Rendering, Launching Sept 3",
+      "url": "https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Virtualizor's update infrastructure was compromised via BGP hijacking, delivering malicious updates that installed a root backdoor on affected systems.",
+      "summary": "NVIDIA announces DLSS 5 with 3D-guided neural rendering, launching September 3 alongside NBA 2K27 for RTX 50 series and GeForce NOW Ultimate.",
       "tags": [
-        "security",
-        "BGP hijacking",
-        "supply chain",
-        "malware",
-        "virtualization"
+        "DLSS 5",
+        "NVIDIA",
+        "neural rendering",
+        "real-time graphics",
+        "RTX 50"
+      ]
+    },
+    {
+      "title": "🤖 阿里发布 Qwen3.8-Max-0902，CodeArena 编程榜 1691 分夺冠",
+      "title_zh": "阿里发布Qwen3.8-Max-0902，CodeArena编程榜1691分夺冠",
+      "title_en": "Alibaba's Qwen3.8-Max-0902 tops CodeArena with 1691, undercuts rivals",
+      "url": "https://mp.weixin.qq.com/s/BfKRXMAR5ykD58LDkBftLg",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Alibaba releases Qwen3.8-Max-0902, a 2.4T-parameter LLM with 1M context that tops the CodeArena leaderboard (1691) and offers cheaper API pricing than rival models.",
+      "tags": [
+        "AI",
+        "Qwen",
+        "LLM",
+        "CodeArena",
+        "Alibaba"
+      ]
+    },
+    {
+      "title": "♻️ 英伟达洽购 Hugging Face，估值超 130 亿美元  据知情人士透露，英伟达近期与开源 AI 平台 Hugging Face 进行收购洽谈，交易",
+      "title_zh": "英伟达洽谈收购 Hugging Face，估值超 130 亿美元",
+      "title_en": "Nvidia in Talks to Acquire Hugging Face for Over $13 Billion",
+      "url": "https://t.me/zaihuapd/43557",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Nvidia is reportedly in talks to acquire open-source AI platform Hugging Face at a valuation exceeding $13 billion.",
+      "tags": [
+        "Nvidia",
+        "Hugging Face",
+        "Acquisition",
+        "AI",
+        "Business"
+      ]
+    },
+    {
+      "title": "🌙 月之暗面与三大云巨头谈判，寻求 Kimi K3 最高 30% 分成",
+      "title_zh": "月之暗面与三大云巨头谈判，寻求 Kimi K3 最高 30% 分成",
+      "title_en": "Moonshot AI seeks up to 30% revenue share from US cloud giants for Kimi K3",
+      "url": "https://www.jiemian.com/article/15040119.html",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Moonshot AI is in early talks with Microsoft, AWS, and Google for up to 30% revenue sharing on its open-source 2.8T-parameter Kimi K3 model, which would be the first major deal of its kind between a Chinese AI company and US cloud giants.",
+      "tags": [
+        "AI",
+        "Kimi K3",
+        "Moonshot AI",
+        "Cloud computing",
+        "Revenue sharing"
+      ]
+    },
+    {
+      "title": "🤖 xAI 发布 Grok 4.6，聚焦长时间运行的智能体任务  xAI 于 2026 年 8 月 12 日发布 Grok 4.6，在 Grok 4.5 基础上",
+      "title_zh": "xAI 发布 Grok 4.6，聚焦长时智能体任务并追平 GPT-5.6 Sol",
+      "title_en": "xAI Launches Grok 4.6 for Long-Running Agent Tasks, Matching GPT-5.6 Sol",
+      "url": "https://t.me/zaihuapd/43559",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "xAI releases Grok 4.6, focusing on long-running agent tasks and vision, achieving benchmark parity with GPT-5.6 Sol and now available across Cursor, Grok Build, and API.",
+      "tags": [
+        "xAI",
+        "Grok 4.6",
+        "AI model release",
+        "agents",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Nexus 暗网兜售 1.53 亿张驾照扫描件，FBI 已介入调查",
+      "title_zh": "FBI调查Nexus暗网售卖1.53亿张驾照扫描件",
+      "title_en": "FBI Probes Nexus Dark Web Service Selling 153M Driver's License Scans",
+      "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "FBI is investigating Nexus, a dark web service claiming to sell 153 million scanned driver's licenses from US and Canadian residents.",
+      "tags": [
+        "data-breach",
+        "cybersecurity",
+        "dark-web",
+        "identity-theft",
+        "privacy"
       ]
     }
   ]
