@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-02T23:42:38.235737+00:00",
-  "date": "2026-09-02",
-  "total_fetched": 40,
-  "important_count": 13,
+  "generated_at": "2026-09-03T23:41:53.218420+00:00",
+  "date": "2026-09-03",
+  "total_fetched": 33,
+  "important_count": 6,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,220 +10,109 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/09/02/summary-zh.html",
-      "path": "docs/_posts/2026-09-02-summary-zh.md"
+      "url": "2026/09/03/summary-zh.html",
+      "path": "docs/_posts/2026-09-03-summary-zh.md"
     },
     "en": {
-      "url": "2026/09/02/summary-en.html",
-      "path": "docs/_posts/2026-09-02-summary-en.md"
+      "url": "2026/09/03/summary-en.html",
+      "path": "docs/_posts/2026-09-03-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "title_zh": "谷歌推出Gemini 3.8 Flash与网络安全版3.8 Flash Cyber",
-      "title_en": "Google Introduces Gemini 3.8 Flash and Cyber Security Model",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "title": "GPT-6 Astra",
+      "title_zh": "OpenAI发布GPT-6 Astra：在ARC-AGI-3和编程上大幅领先",
+      "title_en": "OpenAI unveils GPT-6 Astra, leaping ahead on ARC-AGI-3 and coding",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "source": "hackernews",
+      "score": 10.0,
+      "summary": "OpenAI announces GPT-6 Astra, a new frontier model with major improvements on ARC-AGI-3 and coding benchmarks.",
+      "tags": [
+        "OpenAI",
+        "GPT-6",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Benchmarks"
+      ]
+    },
+    {
+      "title": "Audacity 4.0",
+      "title_zh": "Audacity 4.0 发布：采用基于 Qt6 的全新界面并修复多项问题",
+      "title_en": "Audacity 4.0 Launches with Qt6-Based UI and Host of Fixes",
+      "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0",
       "source": "hackernews",
       "score": 9.0,
-      "summary": "Google announces Gemini 3.8 Flash and 3.8 Flash Cyber, a new fast, low-cost model with strong coding and benchmark performance.",
+      "summary": "Audacity 4.0 marks a major milestone with a new Qt6-based interface and various fixes, though some users raise concerns about Linux audio integration and telemetry.",
       "tags": [
-        "Gemini",
-        "AI models",
-        "Google",
-        "machine learning",
-        "release"
+        "Audacity",
+        "Open Source",
+        "Audio Software",
+        "UI",
+        "Release"
       ]
     },
     {
-      "title": "Muse Spark 1.3",
-      "title_zh": "Meta 发布 Muse Spark 1.3，以低成本刷新软件工程基准纪录",
-      "title_en": "Meta's Muse Spark 1.3 Tops Software Engineering Benchmark at Low Cost",
-      "url": "https://developer.meta.com/ai/models/muse-spark/",
+      "title": "Pre-Release of Polars 2.0",
+      "title_zh": "Polars 2.0 预发布：移除历史包袱、调整默认行为",
+      "title_en": "Polars 2.0 Pre-Release to Remove Legacy Defaults, Prioritize SemVer",
+      "url": "https://pola.rs/posts/announcing-polars-2/",
       "source": "hackernews",
-      "score": 8.0,
-      "summary": "Meta's Muse Spark 1.3 is a new, highly cost-effective AI model that pushes toward state-of-the-art performance on software engineering benchmarks.",
+      "score": 9.0,
+      "summary": "Polars announces its 2.0 pre-release, focusing on breaking changes to remove legacy design decisions and adopt more sensible defaults.",
       "tags": [
-        "Meta AI",
-        "Muse Spark",
-        "language model",
-        "benchmarks",
-        "AI"
+        "Polars",
+        "data-processing",
+        "semver",
+        "major-release",
+        "Python"
       ]
     },
     {
-      "title": "Google avoids a breakup of its ad tech business",
-      "title_zh": "谷歌广告科技业务免于被法院强制拆分",
-      "title_en": "Google Avoids Court-Ordered Breakup of Ad Tech Business",
-      "url": "https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html",
+      "title": ".name Termination",
+      "title_zh": "Verisign 将终止 .name 三级域名注册",
+      "title_en": "Verisign to Terminate Third-Level .name Domains",
+      "url": "https://neil.fraser.name/news/2026/09/03/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Google avoids a court-ordered breakup of its ad tech business, though the DOJ wins some remedies, reflecting a major moment in tech antitrust enforcement.",
+      "summary": "Verisign is terminating registrations under the .name TLD's third-level domains (e.g., x.y.name), impacting existing users and raising stability/security concerns within ICANN governance.",
       "tags": [
-        "google",
-        "antitrust",
-        "adtech",
-        "regulation",
-        "tech policy"
+        "ICANN",
+        "DNS",
+        ".name TLD",
+        "domain policy",
+        "internet governance"
       ]
     },
     {
-      "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
-      "title_zh": "报告揭露三个网站制造21.5万AI引用“最佳软件”页面",
-      "title_en": "Report Exposes Three Sites' 215,128 AI-Cited 'Best Software' Pages",
-      "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+      "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
+      "title_zh": "开发者用 LLM 将 1993 年 Amiga 汇编游戏移植到 Godot",
+      "title_en": "Developer uses LLM to port 1993 Amiga assembly game to Godot",
+      "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "A report exposes how three sites generated hundreds of thousands of 'best software' pages that are now cited by AI systems like Perplexity, highlighting the feedback loop of low-quality manufactured content influencing AI responses.",
+      "summary": "A developer documents porting his 1993 Amiga 68000 assembly game to Godot with the help of an LLM, successfully reconstructing and preserving a retro classic in an evening.",
       "tags": [
-        "AI",
         "LLM",
-        "content quality",
-        "search",
-        "misinformation"
+        "retrocomputing",
+        "Godot",
+        "assembly",
+        "game development"
       ]
     },
     {
-      "title": "Can I opt out of my input or output data being used for training?",
-      "title_zh": "Mistral 默认将用户数据用于训练引发隐私担忧",
-      "title_en": "Mistral's Default Opt-In Data Training Draws Privacy Concerns",
-      "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A Hacker News discussion critiques Mistral's default opt-in data training policy, reflecting broader user concerns about privacy and trust in AI companies.",
-      "tags": [
-        "privacy",
-        "ai-training",
-        "data-consent",
-        "mistral",
-        "enterprise-ai"
-      ]
-    },
-    {
-      "title": "Claude Fable 5.1 made me a really nice animated pelican",
-      "title_zh": "Claude Fable 5.1 发布，基准大涨；Willison 用鹈鹕图测试",
-      "title_en": "Claude Fable 5.1 released with strong benchmarks; Willison runs pelican test",
-      "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "Simon Willison reacts to Anthropic's Claude Fable 5.1 launch, noting its strong benchmark scores and playfully evaluating its 'pelican' capabilities.",
-      "tags": [
-        "Claude",
-        "Anthropic",
-        "AI benchmarks",
-        "model release"
-      ]
-    },
-    {
-      "title": "Most open-source AI detectors can't hold a 0.5% false-positive rate [P]",
-      "title_zh": "开源AI检测器多数无法达到0.5%误报率，并存在偏见",
-      "title_en": "Open-source AI detectors fail 0.5% false-positive test and show bias",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w58erw/most_opensource_ai_detectors_cant_hold_a_05/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "An evaluation of open-source AI detectors shows most cannot maintain a 0.5% false-positive rate, perform poorly on paraphrased text, and exhibit bias against non-native writers.",
-      "tags": [
-        "AI detection",
-        "Machine Learning",
-        "Algorithmic bias",
-        "Evaluation",
-        "Text classification"
-      ]
-    },
-    {
-      "title": "♻️ 英伟达发布 DLSS 5 神经渲染，9 月 3 日随 NBA 2K27 上线",
-      "title_zh": "英伟达发布搭载 3D 引导神经渲染的 DLSS 5，9 月 3 日上线",
-      "title_en": "NVIDIA Unveils DLSS 5 with 3D-Guided Neural Rendering, Launching Sept 3",
-      "url": "https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/",
+      "title": "🌙 月之暗面秘密递交港股 IPO 申请，新一轮融资投前估值 500 亿美元",
+      "title_zh": "月之暗面秘密递交港股IPO申请，估值达500亿美元",
+      "title_en": "Moonshot AI (Kimi) Files Confidentially for Hong Kong IPO at $50B Valuation",
+      "url": "https://www.21jingji.com/article/20260903/herald/4a31937e4c968dcce1d233b83a4759f8.html",
       "source": "telegram",
       "score": 8.0,
-      "summary": "NVIDIA announces DLSS 5 with 3D-guided neural rendering, launching September 3 alongside NBA 2K27 for RTX 50 series and GeForce NOW Ultimate.",
-      "tags": [
-        "DLSS 5",
-        "NVIDIA",
-        "neural rendering",
-        "real-time graphics",
-        "RTX 50"
-      ]
-    },
-    {
-      "title": "🤖 阿里发布 Qwen3.8-Max-0902，CodeArena 编程榜 1691 分夺冠",
-      "title_zh": "阿里发布Qwen3.8-Max-0902，CodeArena编程榜1691分夺冠",
-      "title_en": "Alibaba's Qwen3.8-Max-0902 tops CodeArena with 1691, undercuts rivals",
-      "url": "https://mp.weixin.qq.com/s/BfKRXMAR5ykD58LDkBftLg",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Alibaba releases Qwen3.8-Max-0902, a 2.4T-parameter LLM with 1M context that tops the CodeArena leaderboard (1691) and offers cheaper API pricing than rival models.",
+      "summary": "月之暗面（Kimi）以500亿美元投前估值秘密递交港股IPO申请，并推进新一轮融资，可能为IPO前最后一轮。",
       "tags": [
         "AI",
-        "Qwen",
-        "LLM",
-        "CodeArena",
-        "Alibaba"
-      ]
-    },
-    {
-      "title": "♻️ 英伟达洽购 Hugging Face，估值超 130 亿美元  据知情人士透露，英伟达近期与开源 AI 平台 Hugging Face 进行收购洽谈，交易",
-      "title_zh": "英伟达洽谈收购 Hugging Face，估值超 130 亿美元",
-      "title_en": "Nvidia in Talks to Acquire Hugging Face for Over $13 Billion",
-      "url": "https://t.me/zaihuapd/43557",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Nvidia is reportedly in talks to acquire open-source AI platform Hugging Face at a valuation exceeding $13 billion.",
-      "tags": [
-        "Nvidia",
-        "Hugging Face",
-        "Acquisition",
-        "AI",
-        "Business"
-      ]
-    },
-    {
-      "title": "🌙 月之暗面与三大云巨头谈判，寻求 Kimi K3 最高 30% 分成",
-      "title_zh": "月之暗面与三大云巨头谈判，寻求 Kimi K3 最高 30% 分成",
-      "title_en": "Moonshot AI seeks up to 30% revenue share from US cloud giants for Kimi K3",
-      "url": "https://www.jiemian.com/article/15040119.html",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Moonshot AI is in early talks with Microsoft, AWS, and Google for up to 30% revenue sharing on its open-source 2.8T-parameter Kimi K3 model, which would be the first major deal of its kind between a Chinese AI company and US cloud giants.",
-      "tags": [
-        "AI",
-        "Kimi K3",
-        "Moonshot AI",
-        "Cloud computing",
-        "Revenue sharing"
-      ]
-    },
-    {
-      "title": "🤖 xAI 发布 Grok 4.6，聚焦长时间运行的智能体任务  xAI 于 2026 年 8 月 12 日发布 Grok 4.6，在 Grok 4.5 基础上",
-      "title_zh": "xAI 发布 Grok 4.6，聚焦长时智能体任务并追平 GPT-5.6 Sol",
-      "title_en": "xAI Launches Grok 4.6 for Long-Running Agent Tasks, Matching GPT-5.6 Sol",
-      "url": "https://t.me/zaihuapd/43559",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "xAI releases Grok 4.6, focusing on long-running agent tasks and vision, achieving benchmark parity with GPT-5.6 Sol and now available across Cursor, Grok Build, and API.",
-      "tags": [
-        "xAI",
-        "Grok 4.6",
-        "AI model release",
-        "agents",
-        "benchmarks"
-      ]
-    },
-    {
-      "title": "Nexus 暗网兜售 1.53 亿张驾照扫描件，FBI 已介入调查",
-      "title_zh": "FBI调查Nexus暗网售卖1.53亿张驾照扫描件",
-      "title_en": "FBI Probes Nexus Dark Web Service Selling 153M Driver's License Scans",
-      "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "FBI is investigating Nexus, a dark web service claiming to sell 153 million scanned driver's licenses from US and Canadian residents.",
-      "tags": [
-        "data-breach",
-        "cybersecurity",
-        "dark-web",
-        "identity-theft",
-        "privacy"
+        "大模型",
+        "港股IPO",
+        "月之暗面",
+        "融资"
       ]
     }
   ]
