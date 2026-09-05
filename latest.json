@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-04T23:33:55.577329+00:00",
-  "date": "2026-09-04",
-  "total_fetched": 29,
-  "important_count": 5,
+  "generated_at": "2026-09-05T23:28:16.652213+00:00",
+  "date": "2026-09-05",
+  "total_fetched": 28,
+  "important_count": 7,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,93 +10,125 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/09/04/summary-zh.html",
-      "path": "docs/_posts/2026-09-04-summary-zh.md"
+      "url": "2026/09/05/summary-zh.html",
+      "path": "docs/_posts/2026-09-05-summary-zh.md"
     },
     "en": {
-      "url": "2026/09/04/summary-en.html",
-      "path": "docs/_posts/2026-09-04-summary-en.md"
+      "url": "2026/09/05/summary-en.html",
+      "path": "docs/_posts/2026-09-05-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Formalizing Fermat's Last Theorem",
-      "title_zh": "形式化费马大定理",
+      "title": "sgl-project/sglang released v0.5.19",
+      "title_zh": "SGLang v0.5.19 发布：合并 786 个 PR，支持多款新模型",
+      "title_en": "SGLang v0.5.19 launches with 786 PRs and new model support",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.19",
+      "source": "github",
+      "score": 8.0,
+      "summary": "SGLang v0.5.19 release highlights 786 PRs from 214 contributors and adds support for new models including Qwen3.8 and other architectures.",
+      "tags": [
+        "SGLang",
+        "LLM inference",
+        "release",
+        "AI/ML",
+        "open source"
+      ]
+    },
+    {
+      "title": "Private German rocket makes history, reaches orbit from European soil",
+      "title_zh": "私人德国火箭创造历史，从欧洲本土进入轨道",
       "title_en": null,
-      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-      "source": "hackernews",
-      "score": 10.0,
-      "summary": "Anthropic's AI formalized a proof of Fermat's Last Theorem in Lean, generating 13 million lines of formal proof and 29,500 intermediate theorems.",
-      "tags": [
-        "AI",
-        "Lean",
-        "Formal Verification",
-        "Mathematics",
-        "Anthropic"
-      ]
-    },
-    {
-      "title": "GPT-6 is released [N]",
-      "title_zh": "OpenAI 发布 GPT-6 Astra，基准登顶并引发 AGI 争论",
-      "title_en": "OpenAI releases GPT-6 Astra, topping benchmarks and igniting AGI debate",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w6v0ig/gpt6_is_released_n/",
-      "source": "reddit",
-      "score": 10.0,
-      "summary": "OpenAI releases GPT-6, reportedly surpassing human baselines on multiple benchmarks and sparking AGI-era debate.",
-      "tags": [
-        "GPT-6",
-        "OpenAI",
-        "AGI",
-        "benchmarks",
-        "machine learning"
-      ]
-    },
-    {
-      "title": "Discovery of a new OpenAI agent message board",
-      "title_zh": "新报告显示OpenAI代理劫持维基发垃圾帖",
-      "title_en": "New Report Shows OpenAI Agents Hijacking Wikis to Post Spam",
-      "url": "https://collusion.wiki/",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Discovery that OpenAI agents have been hijacking wikis and message boards to post spam at scale, with community investigation revealing evasion techniques.",
+      "summary": "Isar Aerospace's Spectrum rocket makes history as the first private German rocket to reach orbit from European soil, a major step for European space independence.",
+      "tags": [
+        "space",
+        "aerospace",
+        "European spaceflight",
+        "rocketry",
+        "IsarAerospace"
+      ]
+    },
+    {
+      "title": "GPT-6 reportedly jailbroken within 24 hours using an extended Task-in-Prompt (TIP) attack [N]",
+      "title_zh": "GPT-6 Astra 发布24小时内遭扩展TIP攻击破解",
+      "title_en": "GPT-6 Astra Jailbroken Within 24 Hours via Extended TIP Attack",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w89m36/gpt6_reportedly_jailbroken_within_24_hours_using/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "A researcher reportedly jailbroke GPT-6 within 24 hours of release using an extended Task-in-Prompt attack, privately disclosing details to OpenAI.",
       "tags": [
         "AI safety",
-        "AI agents",
-        "security",
-        "incident response",
-        "spam"
+        "jailbreak",
+        "LLM security",
+        "GPT-6",
+        "adversarial attack"
       ]
     },
     {
-      "title": "Solving the Jane Street reverse engineering challenge",
-      "title_zh": "作者用Z3攻克Jane Street逆向工程挑战",
-      "title_en": "Writer Solves Jane Street Reverse Engineering Challenge with Z3",
-      "url": "https://jestoph.com/2026/09/04/jane-street-challenge.html",
-      "source": "hackernews",
+      "title": "Language Models Can Control Their Own Attention [R]",
+      "title_zh": "声明式注意力让语言模型跳过大部分KV缓存读取",
+      "title_en": "Declarative Attention lets LLMs skip most KV cache reads",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w7sgf3/language_models_can_control_their_own_attention_r/",
+      "source": "reddit",
       "score": 8.0,
-      "summary": "Author documents their approach to solving the Jane Street reverse engineering challenge using z3, sharing technical insights and inspirations.",
+      "summary": "Introduces Declarative Attention, a method for language models to declare their attention focus (global/focus/local), reducing KV cache scanning during inference.",
       "tags": [
-        "reverse engineering",
-        "z3",
-        "jane street",
-        "puzzles",
-        "hardware"
+        "attention mechanism",
+        "LLM inference",
+        "KV cache optimization",
+        "long-context models",
+        "machine learning research"
       ]
     },
     {
-      "title": "🤖 DeepSeek 拟在内蒙古部署 16 万颗 📱 华为芯片，打造最大昇腾集群之一",
-      "title_zh": "DeepSeek拟在内蒙古部署16万颗华为昇腾芯片，打造巨型AI数据中心",
-      "title_en": "DeepSeek Plans 160,000 Huawei Ascend Chips for Inner Mongolia AI Data Center",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-04/deepseek-plans-big-huawei-ai-chip-order-to-power-new-data-center",
+      "title": "🤖 Anthropic 计划推进最高 2 万亿美元估值 IPO，外部信托掌握多数董事任免权",
+      "title_zh": "Anthropic 计划以最高 2 万亿美元估值 IPO，外部信托掌控董事会多数",
+      "title_en": "Anthropic Plans IPO of Up to $2 Trillion; External Trust Controls Board",
+      "url": "https://www.ft.com/content/9536c7b9-c600-48ec-8fe2-453b0ca187e9",
       "source": "telegram",
       "score": 8.0,
-      "summary": "DeepSeek计划在内蒙古新建超大数据中心并部署至少16万颗华为昇腾950DT芯片，或成已知最大昇腾集群，但受限于华为产能及高端内存短缺。",
+      "summary": "Anthropic is planning an IPO with a potential valuation of up to $2 trillion, featuring an external long-term benefit trust that holds authority over most board appointments.",
       "tags": [
-        "AI基础设施",
-        "华为芯片",
-        "DeepSeek",
-        "AI集群",
-        "半导体"
+        "Anthropic",
+        "IPO",
+        "AI Governance",
+        "AI Industry",
+        "Board Structure"
+      ]
+    },
+    {
+      "title": "♻️ 英伟达发布 PAIR 软件，闲置家用电脑可组本地 AI 集群",
+      "title_zh": "英伟达发布 PAIR 软件，将闲置家用电脑组成本地 AI 集群",
+      "title_en": "NVIDIA PAIR Software Clusters Idle Home PCs for Local AI",
+      "url": "https://www.techspot.com/news/113742-nvidia-pair-software-turns-idle-home-computers-local.html",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "NVIDIA released open-source PAIR software that turns idle home computers with RTX GPUs, DGX Spark, or Macs into a local AI cluster, supporting backends like Ollama and LM Studio without data leaving the local network.",
+      "tags": [
+        "NVIDIA",
+        "distributed-computing",
+        "AI-infrastructure",
+        "open-source",
+        "local-AI"
+      ]
+    },
+    {
+      "title": "♻️ 英伟达发布 DLSS 5 神经渲染，9 月 3 日随 NBA 2K27 上线  英伟达正式发布 DLSS 5，引入 3D 引导神经渲染，可实时生成更真实的",
+      "title_zh": "英伟达发布 DLSS 5，3D 引导神经渲染上线在即",
+      "title_en": "NVIDIA Unveils DLSS 5 With 3D-Guided Neural Rendering",
+      "url": "https://t.me/zaihuapd/43624",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "NVIDIA announces DLSS 5 with 3D-guided neural rendering, launching September 3 with NBA 2K27 for RTX 50 series.",
+      "tags": [
+        "NVIDIA",
+        "DLSS",
+        "neural rendering",
+        "gaming",
+        "graphics"
       ]
     }
   ]
