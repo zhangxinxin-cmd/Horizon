@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-05T23:28:16.652213+00:00",
-  "date": "2026-09-05",
-  "total_fetched": 28,
-  "important_count": 7,
+  "generated_at": "2026-09-06T23:21:25.606082+00:00",
+  "date": "2026-09-06",
+  "total_fetched": 33,
+  "important_count": 8,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,125 +10,141 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/09/05/summary-zh.html",
-      "path": "docs/_posts/2026-09-05-summary-zh.md"
+      "url": "2026/09/06/summary-zh.html",
+      "path": "docs/_posts/2026-09-06-summary-zh.md"
     },
     "en": {
-      "url": "2026/09/05/summary-en.html",
-      "path": "docs/_posts/2026-09-05-summary-en.md"
+      "url": "2026/09/06/summary-en.html",
+      "path": "docs/_posts/2026-09-06-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "sgl-project/sglang released v0.5.19",
-      "title_zh": "SGLang v0.5.19 发布：合并 786 个 PR，支持多款新模型",
-      "title_en": "SGLang v0.5.19 launches with 786 PRs and new model support",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.19",
-      "source": "github",
-      "score": 8.0,
-      "summary": "SGLang v0.5.19 release highlights 786 PRs from 214 contributors and adds support for new models including Qwen3.8 and other architectures.",
+      "title": "Isar Aerospace reaches orbit and deploys payloads on second flight",
+      "title_zh": "Isar Aerospace第二次飞行成功入轨并部署载荷",
+      "title_en": "Isar Aerospace Reaches Orbit and Deploys Payloads on Second Flight",
+      "url": "https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "Isar Aerospace successfully reaches orbit and deploys payloads on its second flight, marking a historic achievement for European private spaceflight.",
       "tags": [
-        "SGLang",
-        "LLM inference",
-        "release",
-        "AI/ML",
-        "open source"
+        "spaceflight",
+        "Europe",
+        "aerospace",
+        "startup",
+        "orbit"
       ]
     },
     {
-      "title": "Private German rocket makes history, reaches orbit from European soil",
-      "title_zh": "私人德国火箭创造历史，从欧洲本土进入轨道",
-      "title_en": null,
-      "url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
+      "title": "Introducing GPT-6 Astra for developers",
+      "title_zh": "OpenAI 为开发者推出 GPT-6 Astra，主打高级 3D 建模能力",
+      "title_en": "OpenAI Introduces GPT-6 Astra for Developers, Emphasizing Advanced 3D Modeling",
+      "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+      "source": "rss",
+      "score": 9.0,
+      "summary": "OpenAI announces GPT-6 Astra for developers, highlighting enhanced prompt understanding, sophisticated output generation, and notable 3D modeling capabilities.",
+      "tags": [
+        "AI",
+        "GPT-6",
+        "OpenAI",
+        "Developer Tools",
+        "3D Modeling"
+      ]
+    },
+    {
+      "title": "Your intellectual fly is open (2025)",
+      "title_zh": "坎特里尔随笔：不披露的LLM写作等于“智力拉链没拉”",
+      "title_en": "Cantrill Essay: Undisclosed LLM Writing Is an Open Intellectual Fly",
+      "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Isar Aerospace's Spectrum rocket makes history as the first private German rocket to reach orbit from European soil, a major step for European space independence.",
+      "summary": "A provocative essay arguing that undisclosed LLM use in writing compromises intellectual integrity, with strong community engagement reflecting its relevance.",
       "tags": [
-        "space",
-        "aerospace",
-        "European spaceflight",
-        "rocketry",
-        "IsarAerospace"
+        "LLM",
+        "writing",
+        "intellectual honesty",
+        "disclosure",
+        "technology ethics"
       ]
     },
     {
-      "title": "GPT-6 reportedly jailbroken within 24 hours using an extended Task-in-Prompt (TIP) attack [N]",
-      "title_zh": "GPT-6 Astra 发布24小时内遭扩展TIP攻击破解",
-      "title_en": "GPT-6 Astra Jailbroken Within 24 Hours via Extended TIP Attack",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w89m36/gpt6_reportedly_jailbroken_within_24_hours_using/",
-      "source": "reddit",
+      "title": "Asahi Linux on M3",
+      "title_zh": "Asahi Linux 宣布正式支持苹果 M3 芯片",
+      "title_en": "Asahi Linux Announces Official Support for Apple M3 Chips",
+      "url": "https://asahilinux.org/2026/09/m2-episode-1/",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "A researcher reportedly jailbroke GPT-6 within 24 hours of release using an extended Task-in-Prompt attack, privately disclosing details to OpenAI.",
+      "summary": "Asahi Linux announces official support for Apple's M3 chips, extending Linux compatibility to the newest Apple Silicon hardware.",
       "tags": [
+        "Asahi Linux",
+        "Apple Silicon",
+        "Linux",
+        "M3",
+        "Open Source"
+      ]
+    },
+    {
+      "title": "A/I shuts down – Stay human",
+      "title_zh": "A/I 集体因美国恐怖主义认定而宣布关闭",
+      "title_en": "A/I Collective Shuts Down After US Terrorist Designation",
+      "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "The A/I Collective announces its shutdown after the US government designated it a terrorist organization over alleged material support to anarchist cells, sparking debate on censorship and internet freedom.",
+      "tags": [
+        "government overreach",
+        "internet freedom",
+        "censorship",
+        "collective shutdown",
+        "free speech"
+      ]
+    },
+    {
+      "title": "An Alien Mind",
+      "title_zh": "OpenAI 文章《An Alien Mind》谈 AI Agent 与对齐，引发尖锐批评",
+      "title_en": "OpenAI's 'An Alien Mind' Essay on AI Agents and Alignment Draws Sharp Criticism",
+      "url": "https://openai.com/index/an-alien-mind/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "An OpenAI essay on the trajectory of AI agents and alignment, prompting active community debate on safety claims and implications.",
+      "tags": [
+        "AI alignment",
+        "OpenAI",
         "AI safety",
-        "jailbreak",
-        "LLM security",
-        "GPT-6",
-        "adversarial attack"
+        "agents",
+        "technology ethics"
       ]
     },
     {
-      "title": "Language Models Can Control Their Own Attention [R]",
-      "title_zh": "声明式注意力让语言模型跳过大部分KV缓存读取",
-      "title_en": "Declarative Attention lets LLMs skip most KV cache reads",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w7sgf3/language_models_can_control_their_own_attention_r/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "Introduces Declarative Attention, a method for language models to declare their attention focus (global/focus/local), reducing KV cache scanning during inference.",
-      "tags": [
-        "attention mechanism",
-        "LLM inference",
-        "KV cache optimization",
-        "long-context models",
-        "machine learning research"
-      ]
-    },
-    {
-      "title": "🤖 Anthropic 计划推进最高 2 万亿美元估值 IPO，外部信托掌握多数董事任免权",
-      "title_zh": "Anthropic 计划以最高 2 万亿美元估值 IPO，外部信托掌控董事会多数",
-      "title_en": "Anthropic Plans IPO of Up to $2 Trillion; External Trust Controls Board",
-      "url": "https://www.ft.com/content/9536c7b9-c600-48ec-8fe2-453b0ca187e9",
+      "title": "OpenAI 发布 Astra 后多次改动评测数据，幻觉率先降后恢复",
+      "title_zh": "OpenAI 发布 Astra 后多次改动评测数据，幻觉率一度下调又恢复",
+      "title_en": "OpenAI Quietly Tweaked Astra Benchmarks Post-Release; Hallucination Rate Briefly Dipped",
+      "url": "https://fortune.com/2026/09/04/openai-quietly-boosts-some-of-astras-evaluation-metrics-amid-rare-delay-in-publication-of-the-modeblog-post-announcement/",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Anthropic is planning an IPO with a potential valuation of up to $2 trillion, featuring an external long-term benefit trust that holds authority over most board appointments.",
+      "summary": "OpenAI quietly modified Astra's evaluation benchmarks multiple times after release, temporarily lowering the hallucination rate and boosting other scores, raising transparency concerns.",
       "tags": [
-        "Anthropic",
-        "IPO",
-        "AI Governance",
-        "AI Industry",
-        "Board Structure"
+        "OpenAI",
+        "Astra",
+        "evaluation",
+        "benchmark",
+        "controversy"
       ]
     },
     {
-      "title": "♻️ 英伟达发布 PAIR 软件，闲置家用电脑可组本地 AI 集群",
-      "title_zh": "英伟达发布 PAIR 软件，将闲置家用电脑组成本地 AI 集群",
-      "title_en": "NVIDIA PAIR Software Clusters Idle Home PCs for Local AI",
-      "url": "https://www.techspot.com/news/113742-nvidia-pair-software-turns-idle-home-computers-local.html",
+      "title": "中国首款 AI 辅助研发创新药获批上市",
+      "title_zh": "中国首款AI辅助研发创新药获批",
+      "title_en": "China Approves First AI-Assisted Innovative Drug",
+      "url": "https://www.gelonghui.com/live/2653282",
       "source": "telegram",
       "score": 8.0,
-      "summary": "NVIDIA released open-source PAIR software that turns idle home computers with RTX GPUs, DGX Spark, or Macs into a local AI cluster, supporting backends like Ollama and LM Studio without data leaving the local network.",
+      "summary": "China's first AI-assisted innovative drug, a COVID-19 treatment, has been approved for market after only three and a half years of development.",
       "tags": [
-        "NVIDIA",
-        "distributed-computing",
-        "AI-infrastructure",
-        "open-source",
-        "local-AI"
-      ]
-    },
-    {
-      "title": "♻️ 英伟达发布 DLSS 5 神经渲染，9 月 3 日随 NBA 2K27 上线  英伟达正式发布 DLSS 5，引入 3D 引导神经渲染，可实时生成更真实的",
-      "title_zh": "英伟达发布 DLSS 5，3D 引导神经渲染上线在即",
-      "title_en": "NVIDIA Unveils DLSS 5 With 3D-Guided Neural Rendering",
-      "url": "https://t.me/zaihuapd/43624",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "NVIDIA announces DLSS 5 with 3D-guided neural rendering, launching September 3 with NBA 2K27 for RTX 50 series.",
-      "tags": [
-        "NVIDIA",
-        "DLSS",
-        "neural rendering",
-        "gaming",
-        "graphics"
+        "AI drug discovery",
+        "pharmaceuticals",
+        "COVID-19",
+        "machine learning",
+        "healthcare"
       ]
     }
   ]
