@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-06T23:21:25.606082+00:00",
-  "date": "2026-09-06",
+  "generated_at": "2026-09-07T23:52:06.262426+00:00",
+  "date": "2026-09-07",
   "total_fetched": 33,
-  "important_count": 8,
+  "important_count": 7,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,141 +10,124 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/09/06/summary-zh.html",
-      "path": "docs/_posts/2026-09-06-summary-zh.md"
+      "url": "2026/09/07/summary-zh.html",
+      "path": "docs/_posts/2026-09-07-summary-zh.md"
     },
     "en": {
-      "url": "2026/09/06/summary-en.html",
-      "path": "docs/_posts/2026-09-06-summary-en.md"
+      "url": "2026/09/07/summary-en.html",
+      "path": "docs/_posts/2026-09-07-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Isar Aerospace reaches orbit and deploys payloads on second flight",
-      "title_zh": "Isar Aerospace第二次飞行成功入轨并部署载荷",
-      "title_en": "Isar Aerospace Reaches Orbit and Deploys Payloads on Second Flight",
-      "url": "https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "Isar Aerospace successfully reaches orbit and deploys payloads on its second flight, marking a historic achievement for European private spaceflight.",
-      "tags": [
-        "spaceflight",
-        "Europe",
-        "aerospace",
-        "startup",
-        "orbit"
-      ]
-    },
-    {
-      "title": "Introducing GPT-6 Astra for developers",
-      "title_zh": "OpenAI 为开发者推出 GPT-6 Astra，主打高级 3D 建模能力",
-      "title_en": "OpenAI Introduces GPT-6 Astra for Developers, Emphasizing Advanced 3D Modeling",
-      "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+      "title": "Research acceleration: The view inside OpenAI",
+      "title_zh": "OpenAI 披露编程代理正推动研究加速迈向递归自我改进",
+      "title_en": "OpenAI Reveals Coding Agents Fuelling Research Push Toward Recursive Self-Improvement",
+      "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
       "source": "rss",
       "score": 9.0,
-      "summary": "OpenAI announces GPT-6 Astra for developers, highlighting enhanced prompt understanding, sophisticated output generation, and notable 3D modeling capabilities.",
+      "summary": "OpenAI discusses research acceleration and Recursive Self-Improvement, revealing how coding agents have reshaped their researchers' daily work.",
       "tags": [
-        "AI",
-        "GPT-6",
         "OpenAI",
-        "Developer Tools",
-        "3D Modeling"
+        "AGI",
+        "AI research",
+        "coding agents"
       ]
     },
     {
-      "title": "Your intellectual fly is open (2025)",
-      "title_zh": "坎特里尔随笔：不披露的LLM写作等于“智力拉链没拉”",
-      "title_en": "Cantrill Essay: Undisclosed LLM Writing Is an Open Intellectual Fly",
-      "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
+      "title": "最高法发布 AI 纠纷司法解释，换脸与算法杀熟等责任获明确",
+      "title_zh": "最高法发布人工智能纠纷司法解释，厘清AI责任",
+      "title_en": "China's Top Court Issues Landmark Judicial Interpretation on AI Dispute Liability",
+      "url": "https://www.cnr.cn/news/20260907/t20260907_527806795.shtml",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "China's Supreme People's Court issues a 24-article judicial interpretation clarifying legal liability for AI disputes, including deepfakes, algorithmic price discrimination, and unauthorized AI impersonation.",
+      "tags": [
+        "AI regulation",
+        "legal",
+        "deepfake",
+        "algorithmic pricing",
+        "China"
+      ]
+    },
+    {
+      "title": "216M Spy TVs – The LG Smart TV Problem [video]",
+      "title_zh": "LG智能电视被曝偷录音频并扫描局域网设备",
+      "title_en": "LG Smart TVs Are Caught Logging Audio and Snooping on Devices",
+      "url": "https://www.youtube.com/watch?v=6IFVTcM28KA",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "A provocative essay arguing that undisclosed LLM use in writing compromises intellectual integrity, with strong community engagement reflecting its relevance.",
+      "summary": "A video and report detail how LG Smart TVs engage in invasive data collection, including audio logging with screen off and local device snooping, drawing widespread community concern.",
+      "tags": [
+        "privacy",
+        "smart-tv",
+        "IoT security",
+        "surveillance",
+        "LG"
+      ]
+    },
+    {
+      "title": "TPU Inference Externalization Full Steam Ahead - InferenceX",
+      "title_zh": "TPU经InferenceX加速外部化，削弱英伟达CUDA护城河",
+      "title_en": "TPU Externalization via InferenceX Gains Steam, Eroding Nvidia's CUDA Moat",
+      "url": "https://newsletter.semianalysis.com/p/tpu-inferencex-full-steam",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "Covers the rapid externalization of Google's TPU stack via InferenceX, offering up to 50% better performance per dollar and challenging NVIDIA's CUDA dominance.",
+      "tags": [
+        "TPU",
+        "AI inference",
+        "Google",
+        "hardware",
+        "CUDA"
+      ]
+    },
+    {
+      "title": "Rustuna: A High-Performance Rust Implementation of Optuna [P]",
+      "title_zh": "Rustuna：高性能的 Optuna Rust 实现发布",
+      "title_en": "Rustuna: High-Performance Rust Implementation of Optuna Released",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w9nyhz/rustuna_a_highperformance_rust_implementation_of/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "Rustuna is a new high-performance, memory-efficient Rust implementation of Optuna with a compatible API and zero Python dependencies.",
+      "tags": [
+        "Rust",
+        "Optuna",
+        "hyperparameter-optimization",
+        "machine-learning",
+        "supply-chain-security"
+      ]
+    },
+    {
+      "title": "LLM-guided program evolution improves 10 best-known circle-packing solutions (Packomania csqv, N=101-114) [R]",
+      "title_zh": "LLM进化出的优化算法打破10项圆形填充纪录",
+      "title_en": "LLM-Evolved Optimization Algorithm Breaks 10 Circle-Packing Records",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w9xlyi/llmguided_program_evolution_improves_10_bestknown/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "An LLM-guided program evolution method improves 10 best-known circle-packing solutions on the Packomania csqv benchmark for N=101-114 at a total cost of $27.72.",
       "tags": [
         "LLM",
-        "writing",
-        "intellectual honesty",
-        "disclosure",
-        "technology ethics"
+        "program evolution",
+        "optimization",
+        "circle-packing",
+        "AI research"
       ]
     },
     {
-      "title": "Asahi Linux on M3",
-      "title_zh": "Asahi Linux 宣布正式支持苹果 M3 芯片",
-      "title_en": "Asahi Linux Announces Official Support for Apple M3 Chips",
-      "url": "https://asahilinux.org/2026/09/m2-episode-1/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Asahi Linux announces official support for Apple's M3 chips, extending Linux compatibility to the newest Apple Silicon hardware.",
-      "tags": [
-        "Asahi Linux",
-        "Apple Silicon",
-        "Linux",
-        "M3",
-        "Open Source"
-      ]
-    },
-    {
-      "title": "A/I shuts down – Stay human",
-      "title_zh": "A/I 集体因美国恐怖主义认定而宣布关闭",
-      "title_en": "A/I Collective Shuts Down After US Terrorist Designation",
-      "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "The A/I Collective announces its shutdown after the US government designated it a terrorist organization over alleged material support to anarchist cells, sparking debate on censorship and internet freedom.",
-      "tags": [
-        "government overreach",
-        "internet freedom",
-        "censorship",
-        "collective shutdown",
-        "free speech"
-      ]
-    },
-    {
-      "title": "An Alien Mind",
-      "title_zh": "OpenAI 文章《An Alien Mind》谈 AI Agent 与对齐，引发尖锐批评",
-      "title_en": "OpenAI's 'An Alien Mind' Essay on AI Agents and Alignment Draws Sharp Criticism",
-      "url": "https://openai.com/index/an-alien-mind/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "An OpenAI essay on the trajectory of AI agents and alignment, prompting active community debate on safety claims and implications.",
-      "tags": [
-        "AI alignment",
-        "OpenAI",
-        "AI safety",
-        "agents",
-        "technology ethics"
-      ]
-    },
-    {
-      "title": "OpenAI 发布 Astra 后多次改动评测数据，幻觉率先降后恢复",
-      "title_zh": "OpenAI 发布 Astra 后多次改动评测数据，幻觉率一度下调又恢复",
-      "title_en": "OpenAI Quietly Tweaked Astra Benchmarks Post-Release; Hallucination Rate Briefly Dipped",
-      "url": "https://fortune.com/2026/09/04/openai-quietly-boosts-some-of-astras-evaluation-metrics-amid-rare-delay-in-publication-of-the-modeblog-post-announcement/",
+      "title": "📱 华为时隔六年再次发布高性能芯片",
+      "title_zh": "华为时隔六年发布全新麒麟高性能芯片",
+      "title_en": "Huawei Unveils First High-Performance Kirin Chip in Six Years",
+      "url": "https://www.news.cn/20260907/adf46c5c003240d28cc3cf6de54f9b5f/c.html",
       "source": "telegram",
       "score": 8.0,
-      "summary": "OpenAI quietly modified Astra's evaluation benchmarks multiple times after release, temporarily lowering the hallucination rate and boosting other scores, raising transparency concerns.",
+      "summary": "Huawei releases the Kirin 9050 Pro chip with logic folding technology, marking its first new high-performance chip in six years.",
       "tags": [
-        "OpenAI",
-        "Astra",
-        "evaluation",
-        "benchmark",
-        "controversy"
-      ]
-    },
-    {
-      "title": "中国首款 AI 辅助研发创新药获批上市",
-      "title_zh": "中国首款AI辅助研发创新药获批",
-      "title_en": "China Approves First AI-Assisted Innovative Drug",
-      "url": "https://www.gelonghui.com/live/2653282",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "China's first AI-assisted innovative drug, a COVID-19 treatment, has been approved for market after only three and a half years of development.",
-      "tags": [
-        "AI drug discovery",
-        "pharmaceuticals",
-        "COVID-19",
-        "machine learning",
-        "healthcare"
+        "Huawei",
+        "chip",
+        "semiconductor",
+        "technology",
+        "mobile"
       ]
     }
   ]
