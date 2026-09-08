@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T23:52:06.262426+00:00",
-  "date": "2026-09-07",
-  "total_fetched": 33,
+  "generated_at": "2026-09-08T23:46:08.107875+00:00",
+  "date": "2026-09-08",
+  "total_fetched": 39,
   "important_count": 7,
   "score_threshold": 8.0,
   "languages": [
@@ -10,124 +10,123 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/09/07/summary-zh.html",
-      "path": "docs/_posts/2026-09-07-summary-zh.md"
+      "url": "2026/09/08/summary-zh.html",
+      "path": "docs/_posts/2026-09-08-summary-zh.md"
     },
     "en": {
-      "url": "2026/09/07/summary-en.html",
-      "path": "docs/_posts/2026-09-07-summary-en.md"
+      "url": "2026/09/08/summary-en.html",
+      "path": "docs/_posts/2026-09-08-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Research acceleration: The view inside OpenAI",
-      "title_zh": "OpenAI 披露编程代理正推动研究加速迈向递归自我改进",
-      "title_en": "OpenAI Reveals Coding Agents Fuelling Research Push Toward Recursive Self-Improvement",
-      "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "title_zh": "OpenAI 宣称 AI 破解纳维–斯托克斯千禧年难题，引发功劳争议",
+      "title_en": "OpenAI Claims AI Cracked Navier–Stokes Problem, Sparking Credit Dispute",
+      "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
       "source": "rss",
-      "score": 9.0,
-      "summary": "OpenAI discusses research acceleration and Recursive Self-Improvement, revealing how coding agents have reshaped their researchers' daily work.",
+      "score": 10.0,
+      "summary": "OpenAI claims its unreleased model produced a solution to the Navier-Stokes Millennium Prize Problem, a historic milestone clouded by accusations of misconduct from academic collaborators.",
       "tags": [
-        "OpenAI",
-        "AGI",
         "AI research",
-        "coding agents"
+        "mathematics",
+        "OpenAI",
+        "Navier-Stokes",
+        "Millennium Prize"
       ]
     },
     {
-      "title": "最高法发布 AI 纠纷司法解释，换脸与算法杀熟等责任获明确",
-      "title_zh": "最高法发布人工智能纠纷司法解释，厘清AI责任",
-      "title_en": "China's Top Court Issues Landmark Judicial Interpretation on AI Dispute Liability",
-      "url": "https://www.cnr.cn/news/20260907/t20260907_527806795.shtml",
+      "title": "🍏 库克缺席苹果 9 月 9 日发布会视频，让位新 CEO 主推折叠 iPhone",
+      "title_zh": "库克缺席发布会视频 新CEO特纳斯主导折叠iPhone亮相",
+      "title_en": "Tim Cook to Skip Apple Event Video, New CEO Ternus to Lead Foldable iPhone Launch",
+      "url": "https://www.macrumors.com/2026/09/07/tim-cook-wont-appear-apple-sept-9-event-video/",
       "source": "telegram",
       "score": 9.0,
-      "summary": "China's Supreme People's Court issues a 24-article judicial interpretation clarifying legal liability for AI disputes, including deepfakes, algorithmic price discrimination, and unauthorized AI impersonation.",
+      "summary": "据彭博社报道，库克将缺席苹果九月发布会视频，由新任CEO John Ternus主导推出折叠iPhone。",
       "tags": [
-        "AI regulation",
-        "legal",
-        "deepfake",
-        "algorithmic pricing",
-        "China"
+        "Apple",
+        "Tim Cook",
+        "CEO",
+        "Foldable iPhone",
+        "MacRumors"
       ]
     },
     {
-      "title": "216M Spy TVs – The LG Smart TV Problem [video]",
-      "title_zh": "LG智能电视被曝偷录音频并扫描局域网设备",
-      "title_en": "LG Smart TVs Are Caught Logging Audio and Snooping on Devices",
-      "url": "https://www.youtube.com/watch?v=6IFVTcM28KA",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A video and report detail how LG Smart TVs engage in invasive data collection, including audio logging with screen off and local device snooping, drawing widespread community concern.",
+      "title": "ASML 与台积电推进 High NA EUV 升级，12 英寸光掩模计划落地",
+      "title_zh": "ASML与台积电合作推进High NA EUV，采用12英寸光掩模",
+      "title_en": "ASML and TSMC Partner to Advance High NA EUV with 12-Inch Photomasks",
+      "url": "https://www.nrc.nl/nieuws/2026/09/08/asml-gaat-samenwerken-met-taiwanese-chipgigant-tsmc-om-zijn-nieuwste-chipmachines-te-upgraden-a4936073",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "ASML与台积电宣布合作推进High NA EUV光刻机升级，计划2031年建立12英寸光掩模试产线，2033年用于先进制程量产。",
       "tags": [
-        "privacy",
-        "smart-tv",
-        "IoT security",
-        "surveillance",
-        "LG"
+        "半导体",
+        "EUV光刻",
+        "芯片制造",
+        "ASML",
+        "台积电"
       ]
     },
     {
-      "title": "TPU Inference Externalization Full Steam Ahead - InferenceX",
-      "title_zh": "TPU经InferenceX加速外部化，削弱英伟达CUDA护城河",
-      "title_en": "TPU Externalization via InferenceX Gains Steam, Eroding Nvidia's CUDA Moat",
-      "url": "https://newsletter.semianalysis.com/p/tpu-inferencex-full-steam",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "Covers the rapid externalization of Google's TPU stack via InferenceX, offering up to 50% better performance per dollar and challenging NVIDIA's CUDA dominance.",
+      "title": "🤖 OpenAI 发布 ChatGPT Images 2.0 强化文本渲染与联网推理能力  OpenAI 推出基于 GPT Image 2 的新一代图像生成模型",
+      "title_zh": "OpenAI 发布 ChatGPT Images 2.0，引入推理与联网搜索",
+      "title_en": "OpenAI Releases ChatGPT Images 2.0 with Reasoning and Web Search",
+      "url": "https://t.me/zaihuapd/43693",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "OpenAI has released ChatGPT Images 2.0 based on GPT Image 2, introducing reasoning and web search to generate up to 8 visually consistent images and solve text rendering issues for non-Latin scripts.",
       "tags": [
-        "TPU",
-        "AI inference",
-        "Google",
-        "hardware",
-        "CUDA"
-      ]
-    },
-    {
-      "title": "Rustuna: A High-Performance Rust Implementation of Optuna [P]",
-      "title_zh": "Rustuna：高性能的 Optuna Rust 实现发布",
-      "title_en": "Rustuna: High-Performance Rust Implementation of Optuna Released",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w9nyhz/rustuna_a_highperformance_rust_implementation_of/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "Rustuna is a new high-performance, memory-efficient Rust implementation of Optuna with a compatible API and zero Python dependencies.",
-      "tags": [
-        "Rust",
-        "Optuna",
-        "hyperparameter-optimization",
-        "machine-learning",
-        "supply-chain-security"
-      ]
-    },
-    {
-      "title": "LLM-guided program evolution improves 10 best-known circle-packing solutions (Packomania csqv, N=101-114) [R]",
-      "title_zh": "LLM进化出的优化算法打破10项圆形填充纪录",
-      "title_en": "LLM-Evolved Optimization Algorithm Breaks 10 Circle-Packing Records",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w9xlyi/llmguided_program_evolution_improves_10_bestknown/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "An LLM-guided program evolution method improves 10 best-known circle-packing solutions on the Packomania csqv benchmark for N=101-114 at a total cost of $27.72.",
-      "tags": [
-        "LLM",
-        "program evolution",
-        "optimization",
-        "circle-packing",
+        "OpenAI",
+        "image generation",
+        "GPT Image 2",
         "AI research"
       ]
     },
     {
-      "title": "📱 华为时隔六年再次发布高性能芯片",
-      "title_zh": "华为时隔六年发布全新麒麟高性能芯片",
-      "title_en": "Huawei Unveils First High-Performance Kirin Chip in Six Years",
-      "url": "https://www.news.cn/20260907/adf46c5c003240d28cc3cf6de54f9b5f/c.html",
+      "title": "NeurIPS desk-rejected 178 papers for being \"AI-generated\". The detector flagged the track chairs' own papers at 24-69% [N]",
+      "title_zh": "NeurIPS 用不可靠 AI 检测器拒稿 178 篇论文，检测器连主席论文也误判",
+      "title_en": "NeurIPS Desk-Rejects 178 Papers Using Unreliable AI Detector That Flagged Its Own Chairs",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wakf62/neurips_deskrejected_178_papers_for_being/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "NeurIPS desk-rejected 178 papers based on an unreliable AI detector that even flagged track chairs' own papers as AI-generated at rates of 24-69%.",
+      "tags": [
+        "AI detection",
+        "NeurIPS",
+        "academic publishing",
+        "ethics",
+        "machine learning"
+      ]
+    },
+    {
+      "title": "美国审查中国 AI 企业海外获取英伟达芯片渠道  知情人士透露，美国商务部工业与安全局（BIS）正系统性审查中国 AI 企业如何在海外获取和使用英伟达芯片，包括",
+      "title_zh": "美BIS审查中国AI企业海外获取英伟达芯片渠道",
+      "title_en": "US BIS Probes Chinese AI Firms' Overseas Access to Nvidia Chips via Remote Compute",
+      "url": "https://t.me/zaihuapd/43676",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Huawei releases the Kirin 9050 Pro chip with logic folding technology, marking its first new high-performance chip in six years.",
+      "summary": "The U.S. Commerce Department is systematically investigating how Chinese AI companies obtain Nvidia chips abroad, including via remote access to computing resources, heightened by recent claims around Kimi K3.",
       "tags": [
-        "Huawei",
-        "chip",
-        "semiconductor",
-        "technology",
-        "mobile"
+        "export controls",
+        "AI chips",
+        "Nvidia",
+        "geopolitics",
+        "cloud computing"
+      ]
+    },
+    {
+      "title": "🤖DeepSeek V4.1 Flash 开启内测，支持原生多模态，速度更快成本更低  深度求索开启 DeepSeek V4.1 Flash 中间版本内测，称其",
+      "title_zh": "DeepSeek V4.1 Flash 开启内测：原生多模态、更快更便宜",
+      "title_en": "DeepSeek begins internal testing of V4.1 Flash with native multimodal support",
+      "url": "https://t.me/zaihuapd/43690",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "DeepSeek begins internal testing of V4.1 Flash, a native multimodal model that is faster and cheaper, with a temporary model name and limited concurrency.",
+      "tags": [
+        "DeepSeek",
+        "AI",
+        "multimodal",
+        "LLM"
       ]
     }
   ]
