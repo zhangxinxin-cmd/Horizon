@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-09T23:42:39.744576+00:00",
-  "date": "2026-09-09",
-  "total_fetched": 39,
-  "important_count": 15,
+  "generated_at": "2026-09-10T23:33:28.091267+00:00",
+  "date": "2026-09-10",
+  "total_fetched": 36,
+  "important_count": 8,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,253 +10,141 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/09/09/summary-zh.html",
-      "path": "docs/_posts/2026-09-09-summary-zh.md"
+      "url": "2026/09/10/summary-zh.html",
+      "path": "docs/_posts/2026-09-10-summary-zh.md"
     },
     "en": {
-      "url": "2026/09/09/summary-en.html",
-      "path": "docs/_posts/2026-09-09-summary-en.md"
+      "url": "2026/09/10/summary-en.html",
+      "path": "docs/_posts/2026-09-10-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "On the Navier–Stokes Millennium Prize Problem",
-      "title_zh": "OpenAI 声称用 AI 智能体破解纳维-斯托克斯千禧年难题，引发优先权争议",
-      "title_en": "OpenAI Claims AI Agents Solved Navier-Stokes Millennium Problem, Precipitating Priority Dispute",
-      "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+      "title": "Quoting Calif Research",
+      "title_zh": "Calif Research发布WeWorm：通过微信通话传播的零点击蠕虫",
+      "title_en": "Calif Research Unveils WeWorm, Zero-Click WeChat Call Worm",
+      "url": "https://simonwillison.net/2026/Sep/10/calif-research/",
       "source": "rss",
-      "score": 10.0,
-      "summary": "OpenAI reportedly used an unreleased model to solve the Navier-Stokes Millennium Prize Problem, a claim already embroiled in controversy over credit and timing.",
-      "tags": [
-        "AI",
-        "mathematics",
-        "OpenAI",
-        "Navier-Stokes",
-        "research"
-      ]
-    },
-    {
-      "title": "iPhone Duo",
-      "title_zh": "苹果发布可折叠手机 iPhone Duo",
-      "title_en": "Apple Unveils iPhone Duo Foldable Smartphone",
-      "url": "https://www.apple.com/iphone-duo/",
-      "source": "hackernews",
       "score": 9.0,
-      "summary": "Apple announces the iPhone Duo foldable smartphone, sparking extensive discussion about device design and Apple's presentation approach.",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "Foldable phones",
-        "Product announcement",
-        "Hardware"
-      ]
-    },
-    {
-      "title": "🤖 GPT-6 Astra 发布，评测全面登顶  OpenAI 发布 GPT-6 Astra，称其为迄今最智能、最对齐的模型。",
-      "title_zh": "OpenAI 发布 GPT-6 Astra，登顶评测并推进素数间隔上界",
-      "title_en": "OpenAI releases GPT-6 Astra with top benchmark scores and new prime gap bound",
-      "url": "https://t.me/zaihuapd/43707",
-      "source": "telegram",
-      "score": 9.0,
-      "summary": "OpenAI releases GPT-6 Astra, claiming top performance across multiple benchmarks and a new prime gap bound, with API pricing details.",
-      "tags": [
-        "AI",
-        "GPT-6",
-        "OpenAI",
-        "benchmarks",
-        "release"
-      ]
-    },
-    {
-      "title": "vllm-project/vllm released v0.29.0",
-      "title_zh": "vLLM v0.29.0 发布：Model Runner V2 成为默认，性能大幅提升",
-      "title_en": "vLLM v0.29.0 Released: Model Runner V2 Default, Big Performance Gains",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
-      "source": "github",
-      "score": 8.0,
-      "summary": "vLLM v0.29.0 is released with Model Runner V2 as default, multiple new model additions, and substantial performance enhancements.",
-      "tags": [
-        "vLLM",
-        "LLM inference",
-        "release",
-        "machine learning",
-        "performance"
-      ]
-    },
-    {
-      "title": "Shopify acquires Tailwind",
-      "title_zh": "Shopify 收购热门 CSS 框架 Tailwind",
-      "title_en": "Shopify acquires Tailwind, the popular CSS framework",
-      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Shopify acquires Tailwind, the popular CSS framework, as AI-driven changes impact its business model.",
-      "tags": [
-        "acquisition",
-        "css",
-        "tailwind",
-        "web development",
-        "business"
-      ]
-    },
-    {
-      "title": "Growing proof that autonomous cars save lives",
-      "title_zh": "自动驾驶汽车挽救生命的证据日益增多",
-      "title_en": "Evidence Grows That Autonomous Cars Save Lives",
-      "url": "https://spectrum.ieee.org/are-self-driving-cars-safe",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Article presents growing data that autonomous vehicles improve road safety, with HN commenters debating methodology and alternatives.",
-      "tags": [
-        "autonomous vehicles",
-        "safety",
-        "AI",
-        "transportation",
-        "data analysis"
-      ]
-    },
-    {
-      "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
-      "title_zh": "GPT-6 Astra、循环 Transformer 与隐藏推理",
-      "title_en": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
-      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "An analysis of GPT-6 Astra, looped transformers, and hidden reasoning, with community discussion on computational limits and practical model comparisons.",
-      "tags": [
-        "AI",
-        "LLM",
-        "transformers",
-        "reasoning",
-        "GPT-6"
-      ]
-    },
-    {
-      "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
-      "title_zh": "Qwen 3.8 推理前缀与 GPT-5.5 Pro 高度相似，引发蒸馏争议",
-      "title_en": "Qwen 3.8 Reasoning Prefills Echo GPT-5.5 Pro, Raising Distillation Questions",
-      "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A Hacker News discussion on evidence that Qwen 3.8's reasoning patterns closely follow GPT-5.5 Pro's prefills, prompting debate about potential distillation or shared training data.",
-      "tags": [
-        "AI",
-        "LLM",
-        "distillation",
-        "reasoning",
-        "research"
-      ]
-    },
-    {
-      "title": "GNU Radio in the browser",
-      "title_zh": "GNU Radio 通过 WebAssembly 在浏览器中运行",
-      "title_en": "GNU Radio Runs in Browser via WebAssembly",
-      "url": "https://gnuradioworld.com/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "GNU Radio is now accessible in the browser via WebAssembly, enabling signal processing flows without native installation.",
-      "tags": [
-        "GNU Radio",
-        "WebAssembly",
-        "Software-Defined Radio",
-        "DSP",
-        "Browser"
-      ]
-    },
-    {
-      "title": "How I advertise malicious software on Google Ads",
-      "title_zh": "安全研究员详述在 Google Ads 投放恶意软件广告的方法",
-      "title_en": "Security Researcher Details Method to Run Malware Ads on Google Ads",
-      "url": "https://xlii.space/eng/malicious-software-on-google-ads/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A security researcher details techniques for advertising malware via Google Ads, revealing gaps in automated enforcement and sparking broader debate about platform responsibility.",
+      "summary": "Calif Research claims WeWorm is the first zero-click worm spreading through WeChat calls on iOS and Android, built with AI-assisted RCE exploit development in about a week.",
       "tags": [
         "security",
-        "google-ads",
-        "malware",
-        "adversarial-machine-learning",
-        "online-advertising"
+        "AI",
+        "WeChat",
+        "zero-click exploit",
+        "RCE"
       ]
     },
     {
-      "title": "What will our economic future look like?",
-      "title_zh": "Anthropic 经济情景引发社区激烈争论",
-      "title_en": "Anthropic Economic Scenarios Spark Critical Community Debate",
-      "url": "https://www.anthropic.com/institute/econ-scenarios",
+      "title": "Shopify is moving from React Native back to Swift and Kotlin",
+      "title_zh": "Shopify 弃用 React Native，回归 Swift 与 Kotlin 原生开发",
+      "title_en": "Shopify Moves from React Native Back to Native Swift and Kotlin",
+      "url": "https://shopify.engineering/back-to-native",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Anthropic presents economic future scenarios for AI, while the HN community critically debates the realism and potential negative consequences of these forecasts.",
+      "summary": "Shopify's engineering blog explains why the company is migrating from React Native back to native Swift and Kotlin, sparking a large HN debate on cross-platform framework tradeoffs and AI-assisted rewrites.",
       "tags": [
-        "AI economics",
-        "LLM impact",
-        "future of work",
-        "Anthropic",
-        "economic scenarios"
+        "react-native",
+        "mobile-development",
+        "kotlin-multiplatform",
+        "cross-platform",
+        "engineering-culture"
       ]
     },
     {
-      "title": "Quoting Terence Tao",
-      "title_zh": "陶哲轩警告：AI 可能破坏数学领域的开放分享传统",
-      "title_en": "Terence Tao Warns AI Could Undermine Open Mathematical Sharing",
-      "url": "https://simonwillison.net/2026/Sep/9/terence-tao/",
-      "source": "rss",
+      "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+      "title_zh": "研究者质疑能否将未发表的数学成果托付给OpenAI",
+      "title_en": "Researchers question whether OpenAI can be trusted with unpublished math",
+      "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "Terence Tao warns that AI's ability to quickly solve open problems may disincentivize sharing research directions, threatening centuries of open science tradition.",
+      "summary": "A Hacker News discussion raises concerns about whether researchers can trust OpenAI with unpublished mathematical work after reports of models producing results similar to confidential collaborations.",
       "tags": [
-        "ai-ethics",
-        "mathematics",
-        "open-science",
-        "ai-research",
-        "research-culture"
+        "OpenAI",
+        "research-ethics",
+        "AI-mathematics",
+        "trust",
+        "academia-industry"
       ]
     },
     {
-      "title": "Where Does a Robot Think – On-Device vs Datacenter Inference",
-      "title_zh": "机器人的思维应在设备端还是数据中心运行？",
-      "title_en": "Should Robot Minds Run On-Device or in the Datacenter?",
-      "url": "https://newsletter.semianalysis.com/p/where-does-a-robot-think-on-device",
-      "source": "rss",
+      "title": "NASA technique for manipulating satellite photos now reveals ancient images",
+      "title_zh": "NASA的卫星图像处理技术如今用于揭示古代岩画",
+      "title_en": "NASA's Satellite Image Trick Now Reveals Ancient Rock Art",
+      "url": "https://spinoff.nasa.gov/Manipulating_Satellite_Photos_Now_Reveals_Ancient_Images",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "Explores the trade-offs between on-device and datacenter inference for robotics, asking where a robot's intelligence should be computed.",
+      "summary": "NASA's decorrelation stretch technique, originally developed for satellite photos, is being used to reveal ancient rock art and archaeological images.",
       "tags": [
-        "AI inference",
-        "robotics",
-        "edge computing",
-        "datacenter",
-        "infrastructure"
+        "remote-sensing",
+        "image-processing",
+        "archaeology",
+        "nasa",
+        "decorrelation-stretch"
       ]
     },
     {
-      "title": "🤖DeepSeek V4.1 Flash 开启内测，支持原生多模态，速度更快成本更低  深度求索开启 DeepSeek V4.1 Flash 中间版本内测，称其",
-      "title_zh": "DeepSeek V4.1 Flash 开启内测，原生多模态、更快更便宜",
-      "title_en": "DeepSeek Opens Internal Beta of V4.1 Flash with Native Multimodal Support",
-      "url": "https://t.me/zaihuapd/43708",
+      "title": "Rust is tier-1 language at Microsoft",
+      "title_zh": "微软正式将 Rust 列为一级（Tier-1）语言",
+      "title_en": "Microsoft Declares Rust a Tier-1 Language",
+      "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Microsoft formalizes Rust as a tier-1 language, underscoring industry momentum for memory-safe systems programming and prompting discussion of large-scale C/C++ migration efforts.",
+      "tags": [
+        "rust",
+        "microsoft",
+        "systems-programming",
+        "memory-safety",
+        "language-tooling"
+      ]
+    },
+    {
+      "title": "🤖 DeepSeek V4.1 Flash：更强、更快、更普惠",
+      "title_zh": "DeepSeek 发布 V4.1 Flash：552B 多模态稀疏激活模型",
+      "title_en": "DeepSeek Releases V4.1 Flash: 552B Multimodal Model With Sparse Activation",
+      "url": "https://mp.weixin.qq.com/s/qg0NU3NNUbp1co2PdkAPAg",
       "source": "telegram",
       "score": 8.0,
-      "summary": "DeepSeek announces internal beta of V4.1 Flash, a new intermediate model with native multimodal capabilities, faster speed, and lower cost.",
+      "summary": "DeepSeek releases V4.1 Flash, a 552B-parameter multimodal Causal-Encoder-Decoder model with sparse activation, now available via API.",
       "tags": [
         "DeepSeek",
-        "AI",
+        "LLM release",
         "multimodal",
-        "LLM",
-        "model release"
+        "model architecture",
+        "API pricing"
       ]
     },
     {
-      "title": "🤖 OpenAI称GPT-6 Astra的CoT可监测性显著下降",
-      "title_zh": "OpenAI称GPT-6 Astra思维链可监测性显著下降",
-      "title_en": "OpenAI Reports Significant Decline in Chain-of-Thought Monitorability for GPT-6 Astra",
-      "url": "https://deploymentsafety.openai.com/gpt-6-astra",
+      "title": "🤖 DeepSeek Harness 已发布，DeepSeek-V4-Pro-0813 权重已开放  DeepSeek 发布全新 Harness 应用，并以 M",
+      "title_zh": "DeepSeek 发布 MIT 协议 Harness 应用并开放 V4-Pro-0813 权重",
+      "title_en": "DeepSeek ships MIT-licensed Harness app and opens V4-Pro-0813 weights",
+      "url": "https://t.me/zaihuapd/43738",
       "source": "telegram",
       "score": 8.0,
-      "summary": "OpenAI reports a significant decline in chain-of-thought monitorability for GPT-6 Astra, raising concerns about AI safety and interpretability.",
+      "summary": "DeepSeek launched the MIT-licensed DeepSeek Harness app with a plugin-based architecture and released the DeepSeek-V4-Pro-0813 model weights on Hugging Face.",
       "tags": [
-        "AI safety",
-        "interpretability",
-        "OpenAI",
-        "GPT-6",
-        "chain-of-thought"
+        "DeepSeek",
+        "open-weights",
+        "LLM",
+        "agent-harness",
+        "open-source"
+      ]
+    },
+    {
+      "title": "🌙 月之暗面秘密递交港股 IPO 申请，新一轮融资投前估值 500 亿美元  月之暗面（Kimi）已以保密形式向港交所递交 A1 文件，正式启动港股 IPO，公",
+      "title_zh": "月之暗面秘密递交港股IPO申请，投前估值达500亿美元",
+      "title_en": "Moonshot AI Confidentially Files for Hong Kong IPO at $50B Pre-Money Valuation",
+      "url": "https://t.me/zaihuapd/43743",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Moonshot AI (Kimi) has confidentially filed its A1 form with the Hong Kong Stock Exchange to begin an IPO process, raising a new round at a ~$50B pre-money valuation after valuation grew roughly 8x in six months.",
+      "tags": [
+        "AI Industry",
+        "Moonshot AI",
+        "IPO",
+        "Funding",
+        "Large Language Models"
       ]
     }
   ]
