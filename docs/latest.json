@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T23:33:28.091267+00:00",
-  "date": "2026-09-10",
-  "total_fetched": 36,
+  "generated_at": "2026-09-11T23:41:34.467625+00:00",
+  "date": "2026-09-11",
+  "total_fetched": 40,
   "important_count": 8,
   "score_threshold": 8.0,
   "languages": [
@@ -10,141 +10,141 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/09/10/summary-zh.html",
-      "path": "docs/_posts/2026-09-10-summary-zh.md"
+      "url": "2026/09/11/summary-zh.html",
+      "path": "docs/_posts/2026-09-11-summary-zh.md"
     },
     "en": {
-      "url": "2026/09/10/summary-en.html",
-      "path": "docs/_posts/2026-09-10-summary-en.md"
+      "url": "2026/09/11/summary-en.html",
+      "path": "docs/_posts/2026-09-11-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Quoting Calif Research",
-      "title_zh": "Calif Research发布WeWorm：通过微信通话传播的零点击蠕虫",
-      "title_en": "Calif Research Unveils WeWorm, Zero-Click WeChat Call Worm",
-      "url": "https://simonwillison.net/2026/Sep/10/calif-research/",
-      "source": "rss",
+      "title": "OpenAI 推出 Agents API",
+      "title_zh": "OpenAI 推出 Agents API 公测版，一次调用即可构建生产级云端智能体",
+      "title_en": "OpenAI Launches Public Beta Agents API for Production Cloud Agents",
+      "url": "https://openai.com/index/introducing-the-agents-api/",
+      "source": "telegram",
       "score": 9.0,
-      "summary": "Calif Research claims WeWorm is the first zero-click worm spreading through WeChat calls on iOS and Android, built with AI-assisted RCE exploit development in about a week.",
-      "tags": [
-        "security",
-        "AI",
-        "WeChat",
-        "zero-click exploit",
-        "RCE"
-      ]
-    },
-    {
-      "title": "Shopify is moving from React Native back to Swift and Kotlin",
-      "title_zh": "Shopify 弃用 React Native，回归 Swift 与 Kotlin 原生开发",
-      "title_en": "Shopify Moves from React Native Back to Native Swift and Kotlin",
-      "url": "https://shopify.engineering/back-to-native",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Shopify's engineering blog explains why the company is migrating from React Native back to native Swift and Kotlin, sparking a large HN debate on cross-platform framework tradeoffs and AI-assisted rewrites.",
-      "tags": [
-        "react-native",
-        "mobile-development",
-        "kotlin-multiplatform",
-        "cross-platform",
-        "engineering-culture"
-      ]
-    },
-    {
-      "title": "More questions about whether researchers can trust OpenAI with unpublished math",
-      "title_zh": "研究者质疑能否将未发表的数学成果托付给OpenAI",
-      "title_en": "Researchers question whether OpenAI can be trusted with unpublished math",
-      "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A Hacker News discussion raises concerns about whether researchers can trust OpenAI with unpublished mathematical work after reports of models producing results similar to confidential collaborations.",
+      "summary": "OpenAI launched a public beta Agents API that lets developers create production cloud agents via a single API call using an open-source Codex harness.",
       "tags": [
         "OpenAI",
-        "research-ethics",
-        "AI-mathematics",
-        "trust",
-        "academia-industry"
+        "Agents API",
+        "AI Agents",
+        "API Platform",
+        "Codex"
       ]
     },
     {
-      "title": "NASA technique for manipulating satellite photos now reveals ancient images",
-      "title_zh": "NASA的卫星图像处理技术如今用于揭示古代岩画",
-      "title_en": "NASA's Satellite Image Trick Now Reveals Ancient Rock Art",
-      "url": "https://spinoff.nasa.gov/Manipulating_Satellite_Photos_Now_Reveals_Ancient_Images",
+      "title": "A misalignment of AI in mathematics",
+      "title_zh": "陶哲轩等数学家批评 OpenAI 在数学领域的方法",
+      "title_en": "Terry Tao and Mathematicians Criticize OpenAI's Methods in Mathematics",
+      "url": "https://mathandai.org/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "NASA's decorrelation stretch technique, originally developed for satellite photos, is being used to reveal ancient rock art and archaeological images.",
+      "summary": "Terry Tao and other top mathematicians critique OpenAI's methods in mathematics, sparking a high-engagement Hacker News discussion on AI's impact on mathematical research, credit, and understanding.",
       "tags": [
-        "remote-sensing",
-        "image-processing",
-        "archaeology",
-        "nasa",
-        "decorrelation-stretch"
+        "AI",
+        "mathematics",
+        "research ethics",
+        "OpenAI",
+        "AI alignment"
       ]
     },
     {
-      "title": "Rust is tier-1 language at Microsoft",
-      "title_zh": "微软正式将 Rust 列为一级（Tier-1）语言",
-      "title_en": "Microsoft Declares Rust a Tier-1 Language",
-      "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
+      "title": "I spent $220 on Google app ads and 60% of the installs were robots",
+      "title_zh": "开发者发现 220 美元谷歌广告带来的安装中 60% 是机器人",
+      "title_en": "Developer finds 60% of $220 Google ad installs were bots",
+      "url": "https://dayzlegame.com/blog/google-ads-bot-farm/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Microsoft formalizes Rust as a tier-1 language, underscoring industry momentum for memory-safe systems programming and prompting discussion of large-scale C/C++ migration efforts.",
+      "summary": "A developer documents spending $220 on Google app-install ads only to find 60% of installs came from bot farms, sparking a Hacker News discussion on ad fraud detection and mitigation.",
       "tags": [
-        "rust",
-        "microsoft",
-        "systems-programming",
-        "memory-safety",
-        "language-tooling"
+        "ad-fraud",
+        "google-ads",
+        "mobile-apps",
+        "digital-advertising",
+        "hacker-news-discussion"
       ]
     },
     {
-      "title": "🤖 DeepSeek V4.1 Flash：更强、更快、更普惠",
-      "title_zh": "DeepSeek 发布 V4.1 Flash：552B 多模态稀疏激活模型",
-      "title_en": "DeepSeek Releases V4.1 Flash: 552B Multimodal Model With Sparse Activation",
-      "url": "https://mp.weixin.qq.com/s/qg0NU3NNUbp1co2PdkAPAg",
-      "source": "telegram",
+      "title": "Any Nix package, live in your browser",
+      "title_zh": "trynix.dev 在浏览器中启动过去 13 年的任意 Nix 软件包",
+      "title_en": "trynix.dev boots any Nix package from 13 years in a browser",
+      "url": "https://simonwillison.net/2026/Sep/10/trynix/",
+      "source": "rss",
       "score": 8.0,
-      "summary": "DeepSeek releases V4.1 Flash, a 552B-parameter multimodal Causal-Encoder-Decoder model with sparse activation, now available via API.",
+      "summary": "trynix.dev lets you boot an x86_64 Linux VM entirely in the browser via qemu-wasm and run any of the last 13 years of Nix packages through a URL-addressable interactive shell.",
       "tags": [
-        "DeepSeek",
-        "LLM release",
-        "multimodal",
-        "model architecture",
-        "API pricing"
+        "nix",
+        "webassembly",
+        "qemu-wasm",
+        "browser-vm",
+        "reproducible-builds"
       ]
     },
     {
-      "title": "🤖 DeepSeek Harness 已发布，DeepSeek-V4-Pro-0813 权重已开放  DeepSeek 发布全新 Harness 应用，并以 M",
-      "title_zh": "DeepSeek 发布 MIT 协议 Harness 应用并开放 V4-Pro-0813 权重",
-      "title_en": "DeepSeek ships MIT-licensed Harness app and opens V4-Pro-0813 weights",
-      "url": "https://t.me/zaihuapd/43738",
-      "source": "telegram",
+      "title": "Nvidia’s Backstop Universe – Heads I Win, Tails Who Loses?",
+      "title_zh": "SemiAnalysis 质疑 Nvidia AI 兜底交易中风险由谁承担",
+      "title_en": "SemiAnalysis Questions Who Bears the Risk in Nvidia's AI Backstop Deals",
+      "url": "https://newsletter.semianalysis.com/p/nvidias-backstop-universe-heads-i",
+      "source": "rss",
       "score": 8.0,
-      "summary": "DeepSeek launched the MIT-licensed DeepSeek Harness app with a plugin-based architecture and released the DeepSeek-V4-Pro-0813 model weights on Hugging Face.",
+      "summary": "SemiAnalysis examines Nvidia's backstop economics and the limits of its balance sheet amid the $11T AI infrastructure buildout, questioning who ultimately bears the risk.",
       "tags": [
-        "DeepSeek",
-        "open-weights",
-        "LLM",
-        "agent-harness",
-        "open-source"
+        "Nvidia",
+        "AI infrastructure",
+        "semiconductors",
+        "financial analysis",
+        "AI capex"
       ]
     },
     {
-      "title": "🌙 月之暗面秘密递交港股 IPO 申请，新一轮融资投前估值 500 亿美元  月之暗面（Kimi）已以保密形式向港交所递交 A1 文件，正式启动港股 IPO，公",
-      "title_zh": "月之暗面秘密递交港股IPO申请，投前估值达500亿美元",
-      "title_en": "Moonshot AI Confidentially Files for Hong Kong IPO at $50B Pre-Money Valuation",
-      "url": "https://t.me/zaihuapd/43743",
+      "title": "Training a 210M text-to-image DiT from scratch on one GPU: what I measured [P]",
+      "title_zh": "工程师在单块 GPU 上从零训练 210M 参数文生图 DiT",
+      "title_en": "Engineer trains 210M text-to-image DiT from scratch on a single GPU",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wdfmvq/training_a_210m_texttoimage_dit_from_scratch_on/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "A Reddit post shares three novel measurements from training a 210M-parameter text-to-image diffusion transformer from scratch on one GPU, covering attention sinks and loss-quality divergence.",
+      "tags": [
+        "diffusion-models",
+        "text-to-image",
+        "DiT",
+        "training",
+        "attention-mechanisms"
+      ]
+    },
+    {
+      "title": "🤖 GPT‑Live‑1 登陆 OpenAI API",
+      "title_zh": "OpenAI 在 API 上线全双工语音模型 GPT-Live-1",
+      "title_en": "OpenAI launches GPT-Live-1 full-duplex voice model in the API",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Moonshot AI (Kimi) has confidentially filed its A1 form with the Hong Kong Stock Exchange to begin an IPO process, raising a new round at a ~$50B pre-money valuation after valuation grew roughly 8x in six months.",
+      "summary": "OpenAI released GPT-Live-1 on its API, a full-duplex speech-to-speech model with interruption handling, noise robustness, and a reported 30-point gain over GPT-Realtime-2.1 on Full Duplex Bench at $0.05 per minute.",
       "tags": [
-        "AI Industry",
-        "Moonshot AI",
-        "IPO",
-        "Funding",
-        "Large Language Models"
+        "OpenAI",
+        "Speech AI",
+        "Voice Agents",
+        "API Release",
+        "Realtime Models"
+      ]
+    },
+    {
+      "title": "GitLab 修复 CVSS 10.0 漏洞：自建实例或遭未授权读取服务器文件",
+      "title_zh": "GitLab 修复 CVSS 10.0 漏洞：未授权用户可读取服务器文件",
+      "title_en": "GitLab Patches CVSS 10.0 Flaw Allowing Unauthenticated File Reads",
+      "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-3-2-released/",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "GitLab released emergency patches for CVE-2026-85706, a CVSS 10.0 flaw letting unauthenticated users read arbitrary files on self-managed GitLab servers via the commits API.",
+      "tags": [
+        "security",
+        "gitlab",
+        "vulnerability",
+        "cve",
+        "patch-release"
       ]
     }
   ]
