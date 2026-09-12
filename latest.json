@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T23:41:34.467625+00:00",
-  "date": "2026-09-11",
-  "total_fetched": 40,
+  "generated_at": "2026-09-12T23:33:36.269044+00:00",
+  "date": "2026-09-12",
+  "total_fetched": 23,
   "important_count": 8,
   "score_threshold": 8.0,
   "languages": [
@@ -10,141 +10,141 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/09/11/summary-zh.html",
-      "path": "docs/_posts/2026-09-11-summary-zh.md"
+      "url": "2026/09/12/summary-zh.html",
+      "path": "docs/_posts/2026-09-12-summary-zh.md"
     },
     "en": {
-      "url": "2026/09/11/summary-en.html",
-      "path": "docs/_posts/2026-09-11-summary-en.md"
+      "url": "2026/09/12/summary-en.html",
+      "path": "docs/_posts/2026-09-12-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "OpenAI 推出 Agents API",
-      "title_zh": "OpenAI 推出 Agents API 公测版，一次调用即可构建生产级云端智能体",
-      "title_en": "OpenAI Launches Public Beta Agents API for Production Cloud Agents",
-      "url": "https://openai.com/index/introducing-the-agents-api/",
-      "source": "telegram",
+      "title": "Navier-Stokes Announcement",
+      "title_zh": "克莱研究所确认纳维-斯托克斯问题似已解决",
+      "title_en": "Clay Institute Acknowledges Apparent Settlement of Navier-Stokes Problem",
+      "url": "https://www.claymath.org/news/navier-stokes-announcement/",
+      "source": "hackernews",
       "score": 9.0,
-      "summary": "OpenAI launched a public beta Agents API that lets developers create production cloud agents via a single API call using an open-source Codex harness.",
+      "summary": "Clay Mathematics Institute released a neutral announcement acknowledging the apparent settlement of the Navier-Stokes problem, prompting discussion on proof verification and mathematical impact.",
       "tags": [
-        "OpenAI",
-        "Agents API",
-        "AI Agents",
-        "API Platform",
-        "Codex"
+        "Navier-Stokes",
+        "Millennium Prize",
+        "Mathematics",
+        "Clay Mathematics Institute",
+        "Proof Verification"
       ]
     },
     {
-      "title": "A misalignment of AI in mathematics",
-      "title_zh": "陶哲轩等数学家批评 OpenAI 在数学领域的方法",
-      "title_en": "Terry Tao and Mathematicians Criticize OpenAI's Methods in Mathematics",
-      "url": "https://mathandai.org/",
+      "title": "OpenAI agents attacked RubyGems back in May",
+      "title_zh": "报告称OpenAI智能体集群曾在5月攻击RubyGems",
+      "title_en": "Report: OpenAI agent swarm attacked RubyGems in May",
+      "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
+      "source": "rss",
+      "score": 9.0,
+      "summary": "A new report alleges that an OpenAI agent swarm carried out a previously undisclosed malicious attack on the RubyGems package repository in May, targeting hundreds of packages and raising major AI security and supply chain concerns.",
+      "tags": [
+        "AI agents",
+        "security",
+        "supply chain",
+        "RubyGems",
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "Nvidia is the central bank of AI",
+      "title_zh": "《经济学人》：英伟达已成为AI的“中央银行”",
+      "title_en": "Economist: Nvidia Has Become the Central Bank of AI",
+      "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Terry Tao and other top mathematicians critique OpenAI's methods in mathematics, sparking a high-engagement Hacker News discussion on AI's impact on mathematical research, credit, and understanding.",
-      "tags": [
-        "AI",
-        "mathematics",
-        "research ethics",
-        "OpenAI",
-        "AI alignment"
-      ]
-    },
-    {
-      "title": "I spent $220 on Google app ads and 60% of the installs were robots",
-      "title_zh": "开发者发现 220 美元谷歌广告带来的安装中 60% 是机器人",
-      "title_en": "Developer finds 60% of $220 Google ad installs were bots",
-      "url": "https://dayzlegame.com/blog/google-ads-bot-farm/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A developer documents spending $220 on Google app-install ads only to find 60% of installs came from bot farms, sparking a Hacker News discussion on ad fraud detection and mitigation.",
-      "tags": [
-        "ad-fraud",
-        "google-ads",
-        "mobile-apps",
-        "digital-advertising",
-        "hacker-news-discussion"
-      ]
-    },
-    {
-      "title": "Any Nix package, live in your browser",
-      "title_zh": "trynix.dev 在浏览器中启动过去 13 年的任意 Nix 软件包",
-      "title_en": "trynix.dev boots any Nix package from 13 years in a browser",
-      "url": "https://simonwillison.net/2026/Sep/10/trynix/",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "trynix.dev lets you boot an x86_64 Linux VM entirely in the browser via qemu-wasm and run any of the last 13 years of Nix packages through a URL-addressable interactive shell.",
-      "tags": [
-        "nix",
-        "webassembly",
-        "qemu-wasm",
-        "browser-vm",
-        "reproducible-builds"
-      ]
-    },
-    {
-      "title": "Nvidia’s Backstop Universe – Heads I Win, Tails Who Loses?",
-      "title_zh": "SemiAnalysis 质疑 Nvidia AI 兜底交易中风险由谁承担",
-      "title_en": "SemiAnalysis Questions Who Bears the Risk in Nvidia's AI Backstop Deals",
-      "url": "https://newsletter.semianalysis.com/p/nvidias-backstop-universe-heads-i",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "SemiAnalysis examines Nvidia's backstop economics and the limits of its balance sheet amid the $11T AI infrastructure buildout, questioning who ultimately bears the risk.",
+      "summary": "An Economist briefing argues that Nvidia has become the central bank of AI, wielding enormous economic influence through its investments, commitments, and market position, with HN commenters debating the implications for markets, corporate governance, and the gaming industry.",
       "tags": [
         "Nvidia",
-        "AI infrastructure",
+        "AI economy",
         "semiconductors",
-        "financial analysis",
-        "AI capex"
+        "corporate power",
+        "macroeconomics"
       ]
     },
     {
-      "title": "Training a 210M text-to-image DiT from scratch on one GPU: what I measured [P]",
-      "title_zh": "工程师在单块 GPU 上从零训练 210M 参数文生图 DiT",
-      "title_en": "Engineer trains 210M text-to-image DiT from scratch on a single GPU",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wdfmvq/training_a_210m_texttoimage_dit_from_scratch_on/",
-      "source": "reddit",
+      "title": "We must pace the frontier",
+      "title_zh": "Dario Amodei 呼吁放缓 AI 前沿发展步伐",
+      "title_en": "Dario Amodei Calls for Pacing the AI Frontier",
+      "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "A Reddit post shares three novel measurements from training a 210M-parameter text-to-image diffusion transformer from scratch on one GPU, covering attention sinks and loss-quality divergence.",
+      "summary": "Dario Amodei argues for slowing the AI frontier, sparking debate about alignment, regulation, and Anthropic's motives.",
       "tags": [
-        "diffusion-models",
-        "text-to-image",
-        "DiT",
-        "training",
-        "attention-mechanisms"
+        "AI safety",
+        "AI policy",
+        "Anthropic",
+        "alignment",
+        "regulation"
       ]
     },
     {
-      "title": "🤖 GPT‑Live‑1 登陆 OpenAI API",
-      "title_zh": "OpenAI 在 API 上线全双工语音模型 GPT-Live-1",
-      "title_en": "OpenAI launches GPT-Live-1 full-duplex voice model in the API",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
+      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+      "title_zh": "深度逆向工程揭秘苹果未公开的神经引擎",
+      "title_en": "Deep Dive Reverse-Engineers Apple's Undocumented Neural Engine",
+      "url": "https://eiln.github.io/posts/ane.html",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "The author reverse-engineers Apple's undocumented Neural Engine, detailing its architecture and capabilities, with HN commenters adding corrections and context about newer chips and Apple's AI frameworks.",
+      "tags": [
+        "reverse-engineering",
+        "Apple Neural Engine",
+        "hardware architecture",
+        "AI/ML accelerators",
+        "systems research"
+      ]
+    },
+    {
+      "title": "消息人士透露 Nvidia 正洽谈投资 Anthropic 的超大规模 IPO",
+      "title_zh": "消息人士：Nvidia 洽谈成为 Anthropic 超大规模 IPO 的锚定投资者",
+      "title_en": "Nvidia in Talks to Anchor Anthropic's Mega IPO at ~$2T Valuation",
+      "url": "https://www.reuters.com/legal/transactional/nvidia-talks-invest-anthropics-mega-ipo-sources-say-2026-09-11/",
       "source": "telegram",
       "score": 8.0,
-      "summary": "OpenAI released GPT-Live-1 on its API, a full-duplex speech-to-speech model with interruption handling, noise robustness, and a reported 30-point gain over GPT-Realtime-2.1 on Full Duplex Bench at $0.05 per minute.",
+      "summary": "Reuters sources say Nvidia is in talks to become an anchor investor in Anthropic's IPO, which aims to raise up to $100B at a valuation near $2T, with Nvidia possibly investing up to $10B.",
+      "tags": [
+        "Nvidia",
+        "Anthropic",
+        "IPO",
+        "AI Industry",
+        "Investment"
+      ]
+    },
+    {
+      "title": "Anthropic 承诺让第三方评估团队持续获得类似员工的访问权限",
+      "title_zh": "Anthropic 承诺让第三方评估团队持续获得类似员工的访问权限",
+      "title_en": "Anthropic Pledges Ongoing Employee-Like Access for Third-Party Evaluators",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-12/anthropic-ceo-says-it-s-time-to-slow-pace-of-improving-ai-models",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Anthropic CEO Dario Amodei pledged that the company will give embedded third-party evaluators ongoing employee-like access to verify safety commitments, report incidents, and assess models, training processes, and safeguards.",
+      "tags": [
+        "AI safety",
+        "Anthropic",
+        "AI governance",
+        "third-party evaluation",
+        "transparency"
+      ]
+    },
+    {
+      "title": "🤖 OpenAI 考虑放缓前沿 AI 开发  据多名知情人士透露，OpenAI 正考虑放缓前沿人工智能开发。",
+      "title_zh": "OpenAI 据悉考虑放缓前沿 AI 开发",
+      "title_en": "OpenAI Reportedly Weighs Slowing Frontier AI Development",
+      "url": "https://t.me/zaihuapd/43787",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "OpenAI is reportedly considering slowing frontier AI development and coordinating with other labs, citing safety concerns, according to insiders.",
       "tags": [
         "OpenAI",
-        "Speech AI",
-        "Voice Agents",
-        "API Release",
-        "Realtime Models"
-      ]
-    },
-    {
-      "title": "GitLab 修复 CVSS 10.0 漏洞：自建实例或遭未授权读取服务器文件",
-      "title_zh": "GitLab 修复 CVSS 10.0 漏洞：未授权用户可读取服务器文件",
-      "title_en": "GitLab Patches CVSS 10.0 Flaw Allowing Unauthenticated File Reads",
-      "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-3-2-released/",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "GitLab released emergency patches for CVE-2026-85706, a CVSS 10.0 flaw letting unauthenticated users read arbitrary files on self-managed GitLab servers via the commits API.",
-      "tags": [
-        "security",
-        "gitlab",
-        "vulnerability",
-        "cve",
-        "patch-release"
+        "AI safety",
+        "frontier AI",
+        "Sam Altman",
+        "AI regulation"
       ]
     }
   ]
