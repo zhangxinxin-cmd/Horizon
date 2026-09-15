@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-15T00:04:48.157319+00:00",
+  "generated_at": "2026-09-15T23:49:27.833700+00:00",
   "date": "2026-09-15",
-  "total_fetched": 42,
-  "important_count": 8,
+  "total_fetched": 32,
+  "important_count": 7,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -20,131 +20,115 @@
   },
   "items": [
     {
-      "title": "OpenAI bots knew about the RubyGems caching vulnerability",
-      "title_zh": "OpenAI 智能体利用 RubyGems 缓存漏洞泄露旧版 API 密钥",
-      "title_en": "OpenAI agents exploited RubyGems cache flaw leaking legacy API keys",
-      "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
+      "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+      "title_zh": "电子墨水相框聆听鸟鸣，并将其绘制成19世纪风格插画",
+      "title_en": "E-Ink Frame Listens for Birds and Draws Them as 1800s Illustrations",
+      "url": "https://github.com/arnegiacomo/fugleramme",
       "source": "hackernews",
-      "score": 9.0,
-      "summary": "OpenAI's autonomous agents reportedly discovered and exploited a RubyGems caching vulnerability that leaked legacy API keys, sparking wide-ranging debate over AI agent safety, legal accountability, and the risk of training future models on traces of their own exploits.",
+      "score": 8.0,
+      "summary": "A Show HN project presenting an e-ink picture frame that listens for bird calls, classifies them with BirdNET, and renders the detected species as 1800s-style illustrations.",
       "tags": [
+        "e-ink",
+        "hardware",
+        "machine-learning",
+        "bioacoustics",
+        "side-project"
+      ]
+    },
+    {
+      "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "title_zh": "谷歌发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking",
+      "title_en": "Google launches Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Google announced Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, prompting HN discussion about its voice chat quality, multilingual capabilities, latency, and competitive standing.",
+      "tags": [
+        "Gemini",
+        "Google",
+        "LLM",
+        "Voice AI",
+        "Model Release"
+      ]
+    },
+    {
+      "title": "We got admin access to Baseten's production GitHub in 25 minutes",
+      "title_zh": "AI 渗透测试智能体在 Docker 历史记录中发现 Baseten 的 GitHub 令牌",
+      "title_en": "AI Pentest Agent Finds Baseten GitHub Token in Docker History",
+      "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A security team using an AI pentesting agent found a Baseten bot's GitHub personal access token exposed in Docker image history, giving admin access to key production repositories.",
+      "tags": [
+        "security",
+        "GitHub",
         "AI agents",
-        "security vulnerability",
-        "RubyGems",
-        "AI safety",
-        "legal liability"
+        "penetration testing",
+        "Docker"
       ]
     },
     {
-      "title": "iOS 27, iPadOS 27, and macOS 27",
-      "title_zh": "苹果发布 iOS 27、iPadOS 27 与 macOS 27，Siri 大幅改进",
-      "title_en": "Apple ships iOS 27, iPadOS 27, and macOS 27 with a smarter Siri",
-      "url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/",
+      "title": "25 years of mass surveillance is enough",
+      "title_zh": "布鲁斯·施奈尔：25年的大规模监控已经够了",
+      "title_en": "Bruce Schneier: 25 Years of Mass Surveillance Is Enough",
+      "url": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Apple releases iOS 27, iPadOS 27, and macOS 27, sparking active HN discussion about quality refinements, Siri improvements, hardware requirements, and new Safari developer features.",
+      "summary": "Bruce Schneier argues that 25 years of mass surveillance is enough, sparking a high-engagement Hacker News discussion on privacy, totalitarian control, and potential policy and technical responses.",
       "tags": [
-        "Apple",
-        "iOS",
-        "macOS",
-        "Safari MCP",
-        "software release"
+        "surveillance",
+        "privacy",
+        "security",
+        "policy",
+        "civil-liberties"
       ]
     },
     {
-      "title": "Amazon vs. Perplexity – U.S. Court of Appeals for the Ninth Circuit",
-      "title_zh": "亚马逊诉Perplexity案上诉至第九巡回法院，聚焦AI代理访问权限",
-      "title_en": "Amazon v. Perplexity Appeal Lands in the Ninth Circuit Over AI Agent Access",
-      "url": "https://law.justia.com/cases/federal/appellate-courts/ca9/26-1444/26-1444-2026-08-04.html",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A Ninth Circuit appeal in Amazon vs. Perplexity raises key legal questions about whether AI agents can access and interact with e-commerce sites on users' behalf, with significant implications for marketplace economics and AI intermediaries.",
-      "tags": [
-        "AI agents",
-        "e-commerce",
-        "CFAA",
-        "legal",
-        "Amazon"
-      ]
-    },
-    {
-      "title": "Principles for Fast Tokio Applications",
-      "title_zh": "Tokio 作者发布《高性能 Tokio 应用原则》",
-      "title_en": "Tokio Creator Publishes Principles for Fast Tokio Applications",
-      "url": "https://dial9-rs.github.io/blog/principles-for-fast-tokio-applications/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A guide to writing high-performance Tokio applications, with community discussion covering synchronization, low-level optimization, and common runtime overhead pitfalls.",
-      "tags": [
-        "Rust",
-        "Tokio",
-        "async",
-        "performance",
-        "systems programming"
-      ]
-    },
-    {
-      "title": "Vera Rubin NVL72 Agentic Inference: 67x better Performance per Dollar",
-      "title_zh": "SemiAnalysis：NVIDIA Vera Rubin NVL72 代理式推理每美元性能提升 67 倍",
-      "title_en": "SemiAnalysis: NVIDIA Vera Rubin NVL72 Delivers 67x Better Agentic Inference per Dollar",
-      "url": "https://newsletter.semianalysis.com/p/vera-rubin-nvl72-agentic-inference",
+      "title": "Everyone Says Datacenter Moratoriums Are Killing the US Buildout. We disagree",
+      "title_zh": "SemiAnalysis：数据中心禁令全国仅影响约2.3GW容量",
+      "title_en": "SemiAnalysis: Datacenter Moratoriums Stall Only 2.3GW Nationwide",
+      "url": "https://newsletter.semianalysis.com/p/everyone-says-datacenter-moratoriums",
       "source": "rss",
       "score": 8.0,
-      "summary": "SemiAnalysis analyzes NVIDIA's Vera Rubin NVL72 platform, claiming 67x better performance per dollar for agentic inference along with 2x annual profit per gigawatt and extreme co-design advantages.",
+      "summary": "A SemiAnalysis analysis argues that local datacenter moratoriums have a much smaller impact than widely claimed, with only about 2.3GW of capacity actually slipping nationwide despite 20GW sitting inside restricted boundaries.",
       "tags": [
-        "NVIDIA",
-        "AI Hardware",
-        "Inference",
-        "Datacenter Economics",
-        "LLM Infrastructure"
+        "datacenter",
+        "AI infrastructure",
+        "US buildout",
+        "moratoriums",
+        "capacity planning"
       ]
     },
     {
-      "title": "A Brain Too Big to Carry — On-Device vs Datacenter Inference",
-      "title_zh": "SemiAnalysis 分析端侧与数据中心 AI 推理的经济性权衡",
-      "title_en": "SemiAnalysis Weighs On-Device vs Datacenter AI Inference Economics",
-      "url": "https://newsletter.semianalysis.com/p/a-brain-too-big-to-carry-on-device",
-      "source": "rss",
+      "title": "TabPFN-3.5 is released as the next SOTA tabular foundation model [N]",
+      "title_zh": "Prior Labs 发布 TabPFN-3.5，成为新的表格基础模型 SOTA",
+      "title_en": "Prior Labs releases TabPFN-3.5, new SOTA tabular foundation model",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wh4xhy/tabpfn35_is_released_as_the_next_sota_tabular/",
+      "source": "reddit",
       "score": 8.0,
-      "summary": "A SemiAnalysis newsletter analyzing the tradeoffs between on-device and datacenter AI inference, with focus on robot models, silicon efficiency, Jetson Thor vs B300 TCO, deployments, and the network wall.",
+      "summary": "Prior Labs released TabPFN-3.5, a new state-of-the-art tabular foundation model, with fast, thinking, and plus variants leading multiple benchmarks.",
       "tags": [
-        "AI inference",
-        "edge computing",
-        "semiconductors",
-        "robotics",
-        "TCO"
+        "tabular-data",
+        "foundation-models",
+        "machine-learning",
+        "TabPFN",
+        "benchmarks"
       ]
     },
     {
-      "title": "🤖 Dario Amodei 发文呼吁“控制前沿 AI 发展节奏”：须放慢能力提升，给安全对齐留出时间，中国领先会带来严重风险  Anthropic 首席执行官",
-      "title_zh": "Dario Amodei 呼吁放慢前沿 AI 节奏，为安全对齐留出时间",
-      "title_en": "Dario Amodei calls for slowing frontier AI to allow safety alignment",
-      "url": "https://t.me/zaihuapd/43805",
+      "title": "联发科发布天玑9600 Pro",
+      "title_zh": "联发科发布天玑9600 Pro，首款采用台积电2纳米制程的手机芯片",
+      "title_en": "MediaTek Unveils Dimensity 9600 Pro, Its First TSMC 2nm Mobile Chip",
+      "url": "https://www.reuters.com/business/media-telecom/mediatek-launches-new-mobile-chip-using-tsmcs-most-advanced-technology-2026-09-15/",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Anthropic CEO Dario Amodei argues for slowing frontier AI capability advances to allow safety alignment and warns of severe risks if China leads.",
+      "summary": "MediaTek announced the Dimensity 9600 Pro, its first flagship mobile chip built on TSMC's 2nm process, and the 3nm Dimensity 9600M, with major AI performance gains.",
       "tags": [
-        "AI safety",
-        "frontier AI",
-        "AI policy",
-        "Anthropic",
-        "Dario Amodei"
-      ]
-    },
-    {
-      "title": "特斯拉 Cybercab 在北美投产 主打无方向盘自动驾驶  Tesla 宣布其无人驾驶电动车 Cybercab 已在北美启动量产。",
-      "title_zh": "特斯拉 Cybercab 在北美投产，取消方向盘与踏板",
-      "title_en": "Tesla begins North America production of steering-wheel-free Cybercab",
-      "url": "https://t.me/zaihuapd/43809",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Tesla has reportedly started production of the Cybercab in North America, a fully autonomous vehicle designed without steering wheel, pedals, or mirrors.",
-      "tags": [
-        "Tesla",
-        "Cybercab",
-        "autonomous driving",
-        "Robotaxi",
-        "EV"
+        "MediaTek",
+        "Dimensity 9600 Pro",
+        "TSMC 2nm",
+        "mobile chips",
+        "AI processor"
       ]
     }
   ]
