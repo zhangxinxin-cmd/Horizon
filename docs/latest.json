@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-15T23:49:27.833700+00:00",
-  "date": "2026-09-15",
-  "total_fetched": 32,
-  "important_count": 7,
+  "generated_at": "2026-09-16T23:58:19.226438+00:00",
+  "date": "2026-09-16",
+  "total_fetched": 33,
+  "important_count": 3,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,125 +10,61 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/09/15/summary-zh.html",
-      "path": "docs/_posts/2026-09-15-summary-zh.md"
+      "url": "2026/09/16/summary-zh.html",
+      "path": "docs/_posts/2026-09-16-summary-zh.md"
     },
     "en": {
-      "url": "2026/09/15/summary-en.html",
-      "path": "docs/_posts/2026-09-15-summary-en.md"
+      "url": "2026/09/16/summary-en.html",
+      "path": "docs/_posts/2026-09-16-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
-      "title_zh": "电子墨水相框聆听鸟鸣，并将其绘制成19世纪风格插画",
-      "title_en": "E-Ink Frame Listens for Birds and Draws Them as 1800s Illustrations",
-      "url": "https://github.com/arnegiacomo/fugleramme",
+      "title": "Hackers Got Inside a Flock Camera",
+      "title_zh": "黑客攻破 Flock 监控摄像头，发现硬编码凭证",
+      "title_en": "Hackers Crack Open Flock Surveillance Cameras, Finding Hardcoded Credentials",
+      "url": "https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "A Show HN project presenting an e-ink picture frame that listens for bird calls, classifies them with BirdNET, and renders the detected species as 1800s-style illustrations.",
-      "tags": [
-        "e-ink",
-        "hardware",
-        "machine-learning",
-        "bioacoustics",
-        "side-project"
-      ]
-    },
-    {
-      "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "title_zh": "谷歌发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking",
-      "title_en": "Google launches Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Google announced Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, prompting HN discussion about its voice chat quality, multilingual capabilities, latency, and competitive standing.",
-      "tags": [
-        "Gemini",
-        "Google",
-        "LLM",
-        "Voice AI",
-        "Model Release"
-      ]
-    },
-    {
-      "title": "We got admin access to Baseten's production GitHub in 25 minutes",
-      "title_zh": "AI 渗透测试智能体在 Docker 历史记录中发现 Baseten 的 GitHub 令牌",
-      "title_en": "AI Pentest Agent Finds Baseten GitHub Token in Docker History",
-      "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A security team using an AI pentesting agent found a Baseten bot's GitHub personal access token exposed in Docker image history, giving admin access to key production repositories.",
+      "summary": "Wired reports and Hacker News discusses how researchers found Flock surveillance cameras riddled with security vulnerabilities, including hardcoded API keys and plaintext credentials, exposing flaws in the company's security posture and disclosure policy.",
       "tags": [
         "security",
-        "GitHub",
-        "AI agents",
-        "penetration testing",
-        "Docker"
-      ]
-    },
-    {
-      "title": "25 years of mass surveillance is enough",
-      "title_zh": "布鲁斯·施奈尔：25年的大规模监控已经够了",
-      "title_en": "Bruce Schneier: 25 Years of Mass Surveillance Is Enough",
-      "url": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Bruce Schneier argues that 25 years of mass surveillance is enough, sparking a high-engagement Hacker News discussion on privacy, totalitarian control, and potential policy and technical responses.",
-      "tags": [
+        "iot",
         "surveillance",
-        "privacy",
-        "security",
-        "policy",
-        "civil-liberties"
+        "vulnerability-disclosure",
+        "privacy"
       ]
     },
     {
-      "title": "Everyone Says Datacenter Moratoriums Are Killing the US Buildout. We disagree",
-      "title_zh": "SemiAnalysis：数据中心禁令全国仅影响约2.3GW容量",
-      "title_en": "SemiAnalysis: Datacenter Moratoriums Stall Only 2.3GW Nationwide",
-      "url": "https://newsletter.semianalysis.com/p/everyone-says-datacenter-moratoriums",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "A SemiAnalysis analysis argues that local datacenter moratoriums have a much smaller impact than widely claimed, with only about 2.3GW of capacity actually slipping nationwide despite 20GW sitting inside restricted boundaries.",
-      "tags": [
-        "datacenter",
-        "AI infrastructure",
-        "US buildout",
-        "moratoriums",
-        "capacity planning"
-      ]
-    },
-    {
-      "title": "TabPFN-3.5 is released as the next SOTA tabular foundation model [N]",
-      "title_zh": "Prior Labs 发布 TabPFN-3.5，成为新的表格基础模型 SOTA",
-      "title_en": "Prior Labs releases TabPFN-3.5, new SOTA tabular foundation model",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wh4xhy/tabpfn35_is_released_as_the_next_sota_tabular/",
+      "title": "TMLR reached out to the authors of 10 papers slated for desk rejection, in an attempt to understand if the authors could explain the paper they submitted [D]",
+      "title_zh": "TMLR约谈拟拒稿论文作者，多数人无法解释自己的论文",
+      "title_en": "TMLR Quizzes Desk-Rejection Candidates; Most Authors Can't Explain Their Papers",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wid67h/tmlr_reached_out_to_the_authors_of_10_papers/",
       "source": "reddit",
       "score": 8.0,
-      "summary": "Prior Labs released TabPFN-3.5, a new state-of-the-art tabular foundation model, with fast, thinking, and plus variants leading multiple benchmarks.",
+      "summary": "TMLR interviewed authors of 10 desk-rejection-candidate papers and found that most could not adequately explain their own work, raising serious concerns about authorship integrity and AI-generated submissions in ML publishing.",
       "tags": [
-        "tabular-data",
-        "foundation-models",
+        "academic-integrity",
+        "peer-review",
         "machine-learning",
-        "TabPFN",
-        "benchmarks"
+        "LLM-generated-content",
+        "publishing"
       ]
     },
     {
-      "title": "联发科发布天玑9600 Pro",
-      "title_zh": "联发科发布天玑9600 Pro，首款采用台积电2纳米制程的手机芯片",
-      "title_en": "MediaTek Unveils Dimensity 9600 Pro, Its First TSMC 2nm Mobile Chip",
-      "url": "https://www.reuters.com/business/media-telecom/mediatek-launches-new-mobile-chip-using-tsmcs-most-advanced-technology-2026-09-15/",
-      "source": "telegram",
+      "title": "GoBench: Evaluating LLMs on the game of Go [R]",
+      "title_zh": "GoBench：用9x9围棋对战KataGo来评测大模型的新基准",
+      "title_en": "GoBench: A New LLM Benchmark Using 9x9 Go Against KataGo",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wi68jg/gobench_evaluating_llms_on_the_game_of_go_r/",
+      "source": "reddit",
       "score": 8.0,
-      "summary": "MediaTek announced the Dimensity 9600 Pro, its first flagship mobile chip built on TSMC's 2nm process, and the 3nm Dimensity 9600M, with major AI performance gains.",
+      "summary": "GoBench is a new benchmark that evaluates LLMs on 9x9 Go against KataGo opponents and finds strong correlation with ARC-AGI 2 while remaining unsaturated.",
       "tags": [
-        "MediaTek",
-        "Dimensity 9600 Pro",
-        "TSMC 2nm",
-        "mobile chips",
-        "AI processor"
+        "LLM evaluation",
+        "benchmark",
+        "Go",
+        "reasoning",
+        "KataGo"
       ]
     }
   ]
