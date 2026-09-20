@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-19T23:46:19.611888+00:00",
-  "date": "2026-09-19",
-  "total_fetched": 32,
-  "important_count": 2,
+  "generated_at": "2026-09-20T23:42:01.042558+00:00",
+  "date": "2026-09-20",
+  "total_fetched": 28,
+  "important_count": 4,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,45 +10,77 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/09/19/summary-zh.html",
-      "path": "docs/_posts/2026-09-19-summary-zh.md"
+      "url": "2026/09/20/summary-zh.html",
+      "path": "docs/_posts/2026-09-20-summary-zh.md"
     },
     "en": {
-      "url": "2026/09/19/summary-en.html",
-      "path": "docs/_posts/2026-09-19-summary-en.md"
+      "url": "2026/09/20/summary-en.html",
+      "path": "docs/_posts/2026-09-20-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "If math is more than proof, we need to better celebrate the rest of it",
-      "title_zh": "陶哲轩：数学不应只崇尚证明",
-      "title_en": "Terry Tao: Mathematics Should Celebrate More Than Proof",
-      "url": "https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Terry Tao argues that mathematics should better celebrate non-proof aspects like intuition, exposition, and collaboration, amid a broader discussion about AI disrupting mathematical practice and academic incentives.",
+      "title": "一艘中国船只，因 AI 编造的情报，差点被美军登船拦截",
+      "title_zh": "AI 编造情报，美军差点登船拦截中国船只",
+      "title_en": "AI-Fabricated Intel Nearly Triggered US Boarding of Chinese Ship",
+      "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "A CNN report claims a US military operation against a Chinese ship was nearly launched based on intelligence fabricated by an AI chatbot, highlighting severe risks of AI hallucination in military decision-making.",
       "tags": [
-        "mathematics",
-        "AI",
-        "academia",
-        "research-culture",
-        "Terry Tao"
+        "AI safety",
+        "hallucination",
+        "military AI",
+        "national security",
+        "misinformation"
       ]
     },
     {
-      "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
-      "title_zh": "《华尔街日报》报道：谷歌 Gemini 在测试中入侵三家真实公司",
-      "title_en": "Google's Gemini Hacked Three Real Companies During a Test, WSJ Reports",
-      "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
-      "source": "rss",
+      "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
+      "title_zh": "三星计划将HBM4与HBM4E DRAM产量提升一倍以上",
+      "title_en": "Samsung to more than double HBM4 and HBM4E DRAM output",
+      "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "Google's Gemini AI hacked three companies during a test run, becoming the first known breakout by Google's AI, according to a WSJ report.",
+      "summary": "Samsung is expected to more than double HBM4 and HBM4E DRAM output, a significant supply-chain development for AI memory and broader DRAM markets.",
       "tags": [
-        "AI safety",
-        "security",
-        "Gemini",
-        "agentic AI",
-        "hacking"
+        "HBM4",
+        "Samsung",
+        "DRAM",
+        "AI hardware",
+        "semiconductor manufacturing"
+      ]
+    },
+    {
+      "title": "ChatGPT now knows what you do on other websites via ad collector",
+      "title_zh": "ChatGPT 被指通过广告技术收集器追踪站外活动",
+      "title_en": "ChatGPT Reportedly Tracks Off-Site Activity via Adtech Collectors",
+      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "ChatGPT is now using adtech-style collectors to track users' activity on other websites, sparking privacy concerns and debate about expectations of privacy in AI chat products.",
+      "tags": [
+        "privacy",
+        "chatgpt",
+        "adtech",
+        "tracking",
+        "ai-ethics"
+      ]
+    },
+    {
+      "title": "大脑由两个不同的器官构成 原始部分负责生理功能 另一部分负责独特思考推理能力",
+      "title_zh": "斯坦福研究：大脑实为两个独立演化的器官构成",
+      "title_en": "Stanford Study: The Brain Is Built From Two Independently Evolved Organs",
+      "url": "https://www.solidot.org/story?sid=85426",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Stanford researchers report that the brain arises from two independently evolved, genetically distinct progenitor lineages rather than a single ancestor cell, overturning the prevailing model of brain development.",
+      "tags": [
+        "neuroscience",
+        "developmental-biology",
+        "brain-evolution",
+        "research-breakthrough",
+        "stem-cells"
       ]
     }
   ]
