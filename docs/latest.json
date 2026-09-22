@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-22T00:23:01.875514+00:00",
+  "generated_at": "2026-09-22T23:55:29.275838+00:00",
   "date": "2026-09-22",
-  "total_fetched": 37,
-  "important_count": 4,
+  "total_fetched": 39,
+  "important_count": 10,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -20,67 +20,163 @@
   },
   "items": [
     {
-      "title": "Xiaomi MiMo v2.6",
-      "title_zh": "小米发布 MiMo v2.6 全模态大模型家族，含 Flash 与 Pro 两个版本",
-      "title_en": "Xiaomi Releases MiMo v2.6 Omnimodal LLM Family With Flash and Pro Variants",
-      "url": "https://mimo.xiaomi.com/mimo-v2-6",
+      "title": "GPT-6 Sol and Luna",
+      "title_zh": "OpenAI 发布 GPT-6 Sol 与 Luna 模型家族",
+      "title_en": "OpenAI Unveils GPT-6 Sol and Luna Model Family",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
       "source": "hackernews",
-      "score": 8.0,
-      "summary": "Xiaomi announces MiMo v2.6, a large language model family with Flash (309B total/15B active) and Pro (1.02T total/42B active) variants, emphasizing training transparency.",
+      "score": 9.0,
+      "summary": "OpenAI announced GPT-6 Sol and Luna, a new flagship model family, prompting extensive Hacker News discussion about pricing, coding-agent usage limits, and model quality comparisons.",
       "tags": [
         "AI",
         "LLM",
-        "Xiaomi",
-        "Open Models",
-        "Model Release"
+        "OpenAI",
+        "model-release",
+        "developer-tools"
       ]
     },
     {
-      "title": "Python Workers are now generally available",
-      "title_zh": "Cloudflare Python Workers 正式全面可用",
-      "title_en": "Cloudflare Python Workers reach general availability",
-      "url": "https://blog.cloudflare.com/python-workers-ga/",
+      "title": "Claude Opus 5.5",
+      "title_zh": "Anthropic 发布 Claude Opus 5.5，API 价格下调",
+      "title_en": "Anthropic releases Claude Opus 5.5 with cheaper API pricing",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
       "source": "hackernews",
-      "score": 8.0,
-      "summary": "Cloudflare announces general availability of Python Workers, bringing Pyodide-based Python support with standardized package handling (PEP 783) to its edge serverless platform.",
+      "score": 9.0,
+      "summary": "Anthropic releases Claude Opus 5.5, a new flagship model with improved communication and lower API pricing, sparking intense Hacker News discussion about frontier AI pacing and market impact.",
       "tags": [
-        "cloudflare",
-        "webassembly",
-        "python",
-        "serverless",
-        "pyodide"
+        "AI",
+        "LLM",
+        "Anthropic",
+        "Claude Opus",
+        "API Pricing"
       ]
     },
     {
-      "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
-      "title_zh": "TypeSafe AI 发布 Jev：首个「System One」决策模型",
-      "title_en": "TypeSafe AI launches Jev, the first \"System One\" decision model",
-      "url": "https://simonwillison.net/2026/Sep/21/jev/",
+      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+      "title_zh": "五角大楼：过度依赖AI导致伊朗学校遭导弹袭击",
+      "title_en": "Pentagon: AI Overreliance Contributed to Deadly Strike on Iranian School",
+      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "The Pentagon reportedly found that overreliance on AI contributed to a missile strike on an Iranian school, raising urgent questions about accountability and the use of AI in military targeting.",
+      "tags": [
+        "AI ethics",
+        "autonomous weapons",
+        "military AI",
+        "accountability",
+        "AI safety"
+      ]
+    },
+    {
+      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+      "title_zh": "Anthropic 发布 Claude Opus 5.5，OpenAI 推出 GPT-6 Sol 与 Luna 掀起价格战",
+      "title_en": "Anthropic and OpenAI launch Claude Opus 5.5, GPT-6 Sol and Luna amid price war",
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
       "source": "rss",
-      "score": 8.0,
-      "summary": "TypeSafe AI unveils Jev, a new 'System One' or decision model that takes text input and returns typed probabilistic decisions (floats, categories, confidence scores) quickly and cheaply.",
+      "score": 9.0,
+      "summary": "Simon Willison shares first impressions of Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and an emerging price war among frontier AI models.",
       "tags": [
+        "AI models",
         "LLM",
-        "AI",
-        "decision-models",
-        "probabilistic-reasoning",
-        "TypeSafe AI"
+        "OpenAI",
+        "Anthropic",
+        "pricing"
       ]
     },
     {
-      "title": "🍏 苹果发布 M6 与 M5 Ultra 芯片，M6 首搭 2 纳米制程  Apple 在新 Mac mini 中首发 M6 芯片，并在新 Mac Studio",
-      "title_zh": "苹果发布首款2纳米芯片M6，以及四芯片架构的M5 Ultra",
-      "title_en": "Apple Unveils M6, Its First 2nm Chip, and Quad-Die M5 Ultra",
-      "url": "https://t.me/zaihuapd/43965",
+      "title": "vllm-project/vllm released v0.30.0",
+      "title_zh": "vLLM v0.30.0 发布：762 次提交，新增 DeepSeek-V4.1-Flash 支持与 GPU 权重缓存守护进程",
+      "title_en": "vLLM v0.30.0 ships 762 commits, DeepSeek-V4.1-Flash and a GPU weight-cache daemon",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+      "source": "github",
+      "score": 8.0,
+      "summary": "vLLM v0.30.0 ships 762 commits adding new model support (DeepSeek-V4.1-Flash, GLM-5.3-Flash), a persistent GPU weight-cache daemon for fast engine restarts, and a DeepSeek-V4 CPU backend.",
+      "tags": [
+        "vllm",
+        "llm-inference",
+        "model-serving",
+        "release",
+        "gpu-optimization"
+      ]
+    },
+    {
+      "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
+      "title_zh": "黑客声称窃取了全部FBI员工数据",
+      "title_en": "Hackers claim they stole data on all FBI employees",
+      "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Hackers claim to have stolen data on all FBI employees, sparking widespread discussion about cybersecurity and data protection failures.",
+      "tags": [
+        "cybersecurity",
+        "data breach",
+        "FBI",
+        "privacy",
+        "hacking"
+      ]
+    },
+    {
+      "title": "There's a high chance of devices being sold with GrapheneOS preinstalled in 2027",
+      "title_zh": "GrapheneOS 有望在 2027 年实现设备预装",
+      "title_en": "GrapheneOS May Ship Preinstalled on Devices by 2027",
+      "url": "https://grapheneos.social/@GrapheneOS/117299954135808210",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "GrapheneOS may be preinstalled on Motorola devices by 2027, offering a privacy-focused alternative to mainstream Android.",
+      "tags": [
+        "GrapheneOS",
+        "privacy",
+        "Android",
+        "mobile OS",
+        "preinstalled"
+      ]
+    },
+    {
+      "title": "25 位菲尔兹奖得主警告 AI 或与数学研究目标错位  陶哲轩、邓煜等 25 位菲尔兹奖得主发表联合声明，警告 AI 快速用于解决数学问题可能导致 AI 发展目",
+      "title_zh": "25位菲尔兹奖得主警告AI或与数学研究目标错位",
+      "title_en": "25 Fields Medalists Warn AI May Be Misaligned With Math Research Goals",
+      "url": "https://t.me/zaihuapd/43973",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Apple announced its first 2nm chip (M6, debuting in a new Mac mini) and the quad-die M5 Ultra (up to 36-core CPU, 80-core GPU, 512GB RAM) in a new Mac Studio.",
+      "summary": "25 Fields medalists warn that using AI primarily for solving math problems may misalign AI development with the core goals of mathematical research.",
       "tags": [
-        "Apple Silicon",
-        "Hardware",
-        "Semiconductor",
-        "Chip Design",
-        "Mac"
+        "AI",
+        "mathematics",
+        "research ethics",
+        "academic publishing",
+        "LLM"
+      ]
+    },
+    {
+      "title": "🤖 DeepSeek 发布 DSec 沙箱平台技术报告：每日服务 300 万个沙箱，支撑智能体训练",
+      "title_zh": "DeepSeek 与清华发布 DSec 沙箱平台技术报告",
+      "title_en": "DeepSeek and Tsinghua release DSec sandbox platform technical report",
+      "url": "https://arxiv.org/abs/2609.22978",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "DeepSeek and Tsinghua released a technical report on DSec, a production sandbox platform serving about 3 million sandbox instances daily to support large-scale AI agent training and evaluation.",
+      "tags": [
+        "AI Agents",
+        "Sandbox Infrastructure",
+        "DeepSeek",
+        "Reinforcement Learning",
+        "Distributed Systems"
+      ]
+    },
+    {
+      "title": "🤖 DeepSeek 本周将向联合国安理会通报 AI 风险  两名知情人士称，中国 AI 初创公司 DeepSeek 将在本周向联合国安理会通报人工智能带来的风",
+      "title_zh": "DeepSeek 本周将向联合国安理会通报 AI 风险",
+      "title_en": "DeepSeek to Brief UN Security Council on AI Risks This Week",
+      "url": "https://t.me/zaihuapd/43989",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "DeepSeek will reportedly brief the UN Security Council on AI risks this week, alongside OpenAI's Sam Altman and Anthropic representatives, in a high-level meeting on AI and international security.",
+      "tags": [
+        "AI governance",
+        "AI safety",
+        "DeepSeek",
+        "UN Security Council",
+        "geopolitics"
       ]
     }
   ]
