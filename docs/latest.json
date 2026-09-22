@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T23:42:01.042558+00:00",
-  "date": "2026-09-20",
-  "total_fetched": 28,
+  "generated_at": "2026-09-22T00:23:01.875514+00:00",
+  "date": "2026-09-22",
+  "total_fetched": 37,
   "important_count": 4,
   "score_threshold": 8.0,
   "languages": [
@@ -10,77 +10,77 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/09/20/summary-zh.html",
-      "path": "docs/_posts/2026-09-20-summary-zh.md"
+      "url": "2026/09/22/summary-zh.html",
+      "path": "docs/_posts/2026-09-22-summary-zh.md"
     },
     "en": {
-      "url": "2026/09/20/summary-en.html",
-      "path": "docs/_posts/2026-09-20-summary-en.md"
+      "url": "2026/09/22/summary-en.html",
+      "path": "docs/_posts/2026-09-22-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "一艘中国船只，因 AI 编造的情报，差点被美军登船拦截",
-      "title_zh": "AI 编造情报，美军差点登船拦截中国船只",
-      "title_en": "AI-Fabricated Intel Nearly Triggered US Boarding of Chinese Ship",
-      "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
-      "source": "telegram",
-      "score": 9.0,
-      "summary": "A CNN report claims a US military operation against a Chinese ship was nearly launched based on intelligence fabricated by an AI chatbot, highlighting severe risks of AI hallucination in military decision-making.",
-      "tags": [
-        "AI safety",
-        "hallucination",
-        "military AI",
-        "national security",
-        "misinformation"
-      ]
-    },
-    {
-      "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
-      "title_zh": "三星计划将HBM4与HBM4E DRAM产量提升一倍以上",
-      "title_en": "Samsung to more than double HBM4 and HBM4E DRAM output",
-      "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+      "title": "Xiaomi MiMo v2.6",
+      "title_zh": "小米发布 MiMo v2.6 全模态大模型家族，含 Flash 与 Pro 两个版本",
+      "title_en": "Xiaomi Releases MiMo v2.6 Omnimodal LLM Family With Flash and Pro Variants",
+      "url": "https://mimo.xiaomi.com/mimo-v2-6",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Samsung is expected to more than double HBM4 and HBM4E DRAM output, a significant supply-chain development for AI memory and broader DRAM markets.",
+      "summary": "Xiaomi announces MiMo v2.6, a large language model family with Flash (309B total/15B active) and Pro (1.02T total/42B active) variants, emphasizing training transparency.",
       "tags": [
-        "HBM4",
-        "Samsung",
-        "DRAM",
-        "AI hardware",
-        "semiconductor manufacturing"
+        "AI",
+        "LLM",
+        "Xiaomi",
+        "Open Models",
+        "Model Release"
       ]
     },
     {
-      "title": "ChatGPT now knows what you do on other websites via ad collector",
-      "title_zh": "ChatGPT 被指通过广告技术收集器追踪站外活动",
-      "title_en": "ChatGPT Reportedly Tracks Off-Site Activity via Adtech Collectors",
-      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+      "title": "Python Workers are now generally available",
+      "title_zh": "Cloudflare Python Workers 正式全面可用",
+      "title_en": "Cloudflare Python Workers reach general availability",
+      "url": "https://blog.cloudflare.com/python-workers-ga/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "ChatGPT is now using adtech-style collectors to track users' activity on other websites, sparking privacy concerns and debate about expectations of privacy in AI chat products.",
+      "summary": "Cloudflare announces general availability of Python Workers, bringing Pyodide-based Python support with standardized package handling (PEP 783) to its edge serverless platform.",
       "tags": [
-        "privacy",
-        "chatgpt",
-        "adtech",
-        "tracking",
-        "ai-ethics"
+        "cloudflare",
+        "webassembly",
+        "python",
+        "serverless",
+        "pyodide"
       ]
     },
     {
-      "title": "大脑由两个不同的器官构成 原始部分负责生理功能 另一部分负责独特思考推理能力",
-      "title_zh": "斯坦福研究：大脑实为两个独立演化的器官构成",
-      "title_en": "Stanford Study: The Brain Is Built From Two Independently Evolved Organs",
-      "url": "https://www.solidot.org/story?sid=85426",
+      "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
+      "title_zh": "TypeSafe AI 发布 Jev：首个「System One」决策模型",
+      "title_en": "TypeSafe AI launches Jev, the first \"System One\" decision model",
+      "url": "https://simonwillison.net/2026/Sep/21/jev/",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "TypeSafe AI unveils Jev, a new 'System One' or decision model that takes text input and returns typed probabilistic decisions (floats, categories, confidence scores) quickly and cheaply.",
+      "tags": [
+        "LLM",
+        "AI",
+        "decision-models",
+        "probabilistic-reasoning",
+        "TypeSafe AI"
+      ]
+    },
+    {
+      "title": "🍏 苹果发布 M6 与 M5 Ultra 芯片，M6 首搭 2 纳米制程  Apple 在新 Mac mini 中首发 M6 芯片，并在新 Mac Studio",
+      "title_zh": "苹果发布首款2纳米芯片M6，以及四芯片架构的M5 Ultra",
+      "title_en": "Apple Unveils M6, Its First 2nm Chip, and Quad-Die M5 Ultra",
+      "url": "https://t.me/zaihuapd/43965",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Stanford researchers report that the brain arises from two independently evolved, genetically distinct progenitor lineages rather than a single ancestor cell, overturning the prevailing model of brain development.",
+      "summary": "Apple announced its first 2nm chip (M6, debuting in a new Mac mini) and the quad-die M5 Ultra (up to 36-core CPU, 80-core GPU, 512GB RAM) in a new Mac Studio.",
       "tags": [
-        "neuroscience",
-        "developmental-biology",
-        "brain-evolution",
-        "research-breakthrough",
-        "stem-cells"
+        "Apple Silicon",
+        "Hardware",
+        "Semiconductor",
+        "Chip Design",
+        "Mac"
       ]
     }
   ]
