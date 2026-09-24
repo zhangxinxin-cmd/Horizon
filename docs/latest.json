@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-22T23:55:29.275838+00:00",
-  "date": "2026-09-22",
-  "total_fetched": 39,
-  "important_count": 10,
+  "generated_at": "2026-09-24T00:06:40.328121+00:00",
+  "date": "2026-09-24",
+  "total_fetched": 31,
+  "important_count": 2,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,173 +10,45 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/09/22/summary-zh.html",
-      "path": "docs/_posts/2026-09-22-summary-zh.md"
+      "url": "2026/09/24/summary-zh.html",
+      "path": "docs/_posts/2026-09-24-summary-zh.md"
     },
     "en": {
-      "url": "2026/09/22/summary-en.html",
-      "path": "docs/_posts/2026-09-22-summary-en.md"
+      "url": "2026/09/24/summary-en.html",
+      "path": "docs/_posts/2026-09-24-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "GPT-6 Sol and Luna",
-      "title_zh": "OpenAI 发布 GPT-6 Sol 与 Luna 模型家族",
-      "title_en": "OpenAI Unveils GPT-6 Sol and Luna Model Family",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "title": "Tokens too cheap to meter",
+      "title_zh": "LLM token 会比 grep 调用还便宜吗？",
+      "title_en": "Are LLM tokens about to cost less than grep?",
+      "url": "https://jyn.dev/tokens-too-cheap-to-meter/",
       "source": "hackernews",
-      "score": 9.0,
-      "summary": "OpenAI announced GPT-6 Sol and Luna, a new flagship model family, prompting extensive Hacker News discussion about pricing, coding-agent usage limits, and model quality comparisons.",
+      "score": 8.0,
+      "summary": "The article argues that LLM tokens are becoming so cheap they may soon cost less than tool calls like grep, exploring the economic and practical consequences.",
       "tags": [
-        "AI",
-        "LLM",
-        "OpenAI",
-        "model-release",
-        "developer-tools"
+        "LLM economics",
+        "AI inference costs",
+        "AI business models",
+        "Hacker News",
+        "technology trends"
       ]
     },
     {
-      "title": "Claude Opus 5.5",
-      "title_zh": "Anthropic 发布 Claude Opus 5.5，API 价格下调",
-      "title_en": "Anthropic releases Claude Opus 5.5 with cheaper API pricing",
-      "url": "https://www.anthropic.com/claude-opus-5-5",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "Anthropic releases Claude Opus 5.5, a new flagship model with improved communication and lower API pricing, sparking intense Hacker News discussion about frontier AI pacing and market impact.",
-      "tags": [
-        "AI",
-        "LLM",
-        "Anthropic",
-        "Claude Opus",
-        "API Pricing"
-      ]
-    },
-    {
-      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
-      "title_zh": "五角大楼：过度依赖AI导致伊朗学校遭导弹袭击",
-      "title_en": "Pentagon: AI Overreliance Contributed to Deadly Strike on Iranian School",
-      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "The Pentagon reportedly found that overreliance on AI contributed to a missile strike on an Iranian school, raising urgent questions about accountability and the use of AI in military targeting.",
-      "tags": [
-        "AI ethics",
-        "autonomous weapons",
-        "military AI",
-        "accountability",
-        "AI safety"
-      ]
-    },
-    {
-      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
-      "title_zh": "Anthropic 发布 Claude Opus 5.5，OpenAI 推出 GPT-6 Sol 与 Luna 掀起价格战",
-      "title_en": "Anthropic and OpenAI launch Claude Opus 5.5, GPT-6 Sol and Luna amid price war",
-      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "title": "ClusterMAX 3.0: The Industry Standard GPU Cloud Rating System Returns",
+      "title_zh": "ClusterMAX 3.0 发布：SemiAnalysis 更新行业标准 GPU 云评级",
+      "title_en": "ClusterMAX 3.0: SemiAnalysis Updates Its Industry-Standard GPU Cloud Ratings",
+      "url": "https://newsletter.semianalysis.com/p/clustermax-30-the-industry-standard",
       "source": "rss",
-      "score": 9.0,
-      "summary": "Simon Willison shares first impressions of Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and an emerging price war among frontier AI models.",
-      "tags": [
-        "AI models",
-        "LLM",
-        "OpenAI",
-        "Anthropic",
-        "pricing"
-      ]
-    },
-    {
-      "title": "vllm-project/vllm released v0.30.0",
-      "title_zh": "vLLM v0.30.0 发布：762 次提交，新增 DeepSeek-V4.1-Flash 支持与 GPU 权重缓存守护进程",
-      "title_en": "vLLM v0.30.0 ships 762 commits, DeepSeek-V4.1-Flash and a GPU weight-cache daemon",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
-      "source": "github",
       "score": 8.0,
-      "summary": "vLLM v0.30.0 ships 762 commits adding new model support (DeepSeek-V4.1-Flash, GLM-5.3-Flash), a persistent GPU weight-cache daemon for fast engine restarts, and a DeepSeek-V4 CPU backend.",
+      "summary": "SemiAnalysis releases ClusterMAX 3.0, a thorough global rating of GPU cloud providers covering reliability, performance, support, pricing, and security.",
       "tags": [
-        "vllm",
-        "llm-inference",
-        "model-serving",
-        "release",
-        "gpu-optimization"
-      ]
-    },
-    {
-      "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
-      "title_zh": "黑客声称窃取了全部FBI员工数据",
-      "title_en": "Hackers claim they stole data on all FBI employees",
-      "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Hackers claim to have stolen data on all FBI employees, sparking widespread discussion about cybersecurity and data protection failures.",
-      "tags": [
-        "cybersecurity",
-        "data breach",
-        "FBI",
-        "privacy",
-        "hacking"
-      ]
-    },
-    {
-      "title": "There's a high chance of devices being sold with GrapheneOS preinstalled in 2027",
-      "title_zh": "GrapheneOS 有望在 2027 年实现设备预装",
-      "title_en": "GrapheneOS May Ship Preinstalled on Devices by 2027",
-      "url": "https://grapheneos.social/@GrapheneOS/117299954135808210",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "GrapheneOS may be preinstalled on Motorola devices by 2027, offering a privacy-focused alternative to mainstream Android.",
-      "tags": [
-        "GrapheneOS",
-        "privacy",
-        "Android",
-        "mobile OS",
-        "preinstalled"
-      ]
-    },
-    {
-      "title": "25 位菲尔兹奖得主警告 AI 或与数学研究目标错位  陶哲轩、邓煜等 25 位菲尔兹奖得主发表联合声明，警告 AI 快速用于解决数学问题可能导致 AI 发展目",
-      "title_zh": "25位菲尔兹奖得主警告AI或与数学研究目标错位",
-      "title_en": "25 Fields Medalists Warn AI May Be Misaligned With Math Research Goals",
-      "url": "https://t.me/zaihuapd/43973",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "25 Fields medalists warn that using AI primarily for solving math problems may misalign AI development with the core goals of mathematical research.",
-      "tags": [
-        "AI",
-        "mathematics",
-        "research ethics",
-        "academic publishing",
-        "LLM"
-      ]
-    },
-    {
-      "title": "🤖 DeepSeek 发布 DSec 沙箱平台技术报告：每日服务 300 万个沙箱，支撑智能体训练",
-      "title_zh": "DeepSeek 与清华发布 DSec 沙箱平台技术报告",
-      "title_en": "DeepSeek and Tsinghua release DSec sandbox platform technical report",
-      "url": "https://arxiv.org/abs/2609.22978",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "DeepSeek and Tsinghua released a technical report on DSec, a production sandbox platform serving about 3 million sandbox instances daily to support large-scale AI agent training and evaluation.",
-      "tags": [
-        "AI Agents",
-        "Sandbox Infrastructure",
-        "DeepSeek",
-        "Reinforcement Learning",
-        "Distributed Systems"
-      ]
-    },
-    {
-      "title": "🤖 DeepSeek 本周将向联合国安理会通报 AI 风险  两名知情人士称，中国 AI 初创公司 DeepSeek 将在本周向联合国安理会通报人工智能带来的风",
-      "title_zh": "DeepSeek 本周将向联合国安理会通报 AI 风险",
-      "title_en": "DeepSeek to Brief UN Security Council on AI Risks This Week",
-      "url": "https://t.me/zaihuapd/43989",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "DeepSeek will reportedly brief the UN Security Council on AI risks this week, alongside OpenAI's Sam Altman and Anthropic representatives, in a high-level meeting on AI and international security.",
-      "tags": [
-        "AI governance",
-        "AI safety",
-        "DeepSeek",
-        "UN Security Council",
-        "geopolitics"
+        "GPU cloud",
+        "AI infrastructure",
+        "cloud computing",
+        "benchmarking",
+        "security"
       ]
     }
   ]
