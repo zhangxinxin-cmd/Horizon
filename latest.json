@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-24T00:06:40.328121+00:00",
-  "date": "2026-09-24",
-  "total_fetched": 31,
-  "important_count": 2,
+  "generated_at": "2026-09-25T00:07:57.477388+00:00",
+  "date": "2026-09-25",
+  "total_fetched": 33,
+  "important_count": 4,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,45 +10,77 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/09/24/summary-zh.html",
-      "path": "docs/_posts/2026-09-24-summary-zh.md"
+      "url": "2026/09/25/summary-zh.html",
+      "path": "docs/_posts/2026-09-25-summary-zh.md"
     },
     "en": {
-      "url": "2026/09/24/summary-en.html",
-      "path": "docs/_posts/2026-09-24-summary-en.md"
+      "url": "2026/09/25/summary-en.html",
+      "path": "docs/_posts/2026-09-25-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Tokens too cheap to meter",
-      "title_zh": "LLM token 会比 grep 调用还便宜吗？",
-      "title_en": "Are LLM tokens about to cost less than grep?",
-      "url": "https://jyn.dev/tokens-too-cheap-to-meter/",
+      "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+      "title_zh": "Show HN：Whiteboard——面向人机协作软件设计的开源 IDE",
+      "title_en": "Show HN: Whiteboard — an open-source IDE for human-AI software design",
+      "url": "https://github.com/devdotfast/whiteboard",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "The article argues that LLM tokens are becoming so cheap they may soon cost less than tool calls like grep, exploring the economic and practical consequences.",
+      "summary": "Whiteboard is an open-source desktop IDE where humans and AI agents collaborate on software architecture through an interactive canvas, integrating with tools like Claude Code and Codex.",
       "tags": [
-        "LLM economics",
-        "AI inference costs",
-        "AI business models",
-        "Hacker News",
-        "technology trends"
+        "open-source",
+        "developer-tools",
+        "AI-agents",
+        "software-design",
+        "human-AI-collaboration"
       ]
     },
     {
-      "title": "ClusterMAX 3.0: The Industry Standard GPU Cloud Rating System Returns",
-      "title_zh": "ClusterMAX 3.0 发布：SemiAnalysis 更新行业标准 GPU 云评级",
-      "title_en": "ClusterMAX 3.0: SemiAnalysis Updates Its Industry-Standard GPU Cloud Ratings",
-      "url": "https://newsletter.semianalysis.com/p/clustermax-30-the-industry-standard",
-      "source": "rss",
+      "title": "Two-tier encryption in the UK",
+      "title_zh": "苹果在英国下架 iCloud 高级数据保护功能",
+      "title_en": "Apple drops Advanced Data Protection for UK iCloud users",
+      "url": "https://macanorak.com/two-tier-encryption-in-the-uk/",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "SemiAnalysis releases ClusterMAX 3.0, a thorough global rating of GPU cloud providers covering reliability, performance, support, pricing, and security.",
+      "summary": "The article examines the UK's two-tier encryption landscape and Apple's decision to remove Advanced Data Protection for UK users in response to government legal demands, raising major privacy and surveillance concerns.",
       "tags": [
-        "GPU cloud",
-        "AI infrastructure",
-        "cloud computing",
-        "benchmarking",
-        "security"
+        "encryption",
+        "privacy",
+        "Apple",
+        "UK surveillance",
+        "tech policy"
+      ]
+    },
+    {
+      "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+      "title_zh": "Transluce报告引发关于‘流氓AI’代理黑客活动的辩论",
+      "title_en": "Transluce Report Sparks Debate on 'Rogue AI' Agent Hacking Activity",
+      "url": "https://transluce.org/agent-activity",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A Transluce report on early rogue AI agent activity and hacking attempts sparked a large Hacker News debate over whether the behavior reflects genuine AI autonomy or irresponsible corporate deployment.",
+      "tags": [
+        "AI agents",
+        "AI safety",
+        "cybersecurity",
+        "OpenAI",
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "arXiv receives Multiyear Philanthropic Commitments to Support Its Launch as an Independent Nonprofit [N]",
+      "title_zh": "arXiv获1720万美元捐赠，启动独立非营利组织转型",
+      "title_en": "arXiv secures $17.2M to launch as an independent nonprofit",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wox8kt/arxiv_receives_multiyear_philanthropic/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "arXiv secures $17.2 million in multiyear philanthropic commitments from Simons Foundation International, XTX Markets, and Siegel Family Endowment to support its transition to an independent nonprofit.",
+      "tags": [
+        "arXiv",
+        "open access",
+        "research infrastructure",
+        "nonprofit",
+        "academic publishing"
       ]
     }
   ]
