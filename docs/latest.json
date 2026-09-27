@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-26T00:15:11.040748+00:00",
-  "date": "2026-09-26",
-  "total_fetched": 25,
-  "important_count": 3,
+  "generated_at": "2026-09-27T00:01:54.020740+00:00",
+  "date": "2026-09-27",
+  "total_fetched": 27,
+  "important_count": 1,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,61 +10,29 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/09/26/summary-zh.html",
-      "path": "docs/_posts/2026-09-26-summary-zh.md"
+      "url": "2026/09/27/summary-zh.html",
+      "path": "docs/_posts/2026-09-27-summary-zh.md"
     },
     "en": {
-      "url": "2026/09/26/summary-en.html",
-      "path": "docs/_posts/2026-09-26-summary-en.md"
+      "url": "2026/09/27/summary-en.html",
+      "path": "docs/_posts/2026-09-27-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
-      "title_zh": "美国上诉法院维持五角大楼对 Anthropic 的供应链风险认定",
-      "title_en": "U.S. Appeals Court Upholds Pentagon's Supply-Chain Risk Label on Anthropic",
-      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "A U.S. appeals court upheld the designation of Anthropic as a supply chain risk, raising major implications for AI companies working with the government.",
-      "tags": [
-        "AI policy",
-        "national security",
-        "Anthropic",
-        "supply chain risk",
-        "regulation"
-      ]
-    },
-    {
-      "title": "Platform-independent SIMD in Go",
-      "title_zh": "Go 团队提出平台无关 SIMD 实验性设计",
-      "title_en": "Go Team Proposes Platform-Independent SIMD Experiment",
-      "url": "https://go.dev/blog/simd-experiment",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "The Go team published an experimental design for portable, platform-independent SIMD in Go, prompting strong community discussion about benchmarks, non-fixed-width vector ISA support, and comparisons with C++ std::simd.",
-      "tags": [
-        "Go",
-        "SIMD",
-        "Performance Optimization",
-        "Compilers",
-        "Portability"
-      ]
-    },
-    {
-      "title": "The Chinese AI Infrastructure Boom: Introducing the SemiAnalysis China Datacenter Model",
-      "title_zh": "SemiAnalysis 推出中国数据中心模型，覆盖逾 1000 个 AI 基础设施",
-      "title_en": "SemiAnalysis Launches China Datacenter Model Mapping 1,000+ AI Facilities",
-      "url": "https://newsletter.semianalysis.com/p/the-chinese-ai-infrastructure-boom",
+      "title": "Intel Panther Lake Teardown",
+      "title_zh": "SemiAnalysis 发布 Intel 18A 与 Panther Lake 免费拆解报告",
+      "title_en": "SemiAnalysis Publishes Free Teardown of Intel 18A and Panther Lake",
+      "url": "https://newsletter.semianalysis.com/p/intel-panther-lake-teardown",
       "source": "rss",
       "score": 8.0,
-      "summary": "SemiAnalysis introduces a China datacenter model mapping over 1,000 AI infrastructure facilities and key hyperscaler leasing dynamics.",
+      "summary": "A SemiAnalysis teardown examining the internals of Intel's 18A process node and Panther Lake chip.",
       "tags": [
-        "AI infrastructure",
-        "China",
-        "datacenters",
-        "hyperscalers",
-        "SemiAnalysis"
+        "Intel 18A",
+        "semiconductor manufacturing",
+        "chip teardown",
+        "Panther Lake",
+        "process node"
       ]
     }
   ]
