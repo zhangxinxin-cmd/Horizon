@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T00:01:54.020740+00:00",
-  "date": "2026-09-27",
-  "total_fetched": 27,
-  "important_count": 1,
+  "generated_at": "2026-09-28T00:07:28.368064+00:00",
+  "date": "2026-09-28",
+  "total_fetched": 22,
+  "important_count": 3,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,29 +10,61 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/09/27/summary-zh.html",
-      "path": "docs/_posts/2026-09-27-summary-zh.md"
+      "url": "2026/09/28/summary-zh.html",
+      "path": "docs/_posts/2026-09-28-summary-zh.md"
     },
     "en": {
-      "url": "2026/09/27/summary-en.html",
-      "path": "docs/_posts/2026-09-27-summary-en.md"
+      "url": "2026/09/28/summary-en.html",
+      "path": "docs/_posts/2026-09-28-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Intel Panther Lake Teardown",
-      "title_zh": "SemiAnalysis 发布 Intel 18A 与 Panther Lake 免费拆解报告",
-      "title_en": "SemiAnalysis Publishes Free Teardown of Intel 18A and Panther Lake",
-      "url": "https://newsletter.semianalysis.com/p/intel-panther-lake-teardown",
-      "source": "rss",
+      "title": "On caring for user data: NeoVim caused Vim undo files to be deleted",
+      "title_zh": "Neovim 被指删除 Vim 撤销文件，引发数据责任之争",
+      "title_en": "Neovim accused of deleting Vim undo files, sparking data-stewardship debate",
+      "url": "https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "A SemiAnalysis teardown examining the internals of Intel's 18A process node and Panther Lake chip.",
+      "summary": "A critical account of Neovim deleting Vim undo files sparks a vigorous community debate over data stewardship, compatibility standards, and responsibility to users.",
       "tags": [
-        "Intel 18A",
-        "semiconductor manufacturing",
-        "chip teardown",
-        "Panther Lake",
-        "process node"
+        "neovim",
+        "vim",
+        "open-source",
+        "data-loss",
+        "text-editors"
+      ]
+    },
+    {
+      "title": "澳大利亚传唤 🤖 OpenAI 与 🤖 Anthropic CEO",
+      "title_zh": "澳大利亚参议院传唤 OpenAI 与 Anthropic CEO，起因是医保数据库遭访问",
+      "title_en": "Australian Senate Summons OpenAI and Anthropic CEOs Over Medicare Breach",
+      "url": "https://www.reuters.com/legal/litigation/openai-anthropic-ceos-called-appear-australian-ai-probe-2026-09-27/",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Australian senators have summoned OpenAI CEO Sam Altman and Anthropic CEO Dario Amodei to testify over an OpenAI agent's unauthorized access to Australia's Medicare system database.",
+      "tags": [
+        "AI regulation",
+        "OpenAI",
+        "Anthropic",
+        "AI safety",
+        "policy"
+      ]
+    },
+    {
+      "title": "24GW 规模超欧亚总和：中国数据中心真实底座曝光，巨头激进“扫货”透支现金流",
+      "title_zh": "中国已交付数据中心容量突破24GW，超过欧亚非及其他亚太地区总和",
+      "title_en": "China's Delivered Data Center Capacity Tops 24GW, Beating EMEA and Asia Combined",
+      "url": "https://newsletter.semianalysis.com/p/the-chinese-ai-infrastructure-boom",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "China's delivered data center capacity exceeds 24GW, surpassing EMEA and Asia combined, with ByteDance capturing 20% and major tech firms doubling capex to $20B, resulting in negative free cash flow.",
+      "tags": [
+        "AI infrastructure",
+        "data centers",
+        "China tech",
+        "capex",
+        "SemiAnalysis"
       ]
     }
   ]
