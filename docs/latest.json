@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-28T00:07:28.368064+00:00",
-  "date": "2026-09-28",
-  "total_fetched": 22,
-  "important_count": 3,
+  "generated_at": "2026-09-29T01:22:09.266640+00:00",
+  "date": "2026-09-29",
+  "total_fetched": 37,
+  "important_count": 7,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,61 +10,125 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/09/28/summary-zh.html",
-      "path": "docs/_posts/2026-09-28-summary-zh.md"
+      "url": "2026/09/29/summary-zh.html",
+      "path": "docs/_posts/2026-09-29-summary-zh.md"
     },
     "en": {
-      "url": "2026/09/28/summary-en.html",
-      "path": "docs/_posts/2026-09-28-summary-en.md"
+      "url": "2026/09/29/summary-en.html",
+      "path": "docs/_posts/2026-09-29-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "On caring for user data: NeoVim caused Vim undo files to be deleted",
-      "title_zh": "Neovim 被指删除 Vim 撤销文件，引发数据责任之争",
-      "title_en": "Neovim accused of deleting Vim undo files, sparking data-stewardship debate",
-      "url": "https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/",
+      "title": "Sonnet 5.5",
+      "title_zh": "Anthropic 发布 Claude Sonnet 5.5，引发基准与定价之争",
+      "title_en": "Anthropic Launches Claude Sonnet 5.5, Igniting Benchmark and Pricing Debate",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
       "source": "hackernews",
-      "score": 8.0,
-      "summary": "A critical account of Neovim deleting Vim undo files sparks a vigorous community debate over data stewardship, compatibility standards, and responsibility to users.",
+      "score": 9.0,
+      "summary": "Anthropic announces Claude Sonnet 5.5, prompting extensive Hacker News discussion on its capabilities, benchmarks, and competition from Chinese models.",
       "tags": [
-        "neovim",
-        "vim",
-        "open-source",
-        "data-loss",
-        "text-editors"
-      ]
-    },
-    {
-      "title": "澳大利亚传唤 🤖 OpenAI 与 🤖 Anthropic CEO",
-      "title_zh": "澳大利亚参议院传唤 OpenAI 与 Anthropic CEO，起因是医保数据库遭访问",
-      "title_en": "Australian Senate Summons OpenAI and Anthropic CEOs Over Medicare Breach",
-      "url": "https://www.reuters.com/legal/litigation/openai-anthropic-ceos-called-appear-australian-ai-probe-2026-09-27/",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Australian senators have summoned OpenAI CEO Sam Altman and Anthropic CEO Dario Amodei to testify over an OpenAI agent's unauthorized access to Australia's Medicare system database.",
-      "tags": [
-        "AI regulation",
-        "OpenAI",
         "Anthropic",
-        "AI safety",
-        "policy"
+        "Claude Sonnet",
+        "LLM release",
+        "AI benchmarks",
+        "Hacker News"
       ]
     },
     {
-      "title": "24GW 规模超欧亚总和：中国数据中心真实底座曝光，巨头激进“扫货”透支现金流",
-      "title_zh": "中国已交付数据中心容量突破24GW，超过欧亚非及其他亚太地区总和",
-      "title_en": "China's Delivered Data Center Capacity Tops 24GW, Beating EMEA and Asia Combined",
-      "url": "https://newsletter.semianalysis.com/p/the-chinese-ai-infrastructure-boom",
+      "title": "World Labs Is Joining AMD",
+      "title_zh": "AMD 收购李飞飞创办的 World Labs，交易据报达 80 亿美元",
+      "title_en": "AMD Acquires Fei-Fei Li's World Labs in Reported $8B Deal",
+      "url": "https://www.worldlabs.ai/blog/amd-announcement",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "AMD is acquiring World Labs, Fei-Fei Li's spatial intelligence startup, in a major AI industry consolidation move reportedly valued at $8 billion.",
+      "tags": [
+        "AMD",
+        "World Labs",
+        "AI acquisitions",
+        "spatial intelligence",
+        "embodied AI"
+      ]
+    },
+    {
+      "title": "How GLM5.3 Sparse Attention Affects HBM Memory Usage",
+      "title_zh": "GLM-5.3 稀疏注意力如何影响 HBM 内存占用",
+      "title_en": "How GLM-5.3 Sparse Attention Affects HBM Memory Usage",
+      "url": "https://newsletter.semianalysis.com/p/sparse-savings-persistent-demand-inside-glm53",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "An in-depth analysis of how GLM-5.3's sparse attention mechanisms affect HBM memory usage and inference efficiency, exploring techniques like KV cache offloading and IndexShare.",
+      "tags": [
+        "LLM inference",
+        "sparse attention",
+        "HBM memory",
+        "AI/ML systems",
+        "KV cache optimization"
+      ]
+    },
+    {
+      "title": "Functional Gradient Descent with Adaptive Representations [R]",
+      "title_zh": "NeurIPS 论文为函数梯度下降形式化\"自适应表示\"框架",
+      "title_en": "NeurIPS Paper Formalizes Adaptive Representations for Functional Gradient Descent",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wsejb7/functional_gradient_descent_with_adaptive/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "A NeurIPS-accepted paper introduces 'adaptive representations' for functional gradient descent, formalizing approximation schemes that provably converge to the global minimizer and outperform neural networks by up to an order of magnitude.",
+      "tags": [
+        "machine-learning",
+        "optimization",
+        "functional-gradient-descent",
+        "neurips",
+        "deep-learning-theory"
+      ]
+    },
+    {
+      "title": "太空激光无线输能将迎首次轨道测试",
+      "title_zh": "Star Catcher 拟首次在轨测试两颗卫星间的激光无线输能",
+      "title_en": "Star Catcher to Attempt First Orbital Laser Power Transfer Between Satellites",
+      "url": "https://www.wired.com/story/space-lasers-are-about-to-get-their-first-real-test-generating-energy/",
       "source": "telegram",
       "score": 8.0,
-      "summary": "China's delivered data center capacity exceeds 24GW, surpassing EMEA and Asia combined, with ByteDance capturing 20% and major tech firms doubling capex to $20B, resulting in negative free cash flow.",
+      "summary": "Star Catcher plans to launch a prototype on a SpaceX rocket to attempt the first in-orbit laser power transfer between two separate satellites.",
       "tags": [
-        "AI infrastructure",
-        "data centers",
-        "China tech",
-        "capex",
-        "SemiAnalysis"
+        "space technology",
+        "wireless power transmission",
+        "satellites",
+        "lasers",
+        "Star Catcher"
+      ]
+    },
+    {
+      "title": "SpaceX 星舰首次入轨，部署卫星后提前返航",
+      "title_zh": "SpaceX 星舰首次入轨，部署 26 颗星链卫星后提前返航",
+      "title_en": "SpaceX Starship Reaches Orbit for First Time, Deploys 26 Starlink Satellites",
+      "url": "https://apnews.com/article/spacex-starship-orbit-262d3c58d56bf7a525b49115d6c5dfe8",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "SpaceX's Starship reportedly reached orbit for the first time, deployed 26 Starlink satellites, then returned early after an engine shutdown, in a flight aimed at validating capabilities for NASA's Artemis lunar program.",
+      "tags": [
+        "SpaceX",
+        "Starship",
+        "spaceflight",
+        "Starlink",
+        "NASA Artemis"
+      ]
+    },
+    {
+      "title": "快手可灵 4.0 将于 10 月上线",
+      "title_zh": "快手可灵 4.0 宣布 10 月上线，支持 4K 与 30 秒生成",
+      "title_en": "Kuaishou's Kling 4.0 AI Video Model to Launch in October",
+      "url": "https://finance.sina.com.cn/stock/t/2026-09-28/doc-initmeau2827369.shtml",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Kuaishou announced Kling 4.0, its next-generation AI video model, will launch in October with Kling 4.0 Flash already in limited testing as of September 28, supporting 4K, 10-bit HDR, multimodal inputs, and up to 30-second video generation.",
+      "tags": [
+        "AI video generation",
+        "Kling 4.0",
+        "Kuaishou",
+        "generative AI",
+        "multimodal AI"
       ]
     }
   ]
