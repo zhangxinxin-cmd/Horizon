@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-29T01:22:09.266640+00:00",
-  "date": "2026-09-29",
-  "total_fetched": 37,
-  "important_count": 7,
+  "generated_at": "2026-09-30T00:52:49.729103+00:00",
+  "date": "2026-09-30",
+  "total_fetched": 40,
+  "important_count": 6,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,125 +10,109 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/09/29/summary-zh.html",
-      "path": "docs/_posts/2026-09-29-summary-zh.md"
+      "url": "2026/09/30/summary-zh.html",
+      "path": "docs/_posts/2026-09-30-summary-zh.md"
     },
     "en": {
-      "url": "2026/09/29/summary-en.html",
-      "path": "docs/_posts/2026-09-29-summary-en.md"
+      "url": "2026/09/30/summary-en.html",
+      "path": "docs/_posts/2026-09-30-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Sonnet 5.5",
-      "title_zh": "Anthropic 发布 Claude Sonnet 5.5，引发基准与定价之争",
-      "title_en": "Anthropic Launches Claude Sonnet 5.5, Igniting Benchmark and Pricing Debate",
-      "url": "https://www.anthropic.com/claude-sonnet-5-5",
-      "source": "hackernews",
+      "title": "AMD 将以 82 亿美元收购李飞飞创办的 World Labs",
+      "title_zh": "AMD 以 82 亿美元收购李飞飞创办的 World Labs",
+      "title_en": "AMD to Acquire Fei-Fei Li's World Labs for $8.2B",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute",
+      "source": "telegram",
       "score": 9.0,
-      "summary": "Anthropic announces Claude Sonnet 5.5, prompting extensive Hacker News discussion on its capabilities, benchmarks, and competition from Chinese models.",
+      "summary": "AMD announced it will acquire Fei-Fei Li's world-model startup World Labs for $8.2 billion, with Li joining AMD as Executive Vice President and Chief Scientist pending regulatory approval.",
       "tags": [
-        "Anthropic",
-        "Claude Sonnet",
-        "LLM release",
-        "AI benchmarks",
+        "AI",
+        "AMD",
+        "Acquisition",
+        "World Models",
+        "AI Hardware"
+      ]
+    },
+    {
+      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "title_zh": "OpenAI 发布 GPT-6.1 Sol：智能接近 Astra，价格仅为其五分之一",
+      "title_en": "OpenAI launches GPT-6.1 Sol with near-Astra intelligence at one-fifth the price",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "OpenAI announces GPT-6.1 Sol, claiming near-Astra intelligence at one-fifth the price, sparking HN debate over pricing, model quality, and naming.",
+      "tags": [
+        "OpenAI",
+        "LLM",
+        "AI pricing",
+        "model release",
         "Hacker News"
       ]
     },
     {
-      "title": "World Labs Is Joining AMD",
-      "title_zh": "AMD 收购李飞飞创办的 World Labs，交易据报达 80 亿美元",
-      "title_en": "AMD Acquires Fei-Fei Li's World Labs in Reported $8B Deal",
-      "url": "https://www.worldlabs.ai/blog/amd-announcement",
+      "title": "America.gov",
+      "title_zh": "America.gov 上线，借助 Google Gemini 帮民众办理公共服务",
+      "title_en": "America.gov launches with Google Gemini to guide citizens through public services",
+      "url": "https://america.gov/",
       "source": "hackernews",
-      "score": 9.0,
-      "summary": "AMD is acquiring World Labs, Fei-Fei Li's spatial intelligence startup, in a major AI industry consolidation move reportedly valued at $8 billion.",
+      "score": 8.0,
+      "summary": "America.gov is a new US government website using Google Gemini to help citizens navigate and access public services, sparking discussion on its usefulness and implementation.",
       "tags": [
-        "AMD",
-        "World Labs",
-        "AI acquisitions",
-        "spatial intelligence",
-        "embodied AI"
+        "AI",
+        "Government",
+        "Gemini",
+        "Public Services",
+        "LLM"
       ]
     },
     {
-      "title": "How GLM5.3 Sparse Attention Affects HBM Memory Usage",
-      "title_zh": "GLM-5.3 稀疏注意力如何影响 HBM 内存占用",
-      "title_en": "How GLM-5.3 Sparse Attention Affects HBM Memory Usage",
-      "url": "https://newsletter.semianalysis.com/p/sparse-savings-persistent-demand-inside-glm53",
+      "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
+      "title_zh": "关于网页与移动端对话式 AI 智能体的隐私分析",
+      "title_en": "Privacy Analysis of Web and Mobile Conversational AI Agents",
+      "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "The paper analyzes privacy risks in web and mobile conversational AI agents, sparking HN discussion on silent prompt pre-sending, weak UUID-based privacy, and training data exposure.",
+      "tags": [
+        "privacy",
+        "conversational-ai",
+        "web-security",
+        "mobile-security",
+        "ai-agents"
+      ]
+    },
+    {
+      "title": "Quoting Anthropic Frontier Red Team",
+      "title_zh": "Anthropic：GLM-5.3 与 Claude Mythos 跨越网络攻击能力门槛",
+      "title_en": "Anthropic: GLM-5.3 and Claude Mythos Cross Cyber Exploit Threshold",
+      "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
       "source": "rss",
       "score": 8.0,
-      "summary": "An in-depth analysis of how GLM-5.3's sparse attention mechanisms affect HBM memory usage and inference efficiency, exploring techniques like KV cache offloading and IndexShare.",
+      "summary": "Anthropic reports that newer AI models like GLM-5.3 and Claude Mythos Preview can achieve full control flow hijacks in binary exploitation tasks, marking a threshold in advanced cyber capabilities compared to earlier models.",
       "tags": [
-        "LLM inference",
-        "sparse attention",
-        "HBM memory",
-        "AI/ML systems",
-        "KV cache optimization"
+        "AI safety",
+        "cybersecurity",
+        "Anthropic",
+        "AI capabilities",
+        "binary exploitation"
       ]
     },
     {
-      "title": "Functional Gradient Descent with Adaptive Representations [R]",
-      "title_zh": "NeurIPS 论文为函数梯度下降形式化\"自适应表示\"框架",
-      "title_en": "NeurIPS Paper Formalizes Adaptive Representations for Functional Gradient Descent",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wsejb7/functional_gradient_descent_with_adaptive/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "A NeurIPS-accepted paper introduces 'adaptive representations' for functional gradient descent, formalizing approximation schemes that provably converge to the global minimizer and outperform neural networks by up to an order of magnitude.",
-      "tags": [
-        "machine-learning",
-        "optimization",
-        "functional-gradient-descent",
-        "neurips",
-        "deep-learning-theory"
-      ]
-    },
-    {
-      "title": "太空激光无线输能将迎首次轨道测试",
-      "title_zh": "Star Catcher 拟首次在轨测试两颗卫星间的激光无线输能",
-      "title_en": "Star Catcher to Attempt First Orbital Laser Power Transfer Between Satellites",
-      "url": "https://www.wired.com/story/space-lasers-are-about-to-get-their-first-real-test-generating-energy/",
+      "title": "🤖 OpenAI 开发者大会推出 dots 智能体等 20 余项更新",
+      "title_zh": "OpenAI 2026 开发者大会：常驻智能体 Dots 与 20 余项更新",
+      "title_en": "OpenAI DevDay 2026: Dots always-on agents and 20+ updates",
+      "url": "https://openai.com/zh-Hant/index/devday-2026-recap/",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Star Catcher plans to launch a prototype on a SpaceX rocket to attempt the first in-orbit laser power transfer between two separate satellites.",
+      "summary": "OpenAI's developer conference introduced 20+ updates including the always-on Dots agent, GPT-6.1 Sol and Astra Ultrafast models, new developer APIs, and a higher-tier Pro 500 subscription.",
       "tags": [
-        "space technology",
-        "wireless power transmission",
-        "satellites",
-        "lasers",
-        "Star Catcher"
-      ]
-    },
-    {
-      "title": "SpaceX 星舰首次入轨，部署卫星后提前返航",
-      "title_zh": "SpaceX 星舰首次入轨，部署 26 颗星链卫星后提前返航",
-      "title_en": "SpaceX Starship Reaches Orbit for First Time, Deploys 26 Starlink Satellites",
-      "url": "https://apnews.com/article/spacex-starship-orbit-262d3c58d56bf7a525b49115d6c5dfe8",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "SpaceX's Starship reportedly reached orbit for the first time, deployed 26 Starlink satellites, then returned early after an engine shutdown, in a flight aimed at validating capabilities for NASA's Artemis lunar program.",
-      "tags": [
-        "SpaceX",
-        "Starship",
-        "spaceflight",
-        "Starlink",
-        "NASA Artemis"
-      ]
-    },
-    {
-      "title": "快手可灵 4.0 将于 10 月上线",
-      "title_zh": "快手可灵 4.0 宣布 10 月上线，支持 4K 与 30 秒生成",
-      "title_en": "Kuaishou's Kling 4.0 AI Video Model to Launch in October",
-      "url": "https://finance.sina.com.cn/stock/t/2026-09-28/doc-initmeau2827369.shtml",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Kuaishou announced Kling 4.0, its next-generation AI video model, will launch in October with Kling 4.0 Flash already in limited testing as of September 28, supporting 4K, 10-bit HDR, multimodal inputs, and up to 30-second video generation.",
-      "tags": [
-        "AI video generation",
-        "Kling 4.0",
-        "Kuaishou",
-        "generative AI",
-        "multimodal AI"
+        "OpenAI",
+        "AI Agents",
+        "LLM",
+        "Developer APIs",
+        "Product Announcement"
       ]
     }
   ]
