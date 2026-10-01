@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-30T00:52:49.729103+00:00",
-  "date": "2026-09-30",
-  "total_fetched": 40,
+  "generated_at": "2026-10-01T00:55:20.298985+00:00",
+  "date": "2026-10-01",
+  "total_fetched": 34,
   "important_count": 6,
   "score_threshold": 8.0,
   "languages": [
@@ -10,109 +10,109 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/09/30/summary-zh.html",
-      "path": "docs/_posts/2026-09-30-summary-zh.md"
+      "url": "2026/10/01/summary-zh.html",
+      "path": "docs/_posts/2026-10-01-summary-zh.md"
     },
     "en": {
-      "url": "2026/09/30/summary-en.html",
-      "path": "docs/_posts/2026-09-30-summary-en.md"
+      "url": "2026/10/01/summary-en.html",
+      "path": "docs/_posts/2026-10-01-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "AMD 将以 82 亿美元收购李飞飞创办的 World Labs",
-      "title_zh": "AMD 以 82 亿美元收购李飞飞创办的 World Labs",
-      "title_en": "AMD to Acquire Fei-Fei Li's World Labs for $8.2B",
-      "url": "https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute",
-      "source": "telegram",
+      "title": "Gemini 4 Argon",
+      "title_zh": "谷歌发布新前沿模型 Gemini 4 Argon",
+      "title_en": "Google Announces Gemini 4 Argon, a New Frontier Model",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "source": "hackernews",
       "score": 9.0,
-      "summary": "AMD announced it will acquire Fei-Fei Li's world-model startup World Labs for $8.2 billion, with Li joining AMD as Executive Vice President and Chief Scientist pending regulatory approval.",
+      "summary": "Google announces Gemini 4 Argon, a new frontier AI model, prompting extensive Hacker News debate on model leapfrogging, competitive dynamics, and the strategic importance of provider-agnostic workflows.",
       "tags": [
-        "AI",
-        "AMD",
-        "Acquisition",
-        "World Models",
-        "AI Hardware"
-      ]
-    },
-    {
-      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
-      "title_zh": "OpenAI 发布 GPT-6.1 Sol：智能接近 Astra，价格仅为其五分之一",
-      "title_en": "OpenAI launches GPT-6.1 Sol with near-Astra intelligence at one-fifth the price",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "OpenAI announces GPT-6.1 Sol, claiming near-Astra intelligence at one-fifth the price, sparking HN debate over pricing, model quality, and naming.",
-      "tags": [
-        "OpenAI",
-        "LLM",
-        "AI pricing",
-        "model release",
-        "Hacker News"
-      ]
-    },
-    {
-      "title": "America.gov",
-      "title_zh": "America.gov 上线，借助 Google Gemini 帮民众办理公共服务",
-      "title_en": "America.gov launches with Google Gemini to guide citizens through public services",
-      "url": "https://america.gov/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "America.gov is a new US government website using Google Gemini to help citizens navigate and access public services, sparking discussion on its usefulness and implementation.",
-      "tags": [
-        "AI",
-        "Government",
+        "AI/ML",
         "Gemini",
-        "Public Services",
-        "LLM"
+        "LLM",
+        "Google",
+        "Model Release"
       ]
     },
     {
-      "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
-      "title_zh": "关于网页与移动端对话式 AI 智能体的隐私分析",
-      "title_en": "Privacy Analysis of Web and Mobile Conversational AI Agents",
-      "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+      "title": "You said no MCP",
+      "title_zh": "团队发文《你说过不要 MCP》，公开反转反 MCP 立场",
+      "title_en": "Team publicly reverses its anti-MCP stance in \"You said no MCP\"",
+      "url": "https://earendil.com/posts/you-said-no-mcp/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "The paper analyzes privacy risks in web and mobile conversational AI agents, sparking HN discussion on silent prompt pre-sending, weak UUID-based privacy, and training data exposure.",
+      "summary": "A team publicly reverses its earlier anti-MCP stance, sparking a rich HN debate about MCP versus CLI approaches and the broader AI tooling ecosystem.",
       "tags": [
-        "privacy",
-        "conversational-ai",
-        "web-security",
-        "mobile-security",
-        "ai-agents"
+        "MCP",
+        "AI agents",
+        "developer tooling",
+        "LLM integration",
+        "industry commentary"
       ]
     },
     {
-      "title": "Quoting Anthropic Frontier Red Team",
-      "title_zh": "Anthropic：GLM-5.3 与 Claude Mythos 跨越网络攻击能力门槛",
-      "title_en": "Anthropic: GLM-5.3 and Claude Mythos Cross Cyber Exploit Threshold",
-      "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "Anthropic reports that newer AI models like GLM-5.3 and Claude Mythos Preview can achieve full control flow hijacks in binary exploitation tasks, marking a threshold in advanced cyber capabilities compared to earlier models.",
-      "tags": [
-        "AI safety",
-        "cybersecurity",
-        "Anthropic",
-        "AI capabilities",
-        "binary exploitation"
-      ]
-    },
-    {
-      "title": "🤖 OpenAI 开发者大会推出 dots 智能体等 20 余项更新",
-      "title_zh": "OpenAI 2026 开发者大会：常驻智能体 Dots 与 20 余项更新",
-      "title_en": "OpenAI DevDay 2026: Dots always-on agents and 20+ updates",
-      "url": "https://openai.com/zh-Hant/index/devday-2026-recap/",
+      "title": "🤖 DeepSeek 开源华为昇腾基础组件",
+      "title_zh": "DeepSeek 开源华为昇腾全套基础软件栈",
+      "title_en": "DeepSeek open-sources full Ascend base software stack",
+      "url": "https://mp.weixin.qq.com/s/X41mKH4Ds-VXUAnK6M8Eww",
       "source": "telegram",
       "score": 8.0,
-      "summary": "OpenAI's developer conference introduced 20+ updates including the always-on Dots agent, GPT-6.1 Sol and Astra Ultrafast models, new developer APIs, and a higher-tier Pro 500 subscription.",
+      "summary": "DeepSeek open-sourced a suite of base components for Huawei's Ascend platform — including TileLang compilation tools, compute and distributed communication libraries, and kernels like DeepGEMM Ascend and FlashMLA — mirroring its NVIDIA stack and supporting the Ascend 950 supernode.",
       "tags": [
-        "OpenAI",
-        "AI Agents",
-        "LLM",
-        "Developer APIs",
-        "Product Announcement"
+        "DeepSeek",
+        "Huawei Ascend",
+        "Open Source",
+        "AI Infrastructure",
+        "GPU Kernels"
+      ]
+    },
+    {
+      "title": "Cloudflare 宣布进军公共证书颁发机构",
+      "title_zh": "Cloudflare 宣布进军公共证书颁发机构",
+      "title_en": "Cloudflare to Become a Public Certificate Authority",
+      "url": "https://blog.cloudflare.com/cloudflare-certificate-authority/",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Cloudflare announced plans to become a public certificate authority, applying to major root programs and acquiring a trusted root from GlobalSign, with ACME-first issuance and post-quantum Merkle Tree Certificates planned for 2027.",
+      "tags": [
+        "Cloudflare",
+        "Public CA",
+        "TLS Certificates",
+        "ACME",
+        "Post-Quantum"
+      ]
+    },
+    {
+      "title": "Kimi K3 接入 OpenAI Codex 企业通道，中国大模型首次进入 OpenAI 企业付费结算体系",
+      "title_zh": "Kimi K3 经 Baseten 接入 OpenAI Codex 企业通道",
+      "title_en": "Kimi K3 Lands in OpenAI Codex Enterprise Channel via Baseten",
+      "url": "https://36kr.com/newsflashes/4005691489112198",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Kimi K3 is now accessible via Baseten in OpenAI Codex for enterprise users, with usage billed against existing OpenAI procurement commitments, marking the first Chinese model in OpenAI's enterprise paid settlement system.",
+      "tags": [
+        "Kimi K3",
+        "OpenAI Codex",
+        "enterprise AI",
+        "China AI",
+        "model integration"
+      ]
+    },
+    {
+      "title": "Reddit 将停用 RSS 订阅与公开 API",
+      "title_zh": "Reddit 将以反 AI 抓取为由停用 RSS 与公开 API",
+      "title_en": "Reddit to Kill RSS Feeds and Public API Access Over AI Scraping",
+      "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Reddit will discontinue RSS feed support on November 13 and shut down public API access by March 2027, citing AI bot scraping and automated abuse, with third-party developers required to register by January 12, 2027.",
+      "tags": [
+        "Reddit",
+        "API Access",
+        "RSS",
+        "AI Scraping",
+        "Platform Policy"
       ]
     }
   ]
