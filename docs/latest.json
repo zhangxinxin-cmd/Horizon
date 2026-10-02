@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-01T00:55:20.298985+00:00",
-  "date": "2026-10-01",
-  "total_fetched": 34,
-  "important_count": 6,
+  "generated_at": "2026-10-02T01:12:11.048490+00:00",
+  "date": "2026-10-02",
+  "total_fetched": 41,
+  "important_count": 9,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,109 +10,157 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/10/01/summary-zh.html",
-      "path": "docs/_posts/2026-10-01-summary-zh.md"
+      "url": "2026/10/02/summary-zh.html",
+      "path": "docs/_posts/2026-10-02-summary-zh.md"
     },
     "en": {
-      "url": "2026/10/01/summary-en.html",
-      "path": "docs/_posts/2026-10-01-summary-en.md"
+      "url": "2026/10/02/summary-en.html",
+      "path": "docs/_posts/2026-10-02-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Gemini 4 Argon",
-      "title_zh": "谷歌发布新前沿模型 Gemini 4 Argon",
-      "title_en": "Google Announces Gemini 4 Argon, a New Frontier Model",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
+      "title_zh": "Cloudflare 发布 Clef 开放权重决策模型与强化学习微调平台",
+      "title_en": "Cloudflare launches Clef open-weight decision models and RL fine-tuning platform",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
       "source": "hackernews",
-      "score": 9.0,
-      "summary": "Google announces Gemini 4 Argon, a new frontier AI model, prompting extensive Hacker News debate on model leapfrogging, competitive dynamics, and the strategic importance of provider-agnostic workflows.",
+      "score": 8.0,
+      "summary": "Cloudflare launched Clef, a family of open-weight 'decision models' (Clef and Clef-flash) alongside a new RL fine-tuning platform, prompting community benchmarks, pricing comparisons against Jev, and debate over whether open weights constitute open source.",
       "tags": [
         "AI/ML",
-        "Gemini",
-        "LLM",
-        "Google",
-        "Model Release"
+        "open-weight-models",
+        "reinforcement-learning",
+        "LLM-inference",
+        "Cloudflare"
       ]
     },
     {
-      "title": "You said no MCP",
-      "title_zh": "团队发文《你说过不要 MCP》，公开反转反 MCP 立场",
-      "title_en": "Team publicly reverses its anti-MCP stance in \"You said no MCP\"",
-      "url": "https://earendil.com/posts/you-said-no-mcp/",
+      "title": "RIP, vector database",
+      "title_zh": "Turbopuffer 宣称独立向量数据库时代已终结",
+      "title_en": "Turbopuffer Declares the Standalone Vector Database Obsolete",
+      "url": "https://turbopuffer.com/blog/rip-vector-database",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "A team publicly reverses its earlier anti-MCP stance, sparking a rich HN debate about MCP versus CLI approaches and the broader AI tooling ecosystem.",
+      "summary": "Turbopuffer's 'RIP, vector database' post argues the dedicated vector database category is being superseded, detailing v3's architectural pivot away from ANN-index-addressed storage, prompting a well-informed HN debate on retrieval architecture and index design tradeoffs.",
       "tags": [
-        "MCP",
-        "AI agents",
-        "developer tooling",
-        "LLM integration",
-        "industry commentary"
+        "vector-database",
+        "retrieval-systems",
+        "database-architecture",
+        "indexing",
+        "RAG"
       ]
     },
     {
-      "title": "🤖 DeepSeek 开源华为昇腾基础组件",
-      "title_zh": "DeepSeek 开源华为昇腾全套基础软件栈",
-      "title_en": "DeepSeek open-sources full Ascend base software stack",
-      "url": "https://mp.weixin.qq.com/s/X41mKH4Ds-VXUAnK6M8Eww",
+      "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
+      "title_zh": "批评文章称 Git 3.0 默认改用 SHA-256 是「代价高昂的错误」",
+      "title_en": "Git 3.0's SHA-256 default called a 'costly mistake' in critical blog post",
+      "url": "https://blog.gitbutler.com/git-3-sha-256",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A critical blog post arguing Git 3.0's move to SHA-256 by default is a costly mistake, met with substantive community pushback and corrections about hash security tradeoffs.",
+      "tags": [
+        "git",
+        "cryptography",
+        "version-control",
+        "security",
+        "sha-256"
+      ]
+    },
+    {
+      "title": "Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers",
+      "title_zh": "多个项目挖掘出 ESP32 无线射频中被隐藏的 SDR 能力",
+      "title_en": "Projects Unlock Hidden SDR Capabilities in ESP32 WiFi Radios",
+      "url": "https://www.rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Multiple independent projects have discovered that ESP32 microcontrollers can perform receive-only software-defined radio functions via their WiFi radios, sparking discussion about signal quality, legal/export-control risks, and potential commodity RF-to-bits applications.",
+      "tags": [
+        "ESP32",
+        "SDR",
+        "hardware-hacking",
+        "embedded-systems",
+        "RF"
+      ]
+    },
+    {
+      "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
+      "title_zh": "OpenAI 与 Synopsys 发布 GPT-Synopsys，推动 AI 驱动芯片设计",
+      "title_en": "OpenAI and Synopsys Launch GPT-Synopsys for AI-Driven Chip Design",
+      "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "OpenAI and Synopsys announce GPT-Synopsys, an AI frontier intelligence offering aimed at revolutionizing chip design, sparking debate on EDA, investment, and engineering roles.",
+      "tags": [
+        "AI",
+        "chip-design",
+        "EDA",
+        "OpenAI",
+        "Synopsys"
+      ]
+    },
+    {
+      "title": "Parallel-in-Time Training of Recurrent Neural Networks for Dynamical Systems Reconstruction [R]",
+      "title_zh": "DEER 结合广义教师强制实现 RNN 百倍加速并行训练",
+      "title_en": "DEER Plus Generalized Teacher Forcing Gives 100x Faster Parallel RNN Training",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wuz2s4/parallelintime_training_of_recurrent_neural/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "A NeurIPS 2026 spotlight paper proposes combining DEER with generalized teacher forcing to parallelize and stabilize RNN training on chaotic time series, achieving over 100x speedup.",
+      "tags": [
+        "RNN",
+        "parallel-in-time",
+        "dynamical-systems",
+        "NeurIPS",
+        "machine-learning"
+      ]
+    },
+    {
+      "title": "LLMs that push back on a wrong user still accept the same wrong answer from a \"verified source\" - NeurIPS 2026 [R]",
+      "title_zh": "NeurIPS 论文发现：LLM 会接受“可信来源”提供的错误答案",
+      "title_en": "NeurIPS paper finds LLMs accept wrong answers from 'verified sources'",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wv1c2e/llms_that_push_back_on_a_wrong_user_still_accept/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "A NeurIPS 2026 paper introduces 'Authority Bias,' showing LLMs that resist wrong user claims still adopt the same wrong answers when framed as coming from a 'verified source,' exposing a blind spot in current sycophancy evaluations.",
+      "tags": [
+        "LLM Safety",
+        "AI Alignment",
+        "Sycophancy",
+        "Agentic AI",
+        "Misinformation"
+      ]
+    },
+    {
+      "title": "🤖 OpenAI 瓦解模型蒸馏攻击，指向月之暗面相关人员",
+      "title_zh": "OpenAI 瓦解模型蒸馏攻击，指向月之暗面相关人员",
+      "title_en": "OpenAI Disrupts Model-Distillation Campaign, Ties Activity to Moonshot AI-Linked Individuals",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
       "source": "telegram",
       "score": 8.0,
-      "summary": "DeepSeek open-sourced a suite of base components for Huawei's Ascend platform — including TileLang compilation tools, compute and distributed communication libraries, and kernels like DeepGEMM Ascend and FlashMLA — mirroring its NVIDIA stack and supporting the Ascend 950 supernode.",
+      "summary": "OpenAI says it disrupted a coordinated model-distillation campaign involving tens of thousands of requests and attributes the core activity to individuals connected to Moonshot AI (Kimi's developer).",
       "tags": [
-        "DeepSeek",
-        "Huawei Ascend",
-        "Open Source",
+        "AI",
+        "model-distillation",
+        "OpenAI",
+        "Moonshot-AI",
+        "AI-security"
+      ]
+    },
+    {
+      "title": "腾讯向甲骨文租用 10 万枚 AI 芯片",
+      "title_zh": "腾讯斥资约70亿美元向甲骨文租用10万枚AI芯片",
+      "title_en": "Tencent Leases 100,000 Advanced AI Chips From Oracle in $7B Deal",
+      "url": "https://www.ft.com/content/8799b33d-f07c-4a03-82f0-bf5d3d1d29e9",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Tencent has signed a roughly $7 billion five-year lease with Oracle for about 100,000 advanced AI chips it cannot buy directly in China, spanning multiple Southeast Asian data centers to accelerate its AI model and agent development.",
+      "tags": [
         "AI Infrastructure",
-        "GPU Kernels"
-      ]
-    },
-    {
-      "title": "Cloudflare 宣布进军公共证书颁发机构",
-      "title_zh": "Cloudflare 宣布进军公共证书颁发机构",
-      "title_en": "Cloudflare to Become a Public Certificate Authority",
-      "url": "https://blog.cloudflare.com/cloudflare-certificate-authority/",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Cloudflare announced plans to become a public certificate authority, applying to major root programs and acquiring a trusted root from GlobalSign, with ACME-first issuance and post-quantum Merkle Tree Certificates planned for 2027.",
-      "tags": [
-        "Cloudflare",
-        "Public CA",
-        "TLS Certificates",
-        "ACME",
-        "Post-Quantum"
-      ]
-    },
-    {
-      "title": "Kimi K3 接入 OpenAI Codex 企业通道，中国大模型首次进入 OpenAI 企业付费结算体系",
-      "title_zh": "Kimi K3 经 Baseten 接入 OpenAI Codex 企业通道",
-      "title_en": "Kimi K3 Lands in OpenAI Codex Enterprise Channel via Baseten",
-      "url": "https://36kr.com/newsflashes/4005691489112198",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Kimi K3 is now accessible via Baseten in OpenAI Codex for enterprise users, with usage billed against existing OpenAI procurement commitments, marking the first Chinese model in OpenAI's enterprise paid settlement system.",
-      "tags": [
-        "Kimi K3",
-        "OpenAI Codex",
-        "enterprise AI",
-        "China AI",
-        "model integration"
-      ]
-    },
-    {
-      "title": "Reddit 将停用 RSS 订阅与公开 API",
-      "title_zh": "Reddit 将以反 AI 抓取为由停用 RSS 与公开 API",
-      "title_en": "Reddit to Kill RSS Feeds and Public API Access Over AI Scraping",
-      "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Reddit will discontinue RSS feed support on November 13 and shut down public API access by March 2027, citing AI bot scraping and automated abuse, with third-party developers required to register by January 12, 2027.",
-      "tags": [
-        "Reddit",
-        "API Access",
-        "RSS",
-        "AI Scraping",
-        "Platform Policy"
+        "Tencent",
+        "Oracle",
+        "Export Controls",
+        "Cloud Computing"
       ]
     }
   ]
