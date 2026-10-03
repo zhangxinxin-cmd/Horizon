@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-02T01:12:11.048490+00:00",
-  "date": "2026-10-02",
-  "total_fetched": 41,
-  "important_count": 9,
+  "generated_at": "2026-10-03T00:49:19.280212+00:00",
+  "date": "2026-10-03",
+  "total_fetched": 30,
+  "important_count": 5,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,157 +10,93 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/10/02/summary-zh.html",
-      "path": "docs/_posts/2026-10-02-summary-zh.md"
+      "url": "2026/10/03/summary-zh.html",
+      "path": "docs/_posts/2026-10-03-summary-zh.md"
     },
     "en": {
-      "url": "2026/10/02/summary-en.html",
-      "path": "docs/_posts/2026-10-02-summary-en.md"
+      "url": "2026/10/03/summary-en.html",
+      "path": "docs/_posts/2026-10-03-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
-      "title_zh": "Cloudflare 发布 Clef 开放权重决策模型与强化学习微调平台",
-      "title_en": "Cloudflare launches Clef open-weight decision models and RL fine-tuning platform",
-      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "title": "With most information hidden, the game Stratego had stumped AI until now",
+      "title_zh": "新AI以不到DeepNash三十分之一的训练量击败顶尖Stratego人类玩家",
+      "title_en": "New AI Beats Elite Stratego Players Using 34x Fewer Games Than DeepNash",
+      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Cloudflare launched Clef, a family of open-weight 'decision models' (Clef and Clef-flash) alongside a new RL fine-tuning platform, prompting community benchmarks, pricing comparisons against Jev, and debate over whether open weights constitute open source.",
-      "tags": [
-        "AI/ML",
-        "open-weight-models",
-        "reinforcement-learning",
-        "LLM-inference",
-        "Cloudflare"
-      ]
-    },
-    {
-      "title": "RIP, vector database",
-      "title_zh": "Turbopuffer 宣称独立向量数据库时代已终结",
-      "title_en": "Turbopuffer Declares the Standalone Vector Database Obsolete",
-      "url": "https://turbopuffer.com/blog/rip-vector-database",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Turbopuffer's 'RIP, vector database' post argues the dedicated vector database category is being superseded, detailing v3's architectural pivot away from ANN-index-addressed storage, prompting a well-informed HN debate on retrieval architecture and index design tradeoffs.",
-      "tags": [
-        "vector-database",
-        "retrieval-systems",
-        "database-architecture",
-        "indexing",
-        "RAG"
-      ]
-    },
-    {
-      "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
-      "title_zh": "批评文章称 Git 3.0 默认改用 SHA-256 是「代价高昂的错误」",
-      "title_en": "Git 3.0's SHA-256 default called a 'costly mistake' in critical blog post",
-      "url": "https://blog.gitbutler.com/git-3-sha-256",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A critical blog post arguing Git 3.0's move to SHA-256 by default is a costly mistake, met with substantive community pushback and corrections about hash security tradeoffs.",
-      "tags": [
-        "git",
-        "cryptography",
-        "version-control",
-        "security",
-        "sha-256"
-      ]
-    },
-    {
-      "title": "Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers",
-      "title_zh": "多个项目挖掘出 ESP32 无线射频中被隐藏的 SDR 能力",
-      "title_en": "Projects Unlock Hidden SDR Capabilities in ESP32 WiFi Radios",
-      "url": "https://www.rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Multiple independent projects have discovered that ESP32 microcontrollers can perform receive-only software-defined radio functions via their WiFi radios, sparking discussion about signal quality, legal/export-control risks, and potential commodity RF-to-bits applications.",
-      "tags": [
-        "ESP32",
-        "SDR",
-        "hardware-hacking",
-        "embedded-systems",
-        "RF"
-      ]
-    },
-    {
-      "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
-      "title_zh": "OpenAI 与 Synopsys 发布 GPT-Synopsys，推动 AI 驱动芯片设计",
-      "title_en": "OpenAI and Synopsys Launch GPT-Synopsys for AI-Driven Chip Design",
-      "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "OpenAI and Synopsys announce GPT-Synopsys, an AI frontier intelligence offering aimed at revolutionizing chip design, sparking debate on EDA, investment, and engineering roles.",
+      "summary": "A new AI system learned to beat the best human Stratego players while using about 34 times fewer games than DeepNash, advancing imperfect-information game AI.",
       "tags": [
         "AI",
-        "chip-design",
-        "EDA",
-        "OpenAI",
-        "Synopsys"
+        "reinforcement learning",
+        "imperfect information",
+        "game theory",
+        "Stratego"
       ]
     },
     {
-      "title": "Parallel-in-Time Training of Recurrent Neural Networks for Dynamical Systems Reconstruction [R]",
-      "title_zh": "DEER 结合广义教师强制实现 RNN 百倍加速并行训练",
-      "title_en": "DEER Plus Generalized Teacher Forcing Gives 100x Faster Parallel RNN Training",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wuz2s4/parallelintime_training_of_recurrent_neural/",
-      "source": "reddit",
+      "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+      "title_zh": "Greg Kroah-Hartman 驳斥 Anthropic Mythos 的内核漏洞声明",
+      "title_en": "Greg Kroah-Hartman Debunks Anthropic Mythos Kernel Vulnerability Claims",
+      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "A NeurIPS 2026 spotlight paper proposes combining DEER with generalized teacher forcing to parallelize and stabilize RNN training on chaotic time series, achieving over 100x speedup.",
+      "summary": "Greg Kroah-Hartman's Kernel Recipes 2026 talk and HN discussion argue that Anthropic's Mythos model's '79 vulnerabilities' in the Linux kernel largely amounted to pattern-matching existing patches, with most findings being non-bugs, duplicates, or invented data, highlighting problems with LLM-driven security claims and attribution.",
       "tags": [
-        "RNN",
-        "parallel-in-time",
-        "dynamical-systems",
-        "NeurIPS",
-        "machine-learning"
+        "AI Security",
+        "LLM",
+        "Linux Kernel",
+        "Vulnerability Disclosure",
+        "Open Source"
       ]
     },
     {
-      "title": "LLMs that push back on a wrong user still accept the same wrong answer from a \"verified source\" - NeurIPS 2026 [R]",
-      "title_zh": "NeurIPS 论文发现：LLM 会接受“可信来源”提供的错误答案",
-      "title_en": "NeurIPS paper finds LLMs accept wrong answers from 'verified sources'",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wv1c2e/llms_that_push_back_on_a_wrong_user_still_accept/",
-      "source": "reddit",
+      "title": "Zig v0.17.0",
+      "title_zh": "Zig 0.17.0 发布，引发关于 LLM 与语言设计的讨论",
+      "title_en": "Zig 0.17.0 Released, Sparking Debate on LLMs and Language Design",
+      "url": "https://ziglang.org/download/0.17.0/release-notes.html",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "A NeurIPS 2026 paper introduces 'Authority Bias,' showing LLMs that resist wrong user claims still adopt the same wrong answers when framed as coming from a 'verified source,' exposing a blind spot in current sycophancy evaluations.",
+      "summary": "Zig v0.17.0 release notes spark discussion on the language's evolution, LLM integration, and design merits.",
       "tags": [
-        "LLM Safety",
-        "AI Alignment",
-        "Sycophancy",
-        "Agentic AI",
-        "Misinformation"
+        "Zig",
+        "programming languages",
+        "release notes",
+        "systems programming",
+        "LLM"
       ]
     },
     {
-      "title": "🤖 OpenAI 瓦解模型蒸馏攻击，指向月之暗面相关人员",
-      "title_zh": "OpenAI 瓦解模型蒸馏攻击，指向月之暗面相关人员",
-      "title_en": "OpenAI Disrupts Model-Distillation Campaign, Ties Activity to Moonshot AI-Linked Individuals",
-      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+      "title": "🤖 Google 发布 Gemini 4 Argon  Google 于 2026 年 9 月 30 日发布前沿模型 Gemini 4 Argon，先通过 Fa",
+      "title_zh": "Google 发布 Gemini 4 Argon 前沿模型，网络防御者优先获得访问权",
+      "title_en": "Google Releases Gemini 4 Argon Frontier Model, Cyber Defenders First",
+      "url": "https://t.me/zaihuapd/44165",
       "source": "telegram",
       "score": 8.0,
-      "summary": "OpenAI says it disrupted a coordinated model-distillation campaign involving tens of thousands of requests and attributes the core activity to individuals connected to Moonshot AI (Kimi's developer).",
+      "summary": "Google is reported to have released the frontier model Gemini 4 Argon, aimed at software engineering, enterprise work, and cybersecurity with autonomous vulnerability discovery and 1M-token output support.",
       "tags": [
-        "AI",
-        "model-distillation",
-        "OpenAI",
-        "Moonshot-AI",
-        "AI-security"
+        "Google",
+        "Gemini",
+        "LLM",
+        "cybersecurity",
+        "AI-announcement"
       ]
     },
     {
-      "title": "腾讯向甲骨文租用 10 万枚 AI 芯片",
-      "title_zh": "腾讯斥资约70亿美元向甲骨文租用10万枚AI芯片",
-      "title_en": "Tencent Leases 100,000 Advanced AI Chips From Oracle in $7B Deal",
-      "url": "https://www.ft.com/content/8799b33d-f07c-4a03-82f0-bf5d3d1d29e9",
+      "title": "2025 年诺贝尔生理学或医学奖公布  2025 年诺贝尔生理学或医学奖授予了 Mary E. Brunkow、Fred Ramsdell 和 Shimon S",
+      "title_zh": "2025年诺贝尔生理学或医学奖授予外周免疫耐受发现者",
+      "title_en": "2025 Nobel Prize in Medicine Awarded for Peripheral Immune Tolerance Discoveries",
+      "url": "https://t.me/zaihuapd/44174",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Tencent has signed a roughly $7 billion five-year lease with Oracle for about 100,000 advanced AI chips it cannot buy directly in China, spanning multiple Southeast Asian data centers to accelerate its AI model and agent development.",
+      "summary": "The 2025 Nobel Prize in Physiology or Medicine was awarded to Mary E. Brunkow, Fred Ramsdell, and Shimon Sakaguchi for their pioneering discoveries of peripheral immune tolerance mechanisms that prevent the immune system from attacking the body's own organs.",
       "tags": [
-        "AI Infrastructure",
-        "Tencent",
-        "Oracle",
-        "Export Controls",
-        "Cloud Computing"
+        "Nobel Prize",
+        "Immunology",
+        "Peripheral Immune Tolerance",
+        "Regulatory T Cells",
+        "Scientific Breakthrough"
       ]
     }
   ]
