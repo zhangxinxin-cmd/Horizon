@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-03T00:49:19.280212+00:00",
-  "date": "2026-10-03",
-  "total_fetched": 30,
-  "important_count": 5,
+  "generated_at": "2026-10-04T00:13:50.556253+00:00",
+  "date": "2026-10-04",
+  "total_fetched": 25,
+  "important_count": 2,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,93 +10,45 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/10/03/summary-zh.html",
-      "path": "docs/_posts/2026-10-03-summary-zh.md"
+      "url": "2026/10/04/summary-zh.html",
+      "path": "docs/_posts/2026-10-04-summary-zh.md"
     },
     "en": {
-      "url": "2026/10/03/summary-en.html",
-      "path": "docs/_posts/2026-10-03-summary-en.md"
+      "url": "2026/10/04/summary-en.html",
+      "path": "docs/_posts/2026-10-04-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "With most information hidden, the game Stratego had stumped AI until now",
-      "title_zh": "新AI以不到DeepNash三十分之一的训练量击败顶尖Stratego人类玩家",
-      "title_en": "New AI Beats Elite Stratego Players Using 34x Fewer Games Than DeepNash",
-      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+      "title": "Kolibri: A Sovereign Open-Weight Model",
+      "title_zh": "Aleph Alpha 发布主权开源权重智能体模型 Kolibri",
+      "title_en": "Aleph Alpha releases Kolibri, a sovereign open-weight agentic LLM",
+      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "A new AI system learned to beat the best human Stratego players while using about 34 times fewer games than DeepNash, advancing imperfect-information game AI.",
+      "summary": "Aleph Alpha releases Kolibri, an open-weight agentic LLM accompanied by an exceptionally detailed technical report and abstention-trained anti-hallucination behavior, drawing both praise for transparency and skepticism about its sovereignty claims.",
       "tags": [
-        "AI",
-        "reinforcement learning",
-        "imperfect information",
-        "game theory",
-        "Stratego"
+        "open-weight-models",
+        "llm",
+        "aleph-alpha",
+        "hallucination-mitigation",
+        "model-training"
       ]
     },
     {
-      "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
-      "title_zh": "Greg Kroah-Hartman 驳斥 Anthropic Mythos 的内核漏洞声明",
-      "title_en": "Greg Kroah-Hartman Debunks Anthropic Mythos Kernel Vulnerability Claims",
-      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Greg Kroah-Hartman's Kernel Recipes 2026 talk and HN discussion argue that Anthropic's Mythos model's '79 vulnerabilities' in the Linux kernel largely amounted to pattern-matching existing patches, with most findings being non-bugs, duplicates, or invented data, highlighting problems with LLM-driven security claims and attribution.",
-      "tags": [
-        "AI Security",
-        "LLM",
-        "Linux Kernel",
-        "Vulnerability Disclosure",
-        "Open Source"
-      ]
-    },
-    {
-      "title": "Zig v0.17.0",
-      "title_zh": "Zig 0.17.0 发布，引发关于 LLM 与语言设计的讨论",
-      "title_en": "Zig 0.17.0 Released, Sparking Debate on LLMs and Language Design",
-      "url": "https://ziglang.org/download/0.17.0/release-notes.html",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Zig v0.17.0 release notes spark discussion on the language's evolution, LLM integration, and design merits.",
-      "tags": [
-        "Zig",
-        "programming languages",
-        "release notes",
-        "systems programming",
-        "LLM"
-      ]
-    },
-    {
-      "title": "🤖 Google 发布 Gemini 4 Argon  Google 于 2026 年 9 月 30 日发布前沿模型 Gemini 4 Argon，先通过 Fa",
-      "title_zh": "Google 发布 Gemini 4 Argon 前沿模型，网络防御者优先获得访问权",
-      "title_en": "Google Releases Gemini 4 Argon Frontier Model, Cyber Defenders First",
-      "url": "https://t.me/zaihuapd/44165",
+      "title": "Qt 6.12 LTS 发布，支持 HarmonyOS",
+      "title_zh": "Qt 6.12 LTS 发布，首次官方支持 HarmonyOS",
+      "title_en": "Qt 6.12 LTS Released With Official HarmonyOS Support",
+      "url": "https://www.qt.io/blog/qt-6.12-released",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Google is reported to have released the frontier model Gemini 4 Argon, aimed at software engineering, enterprise work, and cybersecurity with autonomous vulnerability discovery and 1M-token output support.",
+      "summary": "Qt 6.12 LTS has been released with five years of maintenance and adds Huawei HarmonyOS as an officially supported LTS platform.",
       "tags": [
-        "Google",
-        "Gemini",
-        "LLM",
-        "cybersecurity",
-        "AI-announcement"
-      ]
-    },
-    {
-      "title": "2025 年诺贝尔生理学或医学奖公布  2025 年诺贝尔生理学或医学奖授予了 Mary E. Brunkow、Fred Ramsdell 和 Shimon S",
-      "title_zh": "2025年诺贝尔生理学或医学奖授予外周免疫耐受发现者",
-      "title_en": "2025 Nobel Prize in Medicine Awarded for Peripheral Immune Tolerance Discoveries",
-      "url": "https://t.me/zaihuapd/44174",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "The 2025 Nobel Prize in Physiology or Medicine was awarded to Mary E. Brunkow, Fred Ramsdell, and Shimon Sakaguchi for their pioneering discoveries of peripheral immune tolerance mechanisms that prevent the immune system from attacking the body's own organs.",
-      "tags": [
-        "Nobel Prize",
-        "Immunology",
-        "Peripheral Immune Tolerance",
-        "Regulatory T Cells",
-        "Scientific Breakthrough"
+        "Qt",
+        "HarmonyOS",
+        "LTS",
+        "cross-platform",
+        "software release"
       ]
     }
   ]
