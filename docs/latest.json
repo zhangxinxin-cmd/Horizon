@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-04T00:13:50.556253+00:00",
-  "date": "2026-10-04",
-  "total_fetched": 25,
-  "important_count": 2,
+  "generated_at": "2026-10-05T00:19:03.631184+00:00",
+  "date": "2026-10-05",
+  "total_fetched": 24,
+  "important_count": 4,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,45 +10,77 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/10/04/summary-zh.html",
-      "path": "docs/_posts/2026-10-04-summary-zh.md"
+      "url": "2026/10/05/summary-zh.html",
+      "path": "docs/_posts/2026-10-05-summary-zh.md"
     },
     "en": {
-      "url": "2026/10/04/summary-en.html",
-      "path": "docs/_posts/2026-10-04-summary-en.md"
+      "url": "2026/10/05/summary-en.html",
+      "path": "docs/_posts/2026-10-05-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Kolibri: A Sovereign Open-Weight Model",
-      "title_zh": "Aleph Alpha 发布主权开源权重智能体模型 Kolibri",
-      "title_en": "Aleph Alpha releases Kolibri, a sovereign open-weight agentic LLM",
-      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "title_zh": "Strata 在单张 RTX 4090 上运行 Qwen 3.8 Flash Next（125B）",
+      "title_en": "Strata Runs Qwen 3.8 Flash Next (125B) on a Single RTX 4090",
+      "url": "https://github.com/Niko1221/Strata",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Aleph Alpha releases Kolibri, an open-weight agentic LLM accompanied by an exceptionally detailed technical report and abstention-trained anti-hallucination behavior, drawing both praise for transparency and skepticism about its sovereignty claims.",
+      "summary": "A Hacker News discussion about running Qwen 3.8 Flash Next (125B) on an RTX 4090 at high throughput using the Strata inference stack, with community benchmarks and quality concerns.",
       "tags": [
-        "open-weight-models",
-        "llm",
-        "aleph-alpha",
-        "hallucination-mitigation",
-        "model-training"
+        "LLM",
+        "quantization",
+        "consumer hardware",
+        "inference optimization",
+        "Qwen"
       ]
     },
     {
-      "title": "Qt 6.12 LTS 发布，支持 HarmonyOS",
-      "title_zh": "Qt 6.12 LTS 发布，首次官方支持 HarmonyOS",
-      "title_en": "Qt 6.12 LTS Released With Official HarmonyOS Support",
-      "url": "https://www.qt.io/blog/qt-6.12-released",
+      "title": "Why don't more developers “use the platform”?",
+      "title_zh": "Nolan Lawson 追问：开发者为何不愿“使用平台”原生 API",
+      "title_en": "Nolan Lawson asks why developers avoid native web platform APIs",
+      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Nolan Lawson examines why developers often prefer frameworks like React over native web platform APIs, sparking a detailed HN debate about Web Components, browser inconsistencies, and the practical trade-offs of 'using the platform.'",
+      "tags": [
+        "web development",
+        "frontend",
+        "web components",
+        "React",
+        "platform APIs"
+      ]
+    },
+    {
+      "title": "Top ARC-ΑGI-3 scores on Kaggle just went from 7% to 56% [N]",
+      "title_zh": "ARC-AGI-3 在 Kaggle 上的最高分 30 天内从 7% 跃升至 56%",
+      "title_en": "ARC-AGI-3 Kaggle scores jump from 7% to 56% in 30 days",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wxcd4k/top_arc%CE%B1gi3_scores_on_kaggle_just_went_from_7_to/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "Kaggle leaderboard scores on the ARC-AGI-3 benchmark reportedly rose from 7% to 56% in 30 days using small local models in a harness, surpassing average human performance on a benchmark designed to show human superiority.",
+      "tags": [
+        "ARC-AGI",
+        "AI benchmarks",
+        "reasoning",
+        "LLM evaluation",
+        "Kaggle"
+      ]
+    },
+    {
+      "title": "SK 电信就大规模信息泄露事件致歉，为全体用户免费更换 USIM 卡  韩国最大电信运营商 SK Telecom (SKT) 近日确认，其内部系统遭到黑客攻击，",
+      "title_zh": "SK电讯就大规模数据泄露致歉，为全体用户免费更换USIM卡",
+      "title_en": "SK Telecom Apologizes for Massive Data Breach, Offers Free USIM Replacements",
+      "url": "https://t.me/zaihuapd/44206",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Qt 6.12 LTS has been released with five years of maintenance and adds Huawei HarmonyOS as an officially supported LTS platform.",
+      "summary": "SK Telecom confirmed a massive hacker breach of its internal HSS servers exposing sensitive data for over 25 million users, prompting a public apology and free USIM card replacements.",
       "tags": [
-        "Qt",
-        "HarmonyOS",
-        "LTS",
-        "cross-platform",
-        "software release"
+        "Cybersecurity",
+        "Data Breach",
+        "Telecom",
+        "SK Telecom",
+        "Privacy"
       ]
     }
   ]
