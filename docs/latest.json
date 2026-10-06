@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-05T00:19:03.631184+00:00",
-  "date": "2026-10-05",
-  "total_fetched": 24,
+  "generated_at": "2026-10-06T01:59:05.141804+00:00",
+  "date": "2026-10-06",
+  "total_fetched": 35,
   "important_count": 4,
   "score_threshold": 8.0,
   "languages": [
@@ -10,77 +10,77 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/10/05/summary-zh.html",
-      "path": "docs/_posts/2026-10-05-summary-zh.md"
+      "url": "2026/10/06/summary-zh.html",
+      "path": "docs/_posts/2026-10-06-summary-zh.md"
     },
     "en": {
-      "url": "2026/10/05/summary-en.html",
-      "path": "docs/_posts/2026-10-05-summary-en.md"
+      "url": "2026/10/06/summary-en.html",
+      "path": "docs/_posts/2026-10-06-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
-      "title_zh": "Strata 在单张 RTX 4090 上运行 Qwen 3.8 Flash Next（125B）",
-      "title_en": "Strata Runs Qwen 3.8 Flash Next (125B) on a Single RTX 4090",
-      "url": "https://github.com/Niko1221/Strata",
+      "title": "Beam: Reflection's 501B open-weight model",
+      "title_zh": "Reflection 发布 Beam：501B 参数开源稀疏 MoE 模型",
+      "title_en": "Reflection launches Beam, a 501B open-weight sparse MoE model",
+      "url": "https://reflection.ai/blog/introducing-beam",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "Reflection announced Beam, a 501B-parameter open-weight sparse Mixture-of-Experts model with 23B active parameters built for coding, reasoning, and agentic workloads.",
+      "tags": [
+        "open-weight models",
+        "large language models",
+        "Mixture-of-Experts",
+        "AI research",
+        "model benchmarking"
+      ]
+    },
+    {
+      "title": "vllm-project/vllm released v0.31.0",
+      "title_zh": "vLLM v0.31.0 发布：DeepSeek-V4.1-Flash 优化与快速重启",
+      "title_en": "vLLM v0.31.0 ships DeepSeek-V4.1-Flash optimizations and fast restart",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+      "source": "github",
+      "score": 8.0,
+      "summary": "vLLM v0.31.0 is a large community release delivering major performance optimizations, DeepSeek-V4.1-Flash support, and new fast-restart features.",
+      "tags": [
+        "vLLM",
+        "LLM inference",
+        "model serving",
+        "performance optimization",
+        "release"
+      ]
+    },
+    {
+      "title": "Anthropic reported diary entry to police, woman faces felony charge",
+      "title_zh": "Anthropic 举报用户 Claude 日记中的威胁内容，佛州女子面临重罪指控",
+      "title_en": "Anthropic Reported Claude Diary Threat to Police, Florida Woman Charged",
+      "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "A Hacker News discussion about running Qwen 3.8 Flash Next (125B) on an RTX 4090 at high throughput using the Strata inference stack, with community benchmarks and quality concerns.",
+      "summary": "A Florida woman faces a felony charge after Anthropic reportedly reported her Claude diary entries containing a threat to police, sparking debate over AI monitoring, privacy, and legal obligations.",
       "tags": [
-        "LLM",
-        "quantization",
-        "consumer hardware",
-        "inference optimization",
-        "Qwen"
+        "AI privacy",
+        "content moderation",
+        "free speech",
+        "law enforcement",
+        "LLM safety"
       ]
     },
     {
-      "title": "Why don't more developers “use the platform”?",
-      "title_zh": "Nolan Lawson 追问：开发者为何不愿“使用平台”原生 API",
-      "title_en": "Nolan Lawson asks why developers avoid native web platform APIs",
-      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+      "title": "Qualcomm licenses patents on Huawei’s LogicFolding chip tech",
+      "title_zh": "高通获得华为LogicFolding芯片技术专利授权",
+      "title_en": "Qualcomm licenses patents from Huawei for LogicFolding chip tech",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-05/qualcomm-licenses-patents-on-huawei-s-logicfolding-chip-tech",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Nolan Lawson examines why developers often prefer frameworks like React over native web platform APIs, sparking a detailed HN debate about Web Components, browser inconsistencies, and the practical trade-offs of 'using the platform.'",
+      "summary": "Qualcomm has licensed patents from Huawei covering its LogicFolding chip technology, a potential reversal in semiconductor IP dynamics.",
       "tags": [
-        "web development",
-        "frontend",
-        "web components",
-        "React",
-        "platform APIs"
-      ]
-    },
-    {
-      "title": "Top ARC-ΑGI-3 scores on Kaggle just went from 7% to 56% [N]",
-      "title_zh": "ARC-AGI-3 在 Kaggle 上的最高分 30 天内从 7% 跃升至 56%",
-      "title_en": "ARC-AGI-3 Kaggle scores jump from 7% to 56% in 30 days",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wxcd4k/top_arc%CE%B1gi3_scores_on_kaggle_just_went_from_7_to/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "Kaggle leaderboard scores on the ARC-AGI-3 benchmark reportedly rose from 7% to 56% in 30 days using small local models in a harness, surpassing average human performance on a benchmark designed to show human superiority.",
-      "tags": [
-        "ARC-AGI",
-        "AI benchmarks",
-        "reasoning",
-        "LLM evaluation",
-        "Kaggle"
-      ]
-    },
-    {
-      "title": "SK 电信就大规模信息泄露事件致歉，为全体用户免费更换 USIM 卡  韩国最大电信运营商 SK Telecom (SKT) 近日确认，其内部系统遭到黑客攻击，",
-      "title_zh": "SK电讯就大规模数据泄露致歉，为全体用户免费更换USIM卡",
-      "title_en": "SK Telecom Apologizes for Massive Data Breach, Offers Free USIM Replacements",
-      "url": "https://t.me/zaihuapd/44206",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "SK Telecom confirmed a massive hacker breach of its internal HSS servers exposing sensitive data for over 25 million users, prompting a public apology and free USIM card replacements.",
-      "tags": [
-        "Cybersecurity",
-        "Data Breach",
-        "Telecom",
-        "SK Telecom",
-        "Privacy"
+        "Huawei",
+        "Qualcomm",
+        "Semiconductor Patents",
+        "Chip Technology",
+        "Geopolitics"
       ]
     }
   ]
