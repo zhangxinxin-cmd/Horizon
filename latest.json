@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-08T01:27:00.804399+00:00",
-  "date": "2026-10-08",
-  "total_fetched": 41,
+  "generated_at": "2026-10-09T01:33:44.300320+00:00",
+  "date": "2026-10-09",
+  "total_fetched": 37,
   "important_count": 6,
   "score_threshold": 8.0,
   "languages": [
@@ -10,109 +10,109 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/10/08/summary-zh.html",
-      "path": "docs/_posts/2026-10-08-summary-zh.md"
+      "url": "2026/10/09/summary-zh.html",
+      "path": "docs/_posts/2026-10-09-summary-zh.md"
     },
     "en": {
-      "url": "2026/10/08/summary-en.html",
-      "path": "docs/_posts/2026-10-08-summary-en.md"
+      "url": "2026/10/09/summary-en.html",
+      "path": "docs/_posts/2026-10-09-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "GPT‑6 and Intelligent UI for everyone",
-      "title_zh": "OpenAI 发布 GPT-6 与「智能 UI」，安全回退问题被点名",
-      "title_en": "OpenAI launches GPT-6 with 'Intelligent UI', safety regressions flagged",
-      "url": "https://openai.com/index/gpt-6-for-everyone/",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "OpenAI announces GPT-6 with a redesigned 'Intelligent UI' for everyone, prompting extensive Hacker News debate over its interface design, image quality versus GPT-5.6, and safety regressions noted in the accompanying system card.",
-      "tags": [
-        "openai",
-        "gpt-6",
-        "llm",
-        "ai-safety",
-        "ui-design"
-      ]
-    },
-    {
-      "title": "Nobel Prize in Chemistry 2026 to Henri B. Kagan and Kenso Soai",
-      "title_zh": "2026年诺贝尔化学奖授予Kagan与Soai，表彰不对称催化研究",
-      "title_en": "Nobel Prize in Chemistry 2026 Goes to Kagan and Soai for Asymmetric Catalysis",
-      "url": "https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "The 2026 Nobel Prize in Chemistry was awarded to Henri B. Kagan and Kenso Soai for work on asymmetric catalysis and autocatalysis, prompting discussion on chirality and its role in biology.",
-      "tags": [
-        "chemistry",
-        "chirality",
-        "nobel-prize",
-        "asymmetric-catalysis",
-        "origins-of-life"
-      ]
-    },
-    {
-      "title": "Margaret Hamilton has died",
-      "title_zh": "阿波罗软件负责人玛格丽特·汉密尔顿逝世，享年89岁",
-      "title_en": "Margaret Hamilton, Apollo Software Lead, Dies at 89",
-      "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+      "title": "Whistle: Speech to Text in 16.9 MB",
+      "title_zh": "Whistle：仅 16.9 MB 的本地语音转文本模型",
+      "title_en": "Whistle: A 16.9 MB Local Speech-to-Text Model",
+      "url": "https://cactuscompute.com/blog/whistle",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Margaret Hamilton, Apollo software lead and computing pioneer who coined the term 'software engineering', has died at 89.",
+      "summary": "Whistle is a 16.9 MB speech-to-text model presented as a tiny, locally runnable STT solution, sparking discussion about accuracy, streaming capabilities, and edge deployment.",
       "tags": [
-        "Margaret Hamilton",
-        "software engineering",
-        "Apollo",
-        "computing history",
-        "obituary"
+        "speech-to-text",
+        "local-ai",
+        "edge-ai",
+        "model-compression",
+        "home-assistant"
       ]
     },
     {
-      "title": "Shipping JPEG XL in Chrome",
-      "title_zh": "Chrome 正式支持 JPEG XL，推翻此前的弃用决定",
-      "title_en": "Chrome Ships JPEG XL Support, Reversing Earlier Deprecation",
-      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
-      "source": "hackernews",
+      "title": "ThinkingBox: Solving an agent task once vs. solving it 20/20: 507 stateful workflows graded on terminal database state [R]",
+      "title_zh": "ThinkingBox：507 个有状态工作流基准，用终态数据库状态衡量智能体可靠性",
+      "title_en": "ThinkingBox: a 507-workflow benchmark grading agent reliability on terminal database state",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x17shf/thinkingbox_solving_an_agent_task_once_vs_solving/",
+      "source": "reddit",
       "score": 8.0,
-      "summary": "Google is shipping JPEG XL support in Chrome, reversing its earlier deprecation and, combined with Firefox's imminent stable rollout, bringing the format to majority browser coverage.",
+      "summary": "ThinkingBox introduces a 507-workflow benchmark for evaluating whether LLM agents reliably solve stateful business tasks across repeated attempts and end in correct terminal database/backend states.",
       "tags": [
-        "jpeg-xl",
-        "chrome",
-        "image-formats",
-        "browser-support",
-        "web-standards"
+        "LLM agents",
+        "agent evaluation",
+        "benchmark",
+        "stateful workflows",
+        "reliability"
       ]
     },
     {
-      "title": "Navier–Stokes Lost in Translation",
-      "title_zh": "论文质疑 LLM 的 Navier–Stokes 爆破 Lean 证明与原文不符",
-      "title_en": "Paper Challenges Fidelity of LLM's Lean Proof of Navier–Stokes Blow-up",
-      "url": "https://arxiv.org/abs/2610.08144",
-      "source": "hackernews",
+      "title": "中国科学家研制成功核光钟",
+      "title_zh": "中国清华大学团队研制成功世界首台运行中的核光钟",
+      "title_en": "China's Tsinghua Team Builds World's First Operating Nuclear Clock",
+      "url": "https://www.nature.com/articles/s41586-026-11122-1",
+      "source": "telegram",
       "score": 8.0,
-      "summary": "A paper argues that an LLM's formalized Lean proof of Navier–Stokes blow-up fails to match the original natural-language argument, sparking debate over whether a headline AI mathematics result is overstated.",
+      "summary": "Chinese scientists at Tsinghua University built and stably operated the world's first nuclear clock based on thorium-229 nuclear transitions, publishing the result in Nature.",
       "tags": [
-        "formal-verification",
-        "lean",
-        "AI-for-mathematics",
-        "Navier-Stokes",
-        "LLM-reasoning"
+        "physics",
+        "nuclear-clock",
+        "thorium-229",
+        "precision-timekeeping",
+        "research-breakthrough"
       ]
     },
     {
-      "title": "Quoting Jake Boggan",
-      "title_zh": "研究者感慨：Barnette 猜想疑似被 OpenAI 的 Lean 数学项目解决",
-      "title_en": "Researcher reflects as Barnette's Conjecture appears solved via OpenAI's Lean math project",
-      "url": "https://simonwillison.net/2026/Oct/7/jake-boggan/",
-      "source": "rss",
+      "title": "Stripe 同意收购 OpenRouter，覆盖 80 多家提供商的 400 多个模型  Stripe 于 2026 年 8 月 19 日宣布已同意收购 AI",
+      "title_zh": "Stripe 同意收购 OpenRouter，涵盖 400 多个模型的 AI 网关",
+      "title_en": "Stripe Agrees to Acquire OpenRouter, the 400+ Model AI Gateway",
+      "url": "https://t.me/zaihuapd/44275",
+      "source": "telegram",
       "score": 8.0,
-      "summary": "A Hacker News commenter reflects on the bittersweet news that Barnette's Conjecture — which he pursued for 24 years — appears to have been solved, apparently through OpenAI's Lean-formalized math project.",
+      "summary": "Stripe announced it has agreed to acquire OpenRouter, the AI model gateway that dynamically routes requests across 400+ models from 80+ providers.",
       "tags": [
-        "graph-theory",
-        "AI-for-math",
-        "Lean",
-        "theorem-proving",
-        "open-problems"
+        "acquisitions",
+        "AI infrastructure",
+        "LLM routing",
+        "Stripe",
+        "API gateway"
+      ]
+    },
+    {
+      "title": "Mistral 发布 1 万亿参数模型  法国 AI 公司 Mistral 于 10 月 6 日发布 Mistral Large 4（又称“le Chonk”）",
+      "title_zh": "Mistral 发布 1 万亿参数模型 Mistral Large 4",
+      "title_en": "Mistral releases 1-trillion-parameter Mistral Large 4 model",
+      "url": "https://t.me/zaihuapd/44279",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Mistral announced Mistral Large 4, a 1-trillion-parameter open-source-focused model trained on 4000 Nvidia Grace Blackwell GPUs, targeting cybersecurity, coding, finance, manufacturing, and multimodal tasks.",
+      "tags": [
+        "Mistral AI",
+        "large language models",
+        "open-source AI",
+        "model release",
+        "AI hardware"
+      ]
+    },
+    {
+      "title": "OpenAI API 新增 GPT-6.1 Sol 的 Ultrafast 模式",
+      "title_zh": "OpenAI 在 Responses API 中为 GPT-6.1 Sol 新增 Ultrafast 模式",
+      "title_en": "OpenAI adds Ultrafast mode for GPT-6.1 Sol in the Responses API",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "OpenAI added an Ultrafast mode for GPT-6.1 Sol in the Responses API, offering up to 8x generation speed at 6x Standard pricing.",
+      "tags": [
+        "OpenAI",
+        "GPT-6.1 Sol",
+        "API",
+        "Ultrafast",
+        "Pricing"
       ]
     }
   ]
