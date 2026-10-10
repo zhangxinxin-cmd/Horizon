@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-09T01:33:44.300320+00:00",
-  "date": "2026-10-09",
-  "total_fetched": 37,
-  "important_count": 6,
+  "generated_at": "2026-10-10T01:24:18.825438+00:00",
+  "date": "2026-10-10",
+  "total_fetched": 38,
+  "important_count": 4,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,109 +10,77 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/10/09/summary-zh.html",
-      "path": "docs/_posts/2026-10-09-summary-zh.md"
+      "url": "2026/10/10/summary-zh.html",
+      "path": "docs/_posts/2026-10-10-summary-zh.md"
     },
     "en": {
-      "url": "2026/10/09/summary-en.html",
-      "path": "docs/_posts/2026-10-09-summary-en.md"
+      "url": "2026/10/10/summary-en.html",
+      "path": "docs/_posts/2026-10-10-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Whistle: Speech to Text in 16.9 MB",
-      "title_zh": "Whistle：仅 16.9 MB 的本地语音转文本模型",
-      "title_en": "Whistle: A 16.9 MB Local Speech-to-Text Model",
-      "url": "https://cactuscompute.com/blog/whistle",
+      "title": "Cloudflare acquires Deno",
+      "title_zh": "Cloudflare 收购 Deno，独立运行时开发宣告终止",
+      "title_en": "Cloudflare acquires Deno, ending independent runtime development",
+      "url": "https://deno.com/blog/cloudflare",
       "source": "hackernews",
-      "score": 8.0,
-      "summary": "Whistle is a 16.9 MB speech-to-text model presented as a tiny, locally runnable STT solution, sparking discussion about accuracy, streaming capabilities, and edge deployment.",
+      "score": 9.0,
+      "summary": "Cloudflare has acquired Deno in what the community describes as an acquihire that will end active Deno runtime development after one year of maintenance releases.",
       "tags": [
-        "speech-to-text",
-        "local-ai",
-        "edge-ai",
-        "model-compression",
-        "home-assistant"
+        "deno",
+        "cloudflare",
+        "javascript-runtime",
+        "acquisition",
+        "open-source"
       ]
     },
     {
-      "title": "ThinkingBox: Solving an agent task once vs. solving it 20/20: 507 stateful workflows graded on terminal database state [R]",
-      "title_zh": "ThinkingBox：507 个有状态工作流基准，用终态数据库状态衡量智能体可靠性",
-      "title_en": "ThinkingBox: a 507-workflow benchmark grading agent reliability on terminal database state",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x17shf/thinkingbox_solving_an_agent_task_once_vs_solving/",
-      "source": "reddit",
+      "title": "Quoting Matthew Green",
+      "title_zh": "Matthew Green：有15%的概率人类会失去对公钥加密的信心",
+      "title_en": "Matthew Green: 15% Chance We Lose Confidence in Public-Key Encryption",
+      "url": "https://simonwillison.net/2026/Oct/9/matthew-green/",
+      "source": "rss",
       "score": 8.0,
-      "summary": "ThinkingBox introduces a 507-workflow benchmark for evaluating whether LLM agents reliably solve stateful business tasks across repeated attempts and end in correct terminal database/backend states.",
+      "summary": "Matthew Green warns that there is a small but real chance we functionally lose confidence in existing public-key encryption, and that AI's pace of surprises vastly outruns our ability to update standards without advance preparation.",
       "tags": [
-        "LLM agents",
-        "agent evaluation",
-        "benchmark",
-        "stateful workflows",
-        "reliability"
+        "cryptography",
+        "AI risk",
+        "public-key encryption",
+        "standards",
+        "security"
       ]
     },
     {
-      "title": "中国科学家研制成功核光钟",
-      "title_zh": "中国清华大学团队研制成功世界首台运行中的核光钟",
-      "title_en": "China's Tsinghua Team Builds World's First Operating Nuclear Clock",
-      "url": "https://www.nature.com/articles/s41586-026-11122-1",
+      "title": "中国天眼 FAST 发现脉冲星原生三体",
+      "title_zh": "中国天眼 FAST 发现脉冲星原生三体系统",
+      "title_en": "China's FAST Telescope Finds Primordial Pulsar Triple System",
+      "url": "https://nao.cas.cn/news/gd/202610/t20261009_8289939.html",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Chinese scientists at Tsinghua University built and stably operated the world's first nuclear clock based on thorium-229 nuclear transitions, publishing the result in Nature.",
+      "summary": "中国天眼 FAST 发现并由中欧科学家独立确认首例仍在演化阶段的脉冲星原生三体系统，成果发表于《天体物理学杂志快报》。",
       "tags": [
-        "physics",
-        "nuclear-clock",
-        "thorium-229",
-        "precision-timekeeping",
-        "research-breakthrough"
+        "天文学",
+        "FAST",
+        "脉冲星",
+        "三体系统",
+        "天体物理学"
       ]
     },
     {
-      "title": "Stripe 同意收购 OpenRouter，覆盖 80 多家提供商的 400 多个模型  Stripe 于 2026 年 8 月 19 日宣布已同意收购 AI",
-      "title_zh": "Stripe 同意收购 OpenRouter，涵盖 400 多个模型的 AI 网关",
-      "title_en": "Stripe Agrees to Acquire OpenRouter, the 400+ Model AI Gateway",
-      "url": "https://t.me/zaihuapd/44275",
+      "title": "JetBrains 发布开源编程模型 Mellum2.1",
+      "title_zh": "JetBrains 发布开源编程模型 Mellum2.1，Apache 2.0 许可",
+      "title_en": "JetBrains Releases Mellum2.1, an Apache 2.0 Coding Agent Model",
+      "url": "https://blog.jetbrains.com/ai/2026/10/mellum2-1-gets-to-work-a-fast-open-model-for-coding-agents/",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Stripe announced it has agreed to acquire OpenRouter, the AI model gateway that dynamically routes requests across 400+ models from 80+ providers.",
+      "summary": "JetBrains released Mellum2.1, an open-source 12B-parameter mixture-of-experts coding model with 2.5B active parameters, Apache 2.0 license, and real-environment RL training for local coding agents.",
       "tags": [
-        "acquisitions",
-        "AI infrastructure",
-        "LLM routing",
-        "Stripe",
-        "API gateway"
-      ]
-    },
-    {
-      "title": "Mistral 发布 1 万亿参数模型  法国 AI 公司 Mistral 于 10 月 6 日发布 Mistral Large 4（又称“le Chonk”）",
-      "title_zh": "Mistral 发布 1 万亿参数模型 Mistral Large 4",
-      "title_en": "Mistral releases 1-trillion-parameter Mistral Large 4 model",
-      "url": "https://t.me/zaihuapd/44279",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Mistral announced Mistral Large 4, a 1-trillion-parameter open-source-focused model trained on 4000 Nvidia Grace Blackwell GPUs, targeting cybersecurity, coding, finance, manufacturing, and multimodal tasks.",
-      "tags": [
-        "Mistral AI",
-        "large language models",
+        "JetBrains",
         "open-source AI",
-        "model release",
-        "AI hardware"
-      ]
-    },
-    {
-      "title": "OpenAI API 新增 GPT-6.1 Sol 的 Ultrafast 模式",
-      "title_zh": "OpenAI 在 Responses API 中为 GPT-6.1 Sol 新增 Ultrafast 模式",
-      "title_en": "OpenAI adds Ultrafast mode for GPT-6.1 Sol in the Responses API",
-      "url": "https://developers.openai.com/api/docs/changelog",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "OpenAI added an Ultrafast mode for GPT-6.1 Sol in the Responses API, offering up to 8x generation speed at 6x Standard pricing.",
-      "tags": [
-        "OpenAI",
-        "GPT-6.1 Sol",
-        "API",
-        "Ultrafast",
-        "Pricing"
+        "coding agents",
+        "mixture-of-experts",
+        "LLM releases"
       ]
     }
   ]
