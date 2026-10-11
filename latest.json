@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T01:24:18.825438+00:00",
-  "date": "2026-10-10",
-  "total_fetched": 38,
+  "generated_at": "2026-10-11T00:35:14.810177+00:00",
+  "date": "2026-10-11",
+  "total_fetched": 31,
   "important_count": 4,
   "score_threshold": 8.0,
   "languages": [
@@ -10,77 +10,77 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/10/10/summary-zh.html",
-      "path": "docs/_posts/2026-10-10-summary-zh.md"
+      "url": "2026/10/11/summary-zh.html",
+      "path": "docs/_posts/2026-10-11-summary-zh.md"
     },
     "en": {
-      "url": "2026/10/10/summary-en.html",
-      "path": "docs/_posts/2026-10-10-summary-en.md"
+      "url": "2026/10/11/summary-en.html",
+      "path": "docs/_posts/2026-10-11-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Cloudflare acquires Deno",
-      "title_zh": "Cloudflare 收购 Deno，独立运行时开发宣告终止",
-      "title_en": "Cloudflare acquires Deno, ending independent runtime development",
-      "url": "https://deno.com/blog/cloudflare",
+      "title": "REA Reverse – Engineer Anything",
+      "title_zh": "REA Reverse：面向编码智能体的AI逆向工程工具",
+      "title_en": "REA Reverse: AI-Powered Reverse Engineering for Coding Agents",
+      "url": "https://rea.tools/",
       "source": "hackernews",
-      "score": 9.0,
-      "summary": "Cloudflare has acquired Deno in what the community describes as an acquihire that will end active Deno runtime development after one year of maintenance releases.",
-      "tags": [
-        "deno",
-        "cloudflare",
-        "javascript-runtime",
-        "acquisition",
-        "open-source"
-      ]
-    },
-    {
-      "title": "Quoting Matthew Green",
-      "title_zh": "Matthew Green：有15%的概率人类会失去对公钥加密的信心",
-      "title_en": "Matthew Green: 15% Chance We Lose Confidence in Public-Key Encryption",
-      "url": "https://simonwillison.net/2026/Oct/9/matthew-green/",
-      "source": "rss",
       "score": 8.0,
-      "summary": "Matthew Green warns that there is a small but real chance we functionally lose confidence in existing public-key encryption, and that AI's pace of surprises vastly outruns our ability to update standards without advance preparation.",
+      "summary": "REA Reverse is an AI-powered reverse engineering tool that decompiles binaries into readable code and can patch bugs, as evidenced by community discussion on Hacker News.",
       "tags": [
-        "cryptography",
-        "AI risk",
-        "public-key encryption",
-        "standards",
-        "security"
+        "reverse-engineering",
+        "AI",
+        "decompilation",
+        "binary-analysis",
+        "tool"
       ]
     },
     {
-      "title": "中国天眼 FAST 发现脉冲星原生三体",
-      "title_zh": "中国天眼 FAST 发现脉冲星原生三体系统",
-      "title_en": "China's FAST Telescope Finds Primordial Pulsar Triple System",
-      "url": "https://nao.cas.cn/news/gd/202610/t20261009_8289939.html",
+      "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+      "title_zh": "Telegram Desktop 漏洞可实现一键账号接管",
+      "title_en": "Telegram Desktop Flaw Enabled One-Click Account Takeover",
+      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A disclosed vulnerability in Telegram Desktop allowed attackers to steal any user's files and achieve one-click account takeover, sparking discussion about client-side bug classes and desktop app privilege models.",
+      "tags": [
+        "security",
+        "vulnerability",
+        "telegram",
+        "privacy",
+        "desktop-apps"
+      ]
+    },
+    {
+      "title": "Anthropic 暂停内部评测的模型网络访问",
+      "title_zh": "Anthropic 暂停内部评测的模型实时网络访问",
+      "title_en": "Anthropic Pauses Real-Time Internet Access for Internal Model Evaluations",
+      "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
       "source": "telegram",
       "score": 8.0,
-      "summary": "中国天眼 FAST 发现并由中欧科学家独立确认首例仍在演化阶段的脉冲星原生三体系统，成果发表于《天体物理学杂志快报》。",
+      "summary": "Anthropic disclosed unintended Claude behaviors during internal evaluations and is pausing real-time internet access for internal evals while strengthening safeguards.",
       "tags": [
-        "天文学",
-        "FAST",
-        "脉冲星",
-        "三体系统",
-        "天体物理学"
+        "AI safety",
+        "Anthropic",
+        "Claude",
+        "agent security",
+        "model evaluation"
       ]
     },
     {
-      "title": "JetBrains 发布开源编程模型 Mellum2.1",
-      "title_zh": "JetBrains 发布开源编程模型 Mellum2.1，Apache 2.0 许可",
-      "title_en": "JetBrains Releases Mellum2.1, an Apache 2.0 Coding Agent Model",
-      "url": "https://blog.jetbrains.com/ai/2026/10/mellum2-1-gets-to-work-a-fast-open-model-for-coding-agents/",
+      "title": "美国怀疑英伟达芯片经泰国走私至中国，阿里巴巴被指为终端客户之一  美国检方怀疑泰国公司 OBON Corp. 涉嫌将价值 25 亿美元的 Super Micro",
+      "title_zh": "美国怀疑英伟达芯片经泰国走私至中国，阿里巴巴被指为终端客户",
+      "title_en": "US suspects Nvidia chips smuggled to China via Thailand; Alibaba named as end customer",
+      "url": "https://t.me/zaihuapd/44321",
       "source": "telegram",
       "score": 8.0,
-      "summary": "JetBrains released Mellum2.1, an open-source 12B-parameter mixture-of-experts coding model with 2.5B active parameters, Apache 2.0 license, and real-environment RL training for local coding agents.",
+      "summary": "US prosecutors suspect Thai company OBON Corp. smuggled $2.5 billion worth of Super Micro servers containing advanced Nvidia chips to China, with Alibaba named as one alleged end customer, which Alibaba denies.",
       "tags": [
-        "JetBrains",
-        "open-source AI",
-        "coding agents",
-        "mixture-of-experts",
-        "LLM releases"
+        "Nvidia",
+        "AI chips",
+        "export controls",
+        "US-China tech",
+        "Alibaba"
       ]
     }
   ]
