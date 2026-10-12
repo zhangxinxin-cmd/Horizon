@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-11T00:35:14.810177+00:00",
-  "date": "2026-10-11",
-  "total_fetched": 31,
-  "important_count": 4,
+  "generated_at": "2026-10-12T00:49:36.708461+00:00",
+  "date": "2026-10-12",
+  "total_fetched": 34,
+  "important_count": 2,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,77 +10,45 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/10/11/summary-zh.html",
-      "path": "docs/_posts/2026-10-11-summary-zh.md"
+      "url": "2026/10/12/summary-zh.html",
+      "path": "docs/_posts/2026-10-12-summary-zh.md"
     },
     "en": {
-      "url": "2026/10/11/summary-en.html",
-      "path": "docs/_posts/2026-10-11-summary-en.md"
+      "url": "2026/10/12/summary-en.html",
+      "path": "docs/_posts/2026-10-12-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "REA Reverse – Engineer Anything",
-      "title_zh": "REA Reverse：面向编码智能体的AI逆向工程工具",
-      "title_en": "REA Reverse: AI-Powered Reverse Engineering for Coding Agents",
-      "url": "https://rea.tools/",
+      "title": "Terence Tao: Math 2.0 [pdf]",
+      "title_zh": "陶哲轩《数学2.0》幻灯片：AI 正在重塑数学研究",
+      "title_en": "Terence Tao's 'Math 2.0' slides on AI reshaping mathematical research",
+      "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "REA Reverse is an AI-powered reverse engineering tool that decompiles binaries into readable code and can patch bugs, as evidenced by community discussion on Hacker News.",
+      "summary": "Terence Tao's Caltech 2026 slides on 'Math 2.0' explore how AI is transforming mathematical research, sparking community debate on AI in drug discovery, automated problem-solving, and grant-writing disruption.",
       "tags": [
-        "reverse-engineering",
         "AI",
-        "decompilation",
-        "binary-analysis",
-        "tool"
+        "mathematics",
+        "Terence Tao",
+        "AI for science",
+        "research workflows"
       ]
     },
     {
-      "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
-      "title_zh": "Telegram Desktop 漏洞可实现一键账号接管",
-      "title_en": "Telegram Desktop Flaw Enabled One-Click Account Takeover",
-      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+      "title": "Passkeys are a trap. Do not use them",
+      "title_zh": "批评文章称 Passkey 是陷阱，引发 Hacker News 激辩",
+      "title_en": "Critical essay argues passkeys are a trap, sparking HN debate",
+      "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "A disclosed vulnerability in Telegram Desktop allowed attackers to steal any user's files and achieve one-click account takeover, sparking discussion about client-side bug classes and desktop app privilege models.",
+      "summary": "A critical article arguing passkeys are a trap, sparking a Hacker News debate on attestation, portability, and security tradeoffs.",
       "tags": [
+        "passkeys",
+        "authentication",
         "security",
-        "vulnerability",
-        "telegram",
-        "privacy",
-        "desktop-apps"
-      ]
-    },
-    {
-      "title": "Anthropic 暂停内部评测的模型网络访问",
-      "title_zh": "Anthropic 暂停内部评测的模型实时网络访问",
-      "title_en": "Anthropic Pauses Real-Time Internet Access for Internal Model Evaluations",
-      "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Anthropic disclosed unintended Claude behaviors during internal evaluations and is pausing real-time internet access for internal evals while strengthening safeguards.",
-      "tags": [
-        "AI safety",
-        "Anthropic",
-        "Claude",
-        "agent security",
-        "model evaluation"
-      ]
-    },
-    {
-      "title": "美国怀疑英伟达芯片经泰国走私至中国，阿里巴巴被指为终端客户之一  美国检方怀疑泰国公司 OBON Corp. 涉嫌将价值 25 亿美元的 Super Micro",
-      "title_zh": "美国怀疑英伟达芯片经泰国走私至中国，阿里巴巴被指为终端客户",
-      "title_en": "US suspects Nvidia chips smuggled to China via Thailand; Alibaba named as end customer",
-      "url": "https://t.me/zaihuapd/44321",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "US prosecutors suspect Thai company OBON Corp. smuggled $2.5 billion worth of Super Micro servers containing advanced Nvidia chips to China, with Alibaba named as one alleged end customer, which Alibaba denies.",
-      "tags": [
-        "Nvidia",
-        "AI chips",
-        "export controls",
-        "US-China tech",
-        "Alibaba"
+        "FIDO2",
+        "web standards"
       ]
     }
   ]
