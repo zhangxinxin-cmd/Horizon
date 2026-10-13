@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-12T00:49:36.708461+00:00",
-  "date": "2026-10-12",
-  "total_fetched": 34,
-  "important_count": 2,
+  "generated_at": "2026-10-13T02:47:03.017579+00:00",
+  "date": "2026-10-13",
+  "total_fetched": 38,
+  "important_count": 8,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,45 +10,141 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/10/12/summary-zh.html",
-      "path": "docs/_posts/2026-10-12-summary-zh.md"
+      "url": "2026/10/13/summary-zh.html",
+      "path": "docs/_posts/2026-10-13-summary-zh.md"
     },
     "en": {
-      "url": "2026/10/12/summary-en.html",
-      "path": "docs/_posts/2026-10-12-summary-en.md"
+      "url": "2026/10/13/summary-en.html",
+      "path": "docs/_posts/2026-10-13-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Terence Tao: Math 2.0 [pdf]",
-      "title_zh": "陶哲轩《数学2.0》幻灯片：AI 正在重塑数学研究",
-      "title_en": "Terence Tao's 'Math 2.0' slides on AI reshaping mathematical research",
-      "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Terence Tao's Caltech 2026 slides on 'Math 2.0' explore how AI is transforming mathematical research, sparking community debate on AI in drug discovery, automated problem-solving, and grant-writing disruption.",
+      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "title_zh": "Python 3.15 发布，PEP 810 显式惰性导入正式落地",
+      "title_en": "Python 3.15 Arrives with PEP 810 Explicit Lazy Imports",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+      "source": "rss",
+      "score": 9.0,
+      "summary": "Simon Willison reviews Python 3.15's release, highlighting PEP 810 explicit lazy imports and the shift from supporting Python 3.10 to embracing Python 3.11 features.",
       "tags": [
-        "AI",
-        "mathematics",
-        "Terence Tao",
-        "AI for science",
-        "research workflows"
+        "Python",
+        "programming languages",
+        "PEP 810",
+        "lazy imports",
+        "release"
       ]
     },
     {
-      "title": "Passkeys are a trap. Do not use them",
-      "title_zh": "批评文章称 Passkey 是陷阱，引发 Hacker News 激辩",
-      "title_en": "Critical essay argues passkeys are a trap, sparking HN debate",
-      "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
+      "title": "OpenAI 发布内部前沿模型生成的数学成果合集  OpenAI 发布由内部未公开前沿模型生成的数学成果，GitHub 合集含 722 篇手稿、372 个结果系",
+      "title_zh": "OpenAI 发布内部前沿模型生成的数学成果合集",
+      "title_en": "OpenAI Releases Math Results From Internal Frontier Model",
+      "url": "https://t.me/zaihuapd/44351",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "OpenAI released a GitHub collection of mathematical results produced by an internal unreleased frontier model, featuring 722 manuscripts and 372 result series on long-unsolved problems, many verified in Lean.",
+      "tags": [
+        "OpenAI",
+        "AI for Mathematics",
+        "Formal Verification",
+        "Lean",
+        "Frontier Models"
+      ]
+    },
+    {
+      "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
+      "title_zh": "黑客远程触发欧洲超市冷柜化霜，冷藏系统大面积瘫痪",
+      "title_en": "Hackers Trigger Defrost Cycles in European Supermarket Fridges",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "A critical article arguing passkeys are a trap, sparking a Hacker News debate on attestation, portability, and security tradeoffs.",
+      "summary": "A cyberattack disrupted supermarket refrigeration systems across Europe by remotely triggering defrost cycles, exposing systemic vulnerabilities in internet-connected legacy OT/control equipment.",
       "tags": [
-        "passkeys",
-        "authentication",
-        "security",
-        "FIDO2",
-        "web standards"
+        "cybersecurity",
+        "IoT/OT security",
+        "critical infrastructure",
+        "supply chain",
+        "legacy systems"
+      ]
+    },
+    {
+      "title": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
+      "title_zh": "WiFi 7 路由器被改装为 320 Msps 软件定义无线电接收机",
+      "title_en": "WiFi 7 Router Repurposed as a 320 Msps Software Defined Radio Receiver",
+      "url": "https://github.com/h0m3us3r/w1700k-sdr",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A developer demonstrates turning a WiFi 7 router into a 320 Msps software defined radio receiver, sparking technical discussion on cheap SDR applications and hardware reuse.",
+      "tags": [
+        "Software Defined Radio",
+        "WiFi 7",
+        "Hardware Hacking",
+        "RF",
+        "Embedded Systems"
+      ]
+    },
+    {
+      "title": "Codex CLI installs a persistent, self-updating background daemon by default",
+      "title_zh": "Codex CLI 默认安装常驻自更新的后台守护进程",
+      "title_en": "Codex CLI installs a persistent, self-updating background daemon by default",
+      "url": "https://github.com/openai/codex/issues/48195",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "OpenAI's Codex CLI installs a persistent, self-updating background daemon by default, sparking community discussion about undocumented configuration, resource usage, and bugs.",
+      "tags": [
+        "codex-cli",
+        "openai",
+        "background-daemon",
+        "ai-coding-assistants",
+        "developer-tools"
+      ]
+    },
+    {
+      "title": "Show HN: PS2 games statically recompiled to WebAssembly",
+      "title_zh": "Show HN：PS2 游戏被静态重编译为 WebAssembly，可在浏览器中运行",
+      "title_en": "Show HN: PS2 games statically recompiled to WebAssembly for the browser",
+      "url": "https://github.com/snuri00/ps2-web-recomp",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A project that statically recompiles PS2 games to WebAssembly, enabling browser-based play, with community discussion on security, recompilation, and related efforts.",
+      "tags": [
+        "WebAssembly",
+        "Static Recompilation",
+        "PS2 Emulation",
+        "Game Preservation",
+        "Show HN"
+      ]
+    },
+    {
+      "title": "Looped Diffusion Transformer: the same blocks run several times inside each denoising step, and loop depth can be changed at sampling time [R]",
+      "title_zh": "循环扩散Transformer：在每个去噪步内重复运行共享模块",
+      "title_en": "Looped Diffusion Transformer Reuses Shared Blocks Inside Each Denoising Step",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x49d61/looped_diffusion_transformer_the_same_blocks_run/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "A Reddit post discusses a Looped Diffusion Transformer that reuses shared blocks multiple times per denoising step, achieving better efficiency than larger models and allowing loop depth to be adjusted at sampling time.",
+      "tags": [
+        "diffusion models",
+        "transformers",
+        "efficient ML",
+        "text-to-image",
+        "open source"
+      ]
+    },
+    {
+      "title": "learnc: fit the constants in existing C code to data (9.1% smaller JPEGs, +4.9 F1 on WebRTC VAD) [P]",
+      "title_zh": "learnc 自动调优现有 C 代码常量，JPEG 体积缩小 9.1%",
+      "title_en": "learnc Auto-Tunes Constants in Existing C Code, Shrinking JPEGs 9.1%",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x4dlbm/learnc_fit_the_constants_in_existing_c_code_to/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "learnc is an MIT-licensed tool that tunes constants in existing C source code against a C score function, achieving 9.1% smaller JPEGs and +4.9 F1 on WebRTC VAD on held-out data.",
+      "tags": [
+        "program-optimization",
+        "autotuning",
+        "image-compression",
+        "vad",
+        "open-source-tools"
       ]
     }
   ]
