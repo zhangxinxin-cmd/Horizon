@@ -1,143 +1,144 @@
 # Horizon Daily - 2026-10-15
 
-> From 44 items, 6 important content pieces were selected
+> From 39 items, 6 important content pieces were selected
 
 ---
 
-1. [Cloudflare: bots shifted, not stopped, during Yandex outage](#item-1) ⭐️ 8.0/10
-2. [Timescale's pg_vectorsearch claims faster Postgres vector indexing than pgvector](#item-2) ⭐️ 8.0/10
-3. [Amazon's Market Power Pushes Up Prices Across the Internet](#item-3) ⭐️ 8.0/10
-4. [Tracing where LLM "slop" style comes from in models and training](#item-4) ⭐️ 8.0/10
-5. [Anthropic replaces git with in-house Scion version control](#item-5) ⭐️ 8.0/10
-6. [First Stargardt Patient Receives PRIMA Visual Chip, Regains Reading](#item-6) ⭐️ 8.0/10
+1. [AdFection: Targeted Ads Weaponized as Zero-Click Spyware Delivery Channel](#item-1) ⭐️ 9.0/10
+2. [Meta Releases Muse Spark Open, 816B Open-Weight Model for Mac Studio](#item-2) ⭐️ 8.0/10
+3. [Essay probes mathematicians' existential dread as AI commodifies math](#item-3) ⭐️ 8.0/10
+4. [Anthropic Reports Quarterly Revenue Up Nearly 50% to $16.8B Ahead of IPO](#item-4) ⭐️ 8.0/10
+5. [ASML Reportedly Developing a Hybrid Bonding Tool](#item-5) ⭐️ 8.0/10
+6. [Randomly Wired Networks Self-Assemble Learning Circuitry, Rivaling Backpropagation](#item-6) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Cloudflare: bots shifted, not stopped, during Yandex outage](https://blog.cloudflare.com/yandex-outage/) ⭐️ 8.0/10
+## [AdFection: Targeted Ads Weaponized as Zero-Click Spyware Delivery Channel](https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/) ⭐️ 9.0/10
 
-Cloudflare published an analysis on its blog showing that during the recent Yandex outage, malicious bot traffic traversing its network did not go dark but instead changed behavior, with no evidence that social media manipulation operations were knocked offline. The finding directly contradicts widely circulated claims that the outage disrupted Russian troll or bot activity. Outages are frequently used as evidence that disinformation or bot infrastructure has been damaged, and this analysis shows how easily such conclusions can be drawn from misread traffic data. It underscores that large-scale internet measurement data, rather than anecdotes about quieter social media, is needed to judge whether malicious operations were actually disrupted. Cloudflare states that across its network there was no evidence the strikes knocked social media manipulation offline or otherwise disrupted malicious activity on the Internet. A key caveat is that Cloudflare observes only traffic passing through its own network, so it cannot see platform-internal account behavior or content-level activity on services like social media platforms.
+Citizen Lab published research confirming the first-ever public case of zero-click mercenary spyware delivered through targeted advertising infrastructure, naming the technique "AdFection". The campaign is tied to an Israeli-registered ad firm called Discover-Tech and was used to infect devices at Al Jazeera with spyware from the mercenary vendor Candiru. It shows that the adtech supply chain — used by hundreds of thousands of apps and websites — can be repurposed as a precision surveillance delivery mechanism, blurring the line between advertising intermediaries and offensive cyber vendors. This puts pressure on app stores, ad networks, and regulators to treat ad SDKs as a serious security and human-rights risk. According to coverage and the Citizen Lab report, the ads reached roughly 70,000+ apps and 120,000+ sites, and the infection required no user click — though an AdTech engineer in the discussion argues the report is vague about the actual mechanism that triggers the exploit. The research links the ad firm's servers to mercenary surveillance vendors that use such channels to track and hack devices worldwide.
 
-hackernews · coloneltcb · Oct 14, 20:29 · [Discussion](https://news.ycombinator.com/item?id=50094673)
+hackernews · jcomp · Oct 15, 10:43 · [Discussion](https://news.ycombinator.com/item?id=50101813)
 
-**Background**: Yandex is Russia's largest internet company, operating the country's dominant search engine and many other online services. When a major provider like this suffers an outage, commentators often assume that dependent malicious activity — such as botnets, which are networks of compromised devices remotely controlled by an attacker — must also collapse. Cloudflare Radar is Cloudflare's public platform that publishes data-driven insights on global internet traffic, attack trends, and outages based on traffic seen across its global network.
+**Background**: Zero-click spyware is malware that installs and runs without any action from the victim — no link to tap, no file to open — typically by exploiting previously unknown vulnerabilities in the device's operating system or apps. "Mercenary spyware" refers to commercial intrusion tools sold by private firms to governments, and it is considered precision tooling because targets are chosen for who they are or what they know. Citizen Lab is a research group at the University of Toronto that has documented numerous such campaigns, and adtech refers to the complex ecosystem of ad networks, exchanges, and SDKs embedded in apps and websites.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://radar.cloudflare.com/about">About - Cloudflare Radar</a></li>
-<li><a href="https://blog.cloudflare.com/evolution-of-cloudflare-radar/">Making the Internet observable: the evolution of Cloudflare Radar</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Botnet">Botnet</a></li>
+<li><a href="https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/">Exposing AdFection: How Discover-Tech Turned Targeted Ads ...</a></li>
+<li><a href="https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/">Targeted ads delivered 0-click exploits to install mercenary ...</a></li>
+<li><a href="https://www.wired.com/story/nightmare-scenario-zero-click-spyware-is-infecting-phones-via-targeted-ads/">‘Nightmare Scenario’: Zero-Click Spyware Is ... - WIRED</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters largely welcomed the findings, with one calling it the "buried lede" that refutes the meme about Russian trolls going offline, and another noting that much of the apparent traffic may simply be search engine crawlers. Others proposed alternative explanations, such as bots relying on news-scraping to decide where to post, so that a quieter social media feed did not imply the operations had shut down.
+**Discussion**: The Hacker News thread is highly engaged but divided: a veteran AdTech engineer calls the report sensationalist and notes there is no single "ad provider" to hold responsible given the ecosystem's complexity, while other commenters argue the entire online advertising industry should be curtailed or that Israeli cybersecurity firms are inherently beholden to their government. Others raise geopolitical questions about why Israel has become such a dominant cyber power.
 
-**Tags**: `#Cloudflare`, `#Yandex`, `#botnets`, `#cybersecurity`, `#internet-measurement`
+**Tags**: `#cybersecurity`, `#spyware`, `#adtech`, `#privacy`, `#Citizen Lab`
 
 ---
 
 <a id="item-2"></a>
-## [Timescale's pg_vectorsearch claims faster Postgres vector indexing than pgvector](https://github.com/timescale/pg_vectorsearch) ⭐️ 8.0/10
+## [Meta Releases Muse Spark Open, 816B Open-Weight Model for Mac Studio](https://research.meta.ai/blog/muse-spark-open) ⭐️ 8.0/10
 
-Timescale (now Tiger Data) released pg_vectorsearch, a new PostgreSQL extension that provides a quantized IVF index called PRISM, which the project claims is faster than pgvector's existing IVFFlat and HNSW indexes. The extension requires PostgreSQL 18 or above and caps vectors at 1968 dimensions, and the company's CTO published a technical deep dive into the PRISM architecture the same day. pgvector is the de facto standard for vector search inside Postgres, so a competing index that claims better performance directly challenges the default choice for teams building RAG and AI applications on existing relational databases. It also intensifies competition among low-RAM vector index tools such as VectorChord, which matters as NVMe-based storage makes disk-friendly indexes more attractive than memory-hungry HNSW graphs. PRISM is a quantized inverted-file (IVF) index with a hard limit of 1968 dimensions per vector, so existing HNSW indexes with higher dimensionality cannot be migrated yet, and the extension only runs on PostgreSQL 18+. Community members also note that filtering appears to be post-filtering only, which makes tenant, user, or permission-scoped queries difficult to implement efficiently.
+Meta released Muse Spark Open, an 816-billion-parameter open-weight model (Hugging Face repo "meta-models/Muse-Spark-Open-816B-A42B") that is explicitly optimized to run locally on Mac Studio hardware. Meta's own deployment documentation highlights support for a wide range of inference runners, including MLX and Unsloth, rather than tying the model to a single runtime. A US frontier lab shipping a model sized and tuned for a single desktop-class machine signals that serious open-weight inference is moving from data centers toward workstations, which could reshape how developers and small teams adopt large models. It also intensifies the open-weight race with Chinese labs such as Alibaba's Qwen and Z.ai's GLM, whose releases have set the performance bar Meta is now being measured against. The "A42B" suffix in the model name indicates a mixture-of-experts design with roughly 42 billion active parameters, which is what makes local inference plausible despite the 816B total size. The license is not fully permissive: it contains a "Model as a Service" clause restricting third parties from offering the model via API or similar interfaces if the licensee and its affiliates have aggregate gross revenue above 20 million US dollars, and early benchmark commentary suggests the model trails Qwen3.8 Flash Next and GLM 5.3 Flash.
 
-hackernews · jascha_eng · Oct 14, 11:47 · [Discussion](https://news.ycombinator.com/item?id=50086165)
+hackernews · bigwheels · Oct 15, 17:47 · [Discussion](https://news.ycombinator.com/item?id=50107379)
 
-**Background**: pgvector is an open-source PostgreSQL extension that adds a vector data type and distance operators so embeddings can be stored and queried next to relational data. Its two main index types are IVFFlat, which clusters vectors with k-means and only searches the nearest clusters at query time, and HNSW, a graph-based approximate nearest neighbor algorithm known for high recall but heavy memory use. Both are approximate indexes that trade a bit of accuracy for large speed gains over exhaustive search.
+**Background**: Open weights means the trained parameters of a model — the numerical values that determine how it computes outputs — are published so anyone can download and run them, although the license still governs whether you may fine-tune or redistribute the model. Local LLM deployment tools such as MLX, llama.cpp-based runners and Unsloth let users execute these models on their own hardware instead of paying per-token API fees. Apple's Mac Studio is popular for this because its unified memory architecture allows very large models to be held in RAM/VRAM, and Apple has published research on MLX and RDMA-based distributed inference across clusters of Mac Studios. Mixture-of-experts models keep inference cost low by activating only a fraction of their total parameters per token.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://pgvector.app/">pgvector — Vector Similarity Search for Postgres</a></li>
-<li><a href="https://deepwiki.com/pgvector/pgvector/5.2.1-ivfflat-overview-and-structure">IVFFlat Overview and Structure | pgvector/pgvector | DeepWiki</a></li>
-<li><a href="https://zilliz.com/learn/hierarchical-navigable-small-worlds-HNSW">Understanding Hierarchical Navigable Small Worlds ( HNSW )</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Open-weight_model">Open-weight model</a></li>
+<li><a href="https://pyimagesearch.com/2024/05/13/harnessing-power-at-the-edge-an-introduction-to-local-large-language-models/">Harnessing Power at the Edge: An Introduction to Local Large ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Hacker News commenters were largely intrigued but raised concrete blockers: the 1968-dimension cap and PostgreSQL 18 requirement make adoption hard for existing deployments, and several questioned how filtering and multi-tenant scoping would work with post-filtering only. Others welcomed the competition, with one user praising VectorChord for halving Postgres costs on fast NVMe disks, while another asked why Tiger Data shipped a new index instead of maintaining its existing pgvectorscale extension.
+**Discussion**: Sentiment is mixed: several commenters argue the model is not truly open weight because of the license's Model-as-a-Service revenue clause, while others praise Meta for making Muse Spark Open runnable on essentially every popular runner. Performance skeptics point to Artificial Analysis results showing it underperforming Qwen3.8 Flash Next and GLM 5.3 Flash (both runnable on a single B300), and some criticize that these comparisons only cover the highest reasoning level, which is impractical for high-volume production. Others frame the release as vindication of Zuckerberg's long-standing open-weight thesis and of Meta's strategy of building a sticky ecosystem moat, with Simon Willison noting he had to test the model through OpenRouter because he lacks hardware of that scale.
 
-**Tags**: `#vector-search`, `#postgresql`, `#pgvector`, `#database-indexing`, `#AI-infrastructure`
+**Tags**: `#Meta`, `#open-weight models`, `#LLM`, `#AI model release`, `#local inference`
 
 ---
 
 <a id="item-3"></a>
-## [Amazon's Market Power Pushes Up Prices Across the Internet](https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/) ⭐️ 8.0/10
+## [Essay probes mathematicians' existential dread as AI commodifies math](https://www.derekthompson.org/p/i-know-why-the-mathematicians-weep) ⭐️ 8.0/10
 
-An analysis published on not-ship.com argues that Amazon's market power and business practices drive up prices across the broader internet, not just on its own marketplace. The piece sparked a large Hacker News discussion drawing 697 points and 588 comments debating e-commerce dynamics, logistics, product quality and returns. The argument matters because Amazon functions as a de facto price-setter for much of online retail, so shifts in its fees, advertising costs and seller policies ripple out to competitors and consumers alike. It also feeds into ongoing antitrust scrutiny of large platforms in the US and EU, where regulators are debating whether Amazon's dual role as marketplace operator and competing seller distorts competition. The core mechanism described is that sellers must absorb Amazon's referral fees, fulfillment costs and rising ad spend, and then price accordingly — often matching or exceeding prices elsewhere to avoid undercutting themselves on Amazon. Caveats apply: the article's claims are an analytical argument rather than a reported study with disclosed methodology, and Amazon's reliable delivery scheduling is widely cited as a genuine benefit that competitors struggle to replicate.
+Writer Derek Thompson published an essay titled "I know why the mathematicians weep," arguing that mathematicians are experiencing a kind of existential grief as AI systems increasingly automate and commodify mathematical work. The piece ignited a large Hacker News discussion, reaching 333 points and 544 comments. It frames AI's advance not just as job displacement but as a crisis of meaning for knowledge workers whose status, identity and sense of truth-seeking are tied to their craft. The debate resonates well beyond mathematics, touching on how society validates expertise and knowledge when machines can produce plausible results at scale. The item is philosophical commentary rather than a technical breakthrough, and its value lies largely in the community discussion around commodified status, eroded epistemic validation and deontic scorekeeping. Commenters noted that AI has produced hundreds of unread papers while much of the forum has declared certain math problems "solved" without actually reading or verifying the work.
 
-hackernews · sighborg · Oct 14, 09:28 · [Discussion](https://news.ycombinator.com/item?id=50084757)
+hackernews · RickJWagner · Oct 15, 13:44 · [Discussion](https://news.ycombinator.com/item?id=50103630)
 
-**Background**: Amazon operates a two-sided business: it runs a marketplace where third-party merchants sell goods, and it also sells its own private-label and retail products on that same marketplace. Sellers typically pay referral fees on each sale plus fees for using Fulfillment by Amazon (FBA), and increasingly buy sponsored ads to appear in search results. Because Amazon's search results and Buy Box favor certain listings, a common critique — central to antitrust cases — is that the company can shape which products win and at what price, effectively setting a floor for online retail prices more broadly.
+**Background**: Mathematics has long been regarded as the purest form of human reasoning, and proof — verified step by step by peers — is its central currency of truth. Recent AI systems have made notable progress on competition-level and research-level math problems, which unsettles a field whose prestige rests on scarce, hard-won expertise. The essay and discussion explore what happens to that prestige, and to the social process of validating truth, when machine-generated mathematics becomes abundant.
 
-**Discussion**: Commenters largely agree that Amazon's dominance now rests on logistics and frictionless returns rather than low prices, with one noting it reliably hits promised delivery dates about 95 out of 100 times. Several complain that non-branded search results are increasingly indistinguishable, low-quality Chinese goods that can be bought cheaper at the source, and others share frustration that independent sellers' advertised return policies are often not honored. A recurring theme is that people still use Amazon for cheap commodity items but go directly to manufacturers or specialty retailers (B&H, Adorama, REI, Sweetwater) for major purchases.
+**Discussion**: Commenters largely agreed that the dread stems less from redundancy than from the commodification of whatever grants status and a living wage, since thousands of hours of struggle can be rendered moot in hindsight. Others mourned a deeper loss — the disappearance of the desire to seek truth, as nothing is validated or tested anymore and plausibility or volume substitutes for rigor. One commenter connected the essay to philosopher Robert Brandom's concept of "deontic scorekeeping," while another warned that history is unkind to those left behind, citing medieval weavers whose guilds once shaped nations before their trade collapsed.
 
-**Tags**: `#Amazon`, `#e-commerce`, `#antitrust`, `#pricing`, `#market power`
+**Tags**: `#AI`, `#mathematics`, `#philosophy`, `#future of work`, `#epistemology`
 
 ---
 
 <a id="item-4"></a>
-## [Tracing where LLM "slop" style comes from in models and training](https://www.reddit.com/r/MachineLearning/comments/1x64lbk/tracing_where_llm_slop_style_comes_from_in_the/) ⭐️ 8.0/10
+## [Anthropic Reports Quarterly Revenue Up Nearly 50% to $16.8B Ahead of IPO](https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/) ⭐️ 8.0/10
 
-A new mechanistic-interpretability writeup locates the recognizable assistant "slop" style in a difference-in-means "register" direction inside Qwen3-4B-Instruct, a direction derived from the model's own exaggerated versus plain writing and which separates 64 hand-written minimal pairs while correlating up to 0.82 with a trope-based slop score on normal output. Tracing training stages on OLMo 2 1B, the author finds the base model already contains the same direction (cosine 0.90–0.97 at middle layers) but writes near the plain end, SFT introduces the rhetorical structures, and DPO doubles the slop score through buzzwords and markdown formatting. Slop style — em dashes, "it's not X, it's Y" constructions, rule-of-three lists and buzzword stacking — is one of the most widely recognized and disliked symptoms of current RLHF-tuned assistants, and this work turns a vague aesthetic complaint into a measurable, editable internal representation. If the direction generalizes beyond the two small models tested, it suggests practitioners could suppress the style at the representation level rather than through brittle prompt bans or token blocklists, and that part of the blame lies in preference data itself, since the chosen response was the sloppier one in 57% of 3,000 OLMo preference pairs. Directional ablation unexpectedly increases slop by up to 89% because clean text projects negatively onto the axis, so the author instead uses fixed-vector subtraction at layers 12–23 within a narrow KL budget of roughly 0.4 nats/token on human text; distilling this into a rank-16 LoRA cuts the slop score by 83% with no system prompt, lower KL than the steering itself, and no measurable drop on a small QA check. The author notes several caveats: the slop scorer is a self-written regex detector, the main results rest on one 4B model plus OLMo 2 1B, and no human evaluation has been run yet, making the work complementary to token-level approaches such as Antislop (Paech et al., 2025).
+Anthropic told investors on Wednesday that its third-quarter revenue (July–September) reached $16.8 billion, up nearly 50% from $11.5 billion in Q2 and roughly $4.8 billion in Q1, according to an FT report. The company also disclosed an adjusted operating margin of 11% excluding stock-based compensation and $1.70 in revenue for every $1 spent on computing power. This is one of the clearest public looks yet at the economics of a frontier AI lab, and it lands just ahead of a potential Anthropic IPO. Positive adjusted operating margins plus a $1.70 revenue-to-compute ratio suggest leading model developers can be unit-economics profitable, which could reshape how investors value the AI sector and how rivals think about training-data dependence. Anthropic told investors that "distillation" — rivals training on its model outputs — accounted for 5% to 7% of revenue, and that it had cut that activity back "materially" in Q3; by one estimate, unnamed labs spent over half a billion dollars distilling Anthropic models in Q2 alone. Notably, Anthropic appears to have stopped relying on the "annualized run-rate revenue" framing it previously used with investors.
 
-reddit · r/MachineLearning · /u/Imaginary_Money2285 · Oct 14, 22:08
+rss · Simon Willison · Oct 15, 13:04
 
-**Background**: A difference-in-means direction is a simple interpretability tool: you average the model's internal activations over two contrasting sets of inputs (here, exaggerated versus plain writing) and subtract the means, producing a vector that points toward the concept — a technique related to earlier work showing such directions are often causally implicated in model behavior. Logit lens is another interpretability method that decodes intermediate-layer activations directly into vocabulary predictions, letting researchers see what the model is "leaning toward" at each layer. In modern LLM training pipelines, SFT (supervised fine-tuning, or instruction tuning) trains on human-written example responses, while DPO (Direct Preference Optimization) trains on pairs of preferred versus rejected responses to align style and behavior with human preferences; LoRA is a parameter-efficient fine-tuning method that learns a small low-rank update instead of modifying all weights, and KL divergence here measures how much the model's output distribution shifts away from the original.
+**Background**: Anthropic is the company behind the Claude family of large language models and one of the leading US frontier AI labs. AI startups have historically reported "annualized run-rate revenue," which extrapolates a recent month or quarter to a full year and can make growth look larger than quarterly figures; shifting to plain quarterly revenue is a sign of maturing reporting. "Knowledge distillation" is a standard machine-learning technique in which a smaller "student" model is trained to mimic a larger "teacher" model, but when applied to a competitor's commercial API it also becomes a way to acquire capability cheaply — while generating large amounts of paid inference traffic for the target lab.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://blog.eleuther.ai/diff-in-means/">Diff - in - Means Concept Editing is Worst-Case Optimal | EleutherAI Blog</a></li>
-<li><a href="https://developers.openai.com/cookbook/examples/fine_tuning_direct_preference_optimization_guide">Fine-Tuning Techniques - Choosing Between SFT, DPO, and RFT ...</a></li>
-<li><a href="https://docs.agilerl.com/en/nightly/tutorials/llm_finetuning/sft_dpo_finetuning.html">LLM Fine-Tuning with SFT and DPO - AgileRL Documentation</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Knowledge_distillation">Knowledge distillation - Wikipedia</a></li>
+<li><a href="https://docs.pytorch.org/tutorials/beginner/knowledge_distillation_tutorial.html">Knowledge Distillation Tutorial</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM`, `#mechanistic-interpretability`, `#fine-tuning`, `#alignment`, `#model-training`
+**Tags**: `#Anthropic`, `#AI industry`, `#IPO`, `#revenue`, `#AI economics`
 
 ---
 
 <a id="item-5"></a>
-## [Anthropic replaces git with in-house Scion version control](https://www.anthropic.com/engineering/redesigning-source-control) ⭐️ 8.0/10
+## [ASML Reportedly Developing a Hybrid Bonding Tool](https://newsletter.semianalysis.com/p/asml-is-building-a-hybrid-bonding) ⭐️ 8.0/10
 
-Anthropic has moved its entire main monorepo off git and onto Scion, an in-house version control system, completing the migration in five months with a team of just seven people. Daily code merges grew from roughly 2,500 to more than 30,000 over that period, and Anthropic reports that Scion uses about 1/200 of the CPU and memory of its previous git mirror architecture, makes CI checkouts roughly 100x faster, and cuts CI compute usage by 25%. It is a rare public case of a major engineering organization abandoning git, the de facto standard version control system for two decades, and it is driven directly by AI agents generating code faster than human-paced tooling can absorb. As more companies adopt agentic coding, the bottleneck shifts from writing code to merging, reviewing, and integrating it, so Scion's design choices are likely to be studied and copied across large engineering teams. Scion flips the git model: the client stays thin and always online while the server performs computation such as commits, merges, rebases, and history/blame queries, with data stored in a distributed fashion. All source control queries are also exposed as APIs, so jobs such as automated bisect and revert pipelines can run without checking out a local repository at all.
+Semianalysis reports that ASML appears to be developing a hybrid bonding tool, based on its patent filings, an unnamed news report, and its own technology roadmap. ASML has made no official announcement or product launch confirming the effort. ASML is the dominant supplier of lithography systems and currently has no presence in the advanced packaging equipment market, so an entry into hybrid bonding could disrupt the supply chain for 3D chip stacking used in AI and high-performance computing. This would put ASML in competition with established bonding tool vendors and could reshape the economics of advanced packaging. The claim is unconfirmed and rests on indirect evidence—patents, a news report, and roadmap signals—rather than a formal announcement, so timing, technical specifications, and target customers remain unknown. Hybrid bonding requires extremely flat dielectric surfaces with embedded copper pads to achieve very fine interconnect pitch, a demanding process that differs from ASML's core lithography expertise.
 
-telegram · zaihuapd · Oct 14, 02:30
+rss · Semianalysis · Oct 15, 19:27
 
-**Background**: Git is the distributed version control system that underpins almost all modern software development, and large companies typically run it as a giant "monorepo" plus a mirror layer that CI systems copy from. Anthropic is the AI lab behind the Claude models and Claude Code, and its own engineers increasingly use those agents to write code, which pushed daily merge volume far beyond what the git-based setup was designed for. CI (continuous integration) is the automated pipeline that builds and tests every change, and "checkout" is the step where a machine downloads a copy of the repository before building it.
+**Background**: Hybrid bonding is an advanced packaging technique in which copper pads embedded in an extremely flat dielectric surface allow two wafers or dies to bond directly at very fine interconnect pitch. Advanced packaging refers to the assembly and interconnection of multiple dies, chiplets, or heterogeneous components into a single package, sitting between front-end fabrication and traditional IC packaging. As shrinking transistors becomes harder and more costly, techniques like TSMC's CoWoS and 3D stacking have become essential for expanding Moore's Law, especially for AI and high-performance computing chips.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.anthropic.com/engineering/redesigning-source-control">Redesigning source control at Anthropic \ Anthropic</a></li>
-<li><a href="https://officechai.com/ai/anthropic-builds-in-house-version-of-git-called-scion-after-code-merges-rise-12x-in-4-months/">Anthropic Builds In-house Version Of Git Called Scion After ...</a></li>
-<li><a href="https://alphasignal.ai/news/anthropic-ditched-git-and-built-scion-after-claude-caused-12x-merge-surge">Anthropic Ditched Git and Built Scion After Claude Caused 12x ...</a></li>
+<li><a href="https://www.linkedin.com/posts/asmpt-semi-solutions_??-???-????-???-??-??-activity-7460607355387281408-2YHp">What is Hybrid Bonding in Semiconductor Technology | LinkedIn</a></li>
+<li><a href="https://uanalyze.com.tw/articles/918626067">【先進封裝】先進封裝產業技術- Hybrid Bonding | 優分析UAnalyze...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Advanced_packaging_(semiconductors)">Advanced packaging (semiconductors)</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#version-control`, `#git`, `#Anthropic`, `#CI/CD`, `#developer-infrastructure`
+**Tags**: `#semiconductors`, `#ASML`, `#hybrid bonding`, `#advanced packaging`, `#chip manufacturing`
 
 ---
 
 <a id="item-6"></a>
-## [First Stargardt Patient Receives PRIMA Visual Chip, Regains Reading](https://science.xyz/news/stargardt-first-rehab/) ⭐️ 8.0/10
+## [Randomly Wired Networks Self-Assemble Learning Circuitry, Rivaling Backpropagation](https://www.reddit.com/r/MachineLearning/comments/1x6hmyg/how_artificial_neural_networks_build_their_own/) ⭐️ 8.0/10
 
-Science Corporation implanted its PRIMA visual restoration chip into the first patient with Stargardt disease, a condition that had left them blind. The surgery took place in May at Sydney Eye Hospital in Australia, and during early rehabilitation the patient first saw letters and then read a whole word, according to CEO Max Hodak. This is one of the first demonstrations that a retinal prosthesis can partially restore functional vision in inherited Stargardt disease, not just in age-related macular degeneration, potentially opening the technology to a much broader group of blind patients. It marks a meaningful step for retinal prosthetics and neurotech as they move from laboratory concepts toward real clinical rehabilitation. The PRIMA implant goes into the subretinal space and works together with a special pair of glasses that sends light signals to power and program the chip; the current version is about 2 mm wide (roughly 7° of visual angle) and packs 378 light-powered pixels. Importantly, PRIMA is already approved in Europe for age-related macular degeneration, whereas this Stargardt implantation is part of a clinical trial, so the reading result remains an early, single-patient rehabilitation milestone rather than a proven therapy.
+A PNAS paper published on 9 October 2026, titled "How Biological Synapses Self-Assemble Gradient Learning" and covered by MIT News on 13 October, reports that networks of randomly interconnected neuron-like units governed by shared local plasticity rules can spontaneously organize into learning motifs and then handle pattern recognition and image classification. The reported performance is similar to that of the backpropagation-trained networks used as the comparison baseline. The result reframes the design question: instead of hand-designing a learning circuit, researchers specify local rules and let the learning machinery organize itself, which points toward biologically plausible alternatives to global error backpropagation. If such self-organizing mechanisms scale and generalize, they could influence how the field thinks about learning rules, credit assignment and brain-inspired hardware. The comparison with backpropagation is limited to the basic pattern-recognition and image-classification tasks tested, and the authors explicitly caution that self-organization does not establish that the brain actually uses this mechanism; open questions include how stable the discovered motifs are under different initial connectivity and whether the approach extends beyond the demonstrated tasks.
 
-telegram · zaihuapd · Oct 14, 04:30
+reddit · r/MachineLearning · /u/Dorian182 · Oct 15, 10:01
 
-**Background**: Stargardt disease is the most common inherited single-gene retinal disease, usually caused by bi-allelic mutations in the ABCA4 gene, and it progressively destroys the macula from childhood or adolescence, affecting roughly 150,000 people worldwide who currently have no cure. It damages the retina's outer layer, specifically the light-sensitive photoreceptors, so PRIMA bypasses those lost cells and instead electrically stimulates the remaining retinal cells. The system pairs a tiny light-powered subretinal implant with a camera-equipped pair of glasses that converts images into light signals, effectively replicating the function of the photoreceptors that have died.
+**Background**: Artificial neural networks are typically trained by backpropagation, which propagates a global error signal backward through the network — a procedure widely considered biologically implausible because biological synapses only have access to local information. Synaptic plasticity refers to activity-dependent changes in connection strength, and prior work has explored local plasticity rules and meta-learned plastic networks, but usually with a predefined architecture rather than one that organizes itself. This paper inverts that: the network's connectivity starts random, and shared local plasticity rules let the learning circuitry assemble on its own.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Stargardt_disease">Stargardt disease</a></li>
-<li><a href="https://science.xyz/technologies/prima/general-interest/">PRIMA Visual Prosthesis | Science Corporation</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Synaptic_plasticity">Synaptic plasticity - Wikipedia</a></li>
+<li><a href="https://infoscience.epfl.ch/server/api/core/bitstreams/fccff930-b75c-4944-9ddc-c9f6b24617a2/content">Local plasticity rules can learn deep representations</a></li>
+<li><a href="https://papers.nips.cc/paper/2020/file/f291e10ec3263bd7724556d62e70e25d-Paper.pdf">Learning to Learn with Feedback and Local Plasticity</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#neurotech`, `#vision-restoration`, `#medical-devices`, `#clinical-trials`, `#Stargardt-disease`
+**Discussion**: The accompanying discussion treats the work as a substantive and novel step rather than an immediate paradigm shift, raising open questions about the stability of the discovered motifs under varying initial connectivity and about generalization beyond the demonstrated tasks, while noting that the authors appropriately caveat that self-organization does not imply the brain uses this mechanism.
+
+**Tags**: `#neuroscience`, `#self-organization`, `#synaptic-plasticity`, `#backpropagation-alternatives`, `#machine-learning-research`
 
 ---
 

@@ -1,143 +1,144 @@
 # Horizon 每日速递 - 2026-10-15
 
-> 从 44 条内容中筛选出 6 条重要资讯。
+> 从 39 条内容中筛选出 6 条重要资讯。
 
 ---
 
-1. [Cloudflare：Yandex 宕机期间恶意机器人只是转移阵地，并未停摆](#item-1) ⭐️ 8.0/10
-2. [Timescale 发布 pg_vectorsearch，声称 Postgres 向量索引速度超越 pgvector](#item-2) ⭐️ 8.0/10
-3. [亚马逊的市场势力如何抬高整个互联网的价格](#item-3) ⭐️ 8.0/10
-4. [追踪大模型“slop”文风在模型内部与训练各阶段的来源](#item-4) ⭐️ 8.0/10
-5. [Anthropic 用自研 Scion 版本控制系统全面替换 git](#item-5) ⭐️ 8.0/10
-6. [首例 Stargardt 病患者植入 PRIMA 视觉芯片，重获识词能力](#item-6) ⭐️ 8.0/10
+1. [AdFection：定向广告被武器化为零点击间谍软件投递通道](#item-1) ⭐️ 9.0/10
+2. [Meta 发布 Muse Spark Open：面向 Mac Studio 本地部署的 816B 开放权重模型](#item-2) ⭐️ 8.0/10
+3. [随笔探讨 AI 冲击下数学家的存在主义焦虑](#item-3) ⭐️ 8.0/10
+4. [Anthropic 上市前披露季度营收近 168 亿美元，环比增长近 50%](#item-4) ⭐️ 8.0/10
+5. [ASML 据传正在开发混合键合设备](#item-5) ⭐️ 8.0/10
+6. [随机连接的神经网络可自组织出学习回路，性能媲美反向传播](#item-6) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Cloudflare：Yandex 宕机期间恶意机器人只是转移阵地，并未停摆](https://blog.cloudflare.com/yandex-outage/) ⭐️ 8.0/10
+## [AdFection：定向广告被武器化为零点击间谍软件投递通道](https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/) ⭐️ 9.0/10
 
-Cloudflare 在其博客发布分析称，在近期 Yandex 宕机期间，流经其网络的恶意机器人流量并未消失，而是改变了行为模式，没有任何证据显示社交媒体操纵活动因此下线。这一结论直接反驳了此前广泛流传的“宕机瘫痪了俄罗斯水军/机器人活动”的说法。 人们常常把网络宕机当作“虚假信息或机器人基础设施被打击”的证据，而这项分析表明，这类结论很容易来自对流量数据的误读。它强调：要判断恶意活动是否真的被扰乱，必须依赖大规模互联网测量数据，而不是“社交媒体好像安静了”的主观印象。 Cloudflare 表示，在其整个网络上都没有证据显示相关打击行动使社交媒体操纵活动下线，或对互联网上的恶意活动造成扰乱。一个重要的局限是：Cloudflare 只能观测流经其自身网络的流量，无法看到社交平台内部的账号行为或内容层面的活动。
+Citizen Lab 发布研究报告，首次公开确认定向广告基础设施可被用来投递零点击雇佣兵间谍软件，并将该手法命名为“AdFection”。该行动与一家名为 Discover-Tech 的以色列注册广告公司有关，并曾用于向半岛电视台的设备植入雇佣兵间谍软件厂商 Candiru 的产品。 这表明被数十万款应用和网站使用的广告技术供应链，可能被改造成精准监控的投递机制，使广告中间商与攻击性网络武器供应商之间的界限变得模糊。这将迫使应用商店、广告网络和监管机构把广告 SDK 视为严重的安全与人权风险来源。 根据相关报道和 Citizen Lab 的报告，这些广告覆盖约 7 万多款应用和 12 万多个网站，感染过程无需用户任何点击；不过讨论中一位广告技术工程师认为，报告对真正触发漏洞利用的具体机制描述得相当含糊。研究还指出，这家广告公司的服务器与雇佣兵监控厂商存在关联，后者正是借助此类渠道在全球追踪和入侵设备。
 
-hackernews · coloneltcb · 10月14日 20:29 · [社区讨论](https://news.ycombinator.com/item?id=50094673)
+hackernews · jcomp · 10月15日 10:43 · [社区讨论](https://news.ycombinator.com/item?id=50101813)
 
-**背景**: Yandex 是俄罗斯最大的互联网公司，运营着该国占主导地位的搜索引擎以及众多在线服务。当这样的大型服务商发生宕机时，评论者往往假定依赖它的恶意活动——例如由被入侵设备组成、受攻击者远程控制的僵尸网络（botnet）——也会随之崩溃。Cloudflare Radar 是 Cloudflare 的公开平台，基于其全球网络所观测到的流量，发布关于全球互联网流量、攻击趋势和宕机的数据洞察。
+**背景**: 零点击间谍软件是指无需受害者任何操作即可安装并运行的恶意软件——不需要点击链接，也不需要打开文件——通常通过利用设备操作系统或应用中尚未公开的漏洞实现。“雇佣兵间谍软件”指私营公司出售给政府的商业入侵工具，因其目标通常依据身份和掌握的信息进行挑选，被视为“精准工具”。Citizen Lab 是多伦多大学的一个研究机构，曾记录多起此类攻击行动；而广告技术（adtech）则指嵌入应用和网站中的广告网络、交易平台和 SDK 所构成的复杂生态。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://radar.cloudflare.com/about">About - Cloudflare Radar</a></li>
-<li><a href="https://blog.cloudflare.com/evolution-of-cloudflare-radar/">Making the Internet observable: the evolution of Cloudflare Radar</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Botnet">Botnet</a></li>
+<li><a href="https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/">Exposing AdFection: How Discover-Tech Turned Targeted Ads ...</a></li>
+<li><a href="https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/">Targeted ads delivered 0-click exploits to install mercenary ...</a></li>
+<li><a href="https://www.wired.com/story/nightmare-scenario-zero-click-spyware-is-infecting-phones-via-targeted-ads/">‘Nightmare Scenario’: Zero-Click Spyware Is ... - WIRED</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者总体上认可这一结论，有人称这才是被埋没的“核心要点”，直接反驳了“俄罗斯水军集体下线”的传言；也有人指出，看似异常的流量很可能只是搜索引擎爬虫。还有人提出替代解释，例如机器人依赖新闻抓取来判断发帖重点，因此社交媒体上显得安静并不代表相关操作已经停摆。
+**社区讨论**: Hacker News 上的讨论非常热烈但意见分歧：一位从业十多年的广告技术工程师批评报告带有煽动性，并指出在如此复杂的生态中根本不存在单一的“广告提供商”可以追责；而另一些评论者则主张应限制整个在线广告行业，或认为以色列网络安全公司必然受本国政府支配。还有人从地缘政治角度发问，为何以色列能成为如此强势的网络强国。
 
-**标签**: `#Cloudflare`, `#Yandex`, `#botnets`, `#cybersecurity`, `#internet-measurement`
+**标签**: `#cybersecurity`, `#spyware`, `#adtech`, `#privacy`, `#Citizen Lab`
 
 ---
 
 <a id="item-2"></a>
-## [Timescale 发布 pg_vectorsearch，声称 Postgres 向量索引速度超越 pgvector](https://github.com/timescale/pg_vectorsearch) ⭐️ 8.0/10
+## [Meta 发布 Muse Spark Open：面向 Mac Studio 本地部署的 816B 开放权重模型](https://research.meta.ai/blog/muse-spark-open) ⭐️ 8.0/10
 
-Timescale（现名 Tiger Data）发布了 pg_vectorsearch，这是一个新的 PostgreSQL 扩展，提供名为 PRISM 的量化 IVF 索引，项目方声称其速度超过 pgvector 已有的 IVFFlat 和 HNSW 索引。该扩展要求 PostgreSQL 18 及以上版本，向量维度上限为 1968，公司 CTO 同日发布了一篇关于 PRISM 架构的技术深度解析。 pgvector 是 Postgres 内部向量检索事实上的标准，因此一个声称性能更优的竞争性索引直接挑战了那些在现有关系数据库上构建 RAG 和 AI 应用的团队的默认选择。这也加剧了 VectorChord 等低内存向量索引工具之间的竞争；随着基于 NVMe 的存储让磁盘友好型索引比吃内存的 HNSW 图更具吸引力，这一竞争显得格外重要。 PRISM 是一种量化的倒排文件（IVF）索引，单个向量维度被硬性限制在 1968 维以内，因此维度更高的现有 HNSW 索引目前无法迁移，而且该扩展只能在 PostgreSQL 18+ 上运行。社区成员还指出，其过滤似乎仅支持后置过滤（post-filtering），这使得按租户、用户或权限范围进行查询时很难高效实现。
+Meta 发布了开放权重模型 Muse Spark Open，其参数规模达到 8160 亿（Hugging Face 仓库名为 meta-models/Muse-Spark-Open-816B-A42B），并明确针对 Mac Studio 本地运行进行了优化。Meta 的部署文档显示，该模型可在 MLX、Unsloth 等多种推理运行器上运行，而不是绑定在单一运行时上。 一家美国前沿实验室推出专为单台桌面级设备量身打造的大模型，说明高强度的开放权重推理正在从数据中心下沉到工作站，这可能会改变开发者和中小团队采用大模型的方式。与此同时，这也加剧了与中国实验室（如阿里巴巴的 Qwen 与智谱的 GLM）在开放权重领域的竞争，而后者发布的模型正是外界用来衡量 Meta 的新标杆。 模型名称中的 "A42B" 后缀表明它采用混合专家（MoE）架构、约有 420 亿激活参数，这也是尽管总参数高达 8160 亿却仍能本地推理的关键原因。其许可证并非完全宽松：其中包含一条 "Model as a Service" 条款，若被许可方及其关联公司的总营收超过 2000 万美元，则不得通过 API 或类似接口向第三方提供该模型；同时早期的基准测试评论认为，该模型的表现落后于 Qwen3.8 Flash Next 和 GLM 5.3 Flash。
 
-hackernews · jascha_eng · 10月14日 11:47 · [社区讨论](https://news.ycombinator.com/item?id=50086165)
+hackernews · bigwheels · 10月15日 17:47 · [社区讨论](https://news.ycombinator.com/item?id=50107379)
 
-**背景**: pgvector 是一个开源 PostgreSQL 扩展，它添加了向量数据类型和距离运算符，使得嵌入向量可以与关系型数据一起存储和查询。它主要有两种索引类型：IVFFlat 使用 k-means 对向量聚类，查询时只搜索最近的若干簇；HNSW 则是基于图的近似最近邻算法，以高召回率著称但内存占用较大。两者都是近似索引，用少量精度损失换取相比暴力搜索的大幅速度提升。
+**背景**: 开放权重（open weights）指的是把模型训练好的参数——也就是决定其计算输出方式的那些数值——公开发布，任何人都可以下载并运行，但许可证仍然决定你能否微调或再分发该模型。MLX、基于 llama.cpp 的运行器以及 Unsloth 等本地部署工具，让用户可以在自有硬件上运行这些模型，而不必按 token 支付 API 费用。苹果的 Mac Studio 之所以在此类场景中受欢迎，是因为其统一内存架构可以容纳非常大的模型，苹果也发表过关于 MLX 以及基于 RDMA 的多台 Mac Studio 分布式推理的研究。混合专家（MoE）模型通过每个 token 只激活一部分参数来压低推理成本。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://pgvector.app/">pgvector — Vector Similarity Search for Postgres</a></li>
-<li><a href="https://deepwiki.com/pgvector/pgvector/5.2.1-ivfflat-overview-and-structure">IVFFlat Overview and Structure | pgvector/pgvector | DeepWiki</a></li>
-<li><a href="https://zilliz.com/learn/hierarchical-navigable-small-worlds-HNSW">Understanding Hierarchical Navigable Small Worlds ( HNSW )</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Open-weight_model">Open-weight model</a></li>
+<li><a href="https://pyimagesearch.com/2024/05/13/harnessing-power-at-the-edge-an-introduction-to-local-large-language-models/">Harnessing Power at the Edge: An Introduction to Local Large ...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: Hacker News 的评论者总体表现出兴趣，但也提出了具体的阻碍：1968 维上限和 PostgreSQL 18 的要求让现有部署难以采用，还有多人质疑仅支持后置过滤时，过滤与多租户隔离该如何实现。也有人对竞争表示欢迎，一位用户称赞 VectorChord 借助高速 NVMe 磁盘让 Postgres 成本减半，另一位则质疑 Tiger Data 为何不继续维护已有的 pgvectorscale 扩展，而是另起炉灶推出新索引。
+**社区讨论**: 评论区的整体情绪褒贬不一：一些评论者认为，由于许可证中含有针对 "Model as a Service" 的营收条款，该模型算不上真正的开放权重；另一些人则称赞 Meta 让 Muse Spark Open 几乎能在所有主流运行器上跑起来。对性能持怀疑态度的人引用 Artificial Analysis 的结果，指出其表现不如 Qwen3.8 Flash Next 和 GLM 5.3 Flash（后两者都可在单台 B300 上运行），也有人批评这些对比只覆盖最高推理档位，对高并发生产场景并不实用。还有评论认为这次发布印证了扎克伯格长期坚持的开放权重思路，也印证了 Meta 通过构建高粘性生态护城河的战略；Simon Willison 则提到，由于自己没有这种规模的硬件，只能通过 OpenRouter 来测试该模型。
 
-**标签**: `#vector-search`, `#postgresql`, `#pgvector`, `#database-indexing`, `#AI-infrastructure`
+**标签**: `#Meta`, `#open-weight models`, `#LLM`, `#AI model release`, `#local inference`
 
 ---
 
 <a id="item-3"></a>
-## [亚马逊的市场势力如何抬高整个互联网的价格](https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/) ⭐️ 8.0/10
+## [随笔探讨 AI 冲击下数学家的存在主义焦虑](https://www.derekthompson.org/p/i-know-why-the-mathematicians-weep) ⭐️ 8.0/10
 
-not-ship.com 发表的一篇分析文章认为，亚马逊的市场势力与商业做法不仅影响自家平台，还抬高了整个互联网的商品价格。该文在 Hacker News 上引发热烈讨论，获得 697 分、588 条评论，围绕电商生态、物流、商品质量与退货体验展开辩论。 这一论点之所以重要，是因为亚马逊实际上已成为大量在线零售的定价基准，其佣金、广告成本与卖家政策的变化会层层传导给竞争对手和消费者。它也契合当前美国和欧盟对大型平台的反垄断审查，监管机构正在争论亚马逊既做市场运营方、又做自营卖方的双重身份是否扭曲了竞争。 文章描述的核心机制是：卖家必须承担亚马逊的佣金、物流仓储费用以及不断上涨的广告支出，然后据此定价，往往会把其他渠道的价格定得与亚马逊持平甚至更高，以免在亚马逊上自我压价。需要注意的局限是：该文属于分析性论述，而非披露了研究方法的实证报告；同时，亚马逊可靠的配送时效被普遍视为其真实优势，竞争对手很难复制。
+作家 Derek Thompson 发表了题为《我知道数学家为何哭泣》的随笔，认为随着 AI 系统日益自动化并商品化数学工作，数学家正经历一种存在主义式的悲伤。该文在 Hacker News 上引发大规模讨论，获得 333 分、544 条评论。 它把 AI 的进步不仅框定为失业问题，更视为知识工作者的意义危机——他们的地位、身份认同与对真理的追求都系于自身技艺之上。这场讨论远远超出数学领域，触及当机器能大规模产出看似可信的结果时，社会如何认证专业能力与知识。 这一条目属于哲学性评论，而非技术突破，其价值主要体现在围绕地位商品化、认知认证的瓦解以及道义计分（deontic scorekeeping）展开的社区讨论中。有评论者指出，AI 已产出上百篇无人阅读的论文，而论坛上很多人却在不阅读、不验证的情况下宣称某些数学问题已被“解决”。
 
-hackernews · sighborg · 10月14日 09:28 · [社区讨论](https://news.ycombinator.com/item?id=50084757)
+hackernews · RickJWagner · 10月15日 13:44 · [社区讨论](https://news.ycombinator.com/item?id=50103630)
 
-**背景**: 亚马逊经营的是双边业务：一方面运营第三方卖家销售商品的市场平台，另一方面又在同一平台上销售自营和自有品牌商品。卖家通常要按每笔销售支付佣金，并为使用亚马逊物流（FBA）支付仓储配送费，如今还需要购买赞助广告才能在搜索结果中曝光。由于亚马逊的搜索排名和“黄金购物车”（Buy Box）会偏向特定商品，一种常见批评——也是反垄断案件的核心——是该公司能够决定哪些商品胜出、以什么价格出售，从而在事实上为更广泛的在线零售价格设定了下限。
+**背景**: 长期以来，数学被视为人类理性最纯粹的形态，而经过同行逐步验证的“证明”则是其核心的真理通货。近年来的 AI 系统在竞赛级乃至研究级数学问题上取得了显著进展，这动摇了一个以稀缺、来之不易的专业能力为基础建立声望的领域。这篇随笔与讨论探讨的正是：当机器生成的数学变得唾手可得时，这种声望以及验证真理的社会过程会发生什么。
 
-**社区讨论**: 评论者大体认同，如今亚马逊的优势来自物流和无摩擦退货，而不是低价，有人指出它承诺的送达日期大约 100 次里有 95 次能兑现。不少人抱怨非品牌搜索结果越来越同质化，多为质量存疑的廉价中国商品，直接找源头买反而更便宜；也有人吐槽独立卖家宣传的退货政策常常不兑现。一个反复出现的观点是：人们仍会在亚马逊购买扎带、纸张、清洁用品等低价日用品，但大件消费会直接去厂商官网或专业零售商（如 B&H、Adorama、REI、Sweetwater）。
+**社区讨论**: 评论者大体认同，这种恐惧与其说源于被取代，不如说源于那些赋予人地位与生计的东西被商品化，因为数千小时的奋斗事后看来可能变得毫无意义。也有人哀悼一种更深的丧失——追寻真理的欲望正在消失，因为一切都不再被验证或检验，可信度或声量取代了严谨。一位评论者将文章与哲学家 Robert Brandom 的“道义计分”概念联系起来，另一位则警告历史对落伍者并不仁慈，并以中世纪织工为例：他们的行会曾塑造国家，最终行业却轰然崩塌。
 
-**标签**: `#Amazon`, `#e-commerce`, `#antitrust`, `#pricing`, `#market power`
+**标签**: `#AI`, `#mathematics`, `#philosophy`, `#future of work`, `#epistemology`
 
 ---
 
 <a id="item-4"></a>
-## [追踪大模型“slop”文风在模型内部与训练各阶段的来源](https://www.reddit.com/r/MachineLearning/comments/1x64lbk/tracing_where_llm_slop_style_comes_from_in_the/) ⭐️ 8.0/10
+## [Anthropic 上市前披露季度营收近 168 亿美元，环比增长近 50%](https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/) ⭐️ 8.0/10
 
-一篇新的机制可解释性研究把人们熟悉的大模型“slop”文风定位为 Qwen3-4B-Instruct 内部的一个 difference-in-means“语域（register）”方向：该方向由模型自身夸张写法与平实写法的差异得出，能区分 64 组手工构造的最小对比句，并与基于套路词（trope）的 slop 评分在正常输出上相关度最高达 0.82。在研究训练阶段时，作者在 OLMo 2 1B 上发现基座模型已存在同一方向（中间层余弦相似度 0.90–0.97）但输出偏向平实一端，SFT 引入了修辞结构，而 DPO 通过流行术语和 Markdown 排版使 slop 评分翻倍。 “slop”文风——破折号、“不是 X，而是 Y”的句式、三连列表和术语堆砌——是当前 RLHF 调优助手最广为人知也最令人反感的症状之一，而这项工作把一种模糊的审美抱怨变成了可测量、可编辑的内部表征。如果该方向能推广到所测两个小模型之外，就意味着从业者可以在表征层面抑制这种风格，而不必依赖脆弱的提示词禁令或 token 黑名单；同时也说明问题部分出在偏好数据本身——在 OLMo 的 3000 组偏好数据中，有 57% 的情况被选中的回答恰恰是更“slop”的那个。 方向消融（directional ablation）反而会让 slop 上升最多 89%，因为干净文本在该轴上的投影为负，因此作者改用第 12–23 层的固定向量相减，并把 KL 预算控制在人类文本约 0.4 nats/token 的狭窄范围内；将这一操作蒸馏为一个 rank-16 的 LoRA 后，在无系统提示的情况下将 slop 评分降低 83%，KL 比直接引导（steering）更低，且在一项小型问答检查上无明显性能下降。作者也指出了若干局限：slop 打分器是自己写的正则检测器，主要结论仅基于一个 4B 模型加 OLMo 2 1B，且尚未进行人工评估，因此该工作与 Antislop（Paech 等，2025）这类 token 层面的方法形成互补关系。
+据《金融时报》报道，Anthropic 周三向投资者披露，其第三季度（7 月至 9 月）营收达到 168 亿美元，较第二季度的 115 亿美元增长近 50%，而第一季度约为 48 亿美元。公司同时披露，剔除股权激励后的调整后营业利润率为 11%，每在算力上投入 1 美元可带来 1.70 美元的营收。 这是迄今外界得以窥见前沿 AI 实验室经济状况最清晰的窗口之一，而披露时机又恰在 Anthropic 可能启动 IPO 之前。正的调整后营业利润率加上 1.70 美元的营收/算力比，说明头部模型开发商可以实现单位经济盈利，这或将重塑投资者对 AI 板块的估值逻辑，也影响竞争对手对训练数据依赖的考量。 Anthropic 向投资者表示，“蒸馏”——即竞争对手用其模型输出训练自家模型——贡献了 5% 至 7% 的营收，而公司在第三季度已“大幅”削减了这部分业务；粗略推算，仅第二季度未具名的实验室就为蒸馏 Anthropic 模型花费了超过 5 亿美元。值得注意的是，Anthropic 似乎已不再沿用此前对投资者使用的“年化运行率营收”（annualized run-rate revenue）口径。
 
-reddit · r/MachineLearning · /u/Imaginary_Money2285 · 10月14日 22:08
+rss · Simon Willison · 10月15日 13:04
 
-**背景**: difference-in-means 方向是一种简单的可解释性工具：把模型在两组对立输入（这里是夸张写法与平实写法）上的内部激活分别求平均再相减，得到一个指向该概念的向量；已有研究（如 LEACE 相关工作）表明这类方向往往与模型行为存在因果联系。Logit lens 是另一种可解释性方法，它把中间层的激活直接解码成词表预测，让研究者看到模型在每一层“倾向于”输出什么。在现代大模型训练流程中，SFT（监督微调，即指令微调）在人工撰写的示例回答上训练，DPO（直接偏好优化）则在“被偏好”与“被拒绝”的回答对上训练，以对齐风格与行为；LoRA 是一种参数高效微调方法，只学习一个小的低秩增量而不改动全部权重，而这里的 KL 散度用来衡量模型输出分布相对原始模型偏移了多少。
+**背景**: Anthropic 是 Claude 系列大语言模型的开发公司，也是美国领先的前沿 AI 实验室之一。AI 初创企业过去常披露“年化运行率营收”，即把最近一个月或一个季度的收入外推到全年，这会让增长看起来比实际季度数字更亮眼；转向直接披露季度营收，是财报口径成熟的信号。“知识蒸馏”是机器学习中的一种常规技术，即让较小的“学生”模型模仿较大的“教师”模型的行为；但当它被用于竞争对手的商业 API 时，也成为一种以低成本获取能力的途径，同时会给被蒸馏的一方带来大量付费推理流量。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://blog.eleuther.ai/diff-in-means/">Diff - in - Means Concept Editing is Worst-Case Optimal | EleutherAI Blog</a></li>
-<li><a href="https://developers.openai.com/cookbook/examples/fine_tuning_direct_preference_optimization_guide">Fine-Tuning Techniques - Choosing Between SFT, DPO, and RFT ...</a></li>
-<li><a href="https://docs.agilerl.com/en/nightly/tutorials/llm_finetuning/sft_dpo_finetuning.html">LLM Fine-Tuning with SFT and DPO - AgileRL Documentation</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Knowledge_distillation">Knowledge distillation - Wikipedia</a></li>
+<li><a href="https://docs.pytorch.org/tutorials/beginner/knowledge_distillation_tutorial.html">Knowledge Distillation Tutorial</a></li>
 
 </ul>
 </details>
 
-**标签**: `#LLM`, `#mechanistic-interpretability`, `#fine-tuning`, `#alignment`, `#model-training`
+**标签**: `#Anthropic`, `#AI industry`, `#IPO`, `#revenue`, `#AI economics`
 
 ---
 
 <a id="item-5"></a>
-## [Anthropic 用自研 Scion 版本控制系统全面替换 git](https://www.anthropic.com/engineering/redesigning-source-control) ⭐️ 8.0/10
+## [ASML 据传正在开发混合键合设备](https://newsletter.semianalysis.com/p/asml-is-building-a-hybrid-bonding) ⭐️ 8.0/10
 
-Anthropic 已将主仓库整体从 git 迁移到自研版本控制系统 Scion，整个迁移仅由七人团队在五个月内完成。同期每日合并代码量从约 2500 次增长到超过 3 万次，Anthropic 称 Scion 的 CPU 与内存占用仅为原先 git 镜像架构的约 1/200，CI 检出速度提升约百倍，CI 算力消耗下降 25%。 这是一个大型工程组织公开弃用 git 的罕见案例——git 二十年来一直是事实上的版本控制标准，而这次迁移的直接动因是 AI 智能体产生代码的速度已经超过了按人类节奏设计的工具链的承受能力。随着越来越多公司采用智能体编程，瓶颈正从“写代码”转移到“合并、评审与集成代码”，因此 Scion 的设计取舍很可能会被大量工程团队研究和借鉴。 Scion 颠覆了 git 的模型：客户端保持轻量并始终在线，提交、合并、变基以及历史与 blame 查询等计算全部由服务端承担，数据则以分布式方式存储。所有版本控制查询同时以 API 形式暴露，因此自动 bisect、自动回滚等流水线无需检出本地仓库即可运行。
+Semianalysis 报道称，ASML 似乎正在开发一款混合键合（hybrid bonding）设备，依据是其专利申请文件、一则新闻报道以及公司自身的技术路线图。ASML 尚未发布任何官方公告或产品发布来证实这一动向。 ASML 是光刻系统的主导供应商，目前在先进封装设备市场尚无布局，因此其进入混合键合领域可能会扰乱用于 AI 和高性能计算的 3D 芯片堆叠供应链。这将使 ASML 与现有的键合设备厂商展开竞争，并可能重塑先进封装的经济格局。 该说法尚未得到证实，依据的是间接证据——专利、一则新闻报道和路线图信号——而非正式公告，因此时间表、技术规格和目标客户均不明确。混合键合需要带有嵌入式铜焊盘的极平坦介电表面，以实现极细的互连间距，这与 ASML 的核心光刻专长有较大差异，工艺难度很高。
 
-telegram · zaihuapd · 10月14日 02:30
+rss · Semianalysis · 10月15日 19:27
 
-**背景**: Git 是几乎所有现代软件开发所依赖的分布式版本控制系统，大型公司通常以巨大的“单体仓库（monorepo）”形式使用它，并加一层镜像供 CI 系统拉取。Anthropic 是 Claude 模型和 Claude Code 背后的 AI 实验室，其内部工程师越来越多地借助这些智能体写代码，导致每日合并量远超基于 git 的架构所设计的承载能力。CI（持续集成）是自动构建与测试每一次改动的流水线，而“检出（checkout）”是机器在构建前下载仓库副本的步骤。
+**背景**: 混合键合是一种先进封装技术，其做法是在极平坦的介电表面上嵌入铜焊盘，使两片晶圆或裸片能够以极细的互连间距直接键合。先进封装指的是将多个裸片、chiplet 或异质元件组装并互连到单一封装中的一系列技术，介于前道制造与传统 IC 封装之间。随着晶体管微缩愈发困难且成本高昂，台积电 CoWoS 和 3D 堆叠等技术对于延续摩尔定律变得至关重要，尤其是在 AI 和高性能计算芯片领域。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.anthropic.com/engineering/redesigning-source-control">Redesigning source control at Anthropic \ Anthropic</a></li>
-<li><a href="https://officechai.com/ai/anthropic-builds-in-house-version-of-git-called-scion-after-code-merges-rise-12x-in-4-months/">Anthropic Builds In-house Version Of Git Called Scion After ...</a></li>
-<li><a href="https://alphasignal.ai/news/anthropic-ditched-git-and-built-scion-after-claude-caused-12x-merge-surge">Anthropic Ditched Git and Built Scion After Claude Caused 12x ...</a></li>
+<li><a href="https://www.linkedin.com/posts/asmpt-semi-solutions_??-???-????-???-??-??-activity-7460607355387281408-2YHp">What is Hybrid Bonding in Semiconductor Technology | LinkedIn</a></li>
+<li><a href="https://uanalyze.com.tw/articles/918626067">【先進封裝】先進封裝產業技術- Hybrid Bonding | 優分析UAnalyze...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Advanced_packaging_(semiconductors)">Advanced packaging (semiconductors)</a></li>
 
 </ul>
 </details>
 
-**标签**: `#version-control`, `#git`, `#Anthropic`, `#CI/CD`, `#developer-infrastructure`
+**标签**: `#semiconductors`, `#ASML`, `#hybrid bonding`, `#advanced packaging`, `#chip manufacturing`
 
 ---
 
 <a id="item-6"></a>
-## [首例 Stargardt 病患者植入 PRIMA 视觉芯片，重获识词能力](https://science.xyz/news/stargardt-first-rehab/) ⭐️ 8.0/10
+## [随机连接的神经网络可自组织出学习回路，性能媲美反向传播](https://www.reddit.com/r/MachineLearning/comments/1x6hmyg/how_artificial_neural_networks_build_their_own/) ⭐️ 8.0/10
 
-Science Corporation 已将旗下视觉恢复芯片 PRIMA 植入首例 Stargardt 病患者体内，该患者此前已失明。手术于今年 5 月在澳大利亚悉尼眼科医院完成，据 CEO Max Hodak 公布，患者在早期康复训练中先看到了字母，随后读出了一个完整单词。 这是最早的案例之一，表明视网膜假体不仅能用于老年黄斑变性，也能在遗传性 Stargardt 病中部分恢复功能性视力，有望让这一技术覆盖更广泛的失明患者群体。对视网膜假体和神经科技而言，这是从实验室概念走向真实临床康复的重要一步。 PRIMA 植入体被置于视网膜下腔，并与一副特殊眼镜配合工作，眼镜向芯片发送光信号以供电并提供数据；当前版本宽约 2 毫米（约相当于 7° 视角），集成 378 个光供电像素。值得注意的是，PRIMA 已在欧洲获批用于老年黄斑变性，而此次 Stargardt 病植入属于临床试验，因此读出单词只是早期、单例患者的康复里程碑，而非已被证实的成熟疗法。
+2026 年 10 月 9 日发表在《PNAS》上的一篇论文《How Biological Synapses Self-Assemble Gradient Learning》（由 MIT News 于 10 月 13 日报道）指出，由随机互联的类神经元单元组成的网络，在共享的局部可塑性规则驱动下，能够自发组织出学习基元（learning motifs），并完成模式识别与图像分类任务。报告称其表现与作为对照的反向传播训练网络相近。 这一结果重新定义了设计思路：不再是手工设计学习回路，而是给定局部规则，让学习机制自行组织，这为替代全局误差反向传播的、更具生物合理性的方案提供了方向。如果这类自组织机制能够扩展并具备泛化能力，可能会影响学界对学习规则、信用分配以及类脑硬件的思考方式。 与反向传播的对比仅限于所测试的基础模式识别与图像分类任务；作者明确提醒，自组织现象并不能证明大脑确实采用了这一机制。待解问题包括：所发现的学习基元在不同初始连接结构下是否稳定，以及该方法能否扩展到演示任务之外。
 
-telegram · zaihuapd · 10月14日 04:30
+reddit · r/MachineLearning · /u/Dorian182 · 10月15日 10:01
 
-**背景**: Stargardt 病是最常见的遗传性单基因视网膜疾病，通常由 ABCA4 基因的双等位突变引起，会从儿童期或青春期起逐步破坏黄斑，全球约有 15 万患者受累，目前尚无治愈手段。该病损伤视网膜外层，特别是感光细胞，因此 PRIMA 绕过这些丧失的细胞，改为电刺激视网膜中残存的细胞。该系统将一枚微型、由光供电的视网膜下植入体与一副带摄像头的眼镜配合使用，把图像转换为光信号，从而在功能上替代已经死亡的感光细胞。
+**背景**: 人工神经网络通常通过反向传播进行训练，即把全局误差信号反向传遍整个网络，而这一过程普遍被认为缺乏生物合理性，因为生物突触只能获取局部信息。突触可塑性指的是连接强度随神经活动发生的变化；此前已有研究探索局部可塑性规则以及通过元学习训练的可塑性网络，但通常仍基于预先设定的网络结构，而非自我组织出的结构。这篇论文反其道而行：网络连接初始是随机的，由共享的局部可塑性规则让学习回路自行组装形成。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Stargardt_disease">Stargardt disease</a></li>
-<li><a href="https://science.xyz/technologies/prima/general-interest/">PRIMA Visual Prosthesis | Science Corporation</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Synaptic_plasticity">Synaptic plasticity - Wikipedia</a></li>
+<li><a href="https://infoscience.epfl.ch/server/api/core/bitstreams/fccff930-b75c-4944-9ddc-c9f6b24617a2/content">Local plasticity rules can learn deep representations</a></li>
+<li><a href="https://papers.nips.cc/paper/2020/file/f291e10ec3263bd7724556d62e70e25d-Paper.pdf">Learning to Learn with Feedback and Local Plasticity</a></li>
 
 </ul>
 </details>
 
-**标签**: `#neurotech`, `#vision-restoration`, `#medical-devices`, `#clinical-trials`, `#Stargardt-disease`
+**社区讨论**: 相关讨论将该工作视为一次有实质意义的新颖进展，而非立竿见影的范式转变，并提出了若干开放问题：所发现的学习基元在不同初始连接下是否稳定，以及能否泛化到演示任务之外。讨论同时指出，作者恰当地说明自组织并不意味着大脑采用了这一机制。
+
+**标签**: `#neuroscience`, `#self-organization`, `#synaptic-plasticity`, `#backpropagation-alternatives`, `#machine-learning-research`
 
 ---
 
