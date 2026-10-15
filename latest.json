@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-15T00:12:10.253703+00:00",
+  "generated_at": "2026-10-15T23:58:36.020587+00:00",
   "date": "2026-10-15",
-  "total_fetched": 44,
+  "total_fetched": 39,
   "important_count": 6,
   "score_threshold": 8.0,
   "languages": [
@@ -20,99 +20,99 @@
   },
   "items": [
     {
-      "title": "Yandex outage: data shows that instead of going dark, malicious bots moved",
-      "title_zh": "Cloudflare：Yandex 宕机期间恶意机器人只是转移阵地，并未停摆",
-      "title_en": "Cloudflare: bots shifted, not stopped, during Yandex outage",
-      "url": "https://blog.cloudflare.com/yandex-outage/",
+      "title": "AdFection: Targeted ads turned into a pipeline for zero-click mercenary spyware",
+      "title_zh": "AdFection：定向广告被武器化为零点击间谍软件投递通道",
+      "title_en": "AdFection: Targeted Ads Weaponized as Zero-Click Spyware Delivery Channel",
+      "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
       "source": "hackernews",
-      "score": 8.0,
-      "summary": "Cloudflare data shows that during the Yandex outage, malicious bots did not go dark but instead shifted behavior, contradicting popular claims that the incident disrupted Russian troll or bot operations.",
+      "score": 9.0,
+      "summary": "Citizen Lab reports that targeted advertising infrastructure was abused as a pipeline to deliver zero-click mercenary spyware.",
       "tags": [
-        "Cloudflare",
-        "Yandex",
-        "botnets",
         "cybersecurity",
-        "internet-measurement"
+        "spyware",
+        "adtech",
+        "privacy",
+        "Citizen Lab"
       ]
     },
     {
-      "title": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
-      "title_zh": "Timescale 发布 pg_vectorsearch，声称 Postgres 向量索引速度超越 pgvector",
-      "title_en": "Timescale's pg_vectorsearch claims faster Postgres vector indexing than pgvector",
-      "url": "https://github.com/timescale/pg_vectorsearch",
+      "title": "Muse Spark Open",
+      "title_zh": "Meta 发布 Muse Spark Open：面向 Mac Studio 本地部署的 816B 开放权重模型",
+      "title_en": "Meta Releases Muse Spark Open, 816B Open-Weight Model for Mac Studio",
+      "url": "https://research.meta.ai/blog/muse-spark-open",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Timescale/Tiger Data released pg_vectorsearch, a new Postgres vector index using a quantized IVF/PRISM approach claimed to be faster than pgvector's IVFFlat and HNSW, with active community discussion around limitations, filtering support, and competition.",
+      "summary": "Meta releases Muse Spark Open, an 816B-parameter open-weight AI model optimized for local deployment on Mac Studio, prompting debates about licensing and competitive performance.",
       "tags": [
-        "vector-search",
-        "postgresql",
-        "pgvector",
-        "database-indexing",
-        "AI-infrastructure"
+        "Meta",
+        "open-weight models",
+        "LLM",
+        "AI model release",
+        "local inference"
       ]
     },
     {
-      "title": "How Amazon pushes up prices all across the Internet",
-      "title_zh": "亚马逊的市场势力如何抬高整个互联网的价格",
-      "title_en": "Amazon's Market Power Pushes Up Prices Across the Internet",
-      "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
+      "title": "I know why the mathematicians weep",
+      "title_zh": "随笔探讨AI冲击下数学家的存在主义焦虑",
+      "title_en": "Essay probes mathematicians' existential dread as AI commodifies math",
+      "url": "https://www.derekthompson.org/p/i-know-why-the-mathematicians-weep",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "An analysis of how Amazon's market power and business practices drive up prices across the broader internet, accompanied by a rich Hacker News discussion on e-commerce dynamics.",
+      "summary": "An essay and community discussion examine why mathematicians feel existential dread as AI commodifies mathematical work and disrupts traditional validation of truth.",
       "tags": [
-        "Amazon",
-        "e-commerce",
-        "antitrust",
-        "pricing",
-        "market power"
+        "AI",
+        "mathematics",
+        "philosophy",
+        "future of work",
+        "epistemology"
       ]
     },
     {
-      "title": "Tracing where LLM \"slop\" style comes from in the model and in training, and cutting it out [R]",
-      "title_zh": "追踪大模型“slop”文风在模型内部与训练各阶段的来源",
-      "title_en": "Tracing where LLM \"slop\" style comes from in models and training",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x64lbk/tracing_where_llm_slop_style_comes_from_in_the/",
+      "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+      "title_zh": "Anthropic 上市前披露季度营收近 168 亿美元，环比增长近 50%",
+      "title_en": "Anthropic Reports Quarterly Revenue Up Nearly 50% to $16.8B Ahead of IPO",
+      "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "Anthropic told investors its quarterly revenue rose nearly 50% to $16.8bn ahead of a potential IPO, revealing rapid growth, positive adjusted operating margins, and a $1.70 revenue-to-compute-spend ratio.",
+      "tags": [
+        "Anthropic",
+        "AI industry",
+        "IPO",
+        "revenue",
+        "AI economics"
+      ]
+    },
+    {
+      "title": "ASML Is Building a Hybrid Bonding Tool!",
+      "title_zh": "ASML据传正在开发混合键合设备",
+      "title_en": "ASML Reportedly Developing a Hybrid Bonding Tool",
+      "url": "https://newsletter.semianalysis.com/p/asml-is-building-a-hybrid-bonding",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "ASML appears to be developing a hybrid bonding tool based on patent filings, a news report, and its own roadmap, though no official announcement has been made.",
+      "tags": [
+        "semiconductors",
+        "ASML",
+        "hybrid bonding",
+        "advanced packaging",
+        "chip manufacturing"
+      ]
+    },
+    {
+      "title": "How artificial neural networks build their own learning machinery [R]",
+      "title_zh": "随机连接的神经网络可自组织出学习回路，性能媲美反向传播",
+      "title_en": "Randomly Wired Networks Self-Assemble Learning Circuitry, Rivaling Backpropagation",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x6hmyg/how_artificial_neural_networks_build_their_own/",
       "source": "reddit",
       "score": 8.0,
-      "summary": "The post traces where LLM 'slop' writing style lives in a model (a difference-in-means register direction present even in base models) and which training stages install it (SFT adds rhetorical structures, DPO amplifies buzzwords and markdown).",
+      "summary": "A PNAS paper covered by MIT shows that networks of randomly interconnected neuron-like units governed by shared local plasticity rules can self-assemble learning circuitry and match backpropagation performance on basic classification tasks.",
       "tags": [
-        "LLM",
-        "mechanistic-interpretability",
-        "fine-tuning",
-        "alignment",
-        "model-training"
-      ]
-    },
-    {
-      "title": "🤖 Anthropic 自研 Scion 替换 git",
-      "title_zh": "Anthropic 用自研 Scion 版本控制系统全面替换 git",
-      "title_en": "Anthropic replaces git with in-house Scion version control",
-      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Anthropic reportedly replaced git with its self-developed Scion version control system, achieving major gains in merge throughput, resource usage, and CI checkout speed.",
-      "tags": [
-        "version-control",
-        "git",
-        "Anthropic",
-        "CI/CD",
-        "developer-infrastructure"
-      ]
-    },
-    {
-      "title": "首例 Stargardt 病患者植入视觉芯片，从失明到可辨识单词",
-      "title_zh": "首例 Stargardt 病患者植入 PRIMA 视觉芯片，重获识词能力",
-      "title_en": "First Stargardt Patient Receives PRIMA Visual Chip, Regains Reading",
-      "url": "https://science.xyz/news/stargardt-first-rehab/",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Science Corporation implanted its PRIMA visual chip in the first Stargardt disease patient, enabling the formerly blind patient to see letters and read a word during early rehabilitation.",
-      "tags": [
-        "neurotech",
-        "vision-restoration",
-        "medical-devices",
-        "clinical-trials",
-        "Stargardt-disease"
+        "neuroscience",
+        "self-organization",
+        "synaptic-plasticity",
+        "backpropagation-alternatives",
+        "machine-learning-research"
       ]
     }
   ]
