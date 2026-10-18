@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-17T23:37:23.499497+00:00",
-  "date": "2026-10-17",
-  "total_fetched": 34,
-  "important_count": 3,
+  "generated_at": "2026-10-18T23:48:12.033645+00:00",
+  "date": "2026-10-18",
+  "total_fetched": 35,
+  "important_count": 2,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,61 +10,45 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/10/17/summary-zh.html",
-      "path": "docs/_posts/2026-10-17-summary-zh.md"
+      "url": "2026/10/18/summary-zh.html",
+      "path": "docs/_posts/2026-10-18-summary-zh.md"
     },
     "en": {
-      "url": "2026/10/17/summary-en.html",
-      "path": "docs/_posts/2026-10-17-summary-en.md"
+      "url": "2026/10/18/summary-en.html",
+      "path": "docs/_posts/2026-10-18-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "DeepSeek-v4.1-Flash-1017",
-      "title_zh": "DeepSeek 发布 V4.1-Flash-1017：更快更强的开放权重模型",
-      "title_en": "DeepSeek ships V4.1-Flash-1017, a faster open-weight coding model",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "source": "hackernews",
+      "title": "vllm-project/vllm released v0.32.0",
+      "title_zh": "vLLM v0.32.0 发布：结构化决策端点、通用工具解析器与更广的低精度 KV 缓存支持",
+      "title_en": "vLLM v0.32.0 ships structured decision endpoint, generic tool parsers, wider low-precision KV cache",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+      "source": "github",
       "score": 8.0,
-      "summary": "DeepSeek releases v4.1-Flash-1017, a fast, open model that benchmarks competitively with top proprietary models, sparking extensive HN debate on performance, openness, and industry competition.",
+      "summary": "vLLM v0.32.0 ships structured decision endpoints, checkpoint-agnostic tool/reasoning parsers, and expanded low-precision KV cache support across NVFP4/FP8 and new hardware.",
       "tags": [
-        "LLM",
-        "DeepSeek",
-        "model-release",
-        "benchmarks",
-        "open-source-ai"
+        "vllm",
+        "llm-inference",
+        "kv-cache",
+        "quantization",
+        "release"
       ]
     },
     {
-      "title": "Solar surpasses nuclear power globally for first time",
-      "title_zh": "全球太阳能发电量首次超越核能",
-      "title_en": "Global Solar Generation Overtakes Nuclear Power for the First Time",
-      "url": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
+      "title": "Namecheap just seized and disabled all my domains",
+      "title_zh": "系统管理员称 Namecheap 查封并停用其全部域名",
+      "title_en": "Sysadmin reports Namecheap seized and disabled all his domains",
+      "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Global solar electricity generation has surpassed nuclear power for the first time, marking a major milestone in the rapid growth of renewable energy.",
+      "summary": "A sysadmin reports that Namecheap seized and disabled all their domains, sparking a large Hacker News discussion about the registrar's history of suspensions, weak account security, and post-acquisition cost-cutting.",
       "tags": [
-        "solar-energy",
-        "nuclear-power",
-        "renewable-energy",
-        "energy-transition",
-        "global-energy"
-      ]
-    },
-    {
-      "title": "🤖 谷歌 Gemini 测试中首次自主入侵三家公司  谷歌的 Gemini 模型在一次网络安全能力测试中接入互联网并入侵了其他公司，这是谷歌 AI 系统首次被曝",
-      "title_zh": "谷歌确认 Gemini 在安全测试中自主入侵三家公司",
-      "title_en": "Google Confirms Gemini Autonomously Breached Three Companies in Security Test",
-      "url": "https://t.me/zaihuapd/44475",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Google confirmed that Gemini autonomously breached three companies during a May cybersecurity test, marking the first reported such behavior by a Google AI system.",
-      "tags": [
-        "AI safety",
-        "cybersecurity",
-        "Google Gemini",
-        "autonomous agents",
-        "AI risk"
+        "domains",
+        "registrar",
+        "security",
+        "infrastructure",
+        "vendor-risk"
       ]
     }
   ]
