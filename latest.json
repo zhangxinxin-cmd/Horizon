@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-18T23:48:12.033645+00:00",
-  "date": "2026-10-18",
-  "total_fetched": 35,
-  "important_count": 2,
+  "generated_at": "2026-10-20T00:48:11.582252+00:00",
+  "date": "2026-10-20",
+  "total_fetched": 40,
+  "important_count": 5,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,45 +10,93 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/10/18/summary-zh.html",
-      "path": "docs/_posts/2026-10-18-summary-zh.md"
+      "url": "2026/10/20/summary-zh.html",
+      "path": "docs/_posts/2026-10-20-summary-zh.md"
     },
     "en": {
-      "url": "2026/10/18/summary-en.html",
-      "path": "docs/_posts/2026-10-18-summary-en.md"
+      "url": "2026/10/20/summary-en.html",
+      "path": "docs/_posts/2026-10-20-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "vllm-project/vllm released v0.32.0",
-      "title_zh": "vLLM v0.32.0 发布：结构化决策端点、通用工具解析器与更广的低精度 KV 缓存支持",
-      "title_en": "vLLM v0.32.0 ships structured decision endpoint, generic tool parsers, wider low-precision KV cache",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
-      "source": "github",
+      "title": "Wine ported to OpenBSD",
+      "title_zh": "Wine 兼容层成功移植到 OpenBSD",
+      "title_en": "Wine compatibility layer ported to OpenBSD",
+      "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "vLLM v0.32.0 ships structured decision endpoints, checkpoint-agnostic tool/reasoning parsers, and expanded low-precision KV cache support across NVFP4/FP8 and new hardware.",
+      "summary": "Wine has been ported to OpenBSD, bringing Windows application compatibility to the platform and sparking discussion about implementation choices and upstreaming.",
       "tags": [
-        "vllm",
-        "llm-inference",
-        "kv-cache",
-        "quantization",
-        "release"
+        "OpenBSD",
+        "Wine",
+        "BSD",
+        "compatibility layer",
+        "software ports"
       ]
     },
     {
-      "title": "Namecheap just seized and disabled all my domains",
-      "title_zh": "系统管理员称 Namecheap 查封并停用其全部域名",
-      "title_en": "Sysadmin reports Namecheap seized and disabled all his domains",
-      "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
+      "title": "Timestral: Mistral's time-series foundation models",
+      "title_zh": "Mistral 发布 Timestral 时间序列基础模型，支持零样本预测",
+      "title_en": "Mistral launches Timestral, time-series foundation models for zero-shot forecasting",
+      "url": "https://mistral.ai/news/timestral/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "A sysadmin reports that Namecheap seized and disabled all their domains, sparking a large Hacker News discussion about the registrar's history of suspensions, weak account security, and post-acquisition cost-cutting.",
+      "summary": "Mistral announces Timestral, a family of time-series foundation models supporting covariates and zero-shot forecasting, prompting HN debate on the real utility of generic forecasting models versus per-series baselines.",
       "tags": [
-        "domains",
-        "registrar",
-        "security",
-        "infrastructure",
-        "vendor-risk"
+        "time-series",
+        "mistral",
+        "foundation-models",
+        "forecasting",
+        "machine-learning"
+      ]
+    },
+    {
+      "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+      "title_zh": "Ask HN 热议：如何面对自己并不完全理解的 AI 生成代码",
+      "title_en": "Ask HN: Engineers Struggle With Shipping AI Code They Don't Fully Understand",
+      "url": "https://news.ycombinator.com/item?id=50151036",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "An Ask HN discussion about the discomfort of shipping AI-written code you don't fully understand, with practitioners sharing strategies like designing abstractions yourself, treating LLMs as junior implementers, and investing heavily in testing.",
+      "tags": [
+        "AI-assisted coding",
+        "software engineering",
+        "code review",
+        "LLM",
+        "developer productivity"
+      ]
+    },
+    {
+      "title": "Datacenters 2027: The Year of Acceleration, +50GW in a Single Year",
+      "title_zh": "SemiAnalysis：2027年数据中心建设将单年新增50GW",
+      "title_en": "SemiAnalysis: 2027 Datacenter Buildout to Add 50GW in One Year",
+      "url": "https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "SemiAnalysis forecasts a dramatic 2027 datacenter buildout acceleration, citing 60GW under construction and 1.3T in lease contracts, with supply constraints potentially shifting to chips.",
+      "tags": [
+        "datacenters",
+        "AI-infrastructure",
+        "semiconductors",
+        "supply-chain",
+        "industry-analysis"
+      ]
+    },
+    {
+      "title": "Inception 发布大型扩散式语言模型 Mercury 3，TPS 超过 1k",
+      "title_zh": "Inception 发布扩散式语言模型 Mercury 3，生成速度突破每秒 1000 tokens",
+      "title_en": "Inception launches Mercury 3, a diffusion LLM exceeding 1,000 tokens/sec",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Inception releases Mercury 3, a diffusion-based LLM claiming over 1000 tokens/sec, 1M token context, and benchmark superiority over GPT-6 Luna and Claude Haiku 5.5.",
+      "tags": [
+        "diffusion models",
+        "LLM",
+        "Inception",
+        "Mercury 3",
+        "benchmarks"
       ]
     }
   ]
