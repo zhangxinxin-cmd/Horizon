@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-20T00:48:11.582252+00:00",
-  "date": "2026-10-20",
-  "total_fetched": 40,
+  "generated_at": "2026-10-21T00:14:11.992932+00:00",
+  "date": "2026-10-21",
+  "total_fetched": 36,
   "important_count": 5,
   "score_threshold": 8.0,
   "languages": [
@@ -10,93 +10,93 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/10/20/summary-zh.html",
-      "path": "docs/_posts/2026-10-20-summary-zh.md"
+      "url": "2026/10/21/summary-zh.html",
+      "path": "docs/_posts/2026-10-21-summary-zh.md"
     },
     "en": {
-      "url": "2026/10/20/summary-en.html",
-      "path": "docs/_posts/2026-10-20-summary-en.md"
+      "url": "2026/10/21/summary-en.html",
+      "path": "docs/_posts/2026-10-21-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Wine ported to OpenBSD",
-      "title_zh": "Wine 兼容层成功移植到 OpenBSD",
-      "title_en": "Wine compatibility layer ported to OpenBSD",
-      "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Wine has been ported to OpenBSD, bringing Windows application compatibility to the platform and sparking discussion about implementation choices and upstreaming.",
-      "tags": [
-        "OpenBSD",
-        "Wine",
-        "BSD",
-        "compatibility layer",
-        "software ports"
-      ]
-    },
-    {
-      "title": "Timestral: Mistral's time-series foundation models",
-      "title_zh": "Mistral 发布 Timestral 时间序列基础模型，支持零样本预测",
-      "title_en": "Mistral launches Timestral, time-series foundation models for zero-shot forecasting",
-      "url": "https://mistral.ai/news/timestral/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Mistral announces Timestral, a family of time-series foundation models supporting covariates and zero-shot forecasting, prompting HN debate on the real utility of generic forecasting models versus per-series baselines.",
-      "tags": [
-        "time-series",
-        "mistral",
-        "foundation-models",
-        "forecasting",
-        "machine-learning"
-      ]
-    },
-    {
-      "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
-      "title_zh": "Ask HN 热议：如何面对自己并不完全理解的 AI 生成代码",
-      "title_en": "Ask HN: Engineers Struggle With Shipping AI Code They Don't Fully Understand",
-      "url": "https://news.ycombinator.com/item?id=50151036",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "An Ask HN discussion about the discomfort of shipping AI-written code you don't fully understand, with practitioners sharing strategies like designing abstractions yourself, treating LLMs as junior implementers, and investing heavily in testing.",
-      "tags": [
-        "AI-assisted coding",
-        "software engineering",
-        "code review",
-        "LLM",
-        "developer productivity"
-      ]
-    },
-    {
-      "title": "Datacenters 2027: The Year of Acceleration, +50GW in a Single Year",
-      "title_zh": "SemiAnalysis：2027年数据中心建设将单年新增50GW",
-      "title_en": "SemiAnalysis: 2027 Datacenter Buildout to Add 50GW in One Year",
-      "url": "https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration",
+      "title": "eMudhra Intermediate CA Compromise",
+      "title_zh": "eMudhra 八个中间 CA 私钥泄露，全球信任库被迫紧急更新",
+      "title_en": "Eight eMudhra intermediate CA private keys compromised, forcing global trust-store updates",
+      "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
       "source": "rss",
-      "score": 8.0,
-      "summary": "SemiAnalysis forecasts a dramatic 2027 datacenter buildout acceleration, citing 60GW under construction and 1.3T in lease contracts, with supply constraints potentially shifting to chips.",
+      "score": 9.0,
+      "summary": "Eight eMudhra intermediate CA private keys were compromised, forcing urgent trust-store and ca-certificates updates across Linux distros and language ecosystems like Python's pip, uv, and certifi.",
       "tags": [
-        "datacenters",
-        "AI-infrastructure",
-        "semiconductors",
+        "security",
+        "PKI",
+        "certificate-authorities",
         "supply-chain",
-        "industry-analysis"
+        "trust-stores"
       ]
     },
     {
-      "title": "Inception 发布大型扩散式语言模型 Mercury 3，TPS 超过 1k",
-      "title_zh": "Inception 发布扩散式语言模型 Mercury 3，生成速度突破每秒 1000 tokens",
-      "title_en": "Inception launches Mercury 3, a diffusion LLM exceeding 1,000 tokens/sec",
-      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-      "source": "telegram",
+      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+      "title_zh": "DeepSeek 开源 DeepInfer 模型推理框架",
+      "title_en": "DeepSeek open-sources DeepInfer inference framework for its models",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "Inception releases Mercury 3, a diffusion-based LLM claiming over 1000 tokens/sec, 1M token context, and benchmark superiority over GPT-6 Luna and Claude Haiku 5.5.",
+      "summary": "DeepSeek released DeepInfer, a high-performance inference framework for its models, sparking large HN discussion about open-weight AI, throughput claims, and US-China AI competition.",
       "tags": [
-        "diffusion models",
-        "LLM",
-        "Inception",
-        "Mercury 3",
-        "benchmarks"
+        "LLM inference",
+        "DeepSeek",
+        "open-source AI",
+        "model serving",
+        "AI geopolitics"
+      ]
+    },
+    {
+      "title": "Voxtral 3",
+      "title_zh": "Mistral 发布 Voxtral 3 语音智能体 SDK 与语音模型",
+      "title_en": "Mistral Launches Voxtral 3 Voice Agent SDK and Speech Models",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Mistral announces Voxtral 3, a new speech/voice-agent model and SDK, prompting substantive HN discussion about real-world transcription quality and deployment.",
+      "tags": [
+        "speech-to-text",
+        "voice-agents",
+        "Mistral",
+        "AI/ML",
+        "open-weight models"
+      ]
+    },
+    {
+      "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+      "title_zh": "谷歌开源 TorchTPU，为 TPU 提供原生 PyTorch 后端",
+      "title_en": "Google open-sources TorchTPU, a native PyTorch backend for TPUs",
+      "url": "https://github.com/google-pytorch/torch_tpu",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Google open-sourced TorchTPU, a native PyTorch backend for TPUs, giving ML developers first-party PyTorch support on Google's accelerators.",
+      "tags": [
+        "pytorch",
+        "tpu",
+        "xla",
+        "machine-learning",
+        "hardware-accelerators"
+      ]
+    },
+    {
+      "title": "Tsrs: A Port of TypeScript to Rust",
+      "title_zh": "Cloudflare 与 VoidZero 将 TypeScript 编译器移植到 Rust，推出 tsrs 项目",
+      "title_en": "Cloudflare and VoidZero Port the TypeScript Compiler to Rust as tsrs",
+      "url": "https://blog.cloudflare.com/typescript-rust-port/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Cloudflare's tsrs project ports the TypeScript compiler to Rust, achieving speedups partly via a novel arena-based memory model, driven originally by the need for a compiler that runs in a WASM-only sandbox.",
+      "tags": [
+        "TypeScript",
+        "Rust",
+        "compilers",
+        "WebAssembly",
+        "performance"
       ]
     }
   ]
