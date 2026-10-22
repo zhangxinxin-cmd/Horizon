@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-21T00:14:11.992932+00:00",
-  "date": "2026-10-21",
-  "total_fetched": 36,
-  "important_count": 5,
+  "generated_at": "2026-10-22T00:19:15.547557+00:00",
+  "date": "2026-10-22",
+  "total_fetched": 40,
+  "important_count": 11,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,93 +10,189 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/10/21/summary-zh.html",
-      "path": "docs/_posts/2026-10-21-summary-zh.md"
+      "url": "2026/10/22/summary-zh.html",
+      "path": "docs/_posts/2026-10-22-summary-zh.md"
     },
     "en": {
-      "url": "2026/10/21/summary-en.html",
-      "path": "docs/_posts/2026-10-21-summary-en.md"
+      "url": "2026/10/22/summary-en.html",
+      "path": "docs/_posts/2026-10-22-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "eMudhra Intermediate CA Compromise",
-      "title_zh": "eMudhra 八个中间 CA 私钥泄露，全球信任库被迫紧急更新",
-      "title_en": "Eight eMudhra intermediate CA private keys compromised, forcing global trust-store updates",
-      "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
-      "source": "rss",
+      "title": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
+      "title_zh": "DuckDB 2.0.0 LTS「Cinnamon Teal」发布：新增客户端-服务器模式与触发器",
+      "title_en": "DuckDB 2.0.0 LTS \"Cinnamon Teal\" Adds Client-Server Mode and Triggers",
+      "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+      "source": "hackernews",
       "score": 9.0,
-      "summary": "Eight eMudhra intermediate CA private keys were compromised, forcing urgent trust-store and ca-certificates updates across Linux distros and language ecosystems like Python's pip, uv, and certifi.",
+      "summary": "DuckDB releases 2.0.0 LTS 'Cinnamon Teal' with major scalability gains, client-server architecture, and Triggers support, drawing enthusiastic practitioner discussion on Hacker News.",
+      "tags": [
+        "duckdb",
+        "databases",
+        "analytics",
+        "release",
+        "olap"
+      ]
+    },
+    {
+      "title": "PHP 8.2.35",
+      "title_zh": "PHP 8.2.35 发布，修复严重的「PHP2Shell」远程代码执行漏洞",
+      "title_en": "PHP 8.2.35 Released to Patch Critical 'PHP2Shell' RCE Vulnerabilities",
+      "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "PHP 8.2.35 is a security release addressing a critical RCE ('PHP2Shell') disclosed in coordination with Wiz, Calif, and OpenAI, drawing heavy community scrutiny and reports of a possible second vulnerability.",
+      "tags": [
+        "php",
+        "security",
+        "rce",
+        "vulnerability-disclosure",
+        "ai-security"
+      ]
+    },
+    {
+      "title": "星舰超重型助推器首次在得克萨斯州的发射塔臂上成功着陆  接下来，星舰第二级将继续飞行，准备在印度洋受控溅落。",
+      "title_zh": "星舰超重型助推器首次在得克萨斯州的发射塔臂上成功着陆，接下来，星舰第二级将继续飞行，准备在印度洋受控溅落。",
+      "title_en": null,
+      "url": "https://t.me/zaihuapd/44587",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "SpaceX achieved the first successful landing/catch of Starship's Super Heavy booster on the Texas launch tower arms, while the second stage continued toward a controlled splashdown in the Indian Ocean.",
+      "tags": [
+        "SpaceX",
+        "Starship",
+        "aerospace",
+        "reusable rockets",
+        "spaceflight"
+      ]
+    },
+    {
+      "title": "Railway Security Disclosure",
+      "title_zh": "Railway 披露安全入侵事件，用户称密钥遭窃用",
+      "title_en": "Railway Discloses Security Breach as Users Report Stolen Secrets",
+      "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Railway disclosed a security breach, and Hacker News commenters report that stored environment variables/secrets were decrypted and abused by third parties, framed alongside other major security events the same day.",
       "tags": [
         "security",
-        "PKI",
-        "certificate-authorities",
-        "supply-chain",
-        "trust-stores"
+        "incident-disclosure",
+        "cloud-platform",
+        "secrets-management",
+        "devops"
       ]
     },
     {
-      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
-      "title_zh": "DeepSeek 开源 DeepInfer 模型推理框架",
-      "title_en": "DeepSeek open-sources DeepInfer inference framework for its models",
-      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "title": "GitLab Critical Patch Release",
+      "title_zh": "GitLab 紧急发布关键正则编译器漏洞补丁",
+      "title_en": "GitLab Ships Emergency Patch for Critical Regex Compiler Flaw",
+      "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "DeepSeek released DeepInfer, a high-performance inference framework for its models, sparking large HN discussion about open-weight AI, throughput claims, and US-China AI competition.",
+      "summary": "GitLab shipped an out-of-band critical security patch (19.5.1) for a severe, remotely reachable regex-compiler integer overflow vulnerability, prompting discussion about the root cause and a possible shared class of bugs.",
       "tags": [
-        "LLM inference",
+        "security",
+        "gitlab",
+        "vulnerability",
+        "cve",
+        "regex"
+      ]
+    },
+    {
+      "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+      "title_zh": "PyPI 上的 LiteLLM 1.107.0 被投毒，内置凭据窃取器与后门",
+      "title_en": "Compromised LiteLLM 1.107.0 on PyPI Shipped Credential Stealer and Backdoor",
+      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A compromised LiteLLM 1.107.0 release on PyPI shipped a credential stealer and backdoor, prompting discussion of recurring supply chain attacks and developer key hygiene.",
+      "tags": [
+        "supply-chain-security",
+        "pypi",
+        "litellm",
+        "credential-theft",
+        "open-source-security"
+      ]
+    },
+    {
+      "title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
+      "title_zh": "eMudhra 中间证书密钥熵仅 8 位，毫秒级即被破解",
+      "title_en": "eMudhra CA used 8-bit RSA keys, cracked in milliseconds",
+      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A major certificate authority issued certificates with trivially factorable RSA keys, exposed by Google's paranoid_crypto tool, highlighting systemic weaknesses in the CA trust model and the difficulty of remediating unpatachable devices.",
+      "tags": [
+        "security",
+        "TLS/PKI",
+        "certificate-authority",
+        "cryptography",
+        "IoT"
+      ]
+    },
+    {
+      "title": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
+      "title_zh": "新墨西哥州剑桥分析案裁定Meta赔偿250亿美元",
+      "title_en": "Meta ordered to pay New Mexico $25B in Cambridge Analytica case",
+      "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "New Mexico secured a historic $25B penalty against Meta over Cambridge Analytica-related consumer protection violations, prompting discussion of appeals, settlement comparisons, and executive accountability.",
+      "tags": [
+        "privacy",
+        "meta",
+        "regulation",
+        "cambridge-analytica",
+        "tech-policy"
+      ]
+    },
+    {
+      "title": "OpenAI models are coming to Google Cloud",
+      "title_zh": "OpenAI 模型将进驻 Google Cloud 模型花园",
+      "title_en": "OpenAI Models Are Coming to Google Cloud's Model Garden",
+      "url": "https://openai.com/index/openai-models-google-cloud/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "OpenAI models are being made available through Google Cloud, a notable cross-competitor partnership that lets GCP customers apply cloud spend commitments to OpenAI inference.",
+      "tags": [
+        "OpenAI",
+        "Google Cloud",
+        "AI infrastructure",
+        "cloud partnerships",
+        "inference"
+      ]
+    },
+    {
+      "title": "The Huawei-DeepSeek Symbiosis",
+      "title_zh": "SemiAnalysis深度解析华为昇腾950PR与DeepSeek的软硬协同",
+      "title_en": "SemiAnalysis dissects Huawei Ascend 950PR and DeepSeek's chip symbiosis",
+      "url": "https://newsletter.semianalysis.com/p/huawei-deepseek",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "A detailed SemiAnalysis report on Huawei Ascend 950PR benchmarks, DeepSeek model analysis, and DeepSeek's support for Ascend hardware.",
+      "tags": [
+        "Huawei Ascend",
         "DeepSeek",
-        "open-source AI",
-        "model serving",
-        "AI geopolitics"
+        "AI hardware",
+        "benchmarks",
+        "semiconductors"
       ]
     },
     {
-      "title": "Voxtral 3",
-      "title_zh": "Mistral 发布 Voxtral 3 语音智能体 SDK 与语音模型",
-      "title_en": "Mistral Launches Voxtral 3 Voice Agent SDK and Speech Models",
-      "url": "https://mistral.ai/news/voxtral-3/",
-      "source": "hackernews",
+      "title": "Uber 用 AI 自动清理技术债，已删逾 16000 个过期 feature flag",
+      "title_zh": "Uber 的 AutoClean AI 代理已从生产代码中删除逾 16000 个过期功能开关",
+      "title_en": "Uber's AutoClean AI agents have deleted 16,000+ stale feature flags from production code",
+      "url": "https://www.uber.com/us/en/blog/ai-code-cleanup/",
+      "source": "telegram",
       "score": 8.0,
-      "summary": "Mistral announces Voxtral 3, a new speech/voice-agent model and SDK, prompting substantive HN discussion about real-world transcription quality and deployment.",
+      "summary": "Uber's AutoClean system uses AI agents plus deterministic rewriting and a multi-agent review gate to automatically remove stale feature flags from production monorepos, having deleted over 16,000 flags and a million-plus lines of code.",
       "tags": [
-        "speech-to-text",
-        "voice-agents",
-        "Mistral",
-        "AI/ML",
-        "open-weight models"
-      ]
-    },
-    {
-      "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
-      "title_zh": "谷歌开源 TorchTPU，为 TPU 提供原生 PyTorch 后端",
-      "title_en": "Google open-sources TorchTPU, a native PyTorch backend for TPUs",
-      "url": "https://github.com/google-pytorch/torch_tpu",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Google open-sourced TorchTPU, a native PyTorch backend for TPUs, giving ML developers first-party PyTorch support on Google's accelerators.",
-      "tags": [
-        "pytorch",
-        "tpu",
-        "xla",
-        "machine-learning",
-        "hardware-accelerators"
-      ]
-    },
-    {
-      "title": "Tsrs: A Port of TypeScript to Rust",
-      "title_zh": "Cloudflare 与 VoidZero 将 TypeScript 编译器移植到 Rust，推出 tsrs 项目",
-      "title_en": "Cloudflare and VoidZero Port the TypeScript Compiler to Rust as tsrs",
-      "url": "https://blog.cloudflare.com/typescript-rust-port/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Cloudflare's tsrs project ports the TypeScript compiler to Rust, achieving speedups partly via a novel arena-based memory model, driven originally by the need for a compiler that runs in a WASM-only sandbox.",
-      "tags": [
-        "TypeScript",
-        "Rust",
-        "compilers",
-        "WebAssembly",
-        "performance"
+        "AI agents",
+        "tech debt",
+        "feature flags",
+        "code automation",
+        "software engineering"
       ]
     }
   ]
