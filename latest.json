@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-22T00:19:15.547557+00:00",
-  "date": "2026-10-22",
-  "total_fetched": 40,
-  "important_count": 11,
+  "generated_at": "2026-10-23T00:15:29.455019+00:00",
+  "date": "2026-10-23",
+  "total_fetched": 43,
+  "important_count": 7,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,189 +10,125 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/10/22/summary-zh.html",
-      "path": "docs/_posts/2026-10-22-summary-zh.md"
+      "url": "2026/10/23/summary-zh.html",
+      "path": "docs/_posts/2026-10-23-summary-zh.md"
     },
     "en": {
-      "url": "2026/10/22/summary-en.html",
-      "path": "docs/_posts/2026-10-22-summary-en.md"
+      "url": "2026/10/23/summary-en.html",
+      "path": "docs/_posts/2026-10-23-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
-      "title_zh": "DuckDB 2.0.0 LTS「Cinnamon Teal」发布：新增客户端-服务器模式与触发器",
-      "title_en": "DuckDB 2.0.0 LTS \"Cinnamon Teal\" Adds Client-Server Mode and Triggers",
-      "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "DuckDB releases 2.0.0 LTS 'Cinnamon Teal' with major scalability gains, client-server architecture, and Triggers support, drawing enthusiastic practitioner discussion on Hacker News.",
-      "tags": [
-        "duckdb",
-        "databases",
-        "analytics",
-        "release",
-        "olap"
-      ]
-    },
-    {
-      "title": "PHP 8.2.35",
-      "title_zh": "PHP 8.2.35 发布，修复严重的「PHP2Shell」远程代码执行漏洞",
-      "title_en": "PHP 8.2.35 Released to Patch Critical 'PHP2Shell' RCE Vulnerabilities",
-      "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "PHP 8.2.35 is a security release addressing a critical RCE ('PHP2Shell') disclosed in coordination with Wiz, Calif, and OpenAI, drawing heavy community scrutiny and reports of a possible second vulnerability.",
-      "tags": [
-        "php",
-        "security",
-        "rce",
-        "vulnerability-disclosure",
-        "ai-security"
-      ]
-    },
-    {
-      "title": "星舰超重型助推器首次在得克萨斯州的发射塔臂上成功着陆  接下来，星舰第二级将继续飞行，准备在印度洋受控溅落。",
-      "title_zh": "星舰超重型助推器首次在得克萨斯州的发射塔臂上成功着陆，接下来，星舰第二级将继续飞行，准备在印度洋受控溅落。",
-      "title_en": null,
-      "url": "https://t.me/zaihuapd/44587",
-      "source": "telegram",
-      "score": 9.0,
-      "summary": "SpaceX achieved the first successful landing/catch of Starship's Super Heavy booster on the Texas launch tower arms, while the second stage continued toward a controlled splashdown in the Indian Ocean.",
-      "tags": [
-        "SpaceX",
-        "Starship",
-        "aerospace",
-        "reusable rockets",
-        "spaceflight"
-      ]
-    },
-    {
-      "title": "Railway Security Disclosure",
-      "title_zh": "Railway 披露安全入侵事件，用户称密钥遭窃用",
-      "title_en": "Railway Discloses Security Breach as Users Report Stolen Secrets",
-      "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+      "title": "Quad9 (DNS Resolver) to Exit France",
+      "title_zh": "Quad9因藐视法庭裁决将把DNS解析服务撤出法国",
+      "title_en": "Quad9 to Pull Its DNS Resolver Out of France After Contempt Ruling",
+      "url": "https://quad9.net/news/blog/au-revoir-france/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Railway disclosed a security breach, and Hacker News commenters report that stored environment variables/secrets were decrypted and abused by third parties, framed alongside other major security events the same day.",
+      "summary": "Quad9 is pulling its DNS resolution service out of France after a court held it in contempt for failing to block pirated content, even though the rights holder circumvented its geoIP measures with a VPN.",
       "tags": [
-        "security",
-        "incident-disclosure",
-        "cloud-platform",
-        "secrets-management",
-        "devops"
+        "dns",
+        "internet-censorship",
+        "copyright",
+        "networking",
+        "internet-governance"
       ]
     },
     {
-      "title": "GitLab Critical Patch Release",
-      "title_zh": "GitLab 紧急发布关键正则编译器漏洞补丁",
-      "title_en": "GitLab Ships Emergency Patch for Critical Regex Compiler Flaw",
-      "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+      "title": "Getting ready to operate GNU Taler in Germany",
+      "title_zh": "GNU Taler 筹备在德国正式投入运营",
+      "title_en": "GNU Taler prepares for operational rollout in Germany",
+      "url": "https://www.taler.net/en/news/2026-13.html",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "GitLab shipped an out-of-band critical security patch (19.5.1) for a severe, remotely reachable regex-compiler integer overflow vulnerability, prompting discussion about the root cause and a possible shared class of bugs.",
+      "summary": "GNU Taler, a privacy-preserving electronic payment system, is preparing for operational deployment in Germany, prompting discussion about its design trade-offs and its prospects against bank-backed rivals like Wero.",
       "tags": [
-        "security",
-        "gitlab",
-        "vulnerability",
-        "cve",
-        "regex"
+        "digital-payments",
+        "privacy",
+        "gnu-taler",
+        "open-source",
+        "eu-regulation"
       ]
     },
     {
-      "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
-      "title_zh": "PyPI 上的 LiteLLM 1.107.0 被投毒，内置凭据窃取器与后门",
-      "title_en": "Compromised LiteLLM 1.107.0 on PyPI Shipped Credential Stealer and Backdoor",
-      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+      "title": "Jailbreaking the Switch 2",
+      "title_zh": "借助LLM自动化与JetKVM硬件，Switch 2被成功破解",
+      "title_en": "Switch 2 jailbroken via LLM-driven automation with JetKVM and Bluetooth switch",
+      "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "A compromised LiteLLM 1.107.0 release on PyPI shipped a credential stealer and backdoor, prompting discussion of recurring supply chain attacks and developer key hygiene.",
+      "summary": "A detailed account of jailbreaking the Switch 2 using an LLM-assisted, hardware-automated setup involving JetKVM and a Bluetooth-controlled power button.",
       "tags": [
-        "supply-chain-security",
-        "pypi",
-        "litellm",
-        "credential-theft",
-        "open-source-security"
+        "console hacking",
+        "security research",
+        "LLM agents",
+        "hardware automation",
+        "Nintendo Switch 2"
       ]
     },
     {
-      "title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
-      "title_zh": "eMudhra 中间证书密钥熵仅 8 位，毫秒级即被破解",
-      "title_en": "eMudhra CA used 8-bit RSA keys, cracked in milliseconds",
-      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "title": "eMudhra to exit global SSL/TLS certificate business",
+      "title_zh": "eMudhra 因私钥被破解退出全球 SSL/TLS 证书业务",
+      "title_en": "eMudhra Exits Global SSL/TLS Certificate Business After Private Key Failures",
+      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "A major certificate authority issued certificates with trivially factorable RSA keys, exposed by Google's paranoid_crypto tool, highlighting systemic weaknesses in the CA trust model and the difficulty of remediating unpatachable devices.",
+      "summary": "eMudhra announced it is withdrawing from the global SSL/TLS certificate business following a security incident and intense scrutiny from browser vendors and the community.",
       "tags": [
         "security",
-        "TLS/PKI",
+        "TLS",
+        "PKI",
         "certificate-authority",
-        "cryptography",
+        "incident-response"
+      ]
+    },
+    {
+      "title": "研究：智能电视关掉内容识别仍在上报",
+      "title_zh": "研究：智能电视关闭内容识别后仍继续上报数据",
+      "title_en": "Study: Smart TVs Keep Reporting ACR Data Even After Users Turn It Off",
+      "url": "https://watchingthewatchers.github.io/watchingthewatchers/index.html",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "A study found that some smart TVs continue reporting content-recognition data even after ACR is disabled, with two platforms transmitting viewing information unencrypted.",
+      "tags": [
+        "privacy",
+        "security",
+        "smart-tv",
+        "ACR",
         "IoT"
       ]
     },
     {
-      "title": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
-      "title_zh": "新墨西哥州剑桥分析案裁定Meta赔偿250亿美元",
-      "title_en": "Meta ordered to pay New Mexico $25B in Cambridge Analytica case",
-      "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "New Mexico secured a historic $25B penalty against Meta over Cambridge Analytica-related consumer protection violations, prompting discussion of appeals, settlement comparisons, and executive accountability.",
-      "tags": [
-        "privacy",
-        "meta",
-        "regulation",
-        "cambridge-analytica",
-        "tech-policy"
-      ]
-    },
-    {
-      "title": "OpenAI models are coming to Google Cloud",
-      "title_zh": "OpenAI 模型将进驻 Google Cloud 模型花园",
-      "title_en": "OpenAI Models Are Coming to Google Cloud's Model Garden",
-      "url": "https://openai.com/index/openai-models-google-cloud/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "OpenAI models are being made available through Google Cloud, a notable cross-competitor partnership that lets GCP customers apply cloud spend commitments to OpenAI inference.",
-      "tags": [
-        "OpenAI",
-        "Google Cloud",
-        "AI infrastructure",
-        "cloud partnerships",
-        "inference"
-      ]
-    },
-    {
-      "title": "The Huawei-DeepSeek Symbiosis",
-      "title_zh": "SemiAnalysis深度解析华为昇腾950PR与DeepSeek的软硬协同",
-      "title_en": "SemiAnalysis dissects Huawei Ascend 950PR and DeepSeek's chip symbiosis",
-      "url": "https://newsletter.semianalysis.com/p/huawei-deepseek",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "A detailed SemiAnalysis report on Huawei Ascend 950PR benchmarks, DeepSeek model analysis, and DeepSeek's support for Ascend hardware.",
-      "tags": [
-        "Huawei Ascend",
-        "DeepSeek",
-        "AI hardware",
-        "benchmarks",
-        "semiconductors"
-      ]
-    },
-    {
-      "title": "Uber 用 AI 自动清理技术债，已删逾 16000 个过期 feature flag",
-      "title_zh": "Uber 的 AutoClean AI 代理已从生产代码中删除逾 16000 个过期功能开关",
-      "title_en": "Uber's AutoClean AI agents have deleted 16,000+ stale feature flags from production code",
-      "url": "https://www.uber.com/us/en/blog/ai-code-cleanup/",
+      "title": "Nvidia 禁运 B300 芯片现身中国国有网络",
+      "title_zh": "被禁运的 Nvidia B300 芯片据称现身中国国有网络",
+      "title_en": "Banned Nvidia B300 Chips Reportedly Found in Chinese State-Owned Network",
+      "url": "https://theinference.org/article/china-s-state-money-bought-banned-nvidia-b300-servers-then-redacted-the-receipts",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Uber's AutoClean system uses AI agents plus deterministic rewriting and a multi-agent review gate to automatically remove stale feature flags from production monorepos, having deleted over 16,000 flags and a million-plus lines of code.",
+      "summary": "A report claims that banned Nvidia B300 chips have surfaced in a Chinese state-owned network via a ¥3B server deal, with paperwork allegedly redacted after regulators took notice, prompting Nvidia and ASUS to respond.",
       "tags": [
-        "AI agents",
-        "tech debt",
-        "feature flags",
-        "code automation",
-        "software engineering"
+        "export-controls",
+        "nvidia",
+        "semiconductors",
+        "china",
+        "ai-infrastructure"
+      ]
+    },
+    {
+      "title": "商务部对人工智能、生物医药、光伏相关技术出口实施临时登记  商务部拟修订《中国禁止出口限制出口技术目录》。",
+      "title_zh": "商务部拟对人工智能、生物医药、光伏技术实施出口管制并公开征求意见",
+      "title_en": "China's MOFCOM Proposes Export Controls on AI, Biotech and Solar Tech",
+      "url": "https://t.me/zaihuapd/44626",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "China's Ministry of Commerce is soliciting public comment on revisions to its prohibited/restricted technology export catalog, adding temporary registration for 40 technologies across AI, biotech, and photovoltaics, with carve-outs for already-public AI work and for non-transfer biotech licensing.",
+      "tags": [
+        "export-controls",
+        "china-regulation",
+        "ai-policy",
+        "biotech",
+        "photovoltaics"
       ]
     }
   ]
