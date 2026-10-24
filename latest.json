@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-23T00:15:29.455019+00:00",
-  "date": "2026-10-23",
-  "total_fetched": 43,
-  "important_count": 7,
+  "generated_at": "2026-10-24T00:08:33.266169+00:00",
+  "date": "2026-10-24",
+  "total_fetched": 33,
+  "important_count": 3,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,125 +10,61 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/10/23/summary-zh.html",
-      "path": "docs/_posts/2026-10-23-summary-zh.md"
+      "url": "2026/10/24/summary-zh.html",
+      "path": "docs/_posts/2026-10-24-summary-zh.md"
     },
     "en": {
-      "url": "2026/10/23/summary-en.html",
-      "path": "docs/_posts/2026-10-23-summary-en.md"
+      "url": "2026/10/24/summary-en.html",
+      "path": "docs/_posts/2026-10-24-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Quad9 (DNS Resolver) to Exit France",
-      "title_zh": "Quad9因藐视法庭裁决将把DNS解析服务撤出法国",
-      "title_en": "Quad9 to Pull Its DNS Resolver Out of France After Contempt Ruling",
-      "url": "https://quad9.net/news/blog/au-revoir-france/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Quad9 is pulling its DNS resolution service out of France after a court held it in contempt for failing to block pirated content, even though the rights holder circumvented its geoIP measures with a VPN.",
-      "tags": [
-        "dns",
-        "internet-censorship",
-        "copyright",
-        "networking",
-        "internet-governance"
-      ]
-    },
-    {
-      "title": "Getting ready to operate GNU Taler in Germany",
-      "title_zh": "GNU Taler 筹备在德国正式投入运营",
-      "title_en": "GNU Taler prepares for operational rollout in Germany",
-      "url": "https://www.taler.net/en/news/2026-13.html",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "GNU Taler, a privacy-preserving electronic payment system, is preparing for operational deployment in Germany, prompting discussion about its design trade-offs and its prospects against bank-backed rivals like Wero.",
-      "tags": [
-        "digital-payments",
-        "privacy",
-        "gnu-taler",
-        "open-source",
-        "eu-regulation"
-      ]
-    },
-    {
-      "title": "Jailbreaking the Switch 2",
-      "title_zh": "借助LLM自动化与JetKVM硬件，Switch 2被成功破解",
-      "title_en": "Switch 2 jailbroken via LLM-driven automation with JetKVM and Bluetooth switch",
-      "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A detailed account of jailbreaking the Switch 2 using an LLM-assisted, hardware-automated setup involving JetKVM and a Bluetooth-controlled power button.",
-      "tags": [
-        "console hacking",
-        "security research",
-        "LLM agents",
-        "hardware automation",
-        "Nintendo Switch 2"
-      ]
-    },
-    {
-      "title": "eMudhra to exit global SSL/TLS certificate business",
-      "title_zh": "eMudhra 因私钥被破解退出全球 SSL/TLS 证书业务",
-      "title_en": "eMudhra Exits Global SSL/TLS Certificate Business After Private Key Failures",
-      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "eMudhra announced it is withdrawing from the global SSL/TLS certificate business following a security incident and intense scrutiny from browser vendors and the community.",
+      "title": "PHP紧急修复两项严重漏洞，官方敦促用户立即升级  现在，此时此刻 PHP 团队发布安全更新，修复两项可能让攻击者无需登录即可远程执行代码的严重漏洞。",
+      "title_zh": "PHP 紧急发布补丁，修复两个 CVSS 9.2 的未授权远程代码执行漏洞",
+      "title_en": "PHP ships emergency patches for two critical pre-auth RCE flaws (CVSS 9.2)",
+      "url": "https://t.me/zaihuapd/44647",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "PHP released emergency security updates for two pre-authentication remote code execution vulnerabilities rated CVSS 9.2, urging immediate upgrades to 8.5.12, 8.4.27, 8.3.36, or 8.2.35 across all web-request-handling deployments.",
       "tags": [
         "security",
-        "TLS",
-        "PKI",
-        "certificate-authority",
-        "incident-response"
+        "php",
+        "vulnerability",
+        "remote-code-execution",
+        "patching"
       ]
     },
     {
-      "title": "研究：智能电视关掉内容识别仍在上报",
-      "title_zh": "研究：智能电视关闭内容识别后仍继续上报数据",
-      "title_en": "Study: Smart TVs Keep Reporting ACR Data Even After Users Turn It Off",
-      "url": "https://watchingthewatchers.github.io/watchingthewatchers/index.html",
-      "source": "telegram",
+      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "title_zh": "月之暗面发布 Kimi K3.1 Pro 及 Highspeed 高速版本",
+      "title_en": "Moonshot AI ships Kimi K3.1 Pro and a Highspeed serving variant",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "A study found that some smart TVs continue reporting content-recognition data even after ACR is disabled, with two platforms transmitting viewing information unencrypted.",
+      "summary": "Moonshot AI announces Kimi K3.1 Pro and a Highspeed variant, prompting heavy HN discussion on benchmarks, pricing, rate limits, and model behavior.",
       "tags": [
-        "privacy",
-        "security",
-        "smart-tv",
-        "ACR",
-        "IoT"
+        "LLM",
+        "Kimi",
+        "Moonshot AI",
+        "benchmarks",
+        "model release"
       ]
     },
     {
-      "title": "Nvidia 禁运 B300 芯片现身中国国有网络",
-      "title_zh": "被禁运的 Nvidia B300 芯片据称现身中国国有网络",
-      "title_en": "Banned Nvidia B300 Chips Reportedly Found in Chinese State-Owned Network",
-      "url": "https://theinference.org/article/china-s-state-money-bought-banned-nvidia-b300-servers-then-redacted-the-receipts",
-      "source": "telegram",
+      "title": "Today, we hacked what we'd set out to hack: the iPhone",
+      "title_zh": "Calif 博客宣称成功攻破 iPhone，引发越狱与 AI 访问权限之争",
+      "title_en": "Calif blog claims a successful iPhone hack, igniting jailbreak and AI-access debate",
+      "url": "https://blog.calif.io/p/iphone",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "A report claims that banned Nvidia B300 chips have surfaced in a Chinese state-owned network via a ¥3B server deal, with paperwork allegedly redacted after regulators took notice, prompting Nvidia and ASUS to respond.",
+      "summary": "A blog post describing a successful effort to hack an iPhone, sparking debate on jailbreaking, Lockdown mode's real-world efficacy, and the gated access frontier labs grant to security researchers.",
       "tags": [
-        "export-controls",
-        "nvidia",
-        "semiconductors",
-        "china",
-        "ai-infrastructure"
-      ]
-    },
-    {
-      "title": "商务部对人工智能、生物医药、光伏相关技术出口实施临时登记  商务部拟修订《中国禁止出口限制出口技术目录》。",
-      "title_zh": "商务部拟对人工智能、生物医药、光伏技术实施出口管制并公开征求意见",
-      "title_en": "China's MOFCOM Proposes Export Controls on AI, Biotech and Solar Tech",
-      "url": "https://t.me/zaihuapd/44626",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "China's Ministry of Commerce is soliciting public comment on revisions to its prohibited/restricted technology export catalog, adding temporary registration for 40 technologies across AI, biotech, and photovoltaics, with carve-outs for already-public AI work and for non-transfer biotech licensing.",
-      "tags": [
-        "export-controls",
-        "china-regulation",
-        "ai-policy",
-        "biotech",
-        "photovoltaics"
+        "security-research",
+        "iOS",
+        "exploitation",
+        "AI-red-teaming",
+        "jailbreak"
       ]
     }
   ]
