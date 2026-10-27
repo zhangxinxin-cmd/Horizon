@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-25T23:40:53.613015+00:00",
-  "date": "2026-10-25",
-  "total_fetched": 29,
-  "important_count": 2,
+  "generated_at": "2026-10-27T01:00:05.841111+00:00",
+  "date": "2026-10-27",
+  "total_fetched": 40,
+  "important_count": 7,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,45 +10,125 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/10/25/summary-zh.html",
-      "path": "docs/_posts/2026-10-25-summary-zh.md"
+      "url": "2026/10/27/summary-zh.html",
+      "path": "docs/_posts/2026-10-27-summary-zh.md"
     },
     "en": {
-      "url": "2026/10/25/summary-en.html",
-      "path": "docs/_posts/2026-10-25-summary-en.md"
+      "url": "2026/10/27/summary-en.html",
+      "path": "docs/_posts/2026-10-27-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "PHP紧急修复两项严重漏洞，官方敦促用户立即升级  现在，此时此刻 PHP 团队发布安全更新，修复两项可能让攻击者无需登录即可远程执行代码的严重漏洞。",
-      "title_zh": "PHP 紧急发布补丁，修复两项严重远程代码执行漏洞",
-      "title_en": "PHP Releases Emergency Patches for Two Critical RCE Flaws",
-      "url": "https://t.me/zaihuapd/44678",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "PHP released emergency security updates (8.5.12, 8.4.27, 8.3.36, 8.2.35) fixing two CVSS 9.2 unauthenticated remote code execution flaws affecting PHP-FPM, mod_php, php-cgi, FrankenPHP, and LiteSpeed deployments.",
+      "title": "Announcing three new discoveries in mathematics, computer science, and physics",
+      "title_zh": "OpenAI宣称AI产出三大成果：证伪ETH、证明Yang–Mills存在性与Kakeya猜想",
+      "title_en": "OpenAI claims AI proofs: ETH disproved, Yang–Mills existence, Kakeya",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "OpenAI announces three major mathematical, computer science, and physics discoveries, including an apparent disproof of the Exponential Time Hypothesis and AI-generated Yang–Mills/QCD proofs, sparking intense Hacker News discussion.",
       "tags": [
-        "php",
-        "security",
-        "vulnerability",
-        "remote-code-execution",
-        "patching"
+        "AI-for-science",
+        "mathematics",
+        "computational-complexity",
+        "physics",
+        "research-announcements"
       ]
     },
     {
-      "title": "🍏 苹果将于周三发布首款触屏 MacBook Pro",
-      "title_zh": "苹果将于周三发布首款触屏 MacBook Pro",
-      "title_en": "Apple to unveil first touchscreen MacBook Pro on Wednesday",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-10-25/apple-to-unveil-touch-screen-macbook-pro-executive-promotions-in-box-checker",
+      "title": "The Exponential Time Hypothesis Is False [pdf]",
+      "title_zh": "预印本声称证伪指数时间假设",
+      "title_en": "Preprint Claims to Disprove the Exponential Time Hypothesis",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "A preprint hosted in OpenAI's math repository claims to disprove the Exponential Time Hypothesis, sparking intense expert discussion about its limited implications for NP, SETH-based lower bounds (e.g., quadratic attention), and SAT solving.",
+      "tags": [
+        "complexity-theory",
+        "ETH/SETH",
+        "SAT-solving",
+        "research-preprint",
+        "NP-vs-P"
+      ]
+    },
+    {
+      "title": "Anthropic S-1",
+      "title_zh": "Anthropic 提交 S-1 上市文件，披露约 5050 亿美元多云算力承诺",
+      "title_en": "Anthropic Files S-1 for IPO, Disclosing Roughly $505B in Multi-Vendor Compute Commitments",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "Anthropic files its S-1 for a public offering, revealing enormous multi-vendor compute commitments and steep revenue growth, prompting intense community debate about the sustainability of AI demand.",
+      "tags": [
+        "anthropic",
+        "ipo",
+        "ai-industry",
+        "business-model",
+        "compute-infrastructure"
+      ]
+    },
+    {
+      "title": "GPT-6.1 Terra",
+      "title_zh": "OpenAI 发布 GPT-6.1 Terra：更便宜的中端模型，却让产品线更加混乱",
+      "title_en": "OpenAI ships GPT-6.1 Terra, a cheaper mid-tier model that muddles its lineup",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "OpenAI releases GPT-6.1 Terra, a mid-tier model with a ~75% price cut trajectory, prompting HN discussion about its muddled positioning between Luna and Sol and confusing model naming.",
+      "tags": [
+        "openai",
+        "llm",
+        "model-release",
+        "pricing",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
+      "title_zh": "微软向约四分之一员工提供自愿离职买断方案",
+      "title_en": "Microsoft Offers Voluntary Buyouts to Roughly a Quarter of Its Workforce",
+      "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Microsoft is offering voluntary buyouts to roughly a quarter of its ~240k workforce, sparking heavy debate about organizational bloat, leadership credibility, and the strategic risk of losing the most employable engineers.",
+      "tags": [
+        "microsoft",
+        "layoffs",
+        "tech-industry",
+        "workforce",
+        "career"
+      ]
+    },
+    {
+      "title": "西北大学把单个正电子囚禁数月",
+      "title_zh": "西北大学将单个正电子囚禁数月",
+      "title_en": "Northwestern traps a single positron for months",
+      "url": "https://www.wired.com/story/scientists-trapped-an-antimatter-particle-for-months-to-study-its-secrets/",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Apple is expected to unveil its first touchscreen MacBook Pro on Wednesday, adding OLED and Dynamic Island in 14- and 16-inch models at a higher price.",
+      "summary": "Northwestern researchers trapped a single positron for months using a quantum cyclotron, enabling repeated precision antimatter measurements that could reveal matter-antimatter differences.",
       "tags": [
-        "Apple",
-        "MacBook Pro",
-        "touchscreen",
-        "OLED",
-        "hardware"
+        "physics",
+        "antimatter",
+        "quantum measurement",
+        "research breakthrough",
+        "precision science"
+      ]
+    },
+    {
+      "title": "马斯克称 SpaceX 完成 400 亿美元芯片债务融资",
+      "title_zh": "马斯克称SpaceX完成400亿美元芯片债务融资，用于采购英伟达GPU",
+      "title_en": "Musk says SpaceX closed $40B chip-backed debt for Nvidia GPUs",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-25/musk-says-spacex-closed-40-billion-debt-deal-blasts-neoclouds",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Musk says SpaceX has closed $40B in debt financing to buy Nvidia GPUs for its AI business while predicting a mass die-off and consolidation among 200+ neocloud compute renters—though sources say the debt has not yet been priced.",
+      "tags": [
+        "AI infrastructure",
+        "GPU compute",
+        "SpaceX",
+        "debt financing",
+        "neoclouds"
       ]
     }
   ]
