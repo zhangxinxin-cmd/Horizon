@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-27T01:00:05.841111+00:00",
-  "date": "2026-10-27",
-  "total_fetched": 40,
-  "important_count": 7,
+  "generated_at": "2026-10-28T00:50:05.885545+00:00",
+  "date": "2026-10-28",
+  "total_fetched": 42,
+  "important_count": 8,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,125 +10,141 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/10/27/summary-zh.html",
-      "path": "docs/_posts/2026-10-27-summary-zh.md"
+      "url": "2026/10/28/summary-zh.html",
+      "path": "docs/_posts/2026-10-28-summary-zh.md"
     },
     "en": {
-      "url": "2026/10/27/summary-en.html",
-      "path": "docs/_posts/2026-10-27-summary-en.md"
+      "url": "2026/10/28/summary-en.html",
+      "path": "docs/_posts/2026-10-28-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Announcing three new discoveries in mathematics, computer science, and physics",
-      "title_zh": "OpenAI宣称AI产出三大成果：证伪ETH、证明Yang–Mills存在性与Kakeya猜想",
-      "title_en": "OpenAI claims AI proofs: ETH disproved, Yang–Mills existence, Kakeya",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "title": "Classification of Finite Simple Groups Formalized in Lean",
+      "title_zh": "Axiom Math 在 Lean 中形式化有限单群分类定理",
+      "title_en": "Axiom Math Formalizes the Classification of Finite Simple Groups in Lean",
+      "url": "https://cfsg.axiommath.ai/",
       "source": "hackernews",
       "score": 9.0,
-      "summary": "OpenAI announces three major mathematical, computer science, and physics discoveries, including an apparent disproof of the Exponential Time Hypothesis and AI-generated Yang–Mills/QCD proofs, sparking intense Hacker News discussion.",
+      "summary": "Axiom Math announces a Lean formalization of the Classification of Finite Simple Groups, prompting discussion on foundations, auto-formalization with frontier models, and the future of large-scale collaborative mathematics.",
       "tags": [
-        "AI-for-science",
-        "mathematics",
-        "computational-complexity",
-        "physics",
-        "research-announcements"
+        "formal-verification",
+        "Lean",
+        "group-theory",
+        "autoformalization",
+        "mathematics"
       ]
     },
     {
-      "title": "The Exponential Time Hypothesis Is False [pdf]",
-      "title_zh": "预印本声称证伪指数时间假设",
-      "title_en": "Preprint Claims to Disprove the Exponential Time Hypothesis",
-      "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
-      "source": "hackernews",
+      "title": "🤖 谷歌发布 Gemini 4 Argon，物理推理得分 87%  谷歌发布新一代多模态推理模型 Gemini 4 Argon，强化物理理解、代码生成与视觉语义",
+      "title_zh": "谷歌据称发布 Gemini 4 Argon，具身推理得分达 87%",
+      "title_en": "Google reportedly launches Gemini 4 Argon with 87% embodied reasoning score",
+      "url": "https://t.me/zaihuapd/44743",
+      "source": "telegram",
       "score": 9.0,
-      "summary": "A preprint hosted in OpenAI's math repository claims to disprove the Exponential Time Hypothesis, sparking intense expert discussion about its limited implications for NP, SETH-based lower bounds (e.g., quadratic attention), and SAT solving.",
+      "summary": "Google reportedly released Gemini 4 Argon, a multimodal reasoning model with strong physical/embodied reasoning, robotic control capabilities, SDK access, and published pricing.",
       "tags": [
-        "complexity-theory",
-        "ETH/SETH",
-        "SAT-solving",
-        "research-preprint",
-        "NP-vs-P"
+        "Google Gemini",
+        "multimodal AI",
+        "robotics",
+        "model release",
+        "embodied reasoning"
       ]
     },
     {
-      "title": "Anthropic S-1",
-      "title_zh": "Anthropic 提交 S-1 上市文件，披露约 5050 亿美元多云算力承诺",
-      "title_en": "Anthropic Files S-1 for IPO, Disclosing Roughly $505B in Multi-Vendor Compute Commitments",
-      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "Anthropic files its S-1 for a public offering, revealing enormous multi-vendor compute commitments and steep revenue growth, prompting intense community debate about the sustainability of AI demand.",
+      "title": "triton-lang/triton released v3.9.0",
+      "title_zh": "Triton 3.9.0 发布：新增原子加载/存储，后端与布局全面升级",
+      "title_en": "Triton 3.9.0 Ships Atomic Load/Store, Backend and Layout Upgrades",
+      "url": "https://github.com/triton-lang/triton/releases/tag/v3.9.0",
+      "source": "github",
+      "score": 8.0,
+      "summary": "Triton 3.9.0 release notes detail new atomic load/store ops, compiler and backend (NVIDIA/AMD HIP) improvements, Gluon/layout changes, profiling updates, and breaking changes.",
       "tags": [
-        "anthropic",
-        "ipo",
-        "ai-industry",
-        "business-model",
-        "compute-infrastructure"
+        "triton",
+        "gpu-compilers",
+        "ml-systems",
+        "release-notes",
+        "cuda-hip"
       ]
     },
     {
-      "title": "GPT-6.1 Terra",
-      "title_zh": "OpenAI 发布 GPT-6.1 Terra：更便宜的中端模型，却让产品线更加混乱",
-      "title_en": "OpenAI ships GPT-6.1 Terra, a cheaper mid-tier model that muddles its lineup",
-      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "title": "Genie 4",
+      "title_zh": "Google DeepMind 发布 Genie 4 世界模型，首次原生支持音频",
+      "title_en": "Google DeepMind Unveils Genie 4 World Model With Native Audio",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "OpenAI releases GPT-6.1 Terra, a mid-tier model with a ~75% price cut trajectory, prompting HN discussion about its muddled positioning between Luna and Sol and confusing model naming.",
+      "summary": "Google DeepMind announces Genie 4, a next-generation interactive world-simulation model with audio capabilities, prompting HN discussion that questions whether its frame-consistency truly constitutes 'world simulation.'",
       "tags": [
-        "openai",
-        "llm",
-        "model-release",
-        "pricing",
-        "benchmarks"
+        "world models",
+        "generative video",
+        "DeepMind",
+        "AI research",
+        "simulation"
       ]
     },
     {
-      "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
-      "title_zh": "微软向约四分之一员工提供自愿离职买断方案",
-      "title_en": "Microsoft Offers Voluntary Buyouts to Roughly a Quarter of Its Workforce",
-      "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
+      "title": "Tailscale SSH: Investigation and remediation update",
+      "title_zh": "Tailscale 发布 Tailscale SSH 漏洞调查与修复更新",
+      "title_en": "Tailscale Publishes Investigation and Remediation Update for Tailscale SSH Flaws",
+      "url": "https://tailscale.com/ssh-investigation-update",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Microsoft is offering voluntary buyouts to roughly a quarter of its ~240k workforce, sparking heavy debate about organizational bloat, leadership credibility, and the strategic risk of losing the most employable engineers.",
+      "summary": "Tailscale publishes an investigation and remediation update for vulnerabilities in Tailscale SSH, sparking detailed community analysis of its real-world blast radius and criticism of combining VPN and SSH authentication in one layer.",
       "tags": [
-        "microsoft",
-        "layoffs",
-        "tech-industry",
-        "workforce",
-        "career"
+        "security",
+        "Tailscale",
+        "SSH",
+        "vulnerability-disclosure",
+        "networking"
       ]
     },
     {
-      "title": "西北大学把单个正电子囚禁数月",
-      "title_zh": "西北大学将单个正电子囚禁数月",
-      "title_en": "Northwestern traps a single positron for months",
-      "url": "https://www.wired.com/story/scientists-trapped-an-antimatter-particle-for-months-to-study-its-secrets/",
+      "title": "Python's experimental JIT to be removed",
+      "title_zh": "CPython 实验性 JIT 编译器将被移除",
+      "title_en": "CPython's experimental JIT compiler is being removed",
+      "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "CPython's experimental JIT is being removed, prompting community debate about Python performance strategy, free-threading tradeoffs, and alternatives like Cython.",
+      "tags": [
+        "Python",
+        "CPython",
+        "JIT",
+        "performance",
+        "free-threading"
+      ]
+    },
+    {
+      "title": "Papers with Code is now open-source [P]",
+      "title_zh": "Papers with Code 以 Apache 2.0 开源项目形式重获新生",
+      "title_en": "Papers with Code Revived as Apache 2.0 Open-Source Project",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xgoadu/papers_with_code_is_now_opensource_p/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "Papers with Code has been revived as an Apache 2.0 open-source project with a FastAPI/React stack, public API, and MCP server, inviting community contributions.",
+      "tags": [
+        "Papers with Code",
+        "open-source",
+        "machine learning",
+        "benchmarks",
+        "MCP"
+      ]
+    },
+    {
+      "title": "🤖 OpenAI 发布内部前沿模型生成的数学成果合集  OpenAI 发布由内部未公开前沿模型生成的数学成果，GitHub 合集含 722 篇手稿、372 个结",
+      "title_zh": "OpenAI 发布内部前沿模型生成的 722 篇数学手稿",
+      "title_en": "OpenAI Releases 722 Math Manuscripts Generated by Internal Frontier Model",
+      "url": "https://t.me/zaihuapd/44741",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Northwestern researchers trapped a single positron for months using a quantum cyclotron, enabling repeated precision antimatter measurements that could reveal matter-antimatter differences.",
+      "summary": "OpenAI published a GitHub collection of 722 mathematical manuscripts and 372 result series generated by an internal unreleased frontier model, many formally verified in Lean, reportedly addressing long-standing open problems.",
       "tags": [
-        "physics",
-        "antimatter",
-        "quantum measurement",
-        "research breakthrough",
-        "precision science"
-      ]
-    },
-    {
-      "title": "马斯克称 SpaceX 完成 400 亿美元芯片债务融资",
-      "title_zh": "马斯克称SpaceX完成400亿美元芯片债务融资，用于采购英伟达GPU",
-      "title_en": "Musk says SpaceX closed $40B chip-backed debt for Nvidia GPUs",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-25/musk-says-spacex-closed-40-billion-debt-deal-blasts-neoclouds",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Musk says SpaceX has closed $40B in debt financing to buy Nvidia GPUs for its AI business while predicting a mass die-off and consolidation among 200+ neocloud compute renters—though sources say the debt has not yet been priced.",
-      "tags": [
-        "AI infrastructure",
-        "GPU compute",
-        "SpaceX",
-        "debt financing",
-        "neoclouds"
+        "AI",
+        "Mathematics",
+        "Automated Theorem Proving",
+        "Lean",
+        "OpenAI"
       ]
     }
   ]
