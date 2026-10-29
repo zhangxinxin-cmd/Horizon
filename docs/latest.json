@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-28T00:50:05.885545+00:00",
-  "date": "2026-10-28",
-  "total_fetched": 42,
-  "important_count": 8,
+  "generated_at": "2026-10-29T01:22:43.694566+00:00",
+  "date": "2026-10-29",
+  "total_fetched": 38,
+  "important_count": 6,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,141 +10,109 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/10/28/summary-zh.html",
-      "path": "docs/_posts/2026-10-28-summary-zh.md"
+      "url": "2026/10/29/summary-zh.html",
+      "path": "docs/_posts/2026-10-29-summary-zh.md"
     },
     "en": {
-      "url": "2026/10/28/summary-en.html",
-      "path": "docs/_posts/2026-10-28-summary-en.md"
+      "url": "2026/10/29/summary-en.html",
+      "path": "docs/_posts/2026-10-29-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Classification of Finite Simple Groups Formalized in Lean",
-      "title_zh": "Axiom Math 在 Lean 中形式化有限单群分类定理",
-      "title_en": "Axiom Math Formalizes the Classification of Finite Simple Groups in Lean",
-      "url": "https://cfsg.axiommath.ai/",
+      "title": "Gemini 4 Carbon",
+      "title_zh": "谷歌发布 Gemini 4 Carbon：一个暂时用不上的前沿模型",
+      "title_en": "Google Announces Gemini 4 Carbon, a Frontier Model You Can't Use Yet",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
       "source": "hackernews",
       "score": 9.0,
-      "summary": "Axiom Math announces a Lean formalization of the Classification of Finite Simple Groups, prompting discussion on foundations, auto-formalization with frontier models, and the future of large-scale collaborative mathematics.",
+      "summary": "Google announces Gemini 4 Carbon, sparking intense community discussion about model naming confusion and the value of benchmarks without an immediate release.",
       "tags": [
-        "formal-verification",
-        "Lean",
-        "group-theory",
-        "autoformalization",
-        "mathematics"
+        "Gemini",
+        "Google AI",
+        "LLMs",
+        "model release",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "🍎 Apple 新款 MacBook Pro 首发  PROLED XDR 显示屏并加入触控",
+      "title_zh": "Apple 发布搭载 PROLED XDR 屏并首次支持触控的 MacBook Pro",
+      "title_en": "Apple unveils MacBook Pro with PROLED XDR OLED and first Mac touchscreen",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "Apple unveiled a redesigned MacBook Pro featuring a PROLED XDR tandem OLED display, first-ever Mac touch support, M5 Pro/M5 Max chips, thinner chassis, and up to 24-hour battery life.",
+      "tags": [
+        "Apple",
+        "MacBook Pro",
+        "OLED display",
+        "M5 chip",
+        "hardware launch"
+      ]
+    },
+    {
+      "title": "Why is this fingerprinting script creating bioweapons?",
+      "title_zh": "为什么一段JS指纹脚本会被大模型判定为“生物武器”",
+      "title_en": "Why a JS Fingerprinting Script Triggers 'Bioweapon' LLM Refusals",
+      "url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A security researcher investigates why a benign JS fingerprinting script gets flagged as bioweapon-related by LLM safety filters, uncovering a fractal arms race of anti-LLM prompt 'incantations', obfuscation honey pots, and model fingerprinting.",
+      "tags": [
+        "LLM security",
+        "prompt injection",
+        "browser fingerprinting",
+        "AI safety filters",
+        "obfuscation"
+      ]
+    },
+    {
+      "title": "Apple's git still trusts the compromised eMudhra certificates",
+      "title_zh": "macOS 的 git 等系统工具仍在信任被攻破的 eMudhra CA 证书",
+      "title_en": "macOS git and other system tools still trust compromised eMudhra CA certificates",
+      "url": "https://emudhra.we-have-a-problem.com/apple.html",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Apple's macOS git and other system utilities continue to trust compromised eMudhra certificates, requiring manual mitigation that OS updates may undo.",
+      "tags": [
+        "security",
+        "macOS",
+        "TLS certificates",
+        "PKI",
+        "git"
+      ]
+    },
+    {
+      "title": "[R] Taking EmbeddingGemma-2 (577M) from Rank #26 to #1 on the MAEB audio benchmark by filling its 256d null space with PCA-reduced intermediate Conformer layers (zero training) [R]",
+      "title_zh": "零训练 PCA 零空间注入让 EmbeddingGemma-2 在 MAEB 音频基准上从第 26 名跃升至第 1 名",
+      "title_en": "Zero-training PCA null-space injection lifts EmbeddingGemma-2 from Rank #26 to #1 on MAEB audio benchmark",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xho7pr/r_taking_embeddinggemma2_577m_from_rank_26_to_1/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "A training-free PCA-based null-space injection of intermediate Conformer layers lifts EmbeddingGemma-2 from Rank #26 to #1 on the MAEB audio benchmark.",
+      "tags": [
+        "embeddings",
+        "audio-representation-learning",
+        "PCA",
+        "benchmarking",
+        "multimodal-models"
       ]
     },
     {
       "title": "🤖 谷歌发布 Gemini 4 Argon，物理推理得分 87%  谷歌发布新一代多模态推理模型 Gemini 4 Argon，强化物理理解、代码生成与视觉语义",
-      "title_zh": "谷歌据称发布 Gemini 4 Argon，具身推理得分达 87%",
-      "title_en": "Google reportedly launches Gemini 4 Argon with 87% embodied reasoning score",
-      "url": "https://t.me/zaihuapd/44743",
+      "title_zh": "谷歌据称发布 Gemini 4 Argon 多模态推理模型",
+      "title_en": "Google Reportedly Releases Gemini 4 Argon Multimodal Reasoning Model",
+      "url": "https://t.me/zaihuapd/44764",
       "source": "telegram",
-      "score": 9.0,
-      "summary": "Google reportedly released Gemini 4 Argon, a multimodal reasoning model with strong physical/embodied reasoning, robotic control capabilities, SDK access, and published pricing.",
+      "score": 8.0,
+      "summary": "Google reportedly released Gemini 4 Argon, a multimodal reasoning model claiming 87% on the ERQA embodied-reasoning benchmark and improved robotic task performance.",
       "tags": [
         "Google Gemini",
         "multimodal AI",
+        "embodied reasoning",
         "robotics",
-        "model release",
-        "embodied reasoning"
-      ]
-    },
-    {
-      "title": "triton-lang/triton released v3.9.0",
-      "title_zh": "Triton 3.9.0 发布：新增原子加载/存储，后端与布局全面升级",
-      "title_en": "Triton 3.9.0 Ships Atomic Load/Store, Backend and Layout Upgrades",
-      "url": "https://github.com/triton-lang/triton/releases/tag/v3.9.0",
-      "source": "github",
-      "score": 8.0,
-      "summary": "Triton 3.9.0 release notes detail new atomic load/store ops, compiler and backend (NVIDIA/AMD HIP) improvements, Gluon/layout changes, profiling updates, and breaking changes.",
-      "tags": [
-        "triton",
-        "gpu-compilers",
-        "ml-systems",
-        "release-notes",
-        "cuda-hip"
-      ]
-    },
-    {
-      "title": "Genie 4",
-      "title_zh": "Google DeepMind 发布 Genie 4 世界模型，首次原生支持音频",
-      "title_en": "Google DeepMind Unveils Genie 4 World Model With Native Audio",
-      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Google DeepMind announces Genie 4, a next-generation interactive world-simulation model with audio capabilities, prompting HN discussion that questions whether its frame-consistency truly constitutes 'world simulation.'",
-      "tags": [
-        "world models",
-        "generative video",
-        "DeepMind",
-        "AI research",
-        "simulation"
-      ]
-    },
-    {
-      "title": "Tailscale SSH: Investigation and remediation update",
-      "title_zh": "Tailscale 发布 Tailscale SSH 漏洞调查与修复更新",
-      "title_en": "Tailscale Publishes Investigation and Remediation Update for Tailscale SSH Flaws",
-      "url": "https://tailscale.com/ssh-investigation-update",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Tailscale publishes an investigation and remediation update for vulnerabilities in Tailscale SSH, sparking detailed community analysis of its real-world blast radius and criticism of combining VPN and SSH authentication in one layer.",
-      "tags": [
-        "security",
-        "Tailscale",
-        "SSH",
-        "vulnerability-disclosure",
-        "networking"
-      ]
-    },
-    {
-      "title": "Python's experimental JIT to be removed",
-      "title_zh": "CPython 实验性 JIT 编译器将被移除",
-      "title_en": "CPython's experimental JIT compiler is being removed",
-      "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "CPython's experimental JIT is being removed, prompting community debate about Python performance strategy, free-threading tradeoffs, and alternatives like Cython.",
-      "tags": [
-        "Python",
-        "CPython",
-        "JIT",
-        "performance",
-        "free-threading"
-      ]
-    },
-    {
-      "title": "Papers with Code is now open-source [P]",
-      "title_zh": "Papers with Code 以 Apache 2.0 开源项目形式重获新生",
-      "title_en": "Papers with Code Revived as Apache 2.0 Open-Source Project",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xgoadu/papers_with_code_is_now_opensource_p/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "Papers with Code has been revived as an Apache 2.0 open-source project with a FastAPI/React stack, public API, and MCP server, inviting community contributions.",
-      "tags": [
-        "Papers with Code",
-        "open-source",
-        "machine learning",
-        "benchmarks",
-        "MCP"
-      ]
-    },
-    {
-      "title": "🤖 OpenAI 发布内部前沿模型生成的数学成果合集  OpenAI 发布由内部未公开前沿模型生成的数学成果，GitHub 合集含 722 篇手稿、372 个结",
-      "title_zh": "OpenAI 发布内部前沿模型生成的 722 篇数学手稿",
-      "title_en": "OpenAI Releases 722 Math Manuscripts Generated by Internal Frontier Model",
-      "url": "https://t.me/zaihuapd/44741",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "OpenAI published a GitHub collection of 722 mathematical manuscripts and 372 result series generated by an internal unreleased frontier model, many formally verified in Lean, reportedly addressing long-standing open problems.",
-      "tags": [
-        "AI",
-        "Mathematics",
-        "Automated Theorem Proving",
-        "Lean",
-        "OpenAI"
+        "model release"
       ]
     }
   ]
