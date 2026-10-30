@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-29T01:22:43.694566+00:00",
-  "date": "2026-10-29",
-  "total_fetched": 38,
-  "important_count": 6,
+  "generated_at": "2026-10-30T01:26:33.894674+00:00",
+  "date": "2026-10-30",
+  "total_fetched": 39,
+  "important_count": 9,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,109 +10,157 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/10/29/summary-zh.html",
-      "path": "docs/_posts/2026-10-29-summary-zh.md"
+      "url": "2026/10/30/summary-zh.html",
+      "path": "docs/_posts/2026-10-30-summary-zh.md"
     },
     "en": {
-      "url": "2026/10/29/summary-en.html",
-      "path": "docs/_posts/2026-10-29-summary-en.md"
+      "url": "2026/10/30/summary-en.html",
+      "path": "docs/_posts/2026-10-30-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Gemini 4 Carbon",
-      "title_zh": "谷歌发布 Gemini 4 Carbon：一个暂时用不上的前沿模型",
-      "title_en": "Google Announces Gemini 4 Carbon, a Frontier Model You Can't Use Yet",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-      "source": "hackernews",
+      "title": "W(2;3,21) = 416 - a van der Waerden number conjectured by Kullmann in 2010, now proved with a Lean 4 kernel-checked proof [R]",
+      "title_zh": "Lean 4 内核检验证明解决范德瓦尔登数 w(2;3,21) = 416 猜想",
+      "title_en": "Lean 4 kernel-checked proof settles van der Waerden number w(2;3,21) = 416",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xivpue/w2321_416_a_van_der_waerden_number_conjectured_by/",
+      "source": "reddit",
       "score": 9.0,
-      "summary": "Google announces Gemini 4 Carbon, sparking intense community discussion about model naming confusion and the value of benchmarks without an immediate release.",
+      "summary": "A 2010 conjecture that the van der Waerden number w(2;3,21) equals 416 has been proved with a Lean 4 kernel-checked proof generated using a neuro-symbolic system and backed by a large replayable evidence package.",
       "tags": [
-        "Gemini",
-        "Google AI",
-        "LLMs",
-        "model release",
-        "benchmarks"
+        "formal verification",
+        "Lean 4",
+        "van der Waerden numbers",
+        "neuro-symbolic AI",
+        "combinatorics"
       ]
     },
     {
-      "title": "🍎 Apple 新款 MacBook Pro 首发  PROLED XDR 显示屏并加入触控",
-      "title_zh": "Apple 发布搭载 PROLED XDR 屏并首次支持触控的 MacBook Pro",
-      "title_en": "Apple unveils MacBook Pro with PROLED XDR OLED and first Mac touchscreen",
-      "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
-      "source": "telegram",
-      "score": 9.0,
-      "summary": "Apple unveiled a redesigned MacBook Pro featuring a PROLED XDR tandem OLED display, first-ever Mac touch support, M5 Pro/M5 Max chips, thinner chassis, and up to 24-hour battery life.",
-      "tags": [
-        "Apple",
-        "MacBook Pro",
-        "OLED display",
-        "M5 chip",
-        "hardware launch"
-      ]
-    },
-    {
-      "title": "Why is this fingerprinting script creating bioweapons?",
-      "title_zh": "为什么一段JS指纹脚本会被大模型判定为“生物武器”",
-      "title_en": "Why a JS Fingerprinting Script Triggers 'Bioweapon' LLM Refusals",
-      "url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+      "title_zh": "币安关联钱包被盗56亿美元，引发对SAFU与稳定币冻结的激辩",
+      "title_en": "$5.6B Binance-Linked Hack Sparks Debate on SAFU and Stablecoin Freezes",
+      "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "A security researcher investigates why a benign JS fingerprinting script gets flagged as bioweapon-related by LLM safety filters, uncovering a fractal arms race of anti-LLM prompt 'incantations', obfuscation honey pots, and model fingerprinting.",
+      "summary": "A massive $5.6B theft attributed to Binance-linked wallets sparks debate on exchange solvency, SAFU insurance coverage, and stablecoin issuers' ability to freeze funds.",
       "tags": [
-        "LLM security",
-        "prompt injection",
-        "browser fingerprinting",
-        "AI safety filters",
-        "obfuscation"
+        "crypto",
+        "security",
+        "binance",
+        "blockchain",
+        "stablecoins"
       ]
     },
     {
-      "title": "Apple's git still trusts the compromised eMudhra certificates",
-      "title_zh": "macOS 的 git 等系统工具仍在信任被攻破的 eMudhra CA 证书",
-      "title_en": "macOS git and other system tools still trust compromised eMudhra CA certificates",
-      "url": "https://emudhra.we-have-a-problem.com/apple.html",
+      "title": "We're releasing the weights of Mistral Large 4",
+      "title_zh": "Mistral 以受限“开放权重”许可发布 Mistral Large 4 模型权重",
+      "title_en": "Mistral releases Mistral Large 4 weights under a restricted \"open weight\" license",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Apple's macOS git and other system utilities continue to trust compromised eMudhra certificates, requiring manual mitigation that OS updates may undo.",
+      "summary": "Mistral released the weights of Mistral Large 4 under a restricted license, prompting HN discussion about the misleading 'open weight' label, a steep price cut versus the preview, and real-world provider experiences.",
+      "tags": [
+        "Mistral",
+        "LLM release",
+        "open weights",
+        "AI licensing",
+        "model pricing"
+      ]
+    },
+    {
+      "title": "H.264 Is Magic (2016)",
+      "title_zh": "《H.264 是魔法》经典编解码器深度文章再度登上 Hacker News",
+      "title_en": "H.264 Is Magic: Classic Codec Deep-Dive Resurfaces on Hacker News",
+      "url": "https://sidbala.com/h-264-is-magic/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A Hacker News discussion around the classic 'H.264 Is Magic' article, covering video compression design, x264 engineering, lossless H.264, and successors like AV1/AV2.",
+      "tags": [
+        "video compression",
+        "H.264",
+        "codecs",
+        "x264",
+        "AV1"
+      ]
+    },
+    {
+      "title": "DoorDash to acquire Instacart",
+      "title_zh": "DoorDash 宣布收购 Instacart，美国配送市场迎来大整合",
+      "title_en": "DoorDash to Acquire Instacart, Consolidating U.S. Delivery Market",
+      "url": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "DoorDash announced plans to acquire Instacart, prompting discussion about antitrust, market overlap, and the impact on grocery delivery competition.",
+      "tags": [
+        "DoorDash",
+        "Instacart",
+        "acquisition",
+        "antitrust",
+        "grocery delivery"
+      ]
+    },
+    {
+      "title": "LLM Voice",
+      "title_zh": "Martin Fowler 解析“LLM 腔调”：为何 AI 写出的文字让人读不下去",
+      "title_en": "Martin Fowler names the \"LLM Voice\" that makes AI-written prose so tiring",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Martin Fowler's 'LLM Voice' examines the recognizable and wearying stylistic signature of LLM-generated writing, with HN commenters dissecting why it feels so unreadable and how it degrades human communication.",
+      "tags": [
+        "LLM writing style",
+        "AI-generated content",
+        "software engineering culture",
+        "human-computer interaction",
+        "media criticism"
+      ]
+    },
+    {
+      "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
+      "title_zh": "PHP2Shell 与 Linux XFRM 漏洞链攻陷 25 台服务器，含美国政府系统",
+      "title_en": "Chained PHP2Shell and Linux XFRM Exploit Roots 25 Servers, Including US Government Systems",
+      "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A chained PHP2Shell plus Linux kernel XFRM ESP-in-TCP exploit compromised 25 servers, including US Government systems, sparking detailed HN discussion on kernel attack surface, exploit quality, and vendor identification.",
       "tags": [
         "security",
-        "macOS",
-        "TLS certificates",
-        "PKI",
-        "git"
+        "exploit-chains",
+        "linux-kernel",
+        "php",
+        "vulnerability-disclosure"
       ]
     },
     {
-      "title": "[R] Taking EmbeddingGemma-2 (577M) from Rank #26 to #1 on the MAEB audio benchmark by filling its 256d null space with PCA-reduced intermediate Conformer layers (zero training) [R]",
-      "title_zh": "零训练 PCA 零空间注入让 EmbeddingGemma-2 在 MAEB 音频基准上从第 26 名跃升至第 1 名",
-      "title_en": "Zero-training PCA null-space injection lifts EmbeddingGemma-2 from Rank #26 to #1 on MAEB audio benchmark",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xho7pr/r_taking_embeddinggemma2_577m_from_rank_26_to_1/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "A training-free PCA-based null-space injection of intermediate Conformer layers lifts EmbeddingGemma-2 from Rank #26 to #1 on the MAEB audio benchmark.",
-      "tags": [
-        "embeddings",
-        "audio-representation-learning",
-        "PCA",
-        "benchmarking",
-        "multimodal-models"
-      ]
-    },
-    {
-      "title": "🤖 谷歌发布 Gemini 4 Argon，物理推理得分 87%  谷歌发布新一代多模态推理模型 Gemini 4 Argon，强化物理理解、代码生成与视觉语义",
-      "title_zh": "谷歌据称发布 Gemini 4 Argon 多模态推理模型",
-      "title_en": "Google Reportedly Releases Gemini 4 Argon Multimodal Reasoning Model",
-      "url": "https://t.me/zaihuapd/44764",
+      "title": "🛒 谷歌开放第三方安卓应用商店注册 年费 1 万美元",
+      "title_zh": "谷歌开放第三方安卓应用商店注册，年费 1 万美元",
+      "title_en": "Google opens third-party Android app store registration with $10,000 annual fee",
+      "url": "https://www.landian.news/archives/127767.html",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Google reportedly released Gemini 4 Argon, a multimodal reasoning model claiming 87% on the ERQA embodied-reasoning benchmark and improved robotic task performance.",
+      "summary": "Google has opened registration for third-party Android app stores outside the US, offering system-level install and auto-update permissions for a $10,000 annual fee starting with Android 17 QPR2 in December 2026.",
       "tags": [
-        "Google Gemini",
-        "multimodal AI",
-        "embodied reasoning",
-        "robotics",
-        "model release"
+        "Android",
+        "app stores",
+        "Google",
+        "mobile platforms",
+        "platform policy"
+      ]
+    },
+    {
+      "title": "ChatGPT Pro 和 Business 用户每月可领取最高 500 美元 API 额度  OpenAI 在连续 28 天更新的第 24 天更新：符合条件的",
+      "title_zh": "OpenAI 向 ChatGPT Pro 和 Business 用户每月发放最高 500 美元 API 额度",
+      "title_en": "OpenAI gives ChatGPT Pro and Business users up to $500 in monthly API credits",
+      "url": "https://t.me/zaihuapd/44787",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "OpenAI now lets eligible ChatGPT Pro and Business users claim monthly API credits of up to $500 as part of their subscription benefits.",
+      "tags": [
+        "OpenAI",
+        "ChatGPT Pro",
+        "API credits",
+        "pricing",
+        "enterprise"
       ]
     }
   ]
