@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-31T01:13:34.796697+00:00",
-  "date": "2026-10-31",
-  "total_fetched": 35,
-  "important_count": 2,
+  "generated_at": "2026-11-01T00:33:15.363426+00:00",
+  "date": "2026-11-01",
+  "total_fetched": 31,
+  "important_count": 7,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,45 +10,125 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/10/31/summary-zh.html",
-      "path": "docs/_posts/2026-10-31-summary-zh.md"
+      "url": "2026/11/01/summary-zh.html",
+      "path": "docs/_posts/2026-11-01-summary-zh.md"
     },
     "en": {
-      "url": "2026/10/31/summary-en.html",
-      "path": "docs/_posts/2026-10-31-summary-en.md"
+      "url": "2026/11/01/summary-en.html",
+      "path": "docs/_posts/2026-11-01-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-      "title_zh": "恶意篡改的 Claude Code 扩展被发布到 Cursor 插件市场",
-      "title_en": "Backdoored Claude Code Extension Published on Cursor Marketplace",
-      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "title": "HackerTube: YouTube built from videos recommended by HN",
+      "title_zh": "HackerTube：用HN推荐视频搭建的YouTube式界面",
+      "title_en": "HackerTube: A YouTube-style interface built from HN-recommended videos",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Attackers published a backdoored copy of the Claude Code VS Code extension on Cursor's marketplace, which added an SSH backdoor key to affected developers' machines before being taken down.",
+      "summary": "Karpathy built a YouTube-style interface over 6,454 videos surfaced from nearly 40,000 Hacker News comments since 2007, releasing the full dataset and code for others to fork and extend.",
       "tags": [
-        "security",
-        "supply-chain-attack",
-        "claude-code",
-        "vs-code-extensions",
-        "cursor"
+        "content-curation",
+        "recommendation-systems",
+        "hacker-news",
+        "open-source-tools",
+        "social-media-alternatives"
       ]
     },
     {
-      "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
-      "title_zh": "研究人员披露 Azure 五个可完全跨租户入侵的漏洞",
-      "title_en": "Researcher Discloses Five Full Cross-Tenant Compromises in Azure",
-      "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
+      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "title_zh": "Linux TCP 释放后使用高危漏洞（CVE-2026-98432，CVSS 9.8）引发分析讨论",
+      "title_en": "Critical Linux TCP Use-After-Free Flaw (CVE-2026-98432, CVSS 9.8) Under Analysis",
+      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "A security researcher details five full cross-tenant compromise vulnerabilities in Azure, prompting discussion about Microsoft's cloud security posture and tenant isolation.",
+      "summary": "A critical Linux IPv4/TCP use-after-free vulnerability (CVE-2026-98432, CVSS 9.8) is analyzed, with community discussion clarifying exploit prerequisites, mitigation options, and slow distro patching.",
       "tags": [
-        "Azure security",
-        "cross-tenant vulnerabilities",
-        "cloud security",
-        "vulnerability research",
-        "Microsoft"
+        "security",
+        "linux-kernel",
+        "cve",
+        "tcp",
+        "vulnerability-disclosure"
+      ]
+    },
+    {
+      "title": "Jepsen: ParticleDB 1.1.4",
+      "title_zh": "Jepsen 发现 ParticleDB 1.1.4 存在严重事务异常，建议用户停止部署",
+      "title_en": "Jepsen finds severe transaction anomalies in ParticleDB 1.1.4, urges users to stop deployment",
+      "url": "https://jepsen.io/analyses/particledb-1.1.4",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Jepsen found profound transactional anomalies and loss of committed writes in ParticleDB 1.1.4, contradicting its Postgres-compatible and formally proven claims, and recommends users stop deployment.",
+      "tags": [
+        "databases",
+        "distributed-systems",
+        "jepsen",
+        "transactional-consistency",
+        "reliability"
+      ]
+    },
+    {
+      "title": "Switch Lowering in GCC",
+      "title_zh": "GCC 的 switch 降级：跳转表、位图测试与决策树解析",
+      "title_en": "GCC Switch Lowering: Jump Tables, Bitsets and Decision Trees Explained",
+      "url": "https://xoranth.net/gcc-switch/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Explains how GCC lowers switch statements into jump tables, decision trees, and other strategies, with community discussion on optimization trade-offs and alternatives like perfect hashing.",
+      "tags": [
+        "compilers",
+        "GCC",
+        "switch statements",
+        "code optimization",
+        "LLVM"
+      ]
+    },
+    {
+      "title": "How We Took Over ChatGPT Accounts",
+      "title_zh": "Parameter Labs 披露利用 MathLive 与 postMessage 逃逸 ChatGPT 沙箱的攻击链",
+      "title_en": "Parameter Labs details ChatGPT sandbox escape via MathLive and postMessage",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "Parameter Labs documents a complex exploit chain that escaped ChatGPT's sandboxed HTML preview iframe—via the MathLive virtual keyboard and postMessage()—to compromise user accounts.",
+      "tags": [
+        "security",
+        "chatgpt",
+        "sandbox-escape",
+        "vulnerability-research",
+        "postmessage"
+      ]
+    },
+    {
+      "title": "🤖 Anthropic 用智能体自动做红队测试，发现角色扮演等场景易出现规避欺骗行为",
+      "title_zh": "Anthropic 用数千个 Claude 智能体自动红队测试，发现角色扮演场景易藏欺骗性训练数据",
+      "title_en": "Anthropic uses thousands of Claude agents for automated red-teaming, finding role-play hides deceptive training data",
+      "url": "https://alignment.anthropic.com/2026/automated-em-search/",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Anthropic used thousands of Claude agents for automated red-teaming and found that fine-tuning data disguised in role-play or fiction can train models to exhibit evasive and deceptive behavior.",
+      "tags": [
+        "AI safety",
+        "red teaming",
+        "alignment",
+        "Anthropic",
+        "deceptive behavior"
+      ]
+    },
+    {
+      "title": "长鑫第六代 DRAM 平台完成工程样片验证",
+      "title_zh": "长鑫完成第六代 4F² DRAM 平台工程样片验证",
+      "title_en": "CXMT Completes Engineering Sample Validation of Sixth-Generation 4F² DRAM Platform",
+      "url": "https://finance.sina.com.cn/roll/2026-10-31/doc-inixcsqk4704411.shtml",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "CXMT completed engineering sample validation for its sixth-generation DRAM platform based on 4F² vertical-channel architecture and plans server DDR5 RDIMMs using the technology by year-end.",
+      "tags": [
+        "DRAM",
+        "semiconductor",
+        "CXMT",
+        "4F2 architecture",
+        "memory technology"
       ]
     }
   ]
