@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-03T03:09:04.791402+00:00",
-  "date": "2026-11-03",
-  "total_fetched": 42,
-  "important_count": 5,
+  "generated_at": "2026-11-04T01:45:43.624843+00:00",
+  "date": "2026-11-04",
+  "total_fetched": 35,
+  "important_count": 3,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,93 +10,61 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/11/03/summary-zh.html",
-      "path": "docs/_posts/2026-11-03-summary-zh.md"
+      "url": "2026/11/04/summary-zh.html",
+      "path": "docs/_posts/2026-11-04-summary-zh.md"
     },
     "en": {
-      "url": "2026/11/03/summary-en.html",
-      "path": "docs/_posts/2026-11-03-summary-en.md"
+      "url": "2026/11/04/summary-en.html",
+      "path": "docs/_posts/2026-11-04-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Astra can read and write weights to improve Qwen",
-      "title_zh": "Astra声称可读取并编辑Qwen模型权重",
-      "title_en": "Astra Claims It Can Read and Edit Qwen Weights",
-      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "title_zh": "笔记本上的 Qwen 3.8 27B 也能解读模型原始权重",
+      "title_en": "Qwen 3.8 27B on a Laptop Can Interpret Raw Model Weights",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "Simon Willison reports that Qwen 3.8 27B running locally can both interpret and meaningfully discuss raw neural network weights, replicating an example from the 'Sparks of Weight-Space Programming' paper, prompting skeptical and technical discussion about whether such interpretations are actually correct.",
+      "tags": [
+        "LLM",
+        "interpretability",
+        "weight-space-programming",
+        "local-models",
+        "Qwen"
+      ]
+    },
+    {
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "title_zh": "Postman 被指静默安装 AI 插件，并将 API 密钥数据回传服务器",
+      "title_en": "Postman accused of silently installing AI plugins and sending API secrets to its servers",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
       "source": "hackernews",
-      "score": 9.0,
-      "summary": "A blog post claims Astra can inspect and directly edit the weights of small networks, including hand-tuning a small Qwen model to roughly 5x its math performance, sparking intense debate about whether this is emergent weight comprehension or a product of targeted training data.",
-      "tags": [
-        "LLM interpretability",
-        "weight editing",
-        "Qwen",
-        "recursive self-improvement",
-        "AI safety"
-      ]
-    },
-    {
-      "title": "树莓派5正式发布  4GB 型号的售价为 60 美元，8GB 版本的售价为 80 美元（另加当地税费  - 2.4GHz四核64位Arm Cortex-A76 ",
-      "title_zh": "树莓派5发布：2.4GHz Cortex-A76 与双4K60 HDMI，售价60美元起",
-      "title_en": "Raspberry Pi 5 launches with 2.4GHz Cortex-A76 and dual 4K60 HDMI, from $60",
-      "url": "https://t.me/zaihuapd/44854",
-      "source": "telegram",
-      "score": 9.0,
-      "summary": "The Raspberry Pi 5 was officially launched with a 2.4GHz quad-core Arm Cortex-A76 CPU, VideoCore VII GPU, dual 4K60 HDMI, and pricing at $60 for 4GB and $80 for 8GB.",
-      "tags": [
-        "Raspberry Pi",
-        "single-board computer",
-        "Arm Cortex-A76",
-        "hardware release",
-        "embedded systems"
-      ]
-    },
-    {
-      "title": "vllm-project/vllm released v0.33.0rc3",
-      "title_zh": "vLLM v0.33.0rc3 发布：升级 PyTorch 2.14、仅提供 CUDA 13.0 wheel，并新增大量模型支持",
-      "title_en": "vLLM v0.33.0rc3: PyTorch 2.14, CUDA 13.0-only wheels, and a wave of new models",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
-      "source": "github",
       "score": 8.0,
-      "summary": "vLLM v0.33.0rc3 brings numerous new model support additions, a PyTorch 2.14 upgrade, CUDA 13.0-only release artifacts, and an ABI-stable libtorch CUDA wheel.",
+      "summary": "A GitHub issue alleges Postman silently auto-installs AI plugins and transmits API request data—including secrets—to its servers, sparking a large HN discussion about privacy, HIPAA non-compliance, and developers migrating to Bruno.",
       "tags": [
-        "vLLM",
-        "LLM inference",
-        "release",
-        "PyTorch",
-        "CUDA"
-      ]
-    },
-    {
-      "title": "🤖 ChatGPT 分享链接漏洞可致账号被接管",
-      "title_zh": "ChatGPT 分享链接漏洞可致账号被接管，现已修复",
-      "title_en": "ChatGPT share-link flaw allowed account takeover, now patched",
-      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Parameter researchers found a ChatGPT share-link vulnerability that could execute code in a logged-in user's session and exfiltrate private conversations, which OpenAI fixed as a P1 issue.",
-      "tags": [
+        "privacy",
         "security",
-        "ChatGPT",
-        "vulnerability",
-        "account takeover",
-        "AI"
+        "developer-tools",
+        "api-testing",
+        "postman"
       ]
     },
     {
-      "title": "提醒：有服务器的记得更新内核，Linux 内核 IPv4 TCP 存在高危释放后使用漏洞（CVE-2026-98432）",
-      "title_zh": "Linux 内核 IPv4 TCP 高危释放后使用漏洞（CVE-2026-98432）可远程 RCE",
-      "title_en": "Critical Linux kernel IPv4 TCP use-after-free (CVE-2026-98432) enables remote RCE",
-      "url": "https://t.me/zaihuapd/44866",
-      "source": "telegram",
+      "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
+      "title_zh": "视频中微弱的飞机噪音可精确泄露拍摄地点",
+      "title_en": "Faint Aircraft Noise in Videos Can Reveal Exact Recording Locations",
+      "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
+      "source": "rss",
       "score": 8.0,
-      "summary": "A Telegram alert warns of a critical unauthenticated network-exploitable use-after-free in the Linux kernel's IPv4 TCP stack (CVE-2026-98432), with a published RCE PoC and default exposure for Go 1.24+ services via MPTCP.",
+      "summary": "A demonstration showing how faint background aircraft noise in videos can be analyzed via Doppler curves and cross-referenced with ADS-B data to pinpoint the recording location.",
       "tags": [
-        "linux-kernel",
-        "security-vulnerability",
-        "cve",
-        "networking",
-        "go"
+        "OSINT",
+        "privacy",
+        "geolocation",
+        "ADS-B",
+        "audio-forensics"
       ]
     }
   ]
