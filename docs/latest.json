@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04T01:45:43.624843+00:00",
-  "date": "2026-11-04",
-  "total_fetched": 35,
-  "important_count": 3,
+  "generated_at": "2026-11-05T01:53:55.013060+00:00",
+  "date": "2026-11-05",
+  "total_fetched": 38,
+  "important_count": 6,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,61 +10,109 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/11/04/summary-zh.html",
-      "path": "docs/_posts/2026-11-04-summary-zh.md"
+      "url": "2026/11/05/summary-zh.html",
+      "path": "docs/_posts/2026-11-05-summary-zh.md"
     },
     "en": {
-      "url": "2026/11/04/summary-en.html",
-      "path": "docs/_posts/2026-11-04-summary-en.md"
+      "url": "2026/11/05/summary-en.html",
+      "path": "docs/_posts/2026-11-05-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
-      "title_zh": "笔记本上的 Qwen 3.8 27B 也能解读模型原始权重",
-      "title_en": "Qwen 3.8 27B on a Laptop Can Interpret Raw Model Weights",
-      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "Simon Willison reports that Qwen 3.8 27B running locally can both interpret and meaningfully discuss raw neural network weights, replicating an example from the 'Sparks of Weight-Space Programming' paper, prompting skeptical and technical discussion about whether such interpretations are actually correct.",
+      "title": "🤖 KIMI K3.1-Pro 模型正式发布  Kimi 发布 K3.1 Pro，这是 K3.1 系列首款模型，定位为其目前最强的三万亿参数级开放权重模型，支持",
+      "title_zh": "Kimi 发布 K3.1-Pro：三万亿参数开放权重模型，支持百万 token 上下文",
+      "title_en": "Kimi Releases K3.1-Pro: 3-Trillion-Parameter Open-Weight Model With 1M-Token Context",
+      "url": "https://t.me/zaihuapd/44920",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "Kimi released K3.1-Pro, a 3-trillion-parameter open-weight model with 1M-token context and claimed strong coding/agent benchmark performance, plus a faster Highspeed variant.",
       "tags": [
         "LLM",
-        "interpretability",
-        "weight-space-programming",
-        "local-models",
-        "Qwen"
+        "open-weight models",
+        "Kimi",
+        "AI benchmarks",
+        "long context"
       ]
     },
     {
-      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
-      "title_zh": "Postman 被指静默安装 AI 插件，并将 API 密钥数据回传服务器",
-      "title_en": "Postman accused of silently installing AI plugins and sending API secrets to its servers",
-      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "title_zh": "AI 漏洞挖掘迫使软件团队偿还四十年技术债",
+      "title_en": "AI Vulnerability Discovery Forces Software Teams to Repay 40 Years of Technical Debt",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "A GitHub issue alleges Postman silently auto-installs AI plugins and transmits API request data—including secrets—to its servers, sparking a large HN discussion about privacy, HIPAA non-compliance, and developers migrating to Bruno.",
+      "summary": "An IEEE Spectrum article and Hacker News discussion examine whether AI-driven vulnerability discovery is forcing software teams to address decades of accumulated technical debt.",
       "tags": [
-        "privacy",
-        "security",
-        "developer-tools",
-        "api-testing",
-        "postman"
+        "AI security",
+        "technical debt",
+        "cybersecurity",
+        "vulnerability management",
+        "software engineering"
       ]
     },
     {
-      "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
-      "title_zh": "视频中微弱的飞机噪音可精确泄露拍摄地点",
-      "title_en": "Faint Aircraft Noise in Videos Can Reveal Exact Recording Locations",
-      "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
-      "source": "rss",
+      "title": "Progress on provable inference for large language models",
+      "title_zh": "Anthropic 展示可验证大模型推理的密码学证明方案",
+      "title_en": "Anthropic Demonstrates Cryptographic Proofs for Verifiable LLM Inference",
+      "url": "https://www.anthropic.com/research/provable-inference",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "A demonstration showing how faint background aircraft noise in videos can be analyzed via Doppler curves and cross-referenced with ADS-B data to pinpoint the recording location.",
+      "summary": "Anthropic presents a cryptographic approach for clients to verify that a specific large language model was used for inference, with HN commenters debating its overhead, practical alternatives, and attribution.",
       "tags": [
-        "OSINT",
-        "privacy",
-        "geolocation",
-        "ADS-B",
-        "audio-forensics"
+        "provable inference",
+        "LLM security",
+        "cryptography",
+        "zero-knowledge proofs",
+        "Anthropic"
+      ]
+    },
+    {
+      "title": "Tencent Hy4",
+      "title_zh": "腾讯发布 Hy4：7700 亿参数开放权重模型，主打游戏开发与开放科学",
+      "title_en": "Tencent Releases Hy4, a 770B-Parameter Open-Weight Model With Game-Dev and Science Focus",
+      "url": "https://hy.tencent.ai/research/hy4",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Tencent releases Hy4, a leading open-weight foundation model with game-development specializations and open-sourced scientific models HyCell and HyPDE.",
+      "tags": [
+        "open-weight-models",
+        "LLM-release",
+        "Tencent",
+        "game-development",
+        "open-science"
+      ]
+    },
+    {
+      "title": "腾讯向甲骨文租用 10 万枚 AI 芯片  腾讯与甲骨文签订价值约 70 亿美元的租约，租用约 10 万枚在中国买不到的先进 AI 芯片，成为其史上最大海外租赁",
+      "title_zh": "腾讯斥资约70亿美元向甲骨文租用10万枚先进AI芯片",
+      "title_en": "Tencent Leases 100,000 Advanced AI Chips from Oracle in $7B Deal",
+      "url": "https://t.me/zaihuapd/44912",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Tencent signed a ~$7 billion, five-year lease with Oracle for roughly 100,000 advanced AI chips unavailable in China, covering multiple Southeast Asian data centers, to accelerate its AI model and agent development.",
+      "tags": [
+        "AI chips",
+        "Tencent",
+        "Oracle",
+        "export controls",
+        "AI infrastructure"
+      ]
+    },
+    {
+      "title": "🤖 OpenAI 发布 ChatGPT Images 2.0 强化文本渲染与联网推理能力  OpenAI 推出基于 GPT Image 2 的新一代图像生成模型",
+      "title_zh": "OpenAI 发布 ChatGPT Images 2.0：引入推理与联网搜索，大幅强化文字渲染",
+      "title_en": "OpenAI launches ChatGPT Images 2.0 with reasoning, web search and stronger text rendering",
+      "url": "https://t.me/zaihuapd/44923",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "OpenAI released ChatGPT Images 2.0 (GPT Image 2), adding reasoning and web search to image generation, multi-image visual consistency, 2K output, and significantly better multilingual text rendering.",
+      "tags": [
+        "OpenAI",
+        "image-generation",
+        "multimodal",
+        "GPT-Image",
+        "AI-models"
       ]
     }
   ]
