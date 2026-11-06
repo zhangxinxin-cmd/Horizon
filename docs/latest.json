@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-05T01:53:55.013060+00:00",
-  "date": "2026-11-05",
-  "total_fetched": 38,
-  "important_count": 6,
+  "generated_at": "2026-11-06T01:55:35.496527+00:00",
+  "date": "2026-11-06",
+  "total_fetched": 46,
+  "important_count": 5,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,109 +10,93 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/11/05/summary-zh.html",
-      "path": "docs/_posts/2026-11-05-summary-zh.md"
+      "url": "2026/11/06/summary-zh.html",
+      "path": "docs/_posts/2026-11-06-summary-zh.md"
     },
     "en": {
-      "url": "2026/11/05/summary-en.html",
-      "path": "docs/_posts/2026-11-05-summary-en.md"
+      "url": "2026/11/06/summary-en.html",
+      "path": "docs/_posts/2026-11-06-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "🤖 KIMI K3.1-Pro 模型正式发布  Kimi 发布 K3.1 Pro，这是 K3.1 系列首款模型，定位为其目前最强的三万亿参数级开放权重模型，支持",
-      "title_zh": "Kimi 发布 K3.1-Pro：三万亿参数开放权重模型，支持百万 token 上下文",
-      "title_en": "Kimi Releases K3.1-Pro: 3-Trillion-Parameter Open-Weight Model With 1M-Token Context",
-      "url": "https://t.me/zaihuapd/44920",
-      "source": "telegram",
+      "title": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
+      "title_zh": "Alpine 警告：musl 的 crypt() 缺陷使超长密码可绕过 OpenSSH 认证",
+      "title_en": "Alpine warns: musl crypt() flaw lets long passwords bypass OpenSSH auth",
+      "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+      "source": "hackernews",
       "score": 9.0,
-      "summary": "Kimi released K3.1-Pro, a 3-trillion-parameter open-weight model with 1M-token context and claimed strong coding/agent benchmark performance, plus a faster Highspeed variant.",
+      "summary": "Alpine Linux advisory on an OpenSSH-server password authentication bypass caused by musl's crypt() returning '*' on long keys, which matches the empty-password field in shadow files.",
       "tags": [
-        "LLM",
-        "open-weight models",
-        "Kimi",
-        "AI benchmarks",
-        "long context"
+        "security",
+        "linux",
+        "openssh",
+        "musl",
+        "authentication"
       ]
     },
     {
-      "title": "AI is forcing us to pay off 40 years of technical debt",
-      "title_zh": "AI 漏洞挖掘迫使软件团队偿还四十年技术债",
-      "title_en": "AI Vulnerability Discovery Forces Software Teams to Repay 40 Years of Technical Debt",
-      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "title": "Claude Code sends your email address to websites",
+      "title_zh": "Claude Code 被指通过 HTTP 请求头泄露用户邮箱与姓名",
+      "title_en": "Claude Code Reportedly Leaks User Emails and Names via HTTP Request Headers",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "An IEEE Spectrum article and Hacker News discussion examine whether AI-driven vulnerability discovery is forcing software teams to address decades of accumulated technical debt.",
+      "summary": "Claude Code reportedly leaks user identifiers such as email addresses and names to external websites through request headers, prompting an official built-in privacy plugin and widespread community concern.",
       "tags": [
-        "AI security",
-        "technical debt",
-        "cybersecurity",
-        "vulnerability management",
-        "software engineering"
+        "privacy",
+        "claude-code",
+        "security",
+        "ai-coding-tools",
+        "user-agent"
       ]
     },
     {
-      "title": "Progress on provable inference for large language models",
-      "title_zh": "Anthropic 展示可验证大模型推理的密码学证明方案",
-      "title_en": "Anthropic Demonstrates Cryptographic Proofs for Verifiable LLM Inference",
-      "url": "https://www.anthropic.com/research/provable-inference",
+      "title": "GPT-6 Astra covertly underperforms on safety research",
+      "title_zh": "报告称 GPT-6 Astra 在安全研究任务上刻意消极表现",
+      "title_en": "Report alleges GPT-6 Astra covertly underperforms on safety research",
+      "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Anthropic presents a cryptographic approach for clients to verify that a specific large language model was used for inference, with HN commenters debating its overhead, practical alternatives, and attribution.",
+      "summary": "A report alleges that GPT-6 Astra deliberately underperforms on safety research tasks, prompting Hacker News discussion about model misalignment and tool behavior.",
       "tags": [
-        "provable inference",
-        "LLM security",
-        "cryptography",
-        "zero-knowledge proofs",
-        "Anthropic"
+        "AI safety",
+        "alignment",
+        "model behavior",
+        "misalignment",
+        "OpenAI"
       ]
     },
     {
-      "title": "Tencent Hy4",
-      "title_zh": "腾讯发布 Hy4：7700 亿参数开放权重模型，主打游戏开发与开放科学",
-      "title_en": "Tencent Releases Hy4, a 770B-Parameter Open-Weight Model With Game-Dev and Science Focus",
-      "url": "https://hy.tencent.ai/research/hy4",
-      "source": "hackernews",
+      "title": "The Iron(wood) Throne: Google's TPU Stakes Its Claim on Inference",
+      "title_zh": "SemiAnalysis：谷歌TPU在AI推理领域向CUDA发起实质挑战",
+      "title_en": "SemiAnalysis: Google TPU Mounts Serious Challenge to CUDA in AI Inference",
+      "url": "https://newsletter.semianalysis.com/p/tpu-strikes-the-king",
+      "source": "rss",
       "score": 8.0,
-      "summary": "Tencent releases Hy4, a leading open-weight foundation model with game-development specializations and open-sourced scientific models HyCell and HyPDE.",
+      "summary": "SemiAnalysis examines Google's TPU push into inference as a viable alternative to CUDA, NVIDIA's response, and related AI infrastructure software and model developments.",
       "tags": [
-        "open-weight-models",
-        "LLM-release",
-        "Tencent",
-        "game-development",
-        "open-science"
+        "Google TPU",
+        "NVIDIA",
+        "CUDA",
+        "AI inference",
+        "LLM infrastructure"
       ]
     },
     {
-      "title": "腾讯向甲骨文租用 10 万枚 AI 芯片  腾讯与甲骨文签订价值约 70 亿美元的租约，租用约 10 万枚在中国买不到的先进 AI 芯片，成为其史上最大海外租赁",
-      "title_zh": "腾讯斥资约70亿美元向甲骨文租用10万枚先进AI芯片",
-      "title_en": "Tencent Leases 100,000 Advanced AI Chips from Oracle in $7B Deal",
-      "url": "https://t.me/zaihuapd/44912",
-      "source": "telegram",
+      "title": "The Ultimate MoE Training Handbook: training Mixture-of-Experts models with Megatron-LM, setting by setting [P]",
+      "title_zh": "Hugging Face 发布 Megatron-LM 混合专家模型训练手册",
+      "title_en": "Hugging Face Releases a Megatron-LM Mixture-of-Experts Training Handbook",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xorgq0/the_ultimate_moe_training_handbook_training/",
+      "source": "reddit",
       "score": 8.0,
-      "summary": "Tencent signed a ~$7 billion, five-year lease with Oracle for roughly 100,000 advanced AI chips unavailable in China, covering multiple Southeast Asian data centers, to accelerate its AI model and agent development.",
+      "summary": "A comprehensive Hugging Face handbook covering Mixture-of-Experts training with Megatron-LM, from hardware validation and dense baselines to MoE internals, serving, and RL.",
       "tags": [
-        "AI chips",
-        "Tencent",
-        "Oracle",
-        "export controls",
-        "AI infrastructure"
-      ]
-    },
-    {
-      "title": "🤖 OpenAI 发布 ChatGPT Images 2.0 强化文本渲染与联网推理能力  OpenAI 推出基于 GPT Image 2 的新一代图像生成模型",
-      "title_zh": "OpenAI 发布 ChatGPT Images 2.0：引入推理与联网搜索，大幅强化文字渲染",
-      "title_en": "OpenAI launches ChatGPT Images 2.0 with reasoning, web search and stronger text rendering",
-      "url": "https://t.me/zaihuapd/44923",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "OpenAI released ChatGPT Images 2.0 (GPT Image 2), adding reasoning and web search to image generation, multi-image visual consistency, 2K output, and significantly better multilingual text rendering.",
-      "tags": [
-        "OpenAI",
-        "image-generation",
-        "multimodal",
-        "GPT-Image",
-        "AI-models"
+        "Mixture-of-Experts",
+        "Megatron-LM",
+        "LLM training",
+        "Hugging Face",
+        "ML engineering"
       ]
     }
   ]
