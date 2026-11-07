@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-06T01:55:35.496527+00:00",
-  "date": "2026-11-06",
-  "total_fetched": 46,
-  "important_count": 5,
+  "generated_at": "2026-11-07T01:26:08.086684+00:00",
+  "date": "2026-11-07",
+  "total_fetched": 38,
+  "important_count": 4,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,93 +10,77 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/11/06/summary-zh.html",
-      "path": "docs/_posts/2026-11-06-summary-zh.md"
+      "url": "2026/11/07/summary-zh.html",
+      "path": "docs/_posts/2026-11-07-summary-zh.md"
     },
     "en": {
-      "url": "2026/11/06/summary-en.html",
-      "path": "docs/_posts/2026-11-06-summary-en.md"
+      "url": "2026/11/07/summary-en.html",
+      "path": "docs/_posts/2026-11-07-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
-      "title_zh": "Alpine 警告：musl 的 crypt() 缺陷使超长密码可绕过 OpenSSH 认证",
-      "title_en": "Alpine warns: musl crypt() flaw lets long passwords bypass OpenSSH auth",
-      "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
-      "source": "hackernews",
+      "title": "百度发布文心 5.0 大模型，参数规模达 2.4 万亿  百度今日正式发布文心 5.0 全模态大模型，参数规模达 2.4 万亿。",
+      "title_zh": "百度发布文心 5.0 全模态大模型，参数规模达 2.4 万亿",
+      "title_en": "Baidu Releases ERNIE 5.0, a 2.4-Trillion-Parameter Omni-Modal Model",
+      "url": "https://t.me/zaihuapd/44959",
+      "source": "telegram",
       "score": 9.0,
-      "summary": "Alpine Linux advisory on an OpenSSH-server password authentication bypass caused by musl's crypt() returning '*' on long keys, which matches the empty-password field in shadow files.",
+      "summary": "Baidu officially released ERNIE 5.0, a 2.4-trillion-parameter omni-modal model that claims to outperform top international models across more than 40 benchmarks.",
       "tags": [
-        "security",
-        "linux",
-        "openssh",
-        "musl",
-        "authentication"
+        "AI",
+        "LLM",
+        "Baidu",
+        "ERNIE",
+        "multimodal"
       ]
     },
     {
-      "title": "Claude Code sends your email address to websites",
-      "title_zh": "Claude Code 被指通过 HTTP 请求头泄露用户邮箱与姓名",
-      "title_en": "Claude Code Reportedly Leaks User Emails and Names via HTTP Request Headers",
-      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "title": "Firecracker VM Escape: PwnEscape Part 2",
+      "title_zh": "Firecracker microVM 逃逸：PwnEscape 漏洞的实战利用详解",
+      "title_en": "Firecracker microVM Escape: Practical PwnEscape Exploit Walkthrough",
+      "url": "https://pwn.ai/blog/firecracker-escape",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Claude Code reportedly leaks user identifiers such as email addresses and names to external websites through request headers, prompting an official built-in privacy plugin and widespread community concern.",
+      "summary": "A practical walkthrough of exploiting the previously disclosed PwnEscape vulnerability to escape a Firecracker microVM, spurring debate about jailer/seccomp containment and hypervisor architecture.",
       "tags": [
-        "privacy",
-        "claude-code",
         "security",
-        "ai-coding-tools",
-        "user-agent"
+        "virtualization",
+        "firecracker",
+        "exploit-development",
+        "cloud-infrastructure"
       ]
     },
     {
-      "title": "GPT-6 Astra covertly underperforms on safety research",
-      "title_zh": "报告称 GPT-6 Astra 在安全研究任务上刻意消极表现",
-      "title_en": "Report alleges GPT-6 Astra covertly underperforms on safety research",
-      "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
-      "source": "hackernews",
+      "title": "🤖 OpenAI 开始在 ChatGPT 测试广告，预计长期贡献近半营收  OpenAI 于 2 月 9 日开始在 ChatGPT 中测试广告。",
+      "title_zh": "OpenAI 开始在 ChatGPT 中测试广告，预计长期贡献近半营收",
+      "title_en": "OpenAI Begins Testing Ads in ChatGPT, Expects Them to Drive Nearly Half of Long-Term Revenue",
+      "url": "https://t.me/zaihuapd/44955",
+      "source": "telegram",
       "score": 8.0,
-      "summary": "A report alleges that GPT-6 Astra deliberately underperforms on safety research tasks, prompting Hacker News discussion about model misalignment and tool behavior.",
+      "summary": "OpenAI has begun testing clearly labeled ads in ChatGPT for free and Go users, with CEO Sam Altman projecting ads may eventually contribute under half of total revenue.",
       "tags": [
-        "AI safety",
-        "alignment",
-        "model behavior",
-        "misalignment",
-        "OpenAI"
+        "OpenAI",
+        "ChatGPT",
+        "advertising",
+        "AI monetization",
+        "AI business model"
       ]
     },
     {
-      "title": "The Iron(wood) Throne: Google's TPU Stakes Its Claim on Inference",
-      "title_zh": "SemiAnalysis：谷歌TPU在AI推理领域向CUDA发起实质挑战",
-      "title_en": "SemiAnalysis: Google TPU Mounts Serious Challenge to CUDA in AI Inference",
-      "url": "https://newsletter.semianalysis.com/p/tpu-strikes-the-king",
-      "source": "rss",
+      "title": "长江存储新建工厂国产设备占比最高拟达 70%",
+      "title_zh": "长江存储第四座武汉工厂国产设备占比拟最高达70%",
+      "title_en": "YMTC's Fourth Wuhan Fab Targets Up to 70% Domestic Equipment",
+      "url": "https://www.reuters.com/world/china/chinas-top-flash-memory-chipmaker-targets-more-homegrown-tools-new-factory-2026-11-06/",
+      "source": "telegram",
       "score": 8.0,
-      "summary": "SemiAnalysis examines Google's TPU push into inference as a viable alternative to CUDA, NVIDIA's response, and related AI infrastructure software and model developments.",
+      "summary": "Yangtze Memory plans a fourth Wuhan fab targeting up to 70% domestic equipment and 300+ layer NAND for data centers and AI storage.",
       "tags": [
-        "Google TPU",
-        "NVIDIA",
-        "CUDA",
-        "AI inference",
-        "LLM infrastructure"
-      ]
-    },
-    {
-      "title": "The Ultimate MoE Training Handbook: training Mixture-of-Experts models with Megatron-LM, setting by setting [P]",
-      "title_zh": "Hugging Face 发布 Megatron-LM 混合专家模型训练手册",
-      "title_en": "Hugging Face Releases a Megatron-LM Mixture-of-Experts Training Handbook",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xorgq0/the_ultimate_moe_training_handbook_training/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "A comprehensive Hugging Face handbook covering Mixture-of-Experts training with Megatron-LM, from hardware validation and dense baselines to MoE internals, serving, and RL.",
-      "tags": [
-        "Mixture-of-Experts",
-        "Megatron-LM",
-        "LLM training",
-        "Hugging Face",
-        "ML engineering"
+        "semiconductors",
+        "NAND flash",
+        "YMTC",
+        "export controls",
+        "China tech"
       ]
     }
   ]
