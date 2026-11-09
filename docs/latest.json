@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-08T00:58:50.518073+00:00",
-  "date": "2026-11-08",
-  "total_fetched": 34,
-  "important_count": 7,
+  "generated_at": "2026-11-09T01:17:45.273536+00:00",
+  "date": "2026-11-09",
+  "total_fetched": 28,
+  "important_count": 0,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,126 +10,13 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/11/08/summary-zh.html",
-      "path": "docs/_posts/2026-11-08-summary-zh.md"
+      "url": "2026/11/09/summary-zh.html",
+      "path": "docs/_posts/2026-11-09-summary-zh.md"
     },
     "en": {
-      "url": "2026/11/08/summary-en.html",
-      "path": "docs/_posts/2026-11-08-summary-en.md"
+      "url": "2026/11/09/summary-en.html",
+      "path": "docs/_posts/2026-11-09-summary-en.md"
     }
   },
-  "items": [
-    {
-      "title": "The end of Microsoft Research's AI Frontiers group",
-      "title_zh": "微软研究院 AI Frontiers 团队宣告终结，John Langford 离职",
-      "title_en": "Microsoft Research's AI Frontiers Group Shut Down as John Langford Exits",
-      "url": "https://hunch.net/?p=13764006",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Microsoft Research's AI Frontiers group has been shut down, prompting discussion about the industry-wide narrowing of exploratory AI research in favor of transformer scaling.",
-      "tags": [
-        "AI research",
-        "Microsoft Research",
-        "industry trends",
-        "transformers",
-        "research funding"
-      ]
-    },
-    {
-      "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
-      "title_zh": "MaxxBench 质疑高分 DeepSWE 成绩是否反映真实编码能力",
-      "title_en": "MaxxBench questions whether high DeepSWE scores reflect real coding ability",
-      "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "MaxxBench examines whether high DeepSWE scores reflect real capability or benchmark overfitting, arguing labs' RL environments are too similar to eval tasks and that smaller models degrade most.",
-      "tags": [
-        "LLM benchmarks",
-        "evaluation",
-        "overfitting",
-        "reinforcement learning",
-        "model scaling"
-      ]
-    },
-    {
-      "title": "Every Mac comes with an (undocumented) family member classifier",
-      "title_zh": "研究者发现每台 Mac 上都有未公开的 Apple 后台进程在构建个人知识图谱",
-      "title_en": "Researcher finds undocumented Apple daemons building a personal knowledge graph on every Mac",
-      "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "The author documents undocumented Apple daemons shipping on Macs since 2022 that construct an on-device personal knowledge graph mapping users, their contacts, relationships, communications, and movements.",
-      "tags": [
-        "privacy",
-        "macOS",
-        "Apple Intelligence",
-        "knowledge graph",
-        "surveillance"
-      ]
-    },
-    {
-      "title": "We Visited China’s Stargate in Inner Mongolia",
-      "title_zh": "SemiAnalysis 探访内蒙古 800MW 风电 AI 数据中心园区",
-      "title_en": "SemiAnalysis Visits 800MW Wind-Powered AI Campus in Inner Mongolia",
-      "url": "https://newsletter.semianalysis.com/p/we-visited-chinas-stargate-in-inner",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "A visit to a wind-powered 800MW AI datacenter campus in Inner Mongolia reveals rapid construction, a 5MW 800V DC solid-state-transformer pilot, and a cooling design without central chillers.",
-      "tags": [
-        "AI infrastructure",
-        "datacenters",
-        "power delivery",
-        "cooling",
-        "China"
-      ]
-    },
-    {
-      "title": "🐧 甲骨文取消与腾讯 70 亿美元芯片租赁协议  甲骨文取消了与腾讯价值约 70 亿美元的 AI 芯片租赁协议。",
-      "title_zh": "甲骨文在美方压力下取消与腾讯 70 亿美元 AI 芯片租赁协议",
-      "title_en": "Oracle Scraps $7B AI Chip Lease Deal With Tencent Under US Pressure",
-      "url": "https://t.me/zaihuapd/44975",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Oracle reportedly canceled a roughly $7 billion AI chip leasing agreement with Tencent after US officials raised concerns, affecting Tencent's planned access to about 100,000 advanced AI chips via Southeast Asian data centers.",
-      "tags": [
-        "AI chips",
-        "Oracle",
-        "Tencent",
-        "export controls",
-        "geopolitics"
-      ]
-    },
-    {
-      "title": "苹果披露人形机器人系统 HALO，用两个千问模型",
-      "title_zh": "苹果披露人形机器人系统HALO，采用两个千问模型",
-      "title_en": "Apple Unveils HALO Humanoid Robot Control System Powered by Two Qwen Models",
-      "url": "https://weibo.com/1642634100/RqjjGllvw",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Apple's research team disclosed HALO, a three-layer humanoid robot autonomous control system using two Qwen models that transfers simulated motions to real-world rooms on a Unitree G1.",
-      "tags": [
-        "robotics",
-        "humanoid robots",
-        "Qwen",
-        "Apple research",
-        "reinforcement learning"
-      ]
-    },
-    {
-      "title": "GitHub 新架构支持每秒 7200 次推送",
-      "title_zh": "GitHub 新架构 Rubicon 每秒可处理 7200 次推送",
-      "title_en": "GitHub's Rubicon architecture handles 7,200 pushes per second",
-      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "GitHub introduced a new Git storage architecture codenamed Rubicon that supports 5,000 concurrent AI agents and 7,200 pushes per second by using Azure Blob Storage, Ref-CAS, virtual replicas, and background pack compaction.",
-      "tags": [
-        "GitHub",
-        "Git storage",
-        "AI agents",
-        "infrastructure",
-        "scalability"
-      ]
-    }
-  ]
+  "items": []
 }
