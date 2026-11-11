@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-10T03:53:51.609455+00:00",
-  "date": "2026-11-10",
-  "total_fetched": 45,
+  "generated_at": "2026-11-11T01:35:48.798066+00:00",
+  "date": "2026-11-11",
+  "total_fetched": 23,
   "important_count": 5,
   "score_threshold": 8.0,
   "languages": [
@@ -10,93 +10,93 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/11/10/summary-zh.html",
-      "path": "docs/_posts/2026-11-10-summary-zh.md"
+      "url": "2026/11/11/summary-zh.html",
+      "path": "docs/_posts/2026-11-11-summary-zh.md"
     },
     "en": {
-      "url": "2026/11/10/summary-en.html",
-      "path": "docs/_posts/2026-11-10-summary-en.md"
+      "url": "2026/11/11/summary-en.html",
+      "path": "docs/_posts/2026-11-11-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Claude Fable 5.2 and Mythos 5.2",
-      "title_zh": "Anthropic 发布 Claude Fable 5.2 与 Claude Mythos 5.2",
-      "title_en": "Anthropic Releases Claude Fable 5.2 and Claude Mythos 5.2",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "title": "After 7 months, Glasswing overwelms maintainers with underwhelming findings",
+      "title_zh": "VulnCheck 称 Anthropic 的 Glasswing 项目七个月后成果令人失望",
+      "title_en": "VulnCheck Calls Anthropic's Glasswing Results Underwhelming After 7 Months",
+      "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Anthropic announces Claude Fable 5.2 and Mythos 5.2, prompting active Hacker News discussion about model quality, benchmark methodology, release strategy, and pricing.",
+      "summary": "A VulnCheck blog post argues that Anthropic's Glasswing vulnerability-finding effort has produced underwhelming public results after seven months, sparking debate about whether public CVE datasets miss high-impact private-codebase findings.",
       "tags": [
-        "Anthropic",
-        "LLM releases",
-        "AI models",
-        "benchmarking",
-        "Hacker News discussion"
+        "AI security",
+        "vulnerability discovery",
+        "LLMs",
+        "security research",
+        "open source"
       ]
     },
     {
-      "title": "E-means: Outperforming k-means in one-tenth the epochs",
-      "title_zh": "E-means：用十分之一的迭代轮次达到 k-means 聚类质量的质心更新规则",
-      "title_en": "E-means: a centroid update rule that reaches k-means quality in one-tenth the epochs",
-      "url": "https://e-means.github.io/",
+      "title": "Synaptics patent claims stop work on DisplayLink drivers",
+      "title_zh": "Synaptics 以专利威胁叫停开源 DisplayLink 驱动项目",
+      "title_en": "Synaptics Uses Patent Threats to Shut Down Open-Source DisplayLink Driver",
+      "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "E-means presents a centroid-update rule that keeps centroids within the convex hull and converges to k-means-quality clusters in roughly one-tenth the epochs, with Hacker News commenters reporting both strong speedups in vector-index workloads and cases where it does not help.",
+      "summary": "Synaptics is using patent claims and monetary demands to stop work on open-source DisplayLink drivers, sparking community debate about patent law, reverse engineering, and the future of DisplayLink-based docks.",
       "tags": [
-        "clustering",
-        "k-means",
-        "algorithms",
-        "vector-search",
-        "GPU-acceleration"
+        "open-source",
+        "patents",
+        "DisplayLink",
+        "Synaptics",
+        "hardware-drivers"
       ]
     },
     {
-      "title": "Google Gemini routes personal Drive files and emails to human annotators",
-      "title_zh": "消费者版 Gemini 可将个人 Drive 文件和 Gmail 内容转交人工审核",
-      "title_en": "Consumer Gemini can route personal Drive files and Gmail to human reviewers",
-      "url": "https://github.com/thisisme6598/gemini_files/",
+      "title": "AlphaProof Code",
+      "title_zh": "DeepMind 推出 AlphaProof Code 智能体，形式化验证 Signal 加密代码",
+      "title_en": "DeepMind's AlphaProof Code Agent Formally Verifies Signal's Encryption Code",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "A report showing that consumer Google Gemini with Connected Apps can send personal Drive files and Gmail content to human reviewers, with commenters highlighting the consumer/Workspace privacy-policy distinction and broader data-use concerns.",
+      "summary": "DeepMind introduces AlphaProof Code, an AI proof agent for formally verifying code, sparking discussion about its capabilities and the credibility of its reported zero-bug verification result.",
       "tags": [
-        "privacy",
-        "google-gemini",
-        "ai-ethics",
-        "data-governance",
-        "consumer-ai"
+        "AI",
+        "formal verification",
+        "DeepMind",
+        "Lean",
+        "software engineering"
       ]
     },
     {
-      "title": "GitHub 新架构支持每秒 7200 次推送  GitHub 推出代号 Rubicon 的新 Git 存储架构，面向大量 AI 智能体并发操作单个仓库的场景。",
-      "title_zh": "GitHub 推出 Rubicon 存储架构，面向 AI 智能体实现每秒 7200 次推送",
-      "title_en": "GitHub's Rubicon storage architecture targets 7,200 pushes per second for AI agents",
-      "url": "https://t.me/zaihuapd/45013",
-      "source": "telegram",
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "title_zh": "Chrome 联合 Firefox、MDN、Edge 发布面向编程智能体的 200+ 现代 Web 指南",
+      "title_en": "Chrome, Firefox, MDN and Edge ship 200+ modern web guides for coding agents",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "GitHub introduced a new Git storage architecture codenamed Rubicon, designed to support thousands of concurrent AI agents and up to 7,200 pushes per second using Azure Blob Storage and Ref-CAS.",
+      "summary": "Google Chrome, in collaboration with Firefox, MDN, and Edge, released a 1.0 collection of 200+ curated guides packaged for coding agents to steer them toward native modern web primitives instead of 2019-era JS and div-based patterns.",
       "tags": [
-        "GitHub",
-        "Git storage",
-        "AI agents",
-        "infrastructure",
-        "scalability"
+        "web-development",
+        "ai-coding-agents",
+        "browser-standards",
+        "css",
+        "developer-tools"
       ]
     },
     {
-      "title": "🐶 Google 开源 TorchTPU，挑战 NVIDIA AI 生态主导地位  Google Cloud 宣布与 Meta 的 PyTorch 团队共同开发",
-      "title_zh": "Google 开源 TorchTPU，让 TPU 成为 PyTorch 原生后端",
-      "title_en": "Google Open-Sources TorchTPU, Making TPUs a Native PyTorch Backend",
-      "url": "https://t.me/zaihuapd/45021",
-      "source": "telegram",
+      "title": "AMD's Zen 6 Family: Feeding the Beast",
+      "title_zh": "AMD Zen 6 深度解析：全新 I/O 芯片、12 核 CCD 与重构的执行单元",
+      "title_en": "AMD Zen 6 Deep Dive: New I/O Die, 12-Core CCDs, Reworked Execution Units",
+      "url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "Google Cloud and Meta's PyTorch team have open-sourced TorchTPU on GitHub, making TPUs a native PyTorch backend with near-zero code changes and support from vLLM, SGLang, and Hugging Face Transformers v5, directly challenging NVIDIA's AI ecosystem dominance.",
+      "summary": "A detailed analysis of AMD's Zen 6 microarchitecture, covering the redesigned I/O die and memory controller, branch prediction improvements, and rebalanced execution units, with informed community discussion on the tradeoffs.",
       "tags": [
-        "pytorch",
-        "tpu",
-        "google-cloud",
-        "ai-infrastructure",
-        "nvidia"
+        "cpu-architecture",
+        "amd-zen",
+        "microarchitecture",
+        "hardware",
+        "semiconductors"
       ]
     }
   ]
