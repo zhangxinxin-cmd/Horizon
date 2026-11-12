@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-11T01:35:48.798066+00:00",
-  "date": "2026-11-11",
-  "total_fetched": 23,
+  "generated_at": "2026-11-12T02:36:24.100254+00:00",
+  "date": "2026-11-12",
+  "total_fetched": 47,
   "important_count": 5,
   "score_threshold": 8.0,
   "languages": [
@@ -10,93 +10,93 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/11/11/summary-zh.html",
-      "path": "docs/_posts/2026-11-11-summary-zh.md"
+      "url": "2026/11/12/summary-zh.html",
+      "path": "docs/_posts/2026-11-12-summary-zh.md"
     },
     "en": {
-      "url": "2026/11/11/summary-en.html",
-      "path": "docs/_posts/2026-11-11-summary-en.md"
+      "url": "2026/11/12/summary-en.html",
+      "path": "docs/_posts/2026-11-12-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "After 7 months, Glasswing overwelms maintainers with underwhelming findings",
-      "title_zh": "VulnCheck 称 Anthropic 的 Glasswing 项目七个月后成果令人失望",
-      "title_en": "VulnCheck Calls Anthropic's Glasswing Results Underwhelming After 7 Months",
-      "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+      "title": "AWS emulator",
+      "title_zh": "AWS 用自主 AI 智能体打造了一个 AWS 模拟器",
+      "title_en": "AWS Built an AWS Emulator Using Autonomous AI Agents",
+      "url": "https://github.com/aws/aws-emulator",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "A VulnCheck blog post argues that Anthropic's Glasswing vulnerability-finding effort has produced underwhelming public results after seven months, sparking debate about whether public CVE datasets miss high-impact private-codebase findings.",
+      "summary": "AWS describes an emulator built by autonomous AI agents, sparking HN debate about agent-written code, product viability, security boundaries, and existing cloud emulation alternatives.",
       "tags": [
-        "AI security",
-        "vulnerability discovery",
-        "LLMs",
-        "security research",
-        "open source"
+        "AWS",
+        "AI agents",
+        "cloud emulation",
+        "security",
+        "developer tools"
       ]
     },
     {
-      "title": "Synaptics patent claims stop work on DisplayLink drivers",
-      "title_zh": "Synaptics 以专利威胁叫停开源 DisplayLink 驱动项目",
-      "title_en": "Synaptics Uses Patent Threats to Shut Down Open-Source DisplayLink Driver",
-      "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+      "title": "Tim Peters has died",
+      "title_zh": "《Python 之禅》与 timsort 作者 Tim Peters 逝世，享年 73 岁",
+      "title_en": "Tim Peters, author of the Zen of Python and timsort, dies at 73",
+      "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Synaptics is using patent claims and monetary demands to stop work on open-source DisplayLink drivers, sparking community debate about patent law, reverse engineering, and the future of DisplayLink-based docks.",
+      "summary": "The Python community mourns the passing of Tim Peters (1952-2026), legendary CPython contributor and author of the Zen of Python and timsort.",
       "tags": [
+        "python",
         "open-source",
-        "patents",
-        "DisplayLink",
-        "Synaptics",
-        "hardware-drivers"
+        "software-engineering",
+        "obituary",
+        "community"
       ]
     },
     {
-      "title": "AlphaProof Code",
-      "title_zh": "DeepMind 推出 AlphaProof Code 智能体，形式化验证 Signal 加密代码",
-      "title_en": "DeepMind's AlphaProof Code Agent Formally Verifies Signal's Encryption Code",
-      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "title": "Using voltage glitching to unleash the A100 in my mining card",
+      "title_zh": "电压毛刺攻击解锁 NVIDIA 矿卡中的 A100 级 80GB HBM 显存",
+      "title_en": "Voltage Glitching Unlocks A100-Class 80GB HBM in an NVIDIA Mining Card",
+      "url": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "DeepMind introduces AlphaProof Code, an AI proof agent for formally verifying code, sparking discussion about its capabilities and the credibility of its reported zero-bug verification result.",
+      "summary": "A hardware hacker uses voltage glitching to blow/bypass fuses and unlock A100-class 80GB HBM functionality in a consumer mining card, sparking detailed discussion on GPU binning and DIY unlock methods.",
       "tags": [
-        "AI",
-        "formal verification",
-        "DeepMind",
-        "Lean",
-        "software engineering"
+        "hardware-hacking",
+        "GPU",
+        "voltage-glitching",
+        "nvidia",
+        "fault-injection"
       ]
     },
     {
-      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
-      "title_zh": "Chrome 联合 Firefox、MDN、Edge 发布面向编程智能体的 200+ 现代 Web 指南",
-      "title_en": "Chrome, Firefox, MDN and Edge ship 200+ modern web guides for coding agents",
-      "url": "https://github.com/GoogleChrome/modern-web-guidance",
-      "source": "hackernews",
+      "title": "Anthropic's IPO roadshow video",
+      "title_zh": "Anthropic IPO 路演视频披露四类芯片并行训练与推理策略",
+      "title_en": "Anthropic IPO roadshow reveals four-chip training and serving strategy",
+      "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+      "source": "rss",
       "score": 8.0,
-      "summary": "Google Chrome, in collaboration with Firefox, MDN, and Edge, released a 1.0 collection of 200+ curated guides packaged for coding agents to steer them toward native modern web primitives instead of 2019-era JS and div-based patterns.",
+      "summary": "Anthropic's IPO roadshow video reveals new details about its business and its unconventional multi-chip strategy for training and serving Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs, with Simon Willison providing an extracted transcript.",
       "tags": [
-        "web-development",
-        "ai-coding-agents",
-        "browser-standards",
-        "css",
-        "developer-tools"
+        "Anthropic",
+        "AI infrastructure",
+        "IPO",
+        "multi-chip strategy",
+        "compute"
       ]
     },
     {
-      "title": "AMD's Zen 6 Family: Feeding the Beast",
-      "title_zh": "AMD Zen 6 深度解析：全新 I/O 芯片、12 核 CCD 与重构的执行单元",
-      "title_en": "AMD Zen 6 Deep Dive: New I/O Die, 12-Core CCDs, Reworked Execution Units",
-      "url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
-      "source": "hackernews",
+      "title": "Stripe 宣布 OpenRouter 并入旗下",
+      "title_zh": "Stripe 宣布将 OpenRouter 并入旗下，布局 AI 经济基础设施",
+      "title_en": "Stripe Absorbs OpenRouter to Build AI Economic Infrastructure",
+      "url": "https://x.com/stripe/status/2120240651778355306",
+      "source": "telegram",
       "score": 8.0,
-      "summary": "A detailed analysis of AMD's Zen 6 microarchitecture, covering the redesigned I/O die and memory controller, branch prediction improvements, and rebalanced execution units, with informed community discussion on the tradeoffs.",
+      "summary": "Stripe announced that OpenRouter has been folded into the company, framing the move as building economic infrastructure for AI with capabilities for exploring new models and optimizing token routing and usage.",
       "tags": [
-        "cpu-architecture",
-        "amd-zen",
-        "microarchitecture",
-        "hardware",
-        "semiconductors"
+        "AI infrastructure",
+        "LLM API routing",
+        "Stripe",
+        "OpenRouter",
+        "acquisitions"
       ]
     }
   ]
