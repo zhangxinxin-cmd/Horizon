@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-12T02:36:24.100254+00:00",
-  "date": "2026-11-12",
-  "total_fetched": 47,
-  "important_count": 5,
+  "generated_at": "2026-11-13T02:16:47.715849+00:00",
+  "date": "2026-11-13",
+  "total_fetched": 39,
+  "important_count": 10,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,93 +10,173 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/11/12/summary-zh.html",
-      "path": "docs/_posts/2026-11-12-summary-zh.md"
+      "url": "2026/11/13/summary-zh.html",
+      "path": "docs/_posts/2026-11-13-summary-zh.md"
     },
     "en": {
-      "url": "2026/11/12/summary-en.html",
-      "path": "docs/_posts/2026-11-12-summary-en.md"
+      "url": "2026/11/13/summary-en.html",
+      "path": "docs/_posts/2026-11-13-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "AWS emulator",
-      "title_zh": "AWS 用自主 AI 智能体打造了一个 AWS 模拟器",
-      "title_en": "AWS Built an AWS Emulator Using Autonomous AI Agents",
-      "url": "https://github.com/aws/aws-emulator",
+      "title": "Jensen Huang resigns",
+      "title_zh": "英伟达 CEO 黄仁勋据报辞职，涉绯闻传闻与出口合规审查",
+      "title_en": "Nvidia CEO Jensen Huang reportedly resigns amid affair reports and export scrutiny",
+      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
       "source": "hackernews",
-      "score": 8.0,
-      "summary": "AWS describes an emulator built by autonomous AI agents, sparking HN debate about agent-written code, product viability, security boundaries, and existing cloud emulation alternatives.",
+      "score": 10.0,
+      "summary": "Nvidia CEO Jensen Huang reportedly steps down amid affair reports and scrutiny over export-ban compliance, sparking massive community debate.",
       "tags": [
-        "AWS",
-        "AI agents",
-        "cloud emulation",
-        "security",
-        "developer tools"
+        "Nvidia",
+        "AI industry",
+        "CEO transition",
+        "corporate governance",
+        "export controls"
       ]
     },
     {
-      "title": "Tim Peters has died",
-      "title_zh": "《Python 之禅》与 timsort 作者 Tim Peters 逝世，享年 73 岁",
-      "title_en": "Tim Peters, author of the Zen of Python and timsort, dies at 73",
-      "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+      "title": "Anthropic IPO",
+      "title_zh": "Anthropic 申请 IPO，估值接近 1 万亿美元",
+      "title_en": "Anthropic Files for IPO at a Valuation Near $1 Trillion",
+      "url": "https://ipo.anthropic.com/us/",
       "source": "hackernews",
-      "score": 8.0,
-      "summary": "The Python community mourns the passing of Tim Peters (1952-2026), legendary CPython contributor and author of the Zen of Python and timsort.",
-      "tags": [
-        "python",
-        "open-source",
-        "software-engineering",
-        "obituary",
-        "community"
-      ]
-    },
-    {
-      "title": "Using voltage glitching to unleash the A100 in my mining card",
-      "title_zh": "电压毛刺攻击解锁 NVIDIA 矿卡中的 A100 级 80GB HBM 显存",
-      "title_en": "Voltage Glitching Unlocks A100-Class 80GB HBM in an NVIDIA Mining Card",
-      "url": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A hardware hacker uses voltage glitching to blow/bypass fuses and unlock A100-class 80GB HBM functionality in a consumer mining card, sparking detailed discussion on GPU binning and DIY unlock methods.",
-      "tags": [
-        "hardware-hacking",
-        "GPU",
-        "voltage-glitching",
-        "nvidia",
-        "fault-injection"
-      ]
-    },
-    {
-      "title": "Anthropic's IPO roadshow video",
-      "title_zh": "Anthropic IPO 路演视频披露四类芯片并行训练与推理策略",
-      "title_en": "Anthropic IPO roadshow reveals four-chip training and serving strategy",
-      "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "Anthropic's IPO roadshow video reveals new details about its business and its unconventional multi-chip strategy for training and serving Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs, with Simon Willison providing an extracted transcript.",
+      "score": 9.0,
+      "summary": "Anthropic files for IPO with a valuation near $1 trillion, prompting community analysis of financials, market dynamics, and AI competition.",
       "tags": [
         "Anthropic",
-        "AI infrastructure",
         "IPO",
-        "multi-chip strategy",
-        "compute"
+        "AI industry",
+        "Valuation",
+        "LLM"
       ]
     },
     {
-      "title": "Stripe 宣布 OpenRouter 并入旗下",
-      "title_zh": "Stripe 宣布将 OpenRouter 并入旗下，布局 AI 经济基础设施",
-      "title_en": "Stripe Absorbs OpenRouter to Build AI Economic Infrastructure",
-      "url": "https://x.com/stripe/status/2120240651778355306",
+      "title": "Moderna 与默沙东宣布疫苗三期成功，黑色素瘤术后复发风险显著下降  Moderna 与默沙东于 2026 年 8 月 19 日宣布，个性化 mRNA 癌症",
+      "title_zh": "Moderna 与默沙东个性化 mRNA 癌症疫苗三期试验达主要终点",
+      "title_en": "Moderna and Merck's personalized mRNA cancer vaccine hits Phase 3 endpoints in melanoma",
+      "url": "https://t.me/zaihuapd/45084",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "Moderna and Merck announced that their personalized mRNA cancer vaccine combined with Keytruda met primary endpoints in a Phase 3 melanoma trial, significantly reducing recurrence and distant metastasis risk.",
+      "tags": [
+        "mRNA vaccines",
+        "oncology",
+        "biotechnology",
+        "clinical trials",
+        "personalized medicine"
+      ]
+    },
+    {
+      "title": "Rust 1.100",
+      "title_zh": "Rust 1.100 正式稳定 never 类型、自定义分配器与 Cargo 依赖冷却机制",
+      "title_en": "Rust 1.100 stabilizes never type, custom allocators, and Cargo dependency cooldowns",
+      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Rust 1.100 ships major long-term feature stabilizations including the never type, custom allocators, Cargo dependency cooldowns, and unused dependency reporting.",
+      "tags": [
+        "Rust",
+        "programming languages",
+        "Cargo",
+        "compiler",
+        "release"
+      ]
+    },
+    {
+      "title": "Gemini 4 Hydrogen and Orchestrator",
+      "title_zh": "谷歌发布 Gemini 4 Hydrogen 及面向智能体工作流的 Orchestrator",
+      "title_en": "Google Releases Gemini 4 Hydrogen and an Orchestrator for Agentic Workflows",
+      "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Google announced Gemini 4 Hydrogen and an Orchestrator, prompting discussion about multi-model routing, caching, naming, and practical model-selection workflows.",
+      "tags": [
+        "Gemini",
+        "Google",
+        "AI models",
+        "multi-model orchestration",
+        "LLM"
+      ]
+    },
+    {
+      "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+      "title_zh": "Show HN：开发者自建开源应用，绕开刺绣机的订阅限制",
+      "title_en": "Show HN: Developer builds open-source app to bypass embroidery machine subscription",
+      "url": "https://github.com/simpsoka/zigzag",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A developer built an open-source app to bypass his embroidery machine's subscription requirement, sparking a rich HN discussion on reverse engineering, right-to-repair, and AI-assisted de-bricking of legacy hardware.",
+      "tags": [
+        "right-to-repair",
+        "reverse-engineering",
+        "open-source",
+        "hardware-hacking",
+        "show-hn"
+      ]
+    },
+    {
+      "title": "Nvidia and the World Without Jensen",
+      "title_zh": "SemiAnalysis 探讨「没有黄仁勋的世界」中英伟达能否延续主导地位",
+      "title_en": "SemiAnalysis Asks Whether Nvidia Survives a World Without Jensen",
+      "url": "https://newsletter.semianalysis.com/p/nvidia-and-the-world-without-jensen",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "SemiAnalysis examines Nvidia's future amid export controls and US-China supply chain dependencies, exploring RASA, open source, and broader strategic implications.",
+      "tags": [
+        "Nvidia",
+        "export controls",
+        "semiconductors",
+        "AI hardware",
+        "supply chain"
+      ]
+    },
+    {
+      "title": "UMAP 0.6: new initialization, new optimizers and faster performance [P]",
+      "title_zh": "UMAP 0.6 引入递归初始化、新优化器与更快的最近邻搜索",
+      "title_en": "UMAP 0.6 adds recursive initialization, new optimizers, faster nearest-neighbor search",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xudaah/umap_06_new_initialization_new_optimizers_and/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "UMAP 0.6 introduces faster nearest-neighbor search, a new initialization method, and improved optimizers, enabling major speedups and better quality on million-scale datasets.",
+      "tags": [
+        "UMAP",
+        "dimensionality reduction",
+        "machine learning",
+        "performance optimization",
+        "open source"
+      ]
+    },
+    {
+      "title": "Does Meta's brain-response model (TRIBE v2) actually recover retinotopy/tonotopy/motion maps? [D]",
+      "title_zh": "独立审计发现 Meta 的 TRIBE v2 缺乏视网膜拓扑与音频拓扑映射",
+      "title_en": "Independent audit: Meta's TRIBE v2 lacks retinotopic and tonotopic maps",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xuillf/does_metas_brainresponse_model_tribe_v2_actually/",
+      "source": "reddit",
+      "score": 8.0,
+      "summary": "An independent analysis finds Meta's TRIBE v2 does not recover retinotopic or tonotopic maps, shows strong motion selectivity in MT+, and exposes an eccentricity confound in its position-related predictions.",
+      "tags": [
+        "neuro-AI",
+        "fMRI",
+        "model-evaluation",
+        "retinotopy",
+        "TRIBE-v2"
+      ]
+    },
+    {
+      "title": "美国拟推全球 AI 芯片出口许可制度，强化 Nvidia 等巨头出货管控  美国商务部昨日拟定新规，要求美国企业向境外任何地区出口 AI 芯片均须获得政府许可，",
+      "title_zh": "美国拟推全球AI芯片出口许可制度，波及Nvidia等巨头",
+      "title_en": "US Drafts Global AI Chip Export License Requirement for Nvidia and Peers",
+      "url": "https://t.me/zaihuapd/45080",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Stripe announced that OpenRouter has been folded into the company, framing the move as building economic infrastructure for AI with capabilities for exploring new models and optimizing token routing and usage.",
+      "summary": "The US Commerce Department has drafted a new rule requiring government licenses for all overseas AI chip exports and related US AI infrastructure investment, escalating global semiconductor export controls.",
       "tags": [
-        "AI infrastructure",
-        "LLM API routing",
-        "Stripe",
-        "OpenRouter",
-        "acquisitions"
+        "AI chips",
+        "export controls",
+        "semiconductors",
+        "Nvidia",
+        "US policy"
       ]
     }
   ]
