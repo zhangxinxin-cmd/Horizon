@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-13T02:16:47.715849+00:00",
-  "date": "2026-11-13",
-  "total_fetched": 39,
-  "important_count": 10,
+  "generated_at": "2026-11-14T01:54:35.050384+00:00",
+  "date": "2026-11-14",
+  "total_fetched": 38,
+  "important_count": 3,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,173 +10,61 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/11/13/summary-zh.html",
-      "path": "docs/_posts/2026-11-13-summary-zh.md"
+      "url": "2026/11/14/summary-zh.html",
+      "path": "docs/_posts/2026-11-14-summary-zh.md"
     },
     "en": {
-      "url": "2026/11/13/summary-en.html",
-      "path": "docs/_posts/2026-11-13-summary-en.md"
+      "url": "2026/11/14/summary-en.html",
+      "path": "docs/_posts/2026-11-14-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Jensen Huang resigns",
-      "title_zh": "英伟达 CEO 黄仁勋据报辞职，涉绯闻传闻与出口合规审查",
-      "title_en": "Nvidia CEO Jensen Huang reportedly resigns amid affair reports and export scrutiny",
-      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-      "source": "hackernews",
-      "score": 10.0,
-      "summary": "Nvidia CEO Jensen Huang reportedly steps down amid affair reports and scrutiny over export-ban compliance, sparking massive community debate.",
-      "tags": [
-        "Nvidia",
-        "AI industry",
-        "CEO transition",
-        "corporate governance",
-        "export controls"
-      ]
-    },
-    {
-      "title": "Anthropic IPO",
-      "title_zh": "Anthropic 申请 IPO，估值接近 1 万亿美元",
-      "title_en": "Anthropic Files for IPO at a Valuation Near $1 Trillion",
-      "url": "https://ipo.anthropic.com/us/",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "Anthropic files for IPO with a valuation near $1 trillion, prompting community analysis of financials, market dynamics, and AI competition.",
-      "tags": [
-        "Anthropic",
-        "IPO",
-        "AI industry",
-        "Valuation",
-        "LLM"
-      ]
-    },
-    {
-      "title": "Moderna 与默沙东宣布疫苗三期成功，黑色素瘤术后复发风险显著下降  Moderna 与默沙东于 2026 年 8 月 19 日宣布，个性化 mRNA 癌症",
-      "title_zh": "Moderna 与默沙东个性化 mRNA 癌症疫苗三期试验达主要终点",
-      "title_en": "Moderna and Merck's personalized mRNA cancer vaccine hits Phase 3 endpoints in melanoma",
-      "url": "https://t.me/zaihuapd/45084",
-      "source": "telegram",
-      "score": 9.0,
-      "summary": "Moderna and Merck announced that their personalized mRNA cancer vaccine combined with Keytruda met primary endpoints in a Phase 3 melanoma trial, significantly reducing recurrence and distant metastasis risk.",
-      "tags": [
-        "mRNA vaccines",
-        "oncology",
-        "biotechnology",
-        "clinical trials",
-        "personalized medicine"
-      ]
-    },
-    {
-      "title": "Rust 1.100",
-      "title_zh": "Rust 1.100 正式稳定 never 类型、自定义分配器与 Cargo 依赖冷却机制",
-      "title_en": "Rust 1.100 stabilizes never type, custom allocators, and Cargo dependency cooldowns",
-      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+      "title": "FAA issues national ground stop",
+      "title_zh": "美国联邦航空管理局因空管通信中断下令全国停飞",
+      "title_en": "FAA orders rare nationwide ground stop over ATC communications outage",
+      "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Rust 1.100 ships major long-term feature stabilizations including the never type, custom allocators, Cargo dependency cooldowns, and unused dependency reporting.",
+      "summary": "The FAA issued a nationwide ground stop for departing flights, reportedly linked to an outage affecting air-traffic-control communications infrastructure, with the stop later lifted.",
       "tags": [
-        "Rust",
-        "programming languages",
-        "Cargo",
-        "compiler",
-        "release"
+        "aviation",
+        "critical-infrastructure",
+        "FAA-ground-stop",
+        "telecom-outage",
+        "ATC-systems"
       ]
     },
     {
-      "title": "Gemini 4 Hydrogen and Orchestrator",
-      "title_zh": "谷歌发布 Gemini 4 Hydrogen 及面向智能体工作流的 Orchestrator",
-      "title_en": "Google Releases Gemini 4 Hydrogen and an Orchestrator for Agentic Workflows",
-      "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Google announced Gemini 4 Hydrogen and an Orchestrator, prompting discussion about multi-model routing, caching, naming, and practical model-selection workflows.",
-      "tags": [
-        "Gemini",
-        "Google",
-        "AI models",
-        "multi-model orchestration",
-        "LLM"
-      ]
-    },
-    {
-      "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
-      "title_zh": "Show HN：开发者自建开源应用，绕开刺绣机的订阅限制",
-      "title_en": "Show HN: Developer builds open-source app to bypass embroidery machine subscription",
-      "url": "https://github.com/simpsoka/zigzag",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A developer built an open-source app to bypass his embroidery machine's subscription requirement, sparking a rich HN discussion on reverse engineering, right-to-repair, and AI-assisted de-bricking of legacy hardware.",
-      "tags": [
-        "right-to-repair",
-        "reverse-engineering",
-        "open-source",
-        "hardware-hacking",
-        "show-hn"
-      ]
-    },
-    {
-      "title": "Nvidia and the World Without Jensen",
-      "title_zh": "SemiAnalysis 探讨「没有黄仁勋的世界」中英伟达能否延续主导地位",
-      "title_en": "SemiAnalysis Asks Whether Nvidia Survives a World Without Jensen",
-      "url": "https://newsletter.semianalysis.com/p/nvidia-and-the-world-without-jensen",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "SemiAnalysis examines Nvidia's future amid export controls and US-China supply chain dependencies, exploring RASA, open source, and broader strategic implications.",
-      "tags": [
-        "Nvidia",
-        "export controls",
-        "semiconductors",
-        "AI hardware",
-        "supply chain"
-      ]
-    },
-    {
-      "title": "UMAP 0.6: new initialization, new optimizers and faster performance [P]",
-      "title_zh": "UMAP 0.6 引入递归初始化、新优化器与更快的最近邻搜索",
-      "title_en": "UMAP 0.6 adds recursive initialization, new optimizers, faster nearest-neighbor search",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xudaah/umap_06_new_initialization_new_optimizers_and/",
+      "title": "Scaling to 1T MoE on TorchTitan [P]",
+      "title_zh": "TorchTitan 在 384 块 GH200 上扩展至 1 万亿参数 MoE",
+      "title_en": "TorchTitan Scales to a 1T-Parameter MoE on 384 GH200 GPUs",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xvce5h/scaling_to_1t_moe_on_torchtitan_p/",
       "source": "reddit",
       "score": 8.0,
-      "summary": "UMAP 0.6 introduces faster nearest-neighbor search, a new initialization method, and improved optimizers, enabling major speedups and better quality on million-scale datasets.",
+      "summary": "A practitioner write-up on scaling TorchTitan to train a ~1T-parameter MoE mixture-of-experts model on 384 GH200 GPUs, achieving ~1,300 tokens/s per GPU through FSDP + expert parallelism tuning and other optimizations.",
       "tags": [
-        "UMAP",
-        "dimensionality reduction",
-        "machine learning",
-        "performance optimization",
-        "open source"
+        "distributed-training",
+        "mixture-of-experts",
+        "PyTorch",
+        "large-language-models",
+        "GPU-performance"
       ]
     },
     {
-      "title": "Does Meta's brain-response model (TRIBE v2) actually recover retinotopy/tonotopy/motion maps? [D]",
-      "title_zh": "独立审计发现 Meta 的 TRIBE v2 缺乏视网膜拓扑与音频拓扑映射",
-      "title_en": "Independent audit: Meta's TRIBE v2 lacks retinotopic and tonotopic maps",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xuillf/does_metas_brainresponse_model_tribe_v2_actually/",
-      "source": "reddit",
-      "score": 8.0,
-      "summary": "An independent analysis finds Meta's TRIBE v2 does not recover retinotopic or tonotopic maps, shows strong motion selectivity in MT+, and exposes an eccentricity confound in its position-related predictions.",
-      "tags": [
-        "neuro-AI",
-        "fMRI",
-        "model-evaluation",
-        "retinotopy",
-        "TRIBE-v2"
-      ]
-    },
-    {
-      "title": "美国拟推全球 AI 芯片出口许可制度，强化 Nvidia 等巨头出货管控  美国商务部昨日拟定新规，要求美国企业向境外任何地区出口 AI 芯片均须获得政府许可，",
-      "title_zh": "美国拟推全球AI芯片出口许可制度，波及Nvidia等巨头",
-      "title_en": "US Drafts Global AI Chip Export License Requirement for Nvidia and Peers",
-      "url": "https://t.me/zaihuapd/45080",
+      "title": "OpenAI 推出 ChatGPT Wallet 支付钱包",
+      "title_zh": "OpenAI 推出 ChatGPT Wallet，让 AI 智能体代为付款",
+      "title_en": "OpenAI launches ChatGPT Wallet so AI agents can pay",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet/",
       "source": "telegram",
       "score": 8.0,
-      "summary": "The US Commerce Department has drafted a new rule requiring government licenses for all overseas AI chip exports and related US AI infrastructure investment, escalating global semiconductor export controls.",
+      "summary": "OpenAI launched ChatGPT Wallet, enabling ChatGPT agents to make verified purchases via Visa/Mastercard/Amex payment tokens that never expose the user's real card number, starting with US ChatGPT Pro users.",
       "tags": [
-        "AI chips",
-        "export controls",
-        "semiconductors",
-        "Nvidia",
-        "US policy"
+        "OpenAI",
+        "AI agents",
+        "agentic commerce",
+        "digital payments",
+        "fintech"
       ]
     }
   ]
