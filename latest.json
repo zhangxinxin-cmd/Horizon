@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-14T01:54:35.050384+00:00",
-  "date": "2026-11-14",
-  "total_fetched": 38,
+  "generated_at": "2026-11-15T01:26:14.215386+00:00",
+  "date": "2026-11-15",
+  "total_fetched": 36,
   "important_count": 3,
   "score_threshold": 8.0,
   "languages": [
@@ -10,61 +10,61 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/11/14/summary-zh.html",
-      "path": "docs/_posts/2026-11-14-summary-zh.md"
+      "url": "2026/11/15/summary-zh.html",
+      "path": "docs/_posts/2026-11-15-summary-zh.md"
     },
     "en": {
-      "url": "2026/11/14/summary-en.html",
-      "path": "docs/_posts/2026-11-14-summary-en.md"
+      "url": "2026/11/15/summary-en.html",
+      "path": "docs/_posts/2026-11-15-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "FAA issues national ground stop",
-      "title_zh": "美国联邦航空管理局因空管通信中断下令全国停飞",
-      "title_en": "FAA orders rare nationwide ground stop over ATC communications outage",
-      "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+      "title": "SpaceX catches the Starship to end Flight 15",
+      "title_zh": "SpaceX在星舰第15次飞行中成功\"夹住\"超重型助推器",
+      "title_en": "SpaceX catches Super Heavy booster to close out Starship Flight 15",
+      "url": "https://www.spacex.com/launches/starship-flight-15",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "SpaceX's Flight 15 ends with a successful 'catch' of the Starship/Super Heavy booster, a major milestone toward fully reusable orbital launch systems.",
+      "tags": [
+        "spaceflight",
+        "SpaceX",
+        "reusable-rockets",
+        "aerospace-engineering",
+        "Starship"
+      ]
+    },
+    {
+      "title": "Lovable apps expose passport details and more than 200K private messages",
+      "title_zh": "Lovable 应用因 Supabase 行级安全配置薄弱泄露护照信息与逾 20 万条私信",
+      "title_en": "Lovable apps leak passports and 200K messages via weak Supabase RLS",
+      "url": "https://www.crissyfield.de/research/lovable-en/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "The FAA issued a nationwide ground stop for departing flights, reportedly linked to an outage affecting air-traffic-control communications infrastructure, with the stop later lifted.",
+      "summary": "A security research post reveals that poorly configured Row-Level Security in Supabase-backed Lovable apps exposed passport details and over 200K private messages, sparking debate about platform defaults and AI-generated app security.",
       "tags": [
-        "aviation",
-        "critical-infrastructure",
-        "FAA-ground-stop",
-        "telecom-outage",
-        "ATC-systems"
+        "security",
+        "supabase",
+        "lovable",
+        "row-level-security",
+        "ai-generated-code"
       ]
     },
     {
-      "title": "Scaling to 1T MoE on TorchTitan [P]",
-      "title_zh": "TorchTitan 在 384 块 GH200 上扩展至 1 万亿参数 MoE",
-      "title_en": "TorchTitan Scales to a 1T-Parameter MoE on 384 GH200 GPUs",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xvce5h/scaling_to_1t_moe_on_torchtitan_p/",
-      "source": "reddit",
+      "title": "Tech companies are trying to shift the concept of privacy again",
+      "title_zh": "EFF：科技公司再次重新定义“隐私”，为无处不在的数据采集正名",
+      "title_en": "EFF: Tech Companies Are Redefining Privacy Again to Normalize Data Capture",
+      "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "A practitioner write-up on scaling TorchTitan to train a ~1T-parameter MoE mixture-of-experts model on 384 GH200 GPUs, achieving ~1,300 tokens/s per GPU through FSDP + expert parallelism tuning and other optimizations.",
+      "summary": "The EFF argues that tech companies are once again redefining 'privacy' to normalize pervasive data capture, illustrated by HN discussion of AI notetakers recording every professional meeting.",
       "tags": [
-        "distributed-training",
-        "mixture-of-experts",
-        "PyTorch",
-        "large-language-models",
-        "GPU-performance"
-      ]
-    },
-    {
-      "title": "OpenAI 推出 ChatGPT Wallet 支付钱包",
-      "title_zh": "OpenAI 推出 ChatGPT Wallet，让 AI 智能体代为付款",
-      "title_en": "OpenAI launches ChatGPT Wallet so AI agents can pay",
-      "url": "https://openai.com/index/introducing-chatgpt-wallet/",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "OpenAI launched ChatGPT Wallet, enabling ChatGPT agents to make verified purchases via Visa/Mastercard/Amex payment tokens that never expose the user's real card number, starting with US ChatGPT Pro users.",
-      "tags": [
-        "OpenAI",
-        "AI agents",
-        "agentic commerce",
-        "digital payments",
-        "fintech"
+        "privacy",
+        "surveillance",
+        "AI-ethics",
+        "policy",
+        "workplace-tech"
       ]
     }
   ]
