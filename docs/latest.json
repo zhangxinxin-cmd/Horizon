@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-16T01:29:05.089208+00:00",
-  "date": "2026-11-16",
-  "total_fetched": 37,
-  "important_count": 1,
+  "generated_at": "2026-11-17T04:14:54.635998+00:00",
+  "date": "2026-11-17",
+  "total_fetched": 42,
+  "important_count": 4,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,29 +10,77 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/11/16/summary-zh.html",
-      "path": "docs/_posts/2026-11-16-summary-zh.md"
+      "url": "2026/11/17/summary-zh.html",
+      "path": "docs/_posts/2026-11-17-summary-zh.md"
     },
     "en": {
-      "url": "2026/11/16/summary-en.html",
-      "path": "docs/_posts/2026-11-16-summary-en.md"
+      "url": "2026/11/17/summary-en.html",
+      "path": "docs/_posts/2026-11-17-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "[Meta FAIR + NYU] Unbundling Multimodal Vision Encoding: training 200+ MLLMs to find encoder pretraining is optional but vision-only parameters are not [R]",
-      "title_zh": "Meta FAIR 与 NYU：视觉编码器预训练非必需，视觉专属参数不可少",
-      "title_en": "Meta FAIR/NYU: Vision Encoder Pretraining Optional, Vision-Only Parameters Essential",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xx1k2o/meta_fair_nyu_unbundling_multimodal_vision/",
-      "source": "reddit",
+      "title": "vllm-project/vllm released v0.34.0",
+      "title_zh": "vLLM v0.34.0 默认启用内存感知 KV 缓存，并移除 Model Runner V1",
+      "title_en": "vLLM v0.34.0 turns on memory-aware KV cache by default, removes Model Runner V1",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+      "source": "github",
       "score": 8.0,
-      "summary": "Meta FAIR and NYU train 200+ multimodal LLMs from scratch under matched compute budgets to show that separate vision-encoder pretraining is unnecessary, while dedicated vision-only parameters remain essential.",
+      "summary": "vLLM v0.34.0 is a large release enabling memory-aware KV cache sizing by default, dropping Model Runner V1, adding 10 models, and delivering meaningful performance gains on Blackwell and MI355X alongside several breaking upgrade changes.",
       "tags": [
-        "multimodal-learning",
-        "vision-encoders",
-        "MLLM",
-        "ablation-study",
-        "scaling-laws"
+        "vllm",
+        "llm-inference",
+        "model-serving",
+        "release-notes",
+        "gpu-performance"
+      ]
+    },
+    {
+      "title": "Optimizely compromised, served malware on Zoom, GitLab",
+      "title_zh": "Optimizely 基础设施遭入侵，向 Zoom 和 GitLab 等站点投放恶意脚本",
+      "title_en": "Optimizely infrastructure compromised, serving malware on Zoom and GitLab",
+      "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Optimizely's infrastructure was compromised and its CDN began serving malicious JavaScript on customer sites including Zoom and GitLab, reigniting debate over the risks of third-party tag managers and script supply chains.",
+      "tags": [
+        "security",
+        "supply-chain-attack",
+        "third-party-scripts",
+        "web-security",
+        "cdn"
+      ]
+    },
+    {
+      "title": "美商务部将定稿规则，封堵中国 AI 公司远程用芯，管制扩展至新加坡等东南亚国家  美国商务部正敲定一项规则，阻止中国 AI 公司通过境外数据中心远程使用先进 A",
+      "title_zh": "美商务部拟定稿新规，封堵中国 AI 公司远程使用先进芯片的漏洞",
+      "title_en": "US Commerce Dept to finalize rule closing remote AI chip access loophole for Chinese firms",
+      "url": "https://t.me/zaihuapd/45161",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "The U.S. Commerce Department is reportedly finalizing a rule to block Chinese AI companies from remotely accessing advanced AI chips through overseas data centers and to extend controls to several Southeast Asian countries.",
+      "tags": [
+        "AI chips",
+        "export controls",
+        "US-China tech",
+        "semiconductor policy",
+        "data centers"
+      ]
+    },
+    {
+      "title": "山东大学团队提出首个哥德巴赫猜想条件性证明",
+      "title_zh": "山东大学团队提出首个哥德巴赫猜想条件性证明",
+      "title_en": "Shandong University Team Claims First Conditional Proof of Goldbach's Conjecture",
+      "url": "https://mrc.sdu.edu.cn/info/1018/2193.htm",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "A Shandong University team claims the first conditional proof that all sufficiently large even numbers are the sum of two primes lying between one-third and two-thirds of the number, assuming a generalized Riemann hypothesis and one of two additional spectral hypotheses.",
+      "tags": [
+        "Goldbach conjecture",
+        "number theory",
+        "conditional proof",
+        "Riemann hypothesis",
+        "mathematics research"
       ]
     }
   ]
