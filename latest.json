@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-18T03:14:50.939451+00:00",
-  "date": "2026-11-18",
-  "total_fetched": 37,
-  "important_count": 7,
+  "generated_at": "2026-11-19T02:53:28.020896+00:00",
+  "date": "2026-11-19",
+  "total_fetched": 34,
+  "important_count": 8,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,125 +10,141 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/11/18/summary-zh.html",
-      "path": "docs/_posts/2026-11-18-summary-zh.md"
+      "url": "2026/11/19/summary-zh.html",
+      "path": "docs/_posts/2026-11-19-summary-zh.md"
     },
     "en": {
-      "url": "2026/11/18/summary-en.html",
-      "path": "docs/_posts/2026-11-18-summary-en.md"
+      "url": "2026/11/19/summary-en.html",
+      "path": "docs/_posts/2026-11-19-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "GPT‑6.2 Astra and Sol",
-      "title_zh": "OpenAI 发布 GPT-6.2 Astra 与 Sol，单任务成本大幅下降",
-      "title_en": "OpenAI Releases GPT-6.2 Astra and Sol With Sharply Lower Cost per Task",
-      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "title": "Gemini 4 Neon",
+      "title_zh": "谷歌发布 Gemini 4 Neon，扩充以化学元素命名的前沿模型阵容",
+      "title_en": "Google Releases Gemini 4 Neon, Extending Element-Themed Frontier Model Lineup",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
       "source": "hackernews",
       "score": 9.0,
-      "summary": "OpenAI announces GPT-6.2 Astra and Sol, with community discussion highlighting large cost and latency reductions alongside mixed reactions to document/slideshow quality and competitive benchmark comparisons.",
+      "summary": "Google announces Gemini 4 Neon, a new frontier AI model, sparking debate about confusing model naming schemes, relative performance versus competitors, and the increasingly jagged capability landscape.",
       "tags": [
-        "LLM releases",
-        "OpenAI",
-        "benchmarks",
-        "model pricing",
-        "AI/ML"
+        "AI/ML",
+        "LLM",
+        "Google Gemini",
+        "model release",
+        "benchmarks"
       ]
     },
     {
-      "title": "Java4Shell: RCE in OpenJDK when processing Base64",
-      "title_zh": "Java4Shell：OpenJDK 的 Base64 解码器存在远程代码执行漏洞",
-      "title_en": "Java4Shell: Remote Code Execution in OpenJDK's Base64 Decoder",
-      "url": "https://calif.io/java4shell/",
+      "title": "Unauthenticated remote code execution in Nginx",
+      "title_zh": "Wiz 披露 NGINX HTTP/2 未授权远程代码执行漏洞",
+      "title_en": "Wiz discloses unauthenticated RCE flaws in NGINX HTTP/2",
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
       "source": "hackernews",
-      "score": 8.0,
-      "summary": "A detailed write-up of a remote code execution vulnerability in OpenJDK triggered during Base64 processing, featuring novel network-based heap grooming techniques and drawing wide technical discussion on detection and impact.",
+      "score": 9.0,
+      "summary": "Wiz discloses unauthenticated RCE vulnerabilities in Nginx's HTTP/2 implementation (CVE-2026-123633 and CVE-2026-123007), prompting debate over silent patching, real-world exploitability, and mitigation by disabling HTTP/2.",
       "tags": [
         "security",
-        "vulnerability",
-        "openjdk",
-        "exploit-development",
-        "java"
+        "nginx",
+        "vulnerability-disclosure",
+        "http2",
+        "remote-code-execution"
       ]
     },
     {
-      "title": "Quad9's withdrawal from France: A canary in the coal mine",
-      "title_zh": "Quad9因DNS封锁退出法国，Cloudflare警告先例风险",
-      "title_en": "Quad9 Exits France Over DNS Blocking as Cloudflare Warns of Precedent",
-      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+      "title": "Xint 披露 5 个 nginx 漏洞，可打到主机 root",
+      "title_zh": "NGINX2Root：五个 nginx 漏洞串联可拿到主机 root",
+      "title_en": "NGINX2Root: Five nginx Flaws Chained to Host Root RCE",
+      "url": "https://nginx2root.com/",
+      "source": "telegram",
+      "score": 9.0,
+      "summary": "Xint disclosed NGINX2Root, a chain of five nginx vulnerabilities plus a Linux kernel flaw that lets an unauthenticated nginx visitor escalate to host root, with fixes in nginx 1.30.7/1.31.9 and PoC exploit code released.",
+      "tags": [
+        "nginx",
+        "vulnerability-disclosure",
+        "privilege-escalation",
+        "http2",
+        "infosec"
+      ]
+    },
+    {
+      "title": "Seven new models at scalable price-performance",
+      "title_zh": "微软 Ignite 2026 发布七款 AI 模型，主打可扩展性价比",
+      "title_en": "Microsoft unveils seven AI models at Ignite 2026, targeting price-performance",
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Cloudflare analyzes Quad9's withdrawal from France following DNS-blocking legal pressure, framing it as an early warning for public resolvers and internet freedom, with community discussion adding insider perspective and scrutiny of Cloudflare's own stance.",
+      "summary": "Microsoft announced seven new AI models at Ignite 2026 focused on scalable price-performance, prompting community debate about model commoditization, competitiveness with Anthropic/OpenAI, and calls for open-weight releases.",
       "tags": [
-        "dns",
-        "internet-regulation",
-        "privacy",
-        "france",
-        "internet-freedom"
+        "Microsoft",
+        "LLM releases",
+        "AI pricing",
+        "model competition",
+        "open weights"
       ]
     },
     {
-      "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
-      "title_zh": "英伟达新加坡子公司营收达1040亿美元后，停止披露当地销售数据",
-      "title_en": "Nvidia Halts Singapore Sales Disclosure After $104B Booked Through Local Unit",
-      "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+      "title": "Inside Deutsche Bank",
+      "title_zh": "德意志银行泄密文件分析依托 OpenAleph 与 FollowTheMoney 技术栈",
+      "title_en": "Deutsche Bank Leak Analysis Built on OpenAleph and FollowTheMoney",
+      "url": "https://www.inside-db.com/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Nvidia stopped disclosing Singapore sales as its Singaporean subsidiary's external revenue reached $104B, amid US investigations into whether that channel was used to smuggle GPUs to China.",
+      "summary": "A consortium's investigation into Deutsche Bank publishes analysis of ~15 million leaked documents, with HN discussion covering the OpenAleph/ElasticSearch/FollowTheMoney data stack and debates over transparency and journalistic presentation.",
       "tags": [
-        "nvidia",
-        "export-controls",
-        "semiconductors",
-        "geopolitics",
-        "ai-hardware"
+        "investigative-journalism",
+        "data-journalism",
+        "elasticsearch",
+        "followthemoney-schema",
+        "document-analysis"
       ]
     },
     {
-      "title": "Solid 2.0",
-      "title_zh": "SolidJS 2.0 发布，带来服务端 RPC 与 live/broadcast 原语",
-      "title_en": "SolidJS 2.0 Ships With Server RPC and Live/Broadcast Primitives",
-      "url": "https://www.solidjs.com/blog/solid-2-0-the-long-hold/",
+      "title": "Genie 4 is now available",
+      "title_zh": "Google DeepMind 发布 Genie 4：可实时交互的世界模型",
+      "title_en": "Google DeepMind ships Genie 4, a real-time interactive world model",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "SolidJS 2.0 has been released, introducing major framework changes including server RPC and live/broadcast primitives, with discussion focused on developer experience and comparisons to other frontend frameworks.",
+      "summary": "Google DeepMind has made Genie 4 available, prompting Hacker News discussion about access, pricing, capabilities, and the broader implications of generative world models.",
       "tags": [
-        "SolidJS",
-        "frontend",
-        "JavaScript",
-        "framework release",
-        "web development"
+        "AI",
+        "Google DeepMind",
+        "world models",
+        "generative AI",
+        "product launch"
       ]
     },
     {
-      "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
-      "title_zh": "Datasette Lite 借助 Service Worker 与 Pyodide 重写，可在浏览器中运行完整 Datasette 应用",
-      "title_en": "Datasette Lite rewritten with service workers and Pyodide to run full Datasette in the browser",
-      "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "Simon Willison rewrote Datasette Lite using service workers and Pyodide so the full Datasette Python app runs in the browser with plugin and version support.",
-      "tags": [
-        "Datasette",
-        "Pyodide",
-        "WebAssembly",
-        "Service Workers",
-        "SQLite"
-      ]
-    },
-    {
-      "title": "我国首次实现地月双向高速激光通信，下行速率达 100 Mbps  中国科学院空间应用工程与技术中心牵头，成功在超过 40 万公里的地月距离建立双向激光链路，首次",
-      "title_zh": "我国首次实现地月双向高速激光通信，下行速率达 100 Mbps",
-      "title_en": "China Achieves First Bidirectional High-Speed Earth-Moon Laser Communication Link",
-      "url": "https://t.me/zaihuapd/45182",
+      "title": "美国发布新规，堵住远程调用先进 AI 芯片的漏洞  美国商务部 11 月 16 日发布临时最终规则，把先进 AI 芯片与服务器的出口管制延伸到远程访问，防止绕道",
+      "title_zh": "美国将AI芯片出口管制延伸至远程云端访问",
+      "title_en": "U.S. Extends AI Chip Export Controls to Remote Cloud Access",
+      "url": "https://t.me/zaihuapd/45204",
       "source": "telegram",
       "score": 8.0,
-      "summary": "China achieved its first bidirectional high-speed Earth-Moon laser communication link using the DRO-A satellite, reaching 1.25 Mbps uplink and 100 Mbps downlink over more than 400,000 km.",
+      "summary": "The U.S. Commerce Department issued an interim final rule extending advanced AI chip and server export controls to remote access, aiming to prevent circumvention via third-country data centers.",
       "tags": [
-        "space laser communication",
-        "satellite communications",
-        "DRO-A",
-        "aerospace technology",
-        "optical communications"
+        "AI chips",
+        "export controls",
+        "regulation",
+        "geopolitics",
+        "cloud computing"
+      ]
+    },
+    {
+      "title": "🤖 谷歌发布 Gemini 4 Hydrogen 模型  谷歌推出 Gemini 4 Hydrogen，主打日常编程与智能体工作流的快速执行，已向开发者、企业和",
+      "title_zh": "谷歌据报发布 Gemini 4 Hydrogen，主打编程与智能体",
+      "title_en": "Google Reportedly Releases Gemini 4 Hydrogen for Coding and Agents",
+      "url": "https://t.me/zaihuapd/45222",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Google reportedly released Gemini 4 Hydrogen for everyday coding and agent workflows, claiming 2.5x faster speed, improved Terminal-Bench scores, and pricing at $1.5/$7.5 per million input/output tokens.",
+      "tags": [
+        "Google Gemini",
+        "LLM release",
+        "AI agents",
+        "coding",
+        "model pricing"
       ]
     }
   ]
