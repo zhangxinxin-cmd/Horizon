@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-20T02:45:07.626112+00:00",
-  "date": "2026-11-20",
+  "generated_at": "2026-11-21T02:56:00.936104+00:00",
+  "date": "2026-11-21",
   "total_fetched": 33,
-  "important_count": 6,
+  "important_count": 10,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,109 +10,173 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/11/20/summary-zh.html",
-      "path": "docs/_posts/2026-11-20-summary-zh.md"
+      "url": "2026/11/21/summary-zh.html",
+      "path": "docs/_posts/2026-11-21-summary-zh.md"
     },
     "en": {
-      "url": "2026/11/20/summary-en.html",
-      "path": "docs/_posts/2026-11-20-summary-en.md"
+      "url": "2026/11/21/summary-en.html",
+      "path": "docs/_posts/2026-11-21-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Anthropic’s Nasdaq debut",
-      "title_zh": "Anthropic 以代码 ANT 登陆纳斯达克，成为 AI 行业里程碑式 IPO",
-      "title_en": "Anthropic Debuts on Nasdaq Under Ticker ANT, a Landmark AI IPO",
-      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "title": "Hurried Announcement: Alessandro Masullo GRH",
+      "title_zh": "数学家抢在 Anthropic 公告后数小时内仓促发布酝酿12年的 GRH 证明草稿",
+      "title_en": "Mathematician rush-posts 12-year GRH proof draft hours after Anthropic announcement",
+      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
       "source": "hackernews",
       "score": 9.0,
-      "summary": "Anthropic made its public-market debut on Nasdaq, prompting intense discussion about AI valuations, competitive implications for OpenAI, and the future of software engineering jobs.",
+      "summary": "A mathematician hurriedly posts a 12-year-in-the-making draft claiming a proof of the Generalized Riemann Hypothesis within hours of an Anthropic announcement, sparking debate over verification, priority, and AI-vs-human discovery.",
       "tags": [
-        "Anthropic",
-        "IPO",
-        "AI industry",
-        "software engineering",
-        "tech valuations"
+        "mathematics",
+        "Riemann-hypothesis",
+        "AI-for-math",
+        "research-announcement",
+        "priority-dispute"
       ]
     },
     {
-      "title": "Claude solves two open problems in the physics of black holes",
-      "title_zh": "Anthropic 称 Claude 解决了两项黑洞物理开放问题",
-      "title_en": "Anthropic says Claude solved two open problems in black hole physics",
-      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
+      "title_zh": "Levent Alpöge 宣称证明广义黎曼猜想",
+      "title_en": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis",
+      "url": "https://alpo.ge/remark.pdf",
       "source": "hackernews",
-      "score": 8.0,
-      "summary": "Anthropic reports that Claude solved two open problems in black hole physics, prompting discussion about the significance of the results and the perils of anthropomorphizing model achievements.",
+      "score": 9.0,
+      "summary": "Levent Alpöge has posted a claimed proof of the Generalized Riemann Hypothesis, sparking intense discussion about its validity, massive Lean formalization, and the role of AI and human mathematicians.",
       "tags": [
-        "AI for science",
-        "LLM reasoning",
-        "black hole physics",
-        "quantum gravity",
-        "research automation"
+        "mathematics",
+        "Riemann Hypothesis",
+        "Lean theorem prover",
+        "AI-assisted proofs",
+        "Hacker News discussion"
       ]
     },
     {
-      "title": "UK government forced to admit it issued Apple a secret encryption order",
-      "title_zh": "英国政府被迫承认曾向苹果发出秘密加密命令",
-      "title_en": "UK government admits it served Apple a secret encryption order",
-      "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+      "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
+      "title_zh": "陶哲轩：无外力欧拉与纳维-斯托克斯奇点及广义黎曼猜想",
+      "title_en": "Terry Tao: Unforced Euler/Navier–Stokes Singularity and Generalized Riemann Hypothesis",
+      "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+      "source": "hackernews",
+      "score": 9.0,
+      "summary": "A Terry Tao blog post claiming unforced Navier-Stokes/Euler singularity results and a route to the Generalized Riemann Hypothesis, discussed on Hacker News alongside questions about Lean formal verification trust and AI-driven mathematics.",
+      "tags": [
+        "mathematics",
+        "formal-verification",
+        "lean-theorem-prover",
+        "navier-stokes",
+        "riemann-hypothesis"
+      ]
+    },
+    {
+      "title": "Inkling 2 Mini",
+      "title_zh": "Thinking Machines 发布 Inkling 2 Mini 循环式 Transformer 模型",
+      "title_en": "Thinking Machines Releases Inkling 2 Mini Looped Transformer",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "The UK government was compelled to disclose that it issued Apple a secret Technical Capability Notice demanding encryption access, a story broken via confidential security briefings rather than a leak, per a newly published Investigatory Powers Tribunal judgement.",
+      "summary": "Thinking Machines releases Inkling 2 Mini, a looped-transformer LLM trained end-to-end in nvfp4 and designed for local use, drawing strong community interest and hands-on benchmarking.",
       "tags": [
-        "encryption",
+        "LLM",
+        "model release",
+        "local inference",
+        "llama.cpp",
+        "quantization"
+      ]
+    },
+    {
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "title_zh": "语言模型靠推理改写自身权重，无需梯度也无需训练",
+      "title_en": "LLM rewrites its own weights through reasoning, no gradients needed",
+      "url": "https://arxiv.org/abs/2611.21885",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "An arXiv paper claims a language model can improve itself by rewriting its own weights via reasoning without gradients or training, sparking debate over novelty, whether it's really training, and safety risks.",
+      "tags": [
+        "LLM self-modification",
+        "AI safety",
+        "weight editing",
+        "autonomous agents",
+        "machine learning research"
+      ]
+    },
+    {
+      "title": "Finite-time blow-up for the Navier–Stokes equations",
+      "title_zh": "Buckmaster 仓库宣称无外力 Navier–Stokes 方程有限时间爆破",
+      "title_en": "Buckmaster repo claims unforced Navier–Stokes finite-time blow-up",
+      "url": "https://github.com/tristanbuckmaster/navier-stokes/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "A Hacker News post links to a GitHub repository claiming finite-time blow-up for the Navier–Stokes equations, with discussion treating it as a major mathematical result.",
+      "tags": [
+        "Navier-Stokes",
+        "mathematics",
+        "PDE",
+        "Millennium Prize",
+        "research announcement"
+      ]
+    },
+    {
+      "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
+      "title_zh": "Signal 限制移动端截图，阻止系统级 AI 智能体读取聊天内容",
+      "title_en": "Signal blocks mobile screenshots to keep OS-level AI agents out of chats",
+      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Signal discusses efforts to restrict AI agents and mobile operating systems from capturing private user data, prompting debate about platform control, transparency, and screenshot usability.",
+      "tags": [
         "privacy",
-        "surveillance",
-        "uk-policy",
-        "apple"
+        "security",
+        "Signal",
+        "AI agents",
+        "mobile OS"
       ]
     },
     {
-      "title": "PostgreSQL 19 Released",
-      "title_zh": "PostgreSQL 19 发布：新增 WAIT FOR LSN，因 AI 报告的漏洞而延迟",
-      "title_en": "PostgreSQL 19 released with WAIT FOR LSN, delayed by AI-reported vulnerabilities",
-      "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
-      "source": "rss",
+      "title": "The stochastic parrots have apparently proved the Riemann Hypothesis",
+      "title_zh": "Scott Aaronson 谈“随机鹦鹉”与黎曼猜想的所谓证明",
+      "title_en": "Scott Aaronson on 'Stochastic Parrots' and a Claimed Riemann Hypothesis Proof",
+      "url": "https://scottaaronson.blog/?p=10344",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "PostgreSQL 19 ships with notable features including the WAIT FOR LSN command for read-your-writes consistency on standby replicas, after a delayed release cycle driven by a surge of AI-reported vulnerabilities.",
+      "summary": "Scott Aaronson discusses claims that stochastic-parrot-style LLMs have 'proved' the Riemann Hypothesis and what that means for AI, mathematical understanding, and explanation.",
       "tags": [
-        "postgresql",
-        "databases",
-        "open-source",
-        "replication",
-        "release"
+        "LLMs",
+        "mathematics",
+        "Riemann Hypothesis",
+        "AI research",
+        "stochastic parrots"
       ]
     },
     {
-      "title": "多国政府和商业网站因 PHP 严重漏洞紧急下线  PHP 于 10 月 21 日发布紧急修复补丁，处理潜伏十余年的严重漏洞，荷兰、丹麦、芬兰、法国等多国政府网站",
-      "title_zh": "PHP 严重漏洞触发紧急补丁，多国网站预防性下线",
-      "title_en": "Emergency PHP Patch Follows Severe Vulnerability, Prompting Website Takedowns",
-      "url": "https://t.me/zaihuapd/45233",
+      "title": "KVM 漏洞致 AMD 主机内存可被虚拟机读取",
+      "title_zh": "Linux KVM 漏洞 CVE-2026-99312 致 AMD 主机内存可被虚拟机读取",
+      "title_en": "Linux KVM Flaw CVE-2026-99312 Exposes AMD Host Memory to Guest VMs",
+      "url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
       "source": "telegram",
       "score": 8.0,
-      "summary": "A severe PHP vulnerability prompted an emergency patch and precautionary takedowns of government and commercial websites worldwide, with security agencies urging immediate updates.",
+      "summary": "CVE-2026-99312 in Linux KVM allows virtual machines to read host memory on AMD systems with nested virtualization enabled, with upstream fixes released but many distro kernels still vulnerable.",
       "tags": [
-        "PHP",
-        "security-vulnerability",
-        "web-security",
-        "critical-infrastructure",
-        "emergency-patch"
+        "security",
+        "KVM",
+        "Linux kernel",
+        "virtualization",
+        "CVE"
       ]
     },
     {
-      "title": "🤖 OpenAI 模型助力芯片设计，AMD 旗舰 GPU 提升 14%",
-      "title_zh": "OpenAI模型优化芯片设计，AMD旗舰GPU PPA最高提升14%",
-      "title_en": "OpenAI models optimize chip design, boost AMD GPU PPA up to 14%",
-      "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+      "title": "🤖 谷歌发布 Gemini 4 Neon 模型  谷歌推出 Gemini 4 Neon，主打复杂软件工程、知识工作与科研工作流的快速端到端执行，已向开发者、企业",
+      "title_zh": "谷歌据称发布 Gemini 4 Neon，主打编程与科研工作流",
+      "title_en": "Google Reportedly Launches Gemini 4 Neon for Coding and Research Workflows",
+      "url": "https://t.me/zaihuapd/45267",
       "source": "telegram",
       "score": 8.0,
-      "summary": "OpenAI says its models helped optimize its Jalapeño inference chip and AMD GPU designs, achieving up to 14% PPA improvements, and announced a GPT-Synopsys collaboration.",
+      "summary": "Google reportedly launched Gemini 4 Neon, a frontier model targeting complex software engineering, knowledge work, and research workflows, claiming top rankings on the Artificial Analysis coding-agent index at $3/$15 per million input/output tokens with a 1M-token context window.",
       "tags": [
-        "OpenAI",
-        "chip design",
-        "AMD",
-        "AI for EDA",
-        "Synopsys"
+        "LLM",
+        "Google",
+        "model-release",
+        "benchmarks",
+        "software-engineering"
       ]
     }
   ]
