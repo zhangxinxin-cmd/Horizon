@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-21T02:56:00.936104+00:00",
-  "date": "2026-11-21",
-  "total_fetched": 33,
-  "important_count": 10,
+  "generated_at": "2026-11-22T01:46:35.873594+00:00",
+  "date": "2026-11-22",
+  "total_fetched": 23,
+  "important_count": 3,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,173 +10,61 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/11/21/summary-zh.html",
-      "path": "docs/_posts/2026-11-21-summary-zh.md"
+      "url": "2026/11/22/summary-zh.html",
+      "path": "docs/_posts/2026-11-22-summary-zh.md"
     },
     "en": {
-      "url": "2026/11/21/summary-en.html",
-      "path": "docs/_posts/2026-11-21-summary-en.md"
+      "url": "2026/11/22/summary-en.html",
+      "path": "docs/_posts/2026-11-22-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Hurried Announcement: Alessandro Masullo GRH",
-      "title_zh": "数学家抢在 Anthropic 公告后数小时内仓促发布酝酿12年的 GRH 证明草稿",
-      "title_en": "Mathematician rush-posts 12-year GRH proof draft hours after Anthropic announcement",
-      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+      "title": "Lean verification of the Riemann Hypothesis",
+      "title_zh": "Anthropic 数学家称借助 Claude 用 Lean 证明黎曼猜想",
+      "title_en": "Anthropic mathematician claims Claude proved the Riemann Hypothesis in Lean",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
       "source": "hackernews",
       "score": 9.0,
-      "summary": "A mathematician hurriedly posts a 12-year-in-the-making draft claiming a proof of the Generalized Riemann Hypothesis within hours of an Anthropic announcement, sparking debate over verification, priority, and AI-vs-human discovery.",
+      "summary": "A Lean formal verification effort purportedly covering the Riemann Hypothesis and large swaths of modern mathematics, drawing intense discussion about proof-checker trust, AI-assisted formalization, and the significance for math foundations.",
       "tags": [
-        "mathematics",
-        "Riemann-hypothesis",
-        "AI-for-math",
-        "research-announcement",
-        "priority-dispute"
-      ]
-    },
-    {
-      "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
-      "title_zh": "Levent Alpöge 宣称证明广义黎曼猜想",
-      "title_en": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis",
-      "url": "https://alpo.ge/remark.pdf",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "Levent Alpöge has posted a claimed proof of the Generalized Riemann Hypothesis, sparking intense discussion about its validity, massive Lean formalization, and the role of AI and human mathematicians.",
-      "tags": [
-        "mathematics",
-        "Riemann Hypothesis",
-        "Lean theorem prover",
-        "AI-assisted proofs",
-        "Hacker News discussion"
-      ]
-    },
-    {
-      "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
-      "title_zh": "陶哲轩：无外力欧拉与纳维-斯托克斯奇点及广义黎曼猜想",
-      "title_en": "Terry Tao: Unforced Euler/Navier–Stokes Singularity and Generalized Riemann Hypothesis",
-      "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "A Terry Tao blog post claiming unforced Navier-Stokes/Euler singularity results and a route to the Generalized Riemann Hypothesis, discussed on Hacker News alongside questions about Lean formal verification trust and AI-driven mathematics.",
-      "tags": [
-        "mathematics",
         "formal-verification",
-        "lean-theorem-prover",
-        "navier-stokes",
-        "riemann-hypothesis"
-      ]
-    },
-    {
-      "title": "Inkling 2 Mini",
-      "title_zh": "Thinking Machines 发布 Inkling 2 Mini 循环式 Transformer 模型",
-      "title_en": "Thinking Machines Releases Inkling 2 Mini Looped Transformer",
-      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Thinking Machines releases Inkling 2 Mini, a looped-transformer LLM trained end-to-end in nvfp4 and designed for local use, drawing strong community interest and hands-on benchmarking.",
-      "tags": [
-        "LLM",
-        "model release",
-        "local inference",
-        "llama.cpp",
-        "quantization"
-      ]
-    },
-    {
-      "title": "Language Models Can Rewrite Their Own Weights",
-      "title_zh": "语言模型靠推理改写自身权重，无需梯度也无需训练",
-      "title_en": "LLM rewrites its own weights through reasoning, no gradients needed",
-      "url": "https://arxiv.org/abs/2611.21885",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "An arXiv paper claims a language model can improve itself by rewriting its own weights via reasoning without gradients or training, sparking debate over novelty, whether it's really training, and safety risks.",
-      "tags": [
-        "LLM self-modification",
-        "AI safety",
-        "weight editing",
-        "autonomous agents",
-        "machine learning research"
-      ]
-    },
-    {
-      "title": "Finite-time blow-up for the Navier–Stokes equations",
-      "title_zh": "Buckmaster 仓库宣称无外力 Navier–Stokes 方程有限时间爆破",
-      "title_en": "Buckmaster repo claims unforced Navier–Stokes finite-time blow-up",
-      "url": "https://github.com/tristanbuckmaster/navier-stokes/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "A Hacker News post links to a GitHub repository claiming finite-time blow-up for the Navier–Stokes equations, with discussion treating it as a major mathematical result.",
-      "tags": [
-        "Navier-Stokes",
+        "lean",
+        "riemann-hypothesis",
         "mathematics",
-        "PDE",
-        "Millennium Prize",
-        "research announcement"
+        "ai-assisted-proofs"
       ]
     },
     {
-      "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
-      "title_zh": "Signal 限制移动端截图，阻止系统级 AI 智能体读取聊天内容",
-      "title_en": "Signal blocks mobile screenshots to keep OS-level AI agents out of chats",
-      "url": "https://signal.org/blog/protecting-your-privacy/",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Signal discusses efforts to restrict AI agents and mobile operating systems from capturing private user data, prompting debate about platform control, transparency, and screenshot usability.",
-      "tags": [
-        "privacy",
-        "security",
-        "Signal",
-        "AI agents",
-        "mobile OS"
-      ]
-    },
-    {
-      "title": "The stochastic parrots have apparently proved the Riemann Hypothesis",
-      "title_zh": "Scott Aaronson 谈“随机鹦鹉”与黎曼猜想的所谓证明",
-      "title_en": "Scott Aaronson on 'Stochastic Parrots' and a Claimed Riemann Hypothesis Proof",
-      "url": "https://scottaaronson.blog/?p=10344",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "Scott Aaronson discusses claims that stochastic-parrot-style LLMs have 'proved' the Riemann Hypothesis and what that means for AI, mathematical understanding, and explanation.",
-      "tags": [
-        "LLMs",
-        "mathematics",
-        "Riemann Hypothesis",
-        "AI research",
-        "stochastic parrots"
-      ]
-    },
-    {
-      "title": "KVM 漏洞致 AMD 主机内存可被虚拟机读取",
-      "title_zh": "Linux KVM 漏洞 CVE-2026-99312 致 AMD 主机内存可被虚拟机读取",
-      "title_en": "Linux KVM Flaw CVE-2026-99312 Exposes AMD Host Memory to Guest VMs",
-      "url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+      "title": "浙江大学首次在真机上实现量子随机存储器 QRAM",
+      "title_zh": "浙大首次在真机上实现量子随机存储器 QRAM",
+      "title_en": "Zhejiang University Demonstrates First Real-Hardware QRAM on Superconducting Chip",
+      "url": "https://finance.sina.com.cn/stock/2026-11-21/doc-iniznhsk3530826.shtml",
       "source": "telegram",
+      "score": 9.0,
+      "summary": "Zhejiang University researchers demonstrated a working QRAM prototype on the superconducting quantum chip Tianmu-2, marking the first real-hardware implementation of quantum random access memory.",
+      "tags": [
+        "quantum computing",
+        "QRAM",
+        "superconducting qubits",
+        "quantum hardware",
+        "Nature Physics"
+      ]
+    },
+    {
+      "title": "RCE in Gnupg",
+      "title_zh": "GnuPG 的 GPGME 存在双重释放漏洞，被标为 RCE 且波及大量下游软件",
+      "title_en": "GPGME Double-Free Flaw in GnuPG Labeled RCE, Wide Downstream Impact",
+      "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+      "source": "hackernews",
       "score": 8.0,
-      "summary": "CVE-2026-99312 in Linux KVM allows virtual machines to read host memory on AMD systems with nested virtualization enabled, with upstream fixes released but many distro kernels still vulnerable.",
+      "summary": "A double-free vulnerability in GPGME (pre-2.3.0) billed as an RCE affecting GnuPG and a wide range of downstream software, with HN commenters debating severity labeling, disclosure timelines, and the downstream patch that predated the upstream fix.",
       "tags": [
         "security",
-        "KVM",
-        "Linux kernel",
-        "virtualization",
-        "CVE"
-      ]
-    },
-    {
-      "title": "🤖 谷歌发布 Gemini 4 Neon 模型  谷歌推出 Gemini 4 Neon，主打复杂软件工程、知识工作与科研工作流的快速端到端执行，已向开发者、企业",
-      "title_zh": "谷歌据称发布 Gemini 4 Neon，主打编程与科研工作流",
-      "title_en": "Google Reportedly Launches Gemini 4 Neon for Coding and Research Workflows",
-      "url": "https://t.me/zaihuapd/45267",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Google reportedly launched Gemini 4 Neon, a frontier model targeting complex software engineering, knowledge work, and research workflows, claiming top rankings on the Artificial Analysis coding-agent index at $3/$15 per million input/output tokens with a 1M-token context window.",
-      "tags": [
-        "LLM",
-        "Google",
-        "model-release",
-        "benchmarks",
-        "software-engineering"
+        "vulnerability",
+        "gnupg",
+        "memory-safety",
+        "open-source"
       ]
     }
   ]
