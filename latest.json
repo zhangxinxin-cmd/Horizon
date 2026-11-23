@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-22T01:46:35.873594+00:00",
-  "date": "2026-11-22",
-  "total_fetched": 23,
+  "generated_at": "2026-11-23T02:04:17.186250+00:00",
+  "date": "2026-11-23",
+  "total_fetched": 25,
   "important_count": 3,
   "score_threshold": 8.0,
   "languages": [
@@ -10,61 +10,61 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/11/22/summary-zh.html",
-      "path": "docs/_posts/2026-11-22-summary-zh.md"
+      "url": "2026/11/23/summary-zh.html",
+      "path": "docs/_posts/2026-11-23-summary-zh.md"
     },
     "en": {
-      "url": "2026/11/22/summary-en.html",
-      "path": "docs/_posts/2026-11-22-summary-en.md"
+      "url": "2026/11/23/summary-en.html",
+      "path": "docs/_posts/2026-11-23-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Lean verification of the Riemann Hypothesis",
-      "title_zh": "Anthropic 数学家称借助 Claude 用 Lean 证明黎曼猜想",
-      "title_en": "Anthropic mathematician claims Claude proved the Riemann Hypothesis in Lean",
-      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "A Lean formal verification effort purportedly covering the Riemann Hypothesis and large swaths of modern mathematics, drawing intense discussion about proof-checker trust, AI-assisted formalization, and the significance for math foundations.",
-      "tags": [
-        "formal-verification",
-        "lean",
-        "riemann-hypothesis",
-        "mathematics",
-        "ai-assisted-proofs"
-      ]
-    },
-    {
-      "title": "浙江大学首次在真机上实现量子随机存储器 QRAM",
-      "title_zh": "浙大首次在真机上实现量子随机存储器 QRAM",
-      "title_en": "Zhejiang University Demonstrates First Real-Hardware QRAM on Superconducting Chip",
-      "url": "https://finance.sina.com.cn/stock/2026-11-21/doc-iniznhsk3530826.shtml",
-      "source": "telegram",
-      "score": 9.0,
-      "summary": "Zhejiang University researchers demonstrated a working QRAM prototype on the superconducting quantum chip Tianmu-2, marking the first real-hardware implementation of quantum random access memory.",
-      "tags": [
-        "quantum computing",
-        "QRAM",
-        "superconducting qubits",
-        "quantum hardware",
-        "Nature Physics"
-      ]
-    },
-    {
-      "title": "RCE in Gnupg",
-      "title_zh": "GnuPG 的 GPGME 存在双重释放漏洞，被标为 RCE 且波及大量下游软件",
-      "title_en": "GPGME Double-Free Flaw in GnuPG Labeled RCE, Wide Downstream Impact",
-      "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+      "title": "Perplexity and Intelligence",
+      "title_zh": "OpenAI 困惑度与智能文章引发评估指标争论",
+      "title_en": "OpenAI essay links perplexity to intelligence, sparking metrics debate",
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "A double-free vulnerability in GPGME (pre-2.3.0) billed as an RCE affecting GnuPG and a wide range of downstream software, with HN commenters debating severity labeling, disclosure timelines, and the downstream patch that predated the upstream fix.",
+      "summary": "An OpenAI piece arguing that perplexity—equivalently, prediction/compression performance—is a core measurable correlate of intelligence, prompting HN discussion on its definition, its theoretical grounding in compression-as-world-modeling, and whether it still matters in the era of RL-trained reasoning models.",
       "tags": [
-        "security",
-        "vulnerability",
-        "gnupg",
-        "memory-safety",
-        "open-source"
+        "language-models",
+        "perplexity",
+        "scaling-laws",
+        "compression",
+        "ai-evaluation"
+      ]
+    },
+    {
+      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "title_zh": "分析称Anthropic 2028年电力结构为87%天然气、11%煤炭",
+      "title_en": "Analysis: Anthropic's 2028 power mix projected at 87% gas, 11% coal",
+      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "An analysis showing that Anthropic's projected 2028 power supply is overwhelmingly fossil-based (87% gas, 11% coal), sparking a large HN debate on AI data-center energy demand, local pollution, and the need for regulation.",
+      "tags": [
+        "AI energy consumption",
+        "data centers",
+        "climate change",
+        "regulation",
+        "Anthropic"
+      ]
+    },
+    {
+      "title": "美商务部将定稿规则，封堵中国 AI 公司远程用芯，管制扩展至新加坡等东南亚国家  美国商务部正敲定一项规则，阻止中国 AI 公司通过境外数据中心远程使用先进 A",
+      "title_zh": "美商务部将定稿新规，封堵中国 AI 公司远程使用先进芯片的漏洞",
+      "title_en": "US Commerce Dept to finalize rule closing remote chip access loophole for Chinese AI firms",
+      "url": "https://t.me/zaihuapd/45289",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "The US Commerce Department is reportedly finalizing a rule to block Chinese AI companies from remotely accessing advanced AI chips via overseas data centers, extending semiconductor export controls to Malaysia, Singapore, Thailand, and four other countries.",
+      "tags": [
+        "export-controls",
+        "AI-chips",
+        "semiconductors",
+        "geopolitics",
+        "NVIDIA"
       ]
     }
   ]
