@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-23T02:04:17.186250+00:00",
-  "date": "2026-11-23",
-  "total_fetched": 25,
-  "important_count": 3,
+  "generated_at": "2026-11-24T05:41:13.230934+00:00",
+  "date": "2026-11-24",
+  "total_fetched": 33,
+  "important_count": 6,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,61 +10,109 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/11/23/summary-zh.html",
-      "path": "docs/_posts/2026-11-23-summary-zh.md"
+      "url": "2026/11/24/summary-zh.html",
+      "path": "docs/_posts/2026-11-24-summary-zh.md"
     },
     "en": {
-      "url": "2026/11/23/summary-en.html",
-      "path": "docs/_posts/2026-11-23-summary-en.md"
+      "url": "2026/11/24/summary-en.html",
+      "path": "docs/_posts/2026-11-24-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Perplexity and Intelligence",
-      "title_zh": "OpenAI 困惑度与智能文章引发评估指标争论",
-      "title_en": "OpenAI essay links perplexity to intelligence, sparking metrics debate",
-      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "title": "VP ≠ VNP over Every Field",
+      "title_zh": "Anthropic 论文宣称在任意域上 VP ≠ VNP",
+      "title_en": "Anthropic Paper Claims VP ≠ VNP Over Every Field",
+      "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
       "source": "hackernews",
-      "score": 8.0,
-      "summary": "An OpenAI piece arguing that perplexity—equivalently, prediction/compression performance—is a core measurable correlate of intelligence, prompting HN discussion on its definition, its theoretical grounding in compression-as-world-modeling, and whether it still matters in the era of RL-trained reasoning models.",
+      "score": 9.0,
+      "summary": "Anthropic's formal-math repository presents a paper claiming VP ≠ VNP over every field, sparking intense discussion about complexity theory and AI-assisted mathematical discovery.",
       "tags": [
-        "language-models",
-        "perplexity",
-        "scaling-laws",
-        "compression",
-        "ai-evaluation"
+        "complexity theory",
+        "algebraic complexity",
+        "formal verification",
+        "Lean",
+        "AI theorem proving"
       ]
     },
     {
-      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-      "title_zh": "分析称Anthropic 2028年电力结构为87%天然气、11%煤炭",
-      "title_en": "Analysis: Anthropic's 2028 power mix projected at 87% gas, 11% coal",
-      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "title_zh": "英伟达董事会重新任命黄仁勋为CEO，称曾听取美国政府意见",
+      "title_en": "Nvidia Board Reinstates Jensen Huang as CEO After US Government Input",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "An analysis showing that Anthropic's projected 2028 power supply is overwhelmingly fossil-based (87% gas, 11% coal), sparking a large HN debate on AI data-center energy demand, local pollution, and the need for regulation.",
+      "summary": "Nvidia's board reinstated Jensen Huang as president, CEO and director after reportedly receiving input from senior US government officials, sparking large-scale debate on board liability, national security, and the inconsistency of US semiconductor export policy.",
       "tags": [
-        "AI energy consumption",
-        "data centers",
-        "climate change",
-        "regulation",
-        "Anthropic"
+        "corporate-governance",
+        "nvidia",
+        "semiconductors",
+        "export-controls",
+        "national-security"
       ]
     },
     {
-      "title": "美商务部将定稿规则，封堵中国 AI 公司远程用芯，管制扩展至新加坡等东南亚国家  美国商务部正敲定一项规则，阻止中国 AI 公司通过境外数据中心远程使用先进 A",
-      "title_zh": "美商务部将定稿新规，封堵中国 AI 公司远程使用先进芯片的漏洞",
-      "title_en": "US Commerce Dept to finalize rule closing remote chip access loophole for Chinese AI firms",
-      "url": "https://t.me/zaihuapd/45289",
+      "title": "Ladybird is now in alpha",
+      "title_zh": "从零自研的独立浏览器引擎 Ladybird 进入 Alpha 阶段",
+      "title_en": "Ladybird, the from-scratch independent browser engine, reaches alpha",
+      "url": "https://ladybird.org/posts/alpha/",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "The Ladybird browser, built from scratch as an independent engine, has entered alpha and is already rendering most tested sites correctly, prompting an enthusiastic and technically detailed HN discussion.",
+      "tags": [
+        "browsers",
+        "ladybird",
+        "web-engine",
+        "open-source",
+        "serenityos"
+      ]
+    },
+    {
+      "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+      "title_zh": "智谱发布GLM-5.4：首个循环Transformer模型，主打泛化编程",
+      "title_en": "Zhipu AI releases GLM-5.4, its first looped-transformer model, targeting generalized coding",
+      "url": "https://z.ai/blog/glm-5.4",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Zhipu AI releases GLM-5.4, its first looped-transformer model aimed at generalized coding, drawing strong HN interest for its transparent technical details and architectural novelty.",
+      "tags": [
+        "LLM",
+        "Zhipu AI",
+        "transformer architecture",
+        "coding models",
+        "model release"
+      ]
+    },
+    {
+      "title": "Codex2api 疑似遭供应链投毒",
+      "title_zh": "Codex2api 疑似因作者账号被黑遭供应链投毒",
+      "title_en": "Codex2api Hit by Suspected Supply-Chain Poisoning After Author Account Compromise",
+      "url": "https://github.com/WormW/codex2api-incident-2026-11",
       "source": "telegram",
       "score": 8.0,
-      "summary": "The US Commerce Department is reportedly finalizing a rule to block Chinese AI companies from remotely accessing advanced AI chips via overseas data centers, extending semiconductor export controls to Malaysia, Singapore, Thailand, and four other countries.",
+      "summary": "Codex2api's author account was reportedly compromised, allowing malicious release tags with a backdoor that removed authentication and exfiltrated GitHub Actions secrets, requiring immediate downgrade and credential rotation.",
       "tags": [
-        "export-controls",
-        "AI-chips",
-        "semiconductors",
-        "geopolitics",
-        "NVIDIA"
+        "supply-chain-attack",
+        "security-incident",
+        "GitHub Actions",
+        "secrets-exposure",
+        "Codex2api"
+      ]
+    },
+    {
+      "title": "Meta AI 负责人称超级智能将至，控制权堪忧",
+      "title_zh": "Meta AI 负责人 Alexandr Wang 称超级智能即将到来，人类恐难掌控",
+      "title_en": "Meta AI chief Alexandr Wang says superintelligence is near and control is at risk",
+      "url": "https://thenextweb.com/news/metas-ai-chief-says-superintelligence-is-arriving-and-control-is-at-risk",
+      "source": "telegram",
+      "score": 8.0,
+      "summary": "Meta AI chief Alexandr Wang warns that superintelligence is arriving and hard to control, citing a claimed Claude-assisted formal proof of the Riemann Hypothesis as evidence of rapid progress.",
+      "tags": [
+        "AI safety",
+        "superintelligence",
+        "Riemann Hypothesis",
+        "formal verification",
+        "Meta AI"
       ]
     }
   ]
