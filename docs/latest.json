@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-24T05:41:13.230934+00:00",
-  "date": "2026-11-24",
-  "total_fetched": 33,
-  "important_count": 6,
+  "generated_at": "2026-11-25T04:41:23.873849+00:00",
+  "date": "2026-11-25",
+  "total_fetched": 25,
+  "important_count": 7,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,109 +10,125 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/11/24/summary-zh.html",
-      "path": "docs/_posts/2026-11-24-summary-zh.md"
+      "url": "2026/11/25/summary-zh.html",
+      "path": "docs/_posts/2026-11-25-summary-zh.md"
     },
     "en": {
-      "url": "2026/11/24/summary-en.html",
-      "path": "docs/_posts/2026-11-24-summary-en.md"
+      "url": "2026/11/25/summary-en.html",
+      "path": "docs/_posts/2026-11-25-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "VP ≠ VNP over Every Field",
-      "title_zh": "Anthropic 论文宣称在任意域上 VP ≠ VNP",
-      "title_en": "Anthropic Paper Claims VP ≠ VNP Over Every Field",
-      "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+      "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
+      "title_zh": "预印本声称矩阵乘法指数恰为 9/4",
+      "title_en": "Preprint Claims Matrix Multiplication Exponent Is Exactly 9/4",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
       "source": "hackernews",
       "score": 9.0,
-      "summary": "Anthropic's formal-math repository presents a paper claiming VP ≠ VNP over every field, sparking intense discussion about complexity theory and AI-assisted mathematical discovery.",
+      "summary": "A preprint claims the matrix multiplication exponent is exactly 9/4 (and resolves several other open problems), reportedly produced by an unreleased OpenAI model, sparking debate on AI-driven mathematical discovery and lab incentives.",
       "tags": [
-        "complexity theory",
-        "algebraic complexity",
-        "formal verification",
-        "Lean",
-        "AI theorem proving"
+        "complexity-theory",
+        "matrix-multiplication",
+        "AI-for-math",
+        "LLM-research",
+        "open-problems"
       ]
     },
     {
-      "title": "Nvidia Reinstates Jensen Huang as CEO",
-      "title_zh": "英伟达董事会重新任命黄仁勋为CEO，称曾听取美国政府意见",
-      "title_en": "Nvidia Board Reinstates Jensen Huang as CEO After US Government Input",
-      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "title": "Ternary Bonsai 2.5 27B",
+      "title_zh": "PrismML 发布 Ternary Bonsai 2.5 27B，主打本地智能体编程",
+      "title_en": "PrismML Releases Ternary Bonsai 2.5 27B for Local Agentic Coding",
+      "url": "https://prismml.com/news/bonsai-2-5-27b",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Nvidia's board reinstated Jensen Huang as president, CEO and director after reportedly receiving input from senior US government officials, sparking large-scale debate on board liability, national security, and the inconsistency of US semiconductor export policy.",
+      "summary": "Ternary Bonsai 2.5 27B, a ternary-quantized local LLM, drew strong HN attention for running long-context agentic coding on a Mac Mini with surprisingly competitive benchmark results.",
       "tags": [
-        "corporate-governance",
-        "nvidia",
-        "semiconductors",
-        "export-controls",
-        "national-security"
+        "local-llm",
+        "quantization",
+        "ternary-models",
+        "model-benchmarks",
+        "agentic-coding"
       ]
     },
     {
-      "title": "Ladybird is now in alpha",
-      "title_zh": "从零自研的独立浏览器引擎 Ladybird 进入 Alpha 阶段",
-      "title_en": "Ladybird, the from-scratch independent browser engine, reaches alpha",
-      "url": "https://ladybird.org/posts/alpha/",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "title_zh": "OpenAI 称 GPT-6.2 通过自己写代码完成蛋白质微结合器设计",
+      "title_en": "OpenAI claims GPT-6.2 designed protein minibinders by writing its own code",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "The Ladybird browser, built from scratch as an independent engine, has entered alpha and is already rendering most tested sites correctly, prompting an enthusiastic and technically detailed HN discussion.",
+      "summary": "OpenAI reports that GPT-6.2 designed three-dimensional minibinder structures from target protein structures by writing its own code, while using specialized models (e.g., SolubleMPNN) for sequence generation and filtering — a claim HN commenters view as impressive orchestration/glue work rather than a clean replacement for domain-specific models.",
       "tags": [
-        "browsers",
-        "ladybird",
-        "web-engine",
-        "open-source",
-        "serenityos"
+        "AI/ML",
+        "protein-design",
+        "LLM-agents",
+        "computational-biology",
+        "openai"
       ]
     },
     {
-      "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
-      "title_zh": "智谱发布GLM-5.4：首个循环Transformer模型，主打泛化编程",
-      "title_en": "Zhipu AI releases GLM-5.4, its first looped-transformer model, targeting generalized coding",
-      "url": "https://z.ai/blog/glm-5.4",
+      "title": "Active intrusion campaign against Check Point security management servers",
+      "title_zh": "GreyNoise：Check Point 管理服务器遭 PRNG 状态恢复攻击入侵",
+      "title_en": "GreyNoise: Check Point management servers hit by PRNG state-recovery campaign",
+      "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "Zhipu AI releases GLM-5.4, its first looped-transformer model aimed at generalized coding, drawing strong HN interest for its transparent technical details and architectural novelty.",
+      "summary": "GreyNoise documents an active intrusion campaign exploiting Check Point security management servers, including a notable PRNG state-recovery attack that forges admin session cookies.",
       "tags": [
-        "LLM",
-        "Zhipu AI",
-        "transformer architecture",
-        "coding models",
-        "model release"
+        "security",
+        "vulnerability-exploitation",
+        "prng-weakness",
+        "nodejs",
+        "check-point"
       ]
     },
     {
-      "title": "Codex2api 疑似遭供应链投毒",
-      "title_zh": "Codex2api 疑似因作者账号被黑遭供应链投毒",
-      "title_en": "Codex2api Hit by Suspected Supply-Chain Poisoning After Author Account Compromise",
-      "url": "https://github.com/WormW/codex2api-incident-2026-11",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "title_zh": "GPT-6.2 Astra 自主破解 1808 年耶鲁速写本的作者之谜",
+      "title_en": "GPT-6.2 Astra Autonomously Solves an 1808 Yale Sketchbook Mystery",
+      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "A history professor reports that GPT-6.2 Astra autonomously identified the creator of an anonymous 1808 Yale sketchbook in 22 minutes using public sources and uncovered a significant new archival source.",
+      "tags": [
+        "LLM applications",
+        "autonomous agents",
+        "historical research",
+        "digital humanities",
+        "AI for science"
+      ]
+    },
+    {
+      "title": "🤖 Anthropic 称内部 Claude 模型发现 VP≠VNP 并公开 Lean 4 证明  Anthropic 于 11 月 24 日公开论文《VP ≠",
+      "title_zh": "Anthropic 称 Claude 发现 VP≠VNP 并给出 Lean 4 形式化证明",
+      "title_en": "Anthropic Claims Claude Found VP≠VNP Proof With Lean 4 Formalization",
+      "url": "https://t.me/zaihuapd/45345",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Codex2api's author account was reportedly compromised, allowing malicious release tags with a backdoor that removed authentication and exfiltrated GitHub Actions secrets, requiring immediate downgrade and credential rotation.",
+      "summary": "Anthropic reportedly claims an internal Claude model discovered a proof of VP≠VNP over every field, published with a Lean 4 formalization, though the extraordinary result remains unverified.",
       "tags": [
-        "supply-chain-attack",
-        "security-incident",
-        "GitHub Actions",
-        "secrets-exposure",
-        "Codex2api"
+        "complexity-theory",
+        "formal-verification",
+        "Lean-4",
+        "AI-for-math",
+        "Anthropic"
       ]
     },
     {
-      "title": "Meta AI 负责人称超级智能将至，控制权堪忧",
-      "title_zh": "Meta AI 负责人 Alexandr Wang 称超级智能即将到来，人类恐难掌控",
-      "title_en": "Meta AI chief Alexandr Wang says superintelligence is near and control is at risk",
-      "url": "https://thenextweb.com/news/metas-ai-chief-says-superintelligence-is-arriving-and-control-is-at-risk",
+      "title": "vCenter 再曝 9.8 分免鉴权漏洞，几天前刚被零日利用",
+      "title_zh": "VMware vCenter 再曝 9.8 分鉴权绕过漏洞，且已被零日利用",
+      "title_en": "VMware vCenter hit by another 9.8 authentication bypass, exploited as zero-day",
+      "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Meta AI chief Alexandr Wang warns that superintelligence is arriving and hard to control, citing a claimed Claude-assisted formal proof of the Riemann Hypothesis as evidence of rapid progress.",
+      "summary": "Broadcom 修复了 VMware 产品线 23 个漏洞，其中 vCenter 目录服务存在 9.8 分鉴权绕过漏洞 CVE-2026-123903，并已在补丁发布前几天遭零日利用。",
       "tags": [
-        "AI safety",
-        "superintelligence",
-        "Riemann Hypothesis",
-        "formal verification",
-        "Meta AI"
+        "VMware vCenter",
+        "CVE-2026-123903",
+        "鉴权绕过",
+        "零日漏洞",
+        "安全补丁"
       ]
     }
   ]
