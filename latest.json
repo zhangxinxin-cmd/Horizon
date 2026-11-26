@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-25T04:41:23.873849+00:00",
-  "date": "2026-11-25",
-  "total_fetched": 25,
-  "important_count": 7,
+  "generated_at": "2026-11-26T03:51:29.075345+00:00",
+  "date": "2026-11-26",
+  "total_fetched": 29,
+  "important_count": 5,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,125 +10,93 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/11/25/summary-zh.html",
-      "path": "docs/_posts/2026-11-25-summary-zh.md"
+      "url": "2026/11/26/summary-zh.html",
+      "path": "docs/_posts/2026-11-26-summary-zh.md"
     },
     "en": {
-      "url": "2026/11/25/summary-en.html",
-      "path": "docs/_posts/2026-11-25-summary-en.md"
+      "url": "2026/11/26/summary-en.html",
+      "path": "docs/_posts/2026-11-26-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
-      "title_zh": "预印本声称矩阵乘法指数恰为 9/4",
-      "title_en": "Preprint Claims Matrix Multiplication Exponent Is Exactly 9/4",
-      "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+      "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+      "title_zh": "OpenAI 预印本宣称矩阵乘法指数恰为 9/4",
+      "title_en": "OpenAI preprint claims matrix multiplication exponent is exactly 9/4",
+      "url": "https://scottaaronson.blog/?p=10379",
       "source": "hackernews",
       "score": 9.0,
-      "summary": "A preprint claims the matrix multiplication exponent is exactly 9/4 (and resolves several other open problems), reportedly produced by an unreleased OpenAI model, sparking debate on AI-driven mathematical discovery and lab incentives.",
+      "summary": "Scott Aaronson reacts to a striking new result that the matrix multiplication exponent is nine fourths, prompting intense discussion about its significance and AI’s role in mathematical discovery.",
       "tags": [
-        "complexity-theory",
-        "matrix-multiplication",
-        "AI-for-math",
-        "LLM-research",
-        "open-problems"
+        "matrix multiplication",
+        "theoretical computer science",
+        "AI for math",
+        "research breakthrough",
+        "Hacker News discussion"
       ]
     },
     {
-      "title": "Ternary Bonsai 2.5 27B",
-      "title_zh": "PrismML 发布 Ternary Bonsai 2.5 27B，主打本地智能体编程",
-      "title_en": "PrismML Releases Ternary Bonsai 2.5 27B for Local Agentic Coding",
-      "url": "https://prismml.com/news/bonsai-2-5-27b",
+      "title": "Much shorter version of GRH Lean verification from Anthropic",
+      "title_zh": "GRH 的 Lean 验证从 1700 万行压缩至 7.6 万行",
+      "title_en": "GRH Lean verification compressed from 17M to 76K lines",
+      "url": "https://github.com/lsernau/grh-lean",
       "source": "hackernews",
-      "score": 8.0,
-      "summary": "Ternary Bonsai 2.5 27B, a ternary-quantized local LLM, drew strong HN attention for running long-context agentic coding on a Mac Mini with surprisingly competitive benchmark results.",
+      "score": 9.0,
+      "summary": "A dramatically shortened, more readable Lean verification of the Generalized Riemann Hypothesis (~76k lines vs ~17M) that fuels debate about AI-generated proofs, insight, and whether compression advances mathematical understanding.",
       "tags": [
-        "local-llm",
-        "quantization",
-        "ternary-models",
-        "model-benchmarks",
-        "agentic-coding"
+        "lean",
+        "formal-verification",
+        "riemann-hypothesis",
+        "theorem-proving",
+        "ai-for-math"
       ]
     },
     {
-      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "title_zh": "OpenAI 称 GPT-6.2 通过自己写代码完成蛋白质微结合器设计",
-      "title_en": "OpenAI claims GPT-6.2 designed protein minibinders by writing its own code",
-      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "title": "1Password Security Incident",
+      "title_zh": "1Password披露2026年11月安全事件：员工设备被攻陷",
+      "title_en": "1Password Discloses November 2026 Breach After Employee Device Compromise",
+      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
       "source": "hackernews",
       "score": 8.0,
-      "summary": "OpenAI reports that GPT-6.2 designed three-dimensional minibinder structures from target protein structures by writing its own code, while using specialized models (e.g., SolubleMPNN) for sequence generation and filtering — a claim HN commenters view as impressive orchestration/glue work rather than a clean replacement for domain-specific models.",
-      "tags": [
-        "AI/ML",
-        "protein-design",
-        "LLM-agents",
-        "computational-biology",
-        "openai"
-      ]
-    },
-    {
-      "title": "Active intrusion campaign against Check Point security management servers",
-      "title_zh": "GreyNoise：Check Point 管理服务器遭 PRNG 状态恢复攻击入侵",
-      "title_en": "GreyNoise: Check Point management servers hit by PRNG state-recovery campaign",
-      "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "GreyNoise documents an active intrusion campaign exploiting Check Point security management servers, including a notable PRNG state-recovery attack that forges admin session cookies.",
+      "summary": "1Password disclosed a November 2026 security incident where an attacker compromised an employee device, accessed private source repositories, and attempted to push code to backend services, prompting community debate over SaaS supply-chain security practices.",
       "tags": [
         "security",
-        "vulnerability-exploitation",
-        "prng-weakness",
-        "nodejs",
-        "check-point"
+        "supply-chain",
+        "saas",
+        "password-managers",
+        "incident-response"
       ]
     },
     {
-      "title": "GPT 6.2 Astra Solves a Historical Mystery",
-      "title_zh": "GPT-6.2 Astra 自主破解 1808 年耶鲁速写本的作者之谜",
-      "title_en": "GPT-6.2 Astra Autonomously Solves an 1808 Yale Sketchbook Mystery",
-      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
-      "source": "rss",
-      "score": 8.0,
-      "summary": "A history professor reports that GPT-6.2 Astra autonomously identified the creator of an anonymous 1808 Yale sketchbook in 22 minutes using public sources and uncovered a significant new archival source.",
-      "tags": [
-        "LLM applications",
-        "autonomous agents",
-        "historical research",
-        "digital humanities",
-        "AI for science"
-      ]
-    },
-    {
-      "title": "🤖 Anthropic 称内部 Claude 模型发现 VP≠VNP 并公开 Lean 4 证明  Anthropic 于 11 月 24 日公开论文《VP ≠",
-      "title_zh": "Anthropic 称 Claude 发现 VP≠VNP 并给出 Lean 4 形式化证明",
-      "title_en": "Anthropic Claims Claude Found VP≠VNP Proof With Lean 4 Formalization",
-      "url": "https://t.me/zaihuapd/45345",
+      "title": "美国发布新规，堵住远程调用先进 AI 芯片的漏洞  美国商务部 11 月 16 日发布临时最终规则，把先进 AI 芯片与服务器的出口管制延伸到远程访问，防止绕道",
+      "title_zh": "美国将先进 AI 芯片出口管制延伸至远程访问",
+      "title_en": "U.S. Extends AI Chip Export Controls to Remote Cloud Access",
+      "url": "https://t.me/zaihuapd/45361",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Anthropic reportedly claims an internal Claude model discovered a proof of VP≠VNP over every field, published with a Lean 4 formalization, though the extraordinary result remains unverified.",
+      "summary": "The U.S. Commerce Department issued an interim final rule extending advanced AI chip and server export controls to remote access and requiring licenses for reexports to Indonesia, Malaysia, Singapore, Thailand, and Brazil.",
       "tags": [
-        "complexity-theory",
-        "formal-verification",
-        "Lean-4",
-        "AI-for-math",
-        "Anthropic"
+        "AI chips",
+        "export controls",
+        "U.S. policy",
+        "semiconductors",
+        "cloud computing"
       ]
     },
     {
-      "title": "vCenter 再曝 9.8 分免鉴权漏洞，几天前刚被零日利用",
-      "title_zh": "VMware vCenter 再曝 9.8 分鉴权绕过漏洞，且已被零日利用",
-      "title_en": "VMware vCenter hit by another 9.8 authentication bypass, exploited as zero-day",
-      "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+      "title": "Minecraft 曝高危 RCE 漏洞，Java 版 1.20.5 起全版本受影响",
+      "title_zh": "Minecraft Java 版曝高危 RCE：恶意 TrueType 字体可执行任意代码",
+      "title_en": "Minecraft Java Edition hit by high-risk RCE via malicious TrueType fonts",
+      "url": "https://github.com/bikini/minecraft2shell",
       "source": "telegram",
       "score": 8.0,
-      "summary": "Broadcom 修复了 VMware 产品线 23 个漏洞，其中 vCenter 目录服务存在 9.8 分鉴权绕过漏洞 CVE-2026-123903，并已在补丁发布前几天遭零日利用。",
+      "summary": "Minecraft Java Edition 1.20.5+ is affected by a high-risk RCE vulnerability triggered via malicious TrueType fonts in server resource packs, exploiting FreeType, with no official patch and only a community workaround available.",
       "tags": [
-        "VMware vCenter",
-        "CVE-2026-123903",
-        "鉴权绕过",
-        "零日漏洞",
-        "安全补丁"
+        "Minecraft",
+        "RCE",
+        "security-vulnerability",
+        "FreeType",
+        "game-security"
       ]
     }
   ]
