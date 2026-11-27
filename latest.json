@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-26T03:51:29.075345+00:00",
-  "date": "2026-11-26",
-  "total_fetched": 29,
-  "important_count": 5,
+  "generated_at": "2026-11-27T03:52:51.297330+00:00",
+  "date": "2026-11-27",
+  "total_fetched": 35,
+  "important_count": 1,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,93 +10,29 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/11/26/summary-zh.html",
-      "path": "docs/_posts/2026-11-26-summary-zh.md"
+      "url": "2026/11/27/summary-zh.html",
+      "path": "docs/_posts/2026-11-27-summary-zh.md"
     },
     "en": {
-      "url": "2026/11/26/summary-en.html",
-      "path": "docs/_posts/2026-11-26-summary-en.md"
+      "url": "2026/11/27/summary-en.html",
+      "path": "docs/_posts/2026-11-27-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
-      "title_zh": "OpenAI 预印本宣称矩阵乘法指数恰为 9/4",
-      "title_en": "OpenAI preprint claims matrix multiplication exponent is exactly 9/4",
-      "url": "https://scottaaronson.blog/?p=10379",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "Scott Aaronson reacts to a striking new result that the matrix multiplication exponent is nine fourths, prompting intense discussion about its significance and AI’s role in mathematical discovery.",
-      "tags": [
-        "matrix multiplication",
-        "theoretical computer science",
-        "AI for math",
-        "research breakthrough",
-        "Hacker News discussion"
-      ]
-    },
-    {
-      "title": "Much shorter version of GRH Lean verification from Anthropic",
-      "title_zh": "GRH 的 Lean 验证从 1700 万行压缩至 7.6 万行",
-      "title_en": "GRH Lean verification compressed from 17M to 76K lines",
-      "url": "https://github.com/lsernau/grh-lean",
-      "source": "hackernews",
-      "score": 9.0,
-      "summary": "A dramatically shortened, more readable Lean verification of the Generalized Riemann Hypothesis (~76k lines vs ~17M) that fuels debate about AI-generated proofs, insight, and whether compression advances mathematical understanding.",
-      "tags": [
-        "lean",
-        "formal-verification",
-        "riemann-hypothesis",
-        "theorem-proving",
-        "ai-for-math"
-      ]
-    },
-    {
-      "title": "1Password Security Incident",
-      "title_zh": "1Password披露2026年11月安全事件：员工设备被攻陷",
-      "title_en": "1Password Discloses November 2026 Breach After Employee Device Compromise",
-      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
-      "source": "hackernews",
-      "score": 8.0,
-      "summary": "1Password disclosed a November 2026 security incident where an attacker compromised an employee device, accessed private source repositories, and attempted to push code to backend services, prompting community debate over SaaS supply-chain security practices.",
-      "tags": [
-        "security",
-        "supply-chain",
-        "saas",
-        "password-managers",
-        "incident-response"
-      ]
-    },
-    {
-      "title": "美国发布新规，堵住远程调用先进 AI 芯片的漏洞  美国商务部 11 月 16 日发布临时最终规则，把先进 AI 芯片与服务器的出口管制延伸到远程访问，防止绕道",
-      "title_zh": "美国将先进 AI 芯片出口管制延伸至远程访问",
-      "title_en": "U.S. Extends AI Chip Export Controls to Remote Cloud Access",
-      "url": "https://t.me/zaihuapd/45361",
+      "title": "👁️ 英伟达叫停对东南亚四国 AI 服务器出货  英伟达已要求主要制造伙伴暂停向马来西亚、新加坡、泰国和印度尼西亚发运 AI 服务器。",
+      "title_zh": "英伟达叫停对东南亚四国 AI 服务器出货",
+      "title_en": "Nvidia halts AI server shipments to four Southeast Asian countries",
+      "url": "https://t.me/zaihuapd/45392",
       "source": "telegram",
       "score": 8.0,
-      "summary": "The U.S. Commerce Department issued an interim final rule extending advanced AI chip and server export controls to remote access and requiring licenses for reexports to Indonesia, Malaysia, Singapore, Thailand, and Brazil.",
+      "summary": "Nvidia has reportedly told manufacturing partners to pause AI server shipments to Malaysia, Singapore, Thailand, and Indonesia amid new US export controls targeting China's access to advanced chips.",
       "tags": [
-        "AI chips",
+        "Nvidia",
         "export controls",
-        "U.S. policy",
-        "semiconductors",
-        "cloud computing"
-      ]
-    },
-    {
-      "title": "Minecraft 曝高危 RCE 漏洞，Java 版 1.20.5 起全版本受影响",
-      "title_zh": "Minecraft Java 版曝高危 RCE：恶意 TrueType 字体可执行任意代码",
-      "title_en": "Minecraft Java Edition hit by high-risk RCE via malicious TrueType fonts",
-      "url": "https://github.com/bikini/minecraft2shell",
-      "source": "telegram",
-      "score": 8.0,
-      "summary": "Minecraft Java Edition 1.20.5+ is affected by a high-risk RCE vulnerability triggered via malicious TrueType fonts in server resource packs, exploiting FreeType, with no official patch and only a community workaround available.",
-      "tags": [
-        "Minecraft",
-        "RCE",
-        "security-vulnerability",
-        "FreeType",
-        "game-security"
+        "AI hardware",
+        "Southeast Asia",
+        "supply chain"
       ]
     }
   ]
