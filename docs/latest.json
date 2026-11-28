@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-27T03:52:51.297330+00:00",
-  "date": "2026-11-27",
-  "total_fetched": 35,
-  "important_count": 1,
+  "generated_at": "2026-11-28T03:38:41.090300+00:00",
+  "date": "2026-11-28",
+  "total_fetched": 28,
+  "important_count": 3,
   "score_threshold": 8.0,
   "languages": [
     "zh",
@@ -10,29 +10,61 @@
   ],
   "summaries": {
     "zh": {
-      "url": "2026/11/27/summary-zh.html",
-      "path": "docs/_posts/2026-11-27-summary-zh.md"
+      "url": "2026/11/28/summary-zh.html",
+      "path": "docs/_posts/2026-11-28-summary-zh.md"
     },
     "en": {
-      "url": "2026/11/27/summary-en.html",
-      "path": "docs/_posts/2026-11-27-summary-en.md"
+      "url": "2026/11/28/summary-en.html",
+      "path": "docs/_posts/2026-11-28-summary-en.md"
     }
   },
   "items": [
     {
-      "title": "👁️ 英伟达叫停对东南亚四国 AI 服务器出货  英伟达已要求主要制造伙伴暂停向马来西亚、新加坡、泰国和印度尼西亚发运 AI 服务器。",
-      "title_zh": "英伟达叫停对东南亚四国 AI 服务器出货",
-      "title_en": "Nvidia halts AI server shipments to four Southeast Asian countries",
-      "url": "https://t.me/zaihuapd/45392",
+      "title": "OpenSec 披露 Linux 内核 NFS 服务器 9.8 分漏洞，无需登录即可获取 root",
+      "title_zh": "OpenSec 披露 Linux 内核 NFS 服务器 9.8 分预认证漏洞",
+      "title_en": "CVE-2026-99362: Pre-Auth Linux nfsd Flaw Allows Unauthenticated Root",
+      "url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
       "source": "telegram",
-      "score": 8.0,
-      "summary": "Nvidia has reportedly told manufacturing partners to pause AI server shipments to Malaysia, Singapore, Thailand, and Indonesia amid new US export controls targeting China's access to advanced chips.",
+      "score": 9.0,
+      "summary": "OpenSec disclosed CVE-2026-99362, a CVSS 9.8 pre-auth heap overflow in the Linux kernel NFS server that allows unauthenticated attackers to gain root and affects systems since Linux 3.16.",
       "tags": [
-        "Nvidia",
-        "export controls",
-        "AI hardware",
-        "Southeast Asia",
-        "supply chain"
+        "Linux kernel",
+        "NFS",
+        "CVE",
+        "remote exploit",
+        "security vulnerability"
+      ]
+    },
+    {
+      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+      "title_zh": "黑色星期五前，基于 WebRTC 的盗卡脚本入侵五家知名购物网站",
+      "title_en": "WebRTC-Based Card Skimmer Hits Five Popular Shopping Sites Before Black Friday",
+      "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+      "source": "hackernews",
+      "score": 8.0,
+      "summary": "Credit card skimming scripts abusing WebRTC were found on popular shopping sites, highlighting risks in third-party script inclusion and e-commerce security.",
+      "tags": [
+        "web security",
+        "credit card skimming",
+        "WebRTC",
+        "third-party scripts",
+        "e-commerce"
+      ]
+    },
+    {
+      "title": "AWS Challenger: Trainium3 Inference and Microarchitecture Deep Dive",
+      "title_zh": "SemiAnalysis：AWS Trainium3 推理 TCO 优于 NVIDIA GB300",
+      "title_en": "SemiAnalysis: AWS Trainium3 Beats NVIDIA GB300 on Inference TCO",
+      "url": "https://newsletter.semianalysis.com/p/trainium3-inferencex",
+      "source": "rss",
+      "score": 8.0,
+      "summary": "SemiAnalysis analyzes AWS Trainium3 inference performance, microarchitecture, and cost-efficiency versus NVIDIA GB300.",
+      "tags": [
+        "AWS Trainium3",
+        "AI accelerators",
+        "inference",
+        "microarchitecture",
+        "hardware TCO"
       ]
     }
   ]
